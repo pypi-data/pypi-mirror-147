@@ -1,0 +1,4 @@
+graphql-core<3.3,>=3.2
+
+[:python_version < "3.8"]
+typing-extensions<5,>=4.1
