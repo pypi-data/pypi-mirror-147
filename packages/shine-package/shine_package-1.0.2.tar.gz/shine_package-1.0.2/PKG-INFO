@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: shine_package
+Version: 1.0.2
+Summary: This is a first-principle calcluation package based on atomic orbital DFT
+Home-page: https://github.com/IamRocketSwallow/shine
+Author: jingzhe
+Author-email: jingzhe@tianyan3d.com
+License: Proprietary
+Platform: linux
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries
+
+SHINE是基于密度泛函理论和非平衡格林函数方法的量子力学程序，采用实空间投影缀加平面波方法描述离子原子核和价电子的原子轨道基。对于栅压的输运体系，在实空间求解恰当边界条件的Poisson方程。通过围道积分格林函数和k点实空间上的并行化，使得代码具有非常准确的计算以及很高的计算效率。适合解决纳米材料的各类性质。
+
+
