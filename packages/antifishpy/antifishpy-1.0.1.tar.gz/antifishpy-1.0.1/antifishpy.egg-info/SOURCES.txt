@@ -1,0 +1,7 @@
+antifishpy.py
+setup.py
+antifishpy.egg-info/PKG-INFO
+antifishpy.egg-info/SOURCES.txt
+antifishpy.egg-info/dependency_links.txt
+antifishpy.egg-info/requires.txt
+antifishpy.egg-info/top_level.txt
