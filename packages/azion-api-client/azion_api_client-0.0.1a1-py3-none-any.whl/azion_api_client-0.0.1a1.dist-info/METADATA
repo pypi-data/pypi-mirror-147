@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: azion-api-client
+Version: 0.0.1a1
+Summary: A Python API client for Azion management and automation
+Home-page: https://github.com/diegosouza/azion-api-client
+Author: Diego de Souza Mendes
+Author-email: diegosouza.br@gmail.com
+License: GPL3
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pendulum
+Requires-Dist: requests
+Requires-Dist: click
+
+UNKNOWN
+

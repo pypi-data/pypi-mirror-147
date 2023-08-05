@@ -1,0 +1,2 @@
+[console_scripts]
+azion = azion.cli:cli
