@@ -1,0 +1,7 @@
+libtorrent.cpython-37m-darwin.so,sha256=ZUro11HHZzI2utSN01C9-dBP3pRY1vTlObdHt6Qtfv8,19653296
+libtorrent-2.0.6.dist-info/RECORD,,
+libtorrent-2.0.6.dist-info/WHEEL,sha256=t-yJnV7ncEuoOkGIUUhH14bb9iMbJ4DANdZCkJ-k_2s,110
+libtorrent-2.0.6.dist-info/top_level.txt,sha256=Va3S8jfMOK-hJMDdMSrC7MrqlelkXSU30H5E4QppA3c,11
+libtorrent-2.0.6.dist-info/METADATA,sha256=VRKD9-0FNbiGEfGXkpNu-tRCXW0ZKJ9nOE0tecFWDfI,268
+libtorrent.dylibs/libssl.3.dylib,sha256=-onOtd_ycqerkXr_x1KFYXR5sgCpOcuvQXL_08KPgDM,601696
+libtorrent.dylibs/libcrypto.3.dylib,sha256=4CoHF9_qStMI0lDaWJqiwlKgMP0x3pB-Gq9rc4KcvhI,3692064
