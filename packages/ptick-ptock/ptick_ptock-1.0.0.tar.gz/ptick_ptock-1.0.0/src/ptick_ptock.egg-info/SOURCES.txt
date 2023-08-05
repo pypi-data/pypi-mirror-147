@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/ptick_ptock/__init__.py
+src/ptick_ptock/mainfile.py
+src/ptick_ptock/ptick_ptock.py
+src/ptick_ptock.egg-info/PKG-INFO
+src/ptick_ptock.egg-info/SOURCES.txt
+src/ptick_ptock.egg-info/dependency_links.txt
+src/ptick_ptock.egg-info/top_level.txt
