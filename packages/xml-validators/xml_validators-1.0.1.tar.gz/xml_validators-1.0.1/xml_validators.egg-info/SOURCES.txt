@@ -1,0 +1,8 @@
+README.md
+setup.py
+xml_validators/__init__.py
+xml_validators/validators.py
+xml_validators.egg-info/PKG-INFO
+xml_validators.egg-info/SOURCES.txt
+xml_validators.egg-info/dependency_links.txt
+xml_validators.egg-info/top_level.txt
