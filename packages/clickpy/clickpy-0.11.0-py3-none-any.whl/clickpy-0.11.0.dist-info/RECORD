@@ -1,0 +1,9 @@
+clickpy/__init__.py,sha256=TeOMkPVOfIR_zQ1L8qDA8lqrvyCgeDE2xO5RcWTi4uE,2827
+clickpy/__main__.py,sha256=uwAYqBc6-lbGkP6P4CZZbrYUK8UaTsAFDGVR1KTqtFQ,245
+clickpy/exception.py,sha256=_05pjDZW308D3wmNoE_-yddRM24pwfZsd-Ri2YCde40,124
+clickpy/strategy/__init__.py,sha256=0CUpV1h_hcdCEqIS5BQ-yWFnb7eqQ9ifwgwMipzBu9Q,665
+clickpy/strategy/_strategy.py,sha256=rRAs-VRuDN1uYBFZMR4J9jVT5k67H8UmVGm5UAc2CRk,2584
+clickpy-0.11.0.dist-info/LICENSE,sha256=FO9aCruAt7TB5fTyOsP-gqe8A1qCcuUBig2nyEKfgpc,1072
+clickpy-0.11.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+clickpy-0.11.0.dist-info/METADATA,sha256=SlAlgGeZDGpYbnh8RcNSk608orxtZdHIkyskVGw0FOI,2968
+clickpy-0.11.0.dist-info/RECORD,,
