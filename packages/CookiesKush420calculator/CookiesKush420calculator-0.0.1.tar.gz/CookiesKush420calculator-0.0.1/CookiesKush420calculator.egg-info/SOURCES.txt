@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+CookiesKush420calculator.egg-info/PKG-INFO
+CookiesKush420calculator.egg-info/SOURCES.txt
+CookiesKush420calculator.egg-info/dependency_links.txt
+CookiesKush420calculator.egg-info/top_level.txt
+joshbasiccalculator/__init__.py
