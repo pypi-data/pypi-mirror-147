@@ -1,0 +1,14 @@
+dogwood/__init__.py,sha256=iuBu2IHSm_8lPhKv__RaUUO3KWzeCxl1FBxl46TwIlM,140
+dogwood/errors.py,sha256=cdGpM-CW3854enkqzSkyO_9bTf0ML9WujtAGgqzw_ns,1192
+dogwood/model_expansion.py,sha256=9dF4ORFhPhSSza3ZwI0wuGvdwAV5FndeVTsbi4DfR2w,11350
+dogwood/experiments/__init__.py,sha256=V8fiZDtw3a_tKYipwwmyZZRRrXGfPcUlAzDQqEcv368,48
+dogwood/experiments/model_based_transfer.py,sha256=BF6M3zAyYBCXwo0HJ6oVLjeoY2sC6A8eanYlijqxxRE,1027
+dogwood/pretraining/__init__.py,sha256=SEPZHLG7Ul7bgg5GZPMVX0Z0kGUYh-FjxXI8r8PJpBQ,52
+dogwood/pretraining/imagenet_data_processor.py,sha256=JeU4RjOJT_oK8LDXwspGYfOVKKRlBRtzhXMVmdVCKMg,10136
+dogwood/pretraining/mini_imagenet_loader.py,sha256=MCgGWECWJCoB29S-GgieXmcuQDqvuS-vYao8c6y84sg,468
+dogwood/pretraining/pretraining_pool.py,sha256=p1Y8GrjhkCKiY17zg1skcmbWz3Hdfauq2IXSCIu6VMk,25022
+dogwood-0.0.8.dist-info/LICENSE,sha256=cnDlU2Db3mBROt6MrxIg4Tvnq8LAoVI1mziRZ4eBDr0,1066
+dogwood-0.0.8.dist-info/METADATA,sha256=PLgEw8jpcftmVg0Jy7qv7yQoXH8UtY_UtFiID3YeCQE,6503
+dogwood-0.0.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dogwood-0.0.8.dist-info/top_level.txt,sha256=NPq7H6pUWfR19Fdi5cBgpiWMoqfh1HP0tHfaDtmJ580,8
+dogwood-0.0.8.dist-info/RECORD,,
