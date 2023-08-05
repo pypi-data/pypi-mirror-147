@@ -1,0 +1,2 @@
+[console_scripts]
+volc-math-np-demo = volc_math.demo:demo_np
