@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: js.typeahead
+Version: 0.11.1
+Summary: Fanstatic Package of Twitter's Typeadhead.js
+Home-page: https://gitlab.com/merchise-autrement/js.typeahead
+License: MIT
+Author: Manuel Vázquez Acosta
+Author-email: manuel@merchise.org
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: fanstatic (>=1.2,<2.0)
+Requires-Dist: js.jquery (>=3.3.1,<4.0.0)
