@@ -1,0 +1,4 @@
+[console_scripts]
+wandb-slurm = wandb_utils.__main__:wandb_slurm
+wandb-utils = wandb_utils.__main__:wandb_utils
+
