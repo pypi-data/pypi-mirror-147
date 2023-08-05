@@ -1,0 +1,1 @@
+from process_foto.process_foto import process_foto
