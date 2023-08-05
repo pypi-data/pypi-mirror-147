@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+julie_project.egg-info/PKG-INFO
+julie_project.egg-info/SOURCES.txt
+julie_project.egg-info/dependency_links.txt
+julie_project.egg-info/requires.txt
+julie_project.egg-info/top_level.txt
+test/__init__.py
+test/dzpip.py
