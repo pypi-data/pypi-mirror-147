@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+setup.py
+src/gng.py
+src/graph.py
+src/homology.py
+src/main.py
+src/neural_net.py
+src/reeb.py
+src/som.py
+src/util.py
+src/TopologicalLearningTechniques.egg-info/PKG-INFO
+src/TopologicalLearningTechniques.egg-info/SOURCES.txt
+src/TopologicalLearningTechniques.egg-info/dependency_links.txt
+src/TopologicalLearningTechniques.egg-info/requires.txt
+src/TopologicalLearningTechniques.egg-info/top_level.txt
