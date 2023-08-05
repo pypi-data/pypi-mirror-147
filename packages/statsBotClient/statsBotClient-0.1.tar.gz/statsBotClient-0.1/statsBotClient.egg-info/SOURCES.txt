@@ -1,0 +1,8 @@
+MANIFEST.in
+readme.md
+setup.py
+statsBotClient.egg-info/PKG-INFO
+statsBotClient.egg-info/SOURCES.txt
+statsBotClient.egg-info/dependency_links.txt
+statsBotClient.egg-info/not-zip-safe
+statsBotClient.egg-info/top_level.txt
