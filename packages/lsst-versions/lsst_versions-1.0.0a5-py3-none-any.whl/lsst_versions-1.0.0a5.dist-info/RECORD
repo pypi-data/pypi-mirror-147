@@ -1,0 +1,10 @@
+lsst_versions/__init__.py,sha256=TCQ03_MMp4yBhHzfUtA6c-NMvpfD9uO1Fb3oi2aDhbk,1081
+lsst_versions/__version__.py,sha256=qcdYx1RO6MuUwsZCR21trLUV5IN3RGYgPGztu22gQvQ,50
+lsst_versions/_versions.py,sha256=xpyn35UbNfOu9AYwumyqU2I8yCt-_VA7eqwIGiZ_DEI,9042
+lsst_versions/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lsst_versions-1.0.0a5.dist-info/LICENSE,sha256=KmjNvLg-so6xzQFfglPOPk40awVLx_CcsT7kaKUXmII,1512
+lsst_versions-1.0.0a5.dist-info/METADATA,sha256=LL5mQI74cxPID24JUybZw4xOz1SSw5N3YsMzlfHjSzg,3383
+lsst_versions-1.0.0a5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+lsst_versions-1.0.0a5.dist-info/entry_points.txt,sha256=1m6tK5iPhYwgGwx79Zd6Fg1UIZL1Ksr2Cka-MLXpKPE,102
+lsst_versions-1.0.0a5.dist-info/top_level.txt,sha256=b_npnhDR0tbE5oQzKMoNhpKpXhEqroVZ1FkS0Pq0jV8,14
+lsst_versions-1.0.0a5.dist-info/RECORD,,
