@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/pypxr/__init__.py
+src/pypxr/_uniaxial_reflect.py
+src/pypxr/prsoxr_loader.py
+src/pypxr/prsoxr_script_gen.py
+src/pypxr/reflectivity.py
+src/pypxr/structure.py
+src/pypxr.egg-info/PKG-INFO
+src/pypxr.egg-info/SOURCES.txt
+src/pypxr.egg-info/dependency_links.txt
+src/pypxr.egg-info/requires.txt
+src/pypxr.egg-info/top_level.txt
