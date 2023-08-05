@@ -1,0 +1,7 @@
+sim800l/__init__.py,sha256=X0CfULSH-ei86YBLPO6Ux4pULdMtEFTSi0iu2M1ZNkI,265
+sim800l/__version__.py,sha256=crlYURA_2Ujkpz7iVPHovvxZRtvt4QBXF5AAFJzRfz0,23
+sim800l/sim800l.py,sha256=F7t6ezAq-S4kU5CMRJnYPR5ApH092js2Z80H3vsiOzo,46125
+sim800l_gsm_module-1.0.0.dist-info/METADATA,sha256=3jennYm8VAs9i7iy_MNx7Bn80HWZPkkzATWJfvTsj4M,22356
+sim800l_gsm_module-1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+sim800l_gsm_module-1.0.0.dist-info/top_level.txt,sha256=uQXvQ3KEYsx7bkiMPVDafS-sjcf_KBXXsFcYsXKxD-I,8
+sim800l_gsm_module-1.0.0.dist-info/RECORD,,
