@@ -1,0 +1,11 @@
+DiscordEconomy/__init__.py,sha256=qBNvAOOteI5ZDHTwjVsgCzU4sHi0AzyLis3SW7SE2uc,450
+DiscordEconomy/__version__.py,sha256=cpNJny30oOrZH3A9XSfh9IpJJ15KqfEEbH7auKMSgz8,784
+DiscordEconomy/economy.py,sha256=Z6-0yDxbbna27wwrWG--b0aBwXPZc6R-yjB4oFoOTDw,278
+DiscordEconomy/exceptions.py,sha256=3__UoCgya7y-tTyztU7XUViLW0WiHE2Z6t_jnYZIer0,333
+DiscordEconomy/objects.py,sha256=vOnKGlXRuY_7tJD-ctK1tB3Z9kNfoyXlO1jBkPDymuQ,332
+DiscordEconomy/MongoDB/__init__.py,sha256=YY-AinGbl3b6o__JJkiWX2l63fCbL-yIazHEA780J3U,7010
+DiscordEconomy/Sqlite/__init__.py,sha256=KXyZyrKsPRQncAttxKqMwVKclXPDk9cIBjKxGoPC7Sw,9482
+DiscordEconomy-1.3.6.dist-info/METADATA,sha256=SdWKEp2hsWITz5-6Y62m-LOmWNRNE-FR3y1A0qpales,35214
+DiscordEconomy-1.3.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+DiscordEconomy-1.3.6.dist-info/top_level.txt,sha256=Lv4ukGSTIV8YEmGe2ReOY4_2HeQ4Ae-bb1eOnLb5aFg,15
+DiscordEconomy-1.3.6.dist-info/RECORD,,
