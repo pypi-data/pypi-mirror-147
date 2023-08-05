@@ -1,0 +1,5 @@
+setup.py
+scalablecapropertylib_djjtynan.egg-info/PKG-INFO
+scalablecapropertylib_djjtynan.egg-info/SOURCES.txt
+scalablecapropertylib_djjtynan.egg-info/dependency_links.txt
+scalablecapropertylib_djjtynan.egg-info/top_level.txt
