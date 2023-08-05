@@ -1,0 +1,2 @@
+[console_scripts]
+realpython = reader.main:get_news
