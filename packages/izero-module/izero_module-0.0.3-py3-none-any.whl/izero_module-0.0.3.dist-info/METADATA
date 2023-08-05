@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: izero-module
+Version: 0.0.3
+Summary: A simpler module, just for testing.
+Author: zero
+Author-email: 1546596867@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+## A simple module, just for testing.
+
+version 0.0.2
+
+Included functions:
+
++ log_arguments
+  + A decorator that can log the input and output parameters of the decorated function.
++ rand_tel
+  + Randomly generate 11 mobile phone numbers in Chinese mainland
++ rand_code
+  + Randomly generated (4 digits by default) verification code
+
