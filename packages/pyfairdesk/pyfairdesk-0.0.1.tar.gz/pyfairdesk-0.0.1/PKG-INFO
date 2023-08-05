@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: pyfairdesk
+Version: 0.0.1
+Summary: python wrapper for Fairdesk API
+Home-page: https://github.com/sharebook-kr/pyfairdesk
+Author: Jonghun Yoo, Brayden Jo
+Author-email: jonghun.yoo@pyquant.co.kr, brayden.jo@pyquant.co.kr
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pyfairdesk
+python wrapper of the Fairdesk API 
+
+
+# 회원 가입
+
+[Fairdesk 가입 링크](https://www.fairdesk.com/signup?channels=pyquant&vipCode=pyquant)
+
+
