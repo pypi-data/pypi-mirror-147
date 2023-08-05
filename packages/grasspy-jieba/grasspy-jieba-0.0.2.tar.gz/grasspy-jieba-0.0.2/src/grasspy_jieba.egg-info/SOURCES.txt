@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/grasspy_jieba.egg-info/PKG-INFO
+src/grasspy_jieba.egg-info/SOURCES.txt
+src/grasspy_jieba.egg-info/dependency_links.txt
+src/grasspy_jieba.egg-info/requires.txt
+src/grasspy_jieba.egg-info/top_level.txt
+src/结巴/__init__.py
+src/结巴/__main__.py
