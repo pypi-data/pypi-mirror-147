@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/ConGUI/__init__.py
+src/ConGUI_EroLIE.egg-info/PKG-INFO
+src/ConGUI_EroLIE.egg-info/SOURCES.txt
+src/ConGUI_EroLIE.egg-info/dependency_links.txt
+src/ConGUI_EroLIE.egg-info/top_level.txt
