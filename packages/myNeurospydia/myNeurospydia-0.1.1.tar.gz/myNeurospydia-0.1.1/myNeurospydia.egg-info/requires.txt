@@ -1,0 +1,7 @@
+pygame
+numpy
+neurokit
+pandas
+datetime
+webbrowser
+scipy
