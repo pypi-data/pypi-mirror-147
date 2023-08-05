@@ -1,0 +1,158 @@
+Metadata-Version: 2.1
+Name: moto-ext
+Version: 3.1.6
+Summary: A library that allows your python tests to easily mock out the boto library
+Home-page: https://github.com/spulec/moto
+Author: Steve Pulec
+Author-email: spulec@gmail.com
+License: Apache
+Project-URL: Documentation, http://docs.getmoto.org/en/latest/
+Project-URL: Issue tracker, https://github.com/spulec/moto/issues
+Project-URL: Changelog, https://github.com/spulec/moto/blob/master/CHANGELOG.md
+Description: # Moto - Mock AWS Services
+        
+        Fork of [`moto`](https://github.com/spulec/moto) with changes and adaptations for [LocalStack](https://github.com/localstack/localstack).
+        
+        Please refer to the upstream repo for more details.
+        
+        ## Releasing
+        
+        This fork is maintained as a separate pypi package, [moto-ext](https://pypi.org/project/moto-ext). To release a new version, follow these steps:
+        ```
+        # make sure to have git remotes defined for both repos: 
+        $ git remote -v
+        localstack	git@github.com:localstack/moto.git (fetch)
+        localstack	git@github.com:localstack/moto.git (push)
+        upstream	git@github.com:spulec/moto.git (fetch)
+        upstream	git@github.com:spulec/moto.git (push)
+        
+        # fetch fresh upstream "master" branch
+        $ git fetch upstream master
+        
+        # branch "localstack" is the default branch of this repo
+        $ git checkout localstack
+        $ git rebase upstream/master  # resolve merge conflicts, if any...
+        # (force-)push latest changes to the remote repo
+        $ git push -f localstack localstack
+        
+        # update __version__, then publish to pypi
+        $ vi moto/__init__.py
+        ...
+        $ rm -rf dist/ build/
+        $ make publish
+        ...
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Software Development :: Testing
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: opsworks
+Provides-Extra: iot
+Provides-Extra: dynamodb
+Provides-Extra: medialive
+Provides-Extra: awslambda
+Provides-Extra: ec2instanceconnect
+Provides-Extra: glacier
+Provides-Extra: efs
+Provides-Extra: datapipeline
+Provides-Extra: ssoadmin
+Provides-Extra: secretsmanager
+Provides-Extra: route53
+Provides-Extra: cognitoidp
+Provides-Extra: all
+Provides-Extra: ecr
+Provides-Extra: batch
+Provides-Extra: iotdata
+Provides-Extra: elb
+Provides-Extra: pinpoint
+Provides-Extra: sagemaker
+Provides-Extra: timestreamwrite
+Provides-Extra: acm
+Provides-Extra: apigateway
+Provides-Extra: elasticbeanstalk
+Provides-Extra: elastictranscoder
+Provides-Extra: ssm
+Provides-Extra: elasticache
+Provides-Extra: mediaconnect
+Provides-Extra: route53resolver
+Provides-Extra: emrcontainers
+Provides-Extra: xray
+Provides-Extra: applicationautoscaling
+Provides-Extra: sqs
+Provides-Extra: apigatewayv2
+Provides-Extra: ses
+Provides-Extra: s3
+Provides-Extra: kinesisvideoarchivedmedia
+Provides-Extra: mediastore
+Provides-Extra: codepipeline
+Provides-Extra: redshift
+Provides-Extra: dynamodbstreams
+Provides-Extra: autoscaling
+Provides-Extra: cloudfront
+Provides-Extra: lambda
+Provides-Extra: stepfunctions
+Provides-Extra: cloudformation
+Provides-Extra: support
+Provides-Extra: athena
+Provides-Extra: mediapackage
+Provides-Extra: events
+Provides-Extra: mq
+Provides-Extra: polly
+Provides-Extra: guardduty
+Provides-Extra: budgets
+Provides-Extra: wafv2
+Provides-Extra: databrew
+Provides-Extra: elbv2
+Provides-Extra: rds
+Provides-Extra: cognitoidentity
+Provides-Extra: resourcegroupstaggingapi
+Provides-Extra: es
+Provides-Extra: dynamodb2
+Provides-Extra: firehose
+Provides-Extra: config
+Provides-Extra: glue
+Provides-Extra: organizations
+Provides-Extra: sdb
+Provides-Extra: ram
+Provides-Extra: appsync
+Provides-Extra: dax
+Provides-Extra: logs
+Provides-Extra: eks
+Provides-Extra: ec2
+Provides-Extra: rds2
+Provides-Extra: sts
+Provides-Extra: rekognition
+Provides-Extra: resourcegroups
+Provides-Extra: textract
+Provides-Extra: codecommit
+Provides-Extra: cloudtrail
+Provides-Extra: s3control
+Provides-Extra: dms
+Provides-Extra: kms
+Provides-Extra: redshiftdata
+Provides-Extra: xray_client
+Provides-Extra: server
+Provides-Extra: mediastoredata
+Provides-Extra: quicksight
+Provides-Extra: sns
+Provides-Extra: managedblockchain
+Provides-Extra: cloudwatch
+Provides-Extra: ds
+Provides-Extra: ecs
+Provides-Extra: transcribe
+Provides-Extra: swf
+Provides-Extra: kinesisvideo
+Provides-Extra: servicediscovery
+Provides-Extra: kinesis
+Provides-Extra: emr
+Provides-Extra: iam
+Provides-Extra: forecast
+Provides-Extra: datasync
