@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pymyami
+Version: 2.0a2
+Summary: MyAMI specific ion interaction model for calculating stoichiometric equilibrium constants in modified seawater.
+Home-page: https://github.com/PalaeoCarb/MyAMI
+Author: Oscar Branson
+Author-email: ob266@cam.ac.uk
+License: MIT
+Project-URL: PalaeoCarb Project, https://github.com/PalaeoCarb
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+<div align="right">
+<a href="https://github.com/PalaeoCarb/MyAMI/actions/workflows/test-myami_v1.yml"><img src="https://github.com/PalaeoCarb/MyAMI/actions/workflows/test-myami_v1.yml/badge.svg" height=18></a>
+<a href="https://badge.fury.io/py/pymyami"><img src="https://badge.fury.io/py/pymyami.svg" height=18></a>
+</div>
+
+# MyAMI
+MyAMI Specific Ion Interaction Model for correcting stoichiometric equilibrium constants (*Ks*) for variations in seawater composition.
+
+
