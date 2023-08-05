@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: dcs-xkcd-cli
+Version: 0.1.0
+Summary: Get your daily dose of xkcd directly from the terminal! 🤩
+Author: dotcs
+Author-email: repositories@dotcs.me
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: beautifulsoup4 (>=4.11,<5.0)
+Requires-Dist: requests (>=2.27,<3.0)
+Requires-Dist: typer (>=0.4,<0.5)
