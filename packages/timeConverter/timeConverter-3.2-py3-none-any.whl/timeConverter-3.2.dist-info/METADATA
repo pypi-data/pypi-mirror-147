@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: timeConverter
+Version: 3.2
+Summary: A GUI tool to convert time across all time zones. To use this tool, just type 'timeConverter' on your terminal.
+Home-page: UNKNOWN
+Author: Kumari Aishwarya
+Author-email: k.aishwarya15@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: pytz
+
+UNKNOWN
+
