@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: wot_alexaltai
+Version: 0.0.1
+Summary: WoT Build Simple Game
+Home-page: https://github.com/AlexAltaitsev/WoT
+Author: Alex Altaitsev
+Author-email: altaitsiev@gmail.com
+License: UNKNOWN
+Description: # WoT 
+        <!-- Work test programm for TMS -->
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

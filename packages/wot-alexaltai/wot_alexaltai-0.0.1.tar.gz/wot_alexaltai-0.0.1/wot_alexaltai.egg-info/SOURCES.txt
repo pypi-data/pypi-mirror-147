@@ -1,0 +1,12 @@
+README.md
+setup.py
+src/__init__.py
+src/ammos.py
+src/armours.py
+src/guns.py
+src/main.py
+src/tank.py
+wot_alexaltai.egg-info/PKG-INFO
+wot_alexaltai.egg-info/SOURCES.txt
+wot_alexaltai.egg-info/dependency_links.txt
+wot_alexaltai.egg-info/top_level.txt
