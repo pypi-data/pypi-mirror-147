@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: jmdevice
+Version: 0.0.1
+Summary: jmdevice
+Home-page: https://github.com/logan62334/jmdevice.git
+Author: mafei
+Author-email: logan62334@gmail.com
+License: MIT Licence
+Platform: any
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tidevice
+
+apptoolkit
+===========
+
+.. image:: https://img.shields.io/pypi/v/jmdevice.svg
+    :target: https://pypi.python.org/pypi/jmdevice/
+    :alt: Latest Version
+
+.. image:: https://img.shields.io/pypi/wheel/jmdevice.svg
+    :target: https://pypi.python.org/pypi/jmdevice/
+
+.. image:: https://img.shields.io/pypi/pyversions/jmdevice.svg
+    :target: https://pypi.python.org/pypi/jmdevice/
+
+.. image:: https://img.shields.io/pypi/l/jmdevice.svg
+    :target: https://pypi.python.org/pypi/jmdevice/
+
+Introduction
+-----------
+
+This is a lightweight set of tools for UI Automation Assistant implemented in Python
+
+Installing
+----------
+
+Install and update using `pip`:
+
+.. code-block:: text
+
+    pip install -U jmdevice
+
+
