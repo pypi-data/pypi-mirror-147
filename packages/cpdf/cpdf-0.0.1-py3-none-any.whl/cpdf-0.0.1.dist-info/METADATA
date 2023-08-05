@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: cpdf
+Version: 0.0.1
+Summary: A pure-python CLI application to manipulate PDF files
+Home-page: https://github.com/py-pdf/py-pdf-community-snippets
+Author: Martin Thoma
+Author-email: info@martin-thoma.de
+Maintainer: Martin Thoma
+Maintainer-email: info@martin-thoma.de
+License: BSD-3-Clause
+Keywords: pdf,pure-python
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.6.1
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: PyPDF2
+Requires-Dist: typer
+Requires-Dist: pillow
+
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+# cpdf
+
+cpdf is a pure-python cli application for manipulating PDF files.
+
+## Installation
+
+```bash
+pip install -U cpdf
+```
+
+## Usage
+
+```bash
+$ cpdf --help
+Usage: cpdf [OPTIONS] COMMAND [ARGS]...
+
+  cpdf is a pure-python cli application for manipulating PDF files.
+
+Options:
+  --version
+  --help     Show this message and exit.
+
+Commands:
+  2-up
+  extract-images
+
+$ cpdf
+```
+
+
