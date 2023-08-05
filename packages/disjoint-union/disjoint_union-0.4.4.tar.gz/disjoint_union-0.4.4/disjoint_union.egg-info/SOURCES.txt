@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+disjoint_union/__init__.py
+disjoint_union/disjoint_union.py
+disjoint_union.egg-info/PKG-INFO
+disjoint_union.egg-info/SOURCES.txt
+disjoint_union.egg-info/dependency_links.txt
+disjoint_union.egg-info/not-zip-safe
+disjoint_union.egg-info/top_level.txt
