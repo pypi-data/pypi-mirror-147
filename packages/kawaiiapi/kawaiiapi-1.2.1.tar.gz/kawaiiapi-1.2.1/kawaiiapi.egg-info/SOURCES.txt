@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+kawaiiapi/__init__.py
+kawaiiapi/kawaiiapi.py
+kawaiiapi/stats.py
+kawaiiapi.egg-info/PKG-INFO
+kawaiiapi.egg-info/SOURCES.txt
+kawaiiapi.egg-info/dependency_links.txt
+kawaiiapi.egg-info/requires.txt
+kawaiiapi.egg-info/top_level.txt
