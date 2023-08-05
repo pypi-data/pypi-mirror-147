@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: cjtmc-base
+Version: 0.0.30
+Summary: chanjetmulticloud-base sdk
+Home-page: https://www.cjtmsp.com
+Author: derek
+Author-email: wangshengh@chanjet.com
+License: MIT Licence
+Keywords: pip,chanjet_multicloud,chanjet,cjtmsp
+Platform: any
+
+chanjetmulticloud-base sdk for python
+
