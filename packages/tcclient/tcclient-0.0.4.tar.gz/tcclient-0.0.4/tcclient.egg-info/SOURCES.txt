@@ -1,0 +1,8 @@
+README.md
+setup.py
+tcclient/__init__.py
+tcclient.egg-info/PKG-INFO
+tcclient.egg-info/SOURCES.txt
+tcclient.egg-info/dependency_links.txt
+tcclient.egg-info/requires.txt
+tcclient.egg-info/top_level.txt
