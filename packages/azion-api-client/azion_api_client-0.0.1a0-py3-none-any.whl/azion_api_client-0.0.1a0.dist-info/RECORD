@@ -1,0 +1,12 @@
+azion/__consts__.py,sha256=YPDro7Jz9RpQHfFhfvzgOTQIC5zyZ99JHGRmjJqh7og,215
+azion/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+azion/api.py,sha256=uk-pKJnMhjqI_5a0Fvy3THpBsN_mVG7vvHZvDSll3XA,3794
+azion/cli.py,sha256=lpsu2WIuGFNn5cjz-Zo2F3lLuqeqVSAQDx_CLB1rdwI,1548
+azion/exceptions.py,sha256=RX0EEjDiZ1eyjErq_XCxIv72DgWLWgTFwRxNS2HeHew,3711
+azion/models.py,sha256=xd7ugZo46X_7kjozPhIkXQjxtHi0QJwrtD3eyWbjxrU,6423
+azion_api_client-0.0.1a0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+azion_api_client-0.0.1a0.dist-info/METADATA,sha256=arcTkMjhM9BC9xRtjZ1WJZNHPZx4s4cafE2hltU0oHI,449
+azion_api_client-0.0.1a0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+azion_api_client-0.0.1a0.dist-info/entry_points.txt,sha256=5mhdr8zcphTEAf6sbISAi5Mnhwc4qhAmpgPm1OkR3wc,40
+azion_api_client-0.0.1a0.dist-info/top_level.txt,sha256=0yxL9dXVYoBOV234ARnFWQW4JRAZiSunxHc8GPrbrwg,6
+azion_api_client-0.0.1a0.dist-info/RECORD,,
