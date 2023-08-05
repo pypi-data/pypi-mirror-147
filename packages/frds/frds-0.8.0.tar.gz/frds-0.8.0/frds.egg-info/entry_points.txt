@@ -1,0 +1,3 @@
+[console_scripts]
+frds-mktstructure = frds.mktstructure.main:main
+
