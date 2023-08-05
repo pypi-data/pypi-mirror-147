@@ -1,0 +1,10 @@
+rvrbase/__init__.py,sha256=8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U,3
+rvrbase/constants.py,sha256=s4WpIzLkxElRKPMABzEkfxw3N-6StFYsnn-JaFFR_qs,323
+rvrbase/loganalyticslogger.py,sha256=QvjK5yRVBUD_OTOgFm0Zwzl0guYPGookDOPHAzWzqvI,3311
+rvrbase/rvrconfig.py,sha256=vBoNmKJam7w6oHRGKeMZRHKeqaemdD6Ukq9JlfQeCcE,862
+rvrbase/rvrlogger.py,sha256=yiF7kUE5Gr-WYAdbei5svSTXkj1wroysa5pJXF01-ZA,1305
+rvr_base-0.0.3.dist-info/LICENSE,sha256=s_NUk0VVX9ln2_QSWlC24DDkt15cvufAM1axrCcXobk,1068
+rvr_base-0.0.3.dist-info/METADATA,sha256=pHHc4yb1omn5WBUTD2NSywtAyS_Lhe15cf4Sr1za5l8,2570
+rvr_base-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+rvr_base-0.0.3.dist-info/top_level.txt,sha256=OkKsrIifVLgRSjwH8kxBuyQ5sWNxipkGWo5Zqm3rEK0,8
+rvr_base-0.0.3.dist-info/RECORD,,
