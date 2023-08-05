@@ -1,0 +1,12 @@
+flax_vision_models/__init__.py,sha256=ZkJ4YFnqff5CwHnqUupPsAVatqD4aozkrh1u-iQrvMc,21
+flax_vision_models/utils.py,sha256=Qjanage4aMcA2ZoJT-hn-3cpsIlAJtWulMxvzvVYOoQ,1579
+flax_vision_models/vgg/__init__.py,sha256=oVNspgN7mrw4T0n8qg8KoRsNG_ERnGMqql58duiWt5Y,86
+flax_vision_models/vgg/blocks.py,sha256=-1iwekFAxuojd6FuSmqjDiy7DwFR5i3mhweeunLojIE,665
+flax_vision_models/vgg/build_models.py,sha256=IaSrQ4iBeNYFW3E4R0QM68qvDDHmqXiChfzE5k0DYv8,2324
+flax_vision_models/vgg/preprocess.py,sha256=3b-eVtZb0wRwMyHVfx7hVLF-SOq0bewJRWwjNjpAgEA,635
+flax_vision_models/vgg/vgg16.py,sha256=Jq8CG5uIRYNJl-Mwvxi3sD1kVtBsTlwCAJMdOogPpts,2376
+flax_vision_models/vgg/vgg19.py,sha256=qUQR3xStc0gF33A9e9JpnLJuFKutnmCG0QVPHy2je6I,2376
+flax_vision_models-0.0.2.dist-info/METADATA,sha256=iB4JVg7jCbt34NWMzfAmJ6S6cQONnc6KPRwJnHp8mX4,1787
+flax_vision_models-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+flax_vision_models-0.0.2.dist-info/top_level.txt,sha256=Shyg1lGbGCQ4WglHCRhR7Aa3j7B94d3wUDQ0qI18ttM,19
+flax_vision_models-0.0.2.dist-info/RECORD,,
