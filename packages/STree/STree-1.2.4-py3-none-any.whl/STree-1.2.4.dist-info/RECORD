@@ -1,0 +1,14 @@
+stree/Splitter.py,sha256=CPvUPXyAhCnGdUqfMSA-DLgkpKekxhjTdwNRa0oc8Ro,25094
+stree/Strees.py,sha256=MVzU6irZ2KK9hzKfnyH4PaL_Cdi_MNb8n8mphal5PHk,18765
+stree/__init__.py,sha256=79W_xSyrS96hOD9BzWZOgraij5s4lBm0B1RnyO0TtQc,257
+stree/_version.py,sha256=XBKH8E1LmDxv06U39yqMBbXZapOERFgICEDYZs_kRso,22
+stree/tests/Snode_test.py,sha256=3EbLK3AMIryF3fsnphnr78MQJPSK2rpfLZxeoTkTLIU,4630
+stree/tests/Splitter_test.py,sha256=IztFJ9XKfpCnU7v-smnIUbtcJfK5KelMhsKNez9of60,12012
+stree/tests/Stree_test.py,sha256=1tRLysruaaq05CcwffMe8ZaIIObD3dCQEpPmENOLac8,27693
+stree/tests/__init__.py,sha256=2zNaOUUlQJqgAC0uU1wTOxUy5H1UpIUKHAfa8H4Tf6w,168
+stree/tests/utils.py,sha256=utM0JOFQzjRb3mnVICoacFHUOLpFdpb5aUQS3WRoAxs,797
+STree-1.2.4.dist-info/LICENSE,sha256=Esr3gCRv_whWZXpvKQqWPnOGicjNfRBL-iVvO8UgMjU,1088
+STree-1.2.4.dist-info/METADATA,sha256=choZXEJzoDy4-bWWRA_1QphbCBgpALHgllRbi0ADVNs,17088
+STree-1.2.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+STree-1.2.4.dist-info/top_level.txt,sha256=ieWZwPmTYNyA_ZzoOKnUC8qQL_LoaeCGj6MhtGYt1Wk,6
+STree-1.2.4.dist-info/RECORD,,
