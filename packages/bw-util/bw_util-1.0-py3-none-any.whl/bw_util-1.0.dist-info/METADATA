@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: bw-util
+Version: 1.0
+Summary: A simple utility that wraps bitwarden-cli
+Home-page: https://github.com/ZackaryW/bitwarden-attachments-tool
+Author: Zackary W
+License: MIT
+Keywords: bitwarden,utility
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click
+
+# bitwarden-attachments-tool
+
+This repo is based on https://github.com/ckabalan/bitwarden-attachment-exporter
+
+Designed for personal use case but includes limited generic interfaces
+
+
+
