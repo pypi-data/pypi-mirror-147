@@ -1,0 +1,9 @@
+README.md
+setup.py
+badut/__init__.py
+badut.egg-info/PKG-INFO
+badut.egg-info/SOURCES.txt
+badut.egg-info/dependency_links.txt
+badut.egg-info/top_level.txt
+badut/utils/__init__.py
+badut/utils/requests.py
