@@ -1,0 +1,8 @@
+drawio_parser/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+drawio_parser/component.py,sha256=t2IG6ghpeWRaw1bM3XN-8ndcavh1ihdao9SiCoI93JQ,1625
+drawio_parser/diagram.py,sha256=nqd7gE5jhbYBfRv17UONwlYaWeHCuWGdJ-8QCcX_Q18,242
+drawio_parser/parser.py,sha256=NdruhqqF4-EJIVmv402tG3eEIR59rnMJ5AGvrvc7VRU,1442
+drawio_parser-0.0.7.dist-info/METADATA,sha256=xOxsrg6U9lEBW8XmzF6shVwIrP-yipe4Pz_PHJyQzSk,611
+drawio_parser-0.0.7.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+drawio_parser-0.0.7.dist-info/top_level.txt,sha256=l07OVMrZ6OL6iX6vtaUn73EdN5UZSZ0_kdKHDdyLrCo,14
+drawio_parser-0.0.7.dist-info/RECORD,,
