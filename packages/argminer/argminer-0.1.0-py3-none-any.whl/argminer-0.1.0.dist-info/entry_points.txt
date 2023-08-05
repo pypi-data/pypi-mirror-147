@@ -1,0 +1,2 @@
+[console_scripts]
+argminer-api = argminer.run_api:main
