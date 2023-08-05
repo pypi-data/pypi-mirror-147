@@ -1,0 +1,8 @@
+README.md
+setup.py
+globalfirepower/globalfirepower.py
+globalfirepower/globalfirepower_scraper.egg-info/PKG-INFO
+globalfirepower/globalfirepower_scraper.egg-info/SOURCES.txt
+globalfirepower/globalfirepower_scraper.egg-info/dependency_links.txt
+globalfirepower/globalfirepower_scraper.egg-info/requires.txt
+globalfirepower/globalfirepower_scraper.egg-info/top_level.txt
