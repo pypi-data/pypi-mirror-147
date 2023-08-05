@@ -1,0 +1,10 @@
+linearAlgebraCalc/__init__.py,sha256=ftdRIoICSsK_jKtWD9p8me8XaQQIoq0_lulzQLLrMAs,2636
+linearAlgebraCalc/basicOperations.py,sha256=q4ydfBfiymfqTFy1qLifUeMoOnimwCviv4ZdYHEb3cc,1456
+linearAlgebraCalc/equations.py,sha256=chsYDpRjPVbDJuMgm84VW2Pt64POwX6mG1Eh1D8GXd8,38
+linearAlgebraCalc/globalFunctions.py,sha256=h0OB0bvcewC0V9pWIyxw-A_f3zqmiI1AO0LmK0lna3s,281
+linearAlgebraCalc/matrixOperations.py,sha256=PqcATlKQFfI4Vg6_adfhiJLO2iIJ16fM-LZAiq-kJi8,2782
+linearAlgebraCalc/main/__init__.py,sha256=K6nWamb2Pd60MFhTS8tN-fnt0LYE0FhxY3dl4G9tYGw,1904
+linearAlgebraCalc-0.0.17.dist-info/METADATA,sha256=gkmSlKXFmaPavu9k8F11uquMnDxUfCNi4hLzofdoYNE,633
+linearAlgebraCalc-0.0.17.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+linearAlgebraCalc-0.0.17.dist-info/top_level.txt,sha256=M3DIxzkgb40zsFArLo5sPgusZrCE1bQpALOIh5SXE2Y,18
+linearAlgebraCalc-0.0.17.dist-info/RECORD,,
