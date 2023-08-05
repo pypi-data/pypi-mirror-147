@@ -1,0 +1,21 @@
+# generated
+*.py[cod]
+*dist*
+*build*
+*.egg*
+cooked
+*.so
+docs/source
+
+# venv
+*.env*
+*venv*
+
+# editor
+.vscode
+.idea
+
+# rust
+target
+
+.DS_store

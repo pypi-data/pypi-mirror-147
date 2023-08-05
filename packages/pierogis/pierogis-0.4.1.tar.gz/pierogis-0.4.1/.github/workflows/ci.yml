@@ -1,0 +1,194 @@
+# This workflow will upload a Python Package using Twine when a release is created
+# For more information see: https://help.github.com/en/actions/language-and-framework-guides/using-python-with-github-actions#publishing-to-package-registries
+
+name: pierogis ci
+
+on:
+  push:
+    tags:
+      - v*
+    branches:
+      - test
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          lfs: false
+        env:
+          GIT_LFS_SKIP_SMUDGE: 1
+
+      - name: install python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+
+      - name: install rust
+        uses: actions-rs/toolchain@v1
+        with:
+          toolchain: stable
+          target: ${{ matrix.platform.rust-target }}
+          profile: minimal
+          default: true
+          components: rustfmt, clippy
+
+      - name: fmt rust
+        uses: actions-rs/cargo@v1
+        continue-on-error: true
+        with:
+          toolchain: stable
+          command: fmt
+          args: --manifest-path ./Cargo.toml -- --check
+
+      - name: clippy rust
+        uses: actions-rs/cargo@v1
+        continue-on-error: true
+        with:
+          command: clippy
+          args: --manifest-path ./Cargo.toml --all-targets --all-features -- -D warnings
+
+      - name: create pierogis environment
+        run: |
+          python -m venv .env
+          source .env/bin/activate
+          sudo apt-get install -y gifsicle
+          pip install -r requirements.txt
+          pip install .
+
+      - name: flake8 python
+        continue-on-error: true
+        run: |
+          source .env/bin/activate
+          pip install flake8
+          flake8 src/pierogis
+
+      - name: pylint python
+        continue-on-error: true
+        run: |
+          source .env/bin/activate
+          pip install pylint
+          pylint src/pierogis
+
+      - name: run mypy
+        continue-on-error: true
+        run: |
+          source .env/bin/activate
+          pip install mypy
+          mypy src/pierogis
+
+      - name: run tests
+        run: |
+          source .env/bin/activate
+          pip install pytest
+          pytest -s -v tests
+
+  wheel-build:
+    name: ${{ matrix.os }} build
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ "ubuntu-20.04", "macOS-10.15", "windows-latest" ]
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          lfs: false
+        env:
+          GIT_LFS_SKIP_SMUDGE: 1
+      - run: |
+          git fetch --prune --unshallow
+          git fetch --depth=1 origin +refs/tags/*:refs/tags/*
+
+      - uses: actions/setup-python@v2
+
+      - name: install rust
+        uses: actions-rs/toolchain@v1
+        with:
+          toolchain: stable
+          profile: minimal
+
+      - name: install cibuildwheel
+        run: |
+          pip install -r requirements.txt
+          python -m pip install cibuildwheel==1.10.0
+
+      - name: build wheels
+        run: python -m cibuildwheel --output-dir wheelhouse
+        env:
+          CIBW_BEFORE_ALL_LINUX: "curl https://sh.rustup.rs -sSf | sh -s -- --default-toolchain stable -y"
+          CIBW_ENVIRONMENT: 'PATH="$PATH:$HOME/.cargo/bin"'
+          CIBW_SKIP: "cp27-* cp35-* cp36-* *-win32 pp*"
+
+      - uses: actions/upload-artifact@v2
+        with:
+          path: ./wheelhouse/*.whl
+
+  macos-11-build:
+    name: macOS-11.0-build
+    runs-on: [ "macOS-11.0" ]
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          lfs: false
+        env:
+          GIT_LFS_SKIP_SMUDGE: 1
+      - run: |
+          git fetch --prune --unshallow
+          git fetch --depth=1 origin +refs/tags/*:refs/tags/*
+
+      - name: build wheels
+        run: 'zsh ./build_wheels_mac_arm.sh'
+
+      - uses: actions/upload-artifact@v2
+        with:
+          path: dist/*.whl
+
+  sdist-build:
+    name: sdist build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          lfs: false
+        env:
+          GIT_LFS_SKIP_SMUDGE: 1
+      - run: |
+          git fetch --prune --unshallow
+          git fetch --depth=1 origin +refs/tags/*:refs/tags/*
+
+      - uses: actions/setup-python@v2
+        name: Install Python
+        with:
+          python-version: '3.8'
+
+      - name: Build sdist
+        run: |
+          ls .
+          git status
+          pip install -r requirements.txt
+          python setup.py sdist
+
+      - uses: actions/upload-artifact@v2
+        with:
+          path: dist/*.tar.gz
+
+  publish:
+    if: startsWith(github.ref, 'refs/tags')
+    runs-on: ubuntu-latest
+    needs: [ wheel-build, test, sdist-build, macos-11-build ]
+    steps:
+      - name: install python
+        uses: actions/setup-python@v2
+
+      - uses: actions/download-artifact@v2
+        with:
+          name: artifact
+          path: dist
+
+      - name: publish to pypi
+        env:
+          PYPI_TOKEN: ${{ secrets.PYPI_TOKEN }}
+        run: |
+          pip install twine
+          twine upload dist/* -u __token__ -p "$PYPI_TOKEN"
