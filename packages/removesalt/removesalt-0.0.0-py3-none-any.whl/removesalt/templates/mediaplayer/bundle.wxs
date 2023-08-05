@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi"
+     xmlns:util="http://schemas.microsoft.com/wix/UtilExtension"
+     xmlns:bal="http://schemas.microsoft.com/wix/BalExtension">
+  <Bundle Name="{{ data.company_name }} {{ data.app.name }}"
+          Version="{{ data.app.version }}"
+          Manufacturer="{{ data.company_name }}"
+          UpgradeCode="{{ data.app.wix_guid }}"
+          IconSourceFile="{{ data.icon.path_work }}">
+    <BootstrapperApplicationRef Id="WixStandardBootstrapperApplication.RtfLicense">
+      <bal:WixStandardBootstrapperApplication LicenseUrl="http://opensource.org/licenses/ms-rl"
+                                              LogoFile="{{ data.splash_image.path_work }}"
+                                              ThemeFile="$(var.ThemeFile)"
+                                              LocalizationFile="$(var.LocalizationFile)" />
+    </BootstrapperApplicationRef>
+    <Chain>
+      <!-- <PackageGroupRef Id="redist" /> -->
+      <MsiPackage SourceFile="$(var.MsiPath)" DisplayInternalUI="no">
+        <MsiProperty Name="ARPSYSTEMCOMPONENT" Value="1" />
+      </MsiPackage>
+    </Chain>
+  </Bundle>
+
+  <Fragment>
+    <util:FileSearch Id="GetVC14X64Exists" Condition="VersionNT64"
+      Variable="vc14x64Exists" Path="[System64Folder]vcruntime140.dll" Result="exists" />
+    <util:FileSearch Id="GetVC14X64Version" Condition="VersionNT64"
+      Variable="vc14x64Version" Path="[System64Folder]vcruntime140.dll" Result="version" />
+    <PackageGroup Id="redist_vc140">
+      <ExePackage Id="vc140" Cache="yes" PerMachine="yes" Permanent="yes"
+        Vital="yes" Compressed="yes" SourceFile="Resources/VC_redist.x64.exe"
+        DetectCondition="vc14x64Exists AND vc14x64Version &gt;= v14.28.29325"
+        InstallCommand="/quiet /norestart" Protocol="burn" />
+    </PackageGroup>
+  </Fragment>
+
+  <Fragment>
+    <PackageGroup Id="redist">
+      <PackageGroupRef Id="redist_vc140" />
+    </PackageGroup>
+  </Fragment>
+</Wix>

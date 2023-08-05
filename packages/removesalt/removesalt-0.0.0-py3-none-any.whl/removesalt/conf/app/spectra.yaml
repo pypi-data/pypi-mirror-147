@@ -1,0 +1,103 @@
+app:
+  name: Spectra
+  version: 0.30.0.0 # don't hand edit this, use "bump2version" to update it, see .bumpversion.cfg
+  wix_guid: 5498EC65-276D-4900-8416-C901EA53EF63
+bin_path: ${path:${app.orig_cwd}/streambox_spectra_win_assets/}
+bundle:
+  name: ${lower:spectra_${app.sku}_win.exe}
+components:
+  build_order:
+    - actions
+    - adobe
+    - avid
+    - ofx
+    - spectraui
+    - main
+    - app
+  container:
+    actions:
+      deploy: ${app.deploy}
+      path_work: ${path:${app.work1}/custom_actions.wxs}
+      single_file: true
+    adobe:
+      deploy: ${app.deploy3}
+      group: ComponentGroupAdobe
+      path_work: ${path:${app.work1}/component_adobe.wxs}
+      root_dir: ADOBEROOTDIRECTORY
+      single_file: false
+      wix_guid: 014F5EB3-93B7-4B88-B5E6-3870E9E9FE33
+    app:
+      deploy: ${app.deploy}
+      group: ComponentGroupSpectra
+      path_work: ${path:${app.work1}/app.wxs}
+      root_dir: SPECTRAROOTDIRECTORY
+      single_file: true
+      wix_guid: 2B761967-D704-4C2B-9D13-4FB8DB07397C
+    avid:
+      deploy: ${app.deploy2}
+      group: ComponentGroupAvid
+      path_work: ${path:${app.work1}/component_avid.wxs}
+      root_dir: AVIDROOTDIRECTORY
+      single_file: false
+      wix_guid: 5D08CAA4-8A4B-451E-8C16-814A2E662D1D
+    main:
+      deploy: ${app.deploy}
+      group: ComponentGroupSpectra
+      path_work: ${path:${app.work1}/component_main.wxs}
+      root_dir: SPECTRAROOTDIRECTORY
+      single_file: false
+    ofx:
+      deploy: ${app.deploy5}
+      group: ComponentGroupOpenFX
+      path_work: ${path:${app.work1}/component_ofx.wxs}
+      root_dir: SPECTRAOPENFXROOTDIRECTORY
+      single_file: false
+      wix_guid: 245D9D50-8A0A-11EB-BBED-30D9D9EED5CB
+    spectraui:
+      deploy: ${app.deploy4}
+      group: ComponentGroupSpectraUI
+      path_work: ${path:${app.work1}/component_spectraui.wxs}
+      root_dir: SPECTRADATAROOTDIRECTORY
+      single_file: false
+      wix_guid: 4F09CB52-5D12-11EB-9C06-30D9D9EED5CB
+deploy: ${path:${app.work}/deploy_app/}
+deploy1: ${path:${app.work}/deploy1/}
+deploy2: ${path:${app.work}/deploy_avid/}
+deploy3: ${path:${app.work}/deploy_adobe/}
+deploy4: ${path:${app.work}/deploy_spectra_ui/}
+deploy5: ${path:${app.work}/deploy_ofx/}
+installer_name: spectra
+installer_source_path: ${path:${app.orig_cwd}/streambox_spectra_win_assets/installer/}
+msi:
+  name: spectra.msi
+release: false
+run_signtool: true
+s3bucket:
+  name: streambox-spectra
+spectra:
+  encassist:
+    gitclone: ${path:${app.orig_cwd}/spectra_encassist}
+    ini:
+      deploy: ${path:${app.deploy}/dist/${.name}}
+      name: encassist.ini
+    set_defaults:
+      bin_path: ${path:${app.work1}/set_defaults.exe}
+      src_path: ${path:${app.work1}/set_defaults.go}
+      deploy_path: ${path:${app.deploy}/dist/set_defaults.exe}
+    yml:
+      name: encassist.yml
+      src: ${path:${..gitclone}/encassist/${.name}}
+      work_path: ${path:${app.work1}/${.name}}
+splash_image:
+  name: Spectra-splashv2_130x247.png
+stop_all_uploads: true
+ver_file:
+  path_deploy: ${path:${app.deploy4}/SpectraUI/${.name}}
+wix:
+  component_group: ComponentGroupSpectra
+  root_dir: SPECTRAROOTDIRECTORY
+work1: ${path:${app.work}/work1/${app.sku}}
+zip_not_versioned:
+  name: streambox_spectra_win.zip
+zip_versioned:
+  name: streambox_spectra_win_${app.app.version}.zip
