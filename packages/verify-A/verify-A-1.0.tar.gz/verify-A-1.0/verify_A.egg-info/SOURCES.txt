@@ -1,0 +1,8 @@
+setup.py
+src/__init__.py
+src/lab-A.py
+verify_A.egg-info/PKG-INFO
+verify_A.egg-info/SOURCES.txt
+verify_A.egg-info/dependency_links.txt
+verify_A.egg-info/requires.txt
+verify_A.egg-info/top_level.txt
