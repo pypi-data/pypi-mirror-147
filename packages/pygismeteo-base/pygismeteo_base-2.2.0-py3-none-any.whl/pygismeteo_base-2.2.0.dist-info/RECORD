@@ -1,0 +1,12 @@
+pygismeteo_base/__init__.py,sha256=TYm9KX2ujm3l4EhNZ9crtQaouH6LjRY2NUW4r-an5PE,121
+pygismeteo_base/constants.py,sha256=zDlXTeNVLEs34bnEP0GZB3VEcj4JxeYKpL1JKvkbq38,66
+pygismeteo_base/models/__init__.py,sha256=fS5t-CV4_2e_poyIBYjDgSR6406a_x04I6L5JjJO1tI,130
+pygismeteo_base/models/current.py,sha256=BzXNE8HUgm7tkU6Rh7Dvq8jsLpvjs7KPOtpV0qwGFhM,1835
+pygismeteo_base/models/step24.py,sha256=QVhjSaiQaPopibWQH2a1yBc4zElesHyhkeVC6vhp-Ck,3282
+pygismeteo_base/models/step3or6.py,sha256=mKsLlSVqxnTDulYCzeX3e6Eykgxn5hgS4zMvt3bAYbo,2125
+pygismeteo_base/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pygismeteo_base/types.py,sha256=7USilKU8U8_wypiFCkk16S9F9kZiOTIMqIXNfEBiLI0,250
+pygismeteo_base-2.2.0.dist-info/LICENSE,sha256=1x8a8JvB6Tm-oi0Knf_OySff8jjCZa2Uhw591k6oUDg,1065
+pygismeteo_base-2.2.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+pygismeteo_base-2.2.0.dist-info/METADATA,sha256=a0iMWijpoq5PgzTUYbTOVvyKSMKIejpiQqlPuqNdXX0,1337
+pygismeteo_base-2.2.0.dist-info/RECORD,,
