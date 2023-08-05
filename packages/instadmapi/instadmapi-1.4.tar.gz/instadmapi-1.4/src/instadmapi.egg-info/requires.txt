@@ -1,0 +1,3 @@
+discord
+requests
+user_agent
