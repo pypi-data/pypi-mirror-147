@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: missingpercentage
+Version: 0.0.1
+Summary: Python package to get missing values in a dataframe
+Home-page: UNKNOWN
+Author: Naveed Ahmed Janvekar
+Author-email: janvekarnaveed@gmail.com
+License: UNKNOWN
+Keywords: python,first package
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
+Python package to get missing values in a dataframe
+
+
