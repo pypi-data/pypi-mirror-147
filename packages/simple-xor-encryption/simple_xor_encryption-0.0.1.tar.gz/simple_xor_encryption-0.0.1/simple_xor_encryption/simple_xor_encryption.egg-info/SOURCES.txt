@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+simple_xor_encryption/simple_xor_encryption.egg-info/PKG-INFO
+simple_xor_encryption/simple_xor_encryption.egg-info/SOURCES.txt
+simple_xor_encryption/simple_xor_encryption.egg-info/dependency_links.txt
+simple_xor_encryption/simple_xor_encryption.egg-info/top_level.txt
