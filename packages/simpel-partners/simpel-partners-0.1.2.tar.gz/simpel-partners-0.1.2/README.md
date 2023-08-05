@@ -1,0 +1,3 @@
+# 🚀 Partners !
+
+Simpel partners contacts.
