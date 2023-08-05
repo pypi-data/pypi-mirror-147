@@ -1,0 +1,17 @@
+_psfmodels.cpython-38-x86_64-linux-gnu.so,sha256=pF1xEo4ktkQ-MI-suXUIBN_Z5XX5IR7TwnIfOPv11kk,269680
+psfmodels.libs/libstdc++-a9383cce.so.6.0.28,sha256=AQF8xpA7y538aY2feICyHGJkLWgDpwHYribC_iWn8Bw,2447392
+psfmodels.libs/libgcc_s-a04fdf82.so.1,sha256=E2_sw1FhiQZsCQiywTDdBDMlSUsazp7QUYpklMz_w_s,81256
+psfmodels-0.3.1.dist-info/entry_points.txt,sha256=ufVLaScozzsNcsdztJVQfwUH8y-xGJKR9EP3uicn5ns,52
+psfmodels-0.3.1.dist-info/RECORD,,
+psfmodels-0.3.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+psfmodels-0.3.1.dist-info/METADATA,sha256=IkeAYInENJQNp0ehl0OptsRJOesr03N7mnUMo2-cxE4,8101
+psfmodels-0.3.1.dist-info/top_level.txt,sha256=x97P8oOthjxd9S9z9-h9QnIOPyXgfzJBCr1Jr4ASwcE,38
+psfmodels-0.3.1.dist-info/WHEEL,sha256=CmoYo5s3yrNIxtHl5gPB81uIw7sGmWUZIX9rFW7I7e4,111
+_psfmodels-stubs/__init__.pyi,sha256=4IcZCzR9orh1N_4u0H-WVLdHwCuxMz1ZeJf6zP-PkKU,5981
+psfmodels/__init__.py,sha256=WWb4iu1Ho3Lv_mjl_ESdg90snKUlrrsmqMUTlyJaS0o,582
+psfmodels/_napari.py,sha256=_NFrEU9TRlKJeGgixe_jn3N-nEWD5thQNYhT9lAJR60,3064
+psfmodels/_version.py,sha256=56WwOPv-d8e44F7v4kBRqHfVcnK0UZTh2j5uL4kUa3g,142
+psfmodels/_core.py,sha256=VpjljyW4UnICVEg8JCrsQdVcHbZ1roDn3RXc2v2I6rs,20272
+psfmodels/_cuvec.py,sha256=9O4JZnqSSbOrmZcSzJjdA3QnTJJamOfVwK3Kr_AftfU,6946
+psfmodels/napari.yaml,sha256=rR9m7mzrLinjFQaV6bO6mJn_VdaCdbSk0A_w-k8a7b8,269
+psfmodels/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
