@@ -1,0 +1,9 @@
+LICENSE
+README
+setup.py
+src/p3d_flatpak/__init__.py
+src/p3d_flatpak/p3d_flatpak.py
+src/panda3d_flatpak.egg-info/PKG-INFO
+src/panda3d_flatpak.egg-info/SOURCES.txt
+src/panda3d_flatpak.egg-info/dependency_links.txt
+src/panda3d_flatpak.egg-info/top_level.txt

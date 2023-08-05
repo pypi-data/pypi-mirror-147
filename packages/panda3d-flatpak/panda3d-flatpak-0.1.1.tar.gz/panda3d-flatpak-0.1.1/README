@@ -1,0 +1,90 @@
+NOTE ==========================================================================
+
+This works on Linux only.
+
+INSTALLATION ==================================================================
+
+pip install panda3d-flatpak
+
+USAGE =========================================================================
+
+In your setup.py file, add the following:
+
+from direct.dist.commands import bdist_apps
+from p3d_flatpak import FlatpakBuilder
+
+class BDistAppsCmd(bdist_apps):
+    def run(self):
+        bdist_apps.run(self)
+        bld = FlatpakBuilder(
+            self,
+            'com.yourCompany.YourProject',
+            '/home/you/path/to/flatpak_repo',
+            'D43B...B5',
+            '/home/you/path/to/gpg',
+	    'http://www.yourdomain.org/flatpak')
+        bld.build()
+
+setup(
+    ...
+    cmdclass={"bdist_apps": BDistAppsCmd},
+    ... )
+
+This article
+(https://blogs.gnome.org/alexl/2017/02/10/maintaining-a-flatpak-repository/)
+contains a section which explains how to create GPG keys for signing Flatpak
+repos.
+
+UPDATES =======================================================================
+
+If you built a Flatpak repo, and later you modify your code and execute 'python
+setup.py bdist_apps' again, your Flatpak repo will be updated. So, your users
+can do their 'flatpak update' command to update your project.
+
+EXAMPLE =======================================================================
+
+Let's build a Flatpak repository for the Panda3D's Asteroids example.
+
+First of all, create your GPG key (look at the article cited earlier).
+
+Modify the file setup.py
+(https://github.com/panda3d/panda3d/blob/master/samples/asteroids/setup.py)
+adding these lines:
+
+from direct.dist.commands import bdist_apps
+from p3d_flatpak import FlatpakBuilder
+
+class BDistAppsCmd(bdist_apps):
+    def run(self):
+        bdist_apps.run(self)
+        bld = FlatpakBuilder(
+            self,
+            'org.panda3d.Asteroids',
+            '/home/you/panda3d/samples/asteroids/dist/flatpak_repo',
+            'D43B...B5',
+            '/home/you/path/to/gpg',
+	    'file:///home/you/panda3d/samples/asteroids/dist/flatpak_repo')
+        bld.build()
+
+setup(
+    ...
+    cmdclass={"bdist_apps": BDistAppsCmd},
+    ... )
+
+Then, launch the standard Panda3D build command:
+
+python setup.py bdist_apps
+
+At the end of the process, you will get the builds created by Panda3D, your
+Flatpak repository in dist/flatpak_repo/ and a .flatpakref file in dist/.
+
+Let's install Asteroids:
+flatpak --user install file:///home/you/panda3d/samples/asteroids/dist/asteroids-stable.flatpakref
+
+Let's run Asteroids:
+flatpak run org.panda3d.Asteroids
+
+Now, you can delete build/ and dist/, then you can rebuild it changing the URL
+(from file:///... to https://...), so you can use it online (in place of
+locally): just upload the repo to the path you specified and the .flatpakref
+somewhere and everything should work.
