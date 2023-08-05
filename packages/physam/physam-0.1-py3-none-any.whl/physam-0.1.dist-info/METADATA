@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: physam
+Version: 0.1
+Summary: UNKNOWN
+Home-page: https://github.com/Ulises-Rosas/GGpy
+Maintainer: Ulises Rosas
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3
+Requires-Dist: numpy
+Requires-Dist: cvxopt
+Requires-Dist: cvxpy
+
+UNKNOWN
+
