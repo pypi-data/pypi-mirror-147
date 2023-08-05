@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+eagle100/__init__.py
+eagle100/eagle100.py
+eagle100.egg-info/PKG-INFO
+eagle100.egg-info/SOURCES.txt
+eagle100.egg-info/dependency_links.txt
+eagle100.egg-info/requires.txt
+eagle100.egg-info/top_level.txt
