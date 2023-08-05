@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+module_tools/__init__.py
+module_tools.egg-info/PKG-INFO
+module_tools.egg-info/SOURCES.txt
+module_tools.egg-info/dependency_links.txt
+module_tools.egg-info/top_level.txt
