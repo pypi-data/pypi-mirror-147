@@ -1,0 +1,10 @@
+setup.py
+udacity_probability_prac/Binomialdistribution.py
+udacity_probability_prac/Gaussiandistribution.py
+udacity_probability_prac/Generaldistribution.py
+udacity_probability_prac/__init__.py
+udacity_probability_prac.egg-info/PKG-INFO
+udacity_probability_prac.egg-info/SOURCES.txt
+udacity_probability_prac.egg-info/dependency_links.txt
+udacity_probability_prac.egg-info/not-zip-safe
+udacity_probability_prac.egg-info/top_level.txt
