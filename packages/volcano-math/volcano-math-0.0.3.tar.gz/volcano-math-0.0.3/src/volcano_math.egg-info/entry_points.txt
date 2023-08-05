@@ -1,0 +1,2 @@
+[console_script]
+volc-math-np-demo = volc_match.demo:demo_np

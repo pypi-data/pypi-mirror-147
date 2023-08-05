@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/volc_math/__init__.py
+src/volc_math/demo.py
+src/volcano_math.egg-info/PKG-INFO
+src/volcano_math.egg-info/SOURCES.txt
+src/volcano_math.egg-info/dependency_links.txt
+src/volcano_math.egg-info/entry_points.txt
+src/volcano_math.egg-info/requires.txt
+src/volcano_math.egg-info/top_level.txt
