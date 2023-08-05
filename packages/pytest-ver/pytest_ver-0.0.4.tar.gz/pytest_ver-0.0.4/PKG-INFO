@@ -1,0 +1,153 @@
+Metadata-Version: 2.1
+Name: pytest_ver
+Version: 0.0.4
+Summary: Pytest module with Verification Report
+Home-page: https://github.com/cppgent0/pytest-ver
+Author: JA
+Author-email: cppgent0@gmail.com
+License: MIT
+Download-URL: https://github.com/cppgent0/pytest-ver/archive/refs/tags/v_0_0_4.tar.gz
+Description: # Usage:
+        
+        * import unittest and pytest as normal. Then import pytest_ver:
+        
+        ```
+            import unittest
+            import pytest 
+            from pytest_ver import pth
+        ```
+        
+        Note: 'pth' is a global that holds a reference to PytestHarness. The harness holds
+        references to all classes needed during a test run.
+        
+        * next create a normal unit test for pytest/unitest
+        
+              # -------------------
+              class TestPoc(unittest.TestCase):
+        
+                   # --------------------
+                   @classmethod
+                   def setUpClass(cls):
+                       pth.init()
+        
+                   # -------------------
+                   def setUp(self):
+                       pass
+        
+                   # -------------------
+                   def tearDown(self):
+                       pass
+                   
+                   # --------------------
+                   @classmethod
+                   def tearDownClass(self):
+                       pth.report()
+        
+        Note: the pth.report() is there only for convenience. Normally the report is done
+        externally using a separate mainline python script.
+        
+        * To create a protocol use pth.proto.protocol()
+        * To create steps within that protocol, use pth.proto.step()
+        
+        ```
+            
+            # --------------------
+            def test_init1(self):
+                # declare a new protcol id and it's description
+                pth.proto.protocol('tp-001', 'test the init function')
+                
+                # at this point: we are in the tp-001 protocol
+        
+                # declare some setup steps
+                pth.proto.step('setup some stuff1')
+                x = 1
+                pth.proto.step('setup more stuff2')
+                y = x
+        
+                # at this point: tp-001 contains 2 steps
+        ```
+        
+        * To create verification tests use pth.ver.verify()
+        
+        ```
+                # you can use normal pytest and unitest functions
+                # but their results won't show up in the report
+                self.assertEqual(x, y)
+                
+                # create another step
+                pth.proto.step('verify1 everything is equal')
+                
+                # do a verification against a requirement
+                pth.ver.verify(x == y, reqid='SRS-001')
+                pth.ver.verify(x == 1, reqid='SRS-001')
+                # since all verifys passed, this step's result is PASS
+        
+                pth.proto.step('verify2')
+                pth.ver.verify(False, reqid='SRS-002')
+                pth.ver.verify(True, reqid='SRS-002')
+                pth.ver.verify(True, reqid='SRS-002')
+                # since one verify failed, this step's result is FAIL
+        
+                pth.proto.step('verify3')
+                pth.ver.verify(True, reqid='SRS-003')
+                pth.ver.verify(True, reqid='SRS-003')
+                pth.ver.verify(False, reqid='SRS-003')
+                # since one verify failed, this step's result is FAIL
+        
+                # at this point: another 3 steps have been added
+        ```
+        
+        * you can use pytest markers as normal
+        
+        ```
+            # --------------------
+            @pytest.mark.smoketest1
+            def test_init2(self):
+                pth.proto.protocol('tp-002', 'test the init2')
+        
+                pth.proto.step('verify1 everything is equal')
+                pth.ver.verify(1 == 1, reqid='SRS-001')
+                # note: this is the second time this requirment is verified
+        
+            # --------------------
+            def test_init3(self):
+                pth.proto.protocol('tp-003', 'test the init3')
+        
+                pth.proto.step('verify1 everything is equal')
+                pth.ver.verify(1 == 1, reqid='SRS-004')
+        ```
+        
+        * to generate a report use: pth.report() In the example above, this was done the
+          teardown() function for convenience. Normally it would be done in a separate mainline:
+        
+        ```
+          gen_report.py (or some other python script):
+          
+              from pytest_ver import pth
+              pth.report()
+        ```
+        
+        The PDF and .txt files are put into the out folder:
+        
+        ```
+        ls out
+        protocol.json   pytest_ver.txt  summary.pdf  tp_results.pdf  trace.json  trace.txt
+        pytest_ver.log  summary.json    summary.txt  tp_results.txt  trace.pdf
+        ```
+        
+        * the *.json files contain the protocol, step and verification info.
+        * The .txt files are the reports in text format for easy searchability
+        * The .pdf files are the reports
+        * pytest_ver.log is the log output
+        * pytest_ver.txt is the stdout capture from the doit script
+        
+        
+Keywords: verification,pytest
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Framework :: Pytest
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Testing :: Acceptance
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
