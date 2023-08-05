@@ -1,0 +1,107 @@
+# idl2js
+
+**Grammar-based Fuzzer that uses WebIDL as a grammar.**
+
+[![Build Status](https://img.shields.io/travis/PrVrSs/idl2js/master?style=plastic)](https://travis-ci.org/github/PrVrSs/idl2js)
+[![Codecov](https://img.shields.io/codecov/c/github/PrVrSs/idl2js?style=plastic)](https://codecov.io/gh/PrVrSs/idl2js)
+[![Python Version](https://img.shields.io/badge/python-3.10-blue?style=plastic)](https://www.python.org/)
+[![License](https://img.shields.io/cocoapods/l/A?style=plastic)](https://github.com/PrVrSs/idl2js/blob/master/LICENSE)
+
+
+## Quick start
+
+```shell script
+pip install idl2js
+```
+
+
+### Build from source
+
+*Get source and install dependencies*
+```shell script
+git clone https://gitlab.com/PrVrSs/idl2js.git
+cd idl2js
+poetry install
+```
+
+*Download ANTLR tool*
+```shell script
+wget https://www.antlr.org/download/antlr-4.9.3-complete.jar
+```
+
+*Generate parser*
+```shell script
+make grammar
+```
+
+*Run tests*
+```shell script
+make unit
+```
+
+
+### Examples
+
+```python
+from pathlib import Path
+from pprint import pprint
+
+from idl2js import InterfaceTarget, Transpiler
+
+
+class Blob(InterfaceTarget):
+    kind = 'Blob'
+
+
+def main():
+    transpiler = Transpiler(idls=(str(Path('blob.webidl').resolve()),))
+    transpiler.transpile(
+        targets=[
+            Blob,
+        ]
+    )
+
+    pprint(transpiler.js_instances)
+
+
+if __name__ == '__main__':
+    main()
+```
+
+
+#### Output
+
+```js
+try {v_e94935e94c7945829b5caeb9ba0201b8 = ['cwg']} catch(e){},
+try {v_4291cb5afec94ab3a460aefec633a11e = {type: 'wwny', endings: 'transparent'}} catch(e){},
+try {v_21068e2708dd47cd8c147e7ada78a3a0 = new Blob(v_e94935e94c7945829b5caeb9ba0201b8, v_4291cb5afec94ab3a460aefec633a11e)} catch(e){},
+try {v_58e162f31a56467cab976d37a37c4811 = ['p', v_21068e2708dd47cd8c147e7ada78a3a0]} catch(e){},
+try {v_5b148aa1d99e47d08642f65b2506d8e6 = {type: 'nrlsqlvc', endings: 'transparent'}} catch(e){},
+try {v_9828d85447f94e67accf856e0c09d2f9 = new Blob(v_58e162f31a56467cab976d37a37c4811, v_5b148aa1d99e47d08642f65b2506d8e6)} catch(e){},
+try {v_181663ba04e740699e6b59e8cb6bf49c = [v_9828d85447f94e67accf856e0c09d2f9, 'rkffvhfhtx']} catch(e){},
+try {v_c40591cfedec48cc8f367b32b92157fc = {type: 'jl', endings: 'native'}} catch(e){},
+try {v_6a1bcadcadbb4985b4a2951c4600f8b7 = new Blob(v_181663ba04e740699e6b59e8cb6bf49c, v_c40591cfedec48cc8f367b32b92157fc)} catch(e){},
+try {v_9c73ddd4f3f845c3a39e6cc908047b4e = [v_6a1bcadcadbb4985b4a2951c4600f8b7, 'bafassyvz']} catch(e){},
+try {v_9f8d17f370924cbb87314b057600f348 = {type: 'utnlst', endings: 'transparent'}} catch(e){},
+try {v_26948eb73f774ac39365c5b09229d4cd = new Blob(v_9c73ddd4f3f845c3a39e6cc908047b4e, v_9f8d17f370924cbb87314b057600f348)} catch(e){}
+```
+
+
+### Links
+
+* [searchfox - webidl](https://searchfox.org/mozilla-central/source/dom/webidl)
+* [original webidl parser](https://github.com/w3c/webidl2.js)
+* [TSJS-lib-generator](https://github.com/microsoft/TSJS-lib-generator/tree/master/inputfiles/idl)
+* [ECMAScript® 2021 Language Specification](https://tc39.es/ecma262/)
+* [Web IDL](https://heycam.github.io/webidl)
+* [Web IDL Spec](https://webidl.spec.whatwg.org/)
+
+
+## Contributing
+
+Any help is welcome and appreciated.
+
+
+## License
+
+*idl2js* is licensed under the terms of the Apache-2.0 License (see the file LICENSE).
