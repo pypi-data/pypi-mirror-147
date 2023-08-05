@@ -1,0 +1,10 @@
+tfbuild/actions.py,sha256=ThOEZgQBXwl1FA5_CZyssuYjqf16J2O-3daZLlZIScQ,17648
+tfbuild/cli.py,sha256=jkoF4tUmaSwIPFbydHIhAIdcAHzVsks5al2C5KKy2RI,729
+tfbuild/core.py,sha256=O0YWQMX1iHnRTm_5ZTEvNawVNAbj_QBKZz0Ft4Hw5-I,12192
+tfbuild/workspace.py,sha256=NkJjIJZAFOzFSi46ag6DmY5e4pWwx04a0EQNbkhrpZE,4700
+tfbuild-1.1.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+tfbuild-1.1.1.dist-info/METADATA,sha256=k1qLDZ7YQFBppBHJvncE3zcdMgf2_UovaNLgL0zpvVI,12087
+tfbuild-1.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tfbuild-1.1.1.dist-info/entry_points.txt,sha256=JguxiYPupsgwT7oOxW2ZotW8rhGepPxVK72s4KKfGB4,68
+tfbuild-1.1.1.dist-info/top_level.txt,sha256=_ZFMhPX68Z_I4CNkd7Bm07ZWNQbsk9iY41TJdF_PLkE,8
+tfbuild-1.1.1.dist-info/RECORD,,
