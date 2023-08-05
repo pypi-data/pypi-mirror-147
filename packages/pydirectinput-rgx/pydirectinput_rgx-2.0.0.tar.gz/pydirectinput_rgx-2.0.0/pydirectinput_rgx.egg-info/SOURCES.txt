@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+pydirectinput/__init__.py
+pydirectinput_rgx.egg-info/PKG-INFO
+pydirectinput_rgx.egg-info/SOURCES.txt
+pydirectinput_rgx.egg-info/dependency_links.txt
+pydirectinput_rgx.egg-info/top_level.txt
