@@ -1,0 +1,3 @@
+[console_scripts]
+slrt-configure = slack_async_alert.configure:set_configure
+
