@@ -1,0 +1,23 @@
+numpy
+pint
+toposort
+
+[dev]
+networkx
+psyneulink>=0.9.1.0
+pytest
+pytest-benchmark
+pytest-cov
+pytest-helpers-namespace
+pytest-pycodestyle
+pytest-pydocstyle
+pytest-xdist
+
+[dev:python_version >= "3.8"]
+coveragepy-lcov
+
+[docs]
+m2r2
+sphinx
+sphinx-autodoc-typehints
+sphinx-rtd-theme

@@ -1,0 +1,10 @@
+coveragepy-lcov; python_version >= '3.8'
+networkx
+psyneulink >=0.9.1.0
+pytest
+pytest-benchmark
+pytest-cov
+pytest-helpers-namespace
+pytest-pycodestyle
+pytest-pydocstyle
+pytest-xdist
