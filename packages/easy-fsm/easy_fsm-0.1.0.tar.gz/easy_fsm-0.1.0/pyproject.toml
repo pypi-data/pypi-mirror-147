@@ -1,0 +1,51 @@
+[tool.poetry]
+name = "easy_fsm"
+version = "0.1.0"
+description = "Easy to implement Finite State Machines"
+authors = ["David Delassus <david.jose.delassus@gmail.com>"]
+license = "MIT"
+
+readme = "README.rst"
+homepage = "https://github.com/linkdd/easy_fsm"
+repository = "https://github.com/linkdd/easy_fsm"
+keywords = ["easy", "finite", "state", "machine", "fsm"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Topic :: Software Development :: Libraries",
+  "Topic :: Utilities",
+  "Typing :: Typed",
+]
+include = [
+  "LICENSE.txt",
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+poethepoet = "^0.13.1"
+black = "^22.3.0"
+isort = "^5.10.1"
+mypy = "^0.942"
+pytest = "^7.1.1"
+
+[tool.black]
+use-tabs = false
+
+[tool.isort]
+profile = "black"
+
+[tool.poe.tasks]
+format = "poetry run black ."
+lint = "poetry run black --check ."
+typecheck = "poetry run mypy easy_fsm tests"
+test = "pytest"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
