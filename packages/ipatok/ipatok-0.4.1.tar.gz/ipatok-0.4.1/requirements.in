@@ -1,0 +1,9 @@
+# ipatok itself
+-e file:.
+
+# packaging
+flit
+
+# other tools
+flake8
+pip-tools
