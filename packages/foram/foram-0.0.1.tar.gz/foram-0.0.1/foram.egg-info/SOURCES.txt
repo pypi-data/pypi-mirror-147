@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+foram/__init__.py
+foram.egg-info/PKG-INFO
+foram.egg-info/SOURCES.txt
+foram.egg-info/dependency_links.txt
+foram.egg-info/requires.txt
+foram.egg-info/top_level.txt
+tests/__init__.py
+tests/test_metadata.py
