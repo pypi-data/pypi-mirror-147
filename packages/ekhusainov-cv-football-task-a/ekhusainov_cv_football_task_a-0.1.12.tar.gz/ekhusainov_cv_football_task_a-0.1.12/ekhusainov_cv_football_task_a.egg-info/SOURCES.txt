@@ -1,0 +1,9 @@
+README.md
+setup.py
+ekhusainov_cv_football_task_a/__init__.py
+ekhusainov_cv_football_task_a.egg-info/PKG-INFO
+ekhusainov_cv_football_task_a.egg-info/SOURCES.txt
+ekhusainov_cv_football_task_a.egg-info/dependency_links.txt
+ekhusainov_cv_football_task_a.egg-info/not-zip-safe
+ekhusainov_cv_football_task_a.egg-info/requires.txt
+ekhusainov_cv_football_task_a.egg-info/top_level.txt
