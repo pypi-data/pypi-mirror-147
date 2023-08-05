@@ -1,0 +1,33 @@
+
+{% extends 'base.html' %}
+
+{% load i18n %}
+
+
+{% block content %}
+
+
+    {% for object in object_list %}
+        <div>
+            <p>{{ object.name }}</p>
+            <p>{{ object.phone }}</p>
+            <p>{{ object.descriptions|safe }}</p>
+            <hr>
+        </div>
+    {% endfor %}
+
+{% block js %}
+{{ block.super }}
+<script>
+    (function ($) {
+        new Modal({
+            $target: $('[data-role=add-calback]'),
+            onSuccess: function (response) {
+                window.location.reload();
+            }
+        });
+    })(jQuery);
+</script>
+{% endblock %}
+
+{% endblock %}

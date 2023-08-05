@@ -1,0 +1,34 @@
+
+{% extends 'modal.html' %}
+
+{% load i18n %}
+
+
+{% block title %}
+    {% trans "Add callback" %}
+{% endblock %}
+
+
+{% block body %}
+    <form action="{{ request.get_full_path }}"
+          method="post"
+          enctype="multipart/form-data">
+
+        {% csrf_token %}
+
+        {{ form.as_p }}
+
+    </form>
+{% endblock %}
+
+
+{% block footer %}
+    <button type="button" class="btn btn-success pull-left" data-role="submit-btn">
+        <i class="fa fa-check"></i>
+        {% trans 'Save' %}
+    </button>
+
+    <button type="button" class="btn btn-default" data-bs-dismiss="modal">
+        {% trans 'Cancel' %}
+    </button>
+{% endblock %}
