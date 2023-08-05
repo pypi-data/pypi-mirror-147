@@ -1,0 +1,12 @@
+apeman_model/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+apeman_model/modelInstanceTaskStatus_pb2.py,sha256=SFZlf_v5QBKQ4K9w6PalIPa4xPYTySQa219uCdWx9d4,1682
+apeman_model/modelInstanceTaskStatus_pb2_grpc.py,sha256=xYOs94SXiNYAlFodACnsXW5QovLsHY5tCk3p76RH5Zc,158
+apeman_model_client/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+apeman_model_client/apemanModelClient.py,sha256=qMccCgW0okCGrvXx-my1jR7iqwUXx7dRizSkDUeAKsI,1714
+apeman_model_client/apemanModelClient_pb2.py,sha256=LVQsccDlNexSjV3hmoCiB2JfMc6lcal88Iw3T3eeoHo,3617
+apeman_model_client/apemanModelClient_pb2_grpc.py,sha256=yZqV6giXT33WC-QAEd1PGO4zwzRWHeeryO6iqJxKMus,4425
+apeman_model_client/model_instance_task_status.py,sha256=sbeS9VPBRTYp4R78vKyoVZX7UTl40TzyGCxm4lTk8Hc,191
+apeman_model_client-0.1.1.dist-info/METADATA,sha256=VxkVVCagaiFh_A-sg18i0y7Ezpmula3hFlK42KY1qeo,1169
+apeman_model_client-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+apeman_model_client-0.1.1.dist-info/top_level.txt,sha256=fYgrQLLNU5zxIemcMdCDlhEZmpp31xhnACSqCVEAU2I,33
+apeman_model_client-0.1.1.dist-info/RECORD,,
