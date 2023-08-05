@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: vgs-api-client
+Version: 0.0.1.dev202204181608
+Summary: Vault HTTP API
+Home-page: UNKNOWN
+Author: Very Good Security
+Author-email: support@verygoodsecurity.com
+License: UNKNOWN
+Keywords: VGS,VeryGoodSecurity,Vault HTTP API
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: urllib3 (>=1.25.3)
+Requires-Dist: python-dateutil
+
+# vgs-api-client-python
+
+This repository contains a Python API client library for the Very Good Security API.
+
+### Requirements
+
+Building and using the API client library requires Python 3.6+.
+
+### Installation
+
+```
+pip install vgs-api-client
+```
+
+### Development
+
+Follow [DEVELOPMENT](DEVELOPMENT.md) instruction.
+
+### Release
+
+Follow [RELEASE](RELEASE.md) instruction.
+
+### Documentation
+
+https://www.verygoodsecurity.com/docs/vault/api/
+
+### Tutorial
+
+https://www.verygoodsecurity.com/docs/tokenization/python-tutorial
+
+### Support
+
+dev@verygoodsecurity.com
+
