@@ -1,0 +1,36 @@
+{% load i18n widget_tweaks %}
+<div class="card mb-3 position-sticky" style="top: 100px;">
+  <div class="card-body">
+    <form action="{{ view.index_url }}" method="get">
+      <div class="mb-3">
+        <div class="mb-3">
+          <h5>{% trans "Search Name" %}</h5>
+          {% trans "Search" as placeholder %}
+          {% render_field filter.form.name class="form-control" placeholder=placeholder %}
+        </div>
+        <div>
+          <h5>{% trans "Filter by Group" %}</h5>
+          {% for value, text in filter.form.group.field.choices %}
+            <div class="form-check form-control-sm form-switch">
+              <input class="form-check-input me-2" name="group" {% if value|lower in filter.form.group.value %}checked{% endif %} type="checkbox" id="id_group_{{ value }}" value="{{ value }}">
+              <label class="form-check-label fw-normal mb-0" style="padding-top: .1rem;" for="id_group_{{ value }}">{{ text|title }}</label>
+            </div>
+          {% endfor %}
+        </div>
+        {% if filter.form.product_type.field.choices|length > 1 %}
+        <div>
+          <h5>{% trans "Filter by Services" %}</h5>
+          {% for value, text in filter.form.product_type.field.choices %}
+            <div class="form-check form-control-sm form-switch">
+              <input class="form-check-input me-2" name="product_type" {% if value|lower in filter.form.product_type.value %}checked{% endif %} type="checkbox" id="id_product_type_{{ value }}" value="{{ value }}">
+              <label class="form-check-label fw-normal mb-0" style="padding-top: .1rem;" for="id_product_type_{{ value }}">{{ text|title }}</label>
+            </div>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+      <button class="btn btn-primary mb-2 w-100" type="submit">{% trans "Filter Service" %}</button>
+      <a class="btn btn-primary w-100" href="{{ view.index_url }}">{% trans "Reset" %}</a>
+    </form>
+  </div>
+</div>

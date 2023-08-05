@@ -1,0 +1,10 @@
+django<4.0,>=3.2.8
+django-filer
+django-mptt
+django-import-export
+django-polymorphic
+django-taggit
+simpel_admin
+simpel_numerators
+simpel_utils
+easy-thumbnails

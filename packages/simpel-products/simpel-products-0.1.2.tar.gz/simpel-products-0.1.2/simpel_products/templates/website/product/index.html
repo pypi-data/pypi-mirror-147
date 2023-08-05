@@ -1,0 +1,68 @@
+{% extends 'base_site.html' %}
+{% load static i18n products_tags widget_tweaks routers_tags thumbnail %}
+{% load comments %}
+
+{% block breadcrumbs %}
+<li class="breadcrumb-item"><a href="{{ site_root }}">{% translate 'Home' %}</a></li>
+<li class="breadcrumb-item active">{{ opts.verbose_name_plural }}</li>
+{% endblock %}
+
+{% block content %}
+
+  <div class="row">
+    <div class="col-lg-8">
+      {% for object in object_list %}
+       {% object_url 'website' "simpel_products.Product" action="inspect" pk=object.id as inspect_url %}
+       <div class="card mb-2">
+        <div class="card-body">
+          <div class="d-flex justify-content-between">
+            <div class="d-flex me-3">
+              <div class="me-3">
+                {% if object.thumbnail.url %}
+                  <img width="100" src="{% thumbnail object.thumbnail 150x150 crop %}" alt="">
+                {% else %}
+                  <img width="100" src="{% static 'simpelsites/img/illustrations/noimage.png' %}" alt="">
+                {% endif %}
+              </div>
+              <div class="flex-fill">
+                <a class="link-dark" href="{{ inspect_url }}"><h2 class="h5 mb-1 fw-bold">{{ object.name }}</h2></a>
+                <div class="small mb-2">
+                  <span class="d-inline-block me-2">{{ object.opts.verbose_name }}</span>
+                  {% if object.category %}
+                    <span>{{ object.category }}</span>
+                  {% endif %}
+                  {% if object.tags.count %}
+                    {% for tag in tags %}
+                      <span>{{ object.tag }}</span>
+                    {% endfor %}
+                  {% endif %}
+                  {% get_comment_count for object as comment_count %}
+                  <span>{{ comment_count }} comment{{ comment_count|pluralize }}</span>
+                </div>
+                <div>{{ object.description|truncatechars:120 }}</div>
+              </div>
+            </div>
+            <div class="flex-shrink-0 text-end">
+              <div class="fs-5 mb-2">{{ object.estimation_price|currency }}</div>
+              <a class="btn btn-sm btn-primary" href="{{ inspect_url }}">{% trans "Inspect" %}</a>
+              {% object_url 'website' 'simpel_shop.CartItem' action='add_item' pk=object.id as cart_url %}
+              {% if user.is_authenticated and cart_url %}
+                <a class="btn btn-sm btn-primary" href="{{ cart_url }}">{% trans "Add To Cart" %}</a>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+       </div>
+      {% empty %}
+        {% include 'includes/noresults.html' %}
+      {% endfor %}
+      {% if is_paginated %}
+        {% include 'includes/pagination.html' %}
+      {% endif %}
+    </div>
+    <div class="col-lg-4">
+      {% include 'website/product/filter.html' %}
+    </div>
+  </div>
+  
+{% endblock %}

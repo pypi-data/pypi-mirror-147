@@ -1,0 +1,169 @@
+{% extends 'admin/inspect.html' %}
+{% load i18n static admin_urls admin_modify products_tags %}
+
+{% block title %}{{ object }}{% endblock %}
+{% block extrastyle %}
+
+<style>
+  .w-150px {
+    width: 150px;
+    display: inline-block;
+  }
+</style>
+
+{% block object-tools-extra %}
+{% if cartitem_opts %}
+  {% url cartitem_opts|admin_urlname:'add_item' object.pk|admin_urlquote as add_to_cart_url %}
+  {% if add_to_cart_url %}
+    <li>
+      <a href="{% add_preserved_filters add_to_cart_url %}" class="addtocartlink">
+        {% trans "Add to Cart" %}
+      </a>
+    </li>
+  {% endif %}
+{% endif %}
+{% endblock object-tools-extra %}
+
+{% endblock extrastyle %}
+
+{% if not is_popup %}
+  {% block breadcrumbs %}
+  <div class="breadcrumbs">
+  <a href="{% url 'admin:index' %}">{% translate 'Home' %}</a>
+    {% if base_opts %}
+      &rsaquo; <a href="{% url base_opts|admin_urlname:'changelist' %}">{{ base_opts.verbose_name_plural|capfirst }}</a>
+    {% endif %}
+    &rsaquo; <a href="{% url opts|admin_urlname:'changelist' %}">{{ opts.verbose_name_plural|capfirst }}</a>
+    &rsaquo; {{ object }}
+  </div>
+  {% endblock %}
+{% endif %}
+
+{% block content_main %}
+
+  <div class="">
+    <div class="col-lg-9">
+      <div class="card">
+        <div class="card-body">
+          <div>
+            <h2>{{ object.estimation_price }}</h2>
+            <div><strong class="w-150px">{% trans "Estimation Price" %}</strong>: {{ object.estimation_price }}</div>
+            <div><strong class="w-150px">{% trans "Partial" %}</strong>: {{ object.is_partial }}</div>
+            {% if object.is_stockable %}
+              <div><strong class="w-150px">{% trans "Minimum Stock" %}</strong>: {{ object.min_stock }}</div>
+              <div><strong class="w-150px">{% trans "Maximum Stock" %}</strong>: {{ object.max_stock }}</div>
+            {% endif %}
+            <div><strong class="w-150px">{% trans "Minimum Order" %}</strong>: {{ object.min_order }}</div>
+            <div><strong class="w-150px">{% trans "Maximum Order" %}</strong>: {{ object.max_order }}</div>
+            <div><strong class="w-150px">{% trans "Category" %}</strong>: {{ object.category }}</div>
+            <div><strong class="w-150px">{% trans "Tags" %}</strong>: 
+              {% for tag in object.tags.all %}
+                <span>{{ tag|title }}</span>
+              {% empty %}
+                <span>{% trans "No Tag" %}</span>
+              {% endfor %}
+            </div>
+          </div>
+  
+          <div class="mt-0">
+            <h2>{% trans "Description" %}</h2>
+            <div>{% if object.description %}{{ object.description|safe }}{% else %}{% trans "No description" %}{% endif %}</div>
+          </div>
+        
+          {% if object.audience_criterias %}
+            <div class="mt-6">
+              <h2>{% trans "Audience Criteria" %}</h2>
+              <div>{{ object.audience_criterias|safe }}</div>
+            </div>
+          {% endif %}
+        
+          {% if object.specifications.all %}
+            <div class="mt-6">
+              <h2>{% trans "Specifications" %}</h2>
+              <ul>
+                {% for spec in object.specifications.all %}
+                  <li>
+                    <h3>{{ spec.feature }}</h3>
+                    {% if spec.description %}<div class="">{{ spec.description|safe }}</div>{% endif %}
+                    {% if spec.value %}<span class="text-muted">{% trans "Minimum Value" %}: {{ spec.value }}</span>{% endif %}
+                  </li>
+                {% endfor %}
+              </ul>
+            </div>
+          {% endif %}
+        
+          {% if object.topics.count %}
+            <div class="mt-6">
+              <h2>{% trans "Training Topics" %}</h2>
+              <ul>
+                {% for topic in object.topics.all %}
+                  <li>
+                    <h3>{{ topic.title }}</h3>
+                    {% if topic.description %}<p>{{ topic.description|safe }}</p>{% endif %}
+                  </li>
+                {% endfor %}
+              </ul>
+            </div>
+          {% endif %}
+        
+          {% if object.specific.bundle_items.count %}
+            <div class="module">
+              <h2>{% trans "Bundled Items" %}</h2>
+              <table id="change-history" class="table small mb-0">
+                <thead>
+                  <tr>
+                    <th class="bg-gray-50 align-middle">{% trans "Inner ID" %}</th>
+                    <th class="bg-gray-50 align-middle">{% trans "Product" %}</th>
+                    <th width="80" class="bg-gray-50 align-middle text-center">{% trans "Unit" %}</th>
+                    <th width="150" class="bg-gray-50 align-middle">{% trans "Quantity" %}</th>
+                    <th width="100" class="bg-gray-50 text-end align-middle">{% trans "Tarif" %}</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {% for bundle in object.bundle_items.all %}
+                    <tr>
+                      <td class="align-middle">{{ bundle.item.inner_id }}</td>
+                      <td class="align-middle">{{ bundle.item }}</td>
+                      <td class="align-middle text-center">{% if bundle.item.unit %}{{ recommendation.item.unit|safe }}{% else %}-{% endif %}</td>
+                      <td class="align-middle">{{ bundle.quantity }}</td>
+                      <td class="text-end align-middle">{{ bundle.total }}</td>
+                    </tr>
+                  {% endfor %}
+                </tbody>
+              </table>
+            </div>
+          {% endif %}
+          
+          {% if object.recommended_items.count %}
+            <div class="module">
+              <h2>{% trans "Recommended Items" %}</h2>
+              <table id="change-history" class="table small mb-0">
+                <thead>
+                  <tr>
+                    <th class="bg-gray-50 align-middle">{% trans "Inner ID" %}</th>
+                    <th class="bg-gray-50 align-middle">{% trans "Product" %}</th>
+                    <th width="80" class="bg-gray-50 align-middle text-center">{% trans "Satuan" %}</th>
+                    <th width="120" class="bg-gray-50 align-middle">{% trans "Quantity" %}</th>
+                    <th width="110" class="bg-gray-50 text-end align-middle">{% trans "Tarif" %}</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {% for recommendation in object.recommended_items.all %}
+                    <tr>
+                      <td class="align-middle">{{ recommendation.product.inner_id }}</td>
+                      <td class="align-middle">{{ recommendation.product }}</td>
+                      <td class="align-middle text-center">{% if recommendation.product.unit_code %}{{ recommendation.product.unit_code }}{% endif %}</td>
+                      <td class="align-middle">{{ recommendation.quantity }} {% if recommendation.product.unit %}{{ recommendation.product.unit|safe }}{% endif %}</td>
+                      <td class="text-end align-middle">{{ recommendation.total }}</td>
+                    </tr>
+                  {% endfor %}
+                </tbody>
+              </table>
+            </div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+{% endblock %}

@@ -1,0 +1,263 @@
+{% extends 'base_site.html' %}
+{% load static i18n products_tags thumbnail routers_tags %}
+
+{% block breadcrumbs %}
+<li class="breadcrumb-item"><a href="{% url 'index' %}">{% translate 'Home' %}</a></li>
+<li class="breadcrumb-item"><a href="{{ view.index_url }}">{{ opts.verbose_name_plural }}</a></li>
+<li class="breadcrumb-item active">{{ object.specific.opts.verbose_name_plural }}</li>
+<li class="breadcrumb-item active">{{ object }}</li>
+{% endblock %}
+
+
+{% block content %}
+
+<div class="row">
+  <div class="col-lg-8">
+    <div class="card">
+      <div class="card-body">
+        <div class="d-flex">
+          <div>
+            {% if object.thumbnail.url %}
+              <img class="me-3" width="150" src="{% thumbnail object.thumbnail 150x150 crop %}" alt="">
+            {% else %}
+              <img class="me-3" width="150" src="{% static 'simpelsites/img/illustrations/noimage.png' %}" alt="">
+            {% endif %}
+          </div>
+          <div>
+            <div class="mb-2">{{ object.opts.verbose_name }} {% if object.parent %}- <a href="{% object_url view.namespace 'simpel_products.Product' action='inspect' pk=object.parent.id %}">{{ object.parent.name }}</a>{% endif %}</div>
+            <h1 class="h4 fw-bold mb-2">{{ object }}</h1>
+            {% if object.alias_name %}
+              <div class="mb-3"><strong>{% trans "Alias Name" %}</strong>: {{ object.alias_name }}</div>
+            {% endif %}
+            <div class="mb-3">{% if object.description %}{{ object.description|safe }}{% else %}{% trans "No description" %}{% endif %}</div>
+          </div>
+        </div>
+  
+        {% if object.audience_criterias %}
+          <div class="mt-4">
+            <div class="h5 fw-bold mb-3">{% trans "Audience Criteria" %}</div>
+            <div>{{ object.audience_criterias|safe }}</div>
+          </div>
+        {% endif %}
+      
+        {% if object.specifications.all %}
+          <div class="mt-4">
+            <div class="h5 fw-bold mb-3">{% trans "Specifications" %}</div>
+            <ul>
+              {% for spec in object.specifications.all %}
+                <li>
+                  <div class="fw-bold">{{ spec.feature }}</div>
+                  {% if spec.description %}<div class="small">{{ spec.description|safe }}</div>{% endif %}
+                  {% if spec.value %}<span class="small text-muted">{% trans "Minimum Value" %}: {{ spec.value }}</span>{% endif %}
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+        {% endif %}
+      
+        {% if object.topics.count %}
+          <div class="mt-4">
+            <div class="h5 fw-bold mb-3">{% trans "Training Topics" %}</div>
+            <ul>
+              {% for topic in object.topics.all %}
+                <li>
+                  <div class="fw-bold">{{ topic.title }}</div>
+                  {% if topic.description %}<p class="small">{{ topic.description|safe }}</p>{% endif %}
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+        {% endif %}
+  
+        {% if object.specific.bundle_items.count %}
+          <div class="mt-4">
+            <div class="h5 fw-bold mb-3">{% trans "Bundled Items" %}</div>
+            <div class="table-responsive">
+              <table class="table small mb-0">
+                <thead>
+                  <tr>
+                    <th class="bg-gray-50 align-middle">{% trans "Inner ID" %}</th>
+                    <th class="bg-gray-50 align-middle">{% trans "Product" %}</th>
+                    <th width="80" class="bg-gray-50 align-middle text-center">{% trans "Unit" %}</th>
+                    <th width="150" class="bg-gray-50 align-middle">{% trans "Quantity" %}</th>
+                    <th width="100" class="bg-gray-50 text-end align-middle">{% trans "Tarif" %}</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {% for bundle in object.specific.bundle_items.all %}
+                    <tr>
+                      <td class="align-middle">{{ bundle.product.inner_id }}</td>
+                      <td class="align-middle">{{ bundle.product }}</td>
+                      <td class="align-middle text-center">{% if bundle.product.unit %}{{ bundle.product.unit|safe }}{% else %}-{% endif %}</td>
+                      <td class="align-middle">{{ bundle.quantity }}</td>
+                      <td class="text-end align-middle">{{ bundle.total|currency }}</td>
+                    </tr>
+                  {% endfor %}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        {% endif %}
+        
+        {% if object.specific.recommended_items.count %}
+          <div class="mt-4">
+            <div class="h5 fw-bold mb-3">{% trans "Recommended Items" %}</div>
+            <div class="table-responsive">
+              <table class="table small mb-0">
+                <thead>
+                  <tr>
+                    <th class="bg-gray-50 align-middle">{% trans "Inner ID" %}</th>
+                    <th class="bg-gray-50 align-middle">{% trans "Product" %}</th>
+                    <th width="80" class="bg-gray-50 align-middle text-center">{% trans "Satuan" %}</th>
+                    <th width="120" class="bg-gray-50 align-middle">{% trans "Quantity" %}</th>
+                    <th width="110" class="bg-gray-50 text-end align-middle">{% trans "Tarif" %}</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {% for recommendation in object.specific.recommended_items.all %}
+                    <tr>
+                      <td class="align-middle">{{ recommendation.product.inner_id }}</td>
+                      <td class="align-middle">{{ recommendation.product }}</td>
+                      <td class="align-middle text-center">{% if recommendation.product.unit_code %}{{ recommendation.product.unit_code }}{% endif %}</td>
+                      <td class="align-middle">{{ recommendation.quantity }} {% if recommendation.product.unit %}{{ recommendation.product.unit|safe }}{% endif %}</td>
+                      <td class="text-end align-middle">{{ recommendation.total|currency }}</td>
+                    </tr>
+                  {% endfor %}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        {% endif %}
+        
+        {% if object.variants.count %}
+        <div class="mt-4">
+          <div class="list-group h5 fw-bold mb-3">{% trans "Variants" %}</div>
+          <div class="bg-white">
+            <div class="scrollbars pb-1" style="max-height:320px; overflow-y: auto;">
+              {% for variant in object.variants.all %}
+                <div class="list-group-item p-3 d-flex">
+                  <div class="flex-fill">
+                    <a href="{% object_url view.namespace 'simpel_products.Product' action='inspect' pk=variant.id %}" class="link-dark fw-bold">
+                      <div class="mb-2">
+                        {{ variant.name|truncatechars:60 }}
+                      </div>
+                    </a>
+                  </div>
+                  <div class="text-end nowrap">
+                    <div class="fw-bold ms-3 mb-2">{{ variant.estimation_price|currency }}</div>
+                    <div>
+                      <a href="{% object_url view.namespace 'simpel_products.Product' action='inspect' pk=variant.id %}" class="btn btn-sm btn-primary">{% trans "Inspect" %}</a>
+                      <a href="#" class="btn btn-sm btn-primary">{% trans "Add to Cart" %}</a>
+                    </div>
+                  </div>
+                </div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+        {% endif %}
+
+      </div>
+
+      {% block comments %}{% endblock comments %}
+
+    </div>
+  </div>
+
+  <div class="col-lg-4">
+    <div class="card position-sticky" style="top:100px;">
+      <div class="card-body">
+        <div class="list-group list-group-flush">
+          <div class="list-group-item">
+            <h3 class="h6 fw-bold">{% trans "Price" %}</h3>
+            <div class="h4">{{ object.estimation_price|currency }}</div>
+          </div>
+          <div class="list-group-item">
+            <table class="table table-borderless small">
+              <tbody>
+                <tr>
+                  <th class="ps-0">
+                    {% trans "Estimation" %}
+                    <i class="mdi mdi-help-circle-outline"
+                        data-bs-toggle="popover"
+                        data-bs-trigger="hover"
+                        data-bs-placement="top"
+                        data-bs-content="{% trans "Total price with all recommended bundled items" %}"
+                      ></i>
+                  </th>
+                  <td class="text-end">{{ object.estimation_price|currency }}</td>
+                </tr>
+                {% if object.min_stock %}
+                <tr>
+                  <th class="ps-0 py-1">{% trans "Minimum Stock" %}</th>
+                  <td class="text-end py-1">{{ object.min_stock }}</td>
+                </tr>
+                {% endif %}
+                {% if object.max_stock %}
+                <tr>
+                  <th class="ps-0 py-1">{% trans "Maximum Stock" %}</th>
+                  <td class="text-end py-1">{{ object.max_stock }}</td>
+                </tr>
+                {% endif %}
+                <tr>
+                  <th class="ps-0 py-1">{% trans "Minimum Order" %}</th>
+                  <td class="text-end py-1">{{ object.min_order }}</td>
+                </tr>
+                <tr>
+                  <th class="ps-0 py-1">{% trans "Maximum Order" %}</th>
+                  <td class="text-end py-1">{{ object.max_order }}</td>
+                </tr>
+                {% if object.analysis_method %}
+                <tr>
+                  <th class="ps-0 py-1">{% trans "Analysis Method" %}</th>
+                  <td class="text-end py-1">{{ object.analysis_method }}</td>
+                </tr>
+                {% endif %}
+                <tr>
+                  <th class="ps-0 py-1">
+                    {% trans "Partial" %}
+                    <i class="mdi mdi-help-circle-outline"
+                        data-bs-toggle="popover"
+                        data-bs-trigger="hover"
+                        data-bs-placement="top"
+                        data-bs-content="{% trans "Can be included as bundled item." %}"
+                      ></i>
+                  </th>
+                  <td class="text-end py-1">
+                    {% if object.is_partial %}
+                      <i class="mdi text-success mdi-check-circle"></i>
+                    {% else %}
+                      <i class="mdi text-danger mdi-close-circle"></i>
+                    {% endif %}
+                  </td>
+                </tr>
+                <tr>
+                  <th class="ps-0 py-1">{% trans "Category" %}</th>
+                  <td class="text-end py-1">{% if object.category %}{{ object.category }} {% else %} {% trans "Uncategorized" %} {% endif %}</td>
+                </tr>
+                <tr>
+                  <th class="ps-0 py-1">{% trans "Tags" %}</th>
+                  <td class="text-end py-1">
+                    {% for tag in object.tags.all %}
+                      <span class="badge bg-opacity-50 bg-primary d-inline-block">
+                        {{ tag|title }}
+                      </span>
+                    {% empty %}
+                      {% trans "No Tag" %}
+                    {% endfor %}
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        {% object_url 'website' 'simpel_shop.CartItem' action='add_item' pk=object.id as cart_url %}
+        {% if user.is_authenticated and cart_url %}
+          <a href="#" class="btn btn-primary w-100">{% trans "Add to Cart" %}</a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
