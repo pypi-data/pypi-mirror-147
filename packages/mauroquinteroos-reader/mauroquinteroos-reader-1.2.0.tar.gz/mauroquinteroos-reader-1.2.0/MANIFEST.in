@@ -1,0 +1,2 @@
+include reader/*.cfg
+include reader/*.xml

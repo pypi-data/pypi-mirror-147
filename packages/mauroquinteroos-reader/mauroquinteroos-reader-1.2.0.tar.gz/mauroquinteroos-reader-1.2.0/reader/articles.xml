@@ -1,0 +1,1887 @@
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Real Python</title>
+  <link href="https://realpython.com/atom.xml" rel="self"/>
+  <link href="https://realpython.com/"/>
+  <updated>2022-04-15T12:00:00+00:00</updated>
+  <id>https://realpython.com/</id>
+  <author>
+    <name>Real Python</name>
+  </author>
+  <entry>
+    <title>The Real Python Podcast – Episode #106: Class Constructors & Pythonic Image Processing</title>
+    <id>https://realpython.com/podcasts/rpp/106/</id>
+    <link href="https://realpython.com/podcasts/rpp/106/"/>
+    <updated>2022-04-15T12:00:00+00:00</updated>
+    <summary>Do you know the difference between creating a class instance and initializing it? Would you like an interactive tour of the Python Pillow library? This week on the show, Christopher Trudeau is here, and he's brought another batch of PyCoder's Weekly articles and projects.</summary>
+    <content type="html">
+      <p>Do you know the difference between creating a class instance and initializing it? Would you like an interactive tour of the Python Pillow library? This week on the show, Christopher Trudeau is here, and he's brought another batch of PyCoder's Weekly articles and projects.</p>
+      <hr />
+      <p>
+        <em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]
+        </em>
+      </p>
+    </content>
+  </entry>
+  <entry>
+    <title>Python Virtual Environments: A Primer</title>
+    <id>https://realpython.com/python-virtual-environments-a-primer/</id>
+    <link href="https://realpython.com/python-virtual-environments-a-primer/"/>
+    <updated>2022-04-13T14:00:00+00:00</updated>
+    <summary>In this tutorial, you'll learn how to use a Python virtual environment to manage your Python projects. You'll also dive deep into the structure of virtual environments built using the venv module, as well as the reasoning behind using virtual environments.</summary>
+    <content type="html">
+      <div>
+        <p>In this tutorial, you’ll learn how to work with <a href="https://docs.python.org/3/library/venv.html">Python’s <code>venv</code> module</a> to create and manage separate <a href="https://docs.python.org/3/library/venv.html#venv-def">virtual environments</a> for your Python projects. Each environment can use different versions of package dependencies and Python. After you’ve learned to work with virtual environments, you’ll know how to help other programmers reproduce your development setup, and you’ll make sure that your projects never cause dependency conflicts for one another.</p>
+      <p>
+        <strong>By the end of this tutorial, you’ll know how to:</strong>
+      </p>
+      <ul>
+        <li>
+          <strong>Create</strong> and <strong>activate</strong> a <strong>Python virtual environment</strong>
+        </li>
+        <li>Explain <strong>why</strong> you want to <strong>isolate external dependencies</strong>
+        </li>
+        <li>
+          <strong>Visualize what Python does</strong> when you create a virtual environment</li>
+        <li>
+          <strong>Customize</strong> your virtual environments using <strong>optional arguments</strong> to <code>venv</code>
+        </li>
+        <li>
+          <strong>Deactivate</strong> and <strong>remove</strong> virtual environments</li>
+        <li>Choose <strong>additional tools for managing</strong> your Python versions and virtual environments</li>
+      </ul>
+      <p>Virtual environments are a common and effective technique used in Python development. Gaining a better understanding of how they work, why you need them, and what you can do with them will help you master your Python programming workflow.</p>
+      <div class="alert alert-warning" role="alert">
+        <p>
+          <strong>Free Bonus:</strong>
+          <a href="" class="alert-link" data-toggle="modal" data-target="#modal-dependency-pitfalls-email-course" data-focus="false">Click here to get access to a free 5-day class</a> that shows you how to avoid common dependency management issues with tools like Pip, PyPI, Virtualenv, and requirements files.</p>
+      </div>
+      <p>Throughout the tutorial, you can select code examples for either Windows, Ubuntu Linux, or macOS. Pick your platform at the top right of the relevant code blocks to get the commands that you need, and feel free to switch between your options if you want to learn how to work with Python virtual environments on other operating systems.</p>
+      <h2 id="how-can-you-work-with-a-python-virtual-environment">How Can You Work With a Python Virtual Environment?<a class="headerlink" href="#how-can-you-work-with-a-python-virtual-environment" title="Permanent link"></a>
+      </h2>
+      <p>If you just need to get a Python virtual environment up and running to continue working on your favorite project, then this section is the right place for you.</p>
+      <p>The instructions in this tutorial use <a href="https://docs.python.org/3/library/venv.html">Python’s <code>venv</code> module</a> to create virtual environments. This module is part of Python’s standard library, and it’s the officially recommended way to create virtual environments since Python 3.5.</p>
+    <div class="alert alert-primary" role="alert">
+      <p>
+        <strong>Note:</strong> There are other great third-party tools for creating virtual environments, such as <a href="#the-conda-package-and-environment-manager">conda</a> and <a href="#the-virtualenv-project">virtualenv</a>, that you can learn more about later in this tutorial. Any of these tools can help you set up a Python virtual environment.</p>
+    </div>
+    <p>For basic usage, <code>venv</code> is an excellent choice because it already comes packaged with your Python installation. With that in mind, you’re ready to create your first virtual environment in this tutorial.</p>
+    <h3 id="create-it">Create It<a class="headerlink" href="#create-it" title="Permanent link"></a>
+    </h3>
+    <p>Any time you’re working on a Python project that uses external dependencies that you’re <a href="https://realpython.com/what-is-pip/">installing with <code>pip</code>
+    </a>, it’s best to first create a virtual environment:</p>
+  <ul class="nav nav-tabs justify-content-end js-platform-widget-tabs" role="tablist">
+    <li class="nav-item mb-0 js-platform-widget-tab-windows" role="presentation">
+      <a class="nav-link link-unstyled text-body active small" id="windows-tab-1" data-toggle="tab" href="#windows-1" role="tab" aria-controls="windows-1" aria-selected="true">
+        <i class="fa fa-windows text-muted mr-1" aria-hidden="true"></i>Windows</a>
+    </li>
+    <li class="nav-item mb-0 js-platform-widget-tab-linux" role="presentation">
+      <a class="nav-link link-unstyled text-body small " id="linux-tab-1" data-toggle="tab" href="#linux-1" role="tab" aria-controls="linux-1" aria-selected="false">
+        <i class="fa fa-linux text-muted mr-1" aria-hidden="true"></i>Linux</a>
+    </li>
+    <li class="nav-item mb-0 js-platform-widget-tab-macos" role="presentation">
+      <a class="nav-link link-unstyled text-body small" id="macos-tab-1" data-toggle="tab" href="#macos-1" role="tab" aria-controls="macos-1" aria-selected="false">
+        <i class="fa fa-apple text-muted mr-1" aria-hidden="true"></i>macOS</a>
+    </li>
+  </ul>
+  <div class="tab-content mt-2 mb-0 js-platform-widget-content">
+    <div aria-labelledby="windows-tab-1" class="tab-pane fade show active" id="windows-1" role="tabpanel">
+      <div class="highlight pscon">
+        <pre>
+          <span></span>
+          <code>
+            <span class="gp">PS&gt; </span>
+            <span class="n">python</span>
+            <span class="n">-m</span>
+            <span class="n">venv</span>
+            <span class="n">venv</span>
+          </code>
+        </pre>
+      </div>
+      <p>If you’re <a href="https://docs.python.org/3/using/windows.html#using-on-windows">using Python on Windows</a> and you haven’t configured the <code>PATH</code> and <code>PATHEXT</code> variables, then you might need to provide the full path to your Python executable:</p>
+      <div class="highlight pscon">
+        <pre>
+          <span></span>
+          <code>
+            <span class="gp">PS&gt; </span>
+            <span class="n">C</span>
+            <span class="err">:</span>
+            <span class="p">\</span>
+            <span class="n">Users</span>
+            <span class="p">\</span>
+            <span class="n">Name</span>
+            <span class="p">\</span>
+            <span class="n">AppData</span>
+            <span class="p">\</span>
+            <span class="n">Local</span>
+            <span class="p">\</span>
+            <span class="n">Programs</span>
+            <span class="p">\</span>
+            <span class="n">Python</span>
+            <span class="p">\</span>
+            <span class="n">Python310</span>
+            <span class="p">\</span>
+            <span class="n">python</span>
+            <span class="n">-m</span>
+            <span class="n">venv</span>
+            <span class="n">venv</span>
+          </code>
+        </pre>
+      </div>
+      <p>The system path shown above assumes that you installed Python 3.10 using the Windows installer provided by the <a href="https://www.python.org/downloads/">Python downloads page</a>. The path to the Python executable on your system might be different. Working with PowerShell, you can find the path using the <code>where.exe python</code> command.</p>
+    </div>
+    <div aria-labelledby="linux-tab-1" class="tab-pane fade " id="linux-1" role="tabpanel">
+      <div class="highlight sh">
+        <pre>
+          <span></span>
+          <code>
+            <span class="gp">$ </span>python3 -m venv venv </code>
+        </pre>
+      </div>
+      <p>Many Linux operating systems ship with a version of Python 3. If <code>python3</code> doesn’t work, then you’ll have to first <a href="https://realpython.com/installing-python/">install Python</a>, and you may need to use the specific name of the executable version that you installed, for example <code>python3.10</code> for Python 3.10.x. If that’s the case for you, remember to replace mentions of <code>python3</code> in the code blocks with your specific version number.</p>
+    </div>
+    <div aria-labelledby="macos-tab-1" class="tab-pane fade " id="macos-1" role="tabpanel">
+      <div class="highlight sh">
+        <pre>
+          <span></span>
+          <code>
+            <span class="gp">$ </span>python3 -m venv venv </code>
+        </pre>
+      </div>
+      <p>Older versions of macOS come with a system installation of Python 2.7.x that you should <em>never</em> use to run your scripts. If you’re working on macOS &lt; 12.3 and invoke the Python interpreter with <code>python</code> instead of <code>python3</code>, then you might accidentally start up the outdated system Python interpreter.</p>
+      <p>If running <code>python3</code> doesn’t work, then you’ll have to first <a href="https://realpython.com/installing-python/">install a modern version of Python</a>.
+      </p>
+    </div>
+  </div>
+  <h3 id="activate-it">Activate It<a class="headerlink" href="#activate-it" title="Permanent link"></a>
+  </h3>
+  <p>Great! Now your project has its own virtual environment. Generally, before you start using it, you’ll first <strong>activate</strong> the environment by executing a script that comes with the installation:</p>
+  <ul class="nav nav-tabs justify-content-end js-platform-widget-tabs" role="tablist">
+    <li class="nav-item mb-0 js-platform-widget-tab-windows" role="presentation">
+      <a class="nav-link link-unstyled text-body active small" id="windows-tab-2" data-toggle="tab" href="#windows-2" role="tab" aria-controls="windows-2" aria-selected="true">
+        <i class="fa fa-windows text-muted mr-1" aria-hidden="true"></i>Windows</a>
+    </li>
+    <li class="nav-item mb-0 js-platform-widget-tab-linuxmacos" role="presentation">
+      <a class="nav-link link-unstyled text-body small" id="macos-tab-2" data-toggle="tab" href="#linux-macos-2" role="tab" aria-controls="linux-macos-2" aria-selected="false">
+        <i class="fa fa-linux text-muted mr-1" aria-hidden="true"></i>
+        <i class="fa fa-apple text-muted mr-1" aria-hidden="true"></i>Linux + macOS</a>
+    </li>
+  </ul>
+  <div class="tab-content mt-2 mb-0 js-platform-widget-content">
+    <div aria-labelledby="windows-tab-2" class="tab-pane fade show active" id="windows-2" role="tabpanel">
+      <div class="highlight pscon">
+        <pre>
+          <span></span>
+          <code>
+            <span class="gp">PS&gt; </span>
+            <span class="n">venv</span>
+            <span class="p">\</span>
+            <span class="n">Scripts</span>
+            <span class="p">\</span>
+            <span class="n">Activate</span>
+            <span class="p">.</span>
+            <span class="n">ps1</span>
+            <span class="gp gp-VirtualEnv">(venv)</span>
+            <span class="gp">PS&gt;</span>
+          </code>
+        </pre>
+      </div>
+    </div>
+    <div aria-labelledby="linux-macos-tab-2" class="tab-pane fade " id="linux-macos-2" role="tabpanel">
+      <div class="highlight sh">
+        <pre>
+          <span></span>
+          <code>
+            <span class="gp">$ </span>
+            <span class="nb">source</span> venv/bin/activate <span class="gp gp-VirtualEnv">(venv)</span>
+            <span class="gp">$</span>
+          </code>
+        </pre>
+      </div>
+    </div>
+  </div>
+  <p>Before you run this command, make sure that you’re in the folder that contains the virtual environment you just created.</p>
+  <div class="alert alert-primary" role="alert">
+    <p>
+      <strong>Note:</strong> You can also work with your virtual environment without activating it. To do this, you’ll <a href="#it-runs-from-anywhere-with-absolute-paths">provide the absolute path</a> to its Python interpreter when executing a command. However, most commonly, you’ll want to activate the virtual environment after creating it to save yourself the effort of repeatedly having to type long absolute paths.</p>
+  </div>
+  <p>Once you can see the name of your virtual environment—in this case <code>(venv)</code>—in your command prompt, then you know that your virtual environment is active. You’re all set and ready to install your external packages!</p>
+  <h3 id="install-packages-into-it">Install Packages Into It<a class="headerlink" href="#install-packages-into-it" title="Permanent link"></a>
+  </h3>
+  <p>After creating and activating your virtual environment, you can now install any external dependencies that you need for your project:</p>
+  <ul class="nav nav-tabs justify-content-end js-platform-widget-tabs" role="tablist">
+    <li class="nav-item mb-0 js-platform-widget-tab-windows" role="presentation">
+      <a class="nav-link link-unstyled text-body active small" id="windows-tab-3" data-toggle="tab" href="#windows-3" role="tab" aria-controls="windows-3" aria-selected="true">
+        <i class="fa fa-windows text-muted mr-1" aria-hidden="true"></i>Windows</a>
+    </li>
+    <li class="nav-item mb-0 js-platform-widget-tab-linuxmacos" role="presentation">
+      <a class="nav-link link-unstyled text-body small" id="macos-tab-3" data-toggle="tab" href="#linux-macos-3" role="tab" aria-controls="linux-macos-3" aria-selected="false">
+        <i class="fa fa-linux text-muted mr-1" aria-hidden="true"></i>
+        <i class="fa fa-apple text-muted mr-1" aria-hidden="true"></i>Linux + macOS</a>
+    </li>
+  </ul>
+</div>
+<h2>
+  <a href="https://realpython.com/python-virtual-environments-a-primer/?utm_source=realpython&utm_medium=rss">Read the full article at https://realpython.com/python-virtual-environments-a-primer/ »</a>
+</h2>
+<hr />
+<p>
+  <em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]
+  </em>
+</p>
+</content>
+</entry>
+<entry>
+<title>Exploring Keywords in Python</title>
+<id>https://realpython.com/courses/exploring-keywords-in-python/</id>
+<link href="https://realpython.com/courses/exploring-keywords-in-python/"/>
+<updated>2022-04-12T14:00:00+00:00</updated>
+<summary>Python keywords make up the fundamental building blocks of any Python program. In this video course, you'll learn the basic syntax and usage for each of Python's thirty-five keywords so you can write more efficient and readable code.</summary>
+<content type="html">
+<p>Every programming language has special reserved words, or <strong>keywords</strong>, that have specific meanings and restrictions around how they should be used. Python is no different. Python keywords are the fundamental building blocks of any Python program. </p>
+<p>In this video course, you&rsquo;ll find a basic introduction to all Python keywords along with other resources that will be helpful for learning more about each keyword.</p>
+<p>
+  <strong>By the end of this video course, you&rsquo;ll be able to:</strong>
+</p>
+<ul>
+  <li>
+    <strong>Identify</strong> Python keywords</li>
+  <li>
+    <strong>Understand</strong> what each keyword is used for</li>
+  <li>
+    <strong>Work</strong> with keywords programmatically using the <code>keyword</code> module</li>
+</ul>
+<hr />
+<p>
+  <em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]
+  </em>
+</p>
+</content>
+</entry>
+<entry>
+<title>Python News: What's New From March 2022?</title>
+<id>https://realpython.com/python-news-march-2022/</id>
+<link href="https://realpython.com/python-news-march-2022/"/>
+<updated>2022-04-11T14:00:00+00:00</updated>
+<summary>In March 2022, Python 3.11.0a6 was released, PEPs got a new website, PEP 594 about removing dead batteries from the standard library was accepted, and EuroPython 2022 issued its CFP and started ticket sales. In this article, you'll get more details on all this cool Python news.</summary>
+<content type="html">
+<div>
+  <p>In <strong>March 2022</strong>, the <strong>Python 3.11.0a6</strong> pre-release version became available for you to test, so you can stay on top of Python’s latest features. This release is the sixth of seven planned alpha releases before Python enters the beta phase, which is scheduled for May 5, 2022.</p>
+  <p>PEPs now have a new home with a sleek, modern theme. Also, PEP 594, which deals with removing dead batteries from the Python standard library, has been accepted. Regarding Python events, EuroPython 2022 held its call for proposals (CFP) and is currently selling tickets for the conference.</p>
+  <div class="alert alert-warning" role="alert">
+    <p>
+      <strong>Join Now:</strong>
+      <a href="" class="alert-link" data-toggle="modal" data-target="#modal-newsletter" data-focus="false">Click here to join the Real Python Newsletter</a> and you'll never miss another Python tutorial, course update, or post.</p>
+  </div>
+  <p>Let’s dive into the most exciting <strong>Python news</strong> from the past month!</p>
+  <h2 id="python-released-several-new-versions">Python Released Several New Versions<a class="headerlink" href="#python-released-several-new-versions" title="Permanent link"></a>
+  </h2>
+  <p>Almost every month, several Python versions are released. They typically add new features, fix bugs, correct security issues, and more. March 2022 was no exception. You now have several new releases to test, use, and enjoy. Read on to learn more!</p>
+  <h3 id="python-3110a6-became-available">Python 3.11.0a6 Became Available<a class="headerlink" href="#python-3110a6-became-available" title="Permanent link"></a>
+  </h3>
+  <p>The sixth alpha release of Python became available on March 7. After a week’s delay due to some internal problems, <a href="https://pythoninsider.blogspot.com/2022/03/python-3110a6-is-available.html">Python 3.11.0a6</a> is here for you to take for a test drive. Python 3.11 boasts several new features and changes: </p>
+  <ul>
+    <li>
+      <a href="https://peps.python.org/pep-0657/">PEP 657</a> – Include Fine-Grained Error Locations in Tracebacks</li>
+    <li>
+      <a href="https://peps.python.org/pep-0654/">PEP 654</a> – Exception Groups and <code>except*</code>
+    </li>
+    <li>
+      <a href="https://peps.python.org/pep-0673/">PEP 673</a> – Self Type</li>
+    <li>
+      <a href="https://peps.python.org/pep-0646/">PEP 646</a> – Variadic Generics</li>
+  </ul>
+  <p>To learn more about the basics of these features, check out <a href="https://realpython.com/python-news-february-2022/">Python News: What’s New From February 2022?</a>. Additionally, if you’d like an early dive into how <strong>fine-grained error locations</strong> can improve your coding and debugging experience, check out <a href="https://realpython.com/python311-error-messages/">Python 3.11 Preview: Even Better Error Messages</a>.
+  </p>
+  <p>To try out the most exciting features that will come with Python 3.11 and to stay up to date with the language’s evolution, go ahead and install the new interpreter. Feel free to select your favorite <a href="https://realpython.com/python311-error-messages/#installation">installation procedure</a> below:</p>
+  <div class="card mb-3" id="collapse_cardd3fd64">
+    <div class="card-header border-0">
+      <p class="m-0">
+        <button class="btn w-100" data-toggle="collapse" data-target="#collapsed3fd64" aria-expanded="false" aria-controls="collapsed3fd64" markdown="1">
+          <span class="float-left" markdown="1">Run with Docker</span>
+          <span class="float-right text-muted">Show/Hide</span>
+        </button>
+      </p>
+    </div>
+    <div class="collapse js-collapsible-section" data-parent="#collapse_cardd3fd64" id="collapsed3fd64">
+      <div class="card-body">
+        <div class="highlight sh">
+          <pre>
+            <span></span>
+            <code>
+              <span class="gp">$ </span>docker pull python:3.11.0a6-slim <span class="gp">$ </span>docker run -it --rm python:3.11.0a6-slim </code>
+          </pre>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card mb-3" id="collapse_card739ffc">
+    <div class="card-header border-0">
+      <p class="m-0">
+        <button class="btn w-100" data-toggle="collapse" data-target="#collapse739ffc" aria-expanded="false" aria-controls="collapse739ffc" markdown="1">
+          <span class="float-left" markdown="1">Run with pyenv</span>
+          <span class="float-right text-muted">Show/Hide</span>
+        </button>
+      </p>
+    </div>
+    <div class="collapse js-collapsible-section" data-parent="#collapse_card739ffc" id="collapse739ffc">
+      <div class="card-body">
+        <div class="highlight sh">
+          <pre>
+            <span></span>
+            <code>
+              <span class="gp">$ </span>pyenv update <span class="gp">$ </span>pyenv install <span class="m">3</span>.11.0a6 <span class="gp">$ </span>pyenv <span class="nb">local</span>
+              <span class="m">3</span>.11.0a6 <span class="gp">$ </span>python </code>
+          </pre>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card mb-3" id="collapse_carda1cb5b">
+    <div class="card-header border-0">
+      <p class="m-0">
+        <button class="btn w-100" data-toggle="collapse" data-target="#collapsea1cb5b" aria-expanded="false" aria-controls="collapsea1cb5b" markdown="1">
+          <span class="float-left" markdown="1">Run from Source Code</span>
+          <span class="float-right text-muted">Show/Hide</span>
+        </button>
+      </p>
+    </div>
+    <div class="collapse js-collapsible-section" data-parent="#collapse_carda1cb5b" id="collapsea1cb5b">
+      <div class="card-body">
+        <div class="highlight sh">
+          <pre>
+            <span></span>
+            <code>
+              <span class="gp">$ </span>git clone git@github.com:python/cpython.git <span class="gp">$ </span>
+              <span class="nb">cd</span> cpython/ <span class="gp">$ </span>git checkout v3.11.0a6 <span class="gp">$ </span>./configure <span class="gp">$ </span>make <span class="gp">$ </span>./python </code>
+          </pre>
+        </div>
+      </div>
+    </div>
+  </div>
+  <p>Give it a try! Go your own way and explore the cool new features of Python 3.11 with your own hands!</p>
+  <h3 id="other-python-releases">Other Python Releases<a class="headerlink" href="#other-python-releases" title="Permanent link"></a>
+  </h3>
+</div>
+<h2>
+  <a href="https://realpython.com/python-news-march-2022/?utm_source=realpython&utm_medium=rss">Read the full article at https://realpython.com/python-news-march-2022/ »</a>
+</h2>
+<hr />
+<p>
+  <em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]
+  </em>
+</p>
+</content>
+</entry>
+<entry>
+<title>The Real Python Podcast – Episode #105: Creating Better Error Messages for Python 3.10 & 3.11</title>
+<id>https://realpython.com/podcasts/rpp/105/</id>
+<link href="https://realpython.com/podcasts/rpp/105/"/>
+<updated>2022-04-08T12:00:00+00:00</updated>
+<summary>What goes into creating those enhanced error messages in the latest versions of Python? How does the new PEG parser help to pinpoint where errors have occurred? This week on the show, Pablo Galindo Salgado talks about the work that goes into creating these improvements.</summary>
+<content type="html">
+<p>What goes into creating those enhanced error messages in the latest versions of Python? How does the new PEG parser help to pinpoint where errors have occurred? This week on the show, Pablo Galindo Salgado talks about the work that goes into creating these improvements.</p>
+<hr />
+<p>
+  <em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]
+  </em>
+</p>
+</content>
+</entry>
+<entry>
+<title>Build a Site Connectivity Checker in Python</title>
+<id>https://realpython.com/site-connectivity-checker-python/</id>
+<link href="https://realpython.com/site-connectivity-checker-python/"/>
+<updated>2022-04-06T14:00:00+00:00</updated>
+<summary>In this step-by-step project, you'll build a Python site connectivity checker for the command line. While building this app, you'll integrate knowledge related to making HTTP requests with standard-library tools, creating command-line interfaces, and managing concurrency with asyncio and aiohttp.</summary>
+<content type="html">
+<div>
+  <p>Building a site connectivity checker in Python is an interesting project to level up your skills. With this project, you’ll integrate knowledge related to handling <strong>HTTP requests</strong>, creating <strong>command-line interfaces (CLI)</strong>, and organizing your application’s code using common Python <strong>project layout</strong> practices.</p>
+  <p>By building this project, you’ll learn how Python’s <strong>asynchronous features</strong> can help you deal with multiple HTTP requests efficiently.</p>
+  <p>
+    <strong>In this tutorial, you’ll learn how to:</strong>
+  </p>
+  <ul>
+    <li>Create command-line interfaces (CLI) using Python’s <strong>
+      <code>argparse</code>
+    </strong>
+  </li>
+  <li>Check if a website is online using Python’s <strong>
+    <code>http.client</code>
+  </strong> from the standard library</li>
+<li>Implement <strong>synchronous checks</strong> for multiple websites</li>
+<li>Check if a website is online using the <strong>
+  <code>aiohttp</code>
+</strong> third-party library</li>
+<li>Implement <strong>asynchronous checks</strong> for multiple websites</li>
+</ul>
+<p>To get the most out of this project, you need to know the basics of handling <a href="https://realpython.com/urllib-request/">HTTP requests</a> and using <a href="https://realpython.com/command-line-interfaces-python-argparse/">
+<code>argparse</code>
+</a> to create CLIs. You should also be familiar with the <a href="https://realpython.com/async-io-python/">
+<code>asyncio</code>
+</a> module and the <a href="https://realpython.com/python-keywords/#asynchronous-programming-keywords-async-await">
+<code>async</code> and <code>await</code>
+</a> keywords. </p>
+<p>But don’t worry! The topics throughout the tutorial will be introduced in a step-by-step fashion so that you can grasp them as you go. Additionally, you can download the complete source code and other resources for this project by clicking the link below:</p>
+<div class="alert alert-warning" role="alert">
+<p>
+<strong markdown="1">Get Source Code:</strong>
+<a href="https://realpython.com/bonus/site-connectivity-checker-python-project-code/" class="alert-link" data-toggle="modal" data-target="#modal-site-connectivity-checker-python-project-code" data-focus="false" markdown="1">Click here to get the source code you’ll use</a> to build your site connectivity checker app.</p>
+</div>
+<h2 id="demo-a-site-connectivity-checker">Demo: A Site Connectivity Checker<a class="headerlink" href="#demo-a-site-connectivity-checker" title="Permanent link"></a>
+</h2>
+<p>In this step-by-step project, you’ll build an application that checks if one or more websites are online at a given moment. The app will take a list of target URLs at the command line and check them for connectivity either <strong>synchronously</strong> or <strong>asynchronously</strong>. The following video shows how the app works:</p>
+<figure>
+<div class="embed-responsive embed-responsive-16by9 rounded mb-3 ">
+<iframe loading="lazy" class="embed-responsive-item" src="https://player.vimeo.com/video/688288790?background=1" frameborder="0" allowfullscreen></iframe></div></figure><p>Your site connectivity checker can take one or more URLs at the command line. Then it creates an internal list of target URLs and checks them for connectivity by issuing HTTP requests and processing the corresponding responses.</p><p>Using the <code>-a</code> or <code>--asynchronous</code> option makes the application perform the connectivity checks asynchronously, potentially resulting in lower execution times, especially when you’re processing a long list of websites.</p><h2 id="project-overview">Project Overview<a class="headerlink" href="#project-overview" title="Permanent link"></a>
+</h2>
+<p>Your website connectivity checker app will provide a few options through a minimal <a href="https://en.wikipedia.org/wiki/Command-line_interface">command-line interface (CLI)</a>. Here’s a summary of these options:</p>
+<ul>
+<li>
+<strong>
+<code>-u</code>
+</strong> or <strong>
+<code>--urls</code>
+</strong> allows you to provide one or more target URLs at the comment line.</li>
+<li>
+<strong>
+<code>-f</code>
+</strong> or <strong>
+<code>--input-file</code>
+</strong> allows you to supply a file containing a list of URLs to check.</li>
+<li>
+<strong>
+<code>-a</code>
+</strong> or <strong>
+<code>--asynchronous</code>
+</strong> allows you to run the connectivity checks asynchronously.</li>
+</ul>
+<p>By default, your application will run the connectivity checks synchronously. In other words, the app will perform the checks one after another.</p>
+<p>With the <code>-a</code> or <code>--asynchronous</code> option, you can modify this behavior and make the app run the connectivity checks concurrently. To do this, you’ll take advantage of Python’s <a href="https://realpython.com/python-async-features/">asynchronous features</a> and the <a href="https://docs.aiohttp.org/en/stable/">
+<code>aiohttp</code>
+</a> third-party library.</p>
+<p>Running asynchronous checks can make your website connectivity checker faster and more efficient, especially when you have a long list of URLs to check.</p>
+<p>Internally, your application will use the standard-library <a href="https://docs.python.org/dev/library/http.client.html#module-http.client">
+<code>http.client</code>
+</a> module to create a connection to the target website. Once you have a connection, then you can make an HTTP request to the website, which will hopefully react with an appropriate response. If the request is successful, then you’ll know that the site is online. Otherwise, you’ll know that the site is offline.</p>
+<p>To display the result of every connectivity check on your screen, you’ll provide your app with a nicely formatted output that will make the app appealing to your users.</p>
+<h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Permanent link"></a>
+</h2>
+<p>The project that you’ll build in this tutorial will require familiarity with general Python programming. Additionally, it’ll require basic knowledge of the following topics:</p>
+<ul>
+<li>Handling <a href="https://realpython.com/python-exceptions/">exceptions</a> in Python</li>
+<li>Working with <a href="https://realpython.com/working-with-files-in-python/">files</a>, the <a href="https://realpython.com/python-with-statement/">
+<code>with</code> statement</a>, and the <a href="https://realpython.com/python-pathlib/">
+<code>pathlib</code>
+</a> module</li>
+<li>Handling <a href="https://realpython.com/urllib-request/">HTTP requests</a> with standard-library or third-party tools</li>
+<li>Creating CLI applications with the <a href="https://realpython.com/command-line-interfaces-python-argparse/">
+<code>argparse</code>
+</a> module</li>
+<li>Using Python’s <a href="https://realpython.com/python-async-features/">asynchronous features</a>
+</li>
+</ul>
+<p>Knowing the basics of the <a href="https://docs.aiohttp.org/en/stable/">
+<code>aiohttp</code>
+</a> third-party library would also be a plus but not a requirement. However, if you don’t have all this knowledge yet, then that’s okay! You might learn more by going ahead and giving the project a shot. You can always stop and review the resources linked here if you get stuck.</p>
+<p>With this short overview of your website connectivity checker project and the prerequisites, you’re almost ready to start Pythoning and having fun while coding. But first, you need to create a suitable working environment and set up your project’s layout.</p>
+</div>
+<h2>
+<a href="https://realpython.com/site-connectivity-checker-python/?utm_source=realpython&utm_medium=rss">Read the full article at https://realpython.com/site-connectivity-checker-python/ »</a>
+</h2>
+<hr />
+<p>
+<em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]
+</em>
+</p>
+</content>
+</entry>
+<entry>
+<title>Python REST APIs With FastAPI</title>
+<id>https://realpython.com/courses/python-rest-apis-with-fastapi/</id>
+<link href="https://realpython.com/courses/python-rest-apis-with-fastapi/"/>
+<updated>2022-04-05T14:00:00+00:00</updated>
+<summary>In this course, you'll learn the main concepts of FastAPI and how to use it to quickly create web APIs that implement best practices by default. By the end of it, you will be able to start creating production-ready web APIs.</summary>
+<content type="html">
+<p>Creating APIs, or <strong>application programming interfaces</strong>, is an important part of making your software accessible to a broad range of users. In this video course, you&rsquo;ll learn the main concepts of <strong>FastAPI</strong> and how to use it to quickly create web APIs that implement best practices by default.</p>
+<p>By the end of it, you&rsquo;ll be able to start creating production-ready web APIs, and you&rsquo;ll have the understanding needed to go deeper and learn more for your specific use cases.</p>
+<p>
+<strong>In this video course, you&rsquo;ll learn how to</strong>:
+</p>
+<ul>
+<li>Use <strong>path parameters</strong> to get a unique URL path per item</li>
+<li>Receive JSON data in your requests using <strong>pydantic</strong>
+</li>
+<li>Use API best practices, including <strong>validation</strong>,<strong>serialization</strong>, and <strong>documentation</strong>
+</li>
+<li>Continue learning about FastAPI for <strong>your use cases</strong>
+</li>
+</ul>
+<hr />
+<p>
+<em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]
+</em>
+</p>
+</content>
+</entry>
+<entry>
+<title>YAML: The Missing Battery in Python</title>
+<id>https://realpython.com/python-yaml/</id>
+<link href="https://realpython.com/python-yaml/"/>
+<updated>2022-04-04T14:00:00+00:00</updated>
+<summary>In this tutorial, you'll learn all about working with YAML in Python. By the end of it, you'll know about the available libraries, their strengths and weaknesses, and the advanced and potentially dangerous features of YAML. You'll also serialize Python objects and create a YAML syntax highlighter.</summary>
+<content type="html">
+<div>
+<p>Python is often marketed as a <em>batteries-included</em> language because it comes with almost everything you’d ever expect from a programming language. This statement is mostly true, as the standard library and the external modules cover a broad spectrum of programming needs. However, Python lacks built-in support for the <strong>YAML data format</strong>, commonly used for configuration and serialization, despite clear similarities between the two languages.</p>
+<p>In this tutorial, you’ll learn how to work with YAML in Python using the available third-party libraries, with a focus on <strong>PyYAML</strong>. If you’re new to YAML or haven’t used it in a while, then you’ll have a chance to take a quick crash course before diving deeper into the topic.</p>
+<p>
+<strong>In this tutorial, you’ll learn how to:</strong>
+</p>
+<ul>
+<li>
+<strong>Read</strong> and <strong>write</strong> YAML documents in Python</li>
+<li>
+<strong>Serialize</strong> Python’s <strong>built-in</strong> and <strong>custom</strong> data types to YAML</li>
+<li>
+<strong>Safely</strong> read YAML documents from <strong>untrusted sources</strong>
+</li>
+<li>Take control of <strong>parsing YAML</strong> documents at a lower level</li>
+</ul>
+<p>Later, you’ll learn about YAML’s advanced, potentially dangerous features and how to protect yourself from them. To parse YAML at a low level, you’ll build a <strong>syntax highlighter</strong> tool and an <strong>interactive preview</strong> in HTML. Finally, you’ll take advantage of custom YAML tags to extend the data format’s syntax.</p>
+<p>To get the most out of this tutorial, you should be familiar with <a href="https://realpython.com/python3-object-oriented-programming/">object-oriented programming</a> in Python and know how to create a class. If you’re ready to jump in, then you can follow the link below to get the source code for the examples that you’ll code in this tutorial:</p>
+<div class="alert alert-warning" role="alert">
+<p>
+<strong markdown="1">Get Source Code:</strong>
+<a href="https://realpython.com/bonus/python-yaml-project-code/" class="alert-link" data-toggle="modal" data-target="#modal-python-yaml-project-code" data-focus="false" markdown="1">Click here to get the source code you’ll use</a> to work with YAML in Python.</p>
+</div>
+<h2 id="taking-a-crash-course-in-yaml">Taking a Crash Course in YAML<a class="headerlink" href="#taking-a-crash-course-in-yaml" title="Permanent link"></a>
+</h2>
+<p>In this section, you’re going to learn the basic facts about YAML, including its uses, syntax, and some of its unique and powerful features. If you’ve worked with YAML before, then you can skip ahead and continue reading from the <a href="#getting-started-with-yaml-in-python">next section</a>, which covers using YAML in Python.</p>
+<h3 id="historical-context">Historical Context<a class="headerlink" href="#historical-context" title="Permanent link"></a>
+</h3>
+<p>YAML, which rhymes with <em>camel</em>, is a <a href="https://en.wikipedia.org/wiki/Recursive_acronym">recursive acronym</a> that stands for <strong>YAML Ain’t Markup Language</strong> because it’s <em>not</em> a markup language! Interestingly enough, the <a href="https://yaml.org/spec/history/2001-05-26.html">original draft</a> for the YAML specification defined the language as <em>Yet Another Markup Language</em>, but later the current <a href="https://en.wikipedia.org/wiki/Backronym">backronym</a> was adopted to more accurately describe the language’s purpose.</p>
+<p>An actual <a href="https://en.wikipedia.org/wiki/Markup_language">markup language</a>, such as Markdown or HTML, lets you annotate text with formatting or processing instructions intermixed with your content. Markup languages are, therefore, primarily concerned with text documents, whereas YAML is a <strong>
+<a href="https://en.wikipedia.org/wiki/Comparison_of_data-serialization_formats">data serialization format</a>
+</strong> that integrates well with common data types native to many programming languages. There’s no inherent text in YAML, only data to represent.</p>
+<p>YAML was originally meant to simplify <a href="https://en.wikipedia.org/wiki/XML">Extensible Markup Language (XML)</a>, but in reality, it has a lot more in common with <a href="https://en.wikipedia.org/wiki/JSON">JavaScript Object Notation (JSON)</a>. In fact, it’s a superset of JSON.</p>
+<p>Even though XML was initially designed to be a metalanguage for creating markup languages for documents, people quickly adopted it as the standard data serialization format. The HTML-like syntax of angle brackets made XML look familiar. Suddenly, everyone wanted to use XML as their configuration, persistence, or messaging format.</p>
+<p>As the first kid on the block, XML dominated the scene for many years. It became a mature and trusted <strong>data interchange format</strong> and helped shape new concepts like building interactive web applications. After all, the letter <em>X</em> in <a href="https://en.wikipedia.org/wiki/Ajax_(programming)">AJAX</a>, a technique for getting data from the server without reloading the page, stands for none other than XML.</p>
+<p>Ironically, it was AJAX that ultimately led to XML’s decline in popularity. The verbose, complex, and redundant XML syntax wasted a lot of bandwidth when data was sent over the network. Parsing XML documents in JavaScript was slow and tedious because of XML’s fixed <a href="https://realpython.com/python-xml-parser/#document-object-model-dom">document object model (DOM)</a>, which wouldn’t match the application’s data model. The community finally acknowledged that they’d been using the wrong tool for the job.</p>
+<p>That’s when <a href="https://realpython.com/python-json/">JSON</a> entered the picture. It was built from the ground up with data serialization in mind. Web browsers could parse it effortlessly because JSON is a subset of JavaScript, which they already supported. Not only was JSON’s minimalistic syntax appealing to developers, but it also made porting to other platforms easier than XML did. To this day, JSON remains the slimmest, fastest, and most versatile textual data interchange format on the Internet.</p>
+<p>
+<a href="https://yaml.org/">YAML</a> came into existence the same year as JSON, and by pure coincidence, it was almost a complete superset of JSON on the syntactical and semantic levels. Starting from YAML 1.2, the format officially became a strict <strong>superset of JSON</strong>, meaning that every valid JSON document also happens to be a YAML document.</p>
+<p>In practice, however, the two formats look different, as the <a href="https://yaml.org/spec/1.2.2/">YAML specification</a> puts more emphasis on human readability by adding a lot more <a href="https://en.wikipedia.org/wiki/Syntactic_sugar">syntactic sugar</a> and features on top of JSON. As a result, YAML is more applicable to configuration files edited by hand rather than as a <a href="https://en.wikipedia.org/wiki/Transport_layer">transport layer</a>.
+</p>
+<h3 id="comparison-with-xml-and-json">Comparison With XML and JSON<a class="headerlink" href="#comparison-with-xml-and-json" title="Permanent link"></a>
+</h3>
+<p>If you’re familiar with <a href="https://realpython.com/python-xml-parser/">XML</a> or <a href="https://realpython.com/python-json/">JSON</a>, then you might be wondering what YAML brings to the table. All three are major data interchange formats, which share some overlapping features. For example, they’re all <strong>text based</strong> and more or less human readable. At the same time, they differ in many respects, which you’ll find out next.</p>
+<div class="alert alert-primary" role="alert">
+<p>
+<strong>Note:</strong> There are other, less popular textual data formats like <a href="https://toml.io/en/">TOML</a>, which the new build system in Python is based on. Currently, only external packaging and dependency management tools like <a href="https://realpython.com/dependency-management-python-poetry/">Poetry</a> can read TOML, but Python 3.11 will soon have a <a href="https://realpython.com/python-news-february-2022/#toml-coming-to-python-311">TOML parser in the standard library</a>.
+</p>
+<p>Common binary data serialization formats you’d find in the wild include Google’s <a href="https://en.wikipedia.org/wiki/Protocol_Buffers">Protocol Buffers</a> and Apache’s <a href="https://en.wikipedia.org/wiki/Apache_Avro">Avro</a>.
+</p>
+</div>
+<p>Now have a look at a sample document expressed in all three data formats but representing the same person. You can click to expand the collapsible sections and reveal data serialized in those formats:</p>
+<div class="card mb-3" id="collapse_carda43d90">
+<div class="card-header border-0">
+<p class="m-0">
+<button class="btn w-100" data-toggle="collapse" data-target="#collapsea43d90" aria-expanded="false" aria-controls="collapsea43d90" markdown="1">
+<span class="float-left" markdown="1">XML</span>
+<span class="float-right text-muted">Show/Hide</span>
+</button>
+</p>
+</div>
+<div class="collapse js-collapsible-section" data-parent="#collapse_carda43d90" id="collapsea43d90">
+<div class="card-body">
+<div class="highlight xml">
+<pre>
+<span></span>
+<code>
+<span class="cp">&lt;?xml version="1.0" encoding="UTF-8" ?&gt;</span>
+<span class="nt">&lt;person</span>
+<span class="na">firstName=</span>
+<span class="s">"John"</span>
+<span class="na">lastName=</span>
+<span class="s">"Doe"</span>
+<span class="nt">&gt;</span>
+<span class="nt">&lt;dateOfBirth&gt;</span>1969-12-31<span class="nt">&lt;/dateOfBirth&gt;</span>
+<span class="nt">&lt;married&gt;</span>true<span class="nt">&lt;/married&gt;</span>
+<span class="nt">&lt;spouse&gt;</span>
+<span class="nt">&lt;person</span>
+<span class="na">firstName=</span>
+<span class="s">"Jane"</span>
+<span class="na">lastName=</span>
+<span class="s">"Doe"</span>
+<span class="nt">&gt;</span>
+<span class="nt">&lt;dateOfBirth/&gt;</span>
+<span class="cp">&lt;!- This is a comment --&gt;</span>
+<span class="nt">&lt;/person&gt;</span>
+<span class="nt">&lt;/spouse&gt;</span>
+<span class="nt">&lt;/person&gt;</span>
+</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+<div class="card mb-3" id="collapse_card14b2f5">
+<div class="card-header border-0">
+<p class="m-0">
+<button class="btn w-100" data-toggle="collapse" data-target="#collapse14b2f5" aria-expanded="false" aria-controls="collapse14b2f5" markdown="1">
+<span class="float-left" markdown="1">JSON</span>
+<span class="float-right text-muted">Show/Hide</span>
+</button>
+</p>
+</div>
+<div class="collapse js-collapsible-section" data-parent="#collapse_card14b2f5" id="collapse14b2f5">
+<div class="card-body">
+<div class="highlight json">
+<pre>
+<span></span>
+<code>
+<span class="p">{</span>
+<span class="nt">"person"</span>
+<span class="p">:</span>
+<span class="p">{</span>
+<span class="nt">"dateOfBirth"</span>
+<span class="p">:</span>
+<span class="s2">"1969-12-31"</span>
+<span class="p">,</span>
+<span class="nt">"firstName"</span>
+<span class="p">:</span>
+<span class="s2">"John"</span>
+<span class="p">,</span>
+<span class="nt">"lastName"</span>
+<span class="p">:</span>
+<span class="s2">"Doe"</span>
+<span class="p">,</span>
+<span class="nt">"married"</span>
+<span class="p">:</span>
+<span class="kc">true</span>
+<span class="p">,</span>
+<span class="nt">"spouse"</span>
+<span class="p">:</span>
+<span class="p">{</span>
+<span class="nt">"dateOfBirth"</span>
+<span class="p">:</span>
+<span class="kc">null</span>
+<span class="p">,</span>
+<span class="nt">"firstName"</span>
+<span class="p">:</span>
+<span class="s2">"Jane"</span>
+<span class="p">,</span>
+<span class="nt">"lastName"</span>
+<span class="p">:</span>
+<span class="s2">"Doe"</span>
+<span class="p">}</span>
+<span class="p">}</span>
+<span class="p">}</span>
+</code>
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<h2>
+<a href="https://realpython.com/python-yaml/?utm_source=realpython&utm_medium=rss">Read the full article at https://realpython.com/python-yaml/ »</a>
+</h2>
+<hr />
+<p>
+<em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]
+</em>
+</p>
+</content>
+</entry>
+<entry>
+<title>The Real Python Podcast – Episode #104: Building a Hash Table in Python and Thoughtful REST API Design</title>
+<id>https://realpython.com/podcasts/rpp/104/</id>
+<link href="https://realpython.com/podcasts/rpp/104/"/>
+<updated>2022-04-01T12:00:00+00:00</updated>
+<summary>Do you understand how a hash table works? What if you could learn about building one while practicing test-driven development? What are best practices when designing a REST API? This week on the show, Christopher Trudeau is here, and he's brought another batch of PyCoder's Weekly articles and projects.</summary>
+<content type="html">
+<p>Do you understand how a hash table works? What if you could learn about building one while practicing test-driven development? What are best practices when designing a REST API? This week on the show, Christopher Trudeau is here, and he's brought another batch of PyCoder's Weekly articles and projects.</p>
+<hr />
+<p>
+<em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]
+</em>
+</p>
+</content>
+</entry>
+<entry>
+<title>Python GUI Programming With Tkinter</title>
+<id>https://realpython.com/python-gui-tkinter/</id>
+<link href="https://realpython.com/python-gui-tkinter/"/>
+<updated>2022-03-30T14:00:00+00:00</updated>
+<summary>In this tutorial, you'll learn the basics of GUI programming with Tkinter, the de facto Python GUI framework. Master GUI programming concepts such as widgets, geometry managers, and event handlers. Then, put it all together by building two applications: a temperature converter and a text editor.</summary>
+<content type="html">
+<div>
+<p>Python has a lot of <a href="http://wiki.python.org/moin/GuiProgramming">GUI frameworks</a>, but <a href="https://wiki.python.org/moin/TkInter">Tkinter</a> is the only framework that’s built into the Python standard library. Tkinter has several strengths. It’s <strong>cross-platform</strong>, so the same code works on Windows, macOS, and Linux. Visual elements are rendered using native operating system elements, so applications built with Tkinter look like they belong on the platform where they’re run.</p>
+<p>Although Tkinter is considered the de facto Python GUI framework, it’s not without criticism. One notable criticism is that GUIs built with Tkinter look outdated. If you want a shiny, modern interface, then Tkinter may not be what you’re looking for.</p>
+<p>However, Tkinter is lightweight and relatively painless to use compared to other frameworks. This makes it a compelling choice for building GUI applications in Python, especially for applications where a modern sheen is unnecessary, and the top priority is to quickly build something that’s functional and cross-platform.</p>
+<p>
+<strong>In this tutorial, you’ll learn how to:</strong>
+</p>
+<ul>
+<li>Get started with Tkinter with a <strong>Hello, World</strong> application</li>
+<li>Work with <strong>widgets</strong>, such as buttons and text boxes</li>
+<li>Control your application layout with <strong>geometry managers</strong>
+</li>
+<li>Make your applications <strong>interactive</strong> by associating button clicks with Python functions</li>
+</ul>
+<p>Once you’ve mastered these skills by working through the exercises at the end of each section, you’ll tie everything together by building two applications. The first is a <strong>temperature converter</strong>, and the second is a <strong>text editor</strong>. It’s time to dive right in and learn how to build an application with Tkinter!</p>
+<div class="alert alert-primary" role="alert">
+<p>
+<strong>Note:</strong> This tutorial is adapted from the chapter “Graphical User Interfaces” of <a href="https://realpython.com/products/python-basics-book/">
+<em>Python Basics: A Practical Introduction to Python 3</em>
+</a>.
+</p>
+<p>The book uses Python’s built-in <a href="https://realpython.com/python-idle/">IDLE</a> editor to create and edit Python files and interact with the Python shell. In this tutorial, references to IDLE have been removed in favor of more general language.</p>
+<p>The bulk of the material in this tutorial has been left unchanged, and you should have no problems running the example code from the editor and environment of your choice.</p>
+</div>
+<div class="alert alert-warning" role="alert">
+<p>
+<strong markdown="1">Free Bonus:</strong>
+<a href="https://realpython.com/bonus/python-mastery-course/" class="alert-link" data-toggle="modal" data-target="#modal-python-mastery-course" data-focus="false" markdown="1">5 Thoughts On Python Mastery</a>, a free course for Python developers that shows you the roadmap and the mindset you’ll need to take your Python skills to the next level.</p>
+</div>
+<h2 id="building-your-first-python-gui-application-with-tkinter">Building Your First Python GUI Application With Tkinter<a class="headerlink" href="#building-your-first-python-gui-application-with-tkinter" title="Permanent link"></a>
+</h2>
+<p>The foundational element of a Tkinter GUI is the <strong>window</strong>. Windows are the containers in which all other GUI elements live. These other GUI elements, such as text boxes, labels, and buttons, are known as <strong>widgets</strong>. Widgets are contained inside of windows.</p>
+<p>First, create a window that contains a single widget. Start up a new <a href="https://realpython.com/interacting-with-python/#using-the-python-interpreter-interactively">Python shell</a> session and follow along!</p>
+<div class="alert alert-primary" role="alert">
+<p>
+<strong>Note:</strong> The code examples in this tutorial have all been tested on Windows, macOS, and Ubuntu Linux 20.04 with Python version 3.10.</p>
+<p>If you’ve <a href="https://realpython.com/installing-python/">installed Python</a> with the official installers available for <a href="https://www.python.org/downloads/windows/">Windows</a> and <a href="https://www.python.org/downloads/mac-osx/">macOS</a> from <a href="https://python.org">python.org</a>, then you should have no problem running the sample code. You can safely skip the rest of this note and continue with the tutorial!</p>
+<p>If you haven’t installed Python with the official installers, or there’s no official distribution for your system, then here are some tips for getting up and going.</p>
+<p>
+<strong>Python on macOS with Homebrew:</strong>
+</p>
+<p>The Python distribution for macOS available on <a href="https://github.com/Homebrew/homebrew-core/pull/34424">Homebrew</a> doesn’t come bundled with the <a href="https://www.tcl.tk/">Tcl/Tk</a> dependency required by Tkinter. The default system version is used instead. This version may be outdated and prevent you from importing the Tkinter module. To avoid this problem, use the <a href="https://www.python.org/downloads/mac-osx/">official macOS installer</a>.
+</p>
+<p>
+<strong>Ubuntu Linux 20.04:</strong>
+</p>
+<p>To conserve memory space, the default version of the Python interpreter that comes pre-installed on Ubuntu Linux 20.04 has no support for Tkinter. However, if you want to continue using the Python interpreter bundled with your operating system, then install the following package:</p>
+<div class="highlight sh">
+<pre>
+<span></span>
+<code>
+<span class="gp">$ </span>sudo apt-get install python3-tk </code>
+</pre>
+</div>
+<p>This installs the Python GUI Tkinter module.</p>
+<p>
+<strong>Other Linux Flavors:</strong>
+</p>
+<p>If you’re unable to get a working Python installation on your flavor of Linux, then you can build Python with the correct version of Tcl/Tk from the source code. For a step-by-step walk-through of this process, check out the <a href="https://realpython.com/installing-python/#compiling-python-from-source">Python 3 Installation &amp; Setup Guide</a>. You may also try using <a href="https://realpython.com/intro-to-pyenv/">pyenv</a> to manage multiple Python versions.</p>
+</div>
+<p>With your Python shell open, the first thing you need to do is import the Python GUI Tkinter module:</p>
+<div class="highlight python repl">
+<span class="repl-toggle" title="Toggle REPL prompts and output">&gt;&gt;&gt;</span>
+<pre>
+<span></span>
+<code>
+<span class="gp">&gt;&gt;&gt; </span>
+<span class="kn">import</span>
+<span class="nn">tkinter</span>
+<span class="k">as</span>
+<span class="nn">tk</span>
+</code>
+</pre>
+</div>
+<p>A <strong>window</strong> is an instance of Tkinter’s <code>Tk</code> class. Go ahead and create a new window and assign it to the <a href="https://realpython.com/python-variables/">variable</a>
+<code>window</code>:
+</p>
+<div class="highlight python repl">
+<span class="repl-toggle" title="Toggle REPL prompts and output">&gt;&gt;&gt;</span>
+<pre>
+<span></span>
+<code>
+<span class="gp">&gt;&gt;&gt; </span>
+<span class="n">window</span>
+<span class="o">=</span>
+<span class="n">tk</span>
+<span class="o">.</span>
+<span class="n">Tk</span>
+<span class="p">()</span>
+</code>
+</pre>
+</div>
+<p>When you execute the above code, a new window pops up on your screen. How it looks depends on your operating system:</p>
+<figure class="js-lightbox">
+<a href="https://files.realpython.com/media/17_4_tk_window.662fec42e4f9.jpg" target="_blank">
+<img loading="lazy" class="img-fluid mx-auto d-block " src="https://files.realpython.com/media/17_4_tk_window.662fec42e4f9.jpg" width="853" height="337" srcset="https://robocrop.realpython.net/?url=https%3A//files.realpython.com/media/17_4_tk_window.662fec42e4f9.jpg&amp;w=213&amp;sig=e7e4421c507bdbe02c31b21b50fb1aee57d81dc3 213w, https://robocrop.realpython.net/?url=https%3A//files.realpython.com/media/17_4_tk_window.662fec42e4f9.jpg&amp;w=426&amp;sig=0eb3323d103418371c05cbb1f6bd01ff0e77fb2c 426w, https://files.realpython.com/media/17_4_tk_window.662fec42e4f9.jpg 853w" sizes="75vw" alt="A blank Tkinter application window on Windows 10, macOS, and Ubuntu Linux" data-asset="2147"></a>
+</figure>
+<p>Throughout the rest of this tutorial, you’ll see Windows screenshots.</p>
+<h3 id="adding-a-widget">Adding a Widget<a class="headerlink" href="#adding-a-widget" title="Permanent link"></a>
+</h3>
+<p>Now that you have a window, you can add a widget. Use the <code>tk.Label</code> class to add some text to a window. Create a <code>Label</code> widget with the text <code>"Hello, Tkinter"</code> and assign it to a variable called <code>greeting</code>:
+</p>
+<div class="highlight python repl">
+<span class="repl-toggle" title="Toggle REPL prompts and output">&gt;&gt;&gt;</span>
+<pre>
+<span></span>
+<code>
+<span class="gp">&gt;&gt;&gt; </span>
+<span class="n">greeting</span>
+<span class="o">=</span>
+<span class="n">tk</span>
+<span class="o">.</span>
+<span class="n">Label</span>
+<span class="p">(</span>
+<span class="n">text</span>
+<span class="o">=</span>
+<span class="s2">"Hello, Tkinter"</span>
+<span class="p">)</span>
+</code>
+</pre>
+</div>
+<p>The window you created earlier doesn’t change. You just created a <code>Label</code> widget, but you haven’t added it to the window yet. There are several ways to add widgets to a window. Right now, you can use the <code>Label</code> widget’s <code>.pack()</code> method:</p>
+<div class="highlight python repl">
+<span class="repl-toggle" title="Toggle REPL prompts and output">&gt;&gt;&gt;</span>
+<pre>
+<span></span>
+<code>
+<span class="gp">&gt;&gt;&gt; </span>
+<span class="n">greeting</span>
+<span class="o">.</span>
+<span class="n">pack</span>
+<span class="p">()</span>
+</code>
+</pre>
+</div>
+<p>The window now looks like this:</p>
+</div>
+<h2>
+<a href="https://realpython.com/python-gui-tkinter/?utm_source=realpython&utm_medium=rss">Read the full article at https://realpython.com/python-gui-tkinter/ »</a>
+</h2>
+<hr />
+<p>
+<em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]
+</em>
+</p>
+</content>
+</entry>
+<entry>
+<title>Using Python's datetime Module</title>
+<id>https://realpython.com/courses/python-datetime-module/</id>
+<link href="https://realpython.com/courses/python-datetime-module/"/>
+<updated>2022-03-29T14:00:00+00:00</updated>
+<summary>Have you ever wondered about working with dates and times in Python? In this video course, you'll learn all about the built-in Python datetime library. You'll also learn about how to manage time zones and daylight saving time, and how to do accurate arithmetic on dates and times.</summary>
+<content type="html">
+<p>Python has several different modules to deal with dates and times. This course concentrates on the primary one, <strong>
+<code>datetime</code>
+</strong>. Dates and times are messy things! Shifts due to daylight savings time and time zones complicate any computing with dates and times. </p>
+<p>
+<strong>In this course, you&rsquo;ll tackle that messiness and learn:</strong>
+</p>
+<ul>
+<li>How to use the <strong>
+<code>datetime</code>
+</strong> module</li>
+<li>What the <strong>
+<code>zoneinfo</code>
+</strong> module does and how to use it</li>
+<li>How to <strong>calculate the difference</strong> between two <code>datetime</code> objects</li>
+</ul>
+<hr />
+<p>
+<em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]
+</em>
+</p>
+</content>
+</entry>
+<entry>
+<title>Pagination for a User-Friendly Django App</title>
+<id>https://realpython.com/django-pagination/</id>
+<link href="https://realpython.com/django-pagination/"/>
+<updated>2022-03-28T14:00:00+00:00</updated>
+<summary>In this tutorial, you'll learn how to serve paginated content in your Django apps. Using Django pagination can significantly improve your website's performance and give your visitors a better user experience.</summary>
+<content type="html">
+<div>
+<p>You can improve the user experience of your Django web app significantly by spreading your content over multiple pages instead of serving all of it at once. This practice is called <strong>pagination</strong>. To implement pagination, you have to consider page count, items per page, and the order of pages.</p>
+<p>But if you’re using Django for your web projects, you’re in luck! Django has the pagination functionality built in. With only a few configuration steps, you can provide paginated content to your users.</p>
+<p>
+<strong>In this tutorial, you’ll learn how to:</strong>
+</p>
+<ul>
+<li>Decide when to use <strong>Django’s paginator</strong>
+</li>
+<li>Implement pagination in <strong>class-based views</strong>
+</li>
+<li>Implement pagination in <strong>function-based views</strong>
+</li>
+<li>Add <strong>pagination elements</strong> to templates</li>
+<li>Browse pages directly with <strong>paginated URLs</strong>
+</li>
+<li>Combine Django pagination with <strong>JavaScript calls</strong>
+</li>
+</ul>
+<p>This tutorial is for intermediate Python programmers with basic Django experience. Ideally, you’ve completed some introductory tutorials or created your own smaller Django projects. To have the best experience with this tutorial, you should know what models, views, and templates are and how to create them. If you need a refresher, then check out the tutorial on how to <a href="https://realpython.com/get-started-with-django-1/">build a portfolio app with Django</a>.
+</p>
+<div class="alert alert-warning" role="alert">
+<p>
+<strong markdown="1">Get Source Code:</strong>
+<a href="https://realpython.com/bonus/django-pagination-source-code/" class="alert-link" data-toggle="modal" data-target="#modal-django-pagination-source-code" data-focus="false" markdown="1">Click here to get the source code</a> that you’ll use to implement Django pagination.</p>
+</div>
+<h2 id="pagination-in-the-wild">Pagination in the Wild<a class="headerlink" href="#pagination-in-the-wild" title="Permanent link"></a>
+</h2>
+<p>Before you try your hand at building your own pagination flows with Django, it’s worth looking around to spot pagination in action. Pagination is so common on bigger websites that you’ve most likely experienced it in one form or another when browsing the Internet.</p>
+<h3 id="what-pagination-is">What Pagination Is<a class="headerlink" href="#what-pagination-is" title="Permanent link"></a>
+</h3>
+<p>Pagination describes the practice of distributing your website’s content across multiple consecutive pages instead of serving it on a single page. If you visit shopping sites, blogs, or archives, you’re likely to encounter paginated content.</p>
+<p>On <a href="https://realpython.com/python-git-github-intro/">GitHub</a>, you’ll find paginated content on <a href="https://github.com/django/django/pulls?q=">Django’s pull requests</a> page. When you reach the bottom of the page, you can navigate to other pages:</p>
+<figure class="">
+<img loading="lazy" class="img-fluid mx-auto d-block border w-66" src="https://files.realpython.com/media/django-pagination-example-github.efcada685a44.png" width="968" height="116" srcset="https://robocrop.realpython.net/?url=https%3A//files.realpython.com/media/django-pagination-example-github.efcada685a44.png&amp;w=242&amp;sig=b5c73ec837c9b04154e29e3b4bc64dfce62cc763 242w, https://robocrop.realpython.net/?url=https%3A//files.realpython.com/media/django-pagination-example-github.efcada685a44.png&amp;w=484&amp;sig=da21e32e3a08abc01d31d50a1497808d2a038c5a 484w, https://files.realpython.com/media/django-pagination-example-github.efcada685a44.png 968w" sizes="75vw" alt="Pagination Example: GitHub" data-asset="4208"></figure>
+<p>Imagine how crowded the bottom of the page would be if all the page numbers were displayed. What’s more, consider how long the page would take to load if all the issues were displayed at once instead of being spread over 615 pages.</p>
+<p>You could even argue that having page numbers is unnecessary. How could anybody know which issue is on which page? For that reason, some sites ditch page numbers entirely and give you a condensed form of pagination.</p>
+<p>The <a href="https://pycoders.com/">PyCoder’s Weekly Newsletter</a> paginates its archive with <em>Previous</em> and <em>Next</em> buttons. This type of pagination lets you conveniently browse through all newsletter issues:</p>
+<figure class="js-lightbox">
+<a href="https://files.realpython.com/media/django-pagination_example_pycoders-weekly.8ade2116237d.png" target="_blank">
+<img loading="lazy" class="img-fluid mx-auto d-block border " src="https://files.realpython.com/media/django-pagination_example_pycoders-weekly.8ade2116237d.png" width="1920" height="1080" srcset="https://robocrop.realpython.net/?url=https%3A//files.realpython.com/media/django-pagination_example_pycoders-weekly.8ade2116237d.png&amp;w=480&amp;sig=e70ab9c20e201b886d9006609af869cc20be8d5b 480w, https://robocrop.realpython.net/?url=https%3A//files.realpython.com/media/django-pagination_example_pycoders-weekly.8ade2116237d.png&amp;w=960&amp;sig=488753ae5e40025e92b74796f3130cb4957bc26f 960w, https://files.realpython.com/media/django-pagination_example_pycoders-weekly.8ade2116237d.png 1920w" sizes="75vw" alt="Pagination Example: PyCoders Weekly" data-asset="4206"></a>
+</figure>
+<p>Underneath the <em>Subscribe</em> button, you see the pagination controls for navigating to the previous and next issues. Thanks to this pagination technique, you’re able hop from one newsletter issue to another instead of selecting issues from the archive one by one.</p>
+<p>You can also see pagination in action when you’ve got more than one hundred objects in your <a href="https://realpython.com/customize-django-admin-python/">Django admin</a> interface. To access more content, you have to click another page number:</p>
+<figure class="js-lightbox">
+<a href="https://files.realpython.com/media/django-pagination_example_django-admin.8ab6cabab559.png" target="_blank">
+<img loading="lazy" class="img-fluid mx-auto d-block border " src="https://files.realpython.com/media/django-pagination_example_django-admin.8ab6cabab559.png" width="1920" height="996" srcset="https://robocrop.realpython.net/?url=https%3A//files.realpython.com/media/django-pagination_example_django-admin.8ab6cabab559.png&amp;w=480&amp;sig=db87c27338ca00a7f36d62c98e5d660f67b5552d 480w, https://robocrop.realpython.net/?url=https%3A//files.realpython.com/media/django-pagination_example_django-admin.8ab6cabab559.png&amp;w=960&amp;sig=e20848feb6273c7638b66c79cc022de30988ee58 960w, https://files.realpython.com/media/django-pagination_example_django-admin.8ab6cabab559.png 1920w" sizes="75vw" alt="Django Pagination Example: Django Admin" data-asset="4207"></a>
+</figure>
+<p>Instead of showing a list of all 3,776 items, the Django admin divides the content into 38 pages. Again, imagine how overwhelming the Django admin interface would be if all the content were presented in one giant table!</p>
+<p>But pagination is not only used in the front-end design of websites. It’s also very common to paginate the content of <strong>API responses</strong>. The <a href="https://randomuser.me/">Random User API</a> is one of many <a href="https://realpython.com/api-integration-in-python/">REST APIs</a> that give you the option of paginating the response:</p>
+<figure class="js-lightbox">
+<a href="https://files.realpython.com/media/django-pagination-example-api.d53b6cf601d2.png" target="_blank">
+<img loading="lazy" class="img-fluid mx-auto d-block border " src="https://files.realpython.com/media/django-pagination-example-api.d53b6cf601d2.png" width="1688" height="886" srcset="https://robocrop.realpython.net/?url=https%3A//files.realpython.com/media/django-pagination-example-api.d53b6cf601d2.png&amp;w=422&amp;sig=194aa327ca7228d019613158c6fecd7096323a25 422w, https://robocrop.realpython.net/?url=https%3A//files.realpython.com/media/django-pagination-example-api.d53b6cf601d2.png&amp;w=844&amp;sig=0e74efbc95f95e9d0a9bc12fb786e80ebc70e994 844w, https://files.realpython.com/media/django-pagination-example-api.d53b6cf601d2.png 1688w" sizes="75vw" alt="Pagination Example: Random User API" data-asset="4209"></a>
+</figure>
+<p>By adding a <code>results=2</code> parameter, you tell the Random User API that you only want two results per response. With the <code>page</code> parameter, you can navigate to a specific page of these paginated responses.</p>
+<div class="alert alert-primary" role="alert">
+<p>
+<strong>Note:</strong> Do you have any interesting examples of websites or APIs that use pagination? Share them with the community in the comments below! </p>
+</div>
+<p>Once you know what pagination is, you’ll probably notice it often while surfing the Web. In thinking about implementing pagination in your projects, it’s worth taking a closer look at when to use pagination and when not to use it.</p>
+</div>
+<h2>
+<a href="https://realpython.com/django-pagination/?utm_source=realpython&utm_medium=rss">Read the full article at https://realpython.com/django-pagination/ »</a>
+</h2>
+<hr />
+<p>
+<em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]
+</em>
+</p>
+</content>
+</entry>
+<entry>
+<title>The Real Python Podcast – Episode #103: Becoming More Effective at Manipulating Data With Pandas</title>
+<id>https://realpython.com/podcasts/rpp/103/</id>
+<link href="https://realpython.com/podcasts/rpp/103/"/>
+<updated>2022-03-25T12:00:00+00:00</updated>
+<summary>Do you wonder if you're taking the right approach when shaping data in pandas? Is your Jupyter workflow getting out of hand? This week on the show, Matt Harrison talks about his new book, "Effective Pandas: Patterns for Data Manipulation."</summary>
+<content type="html">
+<p>Do you wonder if you're taking the right approach when shaping data in pandas? Is your Jupyter workflow getting out of hand? This week on the show, Matt Harrison talks about his new book, "Effective Pandas: Patterns for Data Manipulation."</p>
+<hr />
+<p>
+<em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]
+</em>
+</p>
+</content>
+</entry>
+<entry>
+<title>Image Processing With the Python Pillow Library</title>
+<id>https://realpython.com/image-processing-with-the-python-pillow-library/</id>
+<link href="https://realpython.com/image-processing-with-the-python-pillow-library/"/>
+<updated>2022-03-23T14:00:00+00:00</updated>
+<summary>In this step-by-step tutorial, you'll learn how to use the Python Pillow library to deal with images and perform image processing. You'll also explore using NumPy for further processing, including to create animations.</summary>
+<content type="html">
+<div>
+<p>When you look at an image, you see the objects and people in it. However, when you read an image programmatically with Python or any other language, the computer sees an array of numbers. In this tutorial, you’ll learn how to manipulate images and perform basic image processing using the Python Pillow library.</p>
+<p>Pillow and its predecessor, PIL, are the original Python libraries for dealing with images. Even though there are other Python libraries for image processing, Pillow remains an important tool for understanding and dealing with images.</p>
+<p>To manipulate and process images, Pillow provides tools that are similar to ones found in image processing software such as Photoshop. Some of the more modern Python image processing libraries are built on top of Pillow and often provide more advanced functionality.</p>
+<p>
+<strong>In this tutorial, you’ll learn how to:</strong>
+</p>
+<ul>
+<li>
+<strong>Read images</strong> with Pillow</li>
+<li>Perform <strong>basic image manipulation</strong> operations</li>
+<li>Use Pillow for <strong>image processing</strong>
+</li>
+<li>Use <strong>NumPy</strong> with Pillow for <strong>further processing</strong>
+</li>
+<li>
+<strong>Create animations</strong> using Pillow</li>
+</ul>
+<p>This tutorial provides an overview of what you can achieve with the Python Pillow library through some of its most common methods. Once you gain confidence using these methods, then you can use Pillow’s <a href="https://pillow.readthedocs.io/en/stable/reference/index.html">documentation</a> to explore the rest of the methods in the library. If you’ve never worked with images in Python before, this is a great opportunity to jump right in!</p>
+<p>In this tutorial, you’ll use several images, which you can download from the tutorial’s image repository:</p>
+<div class="alert alert-warning" role="alert">
+<p>
+<strong markdown="1">Get Images:</strong>
+<a href="https://realpython.com/bonus/image-processing-with-the-python-pillow-library-images/" class="alert-link" data-toggle="modal" data-target="#modal-image-processing-with-the-python-pillow-library-images" data-focus="false" markdown="1">Click here to get access to the images</a> that you’ll manipulate and process with Pillow.</p>
+</div>
+<p>With those images in hand, you’re now ready to get started with Pillow.</p>
+<h2 id="basic-image-operations-with-the-python-pillow-library">Basic Image Operations With the Python Pillow Library<a class="headerlink" href="#basic-image-operations-with-the-python-pillow-library" title="Permanent link"></a>
+</h2>
+<p>The <a href="https://python-pillow.org">Python Pillow library</a> is a fork of an older library called PIL. PIL stands for Python Imaging Library, and it’s the original library that enabled Python to deal with images. PIL was discontinued in 2011 and only supports Python 2. To use its developers’ own description, Pillow is the friendly PIL fork that kept the library alive and includes support for Python 3.</p>
+<p>There’s more than one module in Python to deal with images and perform image processing. If you want to deal with images directly by manipulating their pixels, then you can use <a href="https://numpy.org">NumPy</a> and <a href="https://scipy.org">SciPy</a>. Other popular libraries for image processing are <a href="https://docs.opencv.org/4.x/">OpenCV</a>,<a href="https://scikit-image.org">scikit-image</a>, and <a href="https://mahotas.readthedocs.io/en/latest/">Mahotas</a>. Some of these libraries are faster and more powerful than Pillow.</p>
+<p>However, Pillow remains an important tool for dealing with images. It provides image processing features that are similar to ones found in image processing software such as Photoshop. Pillow is often the preferred option for high-level image processing tasks that don’t require more advanced image processing expertise. It’s also often used for exploratory work when dealing with images.</p>
+<p>Pillow also has the advantage of being widely used by the Python community, and it doesn’t have the same steep learning curve as some of the other image processing libraries.</p>
+<p>You’ll need to install the library before you can use it. You can install Pillow using <a href="https://realpython.com/what-is-pip/">
+<code>pip</code>
+</a> within a <a href="https://realpython.com/python-virtual-environments-a-primer/">virtual environment</a>:
+</p>
+<ul class="nav nav-tabs justify-content-end js-platform-widget-tabs" role="tablist">
+<li class="nav-item mb-0 js-platform-widget-tab-windows" role="presentation">
+<a class="nav-link link-unstyled text-body active small" id="windows-tab-1" data-toggle="tab" href="#windows-1" role="tab" aria-controls="windows-1" aria-selected="true">
+<i class="fa fa-windows text-muted mr-1" aria-hidden="true"></i>Windows</a>
+</li>
+<li class="nav-item mb-0 js-platform-widget-tab-linuxmacos" role="presentation">
+<a class="nav-link link-unstyled text-body small" id="macos-tab-1" data-toggle="tab" href="#linux-macos-1" role="tab" aria-controls="linux-macos-1" aria-selected="false">
+<i class="fa fa-linux text-muted mr-1" aria-hidden="true"></i>
+<i class="fa fa-apple text-muted mr-1" aria-hidden="true"></i>Linux + macOS</a>
+</li>
+</ul>
+<div class="tab-content mt-2 mb-0 js-platform-widget-content">
+<div aria-labelledby="windows-tab-1" class="tab-pane fade show active" id="windows-1" role="tabpanel">
+<div class="highlight pscon">
+<pre>
+<span></span>
+<code>
+<span class="gp">PS&gt; </span>
+<span class="n">python</span>
+<span class="n">-m</span>
+<span class="n">venv</span>
+<span class="n">venv</span>
+<span class="gp">PS&gt; </span>
+<span class="p">.\</span>
+<span class="n">venv</span>
+<span class="p">\</span>
+<span class="n">Scripts</span>
+<span class="p">\</span>
+<span class="n">activate</span>
+<span class="gp gp-VirtualEnv">(venv)</span>
+<span class="gp">PS&gt; </span>
+<span class="n">python</span>
+<span class="n">-m</span>
+<span class="n">pip</span>
+<span class="n">install</span>
+<span class="n">Pillow</span>
+</code>
+</pre>
+</div>
+</div>
+<div aria-labelledby="linux-macos-tab-1" class="tab-pane fade " id="linux-macos-1" role="tabpanel">
+<div class="highlight sh">
+<pre>
+<span></span>
+<code>
+<span class="gp">$ </span>python -m venv venv <span class="gp">$ </span>
+<span class="nb">source</span> venv/bin/activate <span class="gp gp-VirtualEnv">(venv)</span>
+<span class="gp">$ </span>python -m pip install Pillow </code>
+</pre>
+</div>
+</div>
+</div>
+<p>Now that you’ve installed the package, you’re ready to start familiarizing yourself with the <a href="https://pillow.readthedocs.io/en/stable/reference/index.html">Python Pillow library</a> and perform basic manipulations of images.</p>
+<h3 id="the-image-module-and-image-class-in-pillow">The <code>Image</code> Module and <code>Image</code> Class in Pillow<a class="headerlink" href="#the-image-module-and-image-class-in-pillow" title="Permanent link"></a>
+</h3>
+<p>The main class defined in Pillow is the <a href="https://pillow.readthedocs.io/en/stable/reference/Image.html">
+<code>Image</code>
+</a> class. When you read an image using Pillow, the image is stored in an object of type <code>Image</code>.
+</p>
+<p>For the code in this section, you’ll need the image file named <code>buildings.jpg</code> (<a href="https://pixabay.com/users/memorycatcher-168384/">image credit</a>), which you can find in the image repository for this tutorial:</p>
+<div class="alert alert-warning" role="alert">
+<p>
+<strong markdown="1">Get Images:</strong>
+<a href="https://realpython.com/bonus/image-processing-with-the-python-pillow-library-images/" class="alert-link" data-toggle="modal" data-target="#modal-image-processing-with-the-python-pillow-library-images" data-focus="false" markdown="1">Click here to get access to the images</a> that you’ll manipulate and process with Pillow.</p>
+</div>
+<p>You can place this image file in the project folder that you’re working in.</p>
+<p>When exploring images with Pillow, it’s best to use an <a href="https://realpython.com/interacting-with-python/">interactive REPL environment</a>. You’ll start by opening the image that you just downloaded:</p>
+<div class="highlight python repl">
+<span class="repl-toggle" title="Toggle REPL prompts and output">&gt;&gt;&gt;</span>
+<pre>
+<span></span>
+<code>
+<span class="gp">&gt;&gt;&gt; </span>
+<span class="kn">from</span>
+<span class="nn">PIL</span>
+<span class="kn">import</span>
+<span class="n">Image</span>
+<span class="gp">&gt;&gt;&gt; </span>
+<span class="n">filename</span>
+<span class="o">=</span>
+<span class="s2">"buildings.jpg"</span>
+<span class="gp">&gt;&gt;&gt; </span>
+<span class="k">with</span>
+<span class="n">Image</span>
+<span class="o">.</span>
+<span class="n">open</span>
+<span class="p">(</span>
+<span class="n">filename</span>
+<span class="p">)</span>
+<span class="k">as</span>
+<span class="n">img</span>
+<span class="p">:</span>
+<span class="gp">... </span>
+<span class="n">img</span>
+<span class="o">.</span>
+<span class="n">load</span>
+<span class="p">()</span>
+<span class="gp">...</span>
+<span class="gp">&gt;&gt;&gt; </span>
+<span class="nb">type</span>
+<span class="p">(</span>
+<span class="n">img</span>
+<span class="p">)</span>
+<span class="go">&lt;class 'PIL.JpegImagePlugin.JpegImageFile'&gt;</span>
+<span class="gp">&gt;&gt;&gt; </span>
+<span class="nb">isinstance</span>
+<span class="p">(</span>
+<span class="n">img</span>
+<span class="p">,</span>
+<span class="n">Image</span>
+<span class="o">.</span>
+<span class="n">Image</span>
+<span class="p">)</span>
+<span class="go">True</span>
+</code>
+</pre>
+</div>
+</div>
+<h2>
+<a href="https://realpython.com/image-processing-with-the-python-pillow-library/?utm_source=realpython&utm_medium=rss">Read the full article at https://realpython.com/image-processing-with-the-python-pillow-library/ »</a>
+</h2>
+<hr />
+<p>
+<em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]
+</em>
+</p>
+</content>
+</entry>
+<entry>
+<title>Python Basics: Code Your First Python Program</title>
+<id>https://realpython.com/courses/python-basics-first-program/</id>
+<link href="https://realpython.com/courses/python-basics-first-program/"/>
+<updated>2022-03-22T14:00:00+00:00</updated>
+<summary>In this video course, you'll write your first Python program. Along the way, you'll learn about errors, declare variables and inspect their values, and try your hand at writing comments.</summary>
+<content type="html">
+<p>In the previous Python Basics video course, you <a href="https://realpython.com/courses/setting-up-python/">set up Python</a> on your computer. With Python installed, you&rsquo;re ready ready to start coding!</p>
+<p>
+<strong>In this video course, you&rsquo;ll:</strong>
+</p>
+<ul>
+<li>Write your <strong>first Python program</strong>
+</li>
+<li>Learn what happens when you run a program with an <strong>error</strong>
+</li>
+<li>Learn how to <strong>declare a variable</strong> and <strong>inspect its value</strong>
+</li>
+<li>Learn how to <strong>write comments</strong>
+</li>
+</ul>
+<p>This course can be enjoyed alone or as an accompaniment to <a href="http://pythonbasicsbook.com">Python Basics: A Practical Introduction to Python 3</a>.
+</p>
+<p>Ready to begin your Python journey? Let&rsquo;s go!</p>
+<hr />
+<p>
+<em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]
+</em>
+</p>
+</content>
+</entry>
+<entry>
+<title>Python Timer Functions: Three Ways to Monitor Your Code</title>
+<id>https://realpython.com/python-timer/</id>
+<link href="https://realpython.com/python-timer/"/>
+<updated>2022-03-21T14:00:00+00:00</updated>
+<summary>In this step-by-step tutorial, you'll learn how to use Python timer functions to monitor how quickly your programs are running. You'll use classes, context managers, and decorators to measure your program's running time. You'll learn the benefits of each method and which to use given the situation.</summary>
+<content type="html">
+<div>
+<p>While many developers <a href="https://www.python.org/doc/essays/blurb/">recognize</a> Python as an effective programming language, pure Python programs may run more slowly than their counterparts in compiled languages like <a href="https://realpython.com/c-for-python-programmers/">C</a>, Rust, and <a href="https://realpython.com/oop-in-python-vs-java/">Java</a>. In this tutorial, you’ll learn how to use a <strong>Python timer</strong> to monitor how quickly your programs are running.</p>
+<p>
+<strong>In this tutorial, you’ll learn how to use:</strong>
+</p>
+<ul>
+<li>
+<strong>
+<code>time.perf_counter()</code>
+</strong> to measure time in Python</li>
+<li>
+<strong>Classes</strong> to keep state</li>
+<li>
+<strong>Context managers</strong> to work with a block of code</li>
+<li>
+<strong>Decorators</strong> to customize a function</li>
+</ul>
+<p>You’ll also gain background knowledge into how classes, context managers, and decorators work. As you explore examples of each concept, you’ll be inspired to use one or several of them in your code, for timing code execution, as well as in other applications. Each method has its advantages, and you’ll learn which to use depending on the situation. Plus, you’ll have a working Python timer that you can use to monitor your programs!</p>
+<div class="alert alert-warning" role="alert">
+<p>
+<strong markdown="1">Decorators Q&amp;A Transcript:</strong>
+<a href="https://realpython.com/bonus/decorators-qa-2019/" class="alert-link" data-toggle="modal" data-target="#modal-decorators-qa-2019" data-focus="false" markdown="1">Click here to get access to a 25-page chat log from our Python decorators Q&amp;A session</a> in the Real Python Community Slack where we discussed common decorator questions.</p>
+</div>
+<h2 id="python-timers">Python Timers<a class="headerlink" href="#python-timers" title="Permanent link"></a>
+</h2>
+<p>First, you’ll take a look at some example code that you’ll use throughout the tutorial. Later, you’ll add a <strong>Python timer</strong> to this code to monitor its performance. You’ll also learn some of the simplest ways to measure the running time of this example.</p>
+<h3 id="python-timer-functions">Python Timer Functions<a class="headerlink" href="#python-timer-functions" title="Permanent link"></a>
+</h3>
+<p>If you check out the built-in <a href="https://docs.python.org/3/library/time.html">
+<code>time</code>
+</a> module in Python, then you’ll notice several functions that can measure time:</p>
+<ul>
+<li>
+<a href="https://docs.python.org/3/library/time.html#time.monotonic">
+<code>monotonic()</code>
+</a>
+</li>
+<li>
+<a href="https://docs.python.org/3/library/time.html#time.perf_counter">
+<code>perf_counter()</code>
+</a>
+</li>
+<li>
+<a href="https://docs.python.org/3/library/time.html#time.process_time">
+<code>process_time()</code>
+</a>
+</li>
+<li>
+<a href="https://docs.python.org/3/library/time.html#time.time">
+<code>time()</code>
+</a>
+</li>
+</ul>
+<p>
+<a href="https://realpython.com/python37-new-features/">Python 3.7</a> introduced several new functions, like <a href="https://docs.python.org/3/library/time.html#time.thread_time">
+<code>thread_time()</code>
+</a>, as well as <strong>nanosecond</strong> versions of all the functions above, named with an <code>_ns</code> suffix. For example, <a href="https://docs.python.org/3/library/time.html#time.perf_counter_ns">
+<code>perf_counter_ns()</code>
+</a> is the nanosecond version of <code>perf_counter()</code>. You’ll learn more about these functions later. For now, note what the documentation has to say about <code>perf_counter()</code>:
+</p>
+<blockquote>
+<p>Return the value (in fractional seconds) of a performance counter, i.e. a clock with the highest available resolution to measure a short duration. (<a href="https://docs.python.org/3/library/time.html#time.perf_counter">Source</a>)
+</p>
+</blockquote>
+<p>First, you’ll use <code>perf_counter()</code> to create a Python timer. <a href="#other-python-timer-functions">Later</a>, you’ll compare this with other Python timer functions and learn why <code>perf_counter()</code> is usually the best choice.</p>
+<h3 id="example-download-tutorials">Example: Download Tutorials<a class="headerlink" href="#example-download-tutorials" title="Permanent link"></a>
+</h3>
+<p>To better compare the different ways that you can add a Python timer to your code, you’ll apply different Python timer functions to the same code example throughout this tutorial. If you already have code that you’d like to measure, then feel free to follow the examples with that instead.</p>
+<p>The example that you’ll use in this tutorial is a short function that uses the <a href="https://pypi.org/project/realpython-reader/">
+<code>realpython-reader</code>
+</a> package to download the latest tutorials available here on Real Python. To learn more about the Real Python Reader and how it works, check out <a href="https://realpython.com/pypi-publish-python-package/">How to Publish an Open-Source Python Package to PyPI</a>. You can install <code>realpython-reader</code> on your system with <a href="https://realpython.com/what-is-pip/">
+<code>pip</code>
+</a>:
+</p>
+<div class="highlight sh">
+<pre>
+<span></span>
+<code>
+<span class="gp">$ </span>python -m pip install realpython-reader </code>
+</pre>
+</div>
+<p>Then, you can <a href="https://realpython.com/python-import/">import</a> the package as <code>reader</code>.
+</p>
+<p>You’ll store the example in a file named <code>latest_tutorial.py</code>. The code consists of one function that downloads and prints the latest tutorial from Real Python:</p>
+<div class="highlight python">
+<pre>
+<span></span>
+<code>
+<span class="linenos"> 1</span>
+<span class="c1"># latest_tutorial.py</span>
+<span class="linenos"> 2</span>
+<span class="linenos"> 3</span>
+<span class="kn">from</span>
+<span class="nn">reader</span>
+<span class="kn">import</span>
+<span class="n">feed</span>
+<span class="linenos"> 4</span>
+<span class="linenos"> 5</span>
+<span class="k">def</span>
+<span class="nf">main</span>
+<span class="p">():</span>
+<span class="linenos"> 6</span>
+<span class="sd">"""Download and print the latest tutorial from Real Python"""</span>
+<span class="linenos"> 7</span>
+<span class="n">tutorial</span>
+<span class="o">=</span>
+<span class="n">feed</span>
+<span class="o">.</span>
+<span class="n">get_article</span>
+<span class="p">(</span>
+<span class="mi">0</span>
+<span class="p">)</span>
+<span class="linenos"> 8</span>
+<span class="nb">print</span>
+<span class="p">(</span>
+<span class="n">tutorial</span>
+<span class="p">)</span>
+<span class="linenos"> 9</span>
+<span class="linenos">10</span>
+<span class="k">if</span>
+<span class="vm">__name__</span>
+<span class="o">==</span>
+<span class="s2">"__main__"</span>
+<span class="p">:</span>
+<span class="linenos">11</span>
+<span class="n">main</span>
+<span class="p">()</span>
+</code>
+</pre>
+</div>
+<p>
+<code>realpython-reader</code> handles most of the hard work:</p>
+<ul>
+<li>
+<strong>Line 3</strong> imports <code>feed</code> from <code>realpython-reader</code>. This module contains functionality for downloading tutorials from the <a href="https://realpython.com/contact/#rss-atom-feed">Real Python feed</a>.
+</li>
+<li>
+<strong>Line 7</strong> downloads the latest tutorial from Real Python. The number <code>0</code> is an offset, where <code>0</code> means the most recent tutorial, <code>1</code> is the previous tutorial, and so on.</li>
+<li>
+<strong>Line 8</strong> prints the tutorial to the console.</li>
+<li>
+<strong>Line 11</strong> calls <code>main()</code> when you run the script.</li>
+</ul>
+<p>When you run this example, your output will typically look something like this:</p>
+<div class="highlight sh">
+<pre>
+<span></span>
+<code>
+<span class="gp">$ </span>python latest_tutorial.py <span class="gp"># </span>Python Timer Functions: Three Ways to Monitor Your Code <span class="go">While many developers recognize Python as an effective programming language,</span>
+<span class="go">pure Python programs may run more slowly than their counterparts in compiled</span>
+<span class="go">languages like C, Rust, and Java. In this tutorial, you'll learn how to use</span>
+<span class="go">a Python timer to monitor how quickly your programs are running.</span>
+<span class="go">[ ... ]</span>
+<span class="gp">#</span>
+<span class="c1"># Read the full article at https://realpython.com/python-timer/ »</span>
+<span class="go">* * *</span>
+</code>
+</pre>
+</div>
+<p>The code may take a little while to run depending on your network, so you might want to use a Python timer to monitor the performance of the script.</p>
+</div>
+<h2>
+<a href="https://realpython.com/python-timer/?utm_source=realpython&utm_medium=rss">Read the full article at https://realpython.com/python-timer/ »</a>
+</h2>
+<hr />
+<p>
+<em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]
+</em>
+</p>
+</content>
+</entry>
+<entry>
+<title>The Real Python Podcast – Episode #102: Making Your Notebook Interactive and Using Python's Assert</title>
+<id>https://realpython.com/podcasts/rpp/102/</id>
+<link href="https://realpython.com/podcasts/rpp/102/"/>
+<updated>2022-03-18T12:00:00+00:00</updated>
+<summary>Would you like to build visualizations that allow your audience to play with data? How do you effectively use Python's assert statement during development? This week on the show, Christopher Trudeau is here, and he's brought another batch of PyCoder's Weekly articles and projects.</summary>
+<content type="html">
+<p>Would you like to build visualizations that allow your audience to play with data? How do you effectively use Python's assert statement during development? This week on the show, Christopher Trudeau is here, and he's brought another batch of PyCoder's Weekly articles and projects.</p>
+<hr />
+<p>
+<em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]
+</em>
+</p>
+</content>
+</entry>
+<entry>
+<title>Build a Hash Table in Python With TDD</title>
+<id>https://realpython.com/python-hash-table/</id>
+<link href="https://realpython.com/python-hash-table/"/>
+<updated>2022-03-16T14:00:00+00:00</updated>
+<summary>In this step-by-step tutorial, you'll implement the classic hash table data structure using Python. Along the way, you'll learn how to cope with various challenges such as hash code collisions while practicing test-driven development (TDD).</summary>
+<content type="html">
+<div>
+<p>Invented over half a century ago, the <strong>hash table</strong> is a classic <a href="https://en.wikipedia.org/wiki/Data_structure">data structure</a> that has been fundamental to programming. To this day, it helps solve many real-life problems, such as indexing database tables, caching computed values, or implementing sets. It often comes up in <a href="https://realpython.com/learning-paths/python-interview/">job interviews</a>, and Python uses hash tables all over the place to make name lookups almost instantaneous.</p>
+<p>Even though Python comes with its own hash table called <code>dict</code>, it can be helpful to understand how hash tables work behind the curtain. A coding assessment may even task you with building one. This tutorial will walk you through the steps of implementing a hash table from scratch as if there were none in Python. Along the way, you’ll face a few challenges that’ll introduce important concepts and give you an idea of why hash tables are so fast.</p>
+<p>In addition to this, you’ll get a hands-on crash course in <strong>test-driven development (TDD)</strong> and will actively practice it while building your hash table in a step-by-step fashion. You’re not required to have any prior experience with TDD, but at the same time, you won’t get bored even if you do!</p>
+<p>
+<strong>In this tutorial, you’ll learn:</strong>
+</p>
+<ul>
+<li>How a <strong>hash table</strong> differs from a <strong>dictionary</strong>
+</li>
+<li>How you can <strong>implement a hash table</strong> from scratch in Python</li>
+<li>How you can deal with <strong>hash collisions</strong> and other challenges</li>
+<li>What the desired properties of a <strong>hash function</strong> are</li>
+<li>How <strong>Python’s <code>hash()</code>
+</strong> works behind the scenes</li>
+</ul>
+<p>It’ll help if you’re already familiar with <a href="https://realpython.com/python-dicts/">Python dictionaries</a> and have basic knowledge of <a href="https://realpython.com/python3-object-oriented-programming/">object-oriented programming</a> principles. To get the complete source code and the intermediate steps of the hash table implemented in this tutorial, follow the link below:</p>
+<div class="alert alert-warning" role="alert">
+<p>
+<strong markdown="1">Source Code:</strong>
+<a href="https://realpython.com/bonus/python-hash-table-source-code/" class="alert-link" data-toggle="modal" data-target="#modal-python-hash-table-source-code" data-focus="false" markdown="1">Click here to download the source code</a> that you’ll use to build a hash table in Python.</p>
+</div>
+<h2 id="get-to-know-the-hash-table-data-structure">Get to Know the Hash Table Data Structure<a class="headerlink" href="#get-to-know-the-hash-table-data-structure" title="Permanent link"></a>
+</h2>
+<p>Before diving deeper, you should familiarize yourself with the terminology because it can get slightly confusing. Colloquially, the term <strong>hash table</strong> or <strong>hash map</strong> is often used interchangeably with the word <strong>dictionary</strong>. However, there’s a subtle difference between the two concepts as the former is more specific than the latter.</p>
+<h3 id="hash-table-vs-dictionary">Hash Table vs Dictionary<a class="headerlink" href="#hash-table-vs-dictionary" title="Permanent link"></a>
+</h3>
+<p>In computer science, a <a href="https://en.wikipedia.org/wiki/Associative_array">dictionary</a> is an <a href="https://en.wikipedia.org/wiki/Abstract_data_type">abstract data type</a> made up of <strong>keys</strong> and <strong>values</strong> arranged in pairs. Moreover, it defines the following operations for those elements:</p>
+<ul>
+<li>Add a key-value pair</li>
+<li>Delete a key-value pair</li>
+<li>Update a key-value pair</li>
+<li>Find a value associated with the given key</li>
+</ul>
+<p>In a sense, this abstract data type resembles a <strong>bilingual dictionary</strong>, where the keys are foreign words, and the values are their definitions or translations to other languages. But there doesn’t always have to be a sense of equivalence between keys and values. A <strong>phone book</strong> is another example of a dictionary, which combines names with the corresponding phone numbers.</p>
+<div class="alert alert-primary" role="alert">
+<p>
+<strong>Note:</strong> Anytime you <em>map</em> one thing to another or <em>associate</em> a value with a key, you’re essentially using a kind of a dictionary. That’s why dictionaries are also known as <strong>maps</strong> or <strong>associative arrays</strong>.
+</p>
+</div>
+<p>Dictionaries have a few interesting properties. One of them is that you can think of a dictionary as a <a href="https://en.wikipedia.org/wiki/Function_(mathematics)">mathematical function</a> that projects one or more arguments to exactly one value. The direct consequences of that fact are the following:</p>
+<ul>
+<li>
+<strong>Only Key-Value Pairs:</strong> You can’t have a key without the value or the other way around in a dictionary. They always go together.</li>
+<li>
+<strong>Arbitrary Keys and Values:</strong> Keys and values can belong to two <a href="https://en.wikipedia.org/wiki/Disjoint_sets">disjoint sets</a> of the same or separate types. Both keys and values may be almost anything, such as numbers, words, or even pictures.</li>
+<li>
+<strong>Unordered Key-Value Pairs:</strong> Because of the last point, dictionaries don’t generally define any order for their key-value pairs. However, that might be implementation-specific.</li>
+<li>
+<strong>Unique Keys:</strong> A dictionary can’t contain duplicate keys, because that would violate the definition of a function.</li>
+<li>
+<strong>Non-Unique Values:</strong> The same value can be associated with many keys, but it doesn’t have to.</li>
+</ul>
+<p>There are related concepts that extend the idea of a dictionary. For example, a <a href="https://en.wikipedia.org/wiki/Multimap">multimap</a> lets you have more than one value per key, while a <a href="https://en.wikipedia.org/wiki/Bidirectional_map">bidirectional map</a> not only maps keys to values but also provides mapping in the opposite direction. However, in this tutorial, you’re only going to consider the regular dictionary, which maps exactly one value to each key.</p>
+<p>Here’s a graphical depiction of a hypothetical dictionary, which maps some abstract concepts to their corresponding English words:</p>
+<figure class="js-lightbox">
+<a href="https://files.realpython.com/media/dict_map.6ea6c6e33b4b.png" target="_blank">
+<img loading="lazy" class="img-fluid mx-auto d-block w-66" src="https://files.realpython.com/media/dict_map.6ea6c6e33b4b.png" width="1405" height="1125" srcset="https://robocrop.realpython.net/?url=https%3A//files.realpython.com/media/dict_map.6ea6c6e33b4b.png&amp;w=351&amp;sig=a6cd176c7fe425cd71f22c73f62280f32388b59e 351w, https://robocrop.realpython.net/?url=https%3A//files.realpython.com/media/dict_map.6ea6c6e33b4b.png&amp;w=702&amp;sig=30452c5332ce10b4c459181f482a38000dbc019e 702w, https://files.realpython.com/media/dict_map.6ea6c6e33b4b.png 1405w" sizes="75vw" alt="Graphical Depiction of a Dictionary Abstract Data Type" data-asset="4019"></a>
+<figcaption class="figure-caption text-center">Graphical Depiction of a Dictionary Abstract Data Type</figcaption>
+</figure>
+<p>It’s a one-way map of keys to values, which are two completely different sets of elements. Right away, you can see fewer values than keys because the word <em>bow</em> happens to be a <a href="https://en.wikipedia.org/wiki/Homonym">homonym</a> with multiple meanings. Conceptually, this dictionary still contains four pairs, though. Depending on how you decided to implement it, you could reuse repeated values to conserve memory or duplicate them for simplicity.</p>
+<p>Now, how do you code such a dictionary in a programming language? The right answer is you <em>don’t</em>, because most modern languages come with dictionaries as either <a href="https://en.wikipedia.org/wiki/Primitive_data_type">primitive data types</a> or classes in their <a href="https://en.wikipedia.org/wiki/Standard_library">standard libraries</a>. Python ships with a built-in <code>dict</code> type, which already wraps a highly optimized data structure written in C so that you don’t have to write a dictionary yourself.</p>
+<p>Python’s <code>dict</code> lets you perform all the dictionary operations listed at the beginning of this section:</p>
+<div class="highlight python repl">
+<span class="repl-toggle" title="Toggle REPL prompts and output">&gt;&gt;&gt;</span>
+<pre>
+<span></span>
+<code>
+<span class="gp">&gt;&gt;&gt; </span>
+<span class="n">glossary</span>
+<span class="o">=</span>
+<span class="p">{</span>
+<span class="s2">"BDFL"</span>
+<span class="p">:</span>
+<span class="s2">"Benevolent Dictator For Life"</span>
+<span class="p">}</span>
+<span class="gp">&gt;&gt;&gt; </span>
+<span class="n">glossary</span>
+<span class="p">[</span>
+<span class="s2">"GIL"</span>
+<span class="p">]</span>
+<span class="o">=</span>
+<span class="s2">"Global Interpreter Lock"</span>
+<span class="c1"># Add</span>
+<span class="gp">&gt;&gt;&gt; </span>
+<span class="n">glossary</span>
+<span class="p">[</span>
+<span class="s2">"BDFL"</span>
+<span class="p">]</span>
+<span class="o">=</span>
+<span class="s2">"Guido van Rossum"</span>
+<span class="c1"># Update</span>
+<span class="gp">&gt;&gt;&gt; </span>
+<span class="k">del</span>
+<span class="n">glossary</span>
+<span class="p">[</span>
+<span class="s2">"GIL"</span>
+<span class="p">]</span>
+<span class="c1"># Delete</span>
+<span class="gp">&gt;&gt;&gt; </span>
+<span class="n">glossary</span>
+<span class="p">[</span>
+<span class="s2">"BDFL"</span>
+<span class="p">]</span>
+<span class="c1"># Search</span>
+<span class="go">'Guido van Rossum'</span>
+<span class="gp">&gt;&gt;&gt; </span>
+<span class="n">glossary</span>
+<span class="go">{'BDFL': 'Guido van Rossum'}</span>
+</code>
+</pre>
+</div>
+<p>With the <strong>square bracket syntax</strong> (<code>[ ]</code>), you can add a new key-value pair to a dictionary. You can also update the value of or delete an existing pair identified by a key. Finally, you can look up the value associated with the given key.</p>
+<p>That said, you may ask a different question. How does the built-in dictionary actually work? How does it map keys of arbitrary data types, and how does it do it so quickly?</p>
+</div>
+<h2>
+<a href="https://realpython.com/python-hash-table/?utm_source=realpython&utm_medium=rss">Read the full article at https://realpython.com/python-hash-table/ »</a>
+</h2>
+<hr />
+<p>
+<em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]
+</em>
+</p>
+</content>
+</entry>
+<entry>
+<title>Sorting Data in Python With Pandas</title>
+<id>https://realpython.com/courses/sorting-data-python-pandas/</id>
+<link href="https://realpython.com/courses/sorting-data-python-pandas/"/>
+<updated>2022-03-15T14:00:00+00:00</updated>
+<summary>In this video course, you'll learn how to sort data in a pandas DataFrame using the pandas sort functions sort_values() and sort_index(). You'll learn how to sort by one or more columns and by index in ascending or descending order.</summary>
+<content type="html">
+<p>Learning pandas <strong>sort methods</strong> is a great way to start with or practice doing basic <a href="https://realpython.com/pandas-python-explore-dataset/">data analysis using Python</a>. Most commonly, data analysis is done with <a href="https://realpython.com/openpyxl-excel-spreadsheets-python/">spreadsheets</a>,<a href="https://realpython.com/python-sql-libraries/">SQL</a>, or <a href="https://realpython.com/learning-paths/pandas-data-science/">pandas</a>. One of the great things about using pandas is that it can handle a large amount of data and offers highly performant data manipulation capabilities.</p>
+<p>In this video course, you&rsquo;ll learn how to use <code>.sort_values()</code> and <code>.sort_index()</code>, which will enable you to sort data efficiently in a DataFrame.</p>
+<p>
+<strong>By the end of this video course, you&rsquo;ll know how to:</strong>
+</p>
+<ul>
+<li>Sort a <strong>pandas DataFrame</strong> by the values of one or more columns</li>
+<li>Use the <code>ascending</code> parameter to change the <strong>sort order</strong>
+</li>
+<li>Sort a DataFrame by its <code>index</code> using <strong>
+<code>.sort_index()</code>
+</strong>
+</li>
+<li>Organize <strong>missing data</strong> while sorting values</li>
+<li>Sort a DataFrame <strong>in-place</strong> using <code>inplace</code> set to <code>True</code>
+</li>
+</ul>
+<hr />
+<p>
+<em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]
+</em>
+</p>
+</content>
+</entry>
+<entry>
+<title>Python Class Constructors: Control Your Object Instantiation</title>
+<id>https://realpython.com/python-class-constructor/</id>
+<link href="https://realpython.com/python-class-constructor/"/>
+<updated>2022-03-14T14:00:00+00:00</updated>
+<summary>In this tutorial, you'll learn how class constructors work in Python. You'll also explore Python's instantiation process, which has two main steps: instance creation and instance initialization.</summary>
+<content type="html">
+<div>
+<p>Class constructors are a fundamental part of <strong>object-oriented programming</strong> in Python. They allow you to create and properly initialize objects of a given class, making those objects ready to use. Class constructors internally trigger Python’s instantiation process, which runs through two main steps: <strong>instance creation</strong> and <strong>instance initialization</strong>.
+</p>
+<p>If you want to dive deeper into how Python internally constructs objects and learn how to customize the process, then this tutorial is for you.</p>
+<p>
+<strong>In this tutorial, you’ll:</strong>
+</p>
+<ul>
+<li>Understand Python’s internal <strong>instantiation process</strong>
+</li>
+<li>Customize object initialization using <strong>
+<code>.__init__()</code>
+</strong>
+</li>
+<li>Fine-tune object creation by overriding <strong>
+<code>.__new__()</code>
+</strong>
+</li>
+</ul>
+<p>With this knowledge, you’ll be able to tweak the creation and initialization of objects in your custom Python classes, which will give you control over the instantiation process at a more advanced level.</p>
+<p>To better understand the examples and concepts in this tutorial, you should be familiar with <a href="https://realpython.com/python3-object-oriented-programming/">object-oriented programming</a> and <a href="https://docs.python.org/3/glossary.html#term-special-method">special methods</a> in Python.</p>
+<div class="alert alert-warning" role="alert">
+<p>
+<strong markdown="1">Free Bonus:</strong>
+<a href="https://realpython.com/bonus/python-oop/" class="alert-link" data-toggle="modal" data-target="#modal-python-oop" data-focus="false" markdown="1">Click here to get access to a free Python OOP Cheat Sheet</a> that points you to the best tutorials, videos, and books to learn more about Object-Oriented Programming with Python.</p>
+</div>
+<h2 id="pythons-class-constructors-and-the-instantiation-process">Python’s Class Constructors and the Instantiation Process<a class="headerlink" href="#pythons-class-constructors-and-the-instantiation-process" title="Permanent link"></a>
+</h2>
+<p>Like many other programming languages, Python supports <a href="https://realpython.com/python3-object-oriented-programming/">object-oriented programming</a>. At the heart of Python’s object-oriented capabilities, you’ll find the <a href="https://realpython.com/python-keywords/#structure-keywords-def-class-with-as-pass-lambda">
+<code>class</code>
+</a> keyword, which allows you to define custom classes that can have <a href="https://realpython.com/python3-object-oriented-programming/#class-and-instance-attributes">attributes</a> for storing data and <a href="https://realpython.com/python3-object-oriented-programming/#instance-methods">methods</a> for providing behaviors.</p>
+<p>Once you have a class to work with, then you can start creating new <strong>instances</strong> or <strong>objects</strong> of that class, which is an efficient way to reuse functionality in your code.</p>
+<p>Creating and initializing objects of a given class is a fundamental step in object-oriented programming. This step is often referred to as <strong>object construction</strong> or <strong>instantiation</strong>. The tool responsible for running this instantiation process is commonly known as a <strong>class constructor</strong>.
+</p>
+<h3 id="getting-to-know-pythons-class-constructors">Getting to Know Python’s Class Constructors<a class="headerlink" href="#getting-to-know-pythons-class-constructors" title="Permanent link"></a>
+</h3>
+<p>In Python, to construct an object of a given class, you just need to call the class with appropriate arguments, as you would call any <a href="https://realpython.com/defining-your-own-python-function/">function</a>:
+</p>
+<div class="highlight python repl">
+<span class="repl-toggle" title="Toggle REPL prompts and output">&gt;&gt;&gt;</span>
+<pre>
+<span></span>
+<code>
+<span class="gp">&gt;&gt;&gt; </span>
+<span class="k">class</span>
+<span class="nc">SomeClass</span>
+<span class="p">:</span>
+<span class="gp">... </span>
+<span class="k">pass</span>
+<span class="gp">...</span>
+<span class="gp">&gt;&gt;&gt; </span>
+<span class="c1"># Call the class to construct an object</span>
+<span class="gp">&gt;&gt;&gt; </span>
+<span class="n">SomeClass</span>
+<span class="p">()</span>
+<span class="go">&lt;__main__.SomeClass object at 0x7fecf442a140&gt;</span>
+</code>
+</pre>
+</div>
+<p>In this example, you define <code>SomeClass</code> using the <code>class</code> keyword. This class is currently empty because it doesn’t have attributes or methods. Instead, the class’s body only contains a <a href="https://realpython.com/python-pass/">
+<code>pass</code>
+</a> statement as a placeholder statement that does nothing.</p>
+<p>Then you create a new instance of <code>SomeClass</code> by calling the class with a pair of parentheses. In this example, you don’t need to pass any argument in the call because your class doesn’t take arguments yet.</p>
+<p>In Python, when you call a class as you did in the above example, you’re calling the class constructor, which creates, initializes, and returns a new object by triggering Python’s internal instantiation process.</p>
+<p>A final point to note is that calling a class isn’t the same as calling an <em>instance</em> of a class. These are two different and unrelated topics. To make a class’s instance callable, you need to implement a <a href="https://docs.python.org/3/reference/datamodel.html#object.__call__">
+<code>.__call__()</code>
+</a> special method, which has nothing to do with Python’s instantiation process.</p>
+<h3 id="understanding-pythons-instantiation-process">Understanding Python’s Instantiation Process<a class="headerlink" href="#understanding-pythons-instantiation-process" title="Permanent link"></a>
+</h3>
+<p>You trigger Python’s <strong>instantiation process</strong> whenever you call a Python class to create a new instance. This process runs through two separate steps, which you can describe as follows:</p>
+<ol>
+<li>
+<strong>Create a new instance</strong> of the target class</li>
+<li>
+<strong>Initialize the new instance</strong> with an appropriate initial <a href="https://en.wikipedia.org/wiki/State_(computer_science)">state</a>
+</li>
+</ol>
+<p>To run the first step, Python classes have a special method called <a href="https://docs.python.org/3/reference/datamodel.html#object.__new__">
+<code>.__new__()</code>
+</a>, which is responsible for creating and returning a new empty object. Then another special method, <a href="https://docs.python.org/3/reference/datamodel.html#object.__init__">
+<code>.__init__()</code>
+</a>, takes the resulting object, along with the class constructor’s arguments.</p>
+<p>The <code>.__init__()</code> method takes the new object as its first argument, <code>self</code>. Then it sets any required instance attribute to a valid state using the arguments that the class constructor passed to it.</p>
+<p>In short, Python’s instantiation process starts with a call to the class constructor, which triggers the <strong>instance creator</strong>,<code>.__new__()</code>, to create a new empty object. The process continues with the <strong>instance initializer</strong>,<code>.__init__()</code>, which takes the constructor’s arguments to initialize the newly created object.</p>
+<p>To explore how Python’s instantiation process works internally, consider the following example of a <code>Point</code> class that implements a custom version of both methods, <code>.__new__()</code> and <code>.__init__()</code>, for demonstration purposes:</p>
+</div>
+<h2>
+<a href="https://realpython.com/python-class-constructor/?utm_source=realpython&utm_medium=rss">Read the full article at https://realpython.com/python-class-constructor/ »</a>
+</h2>
+<hr />
+<p>
+<em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]
+</em>
+</p>
+</content>
+</entry>
+<entry>
+<title>The Real Python Podcast – Episode #101: Tools for Setting Up Python on a New Machine</title>
+<id>https://realpython.com/podcasts/rpp/101/</id>
+<link href="https://realpython.com/podcasts/rpp/101/"/>
+<updated>2022-03-11T12:00:00+00:00</updated>
+<summary>There are many ways to get Python installed on your computer. If you were going to start fresh, what tools would you use? What if you need to manage multiple versions of Python and virtual environments? What about all the additional tools that make your coding workflow complete? This week on the show, Calvin Hendryx-Parker is here to talk about bootstrapping your Python environment.</summary>
+<content type="html">
+<p>There are many ways to get Python installed on your computer. If you were going to start fresh, what tools would you use? What if you need to manage multiple versions of Python and virtual environments? What about all the additional tools that make your coding workflow complete? This week on the show, Calvin Hendryx-Parker is here to talk about bootstrapping your Python environment.</p>
+<hr />
+<p>
+<em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]
+</em>
+</p>
+</content>
+</entry>
+<entry>
+<title>Counting With Python's Counter</title>
+<id>https://realpython.com/courses/counting-python-counter/</id>
+<link href="https://realpython.com/courses/counting-python-counter/"/>
+<updated>2022-03-08T14:00:00+00:00</updated>
+<summary>In this video course, you'll learn how to use Python's Counter to count several repeated objects at once.</summary>
+<content type="html">
+<p>Counting several repeated objects at once is a common problem in programming. Python offers a bunch of tools and techniques you can use to approach this problem. However, Python&rsquo;s <strong>
+<code>Counter</code>
+</strong> from <a href="https://docs.python.org/3/library/collections.html#module-collections">
+<code>collections</code>
+</a> provides a clean, efficient, and Pythonic solution.</p>
+<p>This <a href="https://realpython.com/python-dicts/">dictionary</a> subclass provides efficient counting capabilities out of the box. Understanding <code>Counter</code> and how to use it efficiently is a convenient skill to have as a Python developer.</p>
+<p>
+<strong>In this video course, you&rsquo;ll learn how to:</strong>
+</p>
+<ul>
+<li>Count <strong>several repeated objects</strong> at once</li>
+<li>Create counters with Python&rsquo;s <strong>
+<code>Counter</code>
+</strong>
+</li>
+<li>Retrieve the <strong>most common objects</strong> in a counter</li>
+<li>Update <strong>object counts</strong>
+</li>
+<li>Use <code>Counter</code> to facilitate <strong>further computations</strong>
+</li>
+<li>Implement <code>Counter</code> instances as <strong>multisets</strong>
+</li>
+</ul>
+<hr />
+<p>
+<em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]
+</em>
+</p>
+</content>
+</entry>
+<entry>
+<title>The Real Python Podcast – Episode #100: Defining Optional Arguments and Moving Beyond "Beginner" Python</title>
+<id>https://realpython.com/podcasts/rpp/100/</id>
+<link href="https://realpython.com/podcasts/rpp/100/"/>
+<updated>2022-03-04T12:00:00+00:00</updated>
+<summary>How do you define Python functions that accept optional arguments or default values? Are you wondering how to go beyond being a beginner with Python? This week on the show, Christopher Trudeau is here, and he's brought another batch of PyCoder's Weekly articles and projects.</summary>
+<content type="html">
+<p>How do you define Python functions that accept optional arguments or default values? Are you wondering how to go beyond being a beginner with Python? This week on the show, Christopher Trudeau is here, and he's brought another batch of PyCoder's Weekly articles and projects.</p>
+<hr />
+<p>
+<em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]
+</em>
+</p>
+</content>
+</entry>
+<entry>
+<title>Exploring the Fibonacci Sequence With Python</title>
+<id>https://realpython.com/courses/python-fibonacci-sequence/</id>
+<link href="https://realpython.com/courses/python-fibonacci-sequence/"/>
+<updated>2022-03-01T14:00:00+00:00</updated>
+<summary>In this video course, you'll explore the Fibonacci sequence in Python, which serves as an invaluable springboard into the world of recursion, and learn how to optimize recursive algorithms in the process.</summary>
+<content type="html">
+<p>The <strong>Fibonacci sequence</strong> is a pretty famous sequence of integer numbers. The sequence comes up naturally in many problems and has a nice recursive definition. Learning how to generate it is an essential step in the pragmatic programmer&rsquo;s journey toward mastering <a href="https://realpython.com/python-recursion/">recursion</a>. In this video course, you&rsquo;ll focus on learning what the Fibonacci sequence is and how to generate it using Python.</p>
+<p>
+<strong>In this course, you&rsquo;ll learn how to:</strong>
+</p>
+<ul>
+<li>Generate the Fibonacci sequence using a <strong>recursive algorithm</strong>
+</li>
+<li>Optimize the recursive Fibonacci algorithm using <strong>memoization</strong>
+</li>
+<li>Generate the Fibonacci sequence using an <strong>iterative algorithm</strong>
+</li>
+</ul>
+<hr />
+<p>
+<em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]
+</em>
+</p>
+</content>
+</entry>
+<entry>
+<title>The Real Python Podcast – Episode #99: OAuth 2 and Authentication Choices for Your Python Project</title>
+<id>https://realpython.com/podcasts/rpp/99/</id>
+<link href="https://realpython.com/podcasts/rpp/99/"/>
+<updated>2022-02-25T12:00:00+00:00</updated>
+<summary>Have you thought about what authentication system you want to use for your Python project? Should you use an existing Python library or a third-party service? This week on the show, Dan Moore is here to talk about authentication systems and OAuth 2.</summary>
+<content type="html">
+<p>Have you thought about what authentication system you want to use for your Python project? Should you use an existing Python library or a third-party service? This week on the show, Dan Moore is here to talk about authentication systems and OAuth 2.</p>
+<hr />
+<p>
+<em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]
+</em>
+</p>
+</content>
+</entry>
+<entry>
+<title>Starting With Linear Regression in Python</title>
+<id>https://realpython.com/courses/python-linear-regression/</id>
+<link href="https://realpython.com/courses/python-linear-regression/"/>
+<updated>2022-02-22T14:00:00+00:00</updated>
+<summary>In this video course, you'll get started with linear regression in Python. Linear regression is one of the fundamental statistical and machine learning techniques, and Python is a popular choice for machine learning.</summary>
+<content type="html">
+<p>We&rsquo;re living in the era of large amounts of <a href="https://realpython.com/tutorials/data-science/">data</a>, powerful computers, and <a href="https://realpython.com/python-ai-neural-network/">artificial intelligence</a>. This is just the beginning. <a href="https://realpython.com/data-science-podcasts/">Data science</a> and machine learning are driving image recognition, autonomous vehicle development, decisions in the financial and energy sectors, advances in medicine, the rise of social networks, and more. Linear regression is an important part of this.</p>
+<p>Linear regression is one of the fundamental statistical and machine learning techniques. Whether you want to do <a href="https://realpython.com/python-statistics/">statistics</a>,<a href="https://realpython.com/tutorials/machine-learning/">machine learning</a>, or scientific computing, there&rsquo;s a good chance that you&rsquo;ll need it. It&rsquo;s advisable to learn it first and then proceed toward more complex methods.</p>
+<p>
+<strong>In this video course, you&rsquo;ll learn:</strong>
+</p>
+<ul>
+<li>What linear regression is</li>
+<li>What linear regression is used for</li>
+<li>How linear regression works</li>
+<li>How to implement linear regression in Python, step by step</li>
+</ul>
+<hr />
+<p>
+<em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]
+</em>
+</p>
+</content>
+</entry>
+<entry>
+<title>The Real Python Podcast – Episode #98: Drawing Fractals With Python and Working With a Weather API</title>
+<id>https://realpython.com/podcasts/rpp/98/</id>
+<link href="https://realpython.com/podcasts/rpp/98/"/>
+<updated>2022-02-18T12:00:00+00:00</updated>
+<summary>Have you been wanting to explore fractals and complex numbers in Python? Would you like to practice working with APIs in Python through a new project? This week on the show, Christopher Trudeau is here, and he's taking on the task of curating new issues of PyCoder's Weekly going forward. He'll be joining me as a cohost every other week and bringing a fresh batch of PyCoder's Weekly articles and projects.</summary>
+<content type="html">
+<p>Have you been wanting to explore fractals and complex numbers in Python? Would you like to practice working with APIs in Python through a new project? This week on the show, Christopher Trudeau is here, and he's taking on the task of curating new issues of PyCoder's Weekly going forward. He'll be joining me as a cohost every other week and bringing a fresh batch of PyCoder's Weekly articles and projects.</p>
+<hr />
+<p>
+<em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]
+</em>
+</p>
+</content>
+</entry>
+<entry>
+<title>Python any(): Powered Up Boolean Function</title>
+<id>https://realpython.com/courses/python-any-boolean-function/</id>
+<link href="https://realpython.com/courses/python-any-boolean-function/"/>
+<updated>2022-02-15T14:00:00+00:00</updated>
+<summary>If you've ever wondered how to simplify complex conditionals by determining if at least one in a series of conditions is true, then look no further. This video course will teach you all about how to use any() in Python to do just that.</summary>
+<content type="html">
+<p>As a Python programmer, you&rsquo;ll frequently deal with <a href="https://realpython.com/python-boolean/">Booleans</a> and <a href="https://realpython.com/python-conditional-statements/">conditional statements</a>&mdash;sometimes very complex ones. In those situations, you may need to rely on tools that can simplify logic and consolidate information. Fortunately, <strong>
+<code>any()</code>
+</strong> in Python is such a tool. It looks through the elements in an iterable and returns a single value indicating whether any element is true in a Boolean context, or <strong>truthy.</strong>
+</p>
+<p>
+<strong>In this course, you&rsquo;ll learn how to:</strong>
+</p>
+<ul>
+<li>Use <strong>
+<code>any()</code>
+</strong> and <strong>
+<code>not any()</code>
+</strong>
+</li>
+<li>Elimate long <strong>
+<code>or</code> chains</strong>
+</li>
+<li>Use <code>any()</code> with <strong>list comprehensions</strong>
+</li>
+<li>
+<strong>Evalute values</strong> that aren&rsquo;t explicitly <code>True</code> or <code>False</code>
+</li>
+<li>Distinguish between <strong>
+<code>any()</code>
+</strong> and <strong>
+<code>or</code>
+</strong>
+</li>
+<li>Use <strong>short-circuiting</strong>
+</li>
+</ul>
+<hr />
+<p>
+<em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]
+</em>
+</p>
+</content>
+</entry>
+<entry>
+<title>The Real Python Podcast – Episode #97: Improving Your Django and Python Developer Experience</title>
+<id>https://realpython.com/podcasts/rpp/97/</id>
+<link href="https://realpython.com/podcasts/rpp/97/"/>
+<updated>2022-02-11T12:00:00+00:00</updated>
+<summary>How often have you thought about your Developer Experience (DX)? How do you improve your workflow, find documentation, and simplify code formatting? This week on the show, Adam Johnson is here to talk about his new book, "Boost Your Django DX."</summary>
+<content type="html">
+<p>How often have you thought about your Developer Experience (DX)? How do you improve your workflow, find documentation, and simplify code formatting? This week on the show, Adam Johnson is here to talk about his new book, "Boost Your Django DX."</p>
+<hr />
+<p>
+<em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]
+</em>
+</p>
+</content>
+</entry>
+<entry>
+<title>Defining Python Functions With Optional Arguments</title>
+<id>https://realpython.com/courses/defining-python-functions-with-optional-arguments/</id>
+<link href="https://realpython.com/courses/defining-python-functions-with-optional-arguments/"/>
+<updated>2022-02-08T14:00:00+00:00</updated>
+<summary>In this video course, you'll learn about Python optional arguments and how to define functions with default values. You'll also learn how to create functions that accept any number of arguments using args and kwargs.</summary>
+<content type="html">
+<p>Defining your own functions is an essential skill for writing clean and effective code. In this tutorial, you&rsquo;ll explore the techniques you have available for defining Python functions that take optional arguments. When you master Python optional arguments, you&rsquo;ll be able to define functions that are more powerful and more flexible.</p>
+<p>
+<strong>In this course, you&rsquo;ll learn how to:</strong>
+</p>
+<ul>
+<li>Distinguish between <strong>parameters</strong> and <strong>arguments</strong>
+</li>
+<li>Define functions with <strong>optional arguments</strong> and <strong>default parameter values</strong>
+</li>
+<li>Define functions using <strong>
+<code>args</code>
+</strong> and <strong>
+<code>kwargs</code>
+</strong>
+</li>
+<li>Deal with <strong>error messages</strong> about optional arguments</li>
+</ul>
+<hr />
+<p>
+<em>[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp; sweet Python Trick delivered to your inbox every couple of days. <a href="https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer">&gt;&gt; Click here to learn more and see examples</a> ]
+</em>
+</p>
+</content>
+</entry>
+</feed>
