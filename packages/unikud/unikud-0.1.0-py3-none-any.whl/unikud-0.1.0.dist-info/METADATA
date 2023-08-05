@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: unikud
+Version: 0.1.0
+Summary: A small example package
+Home-page: https://dagshub.com/morrisalp/unikud
+Author: Morris Alper
+Author-email: morrisalp@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: torch (==1.11.0)
+Requires-Dist: transformers (==4.15.0)
+
+Hebrew nikud with deep learning
+
