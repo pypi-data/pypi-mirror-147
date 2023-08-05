@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: darkyaml
+Version: 0.0.3
+Summary: DarkYml is simple yaml db
+Home-page: http://www.github.com/xllwhoami/darkyml
+Author: xllwhoami
+Author-email: anonymous@ass.net
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+Is a simple dict-like yaml db
+
