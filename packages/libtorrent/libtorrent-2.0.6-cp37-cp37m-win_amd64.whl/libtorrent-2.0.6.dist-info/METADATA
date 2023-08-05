@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: libtorrent
+Version: 2.0.6
+Summary: Python bindings for libtorrent-rasterbar
+Home-page: http://libtorrent.org
+Author: Arvid Norberg
+Author-email: arvid@libtorrent.org
+License: BSD
+Platform: UNKNOWN
+
+Python bindings for libtorrent-rasterbar
+
