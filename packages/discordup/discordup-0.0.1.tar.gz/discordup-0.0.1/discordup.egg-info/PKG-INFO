@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: discordup
+Version: 0.0.1
+Summary: Update Discord via the console on Debian powered systems
+Home-page: https://github.com/jona799t/discordup
+Author: jona799t
+License: GsetPL-3.0
+Platform: UNKNOWN
+Requires-Python: >3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+UNKNOWN
+
