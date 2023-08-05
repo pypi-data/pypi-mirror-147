@@ -1,0 +1,12 @@
+openstats/__init__.py,sha256=H5WMAL8s9SnPIUCieNSYztj5RGvemCvhk8FVpGNi6NA,71
+openstats/app.py,sha256=Qj9nDyRzniBW8oU2oyDDfShNs9MyEbGRy4YiiHF_TQY,762
+openstats/cli.py,sha256=wBv6sIrwbGUq8Fa4Lsh1Z9yj9IVRXKF5vcJYs5SRrNc,392
+openstats/client.py,sha256=ZlZ0denikcxv_i-xqUGddu-qq9l_ghJlBtFw_JekCdA,2215
+openstats/components.py,sha256=tHvte-JYWpTl9sGp5HCXV7LKGkBX-Lk123lW1QifXDI,9103
+openstats/data.py,sha256=dNRNd1G-Xu_0B9MJi1WTRL3xQXjlnGl6ZQ5fwnbUIpk,7800
+openstats/theme.py,sha256=s2Aq4Pd-xlYmj5e-XSkZNQaDur2D8j-LJxQ0JpDwiwA,806
+openstats-0.1.9.3.dist-info/entry_points.txt,sha256=_bdx6PJekUkGOicZQi9DX8hbdwDqQoWQnv5fytChE9Y,53
+openstats-0.1.9.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+openstats-0.1.9.3.dist-info/WHEEL,sha256=4TfKIB_xu-04bc2iKz6_zFt-gEFEEDU_31HGhqzOCE8,81
+openstats-0.1.9.3.dist-info/METADATA,sha256=vzpzw4L7arRnOectLN8PIYHJJU6ccrFJ64xXH21bJoc,6710
+openstats-0.1.9.3.dist-info/RECORD,,
