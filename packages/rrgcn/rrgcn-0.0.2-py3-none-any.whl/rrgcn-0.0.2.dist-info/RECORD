@@ -1,0 +1,10 @@
+rrgcn/__init__.py,sha256=fWoIvGP4WtDjRs7vkCpVLhTQAy1-3y349NwA93drMwA,93
+rrgcn/node_encoder.py,sha256=akx7ChxRUgJ6JbKsgYTGWdoGiVGv0txdcPYVwYIoILQ,6113
+rrgcn/random_rgcn_conv.py,sha256=tIYxoX2jRN1wNthXxmTchh-LxC3BohAr2aWPKohJzLM,4786
+rrgcn/random_rgcn_embedder.py,sha256=aaDi8d6i1KgZ-6v-foZO31ktuwU-iIu3-WkBepDoob4,13802
+rrgcn/util.py,sha256=qG3654vHdnb7SJQMh_-MKsWMV4II0CJXC6uPs_flo8k,4167
+rrgcn-0.0.2.dist-info/LICENSE,sha256=BfDsc4CW0OaHqjFZgknWgCPFUddsYc6cub9uXEHFmLU,1643
+rrgcn-0.0.2.dist-info/METADATA,sha256=N1fiKVNRyZ6bh9RD_Q422M3OwqzteGi0isY9rsjQ1Ow,527
+rrgcn-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+rrgcn-0.0.2.dist-info/top_level.txt,sha256=5gtqB-M595gsz66JqqdeQhuihHDzgh8tnaWbUitFUQQ,6
+rrgcn-0.0.2.dist-info/RECORD,,
