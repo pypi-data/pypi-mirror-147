@@ -1,0 +1,17 @@
+alice/__init__.py,sha256=Qyqn3vV7Ff9Oa9UJVzBMUl2JnD_wBN1LzjMxWsWXugE,271
+alice/__main__.py,sha256=ThcZeppsKNL8yW_uoyfrAiTCE2Egm0ccMnDKii92DKY,65
+alice/cli.py,sha256=b8WvTedz4PmWeysJK_3Q019QY_X74Duo9MTJ6Hn1vBU,1752
+alice/config.py,sha256=IGq82rkq2BTldrPjztb5iMAYcPhDPnRE7FNe8BZw-Yo,1221
+alice/configparser.py,sha256=UE4EA2OqZ9l64JkyZjxk2gZQCkBGd7fuSWcB7i5ynMw,4104
+alice/exceptions.py,sha256=hVKa_zlvW5bSDeNy2DRVQx1vhyJN-TyRaVvQsjZgEas,138
+alice/runnerfactory.py,sha256=BDju64g4hiyONdRDH-Qm0t4zXH5-7T93vxmxPn1rVbk,2438
+alice/runners/__init__.py,sha256=MdbEy7p4JEqyTMfuhS5WyCaneAip7buXpK0XIPqwiaE,137
+alice/runners/dockerrunner.py,sha256=rK4W_hoRjBSd1pX72XV5TnHJmosLYKmCXbnQIdGP4pM,8860
+alice/runners/pypirunner.py,sha256=ahg9Yj3nj3fogcto2z7bqKgdpZ6ShjIjppsZ9_GXyWk,6344
+alice/runners/pythonrunner.py,sha256=KeQNBGnbQW-B5teJodq9O2D82CMLIcLK0SDrl261XL8,4018
+alice/runners/pyutils.py,sha256=h5230UIR9NddGVaHXm9ElOHkpC_IRy8egKBHM_3d8ao,6069
+alice_ci-0.0.11.dist-info/METADATA,sha256=XdVIes1Zo_phK7w9MgAcioZN94c-fYPxMpK32OZblcw,877
+alice_ci-0.0.11.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+alice_ci-0.0.11.dist-info/entry_points.txt,sha256=-QZq8O034UpFKuueOoPd_ku1r5sI-WNTXUMnKGarMS4,41
+alice_ci-0.0.11.dist-info/top_level.txt,sha256=-HFl4wWw98SCTTgGQ0-dCQlhCiVkGrh3PPkqSMnXdnA,6
+alice_ci-0.0.11.dist-info/RECORD,,
