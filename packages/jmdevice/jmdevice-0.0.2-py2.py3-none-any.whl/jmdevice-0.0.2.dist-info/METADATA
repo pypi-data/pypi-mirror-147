@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: jmdevice
+Version: 0.0.2
+Summary: jmdevice
+Home-page: https://github.com/logan62334/jmdevice.git
+Author: mafei
+License: MIT Licence
+Platform: any
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tidevice
+
+# jmdevice
+
+<p>
+<img src="https://img.shields.io/pypi/v/jmdevice.svg">
+<img src="https://img.shields.io/pypi/wheel/jmdevice.svg">
+<img src="https://img.shields.io/pypi/pyversions/jmdevice.svg">
+<img src="https://img.shields.io/pypi/l/jmdevice.svg">
+</p>
+
+# Installing
+
+Install and update using `pip`:
+
+```
+pip install -U jmdevice
+```
+
