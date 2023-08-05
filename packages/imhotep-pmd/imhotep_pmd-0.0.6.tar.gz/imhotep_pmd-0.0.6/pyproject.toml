@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "imhotep_pmd"
+version = "0.0.6"
+description = "An Imhotep plugin for PMD, the static analyzer."
+authors = ["Mingyang Li <imhotep_pmd@myli.page>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.27.1"
+jsonschema = "^4.4.0"
+toml = "^0.10.2"
+imhotep = "^2.0.0"
+
+[tool.poetry.dev-dependencies]
+black = "^22.3.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.plugins."imhotep_linters"]
+".py" = "imhotep_pmd.plugin:PmdLinter"
