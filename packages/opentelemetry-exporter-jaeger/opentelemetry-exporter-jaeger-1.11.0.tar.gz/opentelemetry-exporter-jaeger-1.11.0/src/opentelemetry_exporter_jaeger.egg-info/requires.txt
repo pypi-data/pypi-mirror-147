@@ -1,0 +1,4 @@
+opentelemetry-exporter-jaeger-proto-grpc==1.11.0
+opentelemetry-exporter-jaeger-thrift==1.11.0
+
+[test]
