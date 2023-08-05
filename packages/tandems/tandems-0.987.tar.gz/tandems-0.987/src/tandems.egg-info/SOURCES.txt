@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/tandems/HELP
+src/tandems/__init__.py
+src/tandems.egg-info/PKG-INFO
+src/tandems.egg-info/SOURCES.txt
+src/tandems.egg-info/dependency_links.txt
+src/tandems.egg-info/requires.txt
+src/tandems.egg-info/top_level.txt
+src/tandems/data/AM1_5 smarts295.ext.txt
+src/tandems/data/AM1_5 smarts295.out.txt
+src/tandems/data/lat40.clusters.npy
+src/tandems/data/lat40.timePerCluster.npy
