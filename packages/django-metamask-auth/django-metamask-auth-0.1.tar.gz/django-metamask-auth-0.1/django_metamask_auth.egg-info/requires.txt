@@ -1,0 +1,5 @@
+djangorestframework-simplejwt
+eth-account==0.5.7
+eth-rlp==0.2.1
+eth-utils==1.10.0
+web3==5.28.0
