@@ -1,0 +1,5 @@
+six
+colorama
+bs4
+PyYAML
+configparser
