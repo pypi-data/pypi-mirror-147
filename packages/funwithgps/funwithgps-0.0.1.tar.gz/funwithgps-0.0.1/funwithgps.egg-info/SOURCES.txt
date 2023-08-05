@@ -1,0 +1,5 @@
+setup.py
+funwithgps.egg-info/PKG-INFO
+funwithgps.egg-info/SOURCES.txt
+funwithgps.egg-info/dependency_links.txt
+funwithgps.egg-info/top_level.txt
