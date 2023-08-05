@@ -1,0 +1,10 @@
+packageitstructureexample/bar/__init__.py,sha256=diuNM2sWfMux8EhXz6XaEWCZi19VRjuwvnpkQMyhUcI,54
+packageitstructureexample/bar/__main__.py,sha256=rw6_w1aftZPdN9zjY0fxppDkLR1hIjsLg6aadkwAuVk,66
+packageitstructureexample/bar/bar.ini,sha256=g7E189FxU_8RL3xEpmZtg0Hwn2pgRCONynRJIVdFFSU,36
+packageitstructureexample/foo/__init__.py,sha256=L0Jvw72rnDC241EdQjeIWWqhveSeYwCud2Df9Cin230,57
+PackageItStructureExample-0.0.12.dist-info/LICENSE,sha256=ACwmltkrXIz5VsEQcrqljq-fat6ZXAMepjXGoe40KtE,1069
+PackageItStructureExample-0.0.12.dist-info/METADATA,sha256=IuwcVU-wxLWrnKXQmLdGItnTpm76gUG2jgb6W1F7uJI,1753
+PackageItStructureExample-0.0.12.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+PackageItStructureExample-0.0.12.dist-info/entry_points.txt,sha256=SKLdDn1GFlpzevh1AndxL7GwDmqmacgMNVJYdMVh95g,67
+PackageItStructureExample-0.0.12.dist-info/top_level.txt,sha256=THt1u_c6xURJJMCpD69PvZGz3KViJq46DXSWJ8tF0iE,26
+PackageItStructureExample-0.0.12.dist-info/RECORD,,
