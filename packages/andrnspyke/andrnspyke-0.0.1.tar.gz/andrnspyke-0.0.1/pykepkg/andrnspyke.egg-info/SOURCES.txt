@@ -1,0 +1,7 @@
+setup.py
+pykepkg/andrnspyke.egg-info/PKG-INFO
+pykepkg/andrnspyke.egg-info/SOURCES.txt
+pykepkg/andrnspyke.egg-info/dependency_links.txt
+pykepkg/andrnspyke.egg-info/entry_points.txt
+pykepkg/andrnspyke.egg-info/requires.txt
+pykepkg/andrnspyke.egg-info/top_level.txt

@@ -1,0 +1,2 @@
+[console_scripts]
+pyke = main:grab_word

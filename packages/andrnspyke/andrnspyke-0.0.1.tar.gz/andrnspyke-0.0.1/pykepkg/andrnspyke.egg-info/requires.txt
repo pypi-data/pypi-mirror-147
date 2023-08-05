@@ -1,0 +1,5 @@
+Click
+requests
+pyfiglet
+termcolor
+beautifulsoup4
