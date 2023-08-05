@@ -1,0 +1,9 @@
+app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+app/ammo.py,sha256=hx5D8ji43lEPKrDC-Q4-BRq6UZazBfYI_Q9vDZGyPvo,1757
+app/armor.py,sha256=fhKJZZTm9H2NfMUEcrCfqfY94JfoSLjEq1aiAFohTbY,1838
+app/gun.py,sha256=OE_250AzcdHbyNVNv-YOUgojMHWF2Y2v3UMgrqP9bj8,942
+app/tank.py,sha256=xJ_qSNxueAukwwLvnjthEGD-1nm8YwFlALHKLzIJHR4,2335
+bb_krl_Tank_Battle-1.0.0.dist-info/METADATA,sha256=NsfpyCEOUnEmXUPu_K1UjEvt_rK2XFon4VaG4KaUNxc,249
+bb_krl_Tank_Battle-1.0.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+bb_krl_Tank_Battle-1.0.0.dist-info/top_level.txt,sha256=io9g7LCbfmTG1SFKgEOGXmCFB9uMP2H5lerm0HiHWQE,4
+bb_krl_Tank_Battle-1.0.0.dist-info/RECORD,,
