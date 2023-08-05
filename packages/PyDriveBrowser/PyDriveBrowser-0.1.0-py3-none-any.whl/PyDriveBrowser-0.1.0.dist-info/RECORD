@@ -1,0 +1,9 @@
+pydrivebrowser/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydrivebrowser/cli_browser.py,sha256=tSqxvGSAps19Rpfhmzv8jPXHe5EJRdUA9mf5-XcQO2g,3104
+pydrivebrowser/test.py,sha256=X-kLXVSxsuxJurF1mAN-vWHSHeXqC2FnajZtlxAG8F8,211
+pydrivebrowser/url_parser.py,sha256=x97upqiXdP8-laest9tjzw_pk0-RE9f4yWVQSWRqc0E,485
+PyDriveBrowser-0.1.0.dist-info/LICENSE,sha256=iBF2Ger_YhV4FBLJvXJJ_p_Y_uBRwwK1kneloKzaEns,2601
+PyDriveBrowser-0.1.0.dist-info/METADATA,sha256=7LsL9rlzLx1jRkM6EAx_RNQI1RLjMfUIL66l6zHZJ0U,264
+PyDriveBrowser-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+PyDriveBrowser-0.1.0.dist-info/top_level.txt,sha256=gbFvMv3q9H1TB7_Bte2UObDd_fXTH32vLufZyno3oMI,15
+PyDriveBrowser-0.1.0.dist-info/RECORD,,
