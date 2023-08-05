@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: reddit-sauce-harvester
+Version: 0.0.1
+Summary: My package description
+Home-page: https://github.com/mehq/reddit-sauce-harvester
+Author: Mezbaul Haque
+Author-email: mezba109@gmail.com
+License: Unlicense
+Keywords: reddit
+Platform: any
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: The Unlicense (Unlicense)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Terminals
+Requires-Python: <4,>=3.6
+License-File: LICENSE.txt
+
+# reddit-sauce-harvester
+
+[![CI](https://github.com/mehq/reddit-sauce-harvester/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/mehq/reddit-sauce-harvester/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/mehq/reddit-sauce-harvester/branch/master/graph/badge.svg)](https://codecov.io/gh/mehq/reddit-sauce-harvester)
+[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](https://github.com/mehq/reddit-sauce-harvester/blob/master/LICENSE.txt)
+
+A command program tool to harvest links (sauces) from reddit post comments.
+
+## Installation
+
+```bash
+pip install reddit-sauce-harvester
+```
+
+
