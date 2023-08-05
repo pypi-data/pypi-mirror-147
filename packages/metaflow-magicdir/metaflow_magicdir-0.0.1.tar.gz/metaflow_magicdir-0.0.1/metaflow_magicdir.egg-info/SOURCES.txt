@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+metaflow_magicdir/__init__.py
+metaflow_magicdir/_nbdev.py
+metaflow_magicdir/md.py
+metaflow_magicdir.egg-info/PKG-INFO
+metaflow_magicdir.egg-info/SOURCES.txt
+metaflow_magicdir.egg-info/dependency_links.txt
+metaflow_magicdir.egg-info/entry_points.txt
+metaflow_magicdir.egg-info/not-zip-safe
+metaflow_magicdir.egg-info/requires.txt
+metaflow_magicdir.egg-info/top_level.txt
