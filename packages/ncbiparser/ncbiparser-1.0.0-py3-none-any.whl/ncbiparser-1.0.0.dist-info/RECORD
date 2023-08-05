@@ -1,0 +1,10 @@
+ncbiparser/README.md,sha256=A41QAJZW-fHoEqZCVKZcIReagP04tj8HuF4ye3RCLsA,6200
+ncbiparser/__inint__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ncbiparser/ncbi-parser.test.py,sha256=JvwZNZgUDtlXzfepluZdv2yfDgBqWn-dpBU_2DJau4A,5296
+ncbiparser/ncbiparser.py,sha256=NgLRo0ZB638z2FpwRapjYJ1ZY2nceJ7ALmql8uh_q2c,7970
+ncbiparser-1.0.0.data/data/README.md,sha256=A41QAJZW-fHoEqZCVKZcIReagP04tj8HuF4ye3RCLsA,6200
+ncbiparser-1.0.0.dist-info/METADATA,sha256=Gn9au-2Ta9FHtUsIdyXF9RNP9pKwh08pm1TyF31HUfA,6864
+ncbiparser-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ncbiparser-1.0.0.dist-info/entry_points.txt,sha256=JuDUnxDBWZJOS8Fwemtbqe0MXR6w276AQfNnISpPqbg,57
+ncbiparser-1.0.0.dist-info/top_level.txt,sha256=l8s70NN9ywDwogAOzFd6cej8bEoPnjGoLTPSipyek4I,11
+ncbiparser-1.0.0.dist-info/RECORD,,
