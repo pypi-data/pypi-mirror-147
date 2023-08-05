@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: cofactr
+Version: 0.1.0
+Summary: Client library for accessing Cofactr data.
+Home-page: https://github.com/Cofactr/cofactr-client
+License: MIT
+Keywords: cofactr
+Author: Noah Trueblood
+Author-email: noah@cofactr.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: urllib3 (>=1.26.9,<2.0.0)
+Project-URL: Repository, https://github.com/Cofactr/cofactr-client
+Description-Content-Type: text/markdown
+
+# Cofactr
+
+Python client library for accessing Cofactr.
+
+## Example
+
+```python
+from urllib import parse
+from cofactr.graph import GraphAPI
+
+graph_api = GraphAPI()
+
+resistors = graph_api.get_products(
+    query="resistor",
+    fields=["mpn", "assembly"],
+    limit=3,
+    external=False,
+)
+
+more_resistors = graph_api.get_products(**resistors["paging"]["next"])
+```
