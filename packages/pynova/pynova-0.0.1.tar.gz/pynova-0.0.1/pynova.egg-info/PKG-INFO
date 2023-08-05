@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: pynova
+Version: 0.0.1
+Summary: An easy Python alternative to R functions relating to ANOVA
+Home-page: UNKNOWN
+Author: Joshua Gladwell
+Author-email: joshegladwell@gmail.com
+License: UNKNOWN
+Description: As an ANOVA professor's research assistant at Brigham Young University, 
+                            I was tasked with converting sample R code designed for class instruction 
+                            to Python. I was surprised with the lack of options in Python to perform 
+                            tasks such as calculating power for more than two groups. This package 
+                            provides easy Python function equivalents to some of the more complex R 
+                            functions relating to analysis surrounding ANOVA and power.
+Keywords: ANOVA,power,R
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
