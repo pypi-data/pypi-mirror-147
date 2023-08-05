@@ -1,0 +1,12 @@
+numpy
+jax>=0.3.4
+jaxlib>=0.3.2
+
+[complete]
+numpy
+jax>=0.3.4
+jaxlib>=0.3.2
+pytest
+
+[tests]
+pytest
