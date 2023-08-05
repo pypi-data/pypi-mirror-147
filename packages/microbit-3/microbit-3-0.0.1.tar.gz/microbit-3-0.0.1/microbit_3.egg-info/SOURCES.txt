@@ -1,0 +1,9 @@
+README.md
+setup.py
+microbit/Microbit.py
+microbit/__init__.py
+microbit_3.egg-info/PKG-INFO
+microbit_3.egg-info/SOURCES.txt
+microbit_3.egg-info/dependency_links.txt
+microbit_3.egg-info/requires.txt
+microbit_3.egg-info/top_level.txt
