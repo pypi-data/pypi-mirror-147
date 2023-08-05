@@ -1,0 +1,10 @@
+fdpm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fdpm/__main__.py,sha256=WOM1oXXcPDkP0-eeGx1FGW8ch_z-0LUldvv_38BU-E0,3860
+fdpm/box.py,sha256=uv4Xk6NYgzwF2rr8cODxYJ3xgaHgElxo8osOYIZTJTo,4549
+fdpm/models.py,sha256=sLyTnnFtKexM7rfCt-dC3ePwDuE6UmouG-5FMe463e4,17475
+fdpm/util.py,sha256=_DO_EtMpXey37XzTKriYbgV6YYAFWTZzu5ywgO4oGj8,4575
+fdpm-0.0.81.dist-info/entry_points.txt,sha256=Gx0QzcE9Clh2onw5iPxRI5JIJZgQDdPIdGXS3sjDcfE,43
+fdpm-0.0.81.dist-info/LICENSE,sha256=TQ1olFaYz4Q15kYyC2B-TZcmUX70RGwsyl4ngI_89rg,34453
+fdpm-0.0.81.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+fdpm-0.0.81.dist-info/METADATA,sha256=Y11mpcDrv-Q-p0v8r9PArZgWj7i3NnYnyD-_-hUJmXA,2890
+fdpm-0.0.81.dist-info/RECORD,,
