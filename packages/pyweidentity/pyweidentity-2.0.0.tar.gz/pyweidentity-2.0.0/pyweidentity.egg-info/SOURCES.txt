@@ -1,0 +1,11 @@
+README.md
+setup.py
+pyweidentity/Base.py
+pyweidentity/__init__.py
+pyweidentity/localweid.py
+pyweidentity/weidentityClient.py
+pyweidentity/weidentityService.py
+pyweidentity.egg-info/PKG-INFO
+pyweidentity.egg-info/SOURCES.txt
+pyweidentity.egg-info/dependency_links.txt
+pyweidentity.egg-info/top_level.txt
