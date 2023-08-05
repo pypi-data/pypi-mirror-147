@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: passgr
+Version: 0.0.1
+Summary: A simple password generator
+Home-page: https://github.com/Davi-dev-C/simple-package-template
+Author: davi h.
+Author-email: davi.henrique.lima01@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# passgr
+
+Description. 
+The package passgr is used to:
+	- generate passwords
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install passgr
+
+```bash
+pip install passgr
+```
+
+## Usage
+
+```python
+from passgr import pass_generator
+pass_generator.my_function()
+```
+
+## Author
+Davi H.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
