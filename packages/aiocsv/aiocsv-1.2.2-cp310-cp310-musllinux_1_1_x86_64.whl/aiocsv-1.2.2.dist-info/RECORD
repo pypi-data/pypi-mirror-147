@@ -1,0 +1,12 @@
+aiocsv/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiocsv/protocols.py,sha256=3JpQp9KxCD-sCu82vaJO7IEf57HlCYMIWCL1P3uHQ2k,332
+aiocsv/_parser.cpython-310-x86_64-linux-gnu.so,sha256=SXoIRF_3xM_iZTNHbdNp91yH_RoWyMXV2NeCZjihMNI,608440
+aiocsv/writers.py,sha256=VAFwwydTtM793uMv-tWXyApXkVru33whcSTQuVtiwkw,3376
+aiocsv/readers.py,sha256=Ka9qypGL3C-LMKPqmr5en7Z19ozeJWDV2UkcwuFah8I,3044
+aiocsv/parser.py,sha256=evzN3VoxHJQEQ2yJL5hFHKWbHgTqIL-IkWLn-V41qYw,6193
+aiocsv/_parser.pyi,sha256=4grNm9P4eP8kWerXvgOkHuoLHbYVSryfQQGs9LEfSPE,185
+aiocsv/__init__.py,sha256=vsUq7cu9t9OtTjC_g2Q5pcGQ5FNwRLZYeZrW9phQ_ec,540
+aiocsv-1.2.2.dist-info/METADATA,sha256=l3Ur6pqr8JfgqWvGEOG3jMYfpsFeQSTztJVxheeUxPM,6717
+aiocsv-1.2.2.dist-info/RECORD,,
+aiocsv-1.2.2.dist-info/top_level.txt,sha256=OdDe092gj_o74s619Yjp23cCp_nTyoAWvFgC5K4ZlXQ,7
+aiocsv-1.2.2.dist-info/WHEEL,sha256=3ltB5TaRdhkt3YYqx2XrZvyTyaxp5dXZb3HWw510bG0,113
