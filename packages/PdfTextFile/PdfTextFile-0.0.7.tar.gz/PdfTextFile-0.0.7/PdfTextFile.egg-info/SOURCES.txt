@@ -1,0 +1,12 @@
+setup.py
+PdfTextFile.egg-info/PKG-INFO
+PdfTextFile.egg-info/SOURCES.txt
+PdfTextFile.egg-info/dependency_links.txt
+PdfTextFile.egg-info/requires.txt
+PdfTextFile.egg-info/top_level.txt
+cache_file_view/__init__.py
+cache_file_view/bsjc_import_code.py
+cache_file_view/bsjc_import_conf.py
+cache_file_view/bsjc_import_pdf_table.py
+cache_file_view/bsjc_import_pdfplumber_extends.py
+cache_file_view/bsjc_import_utils.py
