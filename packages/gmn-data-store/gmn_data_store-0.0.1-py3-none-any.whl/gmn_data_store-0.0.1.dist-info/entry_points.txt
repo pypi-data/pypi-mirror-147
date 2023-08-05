@@ -1,0 +1,3 @@
+[console_scripts]
+gmn-data-store=gmn_data_store.__main__:main
+
