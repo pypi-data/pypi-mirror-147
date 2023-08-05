@@ -1,0 +1,13 @@
+README.rst
+setup.cfg
+setup.py
+src/cloudfirestore/__init__.py
+src/cloudfirestore/cloud_firestore_service.py
+src/cloudfirestore/firebase_admin.py
+src/secretmanager/__init__.py
+src/secretmanager/secret_manager_service.py
+src/xenon_gcp_sdk.egg-info/PKG-INFO
+src/xenon_gcp_sdk.egg-info/SOURCES.txt
+src/xenon_gcp_sdk.egg-info/dependency_links.txt
+src/xenon_gcp_sdk.egg-info/requires.txt
+src/xenon_gcp_sdk.egg-info/top_level.txt
