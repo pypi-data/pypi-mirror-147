@@ -1,0 +1,6 @@
+auth_service_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+auth_service_client/client.py,sha256=gdW47o2rzapUJtLaITXkyCOCXeUriUiaz8BqSY4kt5E,6134
+eev_auth_service_client-0.0.1.dist-info/METADATA,sha256=4KhVr7WATN4FRwhMbRWeUVR4ysVNYyMTicTQtUzxdn8,239
+eev_auth_service_client-0.0.1.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+eev_auth_service_client-0.0.1.dist-info/top_level.txt,sha256=m3XLajsRZu_QcIK5PKQTFKON3VbrET_g5ZaSuo51hSY,20
+eev_auth_service_client-0.0.1.dist-info/RECORD,,
