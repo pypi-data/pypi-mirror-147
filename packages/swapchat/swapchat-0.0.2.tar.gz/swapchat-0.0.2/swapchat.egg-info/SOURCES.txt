@@ -1,0 +1,11 @@
+README.md
+setup.py
+swapchat/__init__.py
+swapchat/client.py
+swapchat/version.py
+swapchat.egg-info/PKG-INFO
+swapchat.egg-info/SOURCES.txt
+swapchat.egg-info/dependency_links.txt
+swapchat.egg-info/not-zip-safe
+swapchat.egg-info/requires.txt
+swapchat.egg-info/top_level.txt
