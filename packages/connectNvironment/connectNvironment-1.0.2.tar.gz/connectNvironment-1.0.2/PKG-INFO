@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: connectNvironment
+Version: 1.0.2
+Summary: Connect 4 and more (or less)
+Home-page: https://github.com/IRiViI/connect_n
+Author: Rick Vink
+Author-email: justrickschannel@gmail.com
+License: UNKNOWN
+Keywords: connect4,connectn,connect_n,environment
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# connect_n
+Connect 4 and more (or less)
+
+
