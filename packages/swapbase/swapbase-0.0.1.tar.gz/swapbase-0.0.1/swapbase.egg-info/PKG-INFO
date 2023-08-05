@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: swapbase
+Version: 0.0.1
+Summary: Swap Base converts numbers to different bases, and provides option to override character maps
+Home-page: UNKNOWN
+Author: Pratik Mishra
+Author-email: overtnibble.packages@gmail.com
+License: UNKNOWN
+Description: WIP: Currently only conversion to base10 is supported
+Keywords: python3,base conversion,decimal base,generic base calculator
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft
+Classifier: Programming Language :: Python :: 3

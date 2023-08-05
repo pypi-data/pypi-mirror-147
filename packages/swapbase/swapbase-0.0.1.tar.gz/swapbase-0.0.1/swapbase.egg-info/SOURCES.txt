@@ -1,0 +1,5 @@
+setup.py
+swapbase.egg-info/PKG-INFO
+swapbase.egg-info/SOURCES.txt
+swapbase.egg-info/dependency_links.txt
+swapbase.egg-info/top_level.txt
