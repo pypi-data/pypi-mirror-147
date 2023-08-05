@@ -1,0 +1,14 @@
+.gitattributes
+HISTORY.rst
+LICENSE
+README.rst
+demo.gif
+requirements.txt
+setup.py
+bbpn/__init__.py
+bbpn/bbpn.py
+bbpn.egg-info/PKG-INFO
+bbpn.egg-info/SOURCES.txt
+bbpn.egg-info/dependency_links.txt
+bbpn.egg-info/not-zip-safe
+bbpn.egg-info/top_level.txt
