@@ -1,0 +1,12 @@
+_psfmodels.cp310-win_amd64.pyd,sha256=IDm9yuxeGnPhXuZdbsRuCYl-tLeXcWGXDazuKhvcuSk,177664
+_psfmodels-stubs/__init__.pyi,sha256=wNiw8h2Ozebu85LQB1edCij2SoEAqJJV1Onn0huvRNc,6186
+psfmodels/__init__.py,sha256=_-GWJLuXrvWOfDg6E1ekN-9oAntuGJqTQpZvKpCHMrU,610
+psfmodels/_core.py,sha256=TJBzfw3vH_85CXnlKWzZmzhOcNJrl_7TGR89SJIr6QI,20713
+psfmodels/_cuvec.py,sha256=jwgrgkm5J0nDa3D0WxQjvIHfBFVP2dGmBXvNHRPxRNI,7185
+psfmodels/_version.py,sha256=giccA9u7RU8TOrF3zLzPNdZwifCYFT5zEt008-AfRoc,147
+psfmodels/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+psfmodels-0.3.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+psfmodels-0.3.0.dist-info/METADATA,sha256=AqkaBwH0jrHZggmNE_fChrWrTKOJMUK-8AuHRAeO9JY,7404
+psfmodels-0.3.0.dist-info/WHEEL,sha256=W26pYN7HLsBT1jrDSL9udgf_mdNKJmYmL23sIP-FcgM,102
+psfmodels-0.3.0.dist-info/top_level.txt,sha256=x97P8oOthjxd9S9z9-h9QnIOPyXgfzJBCr1Jr4ASwcE,38
+psfmodels-0.3.0.dist-info/RECORD,,
