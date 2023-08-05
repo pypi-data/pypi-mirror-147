@@ -1,0 +1,2 @@
+[console_scripts]
+vizo3d = cvee.visualization.o3d:cli
