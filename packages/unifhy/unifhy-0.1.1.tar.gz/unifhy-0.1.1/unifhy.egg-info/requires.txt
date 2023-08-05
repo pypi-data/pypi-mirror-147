@@ -1,0 +1,17 @@
+numpy>=1.16
+netCDF4>=1.5
+esmpy
+cftime
+cfunits
+cf-python>=3.11.0
+pyyaml>=5.3
+pyproj>=3.0
+
+[docs]
+sphinx==4.2.0
+pydata-sphinx-theme==0.6.3
+sphinx-panels
+gitpython
+
+[tests]
+cython
