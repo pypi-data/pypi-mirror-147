@@ -1,0 +1,5 @@
+setup.py
+sirisay.egg-info/PKG-INFO
+sirisay.egg-info/SOURCES.txt
+sirisay.egg-info/dependency_links.txt
+sirisay.egg-info/top_level.txt
