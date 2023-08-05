@@ -1,0 +1,12 @@
+LICENSE
+README.rst
+setup.cfg
+setup.py
+nthcommunity/__init__.py
+nthcommunity/nthcommunity.py
+nthcommunity.egg-info/PKG-INFO
+nthcommunity.egg-info/SOURCES.txt
+nthcommunity.egg-info/dependency_links.txt
+nthcommunity.egg-info/requires.txt
+nthcommunity.egg-info/top_level.txt
+test/test_nthcommunity.py

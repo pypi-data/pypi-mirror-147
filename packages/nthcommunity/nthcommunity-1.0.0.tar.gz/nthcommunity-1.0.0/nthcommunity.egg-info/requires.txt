@@ -1,0 +1,4 @@
+requests~=2.27
+oblivious~=5.0
+bcl~=2.1
+additive~=0.3
