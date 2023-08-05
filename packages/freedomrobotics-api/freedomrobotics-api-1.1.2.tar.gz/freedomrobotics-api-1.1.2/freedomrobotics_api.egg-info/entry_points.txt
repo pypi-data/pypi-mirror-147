@@ -1,0 +1,3 @@
+[console_scripts]
+freedom = freedomrobotics_api.cli.freedom:cli
+
