@@ -1,0 +1,9 @@
+pyross/contactMatrix.cpython-39-darwin.so
+pyross/control.cpython-39-darwin.so
+pyross/deterministic.cpython-39-darwin.so
+pyross/forecast.cpython-39-darwin.so
+pyross/hybrid.cpython-39-darwin.so
+pyross/inference.cpython-39-darwin.so
+pyross/stochastic.cpython-39-darwin.so
+pyross/utils.cpython-39-darwin.so
+pyross/tsi/deterministic.cpython-39-darwin.so
