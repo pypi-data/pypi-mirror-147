@@ -1,0 +1,3 @@
+[console_scripts]
+m2up = m2up.main:main
+
