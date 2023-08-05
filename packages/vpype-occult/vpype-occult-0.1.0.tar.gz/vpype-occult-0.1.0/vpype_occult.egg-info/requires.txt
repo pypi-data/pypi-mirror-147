@@ -1,0 +1,4 @@
+click
+numpy
+shapely>=1.8.0
+vpype<2.0,>=1.9

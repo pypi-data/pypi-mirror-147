@@ -1,0 +1,2 @@
+[vpype.plugins]
+occult = occult.occult:occult
