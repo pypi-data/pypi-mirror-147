@@ -1,0 +1,9 @@
+dailymotion_api/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+dailymotion_api/main.py,sha256=qfJvQjoszt7rJHF_O5uqmgQv2FT3mNp_b6pu9fpz1bo,448
+dailymotion_api/routes/routes.py,sha256=ywrXHGa0g_N4A8JgWAnsbjF0_4d9nKgOXXE-571LpIQ,650
+dailymotion_api/static/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dailymotion_api/templates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dailymotion_api/templates/home.html,sha256=L8H4jHkncOOlJ-LkMapcXTZRKLl4n5ja-CSEyMFZNDc,867
+dailymotion_api-0.3.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+dailymotion_api-0.3.0.dist-info/METADATA,sha256=fCqdkXjD4XJgzB4S7kYgHd_qpvhMtAPSntWIFTk73ck,477
+dailymotion_api-0.3.0.dist-info/RECORD,,

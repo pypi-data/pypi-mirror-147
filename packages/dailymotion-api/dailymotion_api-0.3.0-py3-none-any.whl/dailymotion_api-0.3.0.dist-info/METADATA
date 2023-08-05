@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: dailymotion-api
+Version: 0.3.0
+Summary: 
+Author: EmilRueda
+Author-email: vladimir.rueda@udea.edu.co
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Jinja2 (>=3.0.3,<4.0.0)
+Requires-Dist: fastapi (>=4.74.1,<5.0.0)
+Requires-Dist: uvicorn (>=0.17.5,<0.18.0)
