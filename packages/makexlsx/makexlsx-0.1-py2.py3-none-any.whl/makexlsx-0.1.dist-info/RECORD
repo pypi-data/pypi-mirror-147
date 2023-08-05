@@ -1,0 +1,10 @@
+makexlsx/__init__.py,sha256=XsjLUHaPVyVuuq93z8r87f54jFaMbOi79TzzWQGf6c4,125
+makexlsx/__main__.py,sha256=yXmXvcuZzZQjXqk79i0GnZ77skHyVQ9Ek9njfZrX5Jk,71
+makexlsx/cli.py,sha256=AVxMuLlVsloQx4vs3AxQHQ4fZCJZW8Zrvk7FEz6pC6Y,2066
+makexlsx/xlsx.py,sha256=kQMhsoTfitzq331fg1MsSrLLw2qgjbNFUoc8wDyq3ZU,5371
+makexlsx-0.1.dist-info/LICENSE,sha256=J80g0u_OYYfn55XbIJh75WVxKNPj9UXLYLyppPbnFFQ,1541
+makexlsx-0.1.dist-info/METADATA,sha256=nWIZHYoceR_r7U0S3-wIzCklLmaDbC99AJ7gUGzXo_k,2049
+makexlsx-0.1.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+makexlsx-0.1.dist-info/entry_points.txt,sha256=JrR1qVUqglH9LbJgEV9HN4HnbbHKty2F3ZTWSvemSY4,48
+makexlsx-0.1.dist-info/top_level.txt,sha256=rh16a0tAylEXBCD31MZz37irB7cuRGOBIuINbEI45js,9
+makexlsx-0.1.dist-info/RECORD,,
