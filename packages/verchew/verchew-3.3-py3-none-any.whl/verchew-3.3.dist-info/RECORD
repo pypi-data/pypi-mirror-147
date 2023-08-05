@@ -1,0 +1,12 @@
+verchew/__init__.py,sha256=sl-qz7aFQtFESc9Qxs52-YL24Wi_7pzmJHkoG6VBlCQ,60
+verchew/__main__.py,sha256=G_vLCn6aq6Vurj9KPo1Yt5Q7TS7GPOahpp06nF3Mva8,124
+verchew/script.py,sha256=8D94ECmfpdZJAlXX7_MCfP6tyQvnAPgJOCAPjnEysj8,10253
+verchew/tests/__init__.py,sha256=LURUPwwDqcFmVe1XvEzadPdXxro8RdEF-rTaMw-AfiI,34
+verchew/tests/conftest.py,sha256=t3l_HOX9DR2TNkOG-L_zlpFXYndz1VIrhcU3cgJTgJc,291
+verchew/tests/test_script.py,sha256=4STY7DTn0ZqonPrOKnmyTxsdx6A_BtLh8LxoI1jefWw,6175
+verchew/wrapper.sh,sha256=IWUrkIptJVyewntjQzudNp5fczeMHadRdprKVF_CeEU,207
+verchew-3.3.dist-info/entry_points.txt,sha256=Z2xpm9Wy_FpdLkG__60c2yTFeQ392d4Rg67LXK1xYcg,47
+verchew-3.3.dist-info/LICENSE.md,sha256=4t2A3UhE7Dvn2ttaMl5Z3pdykl1vl15v3Dxrm7jKmfM,1088
+verchew-3.3.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+verchew-3.3.dist-info/METADATA,sha256=4pVH9WnqSMmd4fzit57Cx9qBPdPQzKw6ccql3f9tsDg,4459
+verchew-3.3.dist-info/RECORD,,
