@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.rst
+flake8_multiline_containers.py
+setup.py
+flake8_multiline_containers.egg-info/PKG-INFO
+flake8_multiline_containers.egg-info/SOURCES.txt
+flake8_multiline_containers.egg-info/dependency_links.txt
+flake8_multiline_containers.egg-info/entry_points.txt
+flake8_multiline_containers.egg-info/requires.txt
+flake8_multiline_containers.egg-info/top_level.txt
