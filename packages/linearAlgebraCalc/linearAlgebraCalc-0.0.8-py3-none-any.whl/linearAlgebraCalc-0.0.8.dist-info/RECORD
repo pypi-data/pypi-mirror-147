@@ -1,0 +1,9 @@
+linearAlgebraCalc/__init__.py,sha256=3oOhVgdPhtDSeBB6DlhmVFieqOXvNbtkpT_n6GbRoaU,1979
+linearAlgebraCalc/basicOperations.py,sha256=zZFu9-ES9ntalUpTfc9bWH58OiMmksu-ENZZn69i5OA,1371
+linearAlgebraCalc/globalFunctions.py,sha256=h0OB0bvcewC0V9pWIyxw-A_f3zqmiI1AO0LmK0lna3s,281
+linearAlgebraCalc/matrixOperations.py,sha256=RwEwNFOIGUt1Fsd486nbShXWofpjizf_RS8LCRKNVoY,2112
+linearAlgebraCalc/main/__init__.py,sha256=K6nWamb2Pd60MFhTS8tN-fnt0LYE0FhxY3dl4G9tYGw,1904
+linearAlgebraCalc-0.0.8.dist-info/METADATA,sha256=XSkAkXm_wPgFtqYHN5JpVCBOKR2uOr3PEEza0sayhlU,572
+linearAlgebraCalc-0.0.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+linearAlgebraCalc-0.0.8.dist-info/top_level.txt,sha256=M3DIxzkgb40zsFArLo5sPgusZrCE1bQpALOIh5SXE2Y,18
+linearAlgebraCalc-0.0.8.dist-info/RECORD,,
