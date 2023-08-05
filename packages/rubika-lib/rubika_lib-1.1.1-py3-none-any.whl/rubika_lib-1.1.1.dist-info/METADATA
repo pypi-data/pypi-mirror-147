@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: rubika-lib
+Version: 1.1.1
+Summary: This is an unofficial library for deploying robots on Rubika accounts
+Home-page: https://github.com/snipe4kill/rubika/
+Author: Shayan Heidari
+Author-email: snipe4kill.tg@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+Requires-Dist: jdatetime
+Requires-Dist: pytz
+Requires-Dist: pycryptodome
+Requires-Dist: requests
+Requires-Dist: tqdm
+Requires-Dist: urllib3
+
+how to import module/library
+
+--> from rubika_lib.lib import Bot
+
+How to activate the robot?
+
+from rubika_lib.lib import Bot
+
+
+auth = Bot("your auth")
+
+guid = "your group guid"
+
+bot.sendMessage(guid, "hello")
+
+For more training and to see the document, visit @rubika_library in Telegram
+
