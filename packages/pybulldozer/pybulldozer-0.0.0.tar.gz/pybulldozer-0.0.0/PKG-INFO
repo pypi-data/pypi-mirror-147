@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: pybulldozer
+Version: 0.0.0
+Summary: UNKNOWN
+Home-page: https://github.com/profile/project
+Author: Mike Huls
+Author-email: mikehuls42@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+# Dozer
+Flattens unstructured data into a relation format
+
+## Installation 
+```commandline
+pip install pybulldozer
+```
+
+## Features
+pybulldozer aims to make working with non-relation data files as easy as possible
+
+#### Explore the structure of the file
+- statistics
+- structure
+- attributes
+
+#### Flatten the file to record-arrays
+Returns a dictionary that contains a {name: record-array} for all layers in the file
+
+
+## File formats
+Currenty pybulldozer only works with xml
+
+## Future development
+ - Parse more data formats
+ - Speed optimization
+ - Create SQL insert statements
+
