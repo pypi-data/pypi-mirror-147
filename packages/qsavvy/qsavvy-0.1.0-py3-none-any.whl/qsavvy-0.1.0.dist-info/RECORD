@@ -1,0 +1,8 @@
+qsavvy/__init__.py,sha256=JCz0Ovg9ofEAFbleVx7RyYudQTnzRv8wLRkPY4MFL7w,131
+qsavvy/cli.py,sha256=rAmICqfQs4xxpa-8FJ81XriUCxgO7YYln0D1tb3ujJs,266
+qsavvy/qsavvy.py,sha256=kSNRa_BTm4_JBDe9JbJuyfP1vPGBjwrfgYRiS4Od2TE,27589
+qsavvy-0.1.0.dist-info/entry_points.txt,sha256=1AzemNuMjHe4vnjldrJpsVMYBtfbFgz2RKi5RCEle-Q,42
+qsavvy-0.1.0.dist-info/LICENSE,sha256=bq_Z0iqE0zRkj53RY8nI6ANyub1opU_93hjcjDvf3Hk,1507
+qsavvy-0.1.0.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+qsavvy-0.1.0.dist-info/METADATA,sha256=DcdKHbcu2YHpXVmbczK6EAzkn9GCMRz5yzHu-tkuBZM,2976
+qsavvy-0.1.0.dist-info/RECORD,,
