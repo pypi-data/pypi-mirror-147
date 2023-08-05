@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+scrapeanything/scrapeanything.egg-info/PKG-INFO
+scrapeanything/scrapeanything.egg-info/SOURCES.txt
+scrapeanything/scrapeanything.egg-info/dependency_links.txt
+scrapeanything/scrapeanything.egg-info/requires.txt
+scrapeanything/scrapeanything.egg-info/top_level.txt
