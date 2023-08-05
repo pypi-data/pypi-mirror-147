@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: prefixed-aiostatsd
+Version: 0.3
+Summary: Prefixed AioStatsD
+Home-page: https://github.com/DomainsBot/prefixed-aiostatsd
+Author: Domainsbot
+Author-email: tech@domainsbot.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: POSIX :: Linux
+License-File: LICENSE
+Requires-Dist: aiostatsd (~=1.0.0)
+
+UNKNOWN
+
