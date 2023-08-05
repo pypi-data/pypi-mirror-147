@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: dblpy-lib
+Version: 0.1.0
+Summary: A wrapper for dblp.org search api
+Home-page: https://github.com/greenBene/dblpy
+Author: Benedikt Maria Beckermann
+Author-email: hello@benedikt.click
+License: CC0 1.0 Universal
+Description: # dblpy
+        A wrapper library for the dblp.org api.
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
