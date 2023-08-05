@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: jn-space-corrector
+Version: 0.0.6
+Summary: 텍스트 띄어쓰기 교정 모델 학습 및 교정 수행 패키지
+Author: CheonSunggil
+Author-email: 1000star@joonggonara.co.kr
+License: UNKNOWN
+Keywords: space corrector,jn_space_corrector
+Platform: UNKNOWN
+Requires-Python: >=3
+Requires-Dist: numpy (==1.19.5)
+Requires-Dist: boto3 (==1.21.40)
+Requires-Dist: pandas (==1.4.1)
+Requires-Dist: tqdm (==4.63.0)
+Requires-Dist: scikit-learn (==1.0.2)
+
+UNKNOWN
+
