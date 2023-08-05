@@ -1,0 +1,2 @@
+[console_scripts]
+rear-scavenger = rear.scavenger:main
