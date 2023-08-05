@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: googlesearch.py
+Version: 1.3
+Summary: Library for scraping google search results
+Home-page: https://github.com/sijey-praveen/googlesearch.py
+Author: Sijey Praveen
+Author-email: cjpraveen@hotmail.com
+License: UNKNOWN
+Keywords: googlesearch.py,python google search,google search pypi,sijey-praveen pypi,google api,sijey,sijey-praveen,sijey praveen projects
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# googlesearch.py
+Library for scraping google search results
+
+## Get Started
+
+```py
+from gsearchlib import Search
+
+result = Search("what is programming language")
+print(result)
+
+# Output
+
+{
+    'title': 'Programming language - Wikipedia',
+    'url': 'https://en.wikipedia.org/wiki/Programming_language'
+}
+```
+
+## License
+- [The Unlicense](https://unlicense.org/)
+
