@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/ipgeo_namdevel.egg-info/PKG-INFO
+src/ipgeo_namdevel.egg-info/SOURCES.txt
+src/ipgeo_namdevel.egg-info/dependency_links.txt
+src/ipgeo_namdevel.egg-info/top_level.txt
+src/namdevel/__init__.py
+src/namdevel/ipgeo.py
