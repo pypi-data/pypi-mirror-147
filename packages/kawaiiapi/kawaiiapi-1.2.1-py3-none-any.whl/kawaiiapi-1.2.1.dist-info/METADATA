@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: kawaiiapi
+Version: 1.2.1
+Summary: The kawaii api from Error44 as python package
+Home-page: https://github.com/Keksiqc/kawaiiapi
+Author: Keksiqc
+Author-email: cotact@keksi.me
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: aiohttp (>=3.6)
+
+# kawaii api
+
+The [kawaii api](https://kawaii.red/) from Error44 as [python package](https://pypi.org/project/kawaiiapi/) 
+
+# Download
+
+```
+pip install kawaiiapi
+```
+
+# Examples
+
+```python
+import kawaiiapi
+
+api = kawaiiapi.Kawaii("token")
+
+await api.endpoints("gif")
+
+await api.get("gif", "kiss")
+
+await api.gif("kiss")
+
+stats = await api.stats()
+```
+
+# All Stats
+
+```python
+stats.endpoints
+stats.all
+stats.failed
+stats.history
+stats.most_endpoint
+stats.most_endpoints
+stats.most_type
+stats.most_types
+```
+
