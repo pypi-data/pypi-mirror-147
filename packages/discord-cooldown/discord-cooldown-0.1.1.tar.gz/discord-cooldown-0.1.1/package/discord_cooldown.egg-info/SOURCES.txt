@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+package/discord_cooldown/__init__.py
+package/discord_cooldown/cooldown.py
+package/discord_cooldown/modules.py
+package/discord_cooldown.egg-info/PKG-INFO
+package/discord_cooldown.egg-info/SOURCES.txt
+package/discord_cooldown.egg-info/dependency_links.txt
+package/discord_cooldown.egg-info/requires.txt
+package/discord_cooldown.egg-info/top_level.txt
