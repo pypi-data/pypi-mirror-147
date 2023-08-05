@@ -1,0 +1,165 @@
+Metadata-Version: 2.1
+Name: maguro
+Version: 1.1.2
+Summary: Maguro is a Python-wrapper for DSV files.
+Home-page: https://github.com/rmaniego/maguro
+Author: Rodney Maniego Jr.
+Author-email: rod.maniego23@gmail.com
+License: MIT
+Download-URL: https://github.com/rmaniego/maguro/archive/v1.0.tar.gz
+Keywords: CSV,TSV,DSV,File,Storage
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Maguro
+
+Maguro is a Python-wrapper for DSV files.
+
+Other behaviors are similar to a native Python list, the tutorial below only covers add-on features specific to Maguro.
+
+# Official Release
+
+Maguro can now be used on your Python projects through PyPi by running pip command on a Python-ready environment.
+
+`pip install maguro --upgrade`
+
+Current version is 1.1.0, but more updates are coming soon. This is compatible with Python version 3.9 or with the latest.
+
+### package import
+`from maguro import Maguro`
+
+### basic usage
+```python
+dataset = Maguro("dataset.csv")
+```
+
+### custom encoding
+```python
+dataset = Maguro("dataset.csv", encoding="utf-8")
+```
+
+### custom delimiter
+```python
+dataset = Maguro("dataset.tsv", delimiter="\t")
+```
+
+### clear
+Remove all items inside the list by using `dataset.clear()` method.
+
+### add items
+Use `dataset.append(value)` to add new item in the list.
+
+
+### add only if unique
+Use `dataset.append(value, unique=True)` to add if item is not yet in the list.
+
+### sorting
+Use `dataset.sort()` to sort the list alphabetically.
+
+### reverse
+Use `dataset.reverse()` to reverse the list.
+
+### remove item
+Use `dataset.pop(index)` to to remove the first occurence in the list.
+
+### to formatted string
+Return a formatted string, concatenated by the specificied delimiter, by using `dataset.pack()` method.
+
+### raw list
+Return a raw list (of `list` data type) by using `dataset.unpack()` method.
+
+### loop over items
+```python
+for item in dataset:
+    print(item)
+```
+
+### remove item
+Remove existing (or non-existing) value.
+Usage: `dataset.remove(value)`
+
+### insert item
+Insert data at a specific index
+Usage: `dataset.insert(index, value)`
+
+### load list
+Loading new data into a Maguro object will replace previous contents.
+Usage: `dataset.load(iterable)`
+
+### extend list
+Extending original lists follows the same list syntax.
+Usage: `dataset.extend(iterable)`
+
+### remove duplicates
+Maguro leverages Python `list(set())` casting to remove duplicates.
+Usage: `dataset.distinct()`
+
+### Creating 2D arrays
+```python
+test = Maguro("temp/03b-2d.csv", delimiter=",", newline="\n")
+test.append(["Juan", 23, "Male", 72, 168, False])
+test.append(["Pedro", 22, "Male", 68, 172, True])
+test.append(["Maria", 19, "Female", 56, 162, True])
+````
+
+### Force Quotations on Strings
+```python
+test = Maguro("temp/9-tab-separated-values.tsv", delimiter="\t", newline="\n", quote_strings=True)
+test.clear()
+test.append(["a", "b", "c", "d", "e"])
+test.append(["1", "2", "3", "4", "5"])
+test.append([1, 2, 3, 4, 5])
+
+print(test.unpack())
+````
+
+### Convert `Yes`, `y`, `No`, and `n` to equivalent Boolean data type (run-time only)
+```python
+test = Maguro("temp/04-booleans.csv", delimiter=",", newline="\n", allow_boolean=True)
+````
+
+### Header methods
+```python
+# Get the header
+test = Maguro("temp/12a-header.csv", delimiter=",", newline="\n", quote_strings=True, has_header=True)
+print(test.get_header())
+
+# Replace with new header
+# equivalent to: test[0] = [*]
+test = Maguro("temp/12b-header.csv", delimiter=",", newline="\n", quote_strings=True, has_header=True)
+test.set_header(["earthquakeId", "occurred_on", "latitude", "longitude", "depth", "magnitude", "calculation_method", "network_id", "place", "cause"])
+print(test[0])
+
+# Add new header
+test = Maguro("temp/12c-header.csv", delimiter=",", newline="\n", quote_strings=True)
+test.set_header(["earthquake_id", "occurred_on", "latitude", "longitude", "depth", "magnitude", "calculation_method", "network_id", "place", "cause"])
+print(test[0])
+print(test[1])
+
+# Remove header if set
+# exquivalent to: test = test[1:]
+test = Maguro("temp/13-header.csv", delimiter=",", newline="\n", quote_strings=True, has_header=True)
+test.behead()
+print(test[0])
+````
+
+### Expand all valid child list to max-length
+```python
+test = Maguro("temp/14-expand.csv", delimiter=",", newline="\n")
+test.clear()
+test.append(["name", "age", "gender", "address"])
+test.append(["Juan", "22", "M"])
+test.append(["Pedro", "21", "M", "Mars"])
+test.append(["Maria", "18", "F", "Earth", "Blue"])
+test.append("Soledad")
+test.expand()
+print(test.pack())
+````
+
