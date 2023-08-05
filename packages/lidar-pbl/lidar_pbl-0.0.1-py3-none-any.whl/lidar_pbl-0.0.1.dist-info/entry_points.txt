@@ -1,0 +1,3 @@
+[console_scripts]
+lidar-pbl=lidar_pbl.cli.app:run
+
