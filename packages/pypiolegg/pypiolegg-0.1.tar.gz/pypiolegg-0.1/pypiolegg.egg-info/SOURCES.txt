@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+domzadd/__init__.py
+domzadd/domaskaa.py
+pypiolegg.egg-info/PKG-INFO
+pypiolegg.egg-info/SOURCES.txt
+pypiolegg.egg-info/dependency_links.txt
+pypiolegg.egg-info/requires.txt
+pypiolegg.egg-info/top_level.txt
