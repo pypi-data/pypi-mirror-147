@@ -1,0 +1,11 @@
+vegafusion/__init__.py,sha256=_LdnBRS0wBFVX40pzSynxmHI9dlNjp_DKIVDOlaDonk,950
+vegafusion/_version.py,sha256=FVHPBGkfhbQDi_z3v0PiKJrXXqXOx0vGW_1VaqNJi7U,22
+vegafusion/embed.py,sha256=FCLWFe8eXM0CqNliNWbT-YQyfF9TfyGWJ_hoUyiS9L8,838
+vegafusion/jupyter.py,sha256=VV0_VvVMtb8yecU8xAgIq70Hv36PPDDnwdnYkfcr7BE,835
+vegafusion/runtime.py,sha256=pIXNA_QdvJI8r_Mjue2qILupCbifQqlLMw9wyEmCBeY,7602
+vegafusion/transformer.py,sha256=HLd4ruvQn0H6pZa1TxNlS63zyuOe70QBCrZnzFuAo9Y,4628
+vegafusion-0.2.0.dist-info/LICENSE.txt,sha256=yD54KmHZYFWUJRlIhGy4QsaiBQk_YvHiNyGDV14L52I,1494
+vegafusion-0.2.0.dist-info/METADATA,sha256=k7JAXTD7CzjbF4GLKTPaFPTe-Z9eS0gLQgGcFYZ0_-0,1339
+vegafusion-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+vegafusion-0.2.0.dist-info/top_level.txt,sha256=cKvxlk3WFd7wQgN6nMpLnUvUC0cc11Ec5bTrje8_YF0,11
+vegafusion-0.2.0.dist-info/RECORD,,
