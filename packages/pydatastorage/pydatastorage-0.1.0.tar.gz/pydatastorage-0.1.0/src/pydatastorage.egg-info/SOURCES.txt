@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.cfg
+src/pydatastorage/__init__.py
+src/pydatastorage/path.py
+src/pydatastorage/rds.py
+src/pydatastorage/temp.py
+src/pydatastorage.egg-info/PKG-INFO
+src/pydatastorage.egg-info/SOURCES.txt
+src/pydatastorage.egg-info/dependency_links.txt
+src/pydatastorage.egg-info/requires.txt
+src/pydatastorage.egg-info/top_level.txt

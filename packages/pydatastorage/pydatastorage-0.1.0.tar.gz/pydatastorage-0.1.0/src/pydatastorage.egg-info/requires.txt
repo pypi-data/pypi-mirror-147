@@ -1,0 +1,3 @@
+pydantic
+pydantic_uuid_model==1.0.1
+requests

@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pydatastorage
+Version: 0.1.0
+Summary: A python data storage backend library.
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+
+# pydatastorage
+
+A python data storage backend library.
+
+
