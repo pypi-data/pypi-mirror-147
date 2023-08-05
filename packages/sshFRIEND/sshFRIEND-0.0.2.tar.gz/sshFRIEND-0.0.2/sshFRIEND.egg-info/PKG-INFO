@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: sshFRIEND
+Version: 0.0.2
+Summary: A generic and platform agnostic SSH module to access and send commands to remote devices that support OpenSSH
+Home-page: 
+Author: David Johnnes
+Author-email: david.johnnes@gmail.com
+License: BSD
+Keywords: ssh access,ssh remote command execution
+Platform: UNKNOWN
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: BSD License
+License-File: LICENSE
+
+Project description
+
+SSH Client Framework
+
+
