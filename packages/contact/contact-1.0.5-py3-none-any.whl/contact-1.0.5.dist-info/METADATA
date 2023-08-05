@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: contact
+Version: 1.0.5
+Summary: Saves the contact and fetches the name on entering number
+Home-page: https://github.com/baggageai/fraudcop
+Author: Abhishek Pandey
+Author-email: abhi526691shek@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pymongo
+Requires-Dist: Flask
+Requires-Dist: certifi
+
+# Contact
+It takes contact list and saves in the database or on entering the number returns the name if the number is found in the database.
+
+## Installation
+```pip install contact```
+
+## How to use it?
+Open terminal and type contact and then input the integer of your choice
+
+## License
+
+Â© 2022 Abhishek Pandey
+
+This repository is licensed under the MIT license. See LICENSE for details.
+
