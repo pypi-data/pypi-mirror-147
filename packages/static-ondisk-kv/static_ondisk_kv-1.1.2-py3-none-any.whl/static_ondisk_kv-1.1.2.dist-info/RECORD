@@ -1,0 +1,10 @@
+static_ondisk_kv/__init__.py,sha256=3BHAwbFb4GdgZfq0M1AdO02IAtptzt-VxrxT5_2svl8,166
+static_ondisk_kv/build.py,sha256=1rMKmoc_BTYS8kQssttrmYL7uMpBlLRzrVCmxGHqyK0,1098
+static_ondisk_kv/order.py,sha256=C9PVQvtrNPz_URMote-OaApWfnoHy4Y6kK3UkUH605E,991
+static_ondisk_kv/read.py,sha256=Kkw68O6wQHP4lEDQLR-uep8pWi-pYpEkG0Uc9HciGUI,1802
+static_ondisk_kv-1.1.2.data/data/README.md,sha256=BCtOWjSPzye_7FP2VbOwTPz3439wSjZVaFvOKcDjni0,2700
+static_ondisk_kv-1.1.2.dist-info/LICENSE,sha256=kQ7Sg07ctsEZeQxAgGGT8tsbjz8G5o_kY8ToEkxWfjE,1072
+static_ondisk_kv-1.1.2.dist-info/METADATA,sha256=S54JbN5gtE2pouXcCqMlrjdt3nYiqUY9ix54NtRpbJ8,3347
+static_ondisk_kv-1.1.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+static_ondisk_kv-1.1.2.dist-info/top_level.txt,sha256=Drp0yuiFqf8N90xhxRnlTVyJzlsHE4VMtZcjJdDEy8A,17
+static_ondisk_kv-1.1.2.dist-info/RECORD,,
