@@ -1,0 +1,140 @@
+Metadata-Version: 2.1
+Name: konta
+Version: 0.2.1
+Summary: A Woob Bank -> Beancount data pipeline.
+Author-email: Gerry Agbobada <pypi@gagbo.net>
+Requires-Python: >=3.7,<4
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: woob >=3.0
+Requires-Dist: beancount >=2.3.5
+Requires-Dist: toml >=0.10.2
+Requires-Dist: xdg >=5.1.1
+Project-URL: Documentation, https://git.sr.ht/~gagbo/PyKonta
+Project-URL: Home, https://git.sr.ht/~gagbo/PyKonta
+Project-URL: Source, https://git.sr.ht/~gagbo/PyKonta
+
+- [Setting up](#org8a93c15)
+- [Running the app](#orge2fac63)
+- [Roadmap <code>[2/9]</code>](#orgd45e3ed)
+  - [Add argparse support](#org217e4d5)
+  - [Pull woob configuration with account listing](#orgf3181e7)
+  - [Pull woob data from given woob bank backends](#org0a8d2c5)
+  - [Create the converter protocol/abstract class to change from woob to beancount](#orgf02f08a)
+  - [Read beancount data with category listing](#orgf194b3b)
+  - [Allow users to interactively choose categories](#org36eb7dd)
+  - [Change the tracking id method to allow merging transactions](#orgfa62019)
+  - [Privacy option to hide amounts and optionally banks](#org5143ea4)
+  - [Find fake woob data to be able to stream](#org1b89ae5)
+
+
+
+<a id="org8a93c15"></a>
+
+# Setting up
+
+You can use a simple direnv setup
+
+```bash
+layout python3
+```
+
+And then use the provided [Requirements file](./dev-requirements.txt) to setup an environment.
+
+After this, you need to make a configuration file that can be read into a configuration. An example file will be given once the format stabilizes a bit. The file will be in TOML format (for readability), and read by default to the XDG location.
+
+
+<a id="orge2fac63"></a>
+
+# Running the app
+
+Until a proper flit packaging is done, running the draft apps is done simply with
+
+```bash
+python -m konta
+```
+
+It will look for a configuration file in the common XDG path for a `konta` program, which must be a TOML file
+
+```toml
+# In ~/.config/konta/config.toml
+[Default]
+# Setting the category for unmatched payees.
+category = "Expenses:Uncategorized"
+
+[Accounts]
+# Woob ID (from woob bank ls) to Beancount account, with a currency to be used as
+# commodity for the transaction
+"deadbeef0731233" = { name = "Assets:Bank:Checking", default-currency = "EUR" }
+
+[Payees]
+# An example of merging multiple payees to be the same name and the same category.
+# Both 'name' and 'category' are optional here if you don't want to overwrite them.
+"75 MONOP" = { name = "MONOPRIX", category = "Expenses:Food:Supermarché" }
+"75 MONOPRIX" = { name = "MONOPRIX", category = "Expenses:Food:Supermarché" }
+
+# Unused for now, but extra verifications can be done if we
+# give the main input file, with valid/existing accounts.
+# It takes a list of path to beancount input files
+[Beans]
+input = []
+```
+
+
+<a id="orgd45e3ed"></a>
+
+# Roadmap <code>[2/9]</code>
+
+
+<a id="org217e4d5"></a>
+
+## TODO Add argparse support
+
+
+<a id="orgf3181e7"></a>
+
+## DONE Pull woob configuration with account listing
+
+
+<a id="org0a8d2c5"></a>
+
+## TODO Pull woob data from given woob bank backends
+
+Should be done by ignoring the accounts that are not in config
+
+
+<a id="orgf02f08a"></a>
+
+## TODO Create the converter protocol/abstract class to change from woob to beancount
+
+The main goal here is to allow providing custom matchers from the config, probably as python modules that would be provided by the end user. Just like the first Guile version of this tool.
+
+
+<a id="orgf194b3b"></a>
+
+## DONE Read beancount data with category listing
+
+
+<a id="org36eb7dd"></a>
+
+## TODO Allow users to interactively choose categories
+
+That entails building a module that can meaningfully interact with a Config instancea
+
+
+<a id="orgfa62019"></a>
+
+## TODO Change the tracking id method to allow merging transactions
+
+
+<a id="org5143ea4"></a>
+
+## TODO Privacy option to hide amounts and optionally banks
+
+Necessary option to be able to start streaming development, either that or the first item
+
+
+<a id="org1b89ae5"></a>
+
+## TODO Find fake woob data to be able to stream
+
