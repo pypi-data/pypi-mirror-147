@@ -1,0 +1,81 @@
+import asyncio
+
+from aiohttp import web
+from aiohttp.web_runner import TCPSite, AppRunner
+from prometheus_client import generate_latest, Counter
+
+from cenao.app import AppFeature
+from cenao.view import View
+
+
+class MetricsView(View):
+    ROUTE = '/metrics'
+
+    async def get(self):
+        response = generate_latest().decode('utf-8')
+
+        return web.Response(
+            status=200,
+            text=response,
+        )
+
+
+class WebAppFeature(AppFeature):
+    NAME = 'web'
+
+    VIEWS = [MetricsView]
+
+    host: str
+    port: int
+
+    aiohttp_app: web.Application
+    runner: AppRunner
+
+    PROMETHEUS_ROUTE_METRIC: Counter
+
+    def on_init(self):
+        self.host = self.config.get('host', '0.0.0.0')
+        self.port = int(self.config.get('port', 8000))
+
+        self.PROMETHEUS_ROUTE_METRIC = Counter(
+            'route',
+            documentation='Total route calls',
+            labelnames=('path', 'status'),
+            namespace=self.app.NAME,
+        )
+
+        @web.middleware
+        async def prometheus_route_call_count(request: web.Request, handler) -> web.Response:
+            resp = await handler(request)
+            self.PROMETHEUS_ROUTE_METRIC.labels(request.match_info.route.resource.canonical, resp.status).inc()
+            return resp
+
+        aiohttp_app = web.Application(
+            loop=self.app.loop,
+            middlewares=[prometheus_route_call_count]
+        )
+        routes_len = 0
+        for ft in self.app.ft:
+            for view in ft.VIEWS:
+                view.init(ft)
+                aiohttp_app.router.add_view(view.ROUTE, view)
+                routes_len += 1
+        self.logger.info('Registered %d routes', routes_len)
+
+        self.runner = AppRunner(aiohttp_app, logger=self.logger)
+
+    async def on_startup(self):
+        self.logger.info('Starting on %s:%d', self.host, self.port)
+        await self.runner.setup()
+        site = TCPSite(
+            self.runner,
+            self.host,
+            self.port,
+        )
+        await site.start()
+        while True:
+            await asyncio.sleep(3600)
+
+    async def on_shutdown(self):
+        self.logger.info('Stopping webserver')
+        await self.runner.cleanup()
