@@ -1,0 +1,47 @@
+on:
+  workflow_dispatch:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version:
+          - '3.6'
+          - '3.7'
+          - '3.8'
+          - '3.9'
+          - '3.10'
+    name: Python ${{ matrix.python-version }} sample
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: ${{ matrix.python-version }}
+          architecture: x64
+      - name: Build package
+        run: |
+          python -m pip install build twine check-wheel-contents
+          python -m build --sdist --wheel .
+          ls -l dist
+          check-wheel-contents dist/*.whl
+      - name: "Check long_description"
+        run: "python -m twine check dist/*"
+  pre-commit:
+    name: pre-commit
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-python@v2
+      with:
+        python-version: 3.9.7
+    - name: Install system hooks
+      run: sudo apt-get install clang-format-10 cppcheck
+    - uses: pre-commit/action@v2.0.3
+      with:
+        extra_args: --all-files --hook-stage manual
