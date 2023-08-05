@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: zufallsworte
+Version: 0.0.6
+Summary: Generates random German words from a 300,000 word list
+Home-page: https://github.com/MaximilianFreitag/Zufallswort
+Author: Maximilian Freitag
+Author-email: maximilian.freitag@gmx.de
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3
+
+UNKNOWN
+
+
