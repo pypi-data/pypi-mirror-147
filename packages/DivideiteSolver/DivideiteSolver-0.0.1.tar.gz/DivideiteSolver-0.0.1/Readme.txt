@@ -1,0 +1,1 @@
+This library cotains functions to solve expressions.It contains functions used in divideite's project.

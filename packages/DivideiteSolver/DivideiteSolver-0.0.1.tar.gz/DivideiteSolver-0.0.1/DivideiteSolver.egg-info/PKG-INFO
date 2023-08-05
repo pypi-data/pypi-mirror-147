@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: DivideiteSolver
+Version: 0.0.1
+Summary: Include function to solve expressions
+Home-page: UNKNOWN
+Author: Vikas Saini
+Author-email: sainivk565@gmail.com
+License: MIT
+Keywords: divideite
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+This library cotains functions to solve expressions.It contains functions used in divideite's project.
+
+Change Log
+==========
+
+0.0.1 (16/04/2022)
+-------------------
+- First Release
+

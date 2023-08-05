@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+Readme.txt
+setup.py
+DivideiteSolvers.egg-info/PKG-INFO
+DivideiteSolvers.egg-info/SOURCES.txt
+DivideiteSolvers.egg-info/dependency_links.txt
+DivideiteSolvers.egg-info/top_level.txt
+divideiteSolvers/__init__.py
+divideiteSolvers/errors/__init__.py
+divideiteSolvers/errors/errors.py
