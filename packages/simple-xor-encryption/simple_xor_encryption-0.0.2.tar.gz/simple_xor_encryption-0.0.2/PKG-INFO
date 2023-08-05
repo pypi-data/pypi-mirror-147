@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: simple_xor_encryption
+Version: 0.0.2
+Summary: A simple way to xor encryption
+Home-page: https://github.com/SomeMinecraftModder/xor_enctyption
+Author: Emilien Coutal
+Author-email: staff@webgarbage.fr
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/SomeMinecraftModder/xor_enctyption/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# simple_xor_encryption
+*yet another useless and random package*
+## exemple
+```python
+from simple_xor_encryption import xor
+
+message = "random test".encode()
+key = "SsJt7g".encode()  # key length does not have to match data length
+
+encrypted_message = xor(message, key)
+decrypted_message = xor(encrypted_message, key)
+print(message == decrypted_message)
+```
+
