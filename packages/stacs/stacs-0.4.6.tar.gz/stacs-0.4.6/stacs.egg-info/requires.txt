@@ -1,0 +1,10 @@
+click
+yara-python
+pydantic
+python-libarchive
+
+[development]
+tox
+black
+flake8
+isort
