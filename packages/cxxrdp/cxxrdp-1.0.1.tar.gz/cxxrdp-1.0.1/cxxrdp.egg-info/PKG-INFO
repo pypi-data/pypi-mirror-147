@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: cxxrdp
+Version: 1.0.1
+Summary: C++ implementation of RDP (Ramer–Douglas–Peucker)
+Home-page: https://github.com/CaoDuyThanh/crdp
+Author: Thanh Cao
+Author-email: caoduythanhcantho@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/CaoDuyThanh/crdp/issues
+Description: # cxxrdp
+        C++ implementation of RDP
+        
+        ## Install via pip
+        Run following command to install cxxrdp on your computer
+        
+            pip install cxxrdp
+        
+        ## How to use?
+        
+        .. code:: python
+        
+            from cxxrdp import rdp
+        
+            rdp([[0, 5], [5, 5], [10, 5], [15, 5]])
+        
+        .. code:: python
+        
+            [[0, 5], [15, 5]]
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

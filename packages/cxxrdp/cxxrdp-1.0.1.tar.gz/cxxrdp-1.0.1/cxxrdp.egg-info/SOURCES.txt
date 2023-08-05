@@ -1,0 +1,7 @@
+README.md
+setup.py
+cxxrdp.egg-info/PKG-INFO
+cxxrdp.egg-info/SOURCES.txt
+cxxrdp.egg-info/dependency_links.txt
+cxxrdp.egg-info/not-zip-safe
+cxxrdp.egg-info/top_level.txt
