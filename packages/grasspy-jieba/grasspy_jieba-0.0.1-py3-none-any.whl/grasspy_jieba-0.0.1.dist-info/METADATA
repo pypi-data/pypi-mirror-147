@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: grasspy-jieba
+Version: 0.0.1
+Summary: A small example package
+Home-page: https://gitee.com/laowu2019_admin/zwjieba
+Author: Laowu Grasspy
+Author-email: 760230681@qq.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://gitee.com/laowu2019_admin/zwjieba/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: jieba
+
+# 结巴——jieba 中文版
+
+#### 介绍
+草蟒中文分词库——结巴（jieba中文版）
+
+#### 安装
+
+`python -m pip install -U grasspy-jieba`
+
+#### 使用说明
+
+参见《草蟒（Python 中文版）入门指南》中的分词示例
+
+
