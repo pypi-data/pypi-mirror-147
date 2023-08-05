@@ -1,0 +1,4 @@
+[console_scripts]
+mcli=module_cli:cli
+module-cli=module_cli:cli
+
