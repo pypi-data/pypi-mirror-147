@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi" xmlns:util='http://schemas.microsoft.com/wix/UtilExtension'>
+  <Fragment>
+    <SetProperty Id="WinDefenderAllowDecoder" Before="WinDefenderAllowDecoder" Sequence="execute"
+      Value="&quot;[SystemFolder]netsh.exe&quot; advfirewall firewall add rule name=&quot;Streambox Iris decoder&quot; dir=in action=allow program=&quot;C:\Program Files\Streambox\Iris\decoder.exe&quot; enable=yes profile=Any" />
+    <CustomAction Id="WinDefenderAllowDecoder" BinaryKey="WixCA" DllEntry="WixQuietExec" Execute="deferred" Impersonate="no" Return="ignore" />
+  </Fragment>
+  <Fragment>
+    <SetProperty Id="WinDefenderRemoveDecoder" Before="WinDefenderRemoveDecoder" Sequence="execute"
+      Value="&quot;[SystemFolder]netsh.exe&quot; advfirewall firewall delete rule name=&quot;Streambox Iris decoder&quot;" />
+    <CustomAction Id="WinDefenderRemoveDecoder" BinaryKey="WixCA" DllEntry="WixQuietExec" Execute="deferred" Impersonate="no" Return="ignore" />
+  </Fragment>
+  <Fragment>
+    <SetProperty Id="StopIris" Before="StopIris" Sequence="execute"
+      Value="&quot;[IRISROOTDIRECTORY]nssm.exe&quot; stop StreamboxIris" />
+    <CustomAction Id="StopIris" BinaryKey="WixCA" DllEntry="WixQuietExec" Execute="deferred" Impersonate="no" Return="ignore" />
+  </Fragment>
+  <Fragment>
+    <SetProperty Id="InstallServiceIris" Before="InstallServiceIris" Sequence="execute"
+      Value="&quot;[SystemFolder]WindowsPowerShell\v1.0\powershell.exe&quot; -nop -ep bypass -file &quot;[IRISROOTDIRECTORY]service.ps1&quot;" />
+    <CustomAction Id="InstallServiceIris" BinaryKey="WixCA" DllEntry="WixQuietExec" Execute="deferred" Impersonate="no" Return="ignore" />
+  </Fragment>
+  <Fragment>
+    <SetProperty Id="UninstallServiceIris" Before="UninstallServiceIris" Sequence="execute"
+      Value="&quot;[IRISROOTDIRECTORY]nssm.exe&quot; remove StreamboxIris confirm" />
+    <CustomAction Id="UninstallServiceIris" BinaryKey="WixCA" DllEntry="WixQuietExec" Execute="deferred" Impersonate="no" Return="ignore" />
+  </Fragment>
+</Wix>

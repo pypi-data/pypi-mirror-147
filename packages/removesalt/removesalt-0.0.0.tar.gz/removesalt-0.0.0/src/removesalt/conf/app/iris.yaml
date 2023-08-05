@@ -1,0 +1,54 @@
+app:
+  name: Iris
+  version: 0.4.0 # don't hand edit this, use "bump2version" to update it, see .bumpversion.cfg
+  wix_guid: 4DAE9226-90FE-11EC-B7AA-30D9D9EED5CB
+app_wix:
+  name: app.wxs
+bin_path: ${path:${app.orig_cwd}/streambox_iris_win_assets/}
+bundle:
+  name: iris.exe
+components:
+  build_order:
+    - actions
+    - app
+    - main
+  container:
+    actions:
+      deploy: ${app.deploy}
+      path_work: ${path:${app.work1}/custom_actions.wxs}
+      single_file: true
+    app:
+      deploy: ${app.deploy}
+      group: ComponentGroupIris
+      path_work: ${path:${app.work1}/app.wxs}
+      root_dir: IRISROOTDIRECTORY
+      single_file: true
+      wix_guid:
+    main:
+      deploy: ${app.deploy}
+      group: ComponentGroupIris
+      path_work: ${path:${app.work1}/component_main.wxs}
+      root_dir: IRISROOTDIRECTORY
+      single_file: false
+icon:
+  name: Streambox_iris_icon.ico
+installer_name: iris
+installer_source_path: ${path:${app.orig_cwd}/streambox_iris_win_assets/installer/}
+msi:
+  name: iris.msi
+quickstart:
+  name: streambox_iris_quickstart.pdf
+release: false
+run_signtool: true
+s3bucket:
+  name: streambox-iris
+splash_image:
+  name: IRIS Decoder Placard.png
+stop_all_uploads: true
+wix:
+  component_group: ComponentGroupIris
+  root_dir: IRISROOTDIRECTORY
+zip_not_versioned:
+  name: streambox_iris_win.zip
+zip_versioned:
+  name: streambox_iris_win_${app.app.version}.zip

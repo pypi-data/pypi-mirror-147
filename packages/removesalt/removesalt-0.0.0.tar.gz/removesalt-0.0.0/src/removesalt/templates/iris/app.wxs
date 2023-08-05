@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi" xmlns:util="http://schemas.microsoft.com/wix/UtilExtension">
+  <Product Id="*" UpgradeCode="{{ data.app.wix_guid }}" Version="{{ data.app.version }}"
+      Language="1033" Name="{{ data.app.name }}" Manufacturer="{{ data.company_name }}">
+
+    <Package InstallerVersion="300" Compressed="yes" Platform='x64' InstallScope="perMachine" />
+    <MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+    <Media Id="1" Cabinet="myapplication.cab" EmbedCab="yes" />
+    <Icon Id="{{ data.icon.name }}" SourceFile="{{ data.icon.path_work }}" />
+    <Property Id="ARPPRODUCTICON" Value="{{ data.icon.path_work }}" />
+    <Property Id="ApplicationFolderName" Value="{{ data.wix.root_dir }}" />
+    <Property Id="WixAppFolder" Value="WixPerMachineFolder" />
+
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <Directory Id="ProgramFiles64Folder">
+        <Directory Id="MyCompany" Name="{{ data.company_name }}">
+          <Directory Id="{{ data.wix.root_dir }}" Name="{{ data.app.name }}" />
+        </Directory>
+      </Directory>
+
+      <Directory Id="CommonAppDataFolder">
+        <Directory Id="IRISDATAROOTDIR" Name="{{ data.company_name }}">
+          <Directory Id="ProgramDataIrisConf" Name="{{ data.app.name }}">
+            <Directory Id="CommonProgramDataLog" Name="log">
+              <Component Id="CreateProgramDataLogDirectory" Guid="218A9286-9981-11EC-9980-30D9D9EED5CB">
+                <CreateFolder>
+                  <util:PermissionEx User="Users" GenericAll="yes" />
+                </CreateFolder>
+              </Component>
+            </Directory>
+            <Directory Id="CommonProgramDataHash" Name="hash">
+              <Component Id="CreateProgramDataHashDirectory" Guid="19C7CD4C-9982-11EC-A6EA-30D9D9EED5CB">
+                <CreateFolder>
+                  <util:PermissionEx User="Users" Read="yes" GenericWrite="no" />
+                </CreateFolder>
+              </Component>
+            </Directory>
+          </Directory>
+        </Directory>
+      </Directory>
+
+      <Directory Id="ProgramMenuFolder">
+        <Directory Id="MyCompanyStartMenuFolder" Name="{{ data.company_name }}">
+          <Directory Id="ApplicationProgramsFolder" Name="{{ data.app.name }}" />
+        </Directory>
+      </Directory>
+    </Directory>
+
+    <DirectoryRef Id="ApplicationProgramsFolder">
+      <Component Id="IrisControlPanelShortcutComponent" Guid="*">
+        <Shortcut Id="STARTPANELSHORTCUT" Icon="MyIconID1" Name="Iris Control Panel"
+          WorkingDirectory="{{ data.wix.root_dir }}"
+          Target="[{{ data.wix.root_dir }}]controlpanel.exe">
+          <Icon Id="MyIconID1" SourceFile="$(var.SourceFilesDir)\controlpanel.exe" />
+        </Shortcut>
+        <RemoveFolder Id="ApplicationProgramsFolder" On="uninstall" />
+        <RemoveFolder Id="RemoveMyCompanyStartMenuFolder" Directory="MyCompanyStartMenuFolder" On="uninstall" />
+        <RegistryValue Root="HKMU" Key="Software\{{ data.company_name }}\{{ data.app.name }}\ControlPanel"
+          Type="integer" Name="installed" Value="1" KeyPath="yes" />
+      </Component>
+    </DirectoryRef>
+
+    <Feature Id="MainApplication" Title="Main Application" Level="1">
+      <ComponentGroupRef Id="ComponentGroupIris" />
+      <ComponentRef Id="IrisControlPanelShortcutComponent" />
+      <ComponentRef Id="CreateProgramDataLogDirectory" />
+      <ComponentRef Id="CreateProgramDataHashDirectory" />
+    </Feature>
+
+    <InstallExecuteSequence>
+      <Custom Action="StopIris" After="InstallInitialize">Installed</Custom>
+      <Custom Action="WinDefenderAllowDecoder" After="InstallInitialize">NOT REMOVE</Custom>
+      <Custom Action="InstallServiceIris" Before="InstallFinalize">NOT REMOVE</Custom>
+      <Custom Action="WinDefenderRemoveDecoder" Before="RemoveFiles">REMOVE~="ALL" AND NOT UPGRADINGPRODUCTCODE</Custom>
+      <Custom Action="UninstallServiceIris" Before="RemoveFiles">REMOVE~="ALL" AND NOT UPGRADINGPRODUCTCODE</Custom>
+    </InstallExecuteSequence>
+  </Product>
+</Wix>

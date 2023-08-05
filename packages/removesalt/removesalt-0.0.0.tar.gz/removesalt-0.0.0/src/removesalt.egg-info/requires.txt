@@ -1,0 +1,14 @@
+jinja2
+giftmaster>=0.0.52
+awscli
+saltgang
+hydra-core>=1.2.0.dev1
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[testing]
+setuptools
+pytest
+pytest-cov
+black
