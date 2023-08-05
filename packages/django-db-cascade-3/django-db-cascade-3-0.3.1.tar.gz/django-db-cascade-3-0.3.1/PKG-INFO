@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: django-db-cascade-3
+Version: 0.3.1
+Summary: Fork of https://github.com/jkapelner/django-db-cascade-2.  Optionally use postgres db ON CASCADE DELETE/SET NULL on django foreign keys
+Home-page: http://github.com/fingul/django-db-cascade-3
+Author: Fingul
+Author-email: fingul@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Framework :: Django
+Classifier: Topic :: Database
+License-File: LICENSE
+
+UNKNOWN
+
