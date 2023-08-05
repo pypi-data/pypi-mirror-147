@@ -1,0 +1,6 @@
+climage
+fuzzywuzzy
+lxml~=4.0
+python-Levenshtein
+python-dateutil~=2.0
+requests~=2.0
