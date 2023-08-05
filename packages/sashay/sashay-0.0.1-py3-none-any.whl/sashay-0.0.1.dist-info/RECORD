@@ -1,0 +1,13 @@
+sashay/__init__.py,sha256=_ks0QNUaojXdCKQb5zWZ87FvvCKPFN4wEgZ39KgjWWY,25
+sashay/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sashay/main.py,sha256=zoROyweOzeMzF-eFdVohRSsm1S3eq2LACO49kTmWKeg,268
+sashay/menu.py,sha256=v20O9m0wyIAFvWXhAXNOYJAwjzzLJTRdBgTz6ex1ako,13590
+sashay/outlook.py,sha256=7YwfpfeV2fdyoECJQAXYNi2IAek5U8bCMSkiHLFes-g,11221
+sashay/system.py,sha256=jBfTLfMoKWL_stRP6hzjlMETHga69n6a4fgp4dIvgn0,2768
+sashay/assets/cat.json,sha256=xGd05vMIA-bJvkJLXQMv20bv_pz-wUm0QEKlYFFVKAY,671
+sashay/assets/data.json,sha256=pQnGvJCOkMC--qQ4CRXmQ4VNNbCR79j9e_LqUoMosVc,90467
+sashay-0.0.1.dist-info/METADATA,sha256=4BtVSQrYbFS3XpZGGJIUgJnNaCsh1LqOwzEZTa3NLsI,4193
+sashay-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sashay-0.0.1.dist-info/entry_points.txt,sha256=ud-ib4NZRBpyQw6tYC9hG0Q41sZf03h1EUSLIZJkfcI,79
+sashay-0.0.1.dist-info/top_level.txt,sha256=5Etp28n8KrQCO24-Gw4TAVhuOm95gIdrk0wF706MoSA,7
+sashay-0.0.1.dist-info/RECORD,,
