@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+Example_game.egg-info/PKG-INFO
+Example_game.egg-info/SOURCES.txt
+Example_game.egg-info/dependency_links.txt
+Example_game.egg-info/requires.txt
+Example_game.egg-info/top_level.txt
