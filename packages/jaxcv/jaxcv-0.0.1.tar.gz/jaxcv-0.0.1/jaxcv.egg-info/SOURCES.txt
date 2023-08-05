@@ -1,0 +1,6 @@
+README.md
+setup.py
+jaxcv.egg-info/PKG-INFO
+jaxcv.egg-info/SOURCES.txt
+jaxcv.egg-info/dependency_links.txt
+jaxcv.egg-info/top_level.txt
