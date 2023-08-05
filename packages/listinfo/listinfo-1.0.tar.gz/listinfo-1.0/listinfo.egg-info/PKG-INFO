@@ -1,0 +1,99 @@
+Metadata-Version: 2.1
+Name: listinfo
+Version: 1.0
+Summary: A lightweight library to get details of list and it helps to split list into lists of small size also it 
+Author: SusmitPanda
+Author-email: susmit.vssut@gmail.com
+License: MIT
+Keywords: lisinfo,list statistics,split list,list tochunks
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+Installation
+-------------
+
+
+    ```pip install listinfo```
+
+Example
+---------
+
+
+
+from listinfo import listinfo
+
+sample_list=[1,2,3,4,5,6]
+
+ls=listinfo(sample_list)
+
+print(ls.liststats())
+
+print(ls.listtochunks(chunk=3))
+
+print(ls.splitlist(splitval=2))
+
+
+
+Params
+---------
+
+
+Below are few parameters and functions we have to provide according to our requirements:
+
+
+1 `liststats:(No Parameters Required)`
+
+Here we get statistics of list. The ouput what we get will be in `dict` fromat.
+There will be four values(`length`,`datatype and count`,`list to tuple`,`size of list`) in the output.
+
+`length`:It shows the length of list.
+`datatype and count`:It demonstrates how many types of datatypes and thier count.
+`list to tuple`: It is the tuple version of list.
+`memory usage`: It shows memory storaged used by list(in bytes).
+
+OUTPUT EXAMPLE:
+`{'length': 6, 'datatype and count': {<class 'int'>: 6}, 'list to tuple': (1, 2, 3, 4, 5, 6), 'memory usage': '136 bytes'}`
+
+
+2 `listtochunks(chunk='')`
+
+DEFAULT VALUE=1
+
+It converts list to chunks. chunk is the param,where we have to size of chunk.
+
+OUTPUT EXAMPLE:
+`[[1, 2, 3], [4, 5, 6]]`
+
+
+3 `splitlist(splitval='')` 
+
+DEFAULT VALUE=1
+
+It splits list to lists of list of size splival.
+
+OUTPUT EXAMPLE:
+`[[1, 2], [3, 4], [5, 6]]`
+
+
+`More Updates Coming Soon...` 😄
+
+
+Contact
+---------
+I would like to get feedback from the community. If you have feature suggestions, support questions or general comments, please email me at susmit.vssut@gmail.com
+
+
+
