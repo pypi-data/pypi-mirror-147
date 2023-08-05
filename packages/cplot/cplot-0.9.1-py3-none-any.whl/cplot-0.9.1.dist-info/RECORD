@@ -1,0 +1,11 @@
+cplot/__about__.py,sha256=UwJXM8JY2T3tE2id0K2k_lEaVThbRTrGO1mNibyzIz8,22
+cplot/__init__.py,sha256=b0MOnzbYcEEj9UY-NnStewyryeXepbz3xAaT8mE9sB8,590
+cplot/_colors.py,sha256=vYrTs4KB1WCwee0J_0AZV9FuYv8OVT9VP2KcWfHlCrE,5678
+cplot/_main.py,sha256=dYKo_59tS0xCV-iXs2HEHBtWxHgOr9rTR_o8_s9PX-E,13502
+cplot/_riemann_sphere.py,sha256=M9OdInj7ZBikTrobINTfYtnKfzoHXjwmOP8Gs_EAVd0,1550
+cplot/_tri.py,sha256=axnd3mvxQQRl0M4jRRLJl73CpwYMBnTIegtKng2I6uI,2343
+cplot/benchmark.py,sha256=18arqLW2DUYbpDEZZien2IrXzfzxVjKhQcZQ0XlqxDs,2542
+cplot-0.9.1.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+cplot-0.9.1.dist-info/WHEEL,sha256=4TfKIB_xu-04bc2iKz6_zFt-gEFEEDU_31HGhqzOCE8,81
+cplot-0.9.1.dist-info/METADATA,sha256=6UH7mZbh_reHbbzBfwrzJL0nptEOtVXYKw26cbTn7j0,8090
+cplot-0.9.1.dist-info/RECORD,,
