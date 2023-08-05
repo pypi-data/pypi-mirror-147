@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: drxhello
+Version: 0.0.1
+Summary: drxhello
+Home-page: https://github.com/drewxa/pypi-test
+Download-URL: https://pypi.org/project/drxhello/
+Author: drewxa
+Author-email: drewxa@gmail.com
+License: MIT
+Keywords: helloworld,drewxa
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# Hi there!
+
+This test repo.
+
+Hello new brave world...
+
+```py
+import drxhello
+
+drxhello.hello()
+```
+
+`pip install drxhello`
+
+

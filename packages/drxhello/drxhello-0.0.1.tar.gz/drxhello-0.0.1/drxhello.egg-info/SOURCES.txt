@@ -1,0 +1,9 @@
+README.md
+setup.py
+drxhello/__init__.py
+drxhello/module.py
+drxhello.egg-info/PKG-INFO
+drxhello.egg-info/SOURCES.txt
+drxhello.egg-info/dependency_links.txt
+drxhello.egg-info/requires.txt
+drxhello.egg-info/top_level.txt
