@@ -1,0 +1,6 @@
+README.md
+setup.py
+jaxvision.egg-info/PKG-INFO
+jaxvision.egg-info/SOURCES.txt
+jaxvision.egg-info/dependency_links.txt
+jaxvision.egg-info/top_level.txt
