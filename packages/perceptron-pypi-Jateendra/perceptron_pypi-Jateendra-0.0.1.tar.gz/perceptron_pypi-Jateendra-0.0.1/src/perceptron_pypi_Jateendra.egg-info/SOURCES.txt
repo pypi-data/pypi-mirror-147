@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/oneNeuron/__init__.py
+src/oneNeuron/perceptron.py
+src/perceptron_pypi_Jateendra.egg-info/PKG-INFO
+src/perceptron_pypi_Jateendra.egg-info/SOURCES.txt
+src/perceptron_pypi_Jateendra.egg-info/dependency_links.txt
+src/perceptron_pypi_Jateendra.egg-info/requires.txt
+src/perceptron_pypi_Jateendra.egg-info/top_level.txt
