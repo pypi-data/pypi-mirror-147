@@ -1,0 +1,13 @@
+LICENSE
+README.md
+UltraDict.c
+pyproject.toml
+setup.py
+./UltraDict.py
+./__init__.py
+./setup.py
+UltraDict.egg-info/PKG-INFO
+UltraDict.egg-info/SOURCES.txt
+UltraDict.egg-info/dependency_links.txt
+UltraDict.egg-info/not-zip-safe
+UltraDict.egg-info/top_level.txt
