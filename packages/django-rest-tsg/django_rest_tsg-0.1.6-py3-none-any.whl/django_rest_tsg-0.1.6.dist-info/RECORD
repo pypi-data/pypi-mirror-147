@@ -1,0 +1,16 @@
+CHANGELOG.rst,sha256=e16-KJ53ga_h1wUqBNxihzz60Mg3IjXkMP1mznp5txw,758
+django_rest_tsg/__init__.py,sha256=VWcc8lzdY98u9YjqT5efn84M59rHlL7onzB9Uo9d8Ng,204
+django_rest_tsg/apps.py,sha256=1BRkm-OMtz1qapO_6p1ywoxymyztBHQ7eJxO_wAuO1g,193
+django_rest_tsg/build.py,sha256=N5wFtNRpGlJEi0YDQNqJenz1FFWJNbfS88MPho7Zc7o,7511
+django_rest_tsg/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_rest_tsg/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_rest_tsg/management/commands/buildtypescript.py,sha256=Fcdqbnhgj1rdSJxpn17JgvRFEM5tYeqXshYyrJ0gkAo,1228
+django_rest_tsg/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_rest_tsg/templates.py,sha256=wJO7VCPB9IFt3Tajf_iBI5sWakF3l1y9gNkLI5Qo0XE,595
+django_rest_tsg/typescript.py,sha256=dawVczUKNln9AHVchQ5sL3QogPNN8OrM-HCfnfHTqZY,14475
+LICENSE,sha256=DWulA8opUT_9vTrFWY5LpGQdOvyjh2lasnL8ltbw7Nk,1068
+README.rst,sha256=UWPU_ss4T4d8gRzEbddUtFF0grT9aDavm3WMBZUWr4A,3637
+django_rest_tsg-0.1.6.dist-info/LICENSE,sha256=DWulA8opUT_9vTrFWY5LpGQdOvyjh2lasnL8ltbw7Nk,1068
+django_rest_tsg-0.1.6.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+django_rest_tsg-0.1.6.dist-info/METADATA,sha256=3udiGpxyoOYog_8z1w_SLjcpK1WMPDI1GIb0B79NoDU,4897
+django_rest_tsg-0.1.6.dist-info/RECORD,,
