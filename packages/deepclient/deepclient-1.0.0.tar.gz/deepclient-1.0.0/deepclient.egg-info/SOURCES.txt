@@ -1,0 +1,13 @@
+README.md
+setup.py
+deepclient/__init__.py
+deepclient/client.py
+deepclient/exceptions.py
+deepclient.egg-info/PKG-INFO
+deepclient.egg-info/SOURCES.txt
+deepclient.egg-info/dependency_links.txt
+deepclient.egg-info/requires.txt
+deepclient.egg-info/top_level.txt
+tests/__init__.py
+tests/config.py
+tests/test_client.py

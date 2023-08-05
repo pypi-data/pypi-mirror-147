@@ -1,0 +1,2 @@
+GQL_URL = 'https://3006-deepfoundation-dev-lcw77kwxmoy.ws-eu40.gitpod.io/gql'
+GQL_TOKEN = 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwczovL2hhc3VyYS5pby9qd3QvY2xhaW1zIjp7IngtaGFzdXJhLWFsbG93ZWQtcm9sZXMiOlsibGluayJdLCJ4LWhhc3VyYS1kZWZhdWx0LXJvbGUiOiJsaW5rIiwieC1oYXN1cmEtdXNlci1pZCI6IjIwNiJ9LCJpYXQiOjE2NDY1NjAxMzR9.lovI0hVh_Jf8lMYumPnmpuVWOSr9itnOZi9e5O3giGw'

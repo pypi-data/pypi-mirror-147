@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: deepclient
+Version: 1.0.0
+Summary: Data.Doublets.Gql
+Home-page: https://github.com/linksplatform/Data.Doublets.Gql
+Author: Ethosa
+Author-email: social.ethosa@gmail.com
+License: LGPLv3
+Project-URL: Github, https://github.com/linksplatform/Data.Doublets.Gql
+Project-URL: Documentation, https://github.com/linksplatform/Data.Doublets.Gql
+Keywords: Python Gql
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+
+<div align="center">
+
+# linksgql
+### Python bridge GraphQl to Links
+
+</div>
+
+
+
