@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/qNetVO.egg-info/PKG-INFO
+src/qNetVO.egg-info/SOURCES.txt
+src/qNetVO.egg-info/dependency_links.txt
+src/qNetVO.egg-info/requires.txt
+src/qNetVO.egg-info/top_level.txt
+src/qnetvo/__init__.py
+src/qnetvo/ansatz_library.py
+src/qnetvo/gradient_descent.py
+src/qnetvo/information.py
+src/qnetvo/lazy_dask_import.py
+src/qnetvo/lazy_tensorflow_import.py
+src/qnetvo/network_ansatz.py
+src/qnetvo/utilities.py
