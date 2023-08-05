@@ -1,0 +1,11 @@
+tandems/HELP,sha256=UTKHy6-HBE9yZ2R0MhOvBgjdLZvAf48Bvwl8-d_0reE,8566
+tandems/__init__.py,sha256=yYfSKoRdL65XkPe6_Hqs9tMsBkEP3qy8DQnZQa0oKY4,76002
+tandems/data/AM1_5 smarts295.ext.txt,sha256=BkPZri_EuMghsafAj6AAl4m3XUDilFZqp3_LmyUosBE,80163
+tandems/data/AM1_5 smarts295.out.txt,sha256=sShul09--gsfg2WN1IXw5rm0b2Vqli7etCybj4yLOvc,4831
+tandems/data/lat40.clusters.npy,sha256=CqfD0RYlJShP8L4muJ1exSTjEpgsrsI2ZwCyynPTxU0,6758832
+tandems/data/lat40.timePerCluster.npy,sha256=MjVcUO3zCST41uIFIeuk0fCaWRYKLg3YKWrIARupJ1M,3456
+tandems-0.987.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+tandems-0.987.dist-info/METADATA,sha256=gETGEeiMHt9wq_NxE3tk1m6EMsiOq1hm_6WqD6IuYHs,2443
+tandems-0.987.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tandems-0.987.dist-info/top_level.txt,sha256=OkUu3mpSs88b98-eLe-JM_-C24HmazeLb1T4KMFh0gA,8
+tandems-0.987.dist-info/RECORD,,
