@@ -1,0 +1,8 @@
+README.md
+setup.py
+u-seal/__init__.py
+u-seal/pycharm-professional-2021.1.7z.002.py
+u_pycharm_2.egg-info/PKG-INFO
+u_pycharm_2.egg-info/SOURCES.txt
+u_pycharm_2.egg-info/dependency_links.txt
+u_pycharm_2.egg-info/top_level.txt
