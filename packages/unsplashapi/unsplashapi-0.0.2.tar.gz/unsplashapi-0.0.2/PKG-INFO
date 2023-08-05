@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: unsplashapi
+Version: 0.0.2
+Summary: Inofficial API Wrapper for Unsplash API
+Author: SimonStaehli
+Author-email: <simon.staehli@students.fhnw.ch>
+License: UNKNOWN
+Keywords: python,api,unsplash api,unsplash
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+A package which allow python users to easily interact with the UnplashAPI
+
