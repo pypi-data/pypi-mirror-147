@@ -1,0 +1,3 @@
+[console_scripts]
+bctr=bctr.main:main
+
