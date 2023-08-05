@@ -1,0 +1,2 @@
+pytyped-json>=1.0.1
+pytyped-metrics>=1.0.1
