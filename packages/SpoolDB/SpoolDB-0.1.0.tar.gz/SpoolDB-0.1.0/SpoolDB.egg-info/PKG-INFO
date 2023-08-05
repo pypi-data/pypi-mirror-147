@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: SpoolDB
+Version: 0.1.0
+Summary: Python persistent dictionary (a key value store)
+Home-page: https://github.com/MOALib/SpoolDB
+Author: MXPSQL
+Author-email: 2000onetechguy@gmail.com
+License: UNKNOWN
+Keywords: Dict,Persistent,Database,JSON,CSV,Shelf,Pickle
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+License-File: LICENSE
+
+UNKNOWN
+

@@ -1,0 +1,9 @@
+LICENSE
+setup.py
+SpoolDB.egg-info/PKG-INFO
+SpoolDB.egg-info/SOURCES.txt
+SpoolDB.egg-info/dependency_links.txt
+SpoolDB.egg-info/top_level.txt
+spooldb/__init__.py
+spooldb/dbfunc.py
+spooldb/spooldb.py
