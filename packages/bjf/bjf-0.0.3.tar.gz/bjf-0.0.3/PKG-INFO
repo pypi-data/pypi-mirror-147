@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: bjf
+Version: 0.0.3
+Summary: Simple in-place JSON Formatter
+Home-page: https://github.com/rohanwinsor/bjf
+Author: rohan winsor
+Author-email: rohan.w.charles@gmail.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# bjf
+
+Simple in-place JSON Formatter
+
+## Install
+
+### Install from pypi
+
+```bash
+pip3 install bjf
+```
+
+### Install from git
+```bash
+pip3 install "git+https://github.com/rohanwinsor/bjf.git"
+```
+
+## Usage
+```
+python -m bjf {source_file_or_directory}
+```
+
