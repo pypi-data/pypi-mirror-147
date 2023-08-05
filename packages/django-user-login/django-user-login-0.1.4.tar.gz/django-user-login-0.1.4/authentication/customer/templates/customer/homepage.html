@@ -1,0 +1,46 @@
+{% extends 'authentication/layout.html' %}
+
+
+{% block title %}My Account{% endblock %}
+{% block style %}
+{% endblock %}
+
+
+{% block body %}
+<div class="container mt-3 text-center">
+    <div class="row">
+        <div class="col-md-4 col-12">
+        </div>
+        <div class="col-12 col-md-8">
+            <h5 style="text-align: start;">
+                Your Profile
+                <a href="" class="text-decoration-none" id="bi-pencil-fill" onclick="editprofile(event);">
+                    <i class="bi bi-pencil-fill text-primary"></i>
+                </a>
+            </h5>
+            <hr>
+            <div class="row fs-4">
+                <div class="col-sm-4">First Name</div>
+                <div class="col-sm-8">{{customer.first_name}}</div>
+                <hr>
+                <div class="col-sm-4">Last Name</div>
+                <div class="col-sm-8">{{customer.last_name}}</div>
+                <hr>
+                <div class="col-sm-4">Username</div>
+                <div class="col-sm-8">{{customer.username}}</div>
+                <hr>
+                <div class="col-sm-4">Email</div>
+                <div class="col-sm-8">{{customer.email}}</div>
+                <hr>
+                {% if customer.birth_date %}
+                <div class="col-sm-4">Date of Birth</div>
+                <div class="col-8">{{customer.birth_date}}</div><hr>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+
+{% block script %}{% endblock %}
