@@ -1,0 +1,8 @@
+attrs>=21.4.0
+
+[dev]
+black
+mypy
+pytest
+pytest-cov
+tox
