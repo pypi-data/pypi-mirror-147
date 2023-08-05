@@ -1,0 +1,11 @@
+LICENCE
+README.md
+pyproject.toml
+setup.cfg
+src/easonsi/__init__.py
+src/easonsi/easonsi.py
+src/easonsi/utils.py
+src/easonsi.egg-info/PKG-INFO
+src/easonsi.egg-info/SOURCES.txt
+src/easonsi.egg-info/dependency_links.txt
+src/easonsi.egg-info/top_level.txt
