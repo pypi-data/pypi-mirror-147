@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "rusz"
+version = "22.04.18-6"
+description = "(WIP) Run own commands before commit / push etc"
+authors = ["Tadeusz Miszczyk <42252259+8tm@users.noreply.github.com>"]
+readme = "README.md"
+
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.scripts]
+rusz = 'rusz.main:main'
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
