@@ -1,0 +1,8 @@
+pygismeteo/__init__.py,sha256=Mp1GssPoz8liKNR33u1WFGoP2MLO0BhSYyTbaetDNmg,162
+pygismeteo/_exceptions.py,sha256=orZ2Yn-zc7fApZNc3CvhtWYypgv_HhkVk-vD-qArNac,120
+pygismeteo/_gismeteo.py,sha256=GA0NiYMUW1qBTcRTpu8eRY5VzTbzU_ONpc-lOcugTSk,4755
+pygismeteo/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pygismeteo-4.0.1.dist-info/LICENSE,sha256=1x8a8JvB6Tm-oi0Knf_OySff8jjCZa2Uhw591k6oUDg,1065
+pygismeteo-4.0.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+pygismeteo-4.0.1.dist-info/METADATA,sha256=TS_2QEdYzOqVKokwhV5Ce3ff2vHTX_teCFBMd1gwLkc,2256
+pygismeteo-4.0.1.dist-info/RECORD,,
