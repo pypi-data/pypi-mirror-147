@@ -1,0 +1,12 @@
+aliyun-python-sdk-core
+arrow
+celery
+huaweicloudsdkcore
+huaweicloudsdkiam
+mysqlclient
+pycryptodome
+python-keystoneclient
+tencentcloud-sdk-python
+djangorestframework
+django_celery_beat
+Ipy
