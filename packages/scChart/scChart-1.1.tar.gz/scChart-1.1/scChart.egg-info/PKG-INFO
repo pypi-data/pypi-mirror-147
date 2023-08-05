@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: scChart
+Version: 1.1
+Summary: Chart Feature for ScratchConnect Python Library
+Home-page: https://github.com/Sid72020123/scratchconnect/scChart
+Author: Siddhesh Chavan
+Author-email: siddheshchavan2020@gmail.com
+License: MIT
+Keywords: chart scratch data
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# scChart v1.0
+
+Chart feature for ScratchConnect Python Library
+
