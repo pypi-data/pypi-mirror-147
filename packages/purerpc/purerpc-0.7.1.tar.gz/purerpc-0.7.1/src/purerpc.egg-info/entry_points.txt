@@ -1,0 +1,2 @@
+[console_scripts]
+protoc-gen-purerpc = purerpc.protoc_plugin.plugin:main
