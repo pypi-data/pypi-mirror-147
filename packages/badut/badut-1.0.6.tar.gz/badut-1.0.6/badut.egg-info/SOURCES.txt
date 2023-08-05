@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+badut/__init__.py
+badut/requests.py
+badut.egg-info/PKG-INFO
+badut.egg-info/SOURCES.txt
+badut.egg-info/dependency_links.txt
+badut.egg-info/top_level.txt
+test/test_build.py
+test/test_get.py
+test/test_post.py
