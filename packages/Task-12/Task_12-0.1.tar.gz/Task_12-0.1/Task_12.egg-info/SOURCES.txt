@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+Task_12.egg-info/PKG-INFO
+Task_12.egg-info/SOURCES.txt
+Task_12.egg-info/dependency_links.txt
+Task_12.egg-info/requires.txt
+Task_12.egg-info/top_level.txt
+Test/Re.py
+Test/__init__.py
