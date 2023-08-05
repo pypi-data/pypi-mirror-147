@@ -1,0 +1,11 @@
+compuglobal/__init__.py,sha256=iN3on6p0KTqW3qQLzDMunf_Mb7nOoEJxWODOqItxcDw,15658
+compuglobal/aio.py,sha256=nVwjD6RQbcgpsFsBSnRpokaq_MfoYlcDDNRZ9TPFTjw,14325
+compuglobal/aio_screencap.py,sha256=2PpHuMTB_3pM_-veD-C6fQRwmVImZjLCkvZLnl31X0o,3099
+compuglobal/errors.py,sha256=VVMscWa7hs0hJyZRm4VIgZeNiuBzOh3rENqBelbFXCQ,616
+compuglobal/frame.py,sha256=qgxncsxIY1bU7PF_bZYOasA-k4j0Mjh_hLUk2KsI-lA,2072
+compuglobal/screencap.py,sha256=KGUrJ7ZaalYiY4TLvtIkTiCWkUYGlS3tsiq6fpQuTqw,7037
+compuglobal-0.2.6.dist-info/LICENSE,sha256=Y5bbmNWEQkS4hCbdTlHp_qu5LEhLcOOR5Vkk0zezZJ0,1071
+compuglobal-0.2.6.dist-info/METADATA,sha256=cRQaV8bB_zBWXZlWzKUI1cbw3_uj3N9NdtGDNyFWvM4,4806
+compuglobal-0.2.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+compuglobal-0.2.6.dist-info/top_level.txt,sha256=vh-u1CTBgdoGZLDDQnjocehmbIeWZd9a9RkI47qVjV8,12
+compuglobal-0.2.6.dist-info/RECORD,,
