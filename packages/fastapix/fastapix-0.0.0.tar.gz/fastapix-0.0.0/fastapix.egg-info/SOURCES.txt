@@ -1,0 +1,10 @@
+setup.py
+fastapix/__init__.py
+fastapix.egg-info/PKG-INFO
+fastapix.egg-info/SOURCES.txt
+fastapix.egg-info/dependency_links.txt
+fastapix.egg-info/top_level.txt
+fastapix_/__init__.py
+fastapix_/__main__.py
+fastapix_/logger.py
+fastapix_/commands/__init__.py
