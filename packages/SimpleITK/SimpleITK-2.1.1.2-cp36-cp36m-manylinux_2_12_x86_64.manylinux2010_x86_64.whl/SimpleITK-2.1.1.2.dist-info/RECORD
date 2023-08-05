@@ -1,0 +1,12 @@
+SimpleITK/__init__.py,sha256=rcqfwADepv7hsdlUdAnvq6QvDdbh5amE9vd5GpUGiqo,846
+SimpleITK/_SimpleITK.cpython-36m-x86_64-linux-gnu.so,sha256=roq8ouyHEf9DY9-WIj5Dmtft5yDm2d3CkLVzkKRMxbI,246256072
+SimpleITK/_version.py,sha256=tUIfyR11gAIgaIVGlAm84Tq_a8UEnmJfx09IaOkneGw,1520
+SimpleITK/extra.py,sha256=FYlEeDulSFfR1GK2IfgqC6M-SmJiFLP7SbtKvVdWZ7E,15978
+SimpleITK/SimpleITK.py,sha256=TWoLHw7FsHwNbn0f9DIpcsK8MBsT-_KZKBrELYIqYDk,1878079
+SimpleITK/docs/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+SimpleITK/docs/Readme.md,sha256=v_FwrIFYVrDOBkT2-IPQzp_Koof3ECsLeTHxNdeGSqw,6689
+SimpleITK/docs/NOTICE,sha256=CR8SzcM7lSinW9xYMEDEoO_iT0LP4WckdQVYCaP3Y6o,174
+SimpleITK-2.1.1.2.dist-info/RECORD,,
+SimpleITK-2.1.1.2.dist-info/METADATA,sha256=TqEyR4KTBGwNTjrf4iBpPxU8sB-boL05nt7JKmdBFJQ,8065
+SimpleITK-2.1.1.2.dist-info/top_level.txt,sha256=B1KR4Uq5HwDUTeXLYhuUE_Ryfnp5j8Tik9KptJj7Wr8,10
+SimpleITK-2.1.1.2.dist-info/WHEEL,sha256=ms4WwfbDRLth-b9jYPIN7tUWkEjgGlaTOdogdRpChQA,150
