@@ -1,0 +1,2 @@
+[console_scripts]
+tweet-images = tweet_images.cli:cli
