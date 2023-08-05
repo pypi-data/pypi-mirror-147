@@ -1,0 +1,4 @@
+[console_scripts]
+knit=zen_knit.cli:knit
+zen=zen_knit.publish_cli:cli
+
