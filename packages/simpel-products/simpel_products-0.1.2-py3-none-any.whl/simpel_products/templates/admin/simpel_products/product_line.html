@@ -1,0 +1,17 @@
+{% load i18n admin_urls products_tags %}
+<div>
+  <div class="d-flex">
+    <div class="me-auto">
+      {% url object.opts|admin_urlname:'change' object.id|admin_urlquote as change_url %}
+      <strong><a href="{{ change_url }}">{{ object.inner_id }}</a></strong>
+      <span>{{ object.name }}</span>
+    </div>
+    <div class="fw-bold">
+      {{ object.estimation_price|currency }}
+    </div>
+  </div>
+  <div class="small">{{ object.decription|truncatechars:50 }}</div>
+  <div>
+    <span class="small">{{ object.get_status_display }}</span>
+  </div>
+</div>
