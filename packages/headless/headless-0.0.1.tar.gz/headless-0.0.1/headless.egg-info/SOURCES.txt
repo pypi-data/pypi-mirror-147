@@ -1,0 +1,16 @@
+MANIFEST.in
+VERSION
+setup.py
+docs/source/conf.py
+headless/__init__.py
+headless/iclient.py
+headless/icredential.py
+headless/package.json
+headless.egg-info/PKG-INFO
+headless.egg-info/SOURCES.txt
+headless.egg-info/dependency_links.txt
+headless.egg-info/requires.txt
+headless.egg-info/top_level.txt
+headless/tests/test_integration_noop.py
+headless/tests/test_system_noop.py
+headless/tests/test_unit_noop.py
