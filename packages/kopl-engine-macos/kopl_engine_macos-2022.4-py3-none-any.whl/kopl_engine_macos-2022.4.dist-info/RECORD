@@ -1,0 +1,8 @@
+kopl_engine/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kopl_engine/engine.py,sha256=hv_iNpjUvnRhEG9BPbI_jIo4Tb7X68VOBGejoOHsGYk,10099
+kopl_engine/libKoPL.dylib,sha256=4aMg63l4Y4ZUBMYP7M7YswZT-mf_HWe2I9t2983AAWg,448416
+kopl_engine_macos-2022.4.dist-info/LICENSE,sha256=CfEewlGEgOPHIh7FQP7cz5Go4dDb-Juo58wTv0k3kU0,1063
+kopl_engine_macos-2022.4.dist-info/METADATA,sha256=JceDoOAM_jeTRDB-y4mJLWXXbDADLxJyoBfkucam6DI,539
+kopl_engine_macos-2022.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+kopl_engine_macos-2022.4.dist-info/top_level.txt,sha256=YvR9eFRAvyNveG4cpIfUDY1uKCtO8-hAfetwREZAGu0,12
+kopl_engine_macos-2022.4.dist-info/RECORD,,
