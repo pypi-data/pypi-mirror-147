@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: crypto_tools
+Version: 0.0.1
+Summary: Tools that can be used to build software for breaking "traditional" cyphers and codes.
+Home-page: UNKNOWN
+Author: Rocco Barbini
+Author-email: roccobarbi@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
+# crypto_tools
+
+A python package to provide tools that can be used to build software for breaking "traditional" cyphers and codes. 
+
