@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+setup.py
+flax_vision_models/__init__.py
+flax_vision_models/utils.py
+flax_vision_models.egg-info/PKG-INFO
+flax_vision_models.egg-info/SOURCES.txt
+flax_vision_models.egg-info/dependency_links.txt
+flax_vision_models.egg-info/requires.txt
+flax_vision_models.egg-info/top_level.txt
+flax_vision_models/vgg/__init__.py
+flax_vision_models/vgg/blocks.py
+flax_vision_models/vgg/build_models.py
+flax_vision_models/vgg/preprocess.py
+flax_vision_models/vgg/vgg16.py
+flax_vision_models/vgg/vgg19.py
