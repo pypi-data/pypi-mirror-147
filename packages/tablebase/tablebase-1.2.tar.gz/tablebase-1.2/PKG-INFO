@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: tablebase
+Version: 1.2
+Summary: To make tables in python as easy as printing to the console
+Home-page: https://pypi.org/project/tablebase/
+Author: Maximilian Lange
+Author-email: maxhlange@gmail.com
+License: MIT
+Description: Table Base is a python package to make coding with tables effortless. You can also read from a CSV file.
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
