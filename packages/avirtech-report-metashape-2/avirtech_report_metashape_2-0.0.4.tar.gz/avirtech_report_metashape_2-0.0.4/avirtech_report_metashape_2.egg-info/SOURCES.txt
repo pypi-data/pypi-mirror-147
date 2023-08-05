@@ -1,0 +1,14 @@
+README.md
+setup.py
+avirtech_report_metashape_2.egg-info/PKG-INFO
+avirtech_report_metashape_2.egg-info/SOURCES.txt
+avirtech_report_metashape_2.egg-info/dependency_links.txt
+avirtech_report_metashape_2.egg-info/top_level.txt
+copy_camera_selected/__init__.py
+copy_camera_selected/copy_camera_selected.py
+generate_merge_report_camera/__init__.py
+generate_merge_report_camera/generate_merge_report_camera.py
+making_directory/__init__.py
+making_directory/making_directory.py
+process_foto/__init__.py
+process_foto/process_foto.py

@@ -1,0 +1,4 @@
+copy_camera_selected
+generate_merge_report_camera
+making_directory
+process_foto
