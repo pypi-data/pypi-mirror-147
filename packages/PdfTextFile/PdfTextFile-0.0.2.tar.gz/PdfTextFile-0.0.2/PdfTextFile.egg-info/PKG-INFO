@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: PdfTextFile
+Version: 0.0.2
+Summary: pdf parsing text
+Home-page: https://github.com
+Author: xxx
+Author-email: ddpptbx@163.com
+License: MIT Licence
+Description: PdfTextFile
+Keywords: pip,PdfTextFile,featureextraction
+Platform: any
