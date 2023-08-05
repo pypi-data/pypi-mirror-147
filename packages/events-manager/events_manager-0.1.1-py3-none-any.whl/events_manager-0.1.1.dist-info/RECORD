@@ -1,0 +1,9 @@
+events_manager/__init__.py,sha256=E8c5rKZTULZ3ITc9yV7_nAxFmsuWtM40_ZJqxFbpvEM,2579
+events_manager/event.py,sha256=Tegvuj5PMNEvCOuKWFQI1GhfPe9l_oqmPwLL0Ro9-1k,49
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_events_manager.py,sha256=ONcoFnaHfYC-GIQxbu0RGvC6J5Xfwmxs3LmMvsU8VW0,4985
+events_manager-0.1.1.dist-info/LICENSE,sha256=offqzVDh_bAcHG2IDf_MasUVn5I3bgGElr50aH7fL6g,1068
+events_manager-0.1.1.dist-info/METADATA,sha256=ZlwjQg6oXdCAsbxryOo87sV6hcRzce9IRxYY8hU08Uo,5068
+events_manager-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+events_manager-0.1.1.dist-info/top_level.txt,sha256=7ad1otWsYU764SRvwJXwJAXU1O55mXGqr62nWbZZVd8,21
+events_manager-0.1.1.dist-info/RECORD,,
