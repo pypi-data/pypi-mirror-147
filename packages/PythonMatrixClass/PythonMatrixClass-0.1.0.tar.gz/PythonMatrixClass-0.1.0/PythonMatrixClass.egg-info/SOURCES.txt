@@ -1,0 +1,7 @@
+PythonMatrixClass/__init__.py
+PythonMatrixClass/matrix.py
+PythonMatrixClass/setup.py
+PythonMatrixClass.egg-info/PKG-INFO
+PythonMatrixClass.egg-info/SOURCES.txt
+PythonMatrixClass.egg-info/dependency_links.txt
+PythonMatrixClass.egg-info/top_level.txt
