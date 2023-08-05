@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+connectNvironment.egg-info/PKG-INFO
+connectNvironment.egg-info/SOURCES.txt
+connectNvironment.egg-info/dependency_links.txt
+connectNvironment.egg-info/requires.txt
+connectNvironment.egg-info/top_level.txt
+connent_n/__init__.py
+connent_n/connect_n.py
