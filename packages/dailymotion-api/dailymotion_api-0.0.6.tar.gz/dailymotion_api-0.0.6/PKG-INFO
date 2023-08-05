@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: dailymotion-api
+Version: 0.0.6
+Summary: Dailymotion api
+Home-page: https://pypi.org/project/dailymotion_api/
+License: GPL-3.0-only
+Keywords: Complex Systems,Computation,Epidemiology,Nonlinear dynamics,Agent Based Models
+Author: Vladimir Emil Rueda Gómez
+Author-email: vladimir.rueda@udea.edu.co
+Maintainer: Vladimir Emil Rueda Gómez
+Maintainer-email: vladimir.rueda@udea.edu.co
+Requires-Python: >=3.8,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Education
+Classifier: Topic :: Scientific/Engineering :: Medical Science Apps.
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Requires-Dist: Jinja2 (>=3.0.3,<4.0.0)
+Requires-Dist: fastapi (>=0.74.1,<0.75.0)
+Requires-Dist: uvicorn (>=0.17.5,<0.18.0)
+Description-Content-Type: text/x-rst
+
+
