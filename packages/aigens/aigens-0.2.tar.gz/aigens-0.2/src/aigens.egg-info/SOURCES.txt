@@ -1,0 +1,13 @@
+LICENSE.rst
+README.md
+setup.cfg
+setup.py
+src/aigens/__init__.py
+src/aigens.egg-info/PKG-INFO
+src/aigens.egg-info/SOURCES.txt
+src/aigens.egg-info/dependency_links.txt
+src/aigens.egg-info/requires.txt
+src/aigens.egg-info/top_level.txt
+src/aigens/blog/__init__.py
+src/aigens/blog/ideas.py
+src/aigens/blog/outline.py
