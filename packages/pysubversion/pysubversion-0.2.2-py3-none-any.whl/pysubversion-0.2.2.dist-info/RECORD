@@ -1,0 +1,10 @@
+pysvn/__init__.py,sha256=hHYpeEYAOLr_74cVLc9tafaZpzp8FlMrTHhzox-qFwc,234
+pysvn/client.py,sha256=JhrSjB63qwJINsvX1nTmv3IyNzTQ-H5_YgSgeB1INE4,7426
+pysvn/errors.py,sha256=BcjKeZYBvZIxYFOmuL8PAcBjSnDdxANgrpYIS0HCfjg,246
+pysvn/models.py,sha256=zc7_n3wDQFwcDRP7Un-HJKCxGefO0EpvSVLjRY323Ds,607
+pysvn/utils.py,sha256=BFszj02Pi1JLLnjbI58D5uxjspFfqlOEKRCUrfO1EWA,627
+pysubversion-0.2.2.dist-info/LICENSE,sha256=0ZP1TttKIDgDjwPjrTfvqMXj97ZirlrnD-5zxaQXTH8,1548
+pysubversion-0.2.2.dist-info/METADATA,sha256=4R8bVBGrBgAk1tMNnk6OJIhbfPisodeDamoNjyVLH9c,5581
+pysubversion-0.2.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pysubversion-0.2.2.dist-info/top_level.txt,sha256=zIE03iqHIAe3Lqwk5WDDpWX4Zyuk4S6RQvQ6nTn9SHk,6
+pysubversion-0.2.2.dist-info/RECORD,,
