@@ -1,0 +1,12 @@
+flask_restless_datamodel/__init__.py,sha256=uL2QxLRBNnoMlPJQkpPBlj0lVV6SeU4NEKtUMr76AN8,296
+flask_restless_datamodel/datamodel.py,sha256=L20QScjxoMPXBpihNbnaX7w396Q-ycMzhxZkamcmAVc,7995
+flask_restless_datamodel/helpers.py,sha256=rm8cEA88-yprhs4L3CiK-YEnbdDZANMkJrbgf8CPaFA,2414
+flask_restless_datamodel/patches.py,sha256=hcj8Rz6d7SyaVJJvXf27YtKoT1etUSJO3O9nUQvKMcc,4598
+flask_restless_datamodel/render.py,sha256=WjAgBtl0ISrX4y2YJT2VZNd2NXwxp7F5WaH6EQDVEu8,10949
+flask_restless_datamodel-0.2.8.dist-info/AUTHORS,sha256=1gIiCRvw9wJl6-e3wvn8rw9jRTV09LVwYZG8lNWv89o,220
+flask_restless_datamodel-0.2.8.dist-info/LICENSE,sha256=4LXvKJLhsFD7Zkp26lgkNnK8hM1h86JACMVUapodvYM,1070
+flask_restless_datamodel-0.2.8.dist-info/METADATA,sha256=Z7a9sXGH5H9zznWYEjf_mPdmnZuB74_pqttEnkFtruw,3456
+flask_restless_datamodel-0.2.8.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+flask_restless_datamodel-0.2.8.dist-info/pbr.json,sha256=kfQ8FXhIY02bpeCYFSrF4QxF9I8ZSfzYt2BaAGPy99g,47
+flask_restless_datamodel-0.2.8.dist-info/top_level.txt,sha256=X2tvxSXoVyo2ZGJYCZ9FATPeoSeXy3Y85hEWcqFXIOE,25
+flask_restless_datamodel-0.2.8.dist-info/RECORD,,
