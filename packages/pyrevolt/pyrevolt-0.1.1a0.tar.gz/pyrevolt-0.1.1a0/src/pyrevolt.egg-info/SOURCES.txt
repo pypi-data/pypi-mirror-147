@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/pyrevolt/__init__.py
+src/pyrevolt/bot.py
+src/pyrevolt/client.py
+src/pyrevolt/events.py
+src/pyrevolt/exceptions.py
+src/pyrevolt/gateway.py
+src/pyrevolt/session.py
+src/pyrevolt.egg-info/PKG-INFO
+src/pyrevolt.egg-info/SOURCES.txt
+src/pyrevolt.egg-info/dependency_links.txt
+src/pyrevolt.egg-info/top_level.txt
