@@ -1,0 +1,2 @@
+[console_scripts]
+pyconwaysgame = pyconwaysgame.__init__:pyconwaysgame
