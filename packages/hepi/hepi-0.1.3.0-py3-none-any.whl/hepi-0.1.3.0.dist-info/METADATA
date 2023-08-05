@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: hepi
+Version: 0.1.3.0
+Summary: hepi
+Home-page: https://gitlab.com/APN-Pucky/hepi
+Author: APN
+Author-email: APN-Pucky@no-reply.github.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: setuptools-git
+Requires-Dist: uncertainties
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+Requires-Dist: sympy
+Requires-Dist: scikit-learn
+Requires-Dist: smpl (>=0.0.118)
+Requires-Dist: pyslha
+Requires-Dist: enlighten
+Requires-Dist: particle
+Requires-Dist: lhapdf
+
+# HEPi
+Doc: https://apn-pucky.github.io/HEPi/index.html
+
+Python interface for gluing together several HEP programs (e.g. from HEP-Forge).
+
+Currently slurm is supported for clusters.
+
+
