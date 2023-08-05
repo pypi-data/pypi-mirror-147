@@ -1,0 +1,15 @@
+pytask_r/__init__.py,sha256=jkKVlryUtAlO0uI3kXrrQbg53eoUG6JpQwQvZZ-Q0s0,276
+pytask_r/_version.py,sha256=g0RU_Fiae76hPEUjU6lGnapa9IZoqGcB4oFcTnsoMbM,142
+pytask_r/collect.py,sha256=Dq28YtWEm3HX6FD40uHsC1rmsCkINOyiKB9iCbx_Ksk,4083
+pytask_r/config.py,sha256=S198KIgxT3YlzNzzLXGvRDUFGyW1OCqrAYLL-p5cpas,992
+pytask_r/execute.py,sha256=by2PR9jpMgvUIsiihQW589ZyuveAEf7y_QSE3_-XXE4,1936
+pytask_r/parametrize.py,sha256=_LjxOPou8UHey9qVCmLvhQKzbJMu79HZ8LJCA6dvaDA,339
+pytask_r/plugin.py,sha256=sfzmAMCqtP1MYJpRyuVGxXaA9bMxMJ3t-xiQKgAh5ow,421
+pytask_r/serialization.py,sha256=o-RiU4cxTPfNmyajUCnFvpHrJjGzmd7MZS0iL9N_GHM,1758
+pytask_r/shared.py,sha256=ul8gU7c1IkigiTCtHfUGmPX6fCtSzbEwyYSDSS7aaeQ,2988
+pytask_r-0.2.0.dist-info/LICENSE,sha256=RxB_V9PwkqN54TuemXxwTa5K9yHQCbD-sgg1pjmYSz0,1052
+pytask_r-0.2.0.dist-info/METADATA,sha256=yzz-Tp5kicm7BC2T2JAgxSwaMhaZav-lxCCiogBkefA,8337
+pytask_r-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pytask_r-0.2.0.dist-info/entry_points.txt,sha256=U0agXXS-kj5SAlp93vrIi6r9gfNDWn-j8b9KVVmp4ww,36
+pytask_r-0.2.0.dist-info/top_level.txt,sha256=6xrCttRWLH9I3y60uhEvicca0b3xU_llsvo6UbuGXps,9
+pytask_r-0.2.0.dist-info/RECORD,,
