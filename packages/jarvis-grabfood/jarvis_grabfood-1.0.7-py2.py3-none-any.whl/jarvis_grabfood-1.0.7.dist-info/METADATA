@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: jarvis-grabfood
+Version: 1.0.7
+Summary: grabfood
+Home-page: UNKNOWN
+Author: mafei
+License: GNU GPLv3
+Platform: any
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+Requires-Dist: click
+Requires-Dist: jmdevice
+Requires-Dist: uiautomator2
+Requires-Dist: playsound
+Requires-Dist: PyObjC
+
+# jarvis-grabfood
+
+<p>
+<img src="https://img.shields.io/pypi/v/jarvis-grabfood.svg">
+<img src="https://img.shields.io/pypi/wheel/jarvis-grabfood.svg">
+<img src="https://img.shields.io/pypi/pyversions/jarvis-grabfood.svg">
+<img src="https://img.shields.io/pypi/l/jarvis-grabfood.svg">
+</p>
+
+# Installing
+
+Install and update using `pip`:
+
+```
+pip install -U jarvis-grabfood
+```
+
