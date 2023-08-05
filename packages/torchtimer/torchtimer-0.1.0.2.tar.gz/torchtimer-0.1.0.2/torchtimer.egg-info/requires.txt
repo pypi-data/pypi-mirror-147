@@ -1,0 +1,4 @@
+numpy
+torch
+matplotlib
+mpld3==0.5.7

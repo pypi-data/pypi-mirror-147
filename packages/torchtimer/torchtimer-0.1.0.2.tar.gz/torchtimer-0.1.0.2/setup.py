@@ -1,0 +1,35 @@
+from setuptools import setup, find_packages
+from torchtimer.__version__ import __version__
+setup(
+  name = 'torchtimer',
+  packages = find_packages(),
+  version = __version__,
+  license='MIT',
+  description = 'A profiling tool for pytorch',
+  author = 'demoriarty', 
+  author_email = 'sahbanjan@gmail.com',
+  url = 'https://github.com/DeMoriarty/TorchTimer',
+  download_url = f'https://github.com/DeMoriarty/TorchTimer/archive/v_{__version__.replace(".", "")}.tar.gz',
+  keywords = ['pytorch', "profiling"],
+  install_requires=[ 
+    'numpy',
+    'torch',
+    'matplotlib',
+    'mpld3==0.5.7',
+  ],
+  classifiers=[
+    'Development Status :: 3 - Alpha',
+    'Intended Audience :: Developers',
+    'Topic :: Software Development :: Build Tools',
+    'License :: OSI Approved :: MIT License',
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3.4',
+    'Programming Language :: Python :: 3.5',
+    'Programming Language :: Python :: 3.6',
+    'Programming Language :: Python :: 3.7',
+    'Programming Language :: Python :: 3.8',
+    'Programming Language :: Python :: 3.9',
+    'Programming Language :: Python :: 3.10',
+  ],
+  include_package_data = True,
+)
