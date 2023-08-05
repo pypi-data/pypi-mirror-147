@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/dyslexic_readability/__init__.py
+src/dyslexic_readability/example.py
+src/dyslexic_readability/main.py
+src/dyslexic_readability/utils.py
+src/dyslexic_readability.egg-info/PKG-INFO
+src/dyslexic_readability.egg-info/SOURCES.txt
+src/dyslexic_readability.egg-info/dependency_links.txt
+src/dyslexic_readability.egg-info/top_level.txt
