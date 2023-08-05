@@ -1,0 +1,34 @@
+haversine
+ipyvue>=1.7.0
+ipyvuetify
+geemap==0.8.9
+earthengine-api
+markdown
+xarray_leaflet
+shapely
+geopandas
+pandas
+deepdiff
+colorama
+Deprecated
+Unidecode
+natsort
+pipreqs
+cryptography
+
+[dev]
+pre-commit
+
+[doc]
+jupyter-sphinx@ git+https://github.com/jupyter/jupyter-sphinx.git
+pydata-sphinx-theme@ git+https://github.com/pydata/pydata-sphinx-theme.git
+sphinx-notfound-page
+Sphinx
+sphinxcontrib-spelling
+sphinx-copybutton
+pandoc
+m2r2
+
+[test]
+coverage
+pytest
