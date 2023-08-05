@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: torchdatasetutil
+Version: 0.0.4
+Summary: Torch Dataset Utilities
+Home-page: https://github.com/bhlarson/torchdatasetutil
+Author: Brad Larson
+Author-email: <bhlarson@gmail.com>
+License: UNKNOWN
+Description: # torchdatasetutil
+        Utilities to load and use pytorch datasets stored in Minio S3
+        
+        ## Create Library
+        Create a PyPI account
+        - Run deploy -c to create and push this library to PyPI using your PyPI credentials
+            ```cmd
+            deploy -c
+            ```
+        - Once this library is successfully created, open your [PyPI projects](https://pypi.org/manage/projects/), open your project, select "Setings" -> "Create a token".  
+        - Add the token to your project credentials
+        
+        ## Update library
+Keywords: python,Machine Learning,Utilities
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: POSIX :: Linux
+Description-Content-Type: text/markdown
