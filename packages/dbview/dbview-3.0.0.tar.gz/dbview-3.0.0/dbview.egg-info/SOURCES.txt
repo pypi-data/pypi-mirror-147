@@ -1,0 +1,14 @@
+dbview/__init__.py
+dbview/db2py.py
+dbview/db2txt.py
+dbview/get_columns.py
+dbview/get_info.py
+dbview/get_tables.py
+dbview/organize.py
+dbview/setup.py
+dbview/txt2db.py
+dbview/txt2py.py
+dbview.egg-info/PKG-INFO
+dbview.egg-info/SOURCES.txt
+dbview.egg-info/dependency_links.txt
+dbview.egg-info/top_level.txt
