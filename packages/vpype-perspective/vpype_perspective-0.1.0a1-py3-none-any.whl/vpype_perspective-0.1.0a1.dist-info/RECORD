@@ -1,0 +1,10 @@
+vpype_perspective/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vpype_perspective/commands.py,sha256=YVn8t-k-LfI0mjUR_ojnSErjRfRh6OrMnc-qgjZ51xc,5521
+vpype_perspective/matrices.py,sha256=Vx6o-TSP2qW6qCia3o90B6C_SlDJFBrQcJbIg7CH7z8,2181
+vpype_perspective/perspective.py,sha256=uX4sl2V7qcZBjoGCuVhGci16u2cxLwBjUNcrrKUsqaA,7458
+vpype_perspective-0.1.0a1.dist-info/LICENSE,sha256=-5MGd53HTE2EIkrmec7Kd6yXGexG41a-zHv1ggaWJWw,19
+vpype_perspective-0.1.0a1.dist-info/METADATA,sha256=UsbQl0EJv-gk4b9QXRaL8uFq7x8aibj61KwGfV7rV9A,9061
+vpype_perspective-0.1.0a1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+vpype_perspective-0.1.0a1.dist-info/entry_points.txt,sha256=ikbhEcBOYxFX6JrbhXv4tBkVYbfIWtcVNwOW-w7bju8,327
+vpype_perspective-0.1.0a1.dist-info/top_level.txt,sha256=R-uY63SZACtPyuYwsVQFlsxyltv9VdSIhortm4IG03c,18
+vpype_perspective-0.1.0a1.dist-info/RECORD,,

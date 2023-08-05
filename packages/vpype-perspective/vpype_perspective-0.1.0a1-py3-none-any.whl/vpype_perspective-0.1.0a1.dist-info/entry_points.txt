@@ -1,0 +1,8 @@
+
+            [vpype.plugins]
+            perspective=vpype_perspective.perspective:perspective
+            pspread=vpype_perspective.commands:pspread
+            protate=vpype_perspective.commands:protate
+            ptranslate=vpype_perspective.commands:ptranslate
+            pscale=vpype_perspective.commands:pscale
+        
