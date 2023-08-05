@@ -1,0 +1,3 @@
+[console_scripts]
+nseta = nseta.cli.nsetacli:nsetacli
+nsetacli = nseta.cli.nsetacli:nsetacli
