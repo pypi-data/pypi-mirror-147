@@ -1,0 +1,2 @@
+[console_scripts]
+term-img = term_img.__main__:main
