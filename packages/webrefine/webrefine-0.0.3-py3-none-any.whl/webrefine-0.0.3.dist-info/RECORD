@@ -1,0 +1,15 @@
+webrefine/__init__.py,sha256=4GZKi13lDTD25YBkGakhZyEQZWTER_OWQMNPoH_UM2c,22
+webrefine/_nbdev.py,sha256=1iX7aSYUfRimfrO1dfFSgyfTYy1ACd3AFC1aSl_XDUA,2262
+webrefine/cdx.py,sha256=nVh-Txm-KxNz1a77I7r6BUGjeqgU9hC3YontgfrCyiM,12365
+webrefine/core.py,sha256=IYiDNAwuRnxlylTn1KehNyHKWkeqQAz0keJx9CMJr2U,178
+webrefine/engine.py,sha256=c6V0X-SenDSxg6BNbYGWl_gOC1LveuSwMcSGHbc_X8Q,107
+webrefine/query.py,sha256=yxwhVwWWxswGsLeXFLkc8iLDczyTACQRvIVlenPqOFk,17541
+webrefine/runners.py,sha256=X9_PD70wLVtxzBccYKbYTEkM280zth8QSsrMh5ow_II,5134
+webrefine/util.py,sha256=CSN-_IbTCFZ5Z3Qb8TR2YR2yaXTtHYPmefVm3JUBrqg,1165
+webrefine/warc.py,sha256=8tFRkjPcrRDmqLGIedJ1jxxJf1EW8IK2c85tBVIS7LI,1759
+webrefine-0.0.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+webrefine-0.0.3.dist-info/METADATA,sha256=PQVQar0pyshuKBpawyRP5wmSZ3m7LaOKvFovoiXavp8,12099
+webrefine-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+webrefine-0.0.3.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+webrefine-0.0.3.dist-info/top_level.txt,sha256=XuyiaUvi4_nOUPyY2oXUeWcRkJWnEn7B3YWojTMh2xI,10
+webrefine-0.0.3.dist-info/RECORD,,
