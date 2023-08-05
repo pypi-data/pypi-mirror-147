@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: pyup
+Version: 0.1.1
+Summary: Caddy file server in Python with many additional features!
+Author-email: Alyetama <56323389+Alyetama@users.noreply.github.com>
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: paramiko~=2.10.2
+Requires-Dist: pymongo[srv]~=4.0.2
+Requires-Dist: pyperclip~=1.8.2
+Requires-Dist: PyYAML~=6.0
+Requires-Dist: loguru~=0.5.3
+Requires-Dist: tqdm~=4.62.3
+Requires-Dist: rich~=10.11.0
+Project-URL: Home, https://github.comm/Alyetama/pyup
+
+# pyup
+
+## Install
+
+```
+pip install pyup
+```
+
+## Getting started
+
+```
+mv .env.example .env
+nano .env  # or any other text editor
+docker-compose up -d
+```
+
+- Configure `pyup`:
+
+```
+pyup --configure
+```
+
+## Basic Usage
+
+```
+usage: pyup [-h] [-d DOMAIN_NAME] [-k] [--overwrite] [-l] [--no-notifications]
+            [-v {0,1,2,3,4,5}] [-p] [--show-config] [--configure]
+            [--save-logs]
+            [files ...]
+
+positional arguments:
+  files                 Files to upload
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -d DOMAIN_NAME, --domain-name DOMAIN_NAME
+                        The domain name to use for the URL
+  -k, --keep-name       Keep the original file name
+  --overwrite           Overwrite if name is kept and the file name already
+                        exists on the server
+  -l, --local-only      Allow uploads from local IP addresses only
+  --no-notifications    Suppress notifications (notifications are supported on
+                        macOS only)
+  -v {0,1,2,3,4,5}, --verbosity-level {0,1,2,3,4,5}
+                        Set the logging verbosity level
+  -p, --parallel        Upload files in parallel
+  --show-config         Show the current configuration and exit
+  --configure           Configure pyup
+  --save-logs           Save logs to a file
+```
+
