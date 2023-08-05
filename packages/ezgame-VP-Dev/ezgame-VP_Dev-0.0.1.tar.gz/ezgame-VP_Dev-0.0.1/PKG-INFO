@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: ezgame-VP_Dev
+Version: 0.0.1
+Summary: A small ezgame package
+Home-page: https://github.com/MineDark909/ezgame.py
+Author: VP_Dev
+Author-email: vinhphucflash@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/MineDark909/ezgame.py/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# EZGAME
+
+nothing here yet
+

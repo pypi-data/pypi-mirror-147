@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/ezgame_VP_Dev.egg-info/PKG-INFO
+src/ezgame_VP_Dev.egg-info/SOURCES.txt
+src/ezgame_VP_Dev.egg-info/dependency_links.txt
+src/ezgame_VP_Dev.egg-info/top_level.txt
+src/ezgame_package/__init__.py
+src/ezgame_package/ezgame.py
