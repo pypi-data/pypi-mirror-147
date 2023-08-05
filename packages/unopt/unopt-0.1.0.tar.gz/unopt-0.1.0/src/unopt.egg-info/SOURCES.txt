@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/unopt/__init__.py
+src/unopt/core.py
+src/unopt.egg-info/PKG-INFO
+src/unopt.egg-info/SOURCES.txt
+src/unopt.egg-info/dependency_links.txt
+src/unopt.egg-info/top_level.txt
