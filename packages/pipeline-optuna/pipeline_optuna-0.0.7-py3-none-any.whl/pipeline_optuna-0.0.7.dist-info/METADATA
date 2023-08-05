@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: pipeline-optuna
+Version: 0.0.7
+Summary: model pipeline with optuna
+Home-page: https://doc.com
+Author: ZhangLe
+Author-email: zhanglenus@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/ZhangLe59151/optunawithpipeline
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas (>=0.25.1)
+Requires-Dist: numpy (>=1.21.5)
+Requires-Dist: DateTime (>=4.4)
+Requires-Dist: tensorflow (>=2.2.0)
+Requires-Dist: xgboost (>=1.2.0)
+Requires-Dist: scikit-learn (>=1.0)
+Requires-Dist: keras-tcn (>=3.4.0)
+Requires-Dist: matplotlib (>=3.1.1)
+Requires-Dist: pickleshare (>=0.7.5)
+Requires-Dist: cloudpickle (>=1.2.2)
+Requires-Dist: optuna (>=2.10.0)
+
+# optunawithpipeline
+sklearn pipeline with optuna
+  
+model support  
+- xgb  
+- Linear  
+
+
