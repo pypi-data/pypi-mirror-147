@@ -1,0 +1,11 @@
+setuptools>=36.2
+Plone
+plone.api>=2.0.0a2
+plone.restapi
+
+[test]
+Products.CMFPlone
+plone.app.dexterity
+plone.app.testing
+plone.testing
+plone.restapi[test]
