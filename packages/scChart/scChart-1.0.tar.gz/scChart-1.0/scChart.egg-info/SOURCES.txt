@@ -1,0 +1,11 @@
+LICENSE
+README.md
+chartSetup.py
+setup.py
+scChart/Chart.py
+scChart/__init__.py
+scChart.egg-info/PKG-INFO
+scChart.egg-info/SOURCES.txt
+scChart.egg-info/dependency_links.txt
+scChart.egg-info/requires.txt
+scChart.egg-info/top_level.txt
