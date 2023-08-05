@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+scScratchTerminal/Terminal.py
+scScratchTerminal/__init__.py
+scScratchTerminal.egg-info/PKG-INFO
+scScratchTerminal.egg-info/SOURCES.txt
+scScratchTerminal.egg-info/dependency_links.txt
+scScratchTerminal.egg-info/requires.txt
+scScratchTerminal.egg-info/top_level.txt
