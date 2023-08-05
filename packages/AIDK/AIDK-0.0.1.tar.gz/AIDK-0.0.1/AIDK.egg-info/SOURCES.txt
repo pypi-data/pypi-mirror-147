@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+AIDK.egg-info/PKG-INFO
+AIDK.egg-info/SOURCES.txt
+AIDK.egg-info/dependency_links.txt
+AIDK.egg-info/not-zip-safe
+AIDK.egg-info/top_level.txt
