@@ -1,0 +1,5 @@
+setup.py
+wot/WOT_Zhenya.egg-info/PKG-INFO
+wot/WOT_Zhenya.egg-info/SOURCES.txt
+wot/WOT_Zhenya.egg-info/dependency_links.txt
+wot/WOT_Zhenya.egg-info/top_level.txt
