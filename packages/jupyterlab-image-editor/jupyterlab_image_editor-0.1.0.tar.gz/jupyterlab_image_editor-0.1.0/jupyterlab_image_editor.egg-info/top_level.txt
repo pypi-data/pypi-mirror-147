@@ -1,0 +1,1 @@
+jupyterlab_image_editor
