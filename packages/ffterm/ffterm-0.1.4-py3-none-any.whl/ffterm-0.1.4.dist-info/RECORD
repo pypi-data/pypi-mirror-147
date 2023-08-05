@@ -1,0 +1,13 @@
+ffterm/__init__.py,sha256=L2d7bDTApRnFWG_r2GPSrklBzSxUIUzwReGJl3bZXDg,751
+ffterm/ffterm.cpp,sha256=uRW6TqHoVgnXJLUd6ectl9NXyWkEW7oKvxIDkWf-3Kg,3093
+ffterm/image.py,sha256=ZJXmsi_eGSzao-XQN35hDncEP8sbKpdVBlhc9mpbn4U,944
+ffterm/lib.py,sha256=Q_mkKvXLsXGj-k34CA9aAn-TZM53CUwwsVbxJeWfbCQ,1490
+ffterm/main.py,sha256=0F0vkwCYBHI2BTS3cxIU3TbWL9FDSpyfYfLv7VqLQIs,1582
+ffterm/utils.py,sha256=NDsi2tKo0aA_dCA6TcvfYFMaw50sb2qKGPU3qKP9jw4,1003
+ffterm/video.py,sha256=gy3GhVnNUhzo8Nf1bLfDyez2Rn4Cposcc1UWw584Ye8,1686
+ffterm-0.1.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+ffterm-0.1.4.dist-info/METADATA,sha256=gjbn1nIOerTgdUWTGCKAuFeqOYLNv7Rm5fVWfydiZho,906
+ffterm-0.1.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+ffterm-0.1.4.dist-info/entry_points.txt,sha256=-rBxr3XjjjBQoXbHDWZQfOo6-nN742xqlzCfYt1CSAc,45
+ffterm-0.1.4.dist-info/top_level.txt,sha256=0ce9X5UcdxlgqxGAFQisM-1bXBckEiwrxw1BMft40CU,7
+ffterm-0.1.4.dist-info/RECORD,,
