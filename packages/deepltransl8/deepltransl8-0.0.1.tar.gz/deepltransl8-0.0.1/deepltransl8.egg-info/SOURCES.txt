@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+deepltransl8/__init__.py
+deepltransl8/deepl.py
+deepltransl8.egg-info/PKG-INFO
+deepltransl8.egg-info/SOURCES.txt
+deepltransl8.egg-info/dependency_links.txt
+deepltransl8.egg-info/top_level.txt
+deepltransl8/errors/__init__.py
+deepltransl8/errors/types.py
+deepltransl8/langs/__init__.py
+deepltransl8/langs/languages.py

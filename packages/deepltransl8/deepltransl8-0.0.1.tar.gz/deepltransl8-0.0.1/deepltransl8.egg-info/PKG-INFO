@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: deepltransl8
+Version: 0.0.1
+Summary: Translate unlimited text using DeepL's advanced translation engine.
+Home-page: UNKNOWN
+Author: Nyaanity (Sascha Ehret)
+Author-email: no@mail.wow
+License: UNKNOWN
+Keywords: python,translation,deepl
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# deepltransl8
+Translate text asynchronously via DeepL. Installable via pip.
+
+
