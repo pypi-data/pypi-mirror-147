@@ -1,0 +1,8 @@
+setup.py
+mzfuzz/__init__.py
+mzfuzz/mzfuzz.py
+mzfuzz.egg-info/PKG-INFO
+mzfuzz.egg-info/SOURCES.txt
+mzfuzz.egg-info/dependency_links.txt
+mzfuzz.egg-info/requires.txt
+mzfuzz.egg-info/top_level.txt

@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: mzfuzz
+Version: 1.0.2
+Summary: you can hacking fast!!!
+Home-page: https://github.com/shinyxiaoxia/mzfuzz
+Author: mzfuzz
+Author-email: 1094067816@qq.com
+License: MIT Licence
+Platform: UNKNOWN
+
+日常使用脚本函数合集，快速多线程，快速转excel，快速读excel
+
