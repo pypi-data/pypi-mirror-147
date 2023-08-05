@@ -1,0 +1,9 @@
+joblib
+packaging
+pip
+requests
+sqlitedict
+tqdm
+warcio
+
+[dev]
