@@ -1,0 +1,2 @@
+[jupyterlite.addon.v0]
+robotkernel = jupyterlite_robotkernel.addons.robotkernel:RobotKernelAddon
