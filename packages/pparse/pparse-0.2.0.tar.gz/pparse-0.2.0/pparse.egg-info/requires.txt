@@ -1,0 +1,6 @@
+pyyaml
+click
+tabulate
+pytest
+google-api-python-client
+oauth2client
