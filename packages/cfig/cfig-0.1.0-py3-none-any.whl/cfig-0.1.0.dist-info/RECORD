@@ -1,0 +1,12 @@
+cfig/__init__.py,sha256=Slng_Aswz89tKUT_PI_w5qT6CS5OrvuZEytQ7qH732E,3796
+cfig/config.py,sha256=ZyurPM_A2DuIY6sX27OfCkcJvSai784bt8y7s2YJqKE,11749
+cfig/customtyping.py,sha256=WPWK7jo3f2otJhRMhXNJ7CGpekbDL3aExkmzJN14o9I,451
+cfig/errors.py,sha256=QI46rs0igAvUZGs2n3tqMvnV_sf2b6eNeS5-vtkcLq4,2530
+cfig/sample/__main__.py,sha256=IK7Tj26kY0o6ih3C3iHxhqpbqcaP2wVYNDeTmAKpXEM,1171
+cfig/sources/base.py,sha256=U8nr7hkKAum4q15dsHehjYtYsq_dLatzN7_IaNUlwpE,517
+cfig/sources/env.py,sha256=2oSa-XMiw-mx0ouvcn0SsTBR5dpXr_mt4joJl3A6EIc,1086
+cfig/sources/envfile.py,sha256=ibGlFXC9Xd2KQpUKhdZz1325LZB4M0pscbbnVV-Bz1g,754
+cfig/tests/test_config.py,sha256=pPMplf9C8u5SmQGGIB7bfmWcEYQ7BKsT5dVt-HZJxjU,8966
+cfig-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+cfig-0.1.0.dist-info/METADATA,sha256=WRXeCSemTHXL9LFfpz6A7TC2E69SpZ1-rl-Ib-6rooE,516
+cfig-0.1.0.dist-info/RECORD,,
