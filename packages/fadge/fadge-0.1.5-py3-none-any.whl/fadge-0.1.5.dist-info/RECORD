@@ -1,0 +1,16 @@
+fadge/__init__.py,sha256=7Nq54ZnnoAq9XgKOaBd5VWfXcgMDqYfqXsRxAWX2u18,811
+fadge/__main__.py,sha256=xsormr3jZJwa8SxnEOZlTjmTWWVFgXFmn2wP-GhPZT4,2958
+fadge/bounds.py,sha256=VLX6EE9mhd65Hc-p0cx5DCsa83a0s89uH9f0p8lKGiU,1865
+fadge/core.py,sha256=53oyMEJEFVapQBKEd6ZsN8wdRO6IabeWQl-kIiTjyjs,4827
+fadge/geode.py,sha256=7bAPe9Ai4lSj2xMzXKRbmPGv1uGYiYowwpc7SJA3VU0,2373
+fadge/icond.py,sha256=qEHMlG1tIJfWKMZT0MTZpa5ZmwebZfTPmI5tiexYtzQ,1478
+fadge/metric.py,sha256=pmMEzzeT9V2DGgRA_EnPYh9awDZIMud8L6UQ6sxBTxI,1816
+fadge/shadow.py,sha256=AGUGi6rSoIGt6_tJjaPrYbqVoV3zirSp9VsTh21pE0c,1830
+fadge/utils.py,sha256=g2hAAODdtNHBgaKZimZ6r5g1DP9y-l00J8afZBsctdk,1460
+fadge/viz.py,sha256=7c3YuEN3cZlWljNfrFmIS5OD0HgeGWaF69-Jesj-iLk,3501
+fadge-0.1.5.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+fadge-0.1.5.dist-info/METADATA,sha256=oLGbd2JV_vr1X_JTHypyhZo7rkSfj_X4zifGOVyHfFI,367
+fadge-0.1.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+fadge-0.1.5.dist-info/entry_points.txt,sha256=lmiDD8dVyZ1aN8Wpm5Mj4zxy-3jbHOgpb501xYrlYdQ,48
+fadge-0.1.5.dist-info/top_level.txt,sha256=2JazK_lckU2pLxdDGLCQR-toe0NNCYJGbHiiYdGNsdc,6
+fadge-0.1.5.dist-info/RECORD,,
