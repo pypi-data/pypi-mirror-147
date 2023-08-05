@@ -1,0 +1,12 @@
+mpyg321/BasePlayer.py,sha256=_N7G3F2HVg6i0hKzZA5oq2HMm_TOCbPV-EctD6KLDNg,6899
+mpyg321/MPyg123Player.py,sha256=G7L19AQ8H4RhkXaYbvkY-bHvs7Rveo58vyfKTBvY5Xc,1722
+mpyg321/MPyg321Player.py,sha256=srrxMe5R_P1_AO1hkWsyAO7UACbOqsEIxCM276qsU7E,761
+mpyg321/MpygError.py,sha256=jJb_dR8x_ROGFjAv4RIPighqIx7OZNJOThDVQ-GonWE,809
+mpyg321/__init__.py,sha256=d-GR3qvR9i8j1Qv_ZoTobBNgoCeSJ_bvePAb2D1pDYs,16
+mpyg321/consts.py,sha256=s1wHIglw6CmqmksH5ffqYSHbIbzQGkzms0koh_r61r0,3040
+mpyg321/mpyg321.py,sha256=HJGH4EF1c4B7XQWDcPHz_CDp60VyyOCk0_pBmdHaPOg,296
+mpyg321-2.0.0.dist-info/LICENSE,sha256=pAZXnNE2dxxwXFIduGyn1gpvPefJtUYOYZOi3yeGG94,1068
+mpyg321-2.0.0.dist-info/METADATA,sha256=rWtWULlvbqH68rP52LGHdWECrmDMt1DZ-_lWM9uAFWM,2929
+mpyg321-2.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mpyg321-2.0.0.dist-info/top_level.txt,sha256=U-VJxv9nyqyLg_weTpLzS9VvPo8pjNn4p7l99qP-QZE,8
+mpyg321-2.0.0.dist-info/RECORD,,
