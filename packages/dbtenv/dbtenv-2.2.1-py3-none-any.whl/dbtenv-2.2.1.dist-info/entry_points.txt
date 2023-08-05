@@ -1,0 +1,3 @@
+[console_scripts]
+dbtenv=dbtenv.main:main
+
