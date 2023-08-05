@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: pyanimals
+Version: 0.1.4
+Summary: Get animal images and facts with easy plug-and-play syntax!
+Home-page: https://github.com/ksIsCute/PyAnimals
+License: MIT
+Author: Cesiyi, ksIsCute
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/ksIsCute/PyAnimals
+Description-Content-Type: text/markdown
+
+# PyAnimals
+*Created by Cesiyi and KsIsCute*
+
+## Examples:
+
+```py
+import PyAnimals # Importing the library
+picture = PyAnimals.picture("dog") # Get a dog picture
+print(picture) # Print the link to the required picture
