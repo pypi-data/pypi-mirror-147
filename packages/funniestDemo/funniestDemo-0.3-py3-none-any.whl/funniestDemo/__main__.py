@@ -1,0 +1,2 @@
+from . import joke
+joke()
