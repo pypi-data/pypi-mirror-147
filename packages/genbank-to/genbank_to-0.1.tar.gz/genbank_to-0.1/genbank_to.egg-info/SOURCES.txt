@@ -1,0 +1,8 @@
+README.md
+setup.py
+genbank_to.egg-info/PKG-INFO
+genbank_to.egg-info/SOURCES.txt
+genbank_to.egg-info/dependency_links.txt
+genbank_to.egg-info/entry_points.txt
+genbank_to.egg-info/requires.txt
+genbank_to.egg-info/top_level.txt
