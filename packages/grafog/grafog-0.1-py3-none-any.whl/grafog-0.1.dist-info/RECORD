@@ -1,0 +1,8 @@
+grafog/__init__.py,sha256=lnKOHrslqzFlVpDoEVfep_nBYds5JPxhdZBCeZLRDTs,42
+grafog/transforms/__init__.py,sha256=lnKOHrslqzFlVpDoEVfep_nBYds5JPxhdZBCeZLRDTs,42
+grafog/transforms/transforms.py,sha256=B4yBJQ7q8P9JitNk2z35OzcLGSMbIEyoRC4pIJWaZck,4125
+grafog-0.1.dist-info/LICENSE,sha256=ufKbOsZEjN3T94uZYEl3uUCPXLSKRoWWblbHLOD8on4,1070
+grafog-0.1.dist-info/METADATA,sha256=_gd4TsAslGf8bbCQUiljI2fNGhpz_2qMqqIHM_ELkZc,2998
+grafog-0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+grafog-0.1.dist-info/top_level.txt,sha256=_nO-fnMlxa6aflcwEQWrOWdUA9KNWlg3lbbdOjHyBTI,7
+grafog-0.1.dist-info/RECORD,,
