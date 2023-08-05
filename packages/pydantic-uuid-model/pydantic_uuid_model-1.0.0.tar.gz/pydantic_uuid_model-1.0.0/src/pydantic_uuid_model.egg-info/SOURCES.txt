@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.cfg
+src/pydantic_uuid_model/__init__.py
+src/pydantic_uuid_model.egg-info/PKG-INFO
+src/pydantic_uuid_model.egg-info/SOURCES.txt
+src/pydantic_uuid_model.egg-info/dependency_links.txt
+src/pydantic_uuid_model.egg-info/requires.txt
+src/pydantic_uuid_model.egg-info/top_level.txt

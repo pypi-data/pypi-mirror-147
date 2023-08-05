@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pydantic_uuid_model
+Version: 1.0.0
+Summary: Add support for deserialization of pydantic child models.
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+
+# pydatastorage
+
+Add support for deserialization of pydantic child models by saving class unique ids in the serialized data.
+
+
