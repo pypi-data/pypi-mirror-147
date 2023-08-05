@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: panda3d-appimage
+Version: 0.1.1
+Summary: AppImage support for Panda3D
+Home-page: https://www.ya2.it/pages/panda3d-appimage.html
+Author: Flavio Calva
+Author-email: f.calva@gmail.com
+License: UNKNOWN
+Project-URL: Repository, https://git.ya2.it/?p=panda3d-appimage.git
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.8
+Description-Content-Type: text/plain
+License-File: LICENSE
+
+NOTE ==========================================================================
+
+This works on Linux only.
+
+INSTALLATION ==================================================================
+
+pip install panda3d-appimage
+
+USAGE =========================================================================
+
+In your setup.py file, add the following:
+
+from direct.dist.commands import bdist_apps
+from p3d_appimage import AppImageBuilder
+
+class BDistAppsCmd(bdist_apps):
+    def run(self):
+        bdist_apps.run(self)
+        AppImageBuilder(self).build()
+
+setup(
+    ...
+    cmdclass={"bdist_apps": BDistAppsCmd},
+    ... )
+
+EXAMPLE =======================================================================
+
+Let's build an AppImage for the Panda3D's Asteroids example.
+
+Modify the file setup.py
+(https://github.com/panda3d/panda3d/blob/master/samples/asteroids/setup.py)
+adding these lines:
+
+from direct.dist.commands import bdist_apps
+from p3d_appimage import AppImageBuilder
+
+class BDistAppsCmd(bdist_apps):
+    def run(self):
+        bdist_apps.run(self)
+        AppImageBuilder(self).build()
+
+setup(
+    ...
+    cmdclass={"bdist_apps": BDistAppsCmd},
+    ... )
+
+Then, launch the standard Panda3D build command:
+
+python setup.py bdist_apps
+
+At the end of the process, you will get the builds created by Panda3D and your
+AppImage in the dist/ folder. Do ./Asteroids-x86_64.AppImage to launch your
+AppImage.
+
+UPDATING APPIMAGES ============================================================
+
+The builder can also update your AppImage. If you specify a zsync_path when you
+invoke the AppImageBuilder's method build(), then you can Invoke the AppImage's
+method update() in your application and this will update your AppImage.
+
