@@ -1,0 +1,9 @@
+tinyscaler/__init__.py,sha256=6i_kvuBwxwah0vnjyf4X8rt4Wz4RyHS7BaD2G46YL6c,22
+tinyscaler/_scaler_cffi.so,sha256=4_wG-MWOJwuJjXlKY-gNB8ib4gPb-ix02sTycl7ZKow,30896
+tinyscaler/scaler.py,sha256=lbhIxMdO9I5Op_O0347A4zPP5c9W3JiaUO3sQHrtIRY,3912
+tinyscaler-1.0.3.dist-info/LICENSE.md,sha256=MD8Ap-NZ0Y_eiSOEECVDyDQAxgHhRyBa2KiEHIvbjCU,1063
+tinyscaler-1.0.3.dist-info/METADATA,sha256=uq01vARwv-gbdda16NuSCUwnBrRi322ZY65BlQjnO4Y,555
+tinyscaler-1.0.3.dist-info/WHEEL,sha256=nTy_Z8ivGEB6qFwVLg7_h6rq0Jt0JU5Pz2cL2_FjSMQ,105
+tinyscaler-1.0.3.dist-info/top_level.txt,sha256=NdkdXJYV2nO01tlJdwtkpGsFA2B95JO-CdX_07kdkwc,11
+tinyscaler-1.0.3.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+tinyscaler-1.0.3.dist-info/RECORD,,
