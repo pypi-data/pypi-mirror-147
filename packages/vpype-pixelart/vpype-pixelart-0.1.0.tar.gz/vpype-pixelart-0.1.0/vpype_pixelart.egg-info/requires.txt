@@ -1,0 +1,4 @@
+click
+imageio
+numpy
+vpype[all]<2.0,>=1.10

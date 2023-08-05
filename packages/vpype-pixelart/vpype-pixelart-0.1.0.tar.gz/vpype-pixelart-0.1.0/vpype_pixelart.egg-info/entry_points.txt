@@ -1,0 +1,4 @@
+
+            [vpype.plugins]
+            pixelart=pixelart.pixelart:pixelart
+        
