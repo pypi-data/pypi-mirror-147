@@ -1,0 +1,9 @@
+UpgradePipPkgs/__init__.py,sha256=PfO8B7LROBT1M9U4a5Hx6bj3jp3gSGfrabZ8nEt7J_A,42
+UpgradePipPkgs/main.py,sha256=6WS9oQ_HslCzdtUC_UPxNkRuG5GkWcNk6KDd6JBl_qE,10672
+UpgradePipPkgs/logs/.gitkeep,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+UpgradePipPkgs/scripts/force_upgrade_pip_pkgs.ps1,sha256=7Mgd2IVMEK0NpEgT0jwl8ZevQSWojf7RI7puGHOmmxY,373
+UpgradePipPkgs-0.1.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+UpgradePipPkgs-0.1.0.dist-info/METADATA,sha256=FBoF0dpQ6e2CjVLsJ1hqC9blCCO0nT5Jf51RQf2OE-Y,4791
+UpgradePipPkgs-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+UpgradePipPkgs-0.1.0.dist-info/top_level.txt,sha256=7X2Gb-rVxO6accKy_enwtguUjcFTEhDITjEiWfJ4O8E,15
+UpgradePipPkgs-0.1.0.dist-info/RECORD,,
