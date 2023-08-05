@@ -1,0 +1,8 @@
+pandas
+numpy
+requests
+textblob
+bs4
+matplotlib
+nltk
+seaborn
