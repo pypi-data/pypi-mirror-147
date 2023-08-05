@@ -1,0 +1,8 @@
+README.md
+setup.py
+darkyaml/__init__.py
+darkyaml.egg-info/PKG-INFO
+darkyaml.egg-info/SOURCES.txt
+darkyaml.egg-info/dependency_links.txt
+darkyaml.egg-info/requires.txt
+darkyaml.egg-info/top_level.txt
