@@ -1,0 +1,9 @@
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+fiberphotopy/fiberphotopy.egg-info/PKG-INFO
+fiberphotopy/fiberphotopy.egg-info/SOURCES.txt
+fiberphotopy/fiberphotopy.egg-info/dependency_links.txt
+fiberphotopy/fiberphotopy.egg-info/requires.txt
+fiberphotopy/fiberphotopy.egg-info/top_level.txt
