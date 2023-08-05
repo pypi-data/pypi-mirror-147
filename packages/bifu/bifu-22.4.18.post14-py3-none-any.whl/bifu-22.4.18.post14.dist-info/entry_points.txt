@@ -1,0 +1,3 @@
+[console_scripts]
+bifu=bifu.main:main
+
