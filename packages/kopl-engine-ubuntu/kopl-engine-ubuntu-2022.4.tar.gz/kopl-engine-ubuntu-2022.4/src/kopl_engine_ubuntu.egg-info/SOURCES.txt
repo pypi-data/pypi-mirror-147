@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/kopl_engine/__init__.py
+src/kopl_engine/engine.py
+src/kopl_engine/libKoPL.so
+src/kopl_engine_ubuntu.egg-info/PKG-INFO
+src/kopl_engine_ubuntu.egg-info/SOURCES.txt
+src/kopl_engine_ubuntu.egg-info/dependency_links.txt
+src/kopl_engine_ubuntu.egg-info/requires.txt
+src/kopl_engine_ubuntu.egg-info/top_level.txt
