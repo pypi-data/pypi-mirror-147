@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.cfg
+funniestDemo/__init__.py
+funniestDemo/__main__.py
+funniestDemo/command_line.py
+funniestDemo.egg-info/PKG-INFO
+funniestDemo.egg-info/SOURCES.txt
+funniestDemo.egg-info/dependency_links.txt
+funniestDemo.egg-info/entry_points.txt
+funniestDemo.egg-info/top_level.txt
