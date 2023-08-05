@@ -1,0 +1,177 @@
+[tool.poetry]
+name = "micropy-cli"
+version = "4.0.0-rc.2"
+description = "Micropython Project Management Tool with VSCode support, Linting, Intellisense, Dependency Management, and more!"
+authors = ["Braden Mars <bradenmars@bradenmars.me>"]
+license = "MIT"
+packages = [{ include = "micropy" }]
+include = [
+    { path = "tests", format = "sdist" },
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE",
+    "micropy/lib/stubber/src/*",
+    "micropy/lib/stubber/board/*",
+    "micropy/lib/stubber/process.py",
+    "micropy/lib/stubber/minified/*"
+]
+exclude = ["micropy/lib/stubber/*"]
+readme = "README.md"
+homepage = "https://github.com/BradenM/micropy-cli"
+repository = "https://github.com/BradenM/micropy-cli"
+documentation = "https://micropy-cli.readthedocs.io"
+keywords = ["micropython", "stubs", "linting", "vscode", "intellisense"]
+classifiers = [
+    "Topic :: Software Development :: Code Generators",
+    "Topic :: Software Development :: Embedded Systems",
+    "Topic :: Software Development :: Build Tools",
+    "Programming Language :: Python :: Implementation :: MicroPython",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+]
+
+[tool.poetry.scripts]
+micropy = 'micropy.cli:cli'
+
+[tool.poetry.dependencies]
+python = ">=3.7,<3.11"
+boltons = "^19.3"
+cachier = "^1.2"
+Jinja2 = "=3.0.3"
+questionary = "^1.8.1"
+requests = "^2.22"
+requirements-parser = "^0.2.0"
+tqdm = "^4.39"
+click = "^7.0"
+colorama = { version = "^0.4.3", platform = "win32" }
+jsonschema = "=3.2.0"
+dpath = ">=1.4,<2.0"
+GitPython = "^3.1.7"
+packaging = "^21.3"
+python-minifier = "^2.5.0"
+mypy = "^0.940"
+## rshell is broken on windows (with python >=3.10) due to pyreadline dependency.
+rshell = [
+    { version = "^0.0.31", platform = "win32", python = "<3.10" },
+    { version = "^0.0.31", platform = "!=win32" },
+]
+MarkupSafe = "2.0.1"
+upydevice = "^0.3.6"
+
+[tool.poetry.group.dev.dependencies]
+autoflake = "^1.4"
+autopep8 = "^1.5"
+bump2version = "^0.5.11"
+isort = "^5.8"
+pylint = "^2.7"
+black = "^21.5b1"
+pre-commit = "^2.17.0"
+doc8 = "^0.8.0"
+docformatter = "^1.4"
+mypy = { version = "^0.940", extras = ["dmypy"] }
+types-requests = "^2.27.14"
+types-click = "^7.1.8"
+
+[tool.poetry.group.test]
+optional = true
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.1.1"
+pytest-cov = "^3.0"
+pytest-datadir = "^1.3"
+pytest-mock = "^3.5"
+pytest-runner = "^6.0"
+pytest-testmon = "^1.3"
+pytest-watch = "^4.2"
+pytest-xdist = "^2.5"
+pytest-forked = "^1.3"
+pytest-randomly = "^3.7.0"
+pytest-sugar = "^0.9.4"
+requests-mock = "^1.9"
+flaky = "^3.7.0"
+coveralls = "^3.0"
+codacy-coverage = "^1.3"
+
+[tool.poetry.group.docs]
+optional = true
+
+[tool.poetry.group.docs.dependencies]
+sphinx = "^2.2"
+sphinx-click = "^2.3"
+sphinx-autodoc-typehints = "^1.10.3"
+recommonmark = "^0.6.0"
+sphinx_rtd_theme = "^0.4.3"
+
+
+[[tool.poetry.source]]
+name = "pypi-test"
+url = "https://test.pypi.org/simple/"
+default = false
+secondary = false
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 100
+skip-string-normalization = false
+target-version = ['py38']
+include = '\.pyi?$'
+exclude = '''
+
+(
+  /(
+      \.eggs         # exclude a few common directories in the
+    | \.git          # root of the project
+    | \.hg
+    | \.mypy_cache
+    | \.tox
+    | \.venv
+    | _build
+    | build
+    | dist
+    | micropy/lib
+  )/
+  | foo.py           # also separately exclude a file named foo.py in
+                     # the root of the project
+)
+'''
+
+[tool.isort]
+profile = "black"
+src_paths = ["src"]
+line_length = 100
+honor_noqa = true
+
+[tool.pytest.ini_options]
+collect_ignore = ['setup.py', 'micropy/lib/*', 'micropy/lib/**/*']
+testpaths = "tests"
+addopts = "--maxprocesses=4 -ra -q"
+norecursedirs = "micropy/lib"
+
+[tool.coverage.run]
+source = ["micropy"]
+omit = ["micropy/project/template/*", "micropy/lib/*", "micropy/lib/**/*"]
+
+[tool.coverage.report]
+exclude_lines = [
+    "if __name__ == .__main__.:",
+    'class .*\bProtocol\):',
+    'raise NotImplementedError',
+    'raise AssertionError',
+    'def __repr__',
+    'noqa',
+    '@(abc\.)?abstractmethod',
+    'pragma: no cover'
+]
+
+[tool.mypy]
+warn_redundant_casts = true
+follow_imports = "skip"
+
+[[tool.mypy.overrides]]
+module = ["boltons", "upydevice", "upydevice.*", "rshell", "tqdm"]
+ignore_missing_imports = true
