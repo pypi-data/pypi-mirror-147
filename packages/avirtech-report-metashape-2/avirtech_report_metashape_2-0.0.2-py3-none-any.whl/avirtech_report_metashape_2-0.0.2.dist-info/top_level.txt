@@ -1,0 +1,2 @@
+generate_merge_report_camera
+making_directory
