@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+mcsquare/__init__.py
+mcsquare/figure.py
+mcsquare.egg-info/PKG-INFO
+mcsquare.egg-info/SOURCES.txt
+mcsquare.egg-info/dependency_links.txt
+mcsquare.egg-info/not-zip-safe
+mcsquare.egg-info/top_level.txt
