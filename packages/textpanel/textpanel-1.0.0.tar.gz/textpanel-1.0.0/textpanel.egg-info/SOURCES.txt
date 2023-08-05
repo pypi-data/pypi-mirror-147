@@ -1,0 +1,13 @@
+.gitignore
+LICENSE
+README.md
+setup.py
+textpanel/__init__.py
+textpanel/__version__.py
+textpanel/boxes.py
+textpanel/colors.py
+textpanel/textpanel.py
+textpanel.egg-info/PKG-INFO
+textpanel.egg-info/SOURCES.txt
+textpanel.egg-info/dependency_links.txt
+textpanel.egg-info/top_level.txt
