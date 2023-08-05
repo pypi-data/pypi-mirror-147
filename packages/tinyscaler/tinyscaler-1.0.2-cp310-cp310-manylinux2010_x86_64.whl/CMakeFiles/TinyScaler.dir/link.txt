@@ -1,0 +1,2 @@
+/usr/bin/ar qc libTinyScaler.a CMakeFiles/TinyScaler.dir/src/scaler.c.o
+/usr/bin/ranlib libTinyScaler.a
