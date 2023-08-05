@@ -1,0 +1,10 @@
+_swmm5.cp39-win_amd64.pyd,sha256=C4w2f85oTwC8KB-7Q_FoQrZsparVSW6ypHCs9A7s9U0,536064
+swmm5/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+swmm5/swmm5.py,sha256=TSmHeRVUE3xrmIx6yDj3ZugFCoRVe5jysPDrJ6fk9Z4,7726
+swmm5/swmm5tools.py,sha256=ijBoPPMTqhnX9SC_pT_KxXYRJqc64wpN3d4e8vMuG6U,8962
+swmm5/tmp.py,sha256=hfaMWsCJxWXmYuBQUzBL15pAcu88F0CjeLshNCGHlnM,106
+swmm5/examples/simple/swmm5Example.inp,sha256=MQktbDhsibPsCSQhb7gLPkl-ZHvUXJ9gvK6LskoVFLU,19777
+SWMM5-5.2.0.post5.dist-info/METADATA,sha256=F7jW6y92SLbTeVKG0jLWlMbcmib5JAu3ZL7edbi4kAE,12096
+SWMM5-5.2.0.post5.dist-info/WHEEL,sha256=fVcVlLzi8CGi_Ul8vjMdn8gER25dn5GBg9E6k9z41-Y,100
+SWMM5-5.2.0.post5.dist-info/top_level.txt,sha256=PiugOfrm7HQYovWR04z-DnRZ8IUBHp1aVjEq461Wex8,13
+SWMM5-5.2.0.post5.dist-info/RECORD,,
