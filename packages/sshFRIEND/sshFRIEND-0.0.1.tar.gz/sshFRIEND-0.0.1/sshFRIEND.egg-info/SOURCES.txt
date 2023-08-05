@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+sshFRIEND/__init__.py
+sshFRIEND.egg-info/PKG-INFO
+sshFRIEND.egg-info/SOURCES.txt
+sshFRIEND.egg-info/dependency_links.txt
+sshFRIEND.egg-info/top_level.txt
