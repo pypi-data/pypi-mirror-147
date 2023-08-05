@@ -1,0 +1,11 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/ammos.py,sha256=cgvvG4XGDMYlXoq15YMZzHxPUPImfI_6Kv6Dm7rmtbE,860
+src/armours.py,sha256=ZIGNJd8YVs0s7IbpD70KlWqLDgtTMpad-VBt6FUvgeg,1164
+src/guns.py,sha256=XaPndRMVKR5JXonyQHsFcZD2DR0LuExQuGYjh19Flgk,259
+src/main.py,sha256=jUWuT9kdX0Unt84zpNNLJtsEeqMTHxB2oQMRHOTZv2s,233
+src/tank.py,sha256=PCreisRlf2CJLXrkXCS_CARutTC2CFW32PcnOTDkG1Y,1023
+wot_alexaltai-0.0.1.dist-info/LICENSE,sha256=ndjOswOtED22yg31jtIPDHbGNBksULedeiZ_0YFlh-4,1080
+wot_alexaltai-0.0.1.dist-info/METADATA,sha256=b9ifADzvfYW2cByll26s8UZBBs0yPBJ1iqXX56Ma_GI,485
+wot_alexaltai-0.0.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+wot_alexaltai-0.0.1.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+wot_alexaltai-0.0.1.dist-info/RECORD,,
