@@ -1,0 +1,10 @@
+setup.py
+turengcli/__init__.py
+turengcli/__main__.py
+turengcli/cli.py
+turengcli.egg-info/PKG-INFO
+turengcli.egg-info/SOURCES.txt
+turengcli.egg-info/dependency_links.txt
+turengcli.egg-info/entry_points.txt
+turengcli.egg-info/requires.txt
+turengcli.egg-info/top_level.txt
