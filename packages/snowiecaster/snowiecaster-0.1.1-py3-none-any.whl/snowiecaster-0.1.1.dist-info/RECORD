@@ -1,0 +1,8 @@
+backends/__init__.py,sha256=wcI3FzZ5awpu-7Pm_gvzHOL4ITcY7lCdVGQELbFpVuM,67
+backends/memory/__init__.py,sha256=bBChVFPNsjD4ArZMFkwwl2-Q2LEggMj5yMOyXQYFEH0,88
+backends/memory/memory.py,sha256=mstrfFZNzSQmI6elQ6x-rVjyVRWdoFmuYQaX1PRi56Q,1525
+snowiecaster-0.1.1.dist-info/LICENSE,sha256=e3hvnyIN0RhtwX0iwjNq6c4VlmhfX3k0wAYEaoqGs8k,1069
+snowiecaster-0.1.1.dist-info/METADATA,sha256=fCuNE5zJzblWpPWMAJbgr0XnZf1mqz0JDiTEMw88SYs,804
+snowiecaster-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+snowiecaster-0.1.1.dist-info/top_level.txt,sha256=iL8hqksEOKt04kjmQQtGUg4qylwffHoSc8X0p-38QNg,9
+snowiecaster-0.1.1.dist-info/RECORD,,

@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: snowiecaster
+Version: 0.1.1
+Summary: An easy pub/sub python library
+Home-page: https://github.com/AndreiErshov/SnowieCaster
+Author: Andrei Ershov
+Author-email: author@example.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/AndreiErshov/SnowieCaster/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# SnowieCaster
+This library is created for Snowie project to use Ariadne library.
+
+It currently only supports in-memory backend, but it isn't release version
+
+## Requirements
+Python 3.6+
+## Installation
+* `pip install snowiecaster`
+#
+sry for bad eng
+
+
