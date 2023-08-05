@@ -1,0 +1,14 @@
+phreeqpy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+phreeqpy/iphreeqc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+phreeqpy/iphreeqc/iphreeqc.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+phreeqpy/iphreeqc/libiphreeqc.0.dylib,sha256=W2D0taaXOQRJyOhesii3l1Z8kcNNQ6j7E7nyzRrv6Pw,1942376
+phreeqpy/iphreeqc/libiphreeqc.so.0.0.0,sha256=YaIPuq7okFq72_8YN_-VTI_ARcuix5mk3o8BhROusBI,10992636
+phreeqpy/iphreeqc/phreeqc_com.py,sha256=6tXLfPvtIXOzkmNwBAz-9hUlQdMFpL_G1hYQWV4ySNw,1589
+phreeqpy/iphreeqc/phreeqc_dll.py,sha256=Xz4MFrh6AldTFFxT5ZMNz--xwF61qysnslR9Ijaz8Ro,11621
+phreeqpy/iphreeqc/phreeqc3/libiphreeqc-3.7.1.dylib,sha256=8cCJRNIui8P9ApP8z09L2X8WqwLZwzYejbTrljAzZJ0,2742596
+phreeqpy-0.5.0.dist-info/AUTHORS,sha256=40Gu-wlUBqEiRm6oem-z8RM2lHlcGqDoGKnQ3Dhl5KQ,288
+phreeqpy-0.5.0.dist-info/LICENSE,sha256=SQTX7igR2OERAC6YX_mokcVPct4zY0Ur__HXtNYlZTY,1589
+phreeqpy-0.5.0.dist-info/METADATA,sha256=cZFzqYf4Y0xqhj3tGB1gYTtNrm97P9sPIcQ2e35r_Sw,2075
+phreeqpy-0.5.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+phreeqpy-0.5.0.dist-info/top_level.txt,sha256=ubBukHWBqU7ul59HLL19vsdxPYGCIJFvLbSyHmF2GG0,9
+phreeqpy-0.5.0.dist-info/RECORD,,
