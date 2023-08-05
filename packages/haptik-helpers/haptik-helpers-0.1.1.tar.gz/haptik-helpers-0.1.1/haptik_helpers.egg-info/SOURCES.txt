@@ -1,0 +1,8 @@
+README.md
+setup.py
+haptik_helpers/__init__.py
+haptik_helpers/integrations.py
+haptik_helpers.egg-info/PKG-INFO
+haptik_helpers.egg-info/SOURCES.txt
+haptik_helpers.egg-info/dependency_links.txt
+haptik_helpers.egg-info/top_level.txt

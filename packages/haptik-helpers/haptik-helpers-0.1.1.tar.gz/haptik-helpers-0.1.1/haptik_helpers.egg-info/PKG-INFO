@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: haptik-helpers
+Version: 0.1.1
+Summary: List of All Haptik Specific helper functions to be used in Code Nodes
+Home-page: https://haptik-helpers.readthedocs.io/
+Author: Jayesh Singh
+Author-email: jayesh.singh@haptik.ai
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Haptik Helpers
+
+*Library of Helpers function to be re-used in Haptic Code nodes*
+
+### Installation
+
+```
+pip install haptik-helpers
+```
+
+### Get started
+How to Find Entity in Haptik conversation entity object(dict):
+
+```Python
+from haptik_helpers import Integrations
+
+# Instantiate a Integrations object
+integrate = Integrations(entity_obj)
+
+# Call the get_entity method
+print(integrate.get_entity("kli_otp"))
+```
+
