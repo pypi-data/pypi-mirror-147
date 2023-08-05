@@ -1,0 +1,2 @@
+[console_scripts]
+openvpn-auth-azure-ad = openvpn_auth_azure_ad:main
