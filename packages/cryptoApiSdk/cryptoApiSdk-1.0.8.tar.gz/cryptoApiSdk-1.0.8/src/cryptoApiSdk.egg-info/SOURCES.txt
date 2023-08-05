@@ -1,0 +1,8 @@
+pyproject.toml
+setup.cfg
+src/cryptoApiSdk/__init__.py
+src/cryptoApiSdk/functions.py
+src/cryptoApiSdk.egg-info/PKG-INFO
+src/cryptoApiSdk.egg-info/SOURCES.txt
+src/cryptoApiSdk.egg-info/dependency_links.txt
+src/cryptoApiSdk.egg-info/top_level.txt
