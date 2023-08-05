@@ -1,0 +1,2 @@
+[console_scripts]
+sshme = sshme.__init__:entry_point

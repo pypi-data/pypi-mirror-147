@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/sshme/__init__.py
+src/sshme/__main__.py
+src/sshme/menu.py
+src/sshme/ssh.py
+src/sshme/tmux.py
+src/sshme.egg-info/PKG-INFO
+src/sshme.egg-info/SOURCES.txt
+src/sshme.egg-info/dependency_links.txt
+src/sshme.egg-info/entry_points.txt
+src/sshme.egg-info/requires.txt
+src/sshme.egg-info/top_level.txt

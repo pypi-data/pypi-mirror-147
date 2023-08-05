@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: sshme
+Version: 1.0.0
+Summary: An interactive menu for selecting an SSH profile.
+Home-page: https://github.com/kurt-stolle/sshme
+Author: Kurt Stolle
+Author-email: k.h.w.stolle@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/kurt-stolle/sshme/issues
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Interactive SSH profile selection menu
+
+This Python package provides an interactive console menu for selecting a SSH profile. 
+When a Tmux session is active, the SSH session opens in a new window.
+
+## Installation and usage
+
+Install the package via `pip` using
+```
+pip install sshme
+```
+Then invoke the menu via the command
+```
+sshme
+```
+or equivalently `python -m sshme`.
+
+## Acknowledgements
+
+This package is trivially simple with the help of the [Bullet](https://github.com/bchao1/bullet) package, which provides an easy method for creating interactive console tools.
+
