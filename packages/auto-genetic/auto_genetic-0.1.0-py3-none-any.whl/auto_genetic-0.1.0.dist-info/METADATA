@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: auto-genetic
+Version: 0.1.0
+Summary: a package for automatic hyperparameter tuning or feature selection, using a genetic algorithm
+Author: Tommaso Corato
+Author-email: tommaso.corato@glovoapp.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pandas (>=1.4.2,<2.0.0)
+Requires-Dist: sklearn (>=0.0,<0.1)
+Requires-Dist: tqdm (>=4.64.0,<5.0.0)
