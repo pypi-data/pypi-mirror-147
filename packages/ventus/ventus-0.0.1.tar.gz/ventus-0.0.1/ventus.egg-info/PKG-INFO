@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: ventus
+Version: 0.0.1
+Summary: A google dorking library and cli.
+Home-page: UNKNOWN
+Author: aaronlyy (Aaron Levi)
+Author-email: <aaronlevican@gmail.com>
+License: UNKNOWN
+Keywords: dorking,google,scraping,google dorking,hacking,cracking
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Use google dorking directly in python and from your terminal.
+
