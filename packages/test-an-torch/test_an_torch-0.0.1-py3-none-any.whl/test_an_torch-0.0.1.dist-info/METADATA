@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: test-an-torch
+Version: 0.0.1
+Summary: TEST - torch
+Home-page: https://github.com/archinetai/test
+Author: Flavio Schneider
+License: MIT
+Keywords: artificial intelligence,deep learning
+Platform: UNKNOWN
+Requires-Dist: torch (>=1.6)
+
+UNKNOWN
+
