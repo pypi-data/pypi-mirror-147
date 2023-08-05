@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+sanic_aiomysql.egg-info/PKG-INFO
+sanic_aiomysql.egg-info/SOURCES.txt
+sanic_aiomysql.egg-info/dependency_links.txt
+sanic_aiomysql.egg-info/requires.txt
+sanic_aiomysql.egg-info/top_level.txt
+sanic_mysql/__init__.py
+sanic_mysql/mysql.py
