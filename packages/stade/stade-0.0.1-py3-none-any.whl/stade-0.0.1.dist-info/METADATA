@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: stade
+Version: 0.0.1
+Summary: UNKNOWN
+Author-email: Jesse Farebrother <jfarebro@cs.mcgill.ca>
+License: GPLv2
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.7
+
+UNKNOWN
+
