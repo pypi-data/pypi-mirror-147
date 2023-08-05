@@ -1,0 +1,18 @@
+# This file describes configuration pytest confluence report plugin
+
+# Confluence configuration settings
+confluence:
+  # Main Confluence URL e.g 'https://id.atlassian.net'
+  url: ''
+  # Confluence credentials section
+  credentials:
+    # Confluence user account e.g 'email.com'
+    username: ''
+    # Confluence API Key e.g '123abc'
+    api-key: ''
+  # Confluence pages section
+  page:
+    # Confluence space name e.g 'Home'
+    space: ''
+    # Confluence target page name e.g 'Personal web site performance tests'
+    target: ''
