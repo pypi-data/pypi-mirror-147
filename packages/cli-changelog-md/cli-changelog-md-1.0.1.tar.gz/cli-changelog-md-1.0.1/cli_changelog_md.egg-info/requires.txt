@@ -1,0 +1,2 @@
+click>=8.1.2
+python-gitlab>=2.10.0
