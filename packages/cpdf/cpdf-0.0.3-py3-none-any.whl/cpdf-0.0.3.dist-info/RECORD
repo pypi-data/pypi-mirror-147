@@ -1,0 +1,13 @@
+cpdf/__init__.py,sha256=80ES8c6tJd6ttnYQ7_2EXmxS76HUKt3pui9B0TQ_4YU,68
+cpdf/_version.py,sha256=4GZKi13lDTD25YBkGakhZyEQZWTER_OWQMNPoH_UM2c,22
+cpdf/cat.py,sha256=Q2rsDLolZeD59wnlF7r4QIXCto-Rdc0-NWcQGIlVYQA,2762
+cpdf/cli.py,sha256=UGG0WSFduclE-80-8TiK6NqhslG3CpA4wTjvpflxCU4,1772
+cpdf/extract_images.py,sha256=Cx3CAvi7CS9syZ1Rdo0h2bO_1i6bYFF8abp3AeB46_I,2134
+cpdf/metadata.py,sha256=YJde3VeeV3l1CxmLb3Kzj5gDNbW6uS4PnQJQwy35rRU,1932
+cpdf/up2.py,sha256=1xB7zb4I4uFjRj91xzIrrjDwCrtBlK9Kh0lXB57HEQQ,798
+cpdf-0.0.3.dist-info/LICENSE,sha256=bprspuunlLcJPskc-FCz39O--h0Qmtww3JX9uTsC2Qs,1514
+cpdf-0.0.3.dist-info/METADATA,sha256=oIr-IQM03ZWKWV1LxSIknS3pmnQIPkUPbzyFnhuhWNM,2447
+cpdf-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cpdf-0.0.3.dist-info/entry_points.txt,sha256=j6iMNa_tr82J05R7TCXCV9HFjYRa1ecSEF6wk84mzQw,47
+cpdf-0.0.3.dist-info/top_level.txt,sha256=eP3L-5ZXaQNbpbHRoq6xxDTSLB9Q_q7Iri9MzWiQcps,5
+cpdf-0.0.3.dist-info/RECORD,,
