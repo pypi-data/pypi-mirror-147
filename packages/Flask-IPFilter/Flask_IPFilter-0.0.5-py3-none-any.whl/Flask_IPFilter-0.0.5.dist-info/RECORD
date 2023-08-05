@@ -1,0 +1,10 @@
+flask_ipfilter/__init__.py,sha256=UYYArPBkXGquK6NTHEkF1cQejqmjfsamqlAHChXkhVA,615
+flask_ipfilter/blacklist.py,sha256=sJtvd3b_mz82XgYIMbkqq-XXuoEmBhYmEwp0NhTnzc8,1704
+flask_ipfilter/callback.py,sha256=2XxvIa1VhLbIvwmbpQ0hywCy72EQXD17tRIxtD0CbXU,871
+flask_ipfilter/ipfilter.py,sha256=rl4ZA7dynK_JfvV4c32n0hYbS6WDB9X70XHSWsErZT4,2427
+flask_ipfilter/whitelist.py,sha256=3AuwnjTFK7hqy_zx7oZd4wAgaO-XsoeV2OY8Dc1THUI,1727
+Flask_IPFilter-0.0.5.dist-info/LICENSE.txt,sha256=rtaQGrXNUj4fuPenCmwMoAKy6xUD55JVwGptSVWE-Pk,1080
+Flask_IPFilter-0.0.5.dist-info/METADATA,sha256=rRzrDTj0JqxpPHqjXsQ8OBs0XHLD2_ROGlmL-VvvJg0,955
+Flask_IPFilter-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+Flask_IPFilter-0.0.5.dist-info/top_level.txt,sha256=JwvvWHVQnlLVZTtEjrNGID8kkcUTzwS4uNq8SAFghwg,15
+Flask_IPFilter-0.0.5.dist-info/RECORD,,
