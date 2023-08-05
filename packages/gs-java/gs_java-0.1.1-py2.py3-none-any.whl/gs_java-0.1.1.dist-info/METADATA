@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: gs-java
+Version: 0.1.1
+Summary: GPU for GraphScope
+Home-page: https://github.com/alibaba/GraphScope
+Author: GRAPE Team, Damo Academy
+Author-email: graphscope@alibaba-inc.com
+License: Apache License 2.0
+Keywords: GraphScope,Graph Computations
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: System :: Distributed Computing
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+UNKNOWN
+
