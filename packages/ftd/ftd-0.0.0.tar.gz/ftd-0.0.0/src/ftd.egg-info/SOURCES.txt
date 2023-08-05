@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/ftd.py
+src/ftd.egg-info/PKG-INFO
+src/ftd.egg-info/SOURCES.txt
+src/ftd.egg-info/dependency_links.txt
+src/ftd.egg-info/top_level.txt
