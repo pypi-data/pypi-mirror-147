@@ -1,0 +1,12 @@
+physam/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+physam/cli.py,sha256=CayNDlj7nvoZlc5n1LJHc1CmOJimpjeZu2ZUtzMie_Y,2445
+physam/sspps/__init__.py,sha256=1oLL20yLB1GL9IbFiZD8OReDqiCpFr-yetIR6x1cNkI,23
+physam/sspps/optimal_spps_subsets.py,sha256=7ERxfNGdi5xUDmyCzkuzeuAnmZ_suIbmv6W2CTO_-FI,5708
+physam/sspps/random_spps_subsets.py,sha256=mqhAks6oh89YE6FPVWaJZ15uEcegTRqzn5qyy9gCM5c,4306
+physam/sspps/utils.py,sha256=RhWXpwGBoG4CufyBzjc9-HEVfNeQv_ynwKutSTorD5k,1021
+physam/sspps/variables.py,sha256=0iCvrs_Z92v9U-pz1D-PKRS8esWHDF0y8u75wuAIHqo,5131
+physam-0.3.dist-info/METADATA,sha256=_dLMDlIm7Q8hcS0wvwGs4MWteBKu4cfBy-APDeWJzvg,266
+physam-0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+physam-0.3.dist-info/entry_points.txt,sha256=nvIeCyEjeL2xEIgP_Sg1_zMpeUythGJ3jhBf3--5_aM,44
+physam-0.3.dist-info/top_level.txt,sha256=8F-gG-o_zr9dYM4ZOSytNQ0-uBH3NBicQ9ha9r6AghA,7
+physam-0.3.dist-info/RECORD,,
