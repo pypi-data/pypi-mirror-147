@@ -1,0 +1,7 @@
+cryptography>=36
+
+[:extra == "bcrypt"]
+bcrypt
+
+[:extra == "pyopenssl"]
+pyopenssl
