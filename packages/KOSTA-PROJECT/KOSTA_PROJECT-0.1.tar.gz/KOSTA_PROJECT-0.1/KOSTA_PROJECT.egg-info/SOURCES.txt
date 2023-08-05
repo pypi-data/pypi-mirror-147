@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+KOSTA_PROJECT.egg-info/PKG-INFO
+KOSTA_PROJECT.egg-info/SOURCES.txt
+KOSTA_PROJECT.egg-info/dependency_links.txt
+KOSTA_PROJECT.egg-info/requires.txt
+KOSTA_PROJECT.egg-info/top_level.txt
+test/__init__.py
+test/main.py
