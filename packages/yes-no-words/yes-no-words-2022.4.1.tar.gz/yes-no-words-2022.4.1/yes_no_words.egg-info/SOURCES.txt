@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+yes_no_words.egg-info/PKG-INFO
+yes_no_words.egg-info/SOURCES.txt
+yes_no_words.egg-info/dependency_links.txt
+yes_no_words.egg-info/not-zip-safe
+yes_no_words.egg-info/top_level.txt
