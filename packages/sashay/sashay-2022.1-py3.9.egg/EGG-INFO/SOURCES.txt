@@ -1,0 +1,17 @@
+README.md
+setup.cfg
+setup.py
+src/sashay/__init__.py
+src/sashay/__main__.py
+src/sashay/main.py
+src/sashay/menu.py
+src/sashay/outlook.py
+src/sashay/system.py
+src/sashay.egg-info/PKG-INFO
+src/sashay.egg-info/SOURCES.txt
+src/sashay.egg-info/dependency_links.txt
+src/sashay.egg-info/entry_points.txt
+src/sashay.egg-info/requires.txt
+src/sashay.egg-info/top_level.txt
+src/sashay/assets/cat.json
+src/sashay/assets/data.json
