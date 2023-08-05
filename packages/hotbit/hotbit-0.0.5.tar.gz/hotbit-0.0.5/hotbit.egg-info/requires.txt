@@ -1,0 +1,6 @@
+pycryptodome
+anticaptchaofficial
+twocaptcha
+2captcha-python
+requests
+requestsWS
