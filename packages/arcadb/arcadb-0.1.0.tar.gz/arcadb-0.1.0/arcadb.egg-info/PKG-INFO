@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: arcadb
+Version: 0.1.0
+Summary: A powerful SQLite3 database wrapper
+Home-page: https://github.com/nwithan8/arcadb
+Author: Nate Harris
+Author-email: n8gr8gbln@gmail.com
+License: GNU General Public License v3 (GPLv3)
+Download-URL: https://github.com/nwithan8/arcadb/archive/refs/tags/0.1.0.tar.gz
+Keywords: sqlite3,database,wrapper
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Multimedia
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# A package to build cogs for Arca
+
