@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: plexmatch
+Version: 0.1.0
+Summary: 
+License: MIT
+Author: Cologler
+Author-email: skyoflw@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# plexmatch
+
+[![Test](https://github.com/Cologler/plexmatch-python/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/Cologler/plexmatch-python/actions/workflows/test.yml)
+
+A simple library for handle [plexmatch](https://support.plex.tv/articles/plexmatch/) file.
+
+## Usage
+
+```python
+from pathlib import Path
+from plexmatch import parse, tostr
+
+plex_match = parse(Path('.plexmatch').read_text())
+# do something with plex_match, then:
+Path('.plexmatch').write_text(tostr(plex_match))
+```
+
