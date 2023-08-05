@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/gnome_recent_files_cleaner/__init__.py
+src/gnome_recent_files_cleaner/grfc.py
+src/gnome_recent_files_cleaner.egg-info/PKG-INFO
+src/gnome_recent_files_cleaner.egg-info/SOURCES.txt
+src/gnome_recent_files_cleaner.egg-info/dependency_links.txt
+src/gnome_recent_files_cleaner.egg-info/requires.txt
+src/gnome_recent_files_cleaner.egg-info/top_level.txt

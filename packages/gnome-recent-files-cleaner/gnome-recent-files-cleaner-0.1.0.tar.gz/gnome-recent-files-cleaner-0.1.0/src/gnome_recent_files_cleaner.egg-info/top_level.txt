@@ -1,0 +1,1 @@
+gnome_recent_files_cleaner
