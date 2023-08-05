@@ -1,0 +1,14 @@
+shell_command_logger/__init__.py,sha256=s1GRBULhVC_A4yuGaJwUq69YOd-cWMaLsQWg8yPAoZI,918
+shell_command_logger/config.py,sha256=xYeWCvdI7cEdr0IHYQheO9YhD8BWXS5rU19U4ANR8nE,3266
+shell_command_logger/output_dir_readme_template.md,sha256=lJraU9na5KVG8zVeIUW4YWyD8behV-VMyRAI9MG1f4Q,1989
+shell_command_logger/pretty_exec.py,sha256=9Rps_oVYl5byvbc_h0rEkHR0cLf6s3CgAWJ-GzrWVVA,3373
+shell_command_logger/recorder.py,sha256=vVm8CUcfzAxzu1M5smDXDBWc805qg_lt8MsJ4NAOaNY,5273
+shell_command_logger/replay.py,sha256=QAuIs2C7bV3SdkLIP5MwrnncKS-2mwKJVzC9ulK3R0c,8384
+shell_command_logger-0.2.5.data/scripts/scl,sha256=md1IF-DVR8cS9IQ7pYznK3duEyyhex5s-UKLtDgoU_o,241
+shell_command_logger-0.2.5.data/scripts/scl-config,sha256=7EwSH8viOI41N6utB5b2uDGOAuFTLS-Y45uzNsulX2c,1976
+shell_command_logger-0.2.5.data/scripts/scl-replay,sha256=l-KvObbdR6rgppX6kJJJRXufzieOb1tO4V4utsMoBMA,229
+shell_command_logger-0.2.5.dist-info/LICENSE,sha256=bbSVKh1ngBh7-Mh_Xfk69Flx_5Q9JnvsQArHe_AXhok,1063
+shell_command_logger-0.2.5.dist-info/METADATA,sha256=E-PGCcCdGu3KzZGzvP0IC8B2IBozdXhfobIlwggLYUo,5750
+shell_command_logger-0.2.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+shell_command_logger-0.2.5.dist-info/top_level.txt,sha256=qnKeb4R9Ga6TTS9DeKz_9_Xzo6-p21wu5x3u1BX_prs,21
+shell_command_logger-0.2.5.dist-info/RECORD,,
