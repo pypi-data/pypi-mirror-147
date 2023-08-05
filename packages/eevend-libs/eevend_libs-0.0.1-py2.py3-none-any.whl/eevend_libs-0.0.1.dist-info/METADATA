@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: eevend-libs
+Version: 0.0.1
+Summary: UNKNOWN
+Author: EEVEND
+Author-email: info.eevend@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: future
+Requires-Dist: getconf
+Requires-Dist: srvlookup
+Requires-Dist: dnspython
+
+UNKNOWN
+
