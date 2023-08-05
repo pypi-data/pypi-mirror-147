@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+tank_game.egg-info/PKG-INFO
+tank_game.egg-info/SOURCES.txt
+tank_game.egg-info/dependency_links.txt
+tank_game.egg-info/not-zip-safe
+tank_game.egg-info/top_level.txt
