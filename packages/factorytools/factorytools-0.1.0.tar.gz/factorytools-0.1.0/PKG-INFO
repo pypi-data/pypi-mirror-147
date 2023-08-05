@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: factorytools
+Version: 0.1.0
+Summary: Assistive tools for factoryboy
+License: MIT
+Author: Jayson Dorsett
+Author-email: ja_dorsett@jdorsett.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: django (>=4.0,<5.0)
+Requires-Dist: factory_boy (>=3.2,<4.0)
