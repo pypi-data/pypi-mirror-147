@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: slack-async-alert
+Version: 1.0.2
+Summary: UNKNOWN
+Home-page: https://github.com/gudwns1215/slack_async_alert
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: slack-sdk (>=3.11.1)
+Requires-Dist: typer (>=0.4.0)
+Requires-Dist: python-version (>="3.5")
+Requires-Dist: InquirerPy (>=0.3.0)
+
+UNKNOWN
+
