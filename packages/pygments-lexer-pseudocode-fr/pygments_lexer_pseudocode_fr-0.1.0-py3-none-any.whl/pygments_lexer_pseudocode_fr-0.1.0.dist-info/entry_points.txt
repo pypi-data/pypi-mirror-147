@@ -1,0 +1,2 @@
+[pygments.lexers]
+pseudocodefr = pygments_lexer_pseudocode_fr:PseudocodefrLexer
