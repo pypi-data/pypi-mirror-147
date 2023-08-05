@@ -1,0 +1,5 @@
+
+[all]
+pytest>=4.6.2
+jinja2
+archspec
