@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: cumcubes
+Version: 0.0.3
+Summary: CUDA implementation of marching cubes
+Home-page: https://github.com/lzhnb/CuMCubes
+Author: Zhihao Liang
+Author-email: eezhihaoliang@mail.scut.edu.cn
+License: BSD-3
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
