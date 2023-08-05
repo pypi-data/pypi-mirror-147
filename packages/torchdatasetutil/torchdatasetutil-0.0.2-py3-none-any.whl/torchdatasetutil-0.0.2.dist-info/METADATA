@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: torchdatasetutil
+Version: 0.0.2
+Summary: Torch Dataset Utilities
+Home-page: https://github.com/bhlarson/torchdatasetutil
+Author: Brad Larson
+Author-email: <bhlarson@gmail.com>
+License: UNKNOWN
+Keywords: python,Machine Learning,Utilities
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: POSIX :: Linux
+Description-Content-Type: text/markdown
+Requires-Dist: minio
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: prettytable
+Requires-Dist: pyyaml
+Requires-Dist: scikit-learn
+Requires-Dist: torch
+
+# torchdatasetutil
+Utilities to load and use pytorch datasets stored in Minio S3
+
+
