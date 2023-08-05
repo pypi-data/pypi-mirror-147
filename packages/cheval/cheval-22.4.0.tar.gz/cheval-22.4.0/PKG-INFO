@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: cheval
+Version: 22.4.0
+Summary: TBC
+Home-page: https://github.com/rpeloff/cheval
+Author: Ryan Eloff
+Author-email: ryaneloff@gmail.com
+Maintainer: Ryan Eloff
+Maintainer-email: ryaneloff@gmail.com
+License: Apache-2.0
+Project-URL: Source Code, https://github.com/rpeloff/cheval
+Keywords: machine learning
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# cheval: Simple Configurations with Zero Redundancy
+
+`cheval` is a lightweight package that allows you to configure your classes with minimum
+boilerplate. Configurations are easy to understand, quick to write, and intuitive to work with.
+
+## Requirements
+
+Python 3.6+
+
+## Installation
+
+The recommended installation method is pip-installing into a virtual environment:
+
+```bash
+$ python -m pip install git+ssh://git@github.com/rpeloff/cheval.git
+```
+
+TODO(rpeloff): update once we have fully moved to PyPi
+
+## `cheval` by Example
+
+TODO(rpeloff): populate README with concrete examples
+
+## License
+
+This project is licensed under the terms of the
+[Apache License 2.0](https://choosealicense.com/licenses/apache-2.0/) license.
+
+## Citing cheval
+
+If you use Cheval in your research please use the following BibTeX entry:
+
+```BibTeX
+@Misc{Eloff2022cheval,
+  author =       {Ryan Eloff},
+  title =        {cheval},
+  howpublished = {Github},
+  year =         {2022},
+  url =          {https://github.com/rpeloff/cheval}
+}
+```
+
