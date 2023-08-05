@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: niteshade
+Version: 0.0.1
+Summary: Library for simulating data poisoning attacks against online learning.
+Home-page: https://github.com/oskarfernlund/niteshade
+Author: Mart Bakler, Oskar Fernlund, Alex Ntemourtsidou, Jaime Sabal, Mustafa Saleem
+Author-email: mart.bakler21@imperial.ac.uk, oskar.fernlund21@imperial.ac.uk, alexandra.ntemourtsidou15@imperial.ac.uk, js921@ic.ac.uk, mustafa.saleem21@imperial.ac.uk
+License: MIT
+Project-URL: Documentation, https://oskarfernlund.github.io/niteshade/
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+niteshade
+=========
+
+**niteshade** is a Python library for simulating data poisoning attack and 
+defence strategies against online machine learning systems.
+
+
+Repository Structure
+--------------------
+
+Explanation of the various directories and files. Maybe some subsections?
+
+
+Python API Documentation
+------------------------
+
+For detailed documentation of the project and the Python API, visit 
+https://oskarfernlund.github.io/niteshade/.
+
+
+Releasing
+---------
+
+Releases are published to PyPI and Conda-Forge automatically when a tag is 
+pushed to GitHub.
+
+.. code-block:: bash
+
+    # Set next version number
+    export RELEASE=x.x.x
+
+    # Create tags
+    git commit --allow-empty -m "Release $RELEASE"
+    git tag -a $RELEASE -m "Version $RELEASE"
+
+    # Push
+    git push --tags
+
+
+Contributing
+------------
+
+niteshade is an open-source project and collaboration is welcome.
+
+email addresses.
+
+
+Licensing
+---------
+
+niteshade is an open-source project and collaboration is welcome.
+
+email addresses.
+
