@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: ficaptcha
+Version: 1.0.4
+Summary: Simple captcha
+Home-page: https://github.com/0x7o/fiCaptcha
+Author: Danil Kononyuk
+Author-email: me@0x7o.link
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# fiCaptcha
+Module for image-captcha generation
+
+## Install
+Build from source
+```bash
+git clone https://github.com/0x7o/fiCaptcha
+cd fiCaptcha
+pip install .
+```
+
+Python pip install
+```bash
+pip install ficaptcha
+```
+## Usage
+# Image Captcha
+Create a folder with images for captcha:
+```bash
+├── images
+│   ├── toy
+│       ├── toy1.png
+│       ├── toy2.png
+│       └── ...
+│   └── fox
+│       ├── fox1.png
+│       ├── fox2.png
+│       └── ...
+```
+Import the library and create a class
+- ```size=(256, 256)``` - Captcha size in pixels
+- ```image_dir="images"``` - Image folder for captcha
+- ```background_color="white"``` - Background Color
+- ```noise_bg=True``` - Whether or not to add noise to the background
+- ```noise_im=True``` - Whether or not to add noise to the images
+- ```rotate_im=True``` - Rotate images or not
+- ```count_images=5``` - Number of images on the captcha
+```python
+from ficaptcha.image import Captcha
+
+c = Captcha(size=(256, 256), image_dir="images", rotate_im=False)
+```
+Let's generate our captcha
+```python
+result = c.generate()
+print(result)
+```
+```bash
+{'class': 'toy', 'file': 'images/toy/toy5.png', 'position': (17, 139)}
+```
+
+
