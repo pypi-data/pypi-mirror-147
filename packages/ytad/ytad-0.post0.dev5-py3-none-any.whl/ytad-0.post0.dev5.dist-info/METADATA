@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: ytad
+Version: 0.post0.dev5
+Summary: A tool for adding YouTube video like/dislike counts to video descriptions.
+Home-page: https://github.com/SpencerPao/YouTube_Automation
+Author: Spencer Pao
+Author-email: business.inquiry.spao@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: jupyter
+Requires-Dist: pandas
+Requires-Dist: python-dotenv
+Requires-Dist: google-api-python-client
+Requires-Dist: google-auth
+Requires-Dist: google-auth-oauthlib
+Requires-Dist: google-auth-httplib2
+Requires-Dist: boto3
+Requires-Dist: pytz
+
+UNKNOWN
+
