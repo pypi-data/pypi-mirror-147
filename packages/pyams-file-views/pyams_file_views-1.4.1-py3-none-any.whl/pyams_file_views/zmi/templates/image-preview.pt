@@ -1,0 +1,6 @@
+<tal:var define="thumbnails tales:thumbnails(context);
+				 thumb thumbnails.get_thumbnail('800x600');">
+	<img tal:define="src tales:absolute_url(thumb);
+					 timestamp tales:timestamp(thumb);"
+		 src="${src}?_=${timestamp}" alt="" />
+</tal:var>
