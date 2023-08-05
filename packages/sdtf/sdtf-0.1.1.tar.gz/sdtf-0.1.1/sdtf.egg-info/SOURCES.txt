@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+sdtf/__init__.py
+sdtf/forest.py
+sdtf.egg-info/PKG-INFO
+sdtf.egg-info/SOURCES.txt
+sdtf.egg-info/dependency_links.txt
+sdtf.egg-info/requires.txt
+sdtf.egg-info/top_level.txt
