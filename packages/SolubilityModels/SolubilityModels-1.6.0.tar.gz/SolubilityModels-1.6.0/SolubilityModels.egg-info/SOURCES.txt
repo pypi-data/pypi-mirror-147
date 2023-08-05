@@ -1,0 +1,15 @@
+LICENSE
+README.rst
+setup.py
+SolubilityModels/Buchowski_Ksiazczak.py
+SolubilityModels/Models.py
+SolubilityModels/Modified_Apelblat.py
+SolubilityModels/Modified_Wilson.py
+SolubilityModels/Vant_Hoff.py
+SolubilityModels/Vant_Hoff_Yaws.py
+SolubilityModels/__init__.py
+SolubilityModels.egg-info/PKG-INFO
+SolubilityModels.egg-info/SOURCES.txt
+SolubilityModels.egg-info/dependency_links.txt
+SolubilityModels.egg-info/requires.txt
+SolubilityModels.egg-info/top_level.txt
