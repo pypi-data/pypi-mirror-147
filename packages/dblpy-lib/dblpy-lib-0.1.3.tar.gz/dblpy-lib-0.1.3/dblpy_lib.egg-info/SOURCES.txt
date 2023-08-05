@@ -1,0 +1,12 @@
+README.md
+setup.py
+dblpy/__init__.py
+dblpy/authors.py
+dblpy/dblp_api.py
+dblpy/publications.py
+dblpy/venues.py
+dblpy_lib.egg-info/PKG-INFO
+dblpy_lib.egg-info/SOURCES.txt
+dblpy_lib.egg-info/dependency_links.txt
+dblpy_lib.egg-info/requires.txt
+dblpy_lib.egg-info/top_level.txt
