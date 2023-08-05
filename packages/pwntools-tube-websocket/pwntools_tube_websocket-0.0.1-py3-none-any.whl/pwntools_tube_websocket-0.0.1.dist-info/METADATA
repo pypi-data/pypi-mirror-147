@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pwntools-tube-websocket
+Version: 0.0.1
+Summary: websocket tube for pwntools
+Author: Frank
+Author-email: frankli0324@hotmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.7
+Requires-Dist: websocket-client
+Requires-Dist: pwntools
+
+UNKNOWN
+
