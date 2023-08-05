@@ -1,0 +1,8 @@
+README.rst
+setup.py
+jidutest_framework/__init__.py
+jidutest_framework.egg-info/PKG-INFO
+jidutest_framework.egg-info/SOURCES.txt
+jidutest_framework.egg-info/dependency_links.txt
+jidutest_framework.egg-info/not-zip-safe
+jidutest_framework.egg-info/top_level.txt
