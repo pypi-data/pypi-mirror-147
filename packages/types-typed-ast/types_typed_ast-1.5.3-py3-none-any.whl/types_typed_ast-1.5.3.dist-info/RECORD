@@ -1,0 +1,9 @@
+typed_ast-stubs/METADATA.toml,sha256=E7xOgUJtzP0pxPGhkKYEtxolRrIK7TgrOsyKJDKPY58,18
+typed_ast-stubs/__init__.pyi,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+typed_ast-stubs/ast27.pyi,sha256=FCKnbqdmmf6Lnkqe4PIt_CB3gt1oTibpF4WzGLzwLDo,6475
+typed_ast-stubs/ast3.pyi,sha256=24NY12_lZjkxFV-isriljrw1dGB0CRrBtiDpC1-TV_I,7382
+typed_ast-stubs/conversions.pyi,sha256=fNBvV3U3qM1ehj0f9uO9xPT9XL43AiT7v51N2S39Qf0,71
+types_typed_ast-1.5.3.dist-info/METADATA,sha256=q1m35BjOTA31HWYYxt4q7j543lZ6qnb-ArV6sT_sR-g,1160
+types_typed_ast-1.5.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+types_typed_ast-1.5.3.dist-info/top_level.txt,sha256=MgaxlpCjqAutRMfB77MJawCoLFHqWf-c5Fyl4JKp054,16
+types_typed_ast-1.5.3.dist-info/RECORD,,
