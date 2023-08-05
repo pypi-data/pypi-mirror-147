@@ -1,0 +1,5 @@
+pyswagger>=0.8.39
+python-jose<4,>=3.0
+pytz
+requests
+six
