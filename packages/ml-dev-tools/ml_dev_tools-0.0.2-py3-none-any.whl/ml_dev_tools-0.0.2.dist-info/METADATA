@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ml-dev-tools
+Version: 0.0.2
+Summary: Useful functions for Machine Learning
+Home-page: https://github.com/namiyousef/ml-utils
+Author: Yousef Nami
+Author-email: namiyousef@hotmail.com
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: torch
+Requires-Dist: sklearn
+
+UNKNOWN
+
