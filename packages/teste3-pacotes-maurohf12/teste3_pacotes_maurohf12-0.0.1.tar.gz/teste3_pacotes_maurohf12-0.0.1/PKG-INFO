@@ -1,0 +1,103 @@
+Metadata-Version: 2.1
+Name: teste3_pacotes_maurohf12
+Version: 0.0.1
+Summary: Test version - Image processing. This project belongs to Karina Tiemi Kato, Tech Lead, Machine Learning Engineer, Data Scientist Specialist at Take. This package is a demo for simulation of upload on the Test Pypi website, and it's from class of the Bootcamp Cognizant Cloud Data Engineer #2. E-mail:karinatkato@gmail.com.
+Home-page: https://github.com/maurohf12/teste3_pacotes-maurohf12.git
+Author: Mauro Henrique
+Author-email: maurohf12@gmail.com
+License: UNKNOWN
+Description: 
+        ## Autora do Projeto: Karina Kato
+        
+        ### Aula: Descomplicando a criaÃ§Ã£o de pacotes de processamento de imagens em Python
+        
+        #### Tecnologia: Python
+        
+        #### Data: 02/03/2022
+        
+        ## Image_Processing
+        
+        The package "image_processing-test" is used to:
+        
+        -   Processing:
+        
+            -   Histogram matching;
+            -   Structural similarity;
+            -   Resize image;
+        
+        -   Utils:
+            -   Read image;
+            -   Save image;
+            -   Plot image;
+            -   Plot result;
+            -   Plot Histogram;
+        
+        ---
+        
+        ## Installation
+        
+        -   [x] InstalaÃ§Ã£o das Ãºltimas versÃµes de "setuptools" e "wheel"
+        
+        ```
+        py -m pip install --upgrade pip
+        py -m pip install --user setuptools wheel twine
+        ```
+        
+        -   [x] Tenha certeza que o diretÃ³rio no terminal seja o mesmo do arquivo "setup.py"
+        
+        ```
+        py setup.py sdist bdist_wheel
+        ```
+        
+        -   [x] ApÃ³s completar a instalaÃ§Ã£o, verifique se as pastas abaixo foram adicionadas ao projeto:
+        
+            -   [x] build;
+            -   [x] dist;
+            -   [x] image_processing_test.egg-info.
+        
+        -   [x] Basta subir os arquivos, usando o Twine, para o Test Pypi:
+        
+        ```
+        py -m twine upload --repository-url https://test.pypi.org/legacy/ dist/*
+        ```
+        
+        -   [x] ApÃ³s rodar o comando acima no terminal, serÃ¡ pedido para inserir o usuÃ¡rio e senha. Feito isso, o projeto estarÃ¡ hospedado no Test Pypi.hospedÃ¡-lo no Pypi diretamente.
+                Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
+        
+        ```bash
+        pip install wallet_python_pacotes_imagens
+        ```
+        
+        ## Local Installation
+        
+        -   [x] InstalaÃ§Ã£o de dependÃªncias
+        
+        ```
+        pip install -r requirements.txt
+        ```
+        
+        -   [x] InstalaÃ§Ã£o do Pacote
+        
+        Use o gerenciador de pacotes `pip install -i https://test.pypi.org/simple/ image-processing-test `para instalar image_processing-test
+        
+        ```bash
+        pip install image-processing-test
+        ```
+        
+        ---
+        
+        ## Author
+        
+        Mauro Henrique
+        
+        ## License
+        
+        [MIT](https://choosealicense.com/licenses/mit/)
+        
+        ---
+        
+        
+        
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown

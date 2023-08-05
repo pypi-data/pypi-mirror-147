@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+teste3_pacotes_maurohf12.egg-info/PKG-INFO
+teste3_pacotes_maurohf12.egg-info/SOURCES.txt
+teste3_pacotes_maurohf12.egg-info/dependency_links.txt
+teste3_pacotes_maurohf12.egg-info/top_level.txt
