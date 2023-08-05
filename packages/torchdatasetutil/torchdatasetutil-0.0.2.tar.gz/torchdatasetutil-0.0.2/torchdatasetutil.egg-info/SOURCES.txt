@@ -1,0 +1,7 @@
+README.md
+setup.py
+torchdatasetutil.egg-info/PKG-INFO
+torchdatasetutil.egg-info/SOURCES.txt
+torchdatasetutil.egg-info/dependency_links.txt
+torchdatasetutil.egg-info/requires.txt
+torchdatasetutil.egg-info/top_level.txt
