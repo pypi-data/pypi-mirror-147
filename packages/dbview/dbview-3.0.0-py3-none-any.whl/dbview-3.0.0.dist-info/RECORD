@@ -1,0 +1,14 @@
+dbview/__init__.py,sha256=xJE880mJ25jaMaCAapLi_IdkeE5qjzAgPI0ZSo1YQdY,145
+dbview/db2py.py,sha256=wimMdAAcmrd5tO-7sbUmc3F_c2n9V8jMnl6mNs0qEIQ,3570
+dbview/db2txt.py,sha256=DETUs3DcpriFvMkM9uvHFuKwJq3z8y7txZZoXop19lw,226
+dbview/get_columns.py,sha256=orqvP8p7GYRXavglnJU_SSg49LNYbon9iA6uk7Vjtp4,1842
+dbview/get_info.py,sha256=2cIMOwiTOFyaSr9gD7-tvB2mOUO9eqzXjjPY4dWog6U,1224
+dbview/get_tables.py,sha256=Sz-wGb5PtTD5N-lxA9PFIK1PDatH1gNb2WoDpujq3lg,477
+dbview/organize.py,sha256=t2IFRHEmJjqNbrcmi9nr4YMMEwA_ZQCQb-S1KNhz16k,1458
+dbview/setup.py,sha256=IWZ9ge8npaMM1yZrAbvHbW7l5vtrTRRFlnVkJ2bl-as,882
+dbview/txt2db.py,sha256=_gT7sY0LrxRZZMy-Q--WPu0WNXvpg0LAbBDA-1OMpdo,4134
+dbview/txt2py.py,sha256=wKhVO2fwE8duA2vzaXRCSYcc1K5UZub2iHSFPV8ltok,4253
+dbview-3.0.0.dist-info/METADATA,sha256=NW-esE5-MKDKxpbyDF9SvM8JsETnI0--RhLbF_61nbs,524
+dbview-3.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+dbview-3.0.0.dist-info/top_level.txt,sha256=cAu9HRqyyr_0xEKeo3_MmmWMr6WxJR_VDrKuzYAmuWM,7
+dbview-3.0.0.dist-info/RECORD,,
