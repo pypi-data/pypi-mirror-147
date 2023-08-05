@@ -1,0 +1,2 @@
+urllib3
+pandoc==2.1
