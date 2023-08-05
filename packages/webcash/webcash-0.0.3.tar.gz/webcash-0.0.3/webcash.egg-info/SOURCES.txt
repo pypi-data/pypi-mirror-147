@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+webcash/__init__.py
+webcash/exceptions.py
+webcash/utils.py
+webcash/walletclient.py
+webcash/webcashbase.py
+webcash.egg-info/PKG-INFO
+webcash.egg-info/SOURCES.txt
+webcash.egg-info/dependency_links.txt
+webcash.egg-info/entry_points.txt
+webcash.egg-info/requires.txt
+webcash.egg-info/top_level.txt
