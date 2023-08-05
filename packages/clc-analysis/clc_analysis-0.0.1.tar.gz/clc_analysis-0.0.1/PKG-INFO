@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: clc_analysis
+Version: 0.0.1
+Summary: clc_analysis 0.0.1
+Home-page: https://bitbucket.org/EMK_Lab/clc_analysis/
+Author: Mengzhan Liufu
+Author-email: mliufu@uchicago.edu
+License: UNKNOWN
+Keywords: closed-loop control,analysis
+Platform: UNKNOWN
+
+closed loop control project analysis package
+

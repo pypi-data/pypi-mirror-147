@@ -1,0 +1,13 @@
+README.md
+setup.py
+clc_analysis/Event.py
+clc_analysis/__init__.py
+clc_analysis/calculate_rms.py
+clc_analysis/deblip_events.py
+clc_analysis/detect.py
+clc_analysis/extract_events.py
+clc_analysis.egg-info/PKG-INFO
+clc_analysis.egg-info/SOURCES.txt
+clc_analysis.egg-info/dependency_links.txt
+clc_analysis.egg-info/requires.txt
+clc_analysis.egg-info/top_level.txt
