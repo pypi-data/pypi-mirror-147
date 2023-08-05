@@ -1,0 +1,16 @@
+bawx_player/__init__.py,sha256=Gb2LiWC1_UUFtzroLTkqIb2nUdoB3AxcA6x_2YOD38w,253
+bawx_player/pycdg.py,sha256=XqZUR8ifFpF3nMhnGpq7Qrdq6OgLvMN5YjmLj4JU1gg,25399
+bawx_player/pycdgAux.py,sha256=3F9cEZJqJ-2Nv0eYhnGGt57HY-LFBQXVJnVuKjpXh1U,25403
+bawx_player/pykar.py,sha256=Iy1UHocEGMY9dsF6aLT8Q1hOk50K7--qGwg7VpKwC8M,53863
+bawx_player/pykconstants.py,sha256=8wzBU5XqwNnwtOiyjSnY_bfMbBVovsU03ASDJF8ZKIs,1848
+bawx_player/pykdb.py,sha256=ub4Wmzq8T3dUY5JLVtZdO07IshRQt3IsAWsLc3Gg3d8,75267
+bawx_player/pykenv.py,sha256=g3ybIXgEPqw-ff_7xPKv556ZblAsfPqt67p3UCso40o,1255
+bawx_player/pykmanager.py,sha256=P8KK7qRZQjiUH1uor2gBMXGTF_CXTH_dlGsWSN27mI8,25354
+bawx_player/pykplayer.py,sha256=_OP7IQ-6BQsbiggo_eZ3DTyQK3t7C_di9Eervc91-TU,16457
+bawx_player/pykversion.py,sha256=zCmvgW4jXIV07luAXLPbSoPu0gj10j2QvrxCzKYn2cw,1733
+bawx_player/pympg.py,sha256=EY_v3QlMGXwsFDfBxgMkJ0XObbFpJ6VDAQplbACHuWQ,11553
+bawx_player-0.9.1.dist-info/LICENSE,sha256=2Y8-MMEi8tra94Bg4-_O_eaqPgAbYMIAgn86dCOrZ2k,1088
+bawx_player-0.9.1.dist-info/METADATA,sha256=t0Pg8Rsrdi4Gau3BD1PiJKDebQsjYyHldqVQDa_JcA0,993
+bawx_player-0.9.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bawx_player-0.9.1.dist-info/top_level.txt,sha256=nrSOdxU0nVa5BEF4SUH_iiaaXrGx5oFN-AnJNhGbjfY,12
+bawx_player-0.9.1.dist-info/RECORD,,

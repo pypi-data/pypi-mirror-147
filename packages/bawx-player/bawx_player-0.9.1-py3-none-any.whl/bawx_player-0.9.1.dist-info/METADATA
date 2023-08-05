@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: bawx-player
+Version: 0.9.1
+Summary: Karaoke player library (and more)
+Home-page: https://github.com/pointw-dev/bawx-player
+Author: Michael Ottoson
+Author-email: michael@pointw.com
+License: MIT
+Keywords: karaoke
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (>=1.22.3)
+Requires-Dist: pygame (>=2.1.2)
+
+# bawx-player
+This is a port of Kelvin Lawson's [pykaraoke library](https://github.com/kelvinlawson/pykaraoke) (upgraded from Python 2 to Python 3 and packaged)
+
+Install with...
+
+    pip install bawx-player
+
+**play_karaoke.py**
+```python
+from bawx_player import pycdg
+
+player = pycdg.cdgPlayer('some_song.cdg', None)
+player.Play()
+pycdg.manager.WaitForPlayer()
+
+```
+
+
