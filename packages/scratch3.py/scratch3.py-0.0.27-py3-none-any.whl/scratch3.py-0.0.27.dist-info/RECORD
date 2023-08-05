@@ -1,0 +1,14 @@
+PloudosAPI/__init__.py,sha256=sPbml_jnB65E1Iqp_SvR10aW4ebt3YSxHVmt06pMblw,14938
+PloudosAPI/ploudos.py,sha256=7bDTa7CWmNUlzFPf-cWocNKijem_Gyn3V09eJHEgQSg,14678
+scratch3/__init__.py,sha256=ZaymJ7i5TUZSmoh1dx-R-DSUBjTZv0VAcPLR1kdAh7s,122
+scratch3/_cloud.py,sha256=zpO5g-w5B6qH5pa0JMRB8zcjFsGqs8o3W-e8MUOnVjY,5459
+scratch3/_cloud_requests.py,sha256=SfQQxIm2VkQgQ4A-Bi6hYGvCmjClwF-FYRwzsI6x7pQ,4246
+scratch3/_encoder.py,sha256=LLrM4-5WPUzfwsV4p8EoTcbZZ1KjvQmB3-GmK_aCvAo,1661
+scratch3/_exceptions.py,sha256=juF6Qu73PssDVqpMOiPLKmSV40hZxJ5PXUH8uOe0Aeg,47
+scratch3/_project.py,sha256=hsfmVBpjHPl55Eb9b3mAjENA601XGrIwYFvbvBq3qio,15315
+scratch3/_session.py,sha256=VD3che09jwjugMLTyjVztTYEGbap2qY79Q-sn3oFGi0,5623
+scratch3/_user.py,sha256=jUcgIdnZVmCXOMFO426roNE7K-14GB3paZXQCUjZ47w,13154
+scratch3.py-0.0.27.dist-info/METADATA,sha256=Wqodf_OhCT668BQ_5Nltpk-w9YynBGeDCrh76F3Zfvs,753
+scratch3.py-0.0.27.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+scratch3.py-0.0.27.dist-info/top_level.txt,sha256=Fv4w9yjbZVffvZ5Izq19Qqr1oUJCHnGfBNYbMoiY9Rc,9
+scratch3.py-0.0.27.dist-info/RECORD,,
