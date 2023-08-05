@@ -1,0 +1,55 @@
+{
+    "data_loading": {
+        "demo_data": {
+            "modalities": {
+                "csv": {
+                    "file": [
+                        "E:/conda/mconda/envs/eslearn/Lib/site-packages/eslearn/machine_learning/regression/tests/features.csv"
+                    ],
+                    "mask": ""
+                }
+            },
+            "targets": "E:/conda/mconda/envs/eslearn/Lib/site-packages/eslearn/machine_learning/regression/tests/targets.csv",
+            "covariates": ""
+        }
+    },
+    "feature_engineering": {
+        "feature_preprocessing": {
+            "MinMaxScaler()": {
+                "feature_range": {
+                    "value": "(0,1)"
+                }
+            }
+        },
+        "dimreduction": {
+            "None": {}
+        },
+        "feature_selection": {
+            "None": {}
+        },
+        "unbalance_treatment": {
+            "RandomOverSampler()": {}
+        }
+    },
+    "machine_learning": {
+        "Regression": {
+            "LinearRegression()": {}
+        }
+    },
+    "model_evaluation": {
+        "KFold()": {
+            "n_splits": {
+                "value": "3"
+            },
+            "shuffle": {
+                "value": "True"
+            },
+            "random_state": {
+                "value": "0"
+            }
+        },
+        "Statistical_analysis": {
+            "Binomial/Pearson-R test": {}
+        }
+    }
+}

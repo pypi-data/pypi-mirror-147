@@ -1,0 +1,13 @@
+# Set virtual environment (windows 10 system)
+method1: virtualenv  virtualenv_eslearn
+method2: mkvirtualenv virtualenv_eslearn
+method3: virtualenv -p F:\Python3.6.5_V2\python.exe virtualenv_eslearn
+
+# Check current environment (PowerShell)
+$old_path = [environment]::GetEnvironmentvariable("Path", "User")
+
+# Add new_added_path to environment PATH (PowerShell)
+$old_path = [environment]::GetEnvironmentvariable("PATH", "User")
+$new_added_path = 'YourPath'
+$new_path = $old_path, $new_added_path -Join ";"
+[environment]::SetEnvironmentvariable("PATH", $new_path, "User")
