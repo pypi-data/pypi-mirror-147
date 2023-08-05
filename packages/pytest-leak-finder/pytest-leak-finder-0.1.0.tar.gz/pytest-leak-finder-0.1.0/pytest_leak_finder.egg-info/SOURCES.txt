@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pytest_leak_finder.py
+setup.py
+pytest_leak_finder.egg-info/PKG-INFO
+pytest_leak_finder.egg-info/SOURCES.txt
+pytest_leak_finder.egg-info/dependency_links.txt
+pytest_leak_finder.egg-info/entry_points.txt
+pytest_leak_finder.egg-info/requires.txt
+pytest_leak_finder.egg-info/top_level.txt

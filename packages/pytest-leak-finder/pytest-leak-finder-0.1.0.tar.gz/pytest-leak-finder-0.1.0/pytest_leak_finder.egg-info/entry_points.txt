@@ -1,0 +1,3 @@
+[pytest11]
+leak_finder = pytest_leak_finder
+
