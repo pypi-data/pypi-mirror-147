@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+turbosmsua/__init__.py
+turbosmsua_python3.egg-info/PKG-INFO
+turbosmsua_python3.egg-info/SOURCES.txt
+turbosmsua_python3.egg-info/dependency_links.txt
+turbosmsua_python3.egg-info/requires.txt
+turbosmsua_python3.egg-info/top_level.txt
