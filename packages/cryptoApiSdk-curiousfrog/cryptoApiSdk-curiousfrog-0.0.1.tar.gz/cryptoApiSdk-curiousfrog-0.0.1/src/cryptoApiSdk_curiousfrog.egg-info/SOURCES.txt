@@ -1,0 +1,8 @@
+pyproject.toml
+setup.cfg
+src/cryptoApiSdk/__init__.py
+src/cryptoApiSdk/main.py
+src/cryptoApiSdk_curiousfrog.egg-info/PKG-INFO
+src/cryptoApiSdk_curiousfrog.egg-info/SOURCES.txt
+src/cryptoApiSdk_curiousfrog.egg-info/dependency_links.txt
+src/cryptoApiSdk_curiousfrog.egg-info/top_level.txt
