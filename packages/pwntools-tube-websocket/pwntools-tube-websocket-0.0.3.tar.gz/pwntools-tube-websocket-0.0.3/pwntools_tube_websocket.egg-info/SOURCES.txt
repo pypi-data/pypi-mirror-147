@@ -1,0 +1,10 @@
+setup.py
+pwnlib/__init__.py
+pwnlib/toplevel.py
+pwnlib/tubes/__init__.py
+pwnlib/tubes/websocket.py
+pwntools_tube_websocket.egg-info/PKG-INFO
+pwntools_tube_websocket.egg-info/SOURCES.txt
+pwntools_tube_websocket.egg-info/dependency_links.txt
+pwntools_tube_websocket.egg-info/requires.txt
+pwntools_tube_websocket.egg-info/top_level.txt
