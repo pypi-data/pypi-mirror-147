@@ -1,0 +1,10 @@
+requests
+logzero
+arrow
+configparser
+requests
+pyexcel
+pyahocorasick
+arrow
+dataclasses
+python-dateutil
