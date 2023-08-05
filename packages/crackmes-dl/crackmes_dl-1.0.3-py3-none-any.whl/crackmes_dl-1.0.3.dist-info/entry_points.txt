@@ -1,0 +1,3 @@
+[console_scripts]
+crackmes_dl = crackmes_dl.main:app
+
