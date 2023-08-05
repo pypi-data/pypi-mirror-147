@@ -1,0 +1,8 @@
+requests
+polars
+tqdm
+fastapi
+uvicorn
+pandas
+filelock
+glob2
