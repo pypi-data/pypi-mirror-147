@@ -1,0 +1,10 @@
+functon/__init__.py,sha256=pdvYBUkJ9vXuhJDuDZ9oaP2PAmPLJVSfzq_Kgi-_MB8,71
+functon/core.py,sha256=A9cuWqpC2UdWHerJVHoX5Ws2gRbtyhJSTDwHA95mS0Y,663
+functon/exceptions.py,sha256=GjIcisdhR9gU8KlpqtHCj0tdMzM050_5lOSlXUf-v5A,64
+functon/functions.py,sha256=6Qk-qNGXx4JslcZfLNP9ht5o1whaHWLj92c9rB9AF-Y,389
+functon/parser.py,sha256=q0olQEkvDCzdnhqqr57maxOuYV3qmtnetQsUctNT1H0,35
+functon/statements.py,sha256=RHLAKZlrFEnGHp0GUIQ815LKCUi-HWxFn6qCWit0STs,445
+functon/types.py,sha256=eTUxS4AD6TaAA-6aM78WExR9GeJpaPglavdukoMVgC0,476
+functon-0.0.2.dev0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+functon-0.0.2.dev0.dist-info/METADATA,sha256=yZSlqNe12tLNpaXF70J3rfZeTnWo5sKN4uxirBRWw9o,1628
+functon-0.0.2.dev0.dist-info/RECORD,,
