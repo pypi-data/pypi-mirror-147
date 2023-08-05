@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+presql/__init__.py
+presql/presql.py
+presql.egg-info/PKG-INFO
+presql.egg-info/SOURCES.txt
+presql.egg-info/dependency_links.txt
+presql.egg-info/requires.txt
+presql.egg-info/top_level.txt
