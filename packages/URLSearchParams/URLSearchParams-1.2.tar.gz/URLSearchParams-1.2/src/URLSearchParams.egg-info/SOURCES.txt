@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/URLSearchParams/__init__.py
+src/URLSearchParams.egg-info/PKG-INFO
+src/URLSearchParams.egg-info/SOURCES.txt
+src/URLSearchParams.egg-info/dependency_links.txt
+src/URLSearchParams.egg-info/top_level.txt
