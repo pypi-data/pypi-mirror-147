@@ -1,0 +1,9 @@
+LICENSE
+README
+setup.py
+src/p3d_appimage/__init__.py
+src/p3d_appimage/p3d_appimage.py
+src/panda3d_appimage.egg-info/PKG-INFO
+src/panda3d_appimage.egg-info/SOURCES.txt
+src/panda3d_appimage.egg-info/dependency_links.txt
+src/panda3d_appimage.egg-info/top_level.txt
