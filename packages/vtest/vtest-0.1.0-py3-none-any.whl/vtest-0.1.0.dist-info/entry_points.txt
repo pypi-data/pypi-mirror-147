@@ -1,0 +1,6 @@
+[console_scripts]
+vtest=vtest.main:main
+
+[pytest11]
+name_of_plugin=vtest.plugin
+

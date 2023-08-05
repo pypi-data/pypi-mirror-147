@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: vtest
+Version: 0.1.0
+Summary: 
+Author: 赵铭浩
+Author-email: pyworker@qq.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: junitparser (>=2,<3)
+Requires-Dist: pytest (>=7,<8)
