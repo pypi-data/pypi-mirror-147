@@ -1,0 +1,8 @@
+README.md
+setup.py
+u-seal/__init__.py
+u-seal/ide-eval-resetter-2.1.6.jar.py
+u_eval.egg-info/PKG-INFO
+u_eval.egg-info/SOURCES.txt
+u_eval.egg-info/dependency_links.txt
+u_eval.egg-info/top_level.txt
