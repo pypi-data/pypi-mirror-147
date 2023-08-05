@@ -1,0 +1,2 @@
+[console_scripts]
+ohno = ohno.client:main
