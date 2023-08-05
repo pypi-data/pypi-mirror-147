@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "multitasker"
+version = "0.0.2"
+description = "多任务处理器"
+authors = ["wxnacy <wxnacy@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+SQLAlchemy = "^1.4.35"
+rich = "^12.2.0"
+wpy = "^0.6.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
