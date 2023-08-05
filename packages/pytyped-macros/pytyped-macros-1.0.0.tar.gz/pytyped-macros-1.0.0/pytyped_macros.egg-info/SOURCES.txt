@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+pytyped/macros/__init__.py
+pytyped/macros/boxed.py
+pytyped/macros/extractor.py
+pytyped/macros/py.typed
+pytyped/macros/pyjack.py
+pytyped_macros.egg-info/PKG-INFO
+pytyped_macros.egg-info/SOURCES.txt
+pytyped_macros.egg-info/dependency_links.txt
+pytyped_macros.egg-info/not-zip-safe
+pytyped_macros.egg-info/top_level.txt
