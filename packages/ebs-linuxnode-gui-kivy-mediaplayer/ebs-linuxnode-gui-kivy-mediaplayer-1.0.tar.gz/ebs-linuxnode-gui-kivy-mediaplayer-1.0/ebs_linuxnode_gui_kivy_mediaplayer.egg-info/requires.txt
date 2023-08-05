@@ -1,0 +1,4 @@
+setuptools-scm
+ebs-linuxnode-gui-kivy-core
+kivy_garden.ebs.core
+kivy_garden.ebs.pdfplayer
