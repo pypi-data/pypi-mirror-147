@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+static_ondisk_kv/__init__.py
+static_ondisk_kv/build.py
+static_ondisk_kv/order.py
+static_ondisk_kv/read.py
+static_ondisk_kv.egg-info/PKG-INFO
+static_ondisk_kv.egg-info/SOURCES.txt
+static_ondisk_kv.egg-info/dependency_links.txt
+static_ondisk_kv.egg-info/requires.txt
+static_ondisk_kv.egg-info/top_level.txt
