@@ -1,0 +1,11 @@
+pyftc/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyftc/README.md,sha256=2CEy6mj2Rv7-Aoossm7nPeALXOQqDTCr5VSpDZuHsDs,30
+pyftc/__init__.py,sha256=PN-60Fw5DXhw4vdfiHLhEVcd_vNCurGJhlo__DWrCLM,814
+pyftc/tests/__init__.py,sha256=Z2xb_XgGEpErZaImhzozxqTjbvVz-cPv6UcF-9A7LxA,29
+pyftc/tests/acq_load.py,sha256=zGtXg1-HJ-hfpTLjuQId6do5bKF4uIFv_7cs3p9FUQI,1476
+pyftc/tests/srs.py,sha256=q3Aw4YwuWkx9oAFFmxGdIZT9zuzIzdahG372CHNq9LU,2186
+pyftc/tests/data/test.rpc,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyftc-0.1.0.dist-info/METADATA,sha256=tBcOVtbHC6zL9mr35rQPy9eVi8zd8llsA8qMBIYlwlk,1116
+pyftc-0.1.0.dist-info/WHEEL,sha256=i9qQj8KaD8_YEW0Vc2oS56fKju23RkQ-FVz-QmzVakQ,98
+pyftc-0.1.0.dist-info/top_level.txt,sha256=xc8dl6N-9nWjFvlsvzt3Wd71mBCPAhfhy4YSsslEtKA,6
+pyftc-0.1.0.dist-info/RECORD,,
