@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+double_ended_queue/__init__.py
+double_ended_queue.egg-info/PKG-INFO
+double_ended_queue.egg-info/SOURCES.txt
+double_ended_queue.egg-info/dependency_links.txt
+double_ended_queue.egg-info/top_level.txt
+tests/__init__.py
+tests/test_foo.py
