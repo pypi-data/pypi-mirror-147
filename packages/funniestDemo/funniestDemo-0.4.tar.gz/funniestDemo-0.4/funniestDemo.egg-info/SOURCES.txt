@@ -1,0 +1,8 @@
+setup.py
+funniestDemo/__init__.py
+funniestDemo/__main__.py
+funniestDemo.egg-info/PKG-INFO
+funniestDemo.egg-info/SOURCES.txt
+funniestDemo.egg-info/dependency_links.txt
+funniestDemo.egg-info/not-zip-safe
+funniestDemo.egg-info/top_level.txt
