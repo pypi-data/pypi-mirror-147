@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi" xmlns:util="http://schemas.microsoft.com/wix/UtilExtension">
+  <Product Id="*" UpgradeCode="{{ data.app.wix_guid }}" Version="{{ data.app.version }}"
+      Language="1033" Name="{{ data.app.name }}" Manufacturer="{{ data.company_name }}">
+
+    <Package InstallerVersion="300" Compressed="yes" Platform='x64' InstallScope="perMachine" />
+    <MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+    <Media Id="1" Cabinet="myapplication.cab" EmbedCab="yes" />
+    <Icon Id="{{ data.icon.name }}" SourceFile="{{ data.icon.path_work }}" />
+    <Property Id="ARPPRODUCTICON" Value="{{ data.icon.path_work }}" />
+    <Property Id="ApplicationFolderName" Value="{{ data.wix.root_dir }}" />
+    <Property Id="WixAppFolder" Value="WixPerMachineFolder" />
+
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <Directory Id="ProgramFiles64Folder">
+        <Directory Id="MyCompany" Name="{{ data.company_name }}">
+          <Directory Id="{{ data.wix.root_dir }}" Name="{{ data.app.name }}" />
+        </Directory>
+      </Directory>
+      <Directory Id="ProgramMenuFolder">
+        <Directory Id="MyCompanyStartMenuFolder" Name="{{ data.app.name }}">
+          <Directory Id="ApplicationProgramsFolder" Name="{{ data.app.name }}" />
+        </Directory>
+      </Directory>
+    </Directory>
+
+    <DirectoryRef Id="ApplicationProgramsFolder">
+      <Component Id="MediaPlayerShortcutComponent" Guid="*">
+        <Shortcut Id="MEDIAPLAYERSHORTCUT" Icon="MyIconID1" Name="MediaPlayer"
+                  WorkingDirectory="{{ data.wix.root_dir }}"
+                  Target="[{{ data.wix.root_dir }}]SMPlayer.exe">
+          <Icon Id="MyIconID1" SourceFile="$(var.SourceFilesDir)\SMPlayer.exe" />
+        </Shortcut>
+        <RemoveFolder Id="ApplicationProgramsFolder" On="uninstall" />
+        <RemoveFolder Id="RemoveMyCompanyStartMenuFolder"
+          Directory="MyCompanyStartMenuFolder" On="uninstall" />
+        <RegistryValue Root="HKMU"
+          Key="Software\{{ data.company_name }}\{{ data.app.name }}\MediaPlayer"
+          Type="integer" Name="installed" Value="1" KeyPath="yes" />
+      </Component>
+    </DirectoryRef>
+
+    <ComponentGroup Id="RegistryComponents">
+      <Component Id="smplayer2_http_scheme_handler" Directory="TARGETDIR" Guid="*">
+        <RegistryKey Root="HKCR" Key="streamboxmp2">
+          <RegistryValue Type="string" Value="smplayer" />
+          <RegistryValue Name="URL Protocol" Type="string" Value="" />
+          <RegistryValue Key="DefaultIcon" Type="string"
+            Value="[{{ data.wix.root_dir }}]SMPlayer.exe,1" />
+          <RegistryValue Key="shell\open\command" Type="string"
+                         Value="&quot;[{{ data.wix.root_dir }}]SMPlayer.exe&quot; -url &quot;%1&quot;" />
+        </RegistryKey>
+      </Component>
+    </ComponentGroup>
+
+    <Feature Id="MainApplication" Title="Main Application" Level="1">
+      <ComponentGroupRef Id="ComponentGroupMediaPlayer" />
+      <ComponentGroupRef Id="RegistryComponents" />
+      <ComponentRef Id="MediaPlayerShortcutComponent" />
+    </Feature>
+
+  </Product>
+</Wix>

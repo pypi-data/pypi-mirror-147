@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi"
+     xmlns:util='http://schemas.microsoft.com/wix/UtilExtension'>
+  <Product Id="*" UpgradeCode="{{ data.app.wix_guid }}" Version="{{ data.app.version }}"
+           Language="1033" Name="{{ data.app.name }}" Manufacturer="{{ data.company_name }}">
+
+    <Package InstallerVersion="300" Compressed="yes" Platform='x64' InstallScope="perMachine" />
+    <MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+    <Media Id="1" Cabinet="myapplication.cab" EmbedCab="yes" />
+    <Icon Id="{{ data.icon.name }}" SourceFile="{{ data.icon.path_work }}" />
+    <Property Id="ARPPRODUCTICON" Value="{{ data.icon.name }}" />
+    <Property Id="ApplicationFolderName" Value="{{ data.wix.root_dir }}" />
+    <Property Id="WixAppFolder" Value="WixPerMachineFolder" />
+
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <Directory Id="ProgramFiles64Folder">
+        <Directory Id="MyCompany" Name="{{ data.company_name }}">
+          <Directory Id="{{ data.wix.root_dir }}" Name="{{ data.app.name }}" />
+        </Directory>
+        <Directory Id="AvidExtension" Name="Avid">
+          <Directory Id="{{ data.components.container['avid'].root_dir }}" />
+        </Directory>
+        <?if $(var.MySku) = Universal ?>
+          <Directory Id="AdobeExtension" Name="Adobe">
+            <Directory Id="{{ data.components.container['adobe'].root_dir }}" />
+          </Directory>
+        <?endif ?>
+      </Directory>
+
+      <Directory Id="ProgramMenuFolder">
+        <Directory Id="MyCompanyStartMenuFolder" Name="{{ data.company_name }}">
+          <Directory Id="ApplicationProgramsFolder" Name="{{ data.app.name }}" />
+        </Directory>
+      </Directory>
+
+      <Directory Id="CommonAppDataFolder">
+        <Directory Id="SPECTRADATAROOTDIRECTORY" Name="{{ data.company_name }}">
+          <Directory Id="ProgramDataSpectraConf" Name="SpectraUI">
+            <Directory Id="CommonProgramDataHash" Name="hash">
+              <Component Id="CreateProgramDataHashDirectory" Guid="b8d6d238-5aa5-11eb-9eeb-30d9d9eed5cb">
+                <CreateFolder>
+                  <util:PermissionEx User="Users" GenericAll="yes" />
+                </CreateFolder>
+              </Component>
+            </Directory>
+          </Directory>
+        </Directory>
+      </Directory>
+
+      <?if $(var.MySku) = Universal ?>
+        <Directory Id="CommonFiles64Folder">
+          <Directory Id="{{ data.components.container['ofx'].root_dir }}" />
+        </Directory>
+      <?endif ?>
+
+    </Directory>
+    <DirectoryRef Id="ApplicationProgramsFolder">
+      <Component Id="SpectraControlPanelShortcutComponent" Guid="*">
+        <Shortcut Id="STARTPANELSHORTCUT" Icon="MyIconID1" Name="Spectra Control Panel" Show="minimized"
+                  WorkingDirectory="{{ data.wix.root_dir }}" Target="[SystemFolder]WindowsPowerShell\v1.0\powershell.exe"
+                  Arguments="-nop -ep bypass -c &quot;cd '[{{ data.wix.root_dir }}]'; .\control.ps1 -Command Start-Panel&quot;">
+          <Icon Id="MyIconID1" SourceFile="$(var.SourceFilesDir)\dist\SpectraControlPanel.exe" />
+        </Shortcut>
+        <RemoveFolder Id="ApplicationProgramsFolder" On="uninstall" />
+        <RemoveFolder Id="RemoveMyCompanyStartMenuFolder" Directory="MyCompanyStartMenuFolder" On="uninstall" />
+        <RegistryValue Root="HKMU" Key="Software\{{ data.company_name }}\{{ data.app.name }}\dist\SpectraControlPanel"
+                       Type="integer" Name="installed" Value="1" KeyPath="yes" />
+      </Component>
+    </DirectoryRef>
+
+    <Feature Id="AvidExtension" Title="Avid Extension" Level="1">
+      <ComponentGroupRef Id="{{ data.components.container['avid'].group }}" />
+    </Feature>
+
+    <?if $(var.MySku) = Universal ?>
+      <Feature Id="AdobeExtension" Title="Adobe Extension" Level="1">
+        <ComponentGroupRef Id="{{ data.components.container['adobe'].group }}" />
+      </Feature>
+
+      <Feature Id="OpenFXPlugin" Title="OpenFX plugin" Level="1">
+        <ComponentGroupRef Id="{{ data.components.container['ofx'].group }}" />
+      </Feature>
+    <?endif ?>
+
+    <Feature Id="SpectraProgramData" Title="Spectra Program Data" Level="1">
+      <ComponentGroupRef Id="{{ data.components.container['spectraui'].group }}" />
+    </Feature>
+
+    <Feature Id="MainApplication" Title="Main Application" Level="1">
+      <ComponentGroupRef Id="{{ data.components.container['app'].group }}" />
+      <ComponentRef Id="SpectraControlPanelShortcutComponent" />
+      <ComponentRef Id="CreateProgramDataHashDirectory" />
+    </Feature>
+
+    <InstallExecuteSequence>
+      <Custom Action="StopSpectra" After="InstallInitialize">Installed</Custom>
+      <Custom Action="PanelSetDefaults" Before="InstallFinalize">NOT REMOVE</Custom>
+      <Custom Action="InstallServiceSpectra3" Before="InstallFinalize">NOT REMOVE</Custom>
+      <Custom Action="InstallServiceSpectra5" Before="InstallFinalize">NOT REMOVE</Custom>
+      <Custom Action="DisableBlackmagic" Before="InstallFinalize">NOT REMOVE</Custom>
+      <Custom Action="UninstallServiceSpectraLegacy" Before="InstallFinalize">NOT REMOVE</Custom>
+      <Custom Action="UninstallServiceSpectra3" Before="RemoveFiles">REMOVE~="ALL" AND NOT UPGRADINGPRODUCTCODE</Custom>
+      <Custom Action="UninstallServiceSpectra5" Before="RemoveFiles">REMOVE~="ALL" AND NOT UPGRADINGPRODUCTCODE</Custom>
+      <Custom Action="RemoveExtras" After="UninstallServiceSpectra5">REMOVE~="ALL" AND NOT UPGRADINGPRODUCTCODE</Custom>
+    </InstallExecuteSequence>
+  </Product>
+</Wix>

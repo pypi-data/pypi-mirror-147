@@ -1,0 +1,22 @@
+version: 1.0.{build}
+image:
+- Visual Studio 2022
+init:
+- ps: iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/appveyor/ci/master/scripts/enable-rdp.ps1'))
+on_failure:
+- ps: choco install --no-progress vscode
+- ps: $blockrdp = $true; iex ((new-object net.webclient).downloadstring('https://raw.githubusercontent.com/appveyor/ci/master/scripts/enable-rdp.ps1'))
+install:
+- ps: ./tools.ps1
+- ps: git clone --quiet https://gitlab.com/streambox/removesalt.git
+- ps: Set-Location removesalt
+- ps: git clone --quiet --depth 1 https://gitlab.com/streambox/spectra_encassist
+- ps: git clone --quiet --depth 1 https://gitlab.com/streambox/streambox_iris_win_assets.git
+- ps: git clone --quiet --depth 1 https://gitlab.com/streambox/streambox_spectra_win_assets.git
+- ps: git clone --quiet --depth 1 https://gitlab.com/streambox/streambox_mediaplayer_win_assets.git
+- ps: ./setup.ps1
+build_script:
+- cmd: removesalt --multirun hydra.verbose=true app.run_signtool=false app.release=false app.stop_all_uploads=true +app=iris
+- cmd: removesalt --multirun hydra.verbose=true app.run_signtool=false app.release=false app.stop_all_uploads=true +app=mediaplayer app.sku=8bit,10bit
+- cmd: removesalt --multirun hydra.verbose=true app.run_signtool=false app.release=false app.stop_all_uploads=true +app=spectra app.sku=Avid,Universal
+#- cmd: powershell -File fail.ps1

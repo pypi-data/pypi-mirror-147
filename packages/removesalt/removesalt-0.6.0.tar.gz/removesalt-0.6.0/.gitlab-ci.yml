@@ -1,0 +1,15 @@
+stages:
+- build
+- test
+- deploy
+build-all:
+  stage: build
+  script:
+  - ./setup.ps1
+  - git clone --quiet --depth 1 https://gitlab.com/streambox/streambox_iris_win_assets.git
+  - removesalt --multirun hydra.verbose=true app.release=false app.run_signtool=true app.stop_all_uploads=true +app=iris
+  - git clone --quiet --depth 1 https://gitlab.com/streambox/streambox_mediaplayer_win_assets.git
+  - removesalt --multirun hydra.verbose=true app.run_signtool=true +app=mediaplayer app.release=false app.stop_all_uploads=true app.sku=8bit,10bit
+  - git clone --quiet --depth 1 https://gitlab.com/streambox/spectra_encassist
+  - git clone --quiet --depth 1 https://gitlab.com/streambox/streambox_spectra_win_assets.git
+  - removesalt --multirun hydra.verbose=true app.sku=Avid,Universal app.run_signtool=true +app=spectra app.release=false app.stop_all_uploads=true

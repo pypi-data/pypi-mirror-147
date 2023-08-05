@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi"
+     xmlns:util="http://schemas.microsoft.com/wix/UtilExtension"
+     xmlns:bal="http://schemas.microsoft.com/wix/BalExtension">
+
+  <Bundle Name="{{ data.company_name }} {{ data.app.name}}"
+    Version="{{ data.app.version }}"
+    Manufacturer="{{ data.company_name }}"
+    UpgradeCode="{{ data.app.wix_guid }}"
+    IconSourceFile="{{ data.icon.path_work }}">
+    <BootstrapperApplicationRef Id="WixStandardBootstrapperApplication.RtfLicense">
+      <bal:WixStandardBootstrapperApplication
+        LicenseUrl="http://opensource.org/licenses/ms-rl"
+        LogoFile="{{ data.splash_image.path_work }}"
+        ThemeFile="$(var.ThemeFile)"
+        LocalizationFile="$(var.LocalizationFile)" />
+    </BootstrapperApplicationRef>
+    <Chain>
+      <PackageGroupRef Id="redist" />
+      <PackageGroupRef Id="InstallerPackages" />
+    </Chain>
+  </Bundle>
+  <Fragment>
+    <!-- C++ Runtime -->
+    <util:RegistrySearch
+      Id="VCPLUSPLUS14"
+      Variable="VCPLUSPLUS14"
+      Root="HKLM"
+      Key="SOFTWARE\Microsoft\VisualStudio\14.0\VC\Runtimes\X64"
+      Value="Installed"
+      Result="value" />
+    <util:FileSearch Id="GetVC14X64Exists" Condition="VersionNT64" Variable="vc14x64Exists"
+                     Path="[System64Folder]vcruntime140.dll" Result="exists" />
+    <util:FileSearch Id="GetVC14X64Version" Condition="VersionNT64" Variable="vc14x64Version"
+                     Path="[System64Folder]vcruntime140.dll" Result="version" />
+    <PackageGroup Id="redist">
+      <ExePackage Name="vc_redist.x64.exe"
+                  Id="vc140"
+                  InstallCondition="1"
+                  Compressed="no"
+                  Protocol="burn"
+                  PerMachine="yes"
+                  Cache="no"
+                  Vital="yes"
+                  Permanent="yes"
+                  DetectCondition="VCPLUSPLUS14"
+                  DownloadUrl="https://aka.ms/vs/17/release/vc_redist.x64.exe">
+        <RemotePayload CertificatePublicKey="236F73B837007769A26657E02FEB5869EB09D01A"
+                       CertificateThumbprint="C9CAEDC2CECF953E812C6446D41927B9864BB880"
+                       Description="Microsoft Visual C++ 2015-2022 Redistributable (x64) - 14.31.31103"
+                       Hash="7741A5CAD238CE3E4CA7756058F2A67A57FEE9D1"
+                       ProductName="Microsoft Visual C++ 2015-2022 Redistributable (x64) - 14.31.31103"
+                       Size="25314320"
+                       Version="14.31.31103.0" />
+      </ExePackage>
+    </PackageGroup>
+  </Fragment>
+  <Fragment>
+    <PackageGroup Id="InstallerPackages">
+      <!-- Streambox Spectra -->
+      <MsiPackage SourceFile="$(var.MsiPath)" DisplayInternalUI="no">
+        <MsiProperty Name="ARPSYSTEMCOMPONENT" Value="1" />
+      </MsiPackage>
+    </PackageGroup>
+  </Fragment>
+</Wix>

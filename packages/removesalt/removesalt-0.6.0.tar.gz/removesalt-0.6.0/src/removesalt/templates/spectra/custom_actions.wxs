@@ -1,0 +1,43 @@
+<?xml version='1.0'?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi" xmlns:util='http://schemas.microsoft.com/wix/UtilExtension'>
+  <Fragment>
+    <SetProperty Id="DisableBlackmagic" Before="DisableBlackmagic" Sequence="execute" Value="&quot;[SystemFolder]WindowsPowerShell\v1.0\powershell.exe&quot; -nop -ep bypass -c &quot;cd '[SPECTRAROOTDIRECTORY]'; .\disable-blackmagic.ps1&quot;" />
+    <CustomAction Id="DisableBlackmagic" BinaryKey="WixCA" DllEntry="WixQuietExec" Execute="deferred" Impersonate="no" Return="ignore" />
+  </Fragment>
+  <Fragment>
+    <SetProperty Id="StopSpectra" Before="StopSpectra" Sequence="execute" Value="&quot;[SystemFolder]WindowsPowerShell\v1.0\powershell.exe&quot; -nop -ep bypass -c &quot;cd '[SPECTRAROOTDIRECTORY]'; .\control.ps1 -Command StopSpectra&quot;" />
+    <CustomAction Id="StopSpectra" BinaryKey="WixCA" DllEntry="WixQuietExec" Execute="deferred" Impersonate="no" Return="ignore" />
+  </Fragment>
+  <Fragment>
+    <SetProperty Id="PanelSetDefaults" Before="PanelSetDefaults" Sequence="execute" Value="&quot;[SystemFolder]WindowsPowerShell\v1.0\powershell.exe&quot; -nop -ep bypass -c &quot;cd '[SPECTRAROOTDIRECTORY]'; .\control.ps1 -Command PanelSetDefaults&quot;" />
+    <CustomAction Id="PanelSetDefaults" BinaryKey="WixCA" DllEntry="WixQuietExec" Execute="deferred" Impersonate="no" Return="ignore" />
+  </Fragment>
+  <Fragment>
+    <SetProperty Id="InstallServiceSpectra3" Before="InstallServiceSpectra3" Sequence="execute" Value="&quot;[SystemFolder]WindowsPowerShell\v1.0\powershell.exe&quot; -nop -ep bypass -c &quot;cd '[SPECTRAROOTDIRECTORY]'; .\control.ps1 -Command InstallServiceSpectra3&quot;" />
+    <CustomAction Id="InstallServiceSpectra3" BinaryKey="WixCA" DllEntry="WixQuietExec" Execute="deferred" Impersonate="no" Return="ignore" />
+  </Fragment>
+  <Fragment>
+    <SetProperty Id="InstallServiceSpectra5" Before="InstallServiceSpectra5" Sequence="execute" Value="&quot;[SystemFolder]WindowsPowerShell\v1.0\powershell.exe&quot; -nop -ep bypass -c &quot;cd '[SPECTRAROOTDIRECTORY]'; .\control.ps1 -Command InstallServiceSpectra5&quot;" />
+    <CustomAction Id="InstallServiceSpectra5" BinaryKey="WixCA" DllEntry="WixQuietExec" Execute="deferred" Impersonate="no" Return="ignore" />
+  </Fragment>
+  <Fragment>
+    <SetProperty Id="ShortcutRunAsAdminSpectraControlPanel" Before="ShortcutRunAsAdminSpectraControlPanel" Sequence="execute" Value="&quot;[SystemFolder]WindowsPowerShell\v1.0\powershell.exe&quot; -nop -ep bypass -c &quot;using module '[SPECTRAROOTDIRECTORY]control.psm1'; $s = New-Object ShortcutManager; $s.ApplyRunAsAdmin('[MyCompanyStartMenuFolder]Spectra\Spectra Control Panel.lnk');&quot;" />
+    <CustomAction Id="ShortcutRunAsAdminSpectraControlPanel" BinaryKey="WixCA" DllEntry="WixQuietExec" Execute="deferred" Impersonate="no" Return="ignore" />
+  </Fragment>
+  <Fragment>
+    <SetProperty Id="UninstallServiceSpectraLegacy" Before="UninstallServiceSpectraLegacy" Sequence="execute" Value="&quot;[SystemFolder]WindowsPowerShell\v1.0\powershell.exe&quot; -nop -ep bypass -c &quot;cd '[SPECTRAROOTDIRECTORY]'; .\control.ps1 -Command RemoveLegacyService&quot;" />
+    <CustomAction Id="UninstallServiceSpectraLegacy" BinaryKey="WixCA" DllEntry="WixQuietExec" Execute="deferred" Impersonate="no" Return="ignore" />
+  </Fragment>
+  <Fragment>
+    <SetProperty Id="UninstallServiceSpectra3" Before="UninstallServiceSpectra3" Sequence="execute" Value="&quot;[SystemFolder]WindowsPowerShell\v1.0\powershell.exe&quot; -nop -ep bypass -c &quot;cd '[SPECTRAROOTDIRECTORY]'; .\control.ps1 -Command UninstallServiceSpectra3&quot;" />
+    <CustomAction Id="UninstallServiceSpectra3" BinaryKey="WixCA" DllEntry="WixQuietExec" Execute="deferred" Impersonate="no" Return="ignore" />
+  </Fragment>
+  <Fragment>
+    <SetProperty Id="UninstallServiceSpectra5" Before="UninstallServiceSpectra5" Sequence="execute" Value="&quot;[SystemFolder]WindowsPowerShell\v1.0\powershell.exe&quot; -nop -ep bypass -c &quot;cd '[SPECTRAROOTDIRECTORY]'; .\control.ps1 -Command UninstallServiceSpectra5&quot;" />
+    <CustomAction Id="UninstallServiceSpectra5" BinaryKey="WixCA" DllEntry="WixQuietExec" Execute="deferred" Impersonate="no" Return="ignore" />
+  </Fragment>
+  <Fragment>
+    <SetProperty Id="RemoveExtras" Before="RemoveExtras" Sequence="execute" Value="&quot;[SystemFolder]WindowsPowerShell\v1.0\powershell.exe&quot; -nop -ep bypass -c &quot;cd '[SPECTRAROOTDIRECTORY]'; .\control.ps1 -Command StopAll; .\control.ps1 -Command RemoveExtras&quot;" />
+    <CustomAction Id="RemoveExtras" BinaryKey="WixCA" DllEntry="WixQuietExec" Execute="deferred" Impersonate="no" Return="ignore" />
+  </Fragment>
+</Wix>

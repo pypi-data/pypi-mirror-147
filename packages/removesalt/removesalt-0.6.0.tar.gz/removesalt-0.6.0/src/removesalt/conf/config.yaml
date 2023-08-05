@@ -1,0 +1,70 @@
+app:
+  actions:
+    name: custom_actions.wxs
+    path_work: ${path:${app.work1}/${.name}}
+  app:
+    wix_source:
+      template: ${path:${app.wix.templates_dir}/app.wxs}
+      work: ${path:${app.work1}/app.wxs}
+  app_wix:
+    name: app.wxs
+  artifacts:
+    url:
+      latest: https://${app.s3bucket.name}.s3-us-west-2.amazonaws.com/latest/win/${app.zip_not_versioned.name}
+      versioned: https://${app.s3bucket.name}.s3-us-west-2.amazonaws.com/win/${app.app.version}/${app.zip_versioned.name}
+  bundle:
+    bin: ${path:${app.work1}/${app.bundle.name}}
+    wix_source:
+      template: ${path:${app.wix.templates_dir}/bundle.wxs}
+      work: ${path:${app.work1}/bundle.wxs}
+  company_name: Streambox
+  deploy: ${path:${app.work}/deploy/}
+  deploy1: ${path:${app.work}/deploy1/}
+  deploy2: ${path:${app.work}/deploy2/}
+  deploy3: ${path:${app.work}/deploy3/}
+  deploy4: ${path:${app.work}/deploy4/}
+  deploy5: ${path:${app.work}/deploy5/}
+  engine: ${path:${app.work1}/engine.exe}
+  icon:
+    name: Streambox_128.ico
+    path_source: ${path:${app.installer_source_path}/${.name}}
+    path_work: ${path:${app.work1}/${.name}}
+  localization_file:
+    name: ClassicTheme.wxl
+    path_work: ${path:${app.work1}/${.name}}
+  msi:
+    path_work: ${path:${app.work1}/${.name}}
+  orig_cwd: ${orig_cwd:}
+  quickstart:
+    path_latest: ${path:${app.s3bucket.path_latest}/${.name}}
+    path_source: ${path:${app.bin_path}/docs/${.name}}
+    path_work: ${path:${app.work1}/${.name}}
+  run_signtool: true
+  s3bucket:
+    endpoint: s3://${.name}
+    path_latest: ${path:${.path_work}/latest/win}
+    path_versioned: ${path:${.path_work}/win/${app.app.version}}
+    path_work: ${path:${app.work}/s3/${.name}}
+  sku:
+  splash_image:
+    path_source: ${path:${app.installer_source_path}/${.name}}
+    path_work: ${path:${app.work1}/${.name}}
+  theme_file:
+    name: ClassicTheme.xml
+    path_work: ${path:${app.work1}/${.name}}
+  ver_file:
+    name: version.txt
+    path_deploy: ${path:${app.deploy}/${.name}}
+    path_work: ${path:${app.work1}/${.name}}
+  wix:
+    dry_run: false
+    templates_dir: templates/${app.installer_name}/
+  work: ${path:${app.orig_cwd}/build/${app.installer_name}}
+  work1: ${path:${app.work}/work1}
+  zip_not_versioned:
+    path_work: ${path:${app.work1}/${.name}}
+  zip_versioned:
+    path_work: ${path:${app.work1}/${.name}}
+defaults:
+  - _self_
+  - override hydra/job_logging: custom

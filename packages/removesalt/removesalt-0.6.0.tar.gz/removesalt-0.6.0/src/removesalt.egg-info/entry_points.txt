@@ -1,0 +1,2 @@
+[console_scripts]
+removesalt = removesalt.main:my_app
