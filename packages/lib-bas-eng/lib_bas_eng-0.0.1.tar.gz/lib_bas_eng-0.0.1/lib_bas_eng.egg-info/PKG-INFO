@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: lib-bas-eng
+Version: 0.0.1
+Summary: First Lib by BAS
+Home-page: https://github.com/basketball999/lib_bas_eng
+Author: BASKETBALL
+Author-email: ballketball999@gmail.com
+License: MIT
+Download-URL: https://github.com/basketball999/lib_bas_eng/archive/v0.0.1.zip
+Keywords: bas
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE.txt
+
+(Lib BAS) เป็นตัวอย่างการอัพโหลด package ไปยัง pypi.org
+=======================================================
+
+PyPi: https://pypi.org/project/lib_bas_eng/
+
+สวัสดีจ้าาาา แพ็คนี้คือแพ็คเกจที่อธิบายโปรไฟล์ของนาย BAS
+และสามารถนำไปใช้กับผู้อื่นได้
+
+วิธีติดตั้ง
+~~~~~~~~~~~
+
+เปิด CMD / Terminal
+
+.. code:: python
+
+   pip install lib_bas_eng
+
+วิธีใช้งานแพ็คเพจนี้
+~~~~~~~~~~~~~~~~~~~~
+
+-  เปิด IDLE ขึ้นมาแล้วพิมพ์…
+
+.. code:: python
+
+   from lib_bas_eng import BasInfo
+
+   my = BasInfo('BAS')
+   my.company = 'MIMO Tech'
+   my.hobby = ['Play','Reading','Sleeping']
+   print(my.name)
+   my.show_email()
+   my.show_myart()
+   my.show_hobby()
+   my.show_cat()
+
+

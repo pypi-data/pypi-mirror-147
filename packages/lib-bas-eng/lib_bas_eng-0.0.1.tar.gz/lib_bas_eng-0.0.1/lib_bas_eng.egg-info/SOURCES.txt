@@ -1,0 +1,10 @@
+LICENSE.txt
+README.rst
+setup.cfg
+setup.py
+lib_bas_eng/__init__.py
+lib_bas_eng/bas.py
+lib_bas_eng.egg-info/PKG-INFO
+lib_bas_eng.egg-info/SOURCES.txt
+lib_bas_eng.egg-info/dependency_links.txt
+lib_bas_eng.egg-info/top_level.txt
