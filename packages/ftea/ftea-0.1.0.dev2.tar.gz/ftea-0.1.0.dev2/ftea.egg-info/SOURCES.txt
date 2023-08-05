@@ -1,0 +1,14 @@
+MANIFEST.in
+setup.py
+ftea/__init__.py
+ftea/_tea.c
+ftea/_tea.pyi
+ftea/_tea.pyx
+ftea/tea.pxd
+ftea.egg-info/PKG-INFO
+ftea.egg-info/SOURCES.txt
+ftea.egg-info/dependency_links.txt
+ftea.egg-info/not-zip-safe
+ftea.egg-info/requires.txt
+ftea.egg-info/top_level.txt
+simple-crypto/tea.c
