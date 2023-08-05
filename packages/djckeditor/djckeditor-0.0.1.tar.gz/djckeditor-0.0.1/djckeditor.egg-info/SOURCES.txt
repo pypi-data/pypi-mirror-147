@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+djckeditor/__init__.py
+djckeditor/urls.py
+djckeditor.egg-info/PKG-INFO
+djckeditor.egg-info/SOURCES.txt
+djckeditor.egg-info/dependency_links.txt
+djckeditor.egg-info/requires.txt
+djckeditor.egg-info/top_level.txt
