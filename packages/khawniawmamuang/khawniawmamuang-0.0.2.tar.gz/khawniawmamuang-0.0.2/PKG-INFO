@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: khawniawmamuang
+Version: 0.0.2
+Summary: What is a Mango Sticky Rice? by Uncle Engineer
+Home-page: https://github.com/UncleEngineer/MangoStickyRice
+Author: Uncle Engineer
+Author-email: loong.wissawakorn@gmail.com
+License: MIT
+Download-URL: https://github.com/UncleEngineer/MangoStickyRice/archive/v0.0.1.zip
+Keywords: Mango Sticky Rice,Uncle Engineer
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE.txt
+
+(Uncle Profile) เป็นตัวอย่างการอัพโหลด package ไปยัง pypi.org
+=============================================================
+
+PyPi: https://pypi.org/project/khawniawmamuang/
+
+สวัสดีจ้าาาา แพ็คนี้คือแพ็คเกจที่อธิบายวิธีการทำข้าวเหนียวมะม่วง (Mango
+Sticky Rice) มีฟังชั่นโชว์วิธีการทำ ส่วนประกอบต่างๆ
+
+วิธีติดตั้ง
+~~~~~~~~~~~
+
+เปิด CMD / Terminal
+
+.. code:: python
+
+   pip install khawniawmamuang
+
+วิธีใช้งานแพ็คเพจนี้
+~~~~~~~~~~~~~~~~~~~~
+
+-  เปิด IDLE ขึ้นมาแล้วพิมพ์…
+
+.. code:: python
+
+   from khawniawmamuang import MangoStickyRice
+
+   mango = MangoStickyRice()
+   mango.what_is_it() #ข้าวเหนียวมะม่วงคืออะไร?
+   mango.show_ingredients() #มีส่วนผสมอะไรบ้าง?
+   mango.show_how_to(eng=True) #วิธีการทำ
+   mango.show_youtube() #โชว์คลิปทำ
+   mango.show_google() #โชว์เทรนด์ google
+   mango.show_location() #โชว์ตำแหน่งร้าน
+   mango.show_image(open=True) #โชว์ภาพ
+   mango.show_ascii() #โชว์ ascii
+
+พัฒนาโดย: ลุงวิศวกร สอนคำนวณ FB: https://www.facebook.com/UncleEngineer
+
+YouTube: https://www.youtube.com/UncleEngineer
+
+
