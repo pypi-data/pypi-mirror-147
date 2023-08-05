@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: polyhorner
+Version: 0.2.0
+Summary: Will build univariate using an optimized Horner method and multivariate polynomial using a somewhat optimzed Horner method
+Home-page: https://github.com/IDontReallyCode/polyhorner
+Author: IDontReallyCode
+Author-email: idontreallycode@outlook.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# polyhorner
+This package will:
+- build univariate polynomials using an optimized Horner's method and fast numba loops
+- build multivariate polynomials using a somewhat optimized Horner's method and fast numba loops
+
+
+I use some functions distributed under the GNU LGPL license from 
+https://people.sc.fsu.edu/~jburkardt/py_src/monomial
+
+
