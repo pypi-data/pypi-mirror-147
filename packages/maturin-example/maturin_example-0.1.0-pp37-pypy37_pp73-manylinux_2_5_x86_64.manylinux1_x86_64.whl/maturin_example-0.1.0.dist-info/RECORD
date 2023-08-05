@@ -1,0 +1,5 @@
+maturin_example-0.1.0.dist-info/METADATA,sha256=6_KLHXIJyVc7hXm8Q_TnnbB_EsREAsDQX4dpAv5VDgY,59
+maturin_example-0.1.0.dist-info/WHEEL,sha256=ZTqnvSzqeyYW-5OYoG4o0iElNy39iSxP33qBQL1kUAI,132
+maturin_example/__init__.py,sha256=KH9szEsgSDTSb4uOKx_iRoVZenuSpn7dnZlIpFj162o,66
+maturin_example/maturin_example.pypy37-pp73-x86_64-linux-gnu.so,sha256=EpoMFQF5QCuGGpfVRGlfOFTQ61gb6MfEYSSfK8_92Uk,403864
+maturin_example-0.1.0.dist-info/RECORD,,
