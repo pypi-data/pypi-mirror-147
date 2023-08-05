@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+ndc/__init__.py
+ndc/numerical_differentiation.py
+ndc.egg-info/PKG-INFO
+ndc.egg-info/SOURCES.txt
+ndc.egg-info/dependency_links.txt
+ndc.egg-info/requires.txt
+ndc.egg-info/top_level.txt
+ndc.egg-info/zip-safe

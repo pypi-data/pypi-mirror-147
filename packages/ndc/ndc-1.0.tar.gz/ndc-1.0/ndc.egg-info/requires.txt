@@ -1,0 +1,8 @@
+torch
+
+[dev]
+black
+isort
+matplotlib
+pytest
+pytest-cov
