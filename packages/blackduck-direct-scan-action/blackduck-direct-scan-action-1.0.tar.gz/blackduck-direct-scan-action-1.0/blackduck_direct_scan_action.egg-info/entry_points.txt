@@ -1,0 +1,2 @@
+[console_scripts]
+blackduck-direct-scan-action = bdscan.bdscanaction:main
