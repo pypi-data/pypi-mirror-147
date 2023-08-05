@@ -1,0 +1,12 @@
+numpy
+scipy
+meshio
+pymetis
+
+[test]
+pytest
+pytest-xdist
+pytest-cov
+pytest-subtests
+snakeviz
+vermin
