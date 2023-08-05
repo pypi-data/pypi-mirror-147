@@ -1,0 +1,11 @@
+.gitignore
+LICENSE
+README.md
+setup.py
+transformers_onnx/__init__.py
+transformers_onnx/onnx_model.py
+transformers_onnx.egg-info/PKG-INFO
+transformers_onnx.egg-info/SOURCES.txt
+transformers_onnx.egg-info/dependency_links.txt
+transformers_onnx.egg-info/requires.txt
+transformers_onnx.egg-info/top_level.txt
