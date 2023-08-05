@@ -1,0 +1,3 @@
+[console_scripts]
+shownode=shownode.shownode:cli
+
