@@ -1,0 +1,10 @@
+pparse/__init__.py,sha256=0D6srYi9ejPUnwpjVmDoJB-oMuBqPSiP50LPRoM8G0I,23
+pparse/__main__.py,sha256=IJFvqEKuLKAHO28R_MpD4ubvWVrPWZiZcrO_BlAo2HA,6459
+pparse/iam.py,sha256=u7kIM-2WlPSRfhI1meDfCVOdZRfagqSn6qwwGVhdROU,2051
+pparse/policy.py,sha256=94ksLxhV2gKeVMblaoDk7ibXZpbbGNYBLTZD0BYO8y8,5240
+pparse-0.2.0.dist-info/LICENSE.txt,sha256=t9ZdGYzz1ML_NPmiCSHSkSOay8hglPv1TOHG_x5TogA,1070
+pparse-0.2.0.dist-info/METADATA,sha256=OMOEzOGGnF_J5WyBpVpsw_UQUj5GjhktqFHPQsEwsGY,6104
+pparse-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pparse-0.2.0.dist-info/entry_points.txt,sha256=5NTOKcnrNHcorDBItQPHwPkpzdqXNmWdXpx51b6fCiQ,47
+pparse-0.2.0.dist-info/top_level.txt,sha256=weZbDaDgvLwxCoEnyi_kvn8Qvp5I1wqwGfPswn4OncQ,7
+pparse-0.2.0.dist-info/RECORD,,
