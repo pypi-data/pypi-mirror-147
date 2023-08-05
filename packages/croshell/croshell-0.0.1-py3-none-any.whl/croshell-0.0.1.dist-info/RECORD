@@ -1,0 +1,7 @@
+windows_terminal_setup/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+windows_terminal_setup/change_terminal_settings.py,sha256=TTUPnPhKNI4l5B4GNyn7ZNSrMIqxbcFsjbUB_2IdYXs,5639
+windows_terminal_setup/fancy_prompt_themes.py,sha256=NFFzNeaTc8bI6JIR6GnM5UQaIehxVXwXL7tAFw7ENkc,3078
+croshell-0.0.1.dist-info/METADATA,sha256=PvfU-aN2AVV7VW2jJpbvk2hC0dkrHHxf8TQTuyyIQ0c,1487
+croshell-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+croshell-0.0.1.dist-info/top_level.txt,sha256=dtnJ06hI7UL6aYPc1hfUzDo2Wo2HsuVgiQ9niYEPQgY,23
+croshell-0.0.1.dist-info/RECORD,,
