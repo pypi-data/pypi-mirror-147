@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: bbpn
+Version: 1.0
+Summary: Bye Bye Pink Noise - 1/f noise subtraction tool for JWST cal.fits files
+Home-page: https://github.com/mtakahiro
+Author: Takahiro Morishita
+Author-email: takahiro@ipac.caltech.edu
+License: UNKNOWN
+Download-URL: https://github.com/
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Requires: astropy
+Requires: numpy
+License-File: LICENSE
+
+UNKNOWN
+
