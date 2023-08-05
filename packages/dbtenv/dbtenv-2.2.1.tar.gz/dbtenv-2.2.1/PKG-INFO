@@ -1,0 +1,129 @@
+Metadata-Version: 2.1
+Name: dbtenv
+Version: 2.2.1
+Summary: dbtenv is a version manager for dbt, automatically installing and switching to the needed adapter and version of dbt.
+Home-page: https://github.com/brooklyn-data/dbtenv
+License: Apache 2.0
+Keywords: dbt
+Author: Brooklyn Data Co.
+Author-email: hello@brooklyndata.co
+Requires-Python: >=3.8
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PyYAML (>=6.0,<7.0)
+Description-Content-Type: text/markdown
+
+# dbtenv
+
+dbtenv is a version manager for dbt, automatically installing and switching to the needed adapter and version of [dbt](https://docs.getdbt.com/docs/introduction).
+
+## Quickstart
+### Installation
+
+1. Install [pipx](https://pypa.github.io/pipx/) ([What is pipx?](https://www.google.com/search?q=pipx&rlz=1C5GCEM_enGB953GB953&oq=Pipx&aqs=chrome.0.69i59i512j0i512l2j69i59j0i512l2j69i60l2.1010j0j7&sourceid=chrome&ie=UTF-8)).
+2. Run `pipx install dbtenv-dbt-alias`
+
+### Usage
+If `dbtenv-dbt-alias` is installed per the above, dbt commands can be used as normal and will be routed through dbtenv. dbtenv will automatically determine, install and use the required dbt adapter and version.
+
+Illustrative example
+```
+➜  dev/dbt_project ✗ dbt compile
+dbtenv info:  Using dbt-bigquery==1.0.0 (set by dbt_project.yml).
+10:48:43  Running with dbt=1.0.4
+
+10:48:45  Found 73 models, 142 tests, 2 snapshots, 0 analyses, 383 macros, 0 operations, 0 seed files, 44 sources, 0 exposures, 0 metrics
+10:48:45
+10:49:14  Concurrency: 1 threads (target='dev')
+10:49:14
+10:49:20  Done.
+```
+
+## Installation Options
+
+There are two packages available for installation:
+- `dbtenv`
+- `dbtenv-dbt-alias`
+
+`dbtenv-dbt-alias` is identical to `dbtenv`, with the exception of adding a `dbt` entry point. The `dbt` command then acts as a direct shortcut to `dbtenv execute --`, and means that dbtenv can used as a drop-in replacement to installing dbt normally.
+
+## Available Commands
+
+- `dbtenv --help` - Print documentation and available commands. Can also be run for information on a individual command, e.g. `dbtenv versions --help`.
+- `dbtenv versions` - List the installable versions of dbt, marking those which are currently installed. Add the `--installed` flag to show only those which are installed.
+- `dbtenv install <dbt_pip_specifier>` - Install a specific version of dbt, e.g. `dbtenv install dbt-snowflake==1.0.0`.
+- `dbtenv uninstall <dbt_pip_specifier>` - Uninstall a specific version of dbt, e.g. `dbtenv uninstall dbt-snowflake==1.0.0`.
+- `dbtenv version` - Print the dbt version dbtenv determines automatically for the current environment.
+- `dbtenv which` - Print the full path to the executable of the dbt version dbtenv determines automatically for the current environment.
+- `dbtenv execute` - Execute a dbt command.
+
+If `dbtenv-dbt-alias` is installed:
+- All the above plus:
+- `dbt <args>` - The dbt CLI.
+
+
+## dbt Version Management
+dbtenv will automatically install the required version of dbt for the current project by default. To disable this behaviour, set the environment variable `DBTENV_AUTO_INSTALL` to `false`.
+
+By default, dbtenv creates virtual environments for each dbt package version within `~/.dbt/versions`. You can customize this location by setting the `DBTENV_VENVS_DIRECTORY` environment variable.
+
+By default, dbtenv uses whichever Python version it was installed with to install dbt, but that can be changed by setting a `DBTENV_PYTHON` environment variable to the path of a different Python executable, or specifying `--python <path>` when running `dbtenv install`.
+
+## Switching between dbt versions
+### Adapter type
+If dbtenv is invoked within a dbt project, dbtenv will look for the project's default target adapter type in `profiles.yml`. If dbt's `--target` argument is set, dbtenv will use that target's adapter type instead. To use the `dbtenv execute` command outside of a dbt project (such as `dbt init`), a pip specifier should be passed to dbtenv execute's `--dbt` argument so that dbtenv knows which adapter to use.
+
+### dbt version
+
+dbtenv determines the dbt version to use from the following sources, using the first one it finds:
+
+1. The `dbtenv execute` command's optional `--dbt <version>` argument.
+2. The `DBT_VERSION` environment variable.
+
+3. If not running within a dbt project:
+    1. The first `.dbt_version` file found searching the working directory path (local version).
+    2. The `~/.dbt/version` file (global version).
+4. The current dbt project's [dbt_project.yml](https://docs.getdbt.com/reference/project-configs/require-dbt-version/) version requirements.
+   - If a local or global dbt version has been set, dbtenv will use that version if in the range set by `require-dbt-version`.
+5. The locally or globally set version.
+6. The max installed dbt version (preferring stable versions).
+7. The max installable dbt version (preferring stable versions).
+
+You can:
+- Run `dbtenv version --global <version>` to set the dbt version globally in the `~/.dbt/version` file. The `<version>` can be either a dbt version (e.g. 1.0.0) or full pip specifier (e.g. dbt-snowflake==1.0.0). dbtenv will attempt to automatically detect the required adapter or version from the environment if not specified.
+- Run `dbtenv version --local <version>` to set the dbt version for the current directory in a `.dbt_version` file. The `<version>` can be either a dbt version (e.g. 1.0.0) or full pip specifier (e.g. dbt-snowflake==1.0.0). dbtenv will attempt to automatically detect the required adapter or version from the environment if not specified.
+
+## Running dbt through dbtenv
+
+### If dbtenv-dbt-alias installed
+
+The `dbt` command then acts as a direct shortcut to `dbtenv execute --`, and means that dbtenv can used as a drop-in replacement to installing dbt normally. dbtenv will automatically identify which package and version of dbt to use. If you need to manually specify a dbt package version to run with, use the `dbtenv execute` command.
+
+### dbtenv execute
+
+Run `dbtenv execute -- <dbt arguments>` to execute the dbt version determined automatically from the current environment, or run `dbtenv execute --dbt <version> -- <dbt arguments>` to execute a specific dbt version.
+
+For example:
+- `dbtenv execute -- run` will execute `dbt run` using the version determined automatically from the current environment.
+- `dbtenv execute --dbt 1.0.0 -- run` will execute `dbt run` using dbt 1.0.0, automatically detecting the required adapter from the default target in `profiles.yml`.
+- `dbtenv execute --dbt 1.0.0 -- run --target prod` will execute `dbt run` using dbt 1.0.0, using the required adapter for the 'prod' target in `profiles.yml`.
+- `dbtenv execute --dbt dbt-bigquery==1.0.0 -- run` will execute `dbt run` using dbt-bigquery==1.0.0.
+
+
+## Development
+
+### Development setup
+1. Clone this repository onto your computer.
+2. Install Poetry `pipx install poetry` ([What is pipx?](https://www.google.com/search?q=pipx&rlz=1C5GCEM_enGB953GB953&oq=Pipx&aqs=chrome.0.69i59i512j0i512l2j69i59j0i512l2j69i60l2.1010j0j7&sourceid=chrome&ie=UTF-8))
+3. Navigate to the `dbtenv` directory, and install the project into a virtual environment `poetry install`
+4. Activate the virtual environment `poetry shell`
+5. Any `dbtenv` commands will run using the local version of the project.
+
