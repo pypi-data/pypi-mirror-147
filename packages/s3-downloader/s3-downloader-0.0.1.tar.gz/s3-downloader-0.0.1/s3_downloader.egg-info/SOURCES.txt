@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+s3_downloader.egg-info/PKG-INFO
+s3_downloader.egg-info/SOURCES.txt
+s3_downloader.egg-info/dependency_links.txt
+s3_downloader.egg-info/requires.txt
+s3_downloader.egg-info/top_level.txt
