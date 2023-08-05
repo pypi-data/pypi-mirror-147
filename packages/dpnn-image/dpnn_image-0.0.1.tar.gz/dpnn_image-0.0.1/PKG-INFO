@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: dpnn_image
+Version: 0.0.1
+Summary: dpnn image library
+Home-page: https://github.com/
+Author: yangshuai
+Author-email: shaneyangshuai@didiglobal.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+dpnn image library
+
