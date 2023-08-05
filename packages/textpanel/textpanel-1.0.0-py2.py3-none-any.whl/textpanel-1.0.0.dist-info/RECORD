@@ -1,0 +1,10 @@
+textpanel/__init__.py,sha256=qkPXQ_y_hZbbGf4Eem9OT1RrC2RgExBxJ5cYJvV2qGg,30
+textpanel/__version__.py,sha256=z13bIwAKW_X6OwPYMjV87w7PHsCvE1Yga6wUkRxoBBk,66
+textpanel/boxes.py,sha256=Kmxo5yef7iSgA5nJozQe1EtTMhOn5FBGAnv8-vOiick,1912
+textpanel/colors.py,sha256=xCPT_lumv6D3CcTFQ8NMDxvBVEFqVRnP8pawdxTWRso,450
+textpanel/textpanel.py,sha256=VqBmmwviCgZIf6RF2ArvP7uWbmXB-0BpYoFZU2-Y7Ao,5209
+textpanel-1.0.0.dist-info/LICENSE,sha256=0MQAUKESgrQK21TGzRLa7Q5mJT8IefyoeKtwgEVTKbI,1088
+textpanel-1.0.0.dist-info/METADATA,sha256=7RPYhHBgoura_fBnz9pyBnkOuZoPfjUFq-6a476XgPQ,3902
+textpanel-1.0.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+textpanel-1.0.0.dist-info/top_level.txt,sha256=zLngq6ZKYVVAUWxx2q_UwEAkDhckZ-z96cAVOC6RMXQ,10
+textpanel-1.0.0.dist-info/RECORD,,
