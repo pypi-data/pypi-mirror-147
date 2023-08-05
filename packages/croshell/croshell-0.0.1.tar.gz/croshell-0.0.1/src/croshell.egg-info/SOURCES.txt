@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/croshell.egg-info/PKG-INFO
+src/croshell.egg-info/SOURCES.txt
+src/croshell.egg-info/dependency_links.txt
+src/croshell.egg-info/top_level.txt
+src/windows_terminal_setup/__init__.py
+src/windows_terminal_setup/change_terminal_settings.py
+src/windows_terminal_setup/fancy_prompt_themes.py
