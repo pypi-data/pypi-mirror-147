@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+setup.py
+nonebot_plugin_lol_Heroes.egg-info/PKG-INFO
+nonebot_plugin_lol_Heroes.egg-info/SOURCES.txt
+nonebot_plugin_lol_Heroes.egg-info/dependency_links.txt
+nonebot_plugin_lol_Heroes.egg-info/requires.txt
+nonebot_plugin_lol_Heroes.egg-info/top_level.txt

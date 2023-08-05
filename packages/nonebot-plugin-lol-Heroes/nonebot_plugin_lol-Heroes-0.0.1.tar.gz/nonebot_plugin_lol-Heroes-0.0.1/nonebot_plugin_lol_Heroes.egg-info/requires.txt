@@ -1,0 +1,3 @@
+requests>=2.26.0
+nonebot2
+nonebot-adapter-onebot
