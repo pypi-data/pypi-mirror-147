@@ -1,0 +1,9 @@
+crawler_chrome/chrome_driver.py,sha256=2N_N1O2OAKcB8xH0RDmLzO7whaNEPs1OIleBCm-DxLM,10054
+crawler_chrome/chrome_utils.py,sha256=K3t6yvHPb3azjzUXCjY402xXIqmYCCPVgp78FnAD828,437
+crawler_chrome/download.py,sha256=ZtufGoSSI2pg2VQ5OmEHrAxarHYdnq-NCyQeVeCDkJ8,3561
+crawler_chrome/util.py,sha256=zV5mE03Cpgv_tXU8Zlnkdvq1tai-zFvYIqHRVLWcArg,438
+crawler_chrome-0.0.4.dist-info/LICENSE,sha256=rYw-K6Audr47Pvdeg12g_HTsk8xRg1cgJUIm03TNRdM,1063
+crawler_chrome-0.0.4.dist-info/METADATA,sha256=1HuUILQH1Xqx-bjpEeu80QBOjolYVgO-LSMC72xqlHM,251
+crawler_chrome-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+crawler_chrome-0.0.4.dist-info/top_level.txt,sha256=sLFArVyUqgfWaMSc8FyJSVzvjAVR-p7X6BuUx6j_RHE,15
+crawler_chrome-0.0.4.dist-info/RECORD,,
