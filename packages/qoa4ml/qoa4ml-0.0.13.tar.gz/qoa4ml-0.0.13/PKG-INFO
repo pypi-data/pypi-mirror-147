@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: qoa4ml
+Version: 0.0.13
+Summary: Quality of Analysis for Machine Learning
+Home-page: https://rdsea.github.io/
+Author: Aaltosea
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENCE.txt
+
+# QoA4ML - Quality of Analytics for ML
+
+
+
+Change Log
+======================
+
+0.0.13 (18/04/2022)
+---------------------
+First Release 
+
