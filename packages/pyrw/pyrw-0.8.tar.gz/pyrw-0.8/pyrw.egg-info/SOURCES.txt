@@ -1,0 +1,17 @@
+LICENSE.md
+MANIFEST.in
+README.md
+setup.py
+pyrw/__init__.py
+pyrw/__main__.py
+pyrw/finder.py
+pyrw/nvme.py
+pyrw/pci.py
+pyrw/rwe.py
+pyrw/rwe_parser.py
+pyrw.egg-info/PKG-INFO
+pyrw.egg-info/SOURCES.txt
+pyrw.egg-info/dependency_links.txt
+pyrw.egg-info/top_level.txt
+pyrw/bin/x64/Rw.exe
+pyrw/bin/x86/Rw.exe
