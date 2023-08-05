@@ -1,0 +1,2 @@
+2022-04-17 21:51:10.982 | DEBUG    | aria2p.client:listen_to_notifications:1721 - Notifications (ws://localhost:15771/jsonrpc): opening WebSocket with timeout=1
+2022-04-17 21:51:10.983 | ERROR    | aria2p.client:listen_to_notifications:1725 - Notifications (ws://localhost:15771/jsonrpc): connection refused. Is the server running?

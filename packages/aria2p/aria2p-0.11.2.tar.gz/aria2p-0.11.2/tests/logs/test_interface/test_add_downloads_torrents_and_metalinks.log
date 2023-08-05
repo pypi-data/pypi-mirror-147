@@ -1,0 +1,334 @@
+2022-04-17 21:51:18.388 | DEBUG    | aria2p.interface:run:504 - Created new screen <tests.test_interface.MockedScreen object at 0x7f961426d490>
+2022-04-17 21:51:18.388 | DEBUG    | aria2p.interface:run:519 - Got event None
+2022-04-17 21:51:18.388 | DEBUG    | aria2p.interface:run:535 - Tick! Updating data and rows
+2022-04-17 21:51:18.402 | DEBUG    | aria2p.interface:run:542 - Refresh! Printing text
+2022-04-17 21:51:18.407 | DEBUG    | aria2p.interface:run:519 - Got event KeyboardEvent: 97
+2022-04-17 21:51:18.412 | DEBUG    | aria2p.interface:run:531 - Got event KeyboardEvent: -1
+2022-04-17 21:51:18.412 | DEBUG    | aria2p.interface:run:531 - Got event None
+2022-04-17 21:51:18.412 | DEBUG    | aria2p.interface:run:542 - Refresh! Printing text
+2022-04-17 21:51:18.418 | DEBUG    | aria2p.interface:run:519 - Got event None
+2022-04-17 21:51:18.423 | DEBUG    | aria2p.interface:run:519 - Got event None
+2022-04-17 21:51:18.428 | DEBUG    | aria2p.interface:run:519 - Got event None
+2022-04-17 21:51:18.433 | DEBUG    | aria2p.interface:run:519 - Got event None
+2022-04-17 21:51:18.439 | DEBUG    | aria2p.interface:run:519 - Got event None
+2022-04-17 21:51:18.444 | DEBUG    | aria2p.interface:run:519 - Got event None
+2022-04-17 21:51:18.449 | DEBUG    | aria2p.interface:run:519 - Got event None
+2022-04-17 21:51:18.454 | DEBUG    | aria2p.interface:run:519 - Got event None
+2022-04-17 21:51:18.459 | DEBUG    | aria2p.interface:run:519 - Got event None
+2022-04-17 21:51:18.465 | DEBUG    | aria2p.interface:run:519 - Got event None
+2022-04-17 21:51:18.470 | DEBUG    | aria2p.interface:run:519 - Got event None
+2022-04-17 21:51:18.475 | DEBUG    | aria2p.interface:run:519 - Got event None
+2022-04-17 21:51:18.480 | DEBUG    | aria2p.interface:run:519 - Got event None
+2022-04-17 21:51:18.486 | DEBUG    | aria2p.interface:run:519 - Got event None
+2022-04-17 21:51:18.491 | DEBUG    | aria2p.interface:run:519 - Got event None
+2022-04-17 21:51:18.496 | DEBUG    | aria2p.interface:run:519 - Got event None
+2022-04-17 21:51:18.501 | DEBUG    | aria2p.interface:run:519 - Got event None
+2022-04-17 21:51:18.507 | DEBUG    | aria2p.interface:run:519 - Got event None
+2022-04-17 21:51:18.512 | DEBUG    | aria2p.interface:run:519 - Got event None
+2022-04-17 21:51:18.512 | DEBUG    | aria2p.interface:run:535 - Tick! Updating data and rows
+2022-04-17 21:51:18.526 | DEBUG    | aria2p.interface:run:542 - Refresh! Printing text
+2022-04-17 21:51:18.531 | DEBUG    | aria2p.interface:run:519 - Got event None
+2022-04-17 21:51:18.536 | DEBUG    | aria2p.interface:run:519 - Got event None
+2022-04-17 21:51:18.541 | DEBUG    | aria2p.interface:run:519 - Got event None
+2022-04-17 21:51:18.547 | DEBUG    | aria2p.interface:run:519 - Got event None
+2022-04-17 21:51:18.552 | DEBUG    | aria2p.interface:run:519 - Got event None
+2022-04-17 21:51:18.557 | DEBUG    | aria2p.interface:run:519 - Got event None
+2022-04-17 21:51:18.562 | DEBUG    | aria2p.interface:run:519 - Got event None
+2022-04-17 21:51:18.568 | DEBUG    | aria2p.interface:run:519 - Got event None
+2022-04-17 21:51:18.573 | DEBUG    | aria2p.interface:run:519 - Got event None
+2022-04-17 21:51:18.578 | DEBUG    | aria2p.interface:run:519 - Got event None
+2022-04-17 21:51:18.583 | DEBUG    | aria2p.interface:run:519 - Got event KeyboardEvent: 97
+2022-04-17 21:51:18.590 | DEBUG    | aria2p.interface:run:531 - Got event KeyboardEvent: -206
+2022-04-17 21:51:18.590 | DEBUG    | aria2p.interface:run:531 - Got event KeyboardEvent: -204
+2022-04-17 21:51:18.590 | DEBUG    | aria2p.interface:run:531 - Got event KeyboardEvent: 10
+2022-04-17 21:51:18.602 | DEBUG    | aria2p.interface:run:531 - Got event KeyboardEvent: 10
+2022-04-17 21:51:18.613 | DEBUG    | aria2p.interface:run:531 - Got event None
+2022-04-17 21:51:18.613 | DEBUG    | aria2p.interface:run:542 - Refresh! Printing text
+2022-04-17 21:51:18.618 | DEBUG    | aria2p.interface:run:519 - Got event None
+2022-04-17 21:51:18.624 | DEBUG    | aria2p.interface:run:519 - Got event None
+2022-04-17 21:51:18.629 | DEBUG    | aria2p.interface:run:519 - Got event None
+2022-04-17 21:51:18.634 | DEBUG    | aria2p.interface:run:519 - Got event None
+2022-04-17 21:51:18.639 | DEBUG    | aria2p.interface:run:519 - Got event None
+2022-04-17 21:51:18.644 | DEBUG    | aria2p.interface:run:519 - Got event None
+2022-04-17 21:51:18.650 | DEBUG    | aria2p.interface:run:519 - Got event None
+2022-04-17 21:51:18.655 | DEBUG    | aria2p.interface:run:519 - Got event None
+2022-04-17 21:51:18.660 | DEBUG    | aria2p.interface:run:519 - Got event None
+2022-04-17 21:51:18.660 | DEBUG    | aria2p.interface:run:535 - Tick! Updating data and rows
+2022-04-17 21:51:18.675 | DEBUG    | aria2p.interface:run:542 - Refresh! Printing text
+2022-04-17 21:51:18.681 | DEBUG    | aria2p.interface:run:519 - Got event None
+2022-04-17 21:51:18.686 | DEBUG    | aria2p.interface:run:519 - Got event None
+2022-04-17 21:51:18.691 | DEBUG    | aria2p.interface:run:519 - Got event None
+2022-04-17 21:51:18.697 | DEBUG    | aria2p.interface:run:519 - Got event None
+2022-04-17 21:51:18.702 | DEBUG    | aria2p.interface:run:519 - Got event None
+2022-04-17 21:51:18.707 | DEBUG    | aria2p.interface:run:519 - Got event None
+2022-04-17 21:51:18.712 | DEBUG    | aria2p.interface:run:519 - Got event None
+2022-04-17 21:51:18.718 | DEBUG    | aria2p.interface:run:519 - Got event None
+2022-04-17 21:51:18.723 | DEBUG    | aria2p.interface:run:519 - Got event None
+2022-04-17 21:51:18.728 | DEBUG    | aria2p.interface:run:519 - Got event None
+2022-04-17 21:51:18.733 | DEBUG    | aria2p.interface:run:519 - Got event None
+2022-04-17 21:51:18.739 | DEBUG    | aria2p.interface:run:519 - Got event None
+2022-04-17 21:51:18.744 | DEBUG    | aria2p.interface:run:519 - Got event None
+2022-04-17 21:51:18.749 | DEBUG    | aria2p.interface:run:519 - Got event None
+2022-04-17 21:51:18.754 | DEBUG    | aria2p.interface:run:519 - Got event None
+2022-04-17 21:51:18.759 | DEBUG    | aria2p.interface:run:519 - Got event None
+2022-04-17 21:51:18.765 | DEBUG    | aria2p.interface:run:519 - Got event None
+2022-04-17 21:51:18.770 | DEBUG    | aria2p.interface:run:519 - Got event None
+2022-04-17 21:51:18.775 | DEBUG    | aria2p.interface:run:519 - Got event None
+2022-04-17 21:51:18.780 | DEBUG    | aria2p.interface:run:519 - Got event None
+2022-04-17 21:51:18.781 | DEBUG    | aria2p.interface:run:535 - Tick! Updating data and rows
+2022-04-17 21:51:18.796 | DEBUG    | aria2p.interface:run:542 - Refresh! Printing text
+2022-04-17 21:51:18.801 | DEBUG    | aria2p.interface:run:519 - Got event KeyboardEvent: 113
+2022-04-17 21:51:18.801 | ERROR    | aria2p.interface:run:559 - pop from empty list
+Traceback (most recent call last):
+
+  File "<string>", line 1, in <module>
+  File "<string>", line 8, in <module>
+  File "/media/data/dev/aria2p/__pypackages__/3.11/lib/execnet/gateway_base.py", line 1554, in serve
+    WorkerGateway(io=io, id=id, _startcount=2).serve()
+    │                │      └ 'gw1-worker'
+    │                └ <execnet.gateway_base.Popen2IO object at 0x7f961879ea90>
+    └ <class 'execnet.gateway_base.WorkerGateway'>
+  File "/media/data/dev/aria2p/__pypackages__/3.11/lib/execnet/gateway_base.py", line 1060, in serve
+    self._execpool.integrate_as_primary_thread()
+    │    │         └ <function WorkerPool.integrate_as_primary_thread at 0x7f96188e7ce0>
+    │    └ <execnet.gateway_base.WorkerPool object at 0x7f96187bd6d0>
+    └ <execnet.gateway_base.WorkerGateway object at 0x7f96187bd3d0>
+  File "/media/data/dev/aria2p/__pypackages__/3.11/lib/execnet/gateway_base.py", line 267, in integrate_as_primary_thread
+    self._perform_spawn(reply)
+    │    │              └ <execnet.gateway_base.Reply object at 0x7f96187bde50>
+    │    └ <function WorkerPool._perform_spawn at 0x7f96188e7ec0>
+    └ <execnet.gateway_base.WorkerPool object at 0x7f96187bd6d0>
+  File "/media/data/dev/aria2p/__pypackages__/3.11/lib/execnet/gateway_base.py", line 285, in _perform_spawn
+    reply.run()
+    │     └ <function Reply.run at 0x7f96188e7ba0>
+    └ <execnet.gateway_base.Reply object at 0x7f96187bde50>
+  File "/media/data/dev/aria2p/__pypackages__/3.11/lib/execnet/gateway_base.py", line 220, in run
+    self._result = func(*args, **kwargs)
+    │              │     │       └ {}
+    │              │     └ ((<Channel id=1 open>, ('"""\n    This module is executed in remote subprocesses and helps to\n    control a remote testing s...
+    │              └ <bound method WorkerGateway.executetask of <execnet.gateway_base.WorkerGateway object at 0x7f96187bd3d0>>
+    └ <execnet.gateway_base.Reply object at 0x7f96187bde50>
+  File "/media/data/dev/aria2p/__pypackages__/3.11/lib/execnet/gateway_base.py", line 1084, in executetask
+    do_exec(co, loc)  # noqa
+    │       │   └ {'channel': <Channel id=1 open>, '__name__': '__channelexec__', '__builtins__': {'__name__': 'builtins', '__doc__': "Built-in...
+    │       └ <code object <module> at 0x7f96187c1290, file "/media/data/dev/aria2p/__pypackages__/3.11/lib/xdist/remote.py", line 1>
+    └ <built-in function exec>
+  File "/media/data/dev/aria2p/__pypackages__/3.11/lib/xdist/remote.py", line 291, in <module>
+    config.hook.pytest_cmdline_main(config=config)
+    │      │    │                          └ <_pytest.config.Config object at 0x7f961719ffd0>
+    │      │    └ <_HookCaller 'pytest_cmdline_main'>
+    │      └ <pluggy._hooks._HookRelay object at 0x7f961719f150>
+    └ <_pytest.config.Config object at 0x7f961719ffd0>
+  File "/media/data/dev/aria2p/__pypackages__/3.11/lib/pluggy/_hooks.py", line 265, in __call__
+    return self._hookexec(self.name, self.get_hookimpls(), kwargs, firstresult)
+           │    │         │    │     │    │                │       └ True
+           │    │         │    │     │    │                └ {'config': <_pytest.config.Config object at 0x7f961719ffd0>}
+           │    │         │    │     │    └ <function _HookCaller.get_hookimpls at 0x7f9617748b80>
+           │    │         │    │     └ <_HookCaller 'pytest_cmdline_main'>
+           │    │         │    └ 'pytest_cmdline_main'
+           │    │         └ <_HookCaller 'pytest_cmdline_main'>
+           │    └ <bound method PluginManager._hookexec of <_pytest.config.PytestPluginManager object at 0x7f961719efd0>>
+           └ <_HookCaller 'pytest_cmdline_main'>
+  File "/media/data/dev/aria2p/__pypackages__/3.11/lib/pluggy/_manager.py", line 80, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           │    │               │          │        │       └ True
+           │    │               │          │        └ {'config': <_pytest.config.Config object at 0x7f961719ffd0>}
+           │    │               │          └ [<HookImpl plugin_name='main', plugin=<module '_pytest.main' from '/media/data/dev/aria2p/__pypackages__/3.11/lib/_pytest/mai...
+           │    │               └ 'pytest_cmdline_main'
+           │    └ <function _multicall at 0x7f9617703ba0>
+           └ <_pytest.config.PytestPluginManager object at 0x7f961719efd0>
+  File "/media/data/dev/aria2p/__pypackages__/3.11/lib/pluggy/_callers.py", line 39, in _multicall
+    res = hook_impl.function(*args)
+          │         │         └ [<_pytest.config.Config object at 0x7f961719ffd0>]
+          │         └ <function pytest_cmdline_main at 0x7f9617401940>
+          └ <HookImpl plugin_name='main', plugin=<module '_pytest.main' from '/media/data/dev/aria2p/__pypackages__/3.11/lib/_pytest/main...
+  File "/media/data/dev/aria2p/__pypackages__/3.11/lib/_pytest/main.py", line 316, in pytest_cmdline_main
+    return wrap_session(config, _main)
+           │            │       └ <function _main at 0x7f96174019e0>
+           │            └ <_pytest.config.Config object at 0x7f961719ffd0>
+           └ <function wrap_session at 0x7f96174018a0>
+  File "/media/data/dev/aria2p/__pypackages__/3.11/lib/_pytest/main.py", line 269, in wrap_session
+    session.exitstatus = doit(config, session) or 0
+    │       │            │    │       └ <Session tests exitstatus=<ExitCode.OK: 0> testsfailed=1 testscollected=480>
+    │       │            │    └ <_pytest.config.Config object at 0x7f961719ffd0>
+    │       │            └ <function _main at 0x7f96174019e0>
+    │       └ <ExitCode.OK: 0>
+    └ <Session tests exitstatus=<ExitCode.OK: 0> testsfailed=1 testscollected=480>
+  File "/media/data/dev/aria2p/__pypackages__/3.11/lib/_pytest/main.py", line 323, in _main
+    config.hook.pytest_runtestloop(session=session)
+    │      │    │                          └ <Session tests exitstatus=<ExitCode.OK: 0> testsfailed=1 testscollected=480>
+    │      │    └ <_HookCaller 'pytest_runtestloop'>
+    │      └ <pluggy._hooks._HookRelay object at 0x7f961719f150>
+    └ <_pytest.config.Config object at 0x7f961719ffd0>
+  File "/media/data/dev/aria2p/__pypackages__/3.11/lib/pluggy/_hooks.py", line 265, in __call__
+    return self._hookexec(self.name, self.get_hookimpls(), kwargs, firstresult)
+           │    │         │    │     │    │                │       └ True
+           │    │         │    │     │    │                └ {'session': <Session tests exitstatus=<ExitCode.OK: 0> testsfailed=1 testscollected=480>}
+           │    │         │    │     │    └ <function _HookCaller.get_hookimpls at 0x7f9617748b80>
+           │    │         │    │     └ <_HookCaller 'pytest_runtestloop'>
+           │    │         │    └ 'pytest_runtestloop'
+           │    │         └ <_HookCaller 'pytest_runtestloop'>
+           │    └ <bound method PluginManager._hookexec of <_pytest.config.PytestPluginManager object at 0x7f961719efd0>>
+           └ <_HookCaller 'pytest_runtestloop'>
+  File "/media/data/dev/aria2p/__pypackages__/3.11/lib/pluggy/_manager.py", line 80, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           │    │               │          │        │       └ True
+           │    │               │          │        └ {'session': <Session tests exitstatus=<ExitCode.OK: 0> testsfailed=1 testscollected=480>}
+           │    │               │          └ [<HookImpl plugin_name='main', plugin=<module '_pytest.main' from '/media/data/dev/aria2p/__pypackages__/3.11/lib/_pytest/mai...
+           │    │               └ 'pytest_runtestloop'
+           │    └ <function _multicall at 0x7f9617703ba0>
+           └ <_pytest.config.PytestPluginManager object at 0x7f961719efd0>
+  File "/media/data/dev/aria2p/__pypackages__/3.11/lib/pluggy/_callers.py", line 39, in _multicall
+    res = hook_impl.function(*args)
+          │         │         └ [<Session tests exitstatus=<ExitCode.OK: 0> testsfailed=1 testscollected=480>]
+          │         └ <bound method WorkerInteractor.pytest_runtestloop of <__channelexec__.WorkerInteractor object at 0x7f9616f88310>>
+          └ <HookImpl plugin_name='140282607207184', plugin=<__channelexec__.WorkerInteractor object at 0x7f9616f88310>>
+  File "/media/data/dev/aria2p/__pypackages__/3.11/lib/xdist/remote.py", line 91, in pytest_runtestloop
+    self.run_one_test(torun)
+    │    │            └ [268, 269]
+    │    └ <function WorkerInteractor.run_one_test at 0x7f961719bf60>
+    └ <__channelexec__.WorkerInteractor object at 0x7f9616f88310>
+  File "/media/data/dev/aria2p/__pypackages__/3.11/lib/xdist/remote.py", line 110, in run_one_test
+    self.config.hook.pytest_runtest_protocol(item=item, nextitem=nextitem)
+    │    │      │    │                            │              └ <Function test_priority>
+    │    │      │    │                            └ <Function test_add_downloads_torrents_and_metalinks>
+    │    │      │    └ <_HookCaller 'pytest_runtest_protocol'>
+    │    │      └ <pluggy._hooks._HookRelay object at 0x7f961719f150>
+    │    └ <_pytest.config.Config object at 0x7f961719ffd0>
+    └ <__channelexec__.WorkerInteractor object at 0x7f9616f88310>
+  File "/media/data/dev/aria2p/__pypackages__/3.11/lib/pluggy/_hooks.py", line 265, in __call__
+    return self._hookexec(self.name, self.get_hookimpls(), kwargs, firstresult)
+           │    │         │    │     │    │                │       └ True
+           │    │         │    │     │    │                └ {'item': <Function test_add_downloads_torrents_and_metalinks>, 'nextitem': <Function test_priority>}
+           │    │         │    │     │    └ <function _HookCaller.get_hookimpls at 0x7f9617748b80>
+           │    │         │    │     └ <_HookCaller 'pytest_runtest_protocol'>
+           │    │         │    └ 'pytest_runtest_protocol'
+           │    │         └ <_HookCaller 'pytest_runtest_protocol'>
+           │    └ <bound method PluginManager._hookexec of <_pytest.config.PytestPluginManager object at 0x7f961719efd0>>
+           └ <_HookCaller 'pytest_runtest_protocol'>
+  File "/media/data/dev/aria2p/__pypackages__/3.11/lib/pluggy/_manager.py", line 80, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           │    │               │          │        │       └ True
+           │    │               │          │        └ {'item': <Function test_add_downloads_torrents_and_metalinks>, 'nextitem': <Function test_priority>}
+           │    │               │          └ [<HookImpl plugin_name='runner', plugin=<module '_pytest.runner' from '/media/data/dev/aria2p/__pypackages__/3.11/lib/_pytest...
+           │    │               └ 'pytest_runtest_protocol'
+           │    └ <function _multicall at 0x7f9617703ba0>
+           └ <_pytest.config.PytestPluginManager object at 0x7f961719efd0>
+  File "/media/data/dev/aria2p/__pypackages__/3.11/lib/pluggy/_callers.py", line 39, in _multicall
+    res = hook_impl.function(*args)
+          │         │         └ [<Function test_add_downloads_torrents_and_metalinks>, <Function test_priority>]
+          │         └ <function pytest_runtest_protocol at 0x7f9616c3cf40>
+          └ <HookImpl plugin_name='rerunfailures', plugin=<module 'pytest_rerunfailures' from '/media/data/dev/aria2p/__pypackages__/3.11...
+  File "/media/data/dev/aria2p/__pypackages__/3.11/lib/pytest_rerunfailures.py", line 240, in pytest_runtest_protocol
+    reports = runtestprotocol(item, nextitem=nextitem, log=False)
+              │               │              └ <Function test_priority>
+              │               └ <Function test_add_downloads_torrents_and_metalinks>
+              └ <function runtestprotocol at 0x7f96173e3f60>
+  File "/media/data/dev/aria2p/__pypackages__/3.11/lib/_pytest/runner.py", line 126, in runtestprotocol
+    reports.append(call_and_report(item, "call", log))
+    │       │      │               │             └ False
+    │       │      │               └ <Function test_add_downloads_torrents_and_metalinks>
+    │       │      └ <function call_and_report at 0x7f9617400360>
+    │       └ <method 'append' of 'list' objects>
+    └ [<TestReport 'test_interface.py::test_add_downloads_torrents_and_metalinks' when='setup' outcome='passed'>]
+  File "/media/data/dev/aria2p/__pypackages__/3.11/lib/_pytest/runner.py", line 215, in call_and_report
+    call = call_runtest_hook(item, when, **kwds)
+           │                 │     │       └ {}
+           │                 │     └ 'call'
+           │                 └ <Function test_add_downloads_torrents_and_metalinks>
+           └ <function call_runtest_hook at 0x7f9617400540>
+  File "/media/data/dev/aria2p/__pypackages__/3.11/lib/_pytest/runner.py", line 254, in call_runtest_hook
+    return CallInfo.from_call(
+           │        └ <classmethod(<function CallInfo.from_call at 0x7f9617400b80>)>
+           └ <class '_pytest.runner.CallInfo'>
+  File "/media/data/dev/aria2p/__pypackages__/3.11/lib/_pytest/runner.py", line 311, in from_call
+    result: Optional[TResult] = func()
+            │        │          └ <function call_runtest_hook.<locals>.<lambda> at 0x7f960ff9ff60>
+            │        └ +TResult
+            └ typing.Optional
+  File "/media/data/dev/aria2p/__pypackages__/3.11/lib/_pytest/runner.py", line 255, in <lambda>
+    lambda: ihook(item=item, **kwds), when=when, reraise=reraise
+            │          │       └ {}
+            │          └ <Function test_add_downloads_torrents_and_metalinks>
+            └ <_HookCaller 'pytest_runtest_call'>
+  File "/media/data/dev/aria2p/__pypackages__/3.11/lib/pluggy/_hooks.py", line 265, in __call__
+    return self._hookexec(self.name, self.get_hookimpls(), kwargs, firstresult)
+           │    │         │    │     │    │                │       └ False
+           │    │         │    │     │    │                └ {'item': <Function test_add_downloads_torrents_and_metalinks>}
+           │    │         │    │     │    └ <function _HookCaller.get_hookimpls at 0x7f9617748b80>
+           │    │         │    │     └ <_HookCaller 'pytest_runtest_call'>
+           │    │         │    └ 'pytest_runtest_call'
+           │    │         └ <_HookCaller 'pytest_runtest_call'>
+           │    └ <bound method PluginManager._hookexec of <_pytest.config.PytestPluginManager object at 0x7f961719efd0>>
+           └ <_HookCaller 'pytest_runtest_call'>
+  File "/media/data/dev/aria2p/__pypackages__/3.11/lib/pluggy/_manager.py", line 80, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           │    │               │          │        │       └ False
+           │    │               │          │        └ {'item': <Function test_add_downloads_torrents_and_metalinks>}
+           │    │               │          └ [<HookImpl plugin_name='runner', plugin=<module '_pytest.runner' from '/media/data/dev/aria2p/__pypackages__/3.11/lib/_pytest...
+           │    │               └ 'pytest_runtest_call'
+           │    └ <function _multicall at 0x7f9617703ba0>
+           └ <_pytest.config.PytestPluginManager object at 0x7f961719efd0>
+  File "/media/data/dev/aria2p/__pypackages__/3.11/lib/pluggy/_callers.py", line 39, in _multicall
+    res = hook_impl.function(*args)
+          │         │         └ [<Function test_add_downloads_torrents_and_metalinks>]
+          │         └ <function pytest_runtest_call at 0x7f9617400180>
+          └ <HookImpl plugin_name='runner', plugin=<module '_pytest.runner' from '/media/data/dev/aria2p/__pypackages__/3.11/lib/_pytest/...
+  File "/media/data/dev/aria2p/__pypackages__/3.11/lib/_pytest/runner.py", line 162, in pytest_runtest_call
+    item.runtest()
+    │    └ <function Function.runtest at 0x7f9617453560>
+    └ <Function test_add_downloads_torrents_and_metalinks>
+  File "/media/data/dev/aria2p/__pypackages__/3.11/lib/_pytest/python.py", line 1641, in runtest
+    self.ihook.pytest_pyfunc_call(pyfuncitem=self)
+    │    │                                   └ <Function test_add_downloads_torrents_and_metalinks>
+    │    └ <property object at 0x7f9617537b00>
+    └ <Function test_add_downloads_torrents_and_metalinks>
+  File "/media/data/dev/aria2p/__pypackages__/3.11/lib/pluggy/_hooks.py", line 265, in __call__
+    return self._hookexec(self.name, self.get_hookimpls(), kwargs, firstresult)
+           │    │         │    │     │    │                │       └ True
+           │    │         │    │     │    │                └ {'pyfuncitem': <Function test_add_downloads_torrents_and_metalinks>}
+           │    │         │    │     │    └ <function _HookCaller.get_hookimpls at 0x7f9617748b80>
+           │    │         │    │     └ <_HookCaller 'pytest_pyfunc_call'>
+           │    │         │    └ 'pytest_pyfunc_call'
+           │    │         └ <_HookCaller 'pytest_pyfunc_call'>
+           │    └ <bound method PluginManager._hookexec of <_pytest.config.PytestPluginManager object at 0x7f961719efd0>>
+           └ <_HookCaller 'pytest_pyfunc_call'>
+  File "/media/data/dev/aria2p/__pypackages__/3.11/lib/pluggy/_manager.py", line 80, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           │    │               │          │        │       └ True
+           │    │               │          │        └ {'pyfuncitem': <Function test_add_downloads_torrents_and_metalinks>}
+           │    │               │          └ [<HookImpl plugin_name='python', plugin=<module '_pytest.python' from '/media/data/dev/aria2p/__pypackages__/3.11/lib/_pytest...
+           │    │               └ 'pytest_pyfunc_call'
+           │    └ <function _multicall at 0x7f9617703ba0>
+           └ <_pytest.config.PytestPluginManager object at 0x7f961719efd0>
+  File "/media/data/dev/aria2p/__pypackages__/3.11/lib/pluggy/_callers.py", line 39, in _multicall
+    res = hook_impl.function(*args)
+          │         │         └ [<Function test_add_downloads_torrents_and_metalinks>]
+          │         └ <function pytest_pyfunc_call at 0x7f9617450360>
+          └ <HookImpl plugin_name='python', plugin=<module '_pytest.python' from '/media/data/dev/aria2p/__pypackages__/3.11/lib/_pytest/...
+  File "/media/data/dev/aria2p/__pypackages__/3.11/lib/_pytest/python.py", line 183, in pytest_pyfunc_call
+    result = testfunction(**testargs)
+             │              └ {'server': <tests.conftest._Aria2Server object at 0x7f9614257710>, 'monkeypatch': <_pytest.monkeypatch.MonkeyPatch object at ...
+             └ <function test_add_downloads_torrents_and_metalinks at 0x7f9614b98ae0>
+
+  File "/media/data/dev/aria2p/tests/test_interface.py", line 486, in test_add_downloads_torrents_and_metalinks
+    interface = run_interface(
+                └ <function run_interface at 0x7f9614bb3560>
+
+  File "/media/data/dev/aria2p/tests/test_interface.py", line 98, in run_interface
+    interface.run()
+    │         └ <function Interface.run at 0x7f9615bda840>
+    └ <aria2p.interface.Interface object at 0x7f961426cc10>
+
+> File "/media/data/dev/aria2p/src/aria2p/interface.py", line 530, in run
+    event = screen.get_event()
+            │      └ <function MockedScreen.get_event at 0x7f9614bb3a60>
+            └ <tests.test_interface.MockedScreen object at 0x7f961426d490>
+
+  File "/media/data/dev/aria2p/tests/test_interface.py", line 128, in get_event
+    event = self.events.pop(0)
+            │    │      └ <method 'pop' of 'list' objects>
+            │    └ []
+            └ <tests.test_interface.MockedScreen object at 0x7f961426d490>
+
+IndexError: pop from empty list

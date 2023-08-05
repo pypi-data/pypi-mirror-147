@@ -1,0 +1,9 @@
+2022-04-17 21:51:07.792 | DEBUG    | aria2p.api:remove:455 - Try to remove download result 0000000000000001
+2022-04-17 21:51:07.798 | SUCCESS  | aria2p.api:remove:462 - Removed download result 0000000000000001
+2022-04-17 21:51:07.798 | DEBUG    | aria2p.api:remove:494 - aria2 control file /tmp/pytest-of-pawamoy/pytest-4/popen-gw3/test_remove_all_method0/30m.aria2 was not found
+2022-04-17 21:51:07.798 | DEBUG    | aria2p.api:remove:455 - Try to remove download result 0000000000000002
+2022-04-17 21:51:07.803 | SUCCESS  | aria2p.api:remove:462 - Removed download result 0000000000000002
+2022-04-17 21:51:07.803 | DEBUG    | aria2p.api:remove:494 - aria2 control file /tmp/pytest-of-pawamoy/pytest-4/popen-gw3/test_remove_all_method0/30m.aria2 was not found
+2022-04-17 21:51:07.803 | DEBUG    | aria2p.api:remove:455 - Try to remove download result 0000000000000003
+2022-04-17 21:51:07.808 | SUCCESS  | aria2p.api:remove:462 - Removed download result 0000000000000003
+2022-04-17 21:51:07.808 | DEBUG    | aria2p.api:remove:494 - aria2 control file /tmp/pytest-of-pawamoy/pytest-4/popen-gw3/test_remove_all_method0/30m.aria2 was not found

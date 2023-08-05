@@ -1,0 +1,18 @@
+2022-04-17 21:51:11.856 | DEBUG    | aria2p.client:listen_to_notifications:1721 - Notifications (ws://localhost:15037/jsonrpc): opening WebSocket with timeout=5
+2022-04-17 21:51:11.858 | DEBUG    | aria2p.utils:__init__:31 - Signal handler: handling signals SIGTERM, SIGINT
+2022-04-17 21:51:11.858 | DEBUG    | aria2p.client:listen_to_notifications:1740 - Notifications (ws://localhost:15037/jsonrpc): waiting for data over WebSocket
+2022-04-17 21:51:13.861 | INFO     | aria2p.client:listen_to_notifications:1750 - Notifications (ws://localhost:15037/jsonrpc): received aria2.onDownloadStart with gid=0000000000000001
+2022-04-17 21:51:13.861 | DEBUG    | aria2p.client:listen_to_notifications:1755 - Notifications (ws://localhost:15037/jsonrpc): calling functools.partial(<function on_download_start at 0x7fad31f26a20>, API(Client(host='http://localhost', port=15037, secret='********'))) with gid=0000000000000001
+2022-04-17 21:51:13.861 | DEBUG    | aria2p.client:listen_to_notifications:1740 - Notifications (ws://localhost:15037/jsonrpc): waiting for data over WebSocket
+2022-04-17 21:51:13.861 | INFO     | aria2p.client:listen_to_notifications:1750 - Notifications (ws://localhost:15037/jsonrpc): received aria2.onDownloadStart with gid=0000000000000002
+2022-04-17 21:51:13.862 | DEBUG    | aria2p.client:listen_to_notifications:1755 - Notifications (ws://localhost:15037/jsonrpc): calling functools.partial(<function on_download_start at 0x7fad31f26a20>, API(Client(host='http://localhost', port=15037, secret='********'))) with gid=0000000000000002
+2022-04-17 21:51:13.862 | DEBUG    | aria2p.client:listen_to_notifications:1740 - Notifications (ws://localhost:15037/jsonrpc): waiting for data over WebSocket
+2022-04-17 21:51:13.862 | INFO     | aria2p.client:listen_to_notifications:1750 - Notifications (ws://localhost:15037/jsonrpc): received aria2.onDownloadError with gid=0000000000000001
+2022-04-17 21:51:13.862 | DEBUG    | aria2p.client:listen_to_notifications:1758 - Notifications (ws://localhost:15037/jsonrpc): no callback given for type aria2.onDownloadError
+2022-04-17 21:51:13.862 | DEBUG    | aria2p.client:listen_to_notifications:1740 - Notifications (ws://localhost:15037/jsonrpc): waiting for data over WebSocket
+2022-04-17 21:51:13.862 | INFO     | aria2p.client:listen_to_notifications:1750 - Notifications (ws://localhost:15037/jsonrpc): received aria2.onDownloadError with gid=0000000000000002
+2022-04-17 21:51:13.862 | DEBUG    | aria2p.client:listen_to_notifications:1758 - Notifications (ws://localhost:15037/jsonrpc): no callback given for type aria2.onDownloadError
+2022-04-17 21:51:13.863 | DEBUG    | aria2p.client:listen_to_notifications:1740 - Notifications (ws://localhost:15037/jsonrpc): waiting for data over WebSocket
+2022-04-17 21:51:18.866 | DEBUG    | aria2p.client:listen_to_notifications:1747 - Notifications (ws://localhost:15037/jsonrpc): reached timeout (5s)
+2022-04-17 21:51:18.866 | DEBUG    | aria2p.client:listen_to_notifications:1761 - Notifications (ws://localhost:15037/jsonrpc): stopped listening
+2022-04-17 21:51:18.867 | DEBUG    | aria2p.client:listen_to_notifications:1768 - Notifications (ws://localhost:15037/jsonrpc): closing WebSocket
