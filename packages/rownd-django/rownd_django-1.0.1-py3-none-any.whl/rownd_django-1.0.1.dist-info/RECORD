@@ -1,0 +1,16 @@
+rownd_django/__init__.py,sha256=r7XRAkr-Q0SlUcEI-YGD4u66eipHfS6hX_mV3nGDwiY,123
+rownd_django/apps.py,sha256=LHIdMZKEPQvDArRMvsg8hqq3U4sbyuesTMX3DEOdJyI,117
+rownd_django/settings.py,sha256=QxuNy0bxhqD5lh5-UzOwTAU4GWeYOxQKoZ2Mr-e6SVQ,4142
+rownd_django/auth/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rownd_django/auth/backend.py,sha256=Z4Xxq93JK3EiBt-VhNAffa5mGCSL2jAeZ_FlSRRzF10,2415
+rownd_django/auth/client.py,sha256=_7mNdDo5UR_-38R_Mp5pvF9CX7XgiyrSrWP4NaCYMrs,1990
+rownd_django/auth/jwks_client.py,sha256=fh5TEOy220qb_fJqWDKS4OvO8lW226nphH3z1Ed2-_Y,1926
+rownd_django/auth/urls.py,sha256=4MSXqagFM1-AiZA83KrmAwECfnKuDsuSaybjmCFTGX4,184
+rownd_django/auth/views.py,sha256=-CN0CTH95Q2VenPs2RUyzN0cOfCne4esVko7PrBvB80,772
+rownd_django/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rownd_django/tests/main.py,sha256=xb0xSeG6tMx0wIcLW2vSh00KW-4z8J-IGY44hNSFMT0,642
+rownd_django-1.0.1.dist-info/LICENSE,sha256=vrt2zDESm4qvnRG8o9jz9SV_7ZtIYV5z9lFmliT1OLk,578
+rownd_django-1.0.1.dist-info/METADATA,sha256=0cmjMbNujHos8rU6_DzFQlMSPnOthghZhyzmpXplmMI,7224
+rownd_django-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+rownd_django-1.0.1.dist-info/top_level.txt,sha256=AnwwTiEGONYmFKDB7T8jG-dVvG6XKsXPzb-OIc-RZNM,13
+rownd_django-1.0.1.dist-info/RECORD,,
