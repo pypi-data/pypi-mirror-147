@@ -1,0 +1,9 @@
+README.md
+setup.py
+test-torch/__init__.py
+test-torch/myfile.py
+test_an_torch.egg-info/PKG-INFO
+test_an_torch.egg-info/SOURCES.txt
+test_an_torch.egg-info/dependency_links.txt
+test_an_torch.egg-info/requires.txt
+test_an_torch.egg-info/top_level.txt
