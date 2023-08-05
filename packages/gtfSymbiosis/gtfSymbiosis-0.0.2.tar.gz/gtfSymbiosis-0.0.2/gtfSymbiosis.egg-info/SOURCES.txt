@@ -1,0 +1,7 @@
+README.md
+setup.py
+gtfSymbiosis.egg-info/PKG-INFO
+gtfSymbiosis.egg-info/SOURCES.txt
+gtfSymbiosis.egg-info/dependency_links.txt
+gtfSymbiosis.egg-info/requires.txt
+gtfSymbiosis.egg-info/top_level.txt

@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: gtfSymbiosis
+Version: 0.0.2
+Summary: construction of transcriptome from GTF files, and comparison between GTF files
+Home-page: https://github.com/samrosean/GTF_Symbiosis
+Author: Samuel Rosean
+Author-email: samrosean@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN

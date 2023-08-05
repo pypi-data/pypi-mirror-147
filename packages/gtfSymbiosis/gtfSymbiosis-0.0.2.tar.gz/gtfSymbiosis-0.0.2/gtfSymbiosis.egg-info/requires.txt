@@ -1,0 +1,11 @@
+pandas
+numpy
+matplotlib
+matplotlib_venn
+prettytable
+prettytable
+networkx
+venn
+upsetplot
+seaborn
+pyranges
