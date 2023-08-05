@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: ppprocess-myproject
+Version: 0.0.1
+Summary: 2ªversão projeto DIO processamento de imagens com Python
+Author: Marcelo Goulart Lima
+Author-email: glima.marcelo@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# pprocess-myproject
+
+Description. 
+The package pprocess-myproject is used to:
+	- 
+	-
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install pprocess-myproject
+
+```bash
+pip install pprocess-myproject
+```
+
+## Author
+Marcelo Goulart Lima
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
