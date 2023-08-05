@@ -1,0 +1,7 @@
+PySimpleGUI
+argparse
+librosa
+matplotlib
+numpy
+scipy
+sounddevice
