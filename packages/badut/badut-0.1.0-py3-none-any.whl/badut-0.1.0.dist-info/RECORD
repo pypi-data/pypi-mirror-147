@@ -1,0 +1,8 @@
+badut/__init__.py,sha256=lRxLUwFS3CMBHJcr0fE9v8Mn4CNtaePIpSAyAbyr-3U,79
+badut/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+badut/utils/noself.py,sha256=TdmmkPc98uE5C8Vnav5QzRdIZktAbdhz7XzMy3724bQ,1624
+badut/utils/requests.py,sha256=1dcaChF6omv6FLoZF-GskT1lBF7ibRowKhQfdDfhpUA,2226
+badut/utils/self.py,sha256=-LKbsG_TzRlw7vpQUX6kzSF6vYb9RPrYxL18p2xUYHw,1013
+badut-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+badut-0.1.0.dist-info/METADATA,sha256=CApBuhEXC_jL3Yg4RG6US3M8IN5dQjD3ZRWznaM6kJ8,512
+badut-0.1.0.dist-info/RECORD,,
