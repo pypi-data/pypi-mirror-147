@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: pyaasp
+Version: 0.0.0
+Summary: A python package for Advanced Array Seismic data Processing
+Home-page: https://github.com/chenyk1990/pyaasp
+Author: pyaasp developing team
+Author-email: chenyk2016@gmail.com
+License: GNU General Public License, Version 3 (GPLv3)
+Description: Source code: https://github.com/chenyk1990/pyaasp
+Keywords: seismology,array seismology,earthquake seismology,exploration seismology,denoising,science,engineering,orthogonalization,local orthogonalization,local similarity,signal-to-noise ratio,damped rank reduction method,structural filtering,local slope
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Provides-Extra: docs
