@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: khawniewmamuang
+Version: 0.0.1
+Summary: What is mango sticky rice by Wizvolcano
+Home-page: https://github.com/Wizvolcano
+Author: Wizvolcano
+Author-email: vorawut.c@outlook.com
+License: MIT
+Download-URL: https://github.com/Wizvolcano/MangoStickyRice/archive/v0.0.1.zip
+Keywords: Mango Sticky Rice,wizvolcano
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE.txt
+
+(Uncle Profile) เป็นตัวอย่างการอัพโหลด package ไปยัง pypi.org
+=============================================================
+
+PyPi: https://pypi.org/project/khawniewmamuang/
+
+สวัสดีจ้าาาา แพ็คนี้คือแพ็คเกจที่อธิบายโปรไฟล์ของนาย Wizvolcano
+และสามารถนำไปใช้กับผู้อื่นได้
+
+วิธีติดตั้ง
+~~~~~~~~~~~
+
+เปิด CMD / Terminal
+
+.. code:: python
+
+   pip install khawniewmamuang
+
+วิธีใช้งานแพ็คเพจนี้
+~~~~~~~~~~~~~~~~~~~~
+
+-  เปิด IDLE ขึ้นมาแล้วพิมพ์…
+
+.. code:: python
+
+   from khawniewmamuang import MangoStickyRice
+
+       mango = MangoStickyRice()
+       mango.what_is_it()
+       mango.show_ingredient()
+       mango.show_how_to(eng=True)
+       mango.show_youtube()
+       mango.show_google()
+       mango.show_location('กรุงเทพ')
+       mango.show_image(open=True)
+       mango.show_ascii()
+
+By: Wizvolcano
+
+
