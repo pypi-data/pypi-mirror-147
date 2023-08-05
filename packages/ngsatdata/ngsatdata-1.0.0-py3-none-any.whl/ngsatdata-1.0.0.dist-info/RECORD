@@ -1,0 +1,16 @@
+ngsatdata/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ngsatdata/base/__init__.py,sha256=iwhKnzeBJLKxpRVjvzwiRE63_zNpIBfaKLITauVph-0,24
+ngsatdata/base/dataprovider.py,sha256=osuJnkMs-l2UIfyrQS1HM2hiXlJxCAYusugXJ7eD74s,3055
+ngsatdata/base/errors.py,sha256=iF_MKe1Hm_O3CZg_z9XTo3f1Rl_MpB07QLVavdUOHUo,3252
+ngsatdata/providers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ngsatdata/providers/channel.py,sha256=aKBLTyfBw3H6Kf4f84EUbSYKTexWmRZzLaljhMIklhY,1159
+ngsatdata/providers/instrument.py,sha256=cffAE152G6aqWcMLXGlbbaqIOpNWSOso29JVKXYX2jg,1043
+ngsatdata/providers/smdc.py,sha256=GhEysA1HTKGswgGGVbHYtaB7Xqh23sh3eKjExnEfoaA,15057
+ngsatdata/providers/source.py,sha256=PzFmAo--YgilTn8eConWgMlg4QtNz0kbMaAkDQc_NFg,830
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_smdc.py,sha256=zChcLdXJljmM_3vMIlkh0AeP5QwPpO3f2AyFpbJWr5A,7471
+ngsatdata-1.0.0.dist-info/LICENSE,sha256=I5SfrsmZky_VxpxSvqVBIxViX6bN82kBB4uGJ5GtXBU,1064
+ngsatdata-1.0.0.dist-info/METADATA,sha256=z0r_nekjrltMtSX8l2LfWeDNv_rGy5DjXeNode1cp3k,1843
+ngsatdata-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ngsatdata-1.0.0.dist-info/top_level.txt,sha256=P_PTcJypnYVqLmG1AjZkhuxw49LqfE4PaGmDXS6mLx4,16
+ngsatdata-1.0.0.dist-info/RECORD,,
