@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: xml-validators
+Version: 1.0.0
+Summary: For XML Preprocessing
+Home-page: https://github.com/Wonseok-An/xml_validators
+Author: Wonseok An
+Author-email: wonseok.an95@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3
