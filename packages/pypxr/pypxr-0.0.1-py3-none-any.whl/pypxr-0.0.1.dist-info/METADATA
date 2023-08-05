@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: pypxr
+Version: 0.0.1
+Summary: A collection of utilities for reducing data and modeling Polarized Resonant Soft X-ray Reflectivity.
+Home-page: https://github.com/usnistgov/P-RSoXR
+Author: Thomas Ferron
+Author-email: thomas.j.ferron@gmail.com
+License: UNKNOWN
+Project-URL: Github, https://github.com/usnistgov/P-RSoXR
+Project-URL: Documentation, https://p-rsoxr.readthedocs.io/en/latest/
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: Freely Distributable
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: astropy
+Requires-Dist: h5py
+Requires-Dist: xlrd
+Requires-Dist: pytest
+Requires-Dist: tqdm
+Requires-Dist: uncertainties
+Requires-Dist: attrs
+Requires-Dist: periodictable
+Requires-Dist: refnx
+
+# PyPXR
+
+Open-source python utilities for modeling Polarized X-ray Reflectivity using an anisotropic transfer matrix formalism. The roots of this package were originally forked from the refnx.reflect layer model developed by Andrew Nelson.
+
+This package requires the use of [refnx](https://refnx.readthedocs.io/en/latest/index.html) in order to model and fit data.
+
+Some functionalities have been forked and repurposed from other open-source utilities:
+
+  - [D. Dietze : FSRStools](https://github.com/ddietze/FSRStools)
+  - [M. Jeannin : pyGTM](https://github.com/pyMatJ/pyGTM)
+  - [P. Dmitriev : PyATMM](https://github.com/kitchenknif/PyATMM)
+
+
+Results produced from the main-branch uniaxial calculation have been published and can be found online
+
+  - [ACS Appl. Mater. Interfaces 2022, 14, 2, 3455–3466 (DOI:10.1021/acsami.1c19948)](https://pubs.acs.org/doi/abs/10.1021/acsami.1c19948)
+
+
+### Contact information:
+ - Authors: Thomas J. Ferron & Daniel F. Sunday
+ - Affiliation: Materials Measurement Laboratory / Material Science and Engineering Division / Polymers Processing Group
+ - Website: 
+    - [Detailed Documentation (ReadTheDocs)](https://p-rsoxr.readthedocs.io/en/latest/)
+    - [Resonant Soft X-ray Scattering Group](https://www.nist.gov/programs-projects/resonant-soft-x-ray-scattering-rsoxs)
+ - Email: daniel.sunday@nist.gov
+
+

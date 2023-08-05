@@ -1,0 +1,11 @@
+pypxr/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pypxr/_uniaxial_reflect.py,sha256=poYl3mmXA1wRSFuJaWPq5f4T4M47O5W-mP-GcqFVUR4,17798
+pypxr/prsoxr_loader.py,sha256=4yLMlga-WAHrWHjxY5gMAyFF0I2HwRmG6BK8UV0bG9A,38844
+pypxr/prsoxr_script_gen.py,sha256=rpjvD1aRz6f99tmxQ8aiLa2DKSH-bcOo0J1hMUOZE24,20419
+pypxr/reflectivity.py,sha256=kUUudPSkhNSmNzSrzuYXN5gnnUzeQa4xGtmDjMWrZ1k,19930
+pypxr/structure.py,sha256=9o2w5CkIbH83vThUvwN-RwMo-z_Lm8ngoz1t1nREYF8,50568
+pypxr-0.0.1.dist-info/LICENSE,sha256=7VHRPjRrn6OATjv_O2VmfK6VmmnrPYxaHCqgwdldYqM,4127
+pypxr-0.0.1.dist-info/METADATA,sha256=iDGsuEF6pWx-2v2XYSpPRcNlbBcBIWSDDziGD-1PX14,2533
+pypxr-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pypxr-0.0.1.dist-info/top_level.txt,sha256=hCAU9xhFVV9l5jscLwH_NP4NxabMjSmTaU8NSCnMeRA,6
+pypxr-0.0.1.dist-info/RECORD,,
