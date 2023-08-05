@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: shenyu-client
+Version: 0.1.0
+Summary: shenyu python proxy service sdk
+Home-page: https://github.com/mutianzero/incubator-shenyu-client-python
+Author: https://shenyu.apache.org
+Author-email: mutianzero@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+
+UNKNOWN
+

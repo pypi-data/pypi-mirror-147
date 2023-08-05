@@ -1,0 +1,4 @@
+[console_scripts]
+gp-doc = gateway_proxy:get_doc
+gp-help = gateway_proxy:get_help
+
