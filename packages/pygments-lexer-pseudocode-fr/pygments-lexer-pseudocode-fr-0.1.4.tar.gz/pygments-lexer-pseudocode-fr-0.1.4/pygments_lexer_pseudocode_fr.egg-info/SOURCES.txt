@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pygments_lexer_pseudocode_fr/__init__.py
+pygments_lexer_pseudocode_fr.egg-info/PKG-INFO
+pygments_lexer_pseudocode_fr.egg-info/SOURCES.txt
+pygments_lexer_pseudocode_fr.egg-info/dependency_links.txt
+pygments_lexer_pseudocode_fr.egg-info/entry_points.txt
+pygments_lexer_pseudocode_fr.egg-info/requires.txt
+pygments_lexer_pseudocode_fr.egg-info/top_level.txt
