@@ -1,0 +1,12 @@
+tkintermd/__init__.py,sha256=cZzG7PQ_2saK8x4vEkyQl4g-oxAa3w8ZsbfiWfwaOEs,53
+tkintermd/__main__.py,sha256=KwY332Rjob3Z8pWmuXcfMyPOLB46NAPUAWgJ9rDo09c,253
+tkintermd/constants.py,sha256=o62WVXSKqfYUA8EJNnAai0wVj9_wWqNDjcgICByhtqc,8185
+tkintermd/frame.py,sha256=hcJcmEHFJ7uVoAP4IaaoxSZ1DfzLUTRKaicA2sen_Lk,29721
+tkintermd/log.py,sha256=p165UQet2BvhIOd4hlMpYxntiZESzTKkLvi6eln7PtA,1442
+tkintermd-0.0.6.dist-info/LICENSE,sha256=dgLvCSzZk2n1VTwHzaDqp9NxYF6i5RBqhqFDjgXw7NA,1067
+tkintermd-0.0.6.dist-info/LICENSE.txt,sha256=dgLvCSzZk2n1VTwHzaDqp9NxYF6i5RBqhqFDjgXw7NA,1067
+tkintermd-0.0.6.dist-info/METADATA,sha256=-jh_VJLV-RaXNlwSM5_W3Q9RUwyzuCzVNiXjNgUUlus,5405
+tkintermd-0.0.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tkintermd-0.0.6.dist-info/entry_points.txt,sha256=PUINqV_K_Y_7HLgV86wCPt9Fd3Ys84SZsn1VLyzjAj8,54
+tkintermd-0.0.6.dist-info/top_level.txt,sha256=jM0Pn6W8vf9FwLtQUEq68pmJcobI7aNBiR3N6M4LhXE,10
+tkintermd-0.0.6.dist-info/RECORD,,
