@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: gfFermentation
+Version: 0.0.5
+Summary: Connect and control the Grainfather conical fermenter and other controlers
+Home-page: https://github.com/wardsimon/gfFermentation/
+Author: simonward
+Author-email: 
+License: BSD3
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# gfFermentation - Script Grainfather fermenter controlers.
+
+This package allows for reading/controlling a Grainfather Conical fermenter or fermentation device. Currently reading and setting of target temperature/pausing and status is supported. 
+
+## Install
+gfFermentation is available on pip
+```
+pip install gffermentation
+```
+
+
+## Usage
+```
+from gfFermentation.grainfather import Grainfather
+
+username = ''    # Your username
+password = ''    # Your password
+
+gfIO = Grainfather(username, password) # Login to Grainfather (tokens also supported)
+
+for controller in gfIO.controllers:
+    print(controller)
+ ```
+
+
