@@ -1,0 +1,3 @@
+[console_scripts]
+cltcache = cltcache.cltcache:main
+
