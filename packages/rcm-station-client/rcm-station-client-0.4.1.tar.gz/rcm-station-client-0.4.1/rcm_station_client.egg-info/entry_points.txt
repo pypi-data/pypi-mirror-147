@@ -1,0 +1,3 @@
+[console_scripts]
+rcm-station-client = rcm.station_client:main
+
