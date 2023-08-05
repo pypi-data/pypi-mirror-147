@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: RlGlue-andnp
+Version: 0.0.5
+Summary: A tiny re-implementation of the rl-glue interface
+Home-page: https://github.com/andnp/RlGlue.git
+Author: Andy Patterson
+Author-email: andnpatterson@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: numpy (>=1.19.5) ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: commitizen ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: pipenv-setup[black] ; extra == 'dev'
+Requires-Dist: build ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+
+UNKNOWN
+
