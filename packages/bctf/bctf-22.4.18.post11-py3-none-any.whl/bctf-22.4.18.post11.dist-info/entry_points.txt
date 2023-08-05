@@ -1,0 +1,3 @@
+[console_scripts]
+bctf=bctf.main:main
+
