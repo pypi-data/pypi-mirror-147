@@ -1,0 +1,12 @@
+LICENSE,sha256=axe8kk9vmbZFjx8xPPM3qBr6AF-LAUw906iq-hYE8cg,1078
+drf_rockstar_extensions/__init__.py,sha256=1mptEzQihbdyqqzMgdns_j5ZGK9gz7hR2bsgA_TnjO4,22
+drf_rockstar_extensions/fields/__init__.py,sha256=kHJoqb-otcIXYMGQfUrl7BVoHKXUp1ABM0aKloI1mF8,68
+drf_rockstar_extensions/fields/fetcher_field/__init__.py,sha256=uGxpNQpWhlXtRbBEsfg8tmy7GvaqY7kjTVTrNPbjuU4,202
+drf_rockstar_extensions/fields/fetcher_field/attributes.py,sha256=_rSS34OGLWuvgdNYAIzfcleVpgoiBmM4zm8KOD4xhrY,510
+drf_rockstar_extensions/fields/fetcher_field/auths.py,sha256=MgG7Hag4w8_sKkrOmNgHxLZksQAFfdBYgrE8wSVO3MY,61
+drf_rockstar_extensions/fields/fetcher_field/fetcher_field.py,sha256=Baw2KrLuvKv6SpzAi4LHTLuKr6PHxkaJo61ADFfYaok,4573
+drf_rockstar_extensions/settings.py,sha256=4JeNX7748pks--SV8seE_SjtUv30sTXN9NfmfsKGr70,1039
+drf_rockstar_extensions-0.0.4.dist-info/LICENSE,sha256=axe8kk9vmbZFjx8xPPM3qBr6AF-LAUw906iq-hYE8cg,1078
+drf_rockstar_extensions-0.0.4.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+drf_rockstar_extensions-0.0.4.dist-info/METADATA,sha256=-9ozmB-E5MsxiQVYzmye6DWea1tXq5sUD2MOMFyKkeA,1840
+drf_rockstar_extensions-0.0.4.dist-info/RECORD,,
