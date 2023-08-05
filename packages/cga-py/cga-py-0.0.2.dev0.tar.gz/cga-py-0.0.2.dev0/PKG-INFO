@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: cga-py
+Version: 0.0.2.dev0
+Summary: Implementation of CGA for python
+Author: Daren Thimm
+Author-email: daren.thimm@gmx.at
+Maintainer: Daren Thimm
+Maintainer-email: daren.thimm@gmx.at
+License: BSD-3-Clause License
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# cga_py
+
+cga_py is an implementation of conformal geometric algebra (CGA) for python.
+
+Currently still in heavy development.
+
+## Install
+```
+pip install cga-py
+```
+
+## Usage
+See tutorial.py
+
+
