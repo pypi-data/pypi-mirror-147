@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: MyFirstModuleskwdfewfsd
+Version: 0.0.1
+Summary: Very short desc
+Home-page: UNKNOWN
+Author: CookiesKush420
+Author-email: cookies@mail.com
+License: MIT
+Keywords: calculator
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+My first pip package
+
+Change Log
+==========
+
+0.0.1 (17/04/2022)
+-------------------
+- First Release
+
