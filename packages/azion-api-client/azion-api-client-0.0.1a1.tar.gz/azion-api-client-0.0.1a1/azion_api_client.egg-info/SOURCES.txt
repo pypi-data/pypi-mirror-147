@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+azion/__consts__.py
+azion/__init__.py
+azion/api.py
+azion/cli.py
+azion/exceptions.py
+azion/models.py
+azion_api_client.egg-info/PKG-INFO
+azion_api_client.egg-info/SOURCES.txt
+azion_api_client.egg-info/dependency_links.txt
+azion_api_client.egg-info/entry_points.txt
+azion_api_client.egg-info/requires.txt
+azion_api_client.egg-info/top_level.txt
