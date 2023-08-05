@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+valdezds/__init__.py
+valdezds.egg-info/PKG-INFO
+valdezds.egg-info/SOURCES.txt
+valdezds.egg-info/dependency_links.txt
+valdezds.egg-info/requires.txt
+valdezds.egg-info/top_level.txt
