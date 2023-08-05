@@ -1,0 +1,11 @@
+cfgrib
+gdal
+wxpython
+numpy
+matplotlib==3.2
+scipy
+xarray
+pandas
+cartopy
+scikit-learn
+kneed

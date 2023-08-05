@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+appmar/__init__.py
+appmar/__main__.py
+appmar/appmar.py
+appmar/ceman.png
+appmar/libappmar.py
+appmar/wave.png
+appmar.egg-info/PKG-INFO
+appmar.egg-info/SOURCES.txt
+appmar.egg-info/dependency_links.txt
+appmar.egg-info/entry_points.txt
+appmar.egg-info/requires.txt
+appmar.egg-info/top_level.txt
