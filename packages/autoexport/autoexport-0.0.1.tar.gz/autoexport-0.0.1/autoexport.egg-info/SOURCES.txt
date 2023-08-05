@@ -1,0 +1,9 @@
+README.md
+setup.py
+autoexport/__init__.py
+autoexport/autoexport.py
+autoexport.egg-info/PKG-INFO
+autoexport.egg-info/SOURCES.txt
+autoexport.egg-info/dependency_links.txt
+autoexport.egg-info/requires.txt
+autoexport.egg-info/top_level.txt

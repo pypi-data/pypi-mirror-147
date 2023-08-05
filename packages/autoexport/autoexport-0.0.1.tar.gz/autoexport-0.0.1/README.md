@@ -1,0 +1,1 @@
+This is a testing data to process autoexport in metashape, you can pass the params then just simply run it with one single code
