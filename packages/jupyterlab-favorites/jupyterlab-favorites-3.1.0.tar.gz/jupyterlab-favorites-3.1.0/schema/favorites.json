@@ -1,0 +1,38 @@
+{
+  "jupyter.lab.setting-icon": "jupyterlab-favorites:filledStar",
+  "jupyter.lab.setting-icon-label": "Favorites",
+  "title": "Favorites",
+  "description": "Favorites settings.",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "favorites": {
+      "title": "Favorites",
+      "description": "The list of favorites.",
+      "items": { "$ref": "#/definitions/favorite" },
+      "type": "array",
+      "default": []
+    },
+    "showWidget": {
+      "title": "Show Widget",
+      "description": "Toggles the favorites widget above the filebrowser breadcrumbs.",
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "definitions": {
+    "favorite": {
+      "properties": {
+        "root": { "type": "string" },
+        "path": { "type": "string" },
+        "contentType": { "type": "string" },
+        "iconLabel": { "type": "string" },
+        "name": { "type": "string" },
+        "default": { "type": "boolean" },
+        "hidden": { "type": "boolean" }
+      },
+      "required": ["root", "path"],
+      "type": "object"
+    }
+  }
+}
