@@ -1,0 +1,75 @@
+[tool.poetry]
+name = "pony-stubs"
+version = "0.5.1"
+description = "Type stubs for Pony ORM"
+authors = ["Joonas Palosuo <joonas.palosuo@gmail.com>"]
+repository = "https://github.com/Jonesus/pony-stubs"
+readme = "README.md"
+license = "MIT"
+keywords = ["pony", "types", "stubs", "mypy", "pyright"]
+packages = [
+  {include = "pony-stubs"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+pre-commit = "2.18.1"
+black = "22.3.0"
+pylint = "2.13.5"
+isort = "5.10.1"
+pyright = "1.1.238"
+mypy = "0.942"
+pony = "0.7.16"
+psycopg2 = "2.9.3"
+commitizen = "2.24.0"
+
+[tool.commitizen]
+version = "0.5.1"
+version_files = ["pyproject.toml:version"]
+
+[tool.black]
+include = '\.pyi?$'
+
+[tool.isort]
+profile = "black"
+
+[tool.pyright]
+reportSelfClsParameterName = false
+reportInconsistentConstructor = false
+reportIncompatibleMethodOverride = false
+
+[tool.pylint."MESSAGE_CONTROL"]
+disable = [
+  "missing-module-docstring",
+  "missing-class-docstring",
+  "missing-function-docstring",
+  "invalid-name",
+  "multiple-statements",
+  "useless-import-alias",
+  "unused-import",
+  "unused-argument",
+  "redefined-builtin",
+  "too-few-public-methods",
+  "too-many-arguments",
+  "no-self-use",
+  "no-self-argument",
+  "super-init-not-called",
+  "redefined-outer-name",
+  "bad-mcs-classmethod-argument",
+  "arguments-renamed",
+  "arguments-differ",
+  "too-many-public-methods",
+  "signature-differs",
+  "bad-mcs-method-argument",
+  "useless-object-inheritance",
+  "invalid-sequence-index",
+  "used-before-assignment",
+  "unsubscriptable-object",
+  "expression-not-assigned"
+]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
