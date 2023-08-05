@@ -1,0 +1,11 @@
+webarchive/__init__.py,sha256=PnQxRMAUsYk76TETrarx41Z_TB7ZYWvPGUH09t14Wc8,1480
+webarchive/exceptions.py,sha256=MJuxwZxk-TW8mvnKDm4x5KYNt0RoEi-938Xzf80sYXA,196
+webarchive/test.py,sha256=9EAXl7xXWxRWhYWasPYHyGGaTG0f7zIKnD3cwHXwGvw,21306
+webarchive/util.py,sha256=6lkmEscR4_jAFIcFGMVLJd7rwOSpspzY0wI7VwL2Ry0,11534
+webarchive/webarchive.py,sha256=KpPj1F03T2X2bu8wGtVqFCRmQvcXHOYFAGWZ9Jes9ME,23523
+webarchive/webresource.py,sha256=XuNaJ9GkDzniafd5i9TgngFO0KinZwsYEA8CbZxJ3SY,7755
+pywebarchive-0.5.0.dist-info/LICENSE,sha256=lXlX3-EeFTo4ug2WjOG2qP7SZyKFuyuMDFdnYQlZPEA,1079
+pywebarchive-0.5.0.dist-info/METADATA,sha256=z4bVDEFqxZRsMBJYAEiw-o9YKZ4QJ24P5W_Pkh7kJbQ,4912
+pywebarchive-0.5.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pywebarchive-0.5.0.dist-info/top_level.txt,sha256=pBfRoC-9vWPy6ZghrEuki4879tzDqa7fDjHqUmASjrE,11
+pywebarchive-0.5.0.dist-info/RECORD,,
