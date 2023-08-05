@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: siteup
+Version: 0.1.0
+Summary: cli tool to check online status of websites
+License: MIT
+Author: BrianLusina
+Author-email: 12752833+BrianLusina@users.noreply.github.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: aiohttp (>=3.8.1,<4.0.0)
