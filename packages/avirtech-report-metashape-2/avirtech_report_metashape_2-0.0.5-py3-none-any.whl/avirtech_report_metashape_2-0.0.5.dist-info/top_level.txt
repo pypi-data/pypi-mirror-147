@@ -1,0 +1,5 @@
+copy_camera_selected
+generate_log_raw_petak
+generate_merge_report_camera
+making_directory
+process_foto
