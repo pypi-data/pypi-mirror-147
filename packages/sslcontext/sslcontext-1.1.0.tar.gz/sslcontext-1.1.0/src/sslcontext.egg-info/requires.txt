@@ -1,0 +1,6 @@
+
+[:extra == "idna"]
+idna
+
+[:extra == "pyopenssl"]
+pyopenssl
