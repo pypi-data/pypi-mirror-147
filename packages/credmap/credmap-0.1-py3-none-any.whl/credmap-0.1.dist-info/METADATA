@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: credmap
+Version: 0.1
+Summary: The Credential Mapper tool
+Home-page: https://github.com/Bhai4You/
+Author: Parixit Sutariya
+Author-email: parixit1337@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+<!--
+https://pypi.org/project/credmap/
+-->
+
+[![](https://img.shields.io/pypi/pyversions/readme-generator.svg?longCache=True)](https://pypi.org/project/readme-generator/)
+
+#### Installation
+```
+$ pip install credmap && credmap
+```
+
+#### Features
++   **`credmap`**, ** The Credential Mapper **
+
+
+#### How to install ?
+```
+$ pkg install python -y
+$ pip install credmap
+$ onex
+```
+
+### Disclaimer
+```
+We are not responsible for your loss.
+this tool is made for Education/Learning Purpose.
+Dont harm anyone using this tool.
+```
+#### Usage
+```
+$ credmap -h
+
+Author : lightos
+PIP module : Parixit Sutariya
+Github : github.com/Bhai4You
+Blogspot : https://bhai4you.blogspot.com
+
+```
+
+<p align="center">
+    <a href="https://github.com/Bhai4you">Github</a>
+</p>
+
+
