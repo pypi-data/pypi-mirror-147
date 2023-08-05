@@ -1,0 +1,8 @@
+LICENSE.txt
+README.txt
+setup.py
+swapnilbasiccalculator.egg-info/PKG-INFO
+swapnilbasiccalculator.egg-info/SOURCES.txt
+swapnilbasiccalculator.egg-info/dependency_links.txt
+swapnilbasiccalculator.egg-info/top_level.txt
+swapnilcalculator/__init__.py
