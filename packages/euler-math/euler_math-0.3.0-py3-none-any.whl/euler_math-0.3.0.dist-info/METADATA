@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: euler-math
+Version: 0.3.0
+Summary: Utilities for Project Euler
+Home-page: https://github.com/mndrake/euler-math
+Author: David Carlson
+Author-email: mndrake22@me.com
+License: MIT
+Keywords: math euler
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Requires-Dist: numpy
+Requires-Dist: gmpy2
+Provides-Extra: dev
+Requires-Dist: check-manifest ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: coverage ; extra == 'test'
+
+==========
+euler-math
+==========
+
+Utility methods for Project Euler
+
+^^^^^^^^^^^^
+Installation
+^^^^^^^^^^^^
+
+pip install euler-math
+
+
