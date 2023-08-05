@@ -1,0 +1,5 @@
+setup.py
+py_auto_recon.egg-info/PKG-INFO
+py_auto_recon.egg-info/SOURCES.txt
+py_auto_recon.egg-info/dependency_links.txt
+py_auto_recon.egg-info/top_level.txt
