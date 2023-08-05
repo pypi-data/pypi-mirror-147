@@ -1,0 +1,14 @@
+future
+numpy
+scipy
+h5py
+tqdm
+matplotlib
+opencv
+tifffile
+typing
+pynwb
+pillow
+scikit-image
+jax[cpu]
+scikit-image
