@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+PerfmonLibrary/__init__.py
+robotframework_perfmon.egg-info/PKG-INFO
+robotframework_perfmon.egg-info/SOURCES.txt
+robotframework_perfmon.egg-info/dependency_links.txt
+robotframework_perfmon.egg-info/requires.txt
+robotframework_perfmon.egg-info/top_level.txt
