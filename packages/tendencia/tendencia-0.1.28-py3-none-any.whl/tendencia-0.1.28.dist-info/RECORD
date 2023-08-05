@@ -1,0 +1,13 @@
+tendencia/__init__.py,sha256=ryAfvAaW7VM8g1gnCrFCPrXmcbbm99Xw44aLkwGZzaI,23
+tendencia/__main__.py,sha256=A5v9M4nskytcbhkfOMby14XEJ1bVGH1IP6mFSUQ3_YY,93
+tendencia/cli.py,sha256=H85lrqSk-tpsqn0RrPw4ZLAxn3aVSTP9BJ9yZ52uBP0,2364
+tendencia/colormap.py,sha256=EiyHgVuBOKoBUunpGIBTvgWqZNBrtth5hqaZQ7u8tlY,215
+tendencia/inspect_calculator.py,sha256=NHgRGzgWV0qZPgAFJUDsrsakiGebGoA03dJ_PzckvMc,419
+tendencia/pearson_calculator.py,sha256=5xplKiENsAOtlwUYmUwHLCnYOJbUD9y6DOtdOE3b1Ec,1692
+tendencia/remap.py,sha256=MBVeF-mycqUQby6h2oHJalN94_9KT6ALS66mF9AOEXA,867
+tendencia/trend_calculator.py,sha256=DY9Yw7Q_XbL0HQNOGKrXjyM-i03fWgjiAaez_syDFkw,1564
+tendencia/utils.py,sha256=4lVwdRguLWgdI3WXhgQHUi4iWvCaMqVxtCh2pDB4s-w,443
+tendencia-0.1.28.dist-info/entry_points.txt,sha256=BPN7pvZ-brxZHGJhc_LOyCXlrCPqnhktuPnct2I5CAc,47
+tendencia-0.1.28.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+tendencia-0.1.28.dist-info/METADATA,sha256=juSTlZlk7TzZpTxfQ2DB8INZ7tWCjBANT3HyfDrFgO4,386
+tendencia-0.1.28.dist-info/RECORD,,
