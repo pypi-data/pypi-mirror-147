@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements-dev.txt
+setup.py
+Agilize.egg-info/PKG-INFO
+Agilize.egg-info/SOURCES.txt
+Agilize.egg-info/dependency_links.txt
+Agilize.egg-info/not-zip-safe
+Agilize.egg-info/requires.txt
+Agilize.egg-info/top_level.txt
+agilize/__init__.py
+agilize/client.py
+agilize/keycloak.py
