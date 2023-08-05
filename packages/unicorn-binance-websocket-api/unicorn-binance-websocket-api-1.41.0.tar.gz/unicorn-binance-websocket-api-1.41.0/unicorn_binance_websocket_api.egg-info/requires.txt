@@ -1,0 +1,10 @@
+colorama
+requests
+websocket-client
+websockets==10.3
+flask_restful
+cheroot
+flask
+ujson
+psutil
+unicorn-fy
