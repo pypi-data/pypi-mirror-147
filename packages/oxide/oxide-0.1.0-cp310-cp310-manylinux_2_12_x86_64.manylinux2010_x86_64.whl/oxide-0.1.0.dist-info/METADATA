@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: oxide
+Version: 0.1.0
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+License-File: LICENSE
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# Oxide
+
+A Python HTTP server in Rust
+
+## Example
+
+```python
+import oxide
+import asyncio
+
+server = oxide.Server()
+
+class Echo(oxide.Route):
+    async def setup(self):
+        pass
+
+    async def get(self, param: str):
+        return oxide.Response(body=param, status=200)
+
+server.add_route('/echo/:param', Echo)
+
+async def main():
+    await server.start("127.0.0.1:8001")
+
+asyncio.run(main())
+```
+
