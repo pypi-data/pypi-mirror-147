@@ -1,0 +1,28 @@
+.errormessage, .requirement {
+    color: red;
+}
+
+.hover {
+    text-decoration: none;
+    color: #212529;
+}
+
+.hover:hover {
+    color:#212529;
+    text-decoration: underline;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+#bodyTag .navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link {
+    color: white;
+    text-decoration: none;
+}
+  
+#bodyTag .navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link:hover {
+    color: white;
+    text-decoration: underline;
+}
