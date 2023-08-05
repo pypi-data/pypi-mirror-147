@@ -1,0 +1,15 @@
+tocode/__inner_files__/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tocode/__inner_files__/_built_in/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tocode/__inner_files__/_built_in/_built_in_file_manager.py,sha256=7uvvNsDYb5f-tGvlwweVkIEuTqGsERmYDD1tMP0nWG4,543
+tocode/__inner_files__/_gen/__code_gen_list__.py,sha256=Bocz8Tcx0fk0_i0r12TB5fC7fEuZ_A0sk5nCTxnB2rg,34
+tocode/__inner_files__/_gen/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tocode/__inner_files__/_src/__code_sr_list__.py,sha256=Bocz8Tcx0fk0_i0r12TB5fC7fEuZ_A0sk5nCTxnB2rg,34
+tocode/__inner_files__/_src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tocode/_literal_eval_par/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tocode/_literal_eval_par/_literal_eval.py,sha256=jBjImFoIIdUn3lJnJgbBLtmdJxO1KlQrj_fMJcj4DnY,3220
+tocode/_literal_eval_par/_str_parser.py,sha256=IxYOcbvjY2WyuaNrn9DPXerPg7hD5XWPZwP3qfYde64,1759
+tocode-0.1.2.dist-info/LICENSE,sha256=74ayx6ut890VF0oo_Qn35uNgW-o8u5ioRgqwf3LX9NA,1089
+tocode-0.1.2.dist-info/METADATA,sha256=NpG9hk40r9U8PiO3uFaJGo1pBH2xRpY-aJd8VksDa0c,5190
+tocode-0.1.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tocode-0.1.2.dist-info/top_level.txt,sha256=ClFsHKm0_6cR1qeS45U1vWG76XR6vFAWJtDlWbW2VzA,7
+tocode-0.1.2.dist-info/RECORD,,
