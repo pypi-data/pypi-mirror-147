@@ -1,0 +1,9 @@
+huffmanfile/__init__.py,sha256=TrqnVxfV4euRvLqTu39KQpZ32adgvx0FdrNEf9MVV5c,176
+huffmanfile/huffmanfile_test.py,sha256=JTqfPDOsliB_9O5oV9O0rWFk8uDwLfi3Glcvhg68E2I,1588
+huffmanfile/huffmanfile.py,sha256=SF4FmdORs49RuOvj4PLVrSvjRJNhx_TtIkhGxOzR41U,14502
+huffmanfile/_C.abi3.so,sha256=-HewOQyPdFbCK4JowcmZLbX3XjtguUmPp8z_G1rPaaQ,296328
+huffmanfile-1.0.1.dist-info/RECORD,,
+huffmanfile-1.0.1.dist-info/LICENSE,sha256=IXuCRlhl92tjQD3uI1jYMBO_MHHBFp8A3T6J7122QWw,1079
+huffmanfile-1.0.1.dist-info/METADATA,sha256=FyKl5Vo8vlnYfRORmFqbY-K8Xuo-TzQHX_-CgqpEwMs,4716
+huffmanfile-1.0.1.dist-info/top_level.txt,sha256=TSJ7FHGnNzc6L7Rpc1dpnQFJ0wl7255eCRvQlD7G4iU,12
+huffmanfile-1.0.1.dist-info/WHEEL,sha256=FNUt4eBsrBVn_Yc5KG3aXtKE40X3uNZrbGLNCbVxyFw,148
