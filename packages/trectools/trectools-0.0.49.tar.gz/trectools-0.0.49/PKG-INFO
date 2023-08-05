@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: trectools
+Version: 0.0.49
+Summary: An open-source Python library for assisting Information Retrieval (IR) practitioners with TREC-like campaigns.
+Home-page: https://github.com/joaopalotti/trec_tools
+Author: Joao Palotti
+Author-email: joaopalotti@gmail.com
+License: BSD
+Description: Have a look at our github page: https://github.com/joaopalotti/trectools
+Platform: UNKNOWN
