@@ -1,0 +1,2 @@
+[console_scripts]
+pierogis = pierogis.__main__:main
