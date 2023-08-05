@@ -1,0 +1,1 @@
+icinga2_passive_replicator

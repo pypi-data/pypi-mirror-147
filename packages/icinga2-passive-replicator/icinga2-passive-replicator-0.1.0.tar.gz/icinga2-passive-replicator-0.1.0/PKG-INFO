@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: icinga2-passive-replicator
+Version: 0.1.0
+Summary: A Icinga2 to Icinga2 replicator using passive checks
+Home-page: https://github.com/opsdis/icinga2-passive-replicator
+Author: thenodon
+Author-email: anders@opsdis.com
+License: GPLv3
+Platform: UNKNOWN
+Requires-Python: >=3.8
+License-File: LICENSE
+License-File: COPYING
+
+UNKNOWN
+
