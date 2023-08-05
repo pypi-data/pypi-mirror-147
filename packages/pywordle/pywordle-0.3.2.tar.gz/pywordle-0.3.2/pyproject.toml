@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "pywordle"
+version = "0.3.2"
+description = "Little helper to play the Wordle game"
+authors = ["Pierre Cart-Grandjean <pcart-grandjea@noreply.com>"]
+license = "MIT License"
+packages = [{ include = "pywordle" }]
+readme = "DESCRIPTION.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytz = "*"
+requests = "*"
+marshmallow = "*"
+
+[tool.poetry.dev-dependencies]
+pylint = "*"
+pytest = "*"
+black = "*"
+pdbpp = "*"
+mypy = "*"
+types-pytz = "*"
+types-requests = "*"
+safety = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+wordle = "pywordle.wordle:main"
+
+[tool.mypy]
+strict = true

@@ -1,0 +1,34 @@
+# -*- coding: utf-8 -*-
+from setuptools import setup
+
+packages = \
+['pywordle']
+
+package_data = \
+{'': ['*'], 'pywordle': ['words/*']}
+
+install_requires = \
+['marshmallow', 'pytz', 'requests']
+
+entry_points = \
+{'console_scripts': ['wordle = pywordle.wordle:main']}
+
+setup_kwargs = {
+    'name': 'pywordle',
+    'version': '0.3.2',
+    'description': 'Little helper to play the Wordle game',
+    'long_description': '# PyWordle\n\nThis package can help you playing the [Wordle](https://www.powerlanguage.co.uk/wordle/) game. It will not play for you. You will still have to choose the best strategy.\n\n## Installation\n\nThe tool can easily be installed on a computer where a recent (>=3.10) version of Python is present.\n\n```bash\npython3 -m venv venv\n. venv/bin/activate\npip install pywordle\n```\n\n## Usage\n\nEach time that you want to enter a new word, you will ask the tool to provide a list of candidates. When you have selected a word, type it in as well as the result provided by the `Wordle` game. The code values for the result colours are:\n\n* Dark gray: 0\n* Yellow: 1\n* Green: 2\n\nHere is an example:\n\n```bash\n$ wordle --letters=etaions --unique\nHere is the list of 37 possibilities: {\'aeons\': 2.72, \'onset\': 2.87, \'saint\': 4.43, \'tinea\': 0, \'oaten\': 0, \'antes\': 3.17, \'siena\': 2.4, \'atone\': 3.11, \'tines\': 2.7, \'steno\': 1.97, \'stoae\': 0, \'anise\': 2.3, \'taino\': 0, \'stain\': 3.78, \'stoai\': 0, \'notes\': 4.36, \'sotie\': 0, \'iotas\': 2.68, \'tenia\': 2.73, \'neats\': 3.93, \'nates\': 0, \'satin\': 3.12, \'etnas\': 2.43, \'senti\': 1.97, \'antis\': 4.33, \'stone\': 4.68, \'seton\': 1.73, \'tsine\': 0, \'entia\': 0, \'eosin\': 1.74, \'ostia\': 1.82, \'tones\': 4.27, \'tains\': 2.2, \'inset\': 1.73, \'noise\': 4.6, \'stane\': 0, \'stein\': 3.38}\nPlease enter the word played:\nnoise\nPlease enter the result:\n20001\nSaving result for \'noise\': [2, 0, 0, 0, 1]\n```\n\nThe result will be stored in today\'s game file and be used next time you call the tool, limiting the possibilities. Just type `Enter`, if you do not want to choose a word just yet. Each day a file `games/YYYYMMDD.json` will be created to hold your progress.\n\nAll the command line options can be found with the `--help` option.\n\n```bash\n$ wordle --help\nusage: Propose words for the Wordle game. [-h] [--large] [--stats] [--none] [--unique] [--check] [--verbose] [--letters LETTERS] [--minfrequency MINFREQUENCY]\n\noptions:\n  -h, --help            show this help message and exit\n  --large               Uses the large file of English words.\n  --stats               Displays some stats about the found words.\n  --none                Use none of the previously used letters.\n  --unique              Do not repeat letters in a word.\n  --check               Check that the word is valid.\n  --verbose             Print progress.\n  --sort                Make sure the words are in alphabetic order.\n  --letters LETTERS     The set of letters to be used.\n  --language {en,fr,es}\n                        The language of the game\n  --minfrequency MINFREQUENCY\n                        A minimum frequency for the proposed words, either 0 (not found) or between 1 and 7.\n\n```\n\n### Letters\n\nThe `--letters` is useful to start the game with a word that is using the most common English letters to have the best chances to find letters of the solution word. It also could be a good idea to add the `--unique` option to avoid repeating a letter.\n\n```bash\nwordle --letters=etaionshr --unique\n```\n\n### None\n\nThis is a different strategy. Instead of looking for a possible word, you are trying to look for information on letters that you have not used yet today. This is not possible if you have selected the `Hard Mode`. It only makes sense to use the option for the second and possibly third word. Again the `--unique` option will give you more information.\n\n```bash\nwordle --none --unique\n```\n\n### Stats\n\nThis will give you some statistics in the list of proposed words. First you will get the most used letters in that list. Then you will get the words that used the most used letters. This is another strategy to give you more chance to have valuable information.\n\n```bash\n$ wordle --letters=etaion --unique --stats\nHere is the list of 6 possibilities: {\'tinea\': 0, \'oaten\': 0, \'atone\': 3.11, \'taino\': 0, \'tenia\': 2.73, \'entia\': 0}\n10 most used letters in the words: a, n, t, e, i, o, b, c, d, f\n5 most scored words: tinea, tenia, entia, oaten, atone\nPlease enter the word played:\n\nNo play recorded.\n```\n\n### Using the Words API\n\nIn order to check the validity and frequency of the words with a call to the [Words API](https://github.com/dwyl/english-words), you need to store a valid [Rapid API](https://rapidapi.com) key in `RAPIDAPI_KEY` environment variable. It is free for up to 2500 words per day. Once a word is checked, it is stored locally so it will not be checked again the next days. When there is no more "null" values in your JSON word file, you do not need to check the Words API anymore.\n\n```bash\nexport RAPIDAPI_KEY="{YourKey}"\nwordle --check\n```\n\n### Frequency\n\nWhen checking a word in the API, we store its frequency. The solution of the Wordle game tends to be a word with a high frequency.\n\n```bash\nwordle --minfrequency=5\n```\n\n### Large English word list\n\nBy default the tool will rely on a list that contains less than 4300 words of 5 letters. The good news is that most are valid but a few are missing. With the `--large` option, you will use a list with nearly 16000 words of 5 letters. It\'s exhaustive but unfortunately it also contains many invalid words. This is where the Words API will become handy. But beware of your daily quota.\n\nIt is critical to choose at the first run of the tool if you decide to start from the large list or not. After that, the option will be ignored and we will only use the generated JSON file: `words/words.en.json`. If you delete it to start again, you will lose the benefit of all the checks you have done with the Words API.\n\n```bash\nwordle --large\n```\n\n### French words\n\nThe list of 5 letters French words was retrieved from [ListesDeMots](https://www.listesdemots.net/mots5lettres.htm).\n\n### Spanish words\n\nThe list of Spanish words was retrieved from [an-array-of-spanish-words](https://github.com/words/an-array-of-spanish-words/blob/master/index.json).\n',
+    'author': 'Pierre Cart-Grandjean',
+    'author_email': 'pcart-grandjea@noreply.com',
+    'maintainer': None,
+    'maintainer_email': None,
+    'url': None,
+    'packages': packages,
+    'package_data': package_data,
+    'install_requires': install_requires,
+    'entry_points': entry_points,
+    'python_requires': '>=3.10,<4.0',
+}
+
+
+setup(**setup_kwargs)
