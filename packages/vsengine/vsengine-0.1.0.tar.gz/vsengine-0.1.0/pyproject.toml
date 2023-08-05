@@ -1,0 +1,23 @@
+[project]
+name = "vsengine"
+version = "0.1.0"
+license = { file = "COPYING" }
+readme = "README.md"
+authors = [
+    { name = "cid-chan", email ="cid+git@cid-chan.moe" }
+]
+dynamic = ["description"]
+requires-python = ">=3.9"
+
+dependencies = [
+    "vapoursynth>=57"
+]
+
+[project.optional-dependencies]
+trio = [
+    "trio"
+]
+
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
