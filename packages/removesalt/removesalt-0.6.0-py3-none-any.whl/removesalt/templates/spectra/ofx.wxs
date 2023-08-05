@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi"
+     xmlns:util='http://schemas.microsoft.com/wix/UtilExtension'>
+  <Product Id="*" UpgradeCode="{{ data.app.components.container['ofx'].root_dir }}" Version="{{ data.app.version }}"
+           Language="1033" Name="{{ data.app.name }}" Manufacturer="{{ data.company_name }}">
+    <Package InstallerVersion="300" Compressed="yes" Platform='x64' />
+    <Media Id="1" Cabinet="myapplication.cab" EmbedCab="yes" />
+
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <Directory Id="CommonFiles64Folder">
+        <Directory Id="{{ data.app.components.container['ofx'].root_dir }}" Name="OFX" />
+      </Directory>
+    </Directory>
+    <Feature Id="SpectraOpenFX" Title="Spectra OpenFX" Level="1">
+      <ComponentGroupRef Id="{{ data.app.components.container['ofx'].group }}" />
+    </Feature>
+
+  </Product>
+</Wix>

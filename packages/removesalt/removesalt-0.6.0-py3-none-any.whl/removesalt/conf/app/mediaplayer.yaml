@@ -1,0 +1,57 @@
+app:
+  name: Mediaplayer
+  version: 1.12.1 # don't hand edit this, use "bump2version" to update it, see .bumpversion.cfg
+  wix_guid: 9819D66C-FFB9-11EB-A63F-30D9D9EED5CB
+bin_path: ${path:${app.orig_cwd}/streambox_mediaplayer_win_assets/app/}
+bundle:
+  name: mediaplayer.exe
+components:
+  build_order:
+    - main
+    - app
+  container:
+    app:
+      deploy: ${app.deploy}
+      group: ComponentGroupMediaPlayer
+      path_work: ${path:${app.work1}/app.wxs}
+      root_dir: MEDIAPLAYERROOTDIRECTORY
+      single_file: true
+      wix_guid: ${app.wix_guid}
+    main:
+      deploy: ${app.deploy}
+      group: ComponentGroupMediaPlayer
+      path_work: ${path:${app.work1}/components.wxs}
+      root_dir: MEDIAPLAYERROOTDIRECTORY
+      single_file: false
+      wix_guid: ${app.wix_guid}
+installer_name: mediaplayer
+installer_source_path: ${path:${app.orig_cwd}/streambox_mediaplayer_win_assets/installer/}
+msi:
+  name: mediaplayer.msi
+quickstart:
+  name: mediaplayer_quickstart_win.pdf
+release: false
+run_signtool: false
+s3bucket:
+  name: streambox-mediaplayer
+sku: 8bit # overridden on cli like: +app=mediaplayer app.sku=10bit
+skus:
+  10bit:
+    source:
+      - 10bit/SMPlayer.exe
+      - 10bit/SMPlayerLib.dll
+  8bit:
+    source:
+      - 8bit/SMPlayer.exe
+      - 8bit/SMPlayerLib.dll
+splash_image:
+  name: Mediaplayer-splash_130x247.png
+stop_all_uploads: true
+wix:
+  component_group: ComponentGroupMediaPlayer
+  root_dir: MEDIAPLAYERROOTDIRECTORY
+work: ${path:${app.orig_cwd}/build/${app.installer_name}/${app.sku}/${app.run_signtool}}
+zip_not_versioned:
+  name: mediaplayer.zip
+zip_versioned:
+  name: mediaplayer_${app.app.version}.zip
