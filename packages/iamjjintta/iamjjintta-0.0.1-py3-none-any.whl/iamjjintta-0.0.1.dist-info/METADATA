@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: iamjjintta
+Version: 0.0.1
+Summary: 나는 찐따다.
+Home-page: https://github.com/iam-jjintta
+Download-URL: https://github.com/iam-jjintta
+Author: iam-jjintta
+Author-email: iamjjintta@gmail.com
+License: UNKNOWN
+Keywords: iamjjintta
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.1
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3
+
+UNKNOWN
+
