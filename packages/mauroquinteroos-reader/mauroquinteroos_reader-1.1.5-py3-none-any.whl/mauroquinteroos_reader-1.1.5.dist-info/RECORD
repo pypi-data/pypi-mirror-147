@@ -1,0 +1,11 @@
+reader/__init__.py,sha256=6ltAXlZd2IGIeRfVNozyScpFLuoepej8yDSPc05Hn1c,570
+reader/__main__.py,sha256=qiooy9_QQjxgaTnVODEiJyCiTeDdVM9K5W8ceUkL7xI,706
+reader/feed.py,sha256=dOQj_yszqCJ60S1ulUYM-h8KTRFqLRdT0VkkoaQwA24,1520
+reader/main.py,sha256=Ir259GvZPHskPWdxGkHGAHbeSGFTvRrWifqDHI9nRj8,938
+reader/viewer.py,sha256=EgaSFHXmQBbfy4hZ_GHx_Idq-dZitdhCgBvakxlczDo,411
+mauroquinteroos_reader-1.1.5.dist-info/LICENSE.txt,sha256=lVXG7TZJTjE8Q3ZSrxuk5jfzukuDbQe6wRce2Iq3h94,1068
+mauroquinteroos_reader-1.1.5.dist-info/METADATA,sha256=KvTw7t7LiJ-pqFKhu_n_F9b0_JEyDQ3JREGp4hcDhRw,3372
+mauroquinteroos_reader-1.1.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mauroquinteroos_reader-1.1.5.dist-info/entry_points.txt,sha256=_stYaEHV_5f6MVbFDrTtB0ZWNpl__MkD9_7063qy43E,52
+mauroquinteroos_reader-1.1.5.dist-info/top_level.txt,sha256=zVRv6FulXZWKf9Gycz9vjxul5OCZ3fCq2Attdwsu7Z4,7
+mauroquinteroos_reader-1.1.5.dist-info/RECORD,,
