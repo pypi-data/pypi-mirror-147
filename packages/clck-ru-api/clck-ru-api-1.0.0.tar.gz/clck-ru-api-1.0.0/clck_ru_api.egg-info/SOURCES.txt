@@ -1,0 +1,6 @@
+setup.py
+clck/__init__.py
+clck_ru_api.egg-info/PKG-INFO
+clck_ru_api.egg-info/SOURCES.txt
+clck_ru_api.egg-info/dependency_links.txt
+clck_ru_api.egg-info/top_level.txt
