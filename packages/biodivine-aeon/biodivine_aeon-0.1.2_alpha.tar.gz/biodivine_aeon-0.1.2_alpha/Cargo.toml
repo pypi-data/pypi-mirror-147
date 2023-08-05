@@ -1,0 +1,17 @@
+[package]
+name = "biodivine-aeon-py"
+version = "0.1.1"
+edition = "2021"
+
+[lib]
+name = "biodivine_aeon"
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+pyo3 = { version = "0.15.1", features = ["extension-module"] }
+biodivine-lib-param-bn = "0.2.4"
+biodivine-lib-bdd = "0.3.0"
+biodivine-pbn-control = { git = "https://github.com/sybila/biodivine-pbn-control", branch = "feature/limited-phenotype-control" }
+
+[build-dependencies]
+pyo3-build-config = "0.15.1"
