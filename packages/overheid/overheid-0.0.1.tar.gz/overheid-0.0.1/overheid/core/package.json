@@ -1,0 +1,21 @@
+{
+  "description": "Development framework for Dutch government applications",
+  "author": "Cochise Ruhulessin",
+  "author_email": "cochise.ruhulessin@unimatrixone.io",
+  "url": "https://gitlab.com/unimatrixone/libraries/overheid",
+  "licenses": "Proprietary",
+  "classifiers": [
+     "Development Status :: 4 - Beta",
+     "Environment :: Console",
+     "Environment :: Web Environment",
+     "License :: Other/Proprietary License",
+     "Operating System :: POSIX",
+     "Operating System :: POSIX :: Linux",
+     "Programming Language :: Python :: 3.10",
+     "Programming Language :: Python :: 3 :: Only",
+     "Topic :: Internet",
+     "Topic :: Office/Business",
+     "Topic :: Security",
+     "Topic :: Software Development :: Libraries"
+  ]
+}

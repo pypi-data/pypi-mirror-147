@@ -1,0 +1,11 @@
+include VERSION
+include overheid/core/package.json
+include requirements.txt
+include README.md
+include VERSION
+recursive-include overheid VERSION
+recursive-include overheid **.html
+recursive-include overheid **.j2
+recursive-include overheid **.json
+recursive-include overheid **.yaml
+recursive-include overheid **.xml

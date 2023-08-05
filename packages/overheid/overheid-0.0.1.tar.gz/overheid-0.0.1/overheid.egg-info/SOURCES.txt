@@ -1,0 +1,9 @@
+MANIFEST.in
+VERSION
+setup.py
+overheid/package.json
+overheid.egg-info/PKG-INFO
+overheid.egg-info/SOURCES.txt
+overheid.egg-info/dependency_links.txt
+overheid.egg-info/top_level.txt
+overheid/core/package.json

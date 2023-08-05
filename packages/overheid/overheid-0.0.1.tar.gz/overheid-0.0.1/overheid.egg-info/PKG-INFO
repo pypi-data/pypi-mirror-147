@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: overheid
+Version: 0.0.1
+Summary: Development framework for Dutch government applications
+Home-page: https://gitlab.com/unimatrixone/libraries/overheid
+Author: Cochise Ruhulessin
+Author-email: cochise.ruhulessin@unimatrixone.io
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Internet
+Classifier: Topic :: Office/Business
+Classifier: Topic :: Security
+Classifier: Topic :: Software Development :: Libraries
+
+UNKNOWN
+
