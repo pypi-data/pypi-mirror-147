@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=42",
+            "setuptools_scm[toml]>=3.4",
+            "wheel",
+            "oldest-supported-numpy",
+	    ]
+build-backend = 'setuptools.build_meta'
+
+[tool.setuptools_scm]
+write_to = "asdf_astropy/_version.py"
+
+[tool.black]
+line-length = 120
+force-exclude = '''
+^/(
+  (
+      \.eggs
+    | \.git
+    | \.pytest_cache
+    | \.tox
+    | scripts
+    | build
+    | dist
+  )/
+)
+'''
+
+[tool.isort]
+profile = "black"
+filter_files = true
+line_length = 120
