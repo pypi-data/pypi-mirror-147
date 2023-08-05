@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+valdezdf/__init__.py
+valdezdf.egg-info/PKG-INFO
+valdezdf.egg-info/SOURCES.txt
+valdezdf.egg-info/dependency_links.txt
+valdezdf.egg-info/requires.txt
+valdezdf.egg-info/top_level.txt
