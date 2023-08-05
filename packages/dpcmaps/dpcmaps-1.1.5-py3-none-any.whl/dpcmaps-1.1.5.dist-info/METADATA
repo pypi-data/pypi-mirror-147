@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: dpcmaps
+Version: 1.1.5
+Summary: Software for generating and analysis of DPC Maps
+Home-page: https://github.com/NSLS-II/dpcmaps
+Author: Brookhaven National Laboratory
+Author-email: 
+License: BSD (3-clause)
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: h5py
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pillow
+Requires-Dist: psutil
+Requires-Dist: scikit-image
+Requires-Dist: tifffile
+
+=======
+dpcmaps
+=======
+
+.. image:: https://img.shields.io/pypi/v/dpcmaps.svg
+        :target: https://pypi.python.org/pypi/dpcmaps
+
+
+Software for Diffraction Phase Correlation analysis.
+
+Project documentation: http://nsls-ii.github.io/dpcmaps/
+
+Installation instructions: http://nsls-ii.github.io/dpcmaps/installation.html
+
+
