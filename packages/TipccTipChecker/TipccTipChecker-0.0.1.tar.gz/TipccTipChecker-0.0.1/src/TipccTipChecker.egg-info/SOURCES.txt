@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/Tip Checker/__init__.py
+src/Tip Checker/tipchecker.py
+src/TipccTipChecker.egg-info/PKG-INFO
+src/TipccTipChecker.egg-info/SOURCES.txt
+src/TipccTipChecker.egg-info/dependency_links.txt
+src/TipccTipChecker.egg-info/top_level.txt

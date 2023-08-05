@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: TipccTipChecker
+Version: 0.0.1
+Summary: Checks tip.cc tip messages for valid tips and tip data
+Home-page: https://github.com/UpByTheStars/Tip.cc-Tip-Checker
+Author: UpByTheStars
+Author-email: UpByTheStars@example.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/UpByTheStars/Tip.cc-Tip-Checker/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+How to use?
+Import the package
+
+from TipccTipChecker import checktip
+
+Create a json file to send data to
+Ex: tipdata.json
+
+Get the discord message content (normally with message.content or msg.content)
+tip = message.content
+
+Get the user who sent the message (normally with message.author.id or msg.author.id)
+tipauthor = message.author.id
+
+Get the location of the json file to send data to
+filelocation = ('json/file/location.json')
+
+Send the message to the tip checker
+tipchecker.checktip(tip, tipauthor, filelocation)
+
+The tip checker will reply with the tip's data
+
