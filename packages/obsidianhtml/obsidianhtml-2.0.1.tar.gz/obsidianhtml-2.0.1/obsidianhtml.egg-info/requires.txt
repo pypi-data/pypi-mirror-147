@@ -1,0 +1,10 @@
+markdown
+obsidianhtml-md-mermaid-fork
+python-frontmatter
+pygments
+regex
+requests
+beautifulsoup4
+html5lib
+pywebview
+appdirs
