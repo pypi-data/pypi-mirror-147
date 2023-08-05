@@ -1,0 +1,6 @@
+include README.rst
+include LICENSE
+include requirements.txt
+recursive-include src/packageitstructureexample/bar *.ini
+graft packageitstructureexample
+recursive-exclude * *.py[co]
