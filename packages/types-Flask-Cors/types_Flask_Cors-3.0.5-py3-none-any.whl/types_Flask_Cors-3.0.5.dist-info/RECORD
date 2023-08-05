@@ -1,0 +1,10 @@
+flask_cors-stubs/METADATA.toml,sha256=W6Hh_ZyuMsyJUyceygSSP5Zxe9TYi3L0_XACyNVV2cc,18
+flask_cors-stubs/__init__.pyi,sha256=6Kzy9nt-gOPKGU7GwIYUOo9y8J7OrDYM1q0BnbUue4Y,184
+flask_cors-stubs/core.pyi,sha256=3gwKn4HaAGu6EDquwLk1rSFZcMLPD3o1W7Jza-iWyxs,2717
+flask_cors-stubs/decorator.pyi,sha256=IJ4G8GksQ1K6N6X1XSFBiasgM3KlERaWnmHfpcNIhhw,682
+flask_cors-stubs/extension.pyi,sha256=b1t-ZYuVwcHB-rPjT3COMQ92GxIeC2_0FgNmcnIvwpo,1396
+flask_cors-stubs/version.pyi,sha256=Y25n44pyE3vp92MiABKrcK3IWRyQ1JG1rZ4Ufqy2nC0,17
+types_Flask_Cors-3.0.5.dist-info/METADATA,sha256=AegI6bxv1cNj4zi1DoKTx95KgBr7MOi6woAAIu_n13o,1167
+types_Flask_Cors-3.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+types_Flask_Cors-3.0.5.dist-info/top_level.txt,sha256=xmSddbI7T0FOZEwhf3rhG-sy9sqyLkRli2Bd7qIDfP0,17
+types_Flask_Cors-3.0.5.dist-info/RECORD,,
