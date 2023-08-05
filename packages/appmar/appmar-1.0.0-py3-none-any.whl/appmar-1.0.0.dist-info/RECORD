@@ -1,0 +1,12 @@
+appmar/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+appmar/__main__.py,sha256=Q49ZhTn1rN20V2WyMBXmE7xrdV358BAdETHYJm_JpXI,68
+appmar/appmar.py,sha256=d6by5Syt44_Z1CxFfilWhaRAePjOxUEKVqvb4JzwAos,51474
+appmar/ceman.png,sha256=ZO-uW4Mc0ummqNvc8wAA0460mGD017X_2E0LQlCar7M,17734
+appmar/libappmar.py,sha256=03I-IBOZI6bxD_JP3iUlZmo9n48BuBWlDDQRyLcr_Mc,15286
+appmar/wave.png,sha256=KXu-aCPeHy1pu_fY5O1O9awHdSMv6rF3hB_3A1DPUR4,18734
+appmar-1.0.0.dist-info/LICENSE,sha256=aoSQrWQ9SwZZ302JE6uhEbUVptn0JiombReODFVWuB8,1092
+appmar-1.0.0.dist-info/METADATA,sha256=Cs7ErRHNWPISJLUhf2TRQulTMyN7pyhJWp3hTi3wh2U,5198
+appmar-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+appmar-1.0.0.dist-info/entry_points.txt,sha256=aD8cWOuEbmY9hkFhrM7OUWc0xUcOrLVMICgV9u63utw,47
+appmar-1.0.0.dist-info/top_level.txt,sha256=COmllE-jqmPokneRGsQ4otlCIWmdo7290_-EE0PGJRo,7
+appmar-1.0.0.dist-info/RECORD,,
