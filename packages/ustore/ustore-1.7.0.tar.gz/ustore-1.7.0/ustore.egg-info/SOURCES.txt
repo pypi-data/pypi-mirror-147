@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+ustore/__init__.py
+ustore.egg-info/PKG-INFO
+ustore.egg-info/SOURCES.txt
+ustore.egg-info/dependency_links.txt
+ustore.egg-info/requires.txt
+ustore.egg-info/top_level.txt
