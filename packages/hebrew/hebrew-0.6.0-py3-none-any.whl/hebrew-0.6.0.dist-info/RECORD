@@ -1,0 +1,9 @@
+hebrew/__init__.py,sha256=mxcvqsGptZJCo8P9Lx6bcJ78eXgarCZdh4bNLjvAk3o,84
+hebrew/chars.py,sha256=XGGBZjJqKfJLi5QSQz-Heb0IIPJFQ86Qa9b_RTUJVBg,42570
+hebrew/gematria.py,sha256=W8CPZJnHd9LnzwHJG5z6QMHHC9YgG_ZIQV4J-1ufJUQ,12806
+hebrew/grapheme_string.py,sha256=OssqNi8-1JbfBuuIJ7dtHvfgj3SMss_A9WNlhh1hDyM,7574
+hebrew/hebrew_obj.py,sha256=yIgRlLnpUJRHMNbQPDvj-5fJwOYRpcGU4T-sy6ksPCg,11654
+hebrew-0.6.0.dist-info/LICENSE,sha256=7onwL9_Dyj1GZkYXuhnOdBBy4wK39_evazqKHZfioFM,1057
+hebrew-0.6.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+hebrew-0.6.0.dist-info/METADATA,sha256=qTtmqzmRngVpGrOYfBNsBTiFL3Ydzbve2EcB9ZtNIhQ,9670
+hebrew-0.6.0.dist-info/RECORD,,
