@@ -1,0 +1,10 @@
+README.md
+setup.py
+vndb_api_wrapper/vndb_api.py
+vndb_api_wrapper/vndb_info.py
+vndb_api_wrapper.egg-info/PKG-INFO
+vndb_api_wrapper.egg-info/SOURCES.txt
+vndb_api_wrapper.egg-info/dependency_links.txt
+vndb_api_wrapper.egg-info/top_level.txt
+vndb_api_wrapper/exceptions/vndb_error.py
+vndb_api_wrapper/utils/utils.py
