@@ -1,0 +1,3 @@
+[console_scripts]
+physam = physam.cli:main
+
