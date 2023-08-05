@@ -1,0 +1,10 @@
+LICENSE.txt
+README.rst
+setup.cfg
+setup.py
+millimango/__init__.py
+millimango/mango.py
+millimango.egg-info/PKG-INFO
+millimango.egg-info/SOURCES.txt
+millimango.egg-info/dependency_links.txt
+millimango.egg-info/top_level.txt

@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: millimango
+Version: 0.0.2
+Summary: MILLI Mango
+Home-page: https://github.com/NickygenN1/MilliMango
+Author: gennnincky
+Author-email: gen.n.nicky@gmail.com
+License: MIT
+Download-URL: https://github.com/NickygenN1/MilliMango/archive/v0.0.2.zip
+Keywords: milli,mango,sticky,rice
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE.txt
+
+(millimango) package to pypi.org
+================================
+
+PyPi: https://pypi.org/project/millimango/
+
+this is my first package with nothing speacial
+
+Install
+~~~~~~~
+
+open CMD / Terminal
+
+.. code:: python
+
+   pip install millimango
+
+How to use
+~~~~~~~~~~
+
+-  open your IDE…
+
+.. code:: python
+
+   from millimango import Mangostk
+
+   m = Mangostk()
+   m.trend(open=True)
+   m.what_is_it()
+   m.how2make(open=True)
+   m.ingredient()
+   m.showpic()
+   m.show_ascii()
+
+dev is me.
+
+
