@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: bifu
+Version: 22.4.18.post14
+Summary: (WIP) Run own commands before commit / push etc
+Author: Tadeusz Miszczyk
+Author-email: 42252259+8tm@users.noreply.github.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# bifu
+
