@@ -1,0 +1,7 @@
+setup.py
+python4office/__init__.py
+python4office/hello-world.py
+python4office.egg-info/PKG-INFO
+python4office.egg-info/SOURCES.txt
+python4office.egg-info/dependency_links.txt
+python4office.egg-info/top_level.txt
