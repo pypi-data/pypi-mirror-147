@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.cfg
+src/super-code/__init__.py
+src/super-code/main.py
+src/super_code_clatter.egg-info/PKG-INFO
+src/super_code_clatter.egg-info/SOURCES.txt
+src/super_code_clatter.egg-info/dependency_links.txt
+src/super_code_clatter.egg-info/top_level.txt
