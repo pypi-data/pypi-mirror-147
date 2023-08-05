@@ -1,0 +1,103 @@
+# This workflows will run tests on Ubuntu
+# For more information see: https://help.github.com/en/actions/language-and-framework-guides/using-python-with-github-actions#publishing-to-package-registries
+
+name: Windows
+
+on: push
+#   release:
+#     types: [created]
+
+jobs:
+  tests:
+
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.8'
+    - name: Locate Pip Cache
+      id: pip-cache
+      run: echo "::set-output name=dir::$(pip cache dir)"
+    - name: Cache pip
+      uses: actions/cache@v2
+      id: cache
+      with:
+        path: ${{ steps.pip-cache.outputs.dir }}
+        # C:\Users\runneradmin\AppData\Local\pip\Cache
+        # Look to see if there is a cache hit for the corresponding requirements file
+        key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+          ${{ runner.os }}-
+    - name: Add dependencies to PATH
+      if: steps.cache.outputs.cache-hit == 'true'
+      run: echo "Cache hit at ${{ steps.pip-cache.outputs.dir }}"
+    - name: Install Dependencies outside cache
+      if: steps.cache.outputs.cache-hit != 'true'
+      run: echo "No cache found at ${{ steps.pip-cache.outputs.dir }}"
+    - name: Update git buffer
+      run: |
+        # Somehow the brew install fails when running action. Let's try and increment buffer size.
+        git config --global http.postBuffer 524288000
+    - name: Install setuptools
+      run: |
+          pip3 install setuptools wheel twine
+    - name: Install ta-lib extension
+      run: |
+          pip3 install numpy
+          mv d:\a\nseta\nseta\libs\ta-lib-0.4.0-msvc.zip c:\ && unzip -o c:\ta-lib-0.4.0-msvc.zip
+    - name: Install ta-lib python lib
+      run: |
+        pip3 install d:\a\nseta\nseta\libs\TA_Lib-0.4.20-cp38-cp38-win_amd64.whl
+        python3 -m pip install ta-lib>=0.4.19
+        python3 -c 'import numpy, talib; close = numpy.random.random(100); output = talib.SMA(close); print(output)'
+    - name: Install fastquant
+      run: |
+        pip3 install fastquant
+    - name: Install fbprophet
+      run: |
+        pip3 install pystan==2.19.1.1
+        pip3 install fbprophet>=0.7.1 --no-cache-dir
+        pip3 install ipython==7.5.0
+    - name: Install project dependencies
+      run: |
+        pip3 install -r requirements.txt
+        pip3 install --upgrade pip
+        pip3 install convertdate>=2.3.0
+        pip3 install sanic==19.12.2
+        pip3 install multidict==4.6
+        python3 setup.py clean build install sdist bdist_wheel
+        pip3 install numpy==1.20.0
+        python3 -c "from nseta.scanner.volumeScanner import volumeScanner; from nseta.scanner.baseStockScanner import ScannerType; s=volumeScanner(ScannerType.Volume,['HDFC']); s.scan();"
+    - name: Generate test coverage report
+      run: |
+        pip3 install timeout-decorator
+        pip3 install coverage
+        pip3 install codecov
+        coverage run -m unittest discover -s tests -p 'test_*.py'
+        coverage report -m
+        coverage html
+        coverage xml
+        curl -s https://codecov.io/bash | bash
+    - name: "Upload test coverage to Codecov"
+      uses: codecov/codecov-action@v1
+      with:
+        token: ${{ secrets.CODECOV_TOKEN }}
+        # files: ./coverage1.xml,./coverage2.xml
+        # directory: ./coverage/reports/
+        flags: unittests
+        env_vars: THIS_VERSION,GITHUB_REF
+        name: codecov-umbrella
+        fail_ci_if_error: false
+        # path_to_write_report: ./coverage/codecov_report.txt
+        verbose: true
+    - name: "Upload test coverage to Codacy"
+      env:
+        CODACY_PROJECT_TOKEN: ${{ secrets.CODACY_PROJECT_TOKEN }}
+      run: |
+        coverage xml
+        curl -Ls https://coverage.codacy.com/get.sh --output codacy.sh
+        bash codacy.sh report -l Python -r coverage.xml
