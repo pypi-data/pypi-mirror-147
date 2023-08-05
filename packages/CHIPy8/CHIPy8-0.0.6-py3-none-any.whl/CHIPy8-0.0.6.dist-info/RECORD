@@ -1,0 +1,13 @@
+CHIPy8-0.0.6.data/scripts/chipy8,sha256=raWGo7mliFK2TPiIdY-h6LCRijFkmMj1T6gorVwbsnE,441
+chipy8/Chip8.py,sha256=nUgauI4GoIHP8dMGOKSzly6atPiILFeNnHExf7oGpjY,15060
+chipy8/Interface.py,sha256=Zkr4abC5WumKlEjnms6D_54UtKJ29NGPX4jHRBINNJQ,2041
+chipy8/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chipy8/beep.mp3,sha256=YXvWE0dl0Kye-Ae_upCWqBKnykwQ7ScLGXJYbn_3vk0,6736
+chipy8/config.py,sha256=eb-k39Ty-AQUphLFguEoqaWNDeo0c9DtY4tT21vtDv0,1201
+chipy8/font.ch8,sha256=e635IfbJMVvpgtCDB7eWwOj2hBFBr7R1qi7lpeB0zew,80
+chipy8/icon.png,sha256=ess2wdWFSJxz9ZAysSbAuXMbauEn8NUH1ygkc6SeheU,4645
+chipy8/run.py,sha256=QS3dv-Rd5x-w92JpGrZI9rapH9kOCM8D8RvtSOGICoA,1072
+CHIPy8-0.0.6.dist-info/METADATA,sha256=k6AqHTSKiFahB-8cpbN7-_Y1MTj96rsnZTLgXX4X4XE,1678
+CHIPy8-0.0.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+CHIPy8-0.0.6.dist-info/top_level.txt,sha256=pMJwGudta0G7nCX3RQ5YWpC1mNtUTmRmDgF9j4PUeyo,7
+CHIPy8-0.0.6.dist-info/RECORD,,
