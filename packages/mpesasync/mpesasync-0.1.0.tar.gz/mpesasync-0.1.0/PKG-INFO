@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: mpesasync
+Version: 0.1.0
+Summary: 
+Author: Pius Dan
+Author-email: npiusdan@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: aiohttp (>=3.8.1,<4.0.0)
+Requires-Dist: cryptography (>=36.0.1,<37.0.0)
+Requires-Dist: httpx (>=0.19.0,<0.20.0)
+Requires-Dist: pydantic (>=1.8.2,<2.0.0)
+Requires-Dist: ujson (>=5.1.0,<6.0.0)
