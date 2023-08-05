@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+tanks_wrld_art/__init__.py
+tanks_wrld_art/tank.py
+tanks_wrld_art.egg-info/PKG-INFO
+tanks_wrld_art.egg-info/SOURCES.txt
+tanks_wrld_art.egg-info/dependency_links.txt
+tanks_wrld_art.egg-info/not-zip-safe
+tanks_wrld_art.egg-info/top_level.txt
