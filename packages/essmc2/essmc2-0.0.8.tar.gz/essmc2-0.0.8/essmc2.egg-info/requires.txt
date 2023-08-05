@@ -1,0 +1,11 @@
+addict
+yapf
+numpy
+opencv_transforms
+decord==0.6.0
+tensorboard
+packaging
+oss2
+opencv-python
+matplotlib
+einops
