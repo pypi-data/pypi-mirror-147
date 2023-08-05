@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+MyFirstModuleskwdfewfsd.egg-info/PKG-INFO
+MyFirstModuleskwdfewfsd.egg-info/SOURCES.txt
+MyFirstModuleskwdfewfsd.egg-info/dependency_links.txt
+MyFirstModuleskwdfewfsd.egg-info/top_level.txt
+source/__init__.py
