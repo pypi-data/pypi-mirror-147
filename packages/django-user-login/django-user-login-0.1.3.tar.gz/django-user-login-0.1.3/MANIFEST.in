@@ -1,0 +1,9 @@
+include LICENSE
+include README.md
+exclude manage.py
+recursive-include authentication/static *
+recursive-include authentication/templates *
+recursive-include docs *
+global-exclude *.py[cod]
+prune store
+prune myshop
