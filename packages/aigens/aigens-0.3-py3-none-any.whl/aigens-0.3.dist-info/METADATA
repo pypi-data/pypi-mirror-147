@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: aigens
+Version: 0.3
+Summary: AI Generator helpers using RapidAPI
+Home-page: https://bitbucket.org/trycrimegroup/aigens/
+Author: TryCrime
+Author-email: lol@trycri.me
+License: MIT
+Keywords: rapidapi text generation
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE.rst
+Requires-Dist: requests
+
+# aigens
+A TryCrime Python package for AI text generation.
+
+Requires a RapidAPI account.
+
+`aigens` looks for your RapidAPI key in the `$RAPID_API_KEY` environment
+variable, so make sure to set it.
+
+## Installation
+```
+pip install aigens
+```
+
+## Usage Example
+```python
+import aigens
+
+# Returns a list of ideas
+ideas = aigens.generators.blog.generate_idea("A blog about my adventures in an internet gang.")
+for line in ideas:
+    print(line.strip())
+
+# Returns a list of strings in the form of outlines
+outline = aigens.generators.blog.generate_outline(
+    "A blog about how hard it is to be a gay KKK member."
+)
+for line in outline:
+    print(line.strip())
+```
+
+## Output Example
+The example code above produces output similar to below:
+
+```
+The Bully: A gang blog on bullying.
+10 Ways to Increase Your Google SEO: A blog post around 10 ways to improve your SEO and your Google search engine rankings.
+My First Gang Meeting: A blog post about my first gang meeting.
+How to Become a Gang Leader: A blog post about how to become a gang leader and how to manage your gang.
+The Six Most Important Things I've Learned From Being in an Internet Gang: A blog about the six most important things I've learned from being in an internet gang.
+My Gang: From Gang to Family: A blog post about how to transition from street gang to family.
+My Life in a Gang: A blog about life in an internet gang.
+The Gang Life: A blog about an internet gang.
+1. Introduction: The struggle of being a gay KKK member
+2. Challenges of being a gay KKK member
+3. The good things about being a gay KKK member
+4. Out of all the groups in the KKK, the gay KKK members are the smallest
+5. Conclusion: Gay members of the KKK are still persecuted, and it is hard to be one
+1. How hard is it to be a gay KKK member?
+2. What are some of the challenges that the KKK faces?
+3. What are some of the challenges that the gay KKK members face?
+4. What are some of the challenges that the black KKK members face?
+5. What are some of the challenges that the black gay KKK members face?
+6. What are some of the challenges that the gay black KKK members face?
+7. What are some of the challenges that the black gay black KKK members face?
+Conclusion: Being in a KKK group is not easy, no matter what the race.
+1. How hard is it to be a gay KKK member?
+2. How does the gay KKK member feel about the gay KKK?
+3. What about the gay KKK member's family?
+4. What about the KKK members who are gay?
+Conclusion: Sometimes people don't know what they're missing.
+This blog post is about how hard it is to be a gay KKK member.
+```
+
+
