@@ -1,0 +1,2 @@
+[console_scripts]
+spotipylist = src.__main__:spotipylist
