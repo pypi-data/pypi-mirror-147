@@ -1,0 +1,9 @@
+MANIFEST.in
+requirements.txt
+setup.py
+igorlaryush_test_home_credit.egg-info/PKG-INFO
+igorlaryush_test_home_credit.egg-info/SOURCES.txt
+igorlaryush_test_home_credit.egg-info/dependency_links.txt
+igorlaryush_test_home_credit.egg-info/top_level.txt
+sql_analyzer/__init__.py
+sql_analyzer/functions.py
