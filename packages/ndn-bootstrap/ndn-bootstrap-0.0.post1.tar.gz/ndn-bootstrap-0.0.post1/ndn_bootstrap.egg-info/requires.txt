@@ -1,0 +1,11 @@
+plyvel>=1.4.0
+PyYAML>=5.1.2
+cryptography>=36.0.2
+ecdsa>=0.17.0
+python-ndn@ git+https://github.com/named-data/python-ndn.git
+
+[dev]
+pytest>=6.2.5
+pytest-cov>=3.0.0
+flake8>=4.0.1
+build>=0.7.0

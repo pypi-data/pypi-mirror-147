@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: ndn-bootstrap
+Version: 0.0.post1
+Summary: NDN security bootstrapping tools in Python, built upon NDNCERT v0.3
+Home-page: https://github.com/tianyuan129/ndn-bootstrap
+Author: Tianyuan Yu
+Author-email: tianyuan@cs.ucla.edu
+License: Apache License 2.0
+Keywords: NDN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Internet
+Classifier: Topic :: System :: Networking
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.9
+Provides-Extra: dev
+
+ndn-bootstrap
+=============
+
+|Code Size|
+
+A Bootstrapping Tool for Named Data Networking, based on python-ndn_
+
+It supports Python >=3.9 and PyPy3.9 >=7.3.8.
+
+.. |Code Size| image:: https://img.shields.io/github/languages/code-size/tianyuan129/ndn-bootstrap
+    :target: https://github.com/tianyuan129/ndn-bootstrap
+    :alt: Code Size
+
+.. _python-ndn: https://github.com/named-data/python-ndn
+
+
