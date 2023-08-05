@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+escodesearcher/escodesearcher.egg-info/PKG-INFO
+escodesearcher/escodesearcher.egg-info/SOURCES.txt
+escodesearcher/escodesearcher.egg-info/dependency_links.txt
+escodesearcher/escodesearcher.egg-info/top_level.txt
