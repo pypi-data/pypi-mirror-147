@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: genome-tools
+Version: 1.0.4
+Summary: A toolkit for processing and plotting genomic datasets.
+Download-URL: https://github.com/jvierstra/genome-tools/archive/v1.0.4.tar.gz
+Author: Jeff Vierstra
+Author-email: jvierstra@altius.org
+License: GPL-3.0-or-later
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE
+
+UNKNOWN
+

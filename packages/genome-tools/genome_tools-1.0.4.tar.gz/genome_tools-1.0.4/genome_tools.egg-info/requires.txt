@@ -1,0 +1,8 @@
+numpy
+scipy
+pysam
+openpyxl
+pyBigWig
+matplotlib
+descartes
+shapley
