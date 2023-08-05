@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: harmony_amc
+Version: 0.0.3
+Summary: Tools for manipulating pitch-class sets
+Home-page: https://github.com/amcerbu
+Author: Alois Cerbu
+Author-email: alois.cerbu@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/amcerbu
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# harmony
+
+Provides tools for manipulating pitch-class sets. 
+
