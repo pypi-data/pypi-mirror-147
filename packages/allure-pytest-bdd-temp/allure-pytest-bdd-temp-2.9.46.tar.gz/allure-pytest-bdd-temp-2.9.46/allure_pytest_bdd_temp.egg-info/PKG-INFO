@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: allure-pytest-bdd-temp
+Version: 2.9.46
+Summary: Temporary repo till PR is merged #644
+Home-page: https://github.com/popescunsergiu/allure-python-temp
+Author: QAMetaSoftware, Stanislav Seliverstov
+Author-email: sseliverstov@qameta.io
+License: Apache-2.0
+Description: UNKNOWN
+Keywords: allure reporting pytest
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: Pytest
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Topic :: Software Development :: Testing
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
