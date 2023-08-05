@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: wandb_utils
+Version: 0.1.2
+Summary: Utitlity functions and scripts to work with Weights \& Biases
+Home-page: http://www.dhruveshp.com/wandb-utils
+Author: Dhruvesh Patel
+Author-email: 1793dnp@gmail.com
+License: UNKNOWN
+Project-URL: Documentation, https://wandb-utils.readthedocs.io
+Project-URL: Source Code, https://github.com/dhruvdcoder/wandb-utils
+Keywords: AI,ML,Optimization,Machine Learning,Deep Learning
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Weights & Biases Utilities
+
+## What is it?
+
+[Weight & Biases (wandb)](wandb.ai/site) is a experiment management and hyperparameter tuning utility for machine learning experiments. Please refer to [their website](https://wandb.ai/site) for more information. Weights & Biases Utitlities (wandb-utils), is library of some utility functions and command line interface built on top of the official wandb API. This is an unofficial library, meaning that it is not supported by the Weights & Biases team, but is managed by open source contributors and ML researchers.
+
+
