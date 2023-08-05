@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pytest-change-xds
+Version: 1.0.0
+Summary: turn . into √，turn F into x
+Home-page: https://gitee.com/xia-xa/pytest-report.git
+Author: xds
+Author-email: 1724158275@qq.com
+License: proprietary
+Keywords: pytest,py.test,pytest-change-report
+Platform: UNKNOWN
+Classifier: Framework :: Pytest
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Testing
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: pytest
+
+print result on terminal turn . into √，turn F into x using hook
+
+
