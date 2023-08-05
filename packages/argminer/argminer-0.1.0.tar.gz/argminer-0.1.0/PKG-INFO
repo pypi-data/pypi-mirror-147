@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: argminer
+Version: 0.1.0
+Summary: A package for processing SOTA argument mining datasets
+Home-page: https://github.com/namiyousef/argument-mining
+Author: Yousef Nami
+Author-email: namiyousef@hotmail.com
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+License-File: AUTHORS.md
+
+UNKNOWN
+

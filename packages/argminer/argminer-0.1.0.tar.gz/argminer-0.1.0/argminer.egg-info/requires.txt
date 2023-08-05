@@ -1,0 +1,13 @@
+torch
+transformers
+sentencepiece
+pandas
+plac
+numpy
+tqdm
+sklearn
+protobuf
+colab-dev-tools
+matplotlib
+ml-dev-tools
+connexion[swagger-ui]
