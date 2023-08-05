@@ -1,0 +1,16 @@
+LICENSE
+README
+setup.cfg
+setup.py
+src/humpi/HuMPI.py
+src/humpi/HuMPI_functions.py
+src/humpi/HuMPI_paramters.py
+src/humpi/VERSION
+src/humpi/__init__.py
+src/humpi/humpi_input.cfg
+src/humpi/humpi_input_data.cfg
+src/humpi.egg-info/PKG-INFO
+src/humpi.egg-info/SOURCES.txt
+src/humpi.egg-info/dependency_links.txt
+src/humpi.egg-info/requires.txt
+src/humpi.egg-info/top_level.txt

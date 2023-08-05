@@ -1,0 +1,4 @@
+netcdf
+numpy
+scipy
+mpi4py
