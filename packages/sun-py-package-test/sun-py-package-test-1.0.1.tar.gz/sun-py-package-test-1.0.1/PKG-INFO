@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: sun-py-package-test
+Version: 1.0.1
+Summary: test
+Home-page: UNKNOWN
+Author: aa
+Maintainer-email: aa@aa.com
+License: Apache License 2.0
+Description: test long
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable

@@ -1,0 +1,5 @@
+setup.py
+sun_py_package_test.egg-info/PKG-INFO
+sun_py_package_test.egg-info/SOURCES.txt
+sun_py_package_test.egg-info/dependency_links.txt
+sun_py_package_test.egg-info/top_level.txt
