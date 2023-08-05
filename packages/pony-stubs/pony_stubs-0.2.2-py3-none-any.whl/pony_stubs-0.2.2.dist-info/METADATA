@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pony-stubs
+Version: 0.2.2
+Summary: Type stubs for Pony ORM
+License: MIT
+Keywords: pony,types,stubs,mypy,pyright
+Author: Joonas Palosuo
+Author-email: joonas.palosuo@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# Pony stubs
+
+Python type hint stubs for [Pony ORM](https://github.com/ponyorm/pony)
+
+WIP
+
