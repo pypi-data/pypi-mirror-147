@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+Readme.txt
+setup.py
+ExprSolver.egg-info/PKG-INFO
+ExprSolver.egg-info/SOURCES.txt
+ExprSolver.egg-info/dependency_links.txt
+ExprSolver.egg-info/top_level.txt
+ExprSolvers/__init__.py
