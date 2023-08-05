@@ -1,0 +1,12 @@
+gimp_labeling_converter/__init__.py,sha256=lG67o_sedbI5UWVkzqQefqyIJX8Wny32Ohfe8nOe0ok,85
+gimp_labeling_converter/__main__.py,sha256=5uQt4d015iEA-Qhqg1ggi0Jt1zfecXbCb7KEXNxyom8,2780
+gimp_labeling_converter/class_map.py,sha256=oaiByTxctbI_uMHA4zoZOVpGjniDCrqK6DGwC01fniE,1747
+gimp_labeling_converter/coco.py,sha256=KF8Inz3FAAbv1VrHOnXNZYnyy36zGsMNIKwJnaMyb9k,7528
+gimp_labeling_converter/gimp.py,sha256=zwbYAQlVwBnysUmXtHlIyQVeSYzeSLJWqYpvwkxtJ3Y,3513
+gimp_labeling_converter/mask.py,sha256=cblsOUFYCZXiuVm_zNGHrbHcNOayZHA2zon26GWigcA,1390
+gimp_labeling_converter-1.1.0.dist-info/LICENSE,sha256=sANY3tXC0NDZOxbOSJATPs97pMcLvBRP5qeNstMU0M4,1329
+gimp_labeling_converter-1.1.0.dist-info/METADATA,sha256=wA_k0UNPFUeR1xvdHYta2rQDFd5C4uO0F7wB-gbCgzo,5842
+gimp_labeling_converter-1.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+gimp_labeling_converter-1.1.0.dist-info/entry_points.txt,sha256=XstCElV3sZfJFIw4hRPlAcVSIimOMB4TvLxmkTpmA5I,82
+gimp_labeling_converter-1.1.0.dist-info/top_level.txt,sha256=wXkk3OPMasKaH80nyOb-sLZ3B8YpIQ0UhlJSNCXLRQY,24
+gimp_labeling_converter-1.1.0.dist-info/RECORD,,
