@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: cameo_claw
+Version: 1.0.0
+Summary: Multiprocessing download, filter, streaming. ⚡️FAST⚡️ 2022-04-16 v1.0.0 support cache, support same deviceId append to single .csv.gz2022-04-16 v0.9.1 support python filelock prevent 6 users crash, fix it_filter mkdir bug
+Home-page: https://github.com/bohachu/cameo_claw
+Author: Bowen Chiu
+Author-email: bohachu@gmail.com
+License: BSD 2-clause
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+
+UNKNOWN
+
