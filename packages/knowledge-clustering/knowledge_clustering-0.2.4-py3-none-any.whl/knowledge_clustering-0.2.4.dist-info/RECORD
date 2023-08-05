@@ -1,0 +1,17 @@
+knowledge_clustering/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+knowledge_clustering/clustering.py,sha256=UJefGBhkVQ5zML0Vz7srVO4_X7yfLZhpFuIlcD_QhT0,2670
+knowledge_clustering/config.py,sha256=2eULJwD6OEKqzu3X5343NGsaA8HeOz6B9ydoSICs8x0,501
+knowledge_clustering/diagnose.py,sha256=K48sPm-xtpkdSeSlMwiWyVJOK3gzZtI3QwuT6Bt0TnI,1112
+knowledge_clustering/distance.py,sha256=WU-ieWTr6lMlpxQbuz0GdAy7NCXEpX7vzQdDrhtrxeA,4639
+knowledge_clustering/file_updater.py,sha256=OosOhcUyprfrOUV7k8tMWKU7LmHIB75CVvdtz_Dji10,1920
+knowledge_clustering/kltex.py,sha256=f_Fd0EdB05q64tyroLB14mvOuAO3cZnmEfctC_u8dN4,4823
+knowledge_clustering/scope_meaning.py,sha256=54O7dN9MnejAstagwKz9hXP1UzytxTjktgdKzn5qf9k,2148
+knowledge_clustering/data/english.ini,sha256=6DEbyHy_YdaGVNd6ErdAWDuTziTRWyo4oai_DBW1VJ0,157
+knowledge_clustering/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+knowledge_clustering/scripts/app.py,sha256=mRCUvaE3NQci9e_DSEjPCqxPGZoGmGcZNLx2tPOAnvY,3086
+knowledge_clustering-0.2.4.dist-info/LICENSE.md,sha256=IWMPfXl4wVIWktIG0FY8J2GIyRvJHzz4HQCyKp1cXrs,1090
+knowledge_clustering-0.2.4.dist-info/METADATA,sha256=3wPYkQlYxe0NwmmqAvrt6PQXkBsxFcPz4QeL-0toZl4,5156
+knowledge_clustering-0.2.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+knowledge_clustering-0.2.4.dist-info/entry_points.txt,sha256=Q2u4yDVy41J3_B8opCbHA9rygoPN3i_6QnjkEfPKajI,67
+knowledge_clustering-0.2.4.dist-info/top_level.txt,sha256=rD2IsJ-3ajR4NtS7IxdBNOc2sbU3H5U1adtWoLBqtNw,21
+knowledge_clustering-0.2.4.dist-info/RECORD,,
