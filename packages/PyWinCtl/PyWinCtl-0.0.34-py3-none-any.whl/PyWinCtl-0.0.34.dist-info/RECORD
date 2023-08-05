@@ -1,0 +1,12 @@
+pywinctl/__init__.py,sha256=HBT3YeHuqoiALkzOqDHNktg577wPPP-6TmFvk-JaD6I,22477
+pywinctl/_pywinctl_linux.py,sha256=DiucVNYU7OZF_Oc-YGYlY2tNP4YQx3Pdhfh8U9npBHA,52233
+pywinctl/_pywinctl_macos.py,sha256=keAORcJqFFMqZ64AXjSvBMwoE5GHXd28SDb9EnzyJ0k,115255
+pywinctl/_pywinctl_win.py,sha256=G1BVxjZaVKpmbMG1VKJUl3bT5IzE_vXBPoY7ncf-IIU,58834
+pywinctl/screenshot.py,sha256=BwxiayN2ZRHcczMOul8NznhV3sNuaf2KWv7ipa-pPwA,1858
+pywinctl/test.py,sha256=yfNa-HqWE9o1jZwKxoBSk5eUlD-OC5lC3DKtQAjcpGA,534
+PyWinCtl-0.0.34.dist-info/AUTHORS.txt,sha256=RQnOQ6gOjml096axnSJ4lrsgWd6Ho8pWcmj60fFep8o,1023
+PyWinCtl-0.0.34.dist-info/LICENSE.txt,sha256=IX3853XOcIGOsZt2TCL9GG5dgJZk2STGmsMNO0RuCrM,3202
+PyWinCtl-0.0.34.dist-info/METADATA,sha256=gWs4hTVpRWQ82XyHcOsor9JJJpQt4rKRHEqyQXlKk7E,12505
+PyWinCtl-0.0.34.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+PyWinCtl-0.0.34.dist-info/top_level.txt,sha256=9v-GMfZtUsk0W_vn9QivHu4nFw4mnHKa9bIl-jtqog4,9
+PyWinCtl-0.0.34.dist-info/RECORD,,
