@@ -1,0 +1,5 @@
+art
+beautifulsoup4
+prompt-toolkit
+requests
+lxml
