@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: dbtenv-dbt-alias
+Version: 2.2.1
+Summary: dbtenv, but additionally installs a 'dbt' executable that is functionally equivalent to aliasing the dbt command to 'dbtenv execute --'.
+Home-page: https://github.com/brooklyn-data/dbtenv
+License: Apache 2.0
+Keywords: dbt
+Author: Brooklyn Data Co.
+Author-email: hello@brooklyndata.co
+Requires-Python: >=3.8
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: dbtenv (==2.2.1)
+Description-Content-Type: text/markdown
+
+# dbtenv-dbt-alias
+
+dbtenv, but additionally installs a 'dbt' executable that is functionally equivalent to aliasing the dbt command to 'dbtenv execute --'.
+
