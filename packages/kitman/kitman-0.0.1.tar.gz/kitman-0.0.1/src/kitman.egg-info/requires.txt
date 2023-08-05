@@ -1,0 +1,9 @@
+pydantic[orjson]
+ormar
+fastapi
+deepmerge
+httpx[http2]
+makefun
+redis
+hiredis
+deepdiff
