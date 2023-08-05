@@ -1,0 +1,2 @@
+class NotValueProp(Exception):
+    pass
