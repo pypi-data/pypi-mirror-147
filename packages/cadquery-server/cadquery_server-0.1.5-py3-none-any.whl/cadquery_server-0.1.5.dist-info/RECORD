@@ -1,0 +1,6 @@
+src/__init__.py,sha256=DQiXHqQ3C29f_--ye7aVMDPnITrl9M0zMU42LYY48zE,22
+src/server.py,sha256=82Jfx1SPYsOrvmIsuEyKJ57Me4qLMwibRQUExWljCug,1092
+cadquery_server-0.1.5.dist-info/entry_points.txt,sha256=RbofH6TMuj8MaSyJ8xIWBdni6hwEnXTD2a-J3M3lrL8,45
+cadquery_server-0.1.5.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+cadquery_server-0.1.5.dist-info/METADATA,sha256=cUY6aZ1PrU4MeqF39JgvNQ1PeSTLk22i2G1o1LPkqB0,2224
+cadquery_server-0.1.5.dist-info/RECORD,,
