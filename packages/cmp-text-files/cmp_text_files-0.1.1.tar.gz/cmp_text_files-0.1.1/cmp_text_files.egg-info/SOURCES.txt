@@ -1,0 +1,9 @@
+README.md
+setup.py
+cmp_text_files/__init__.py
+cmp_text_files/comparison.py
+cmp_text_files.egg-info/PKG-INFO
+cmp_text_files.egg-info/SOURCES.txt
+cmp_text_files.egg-info/dependency_links.txt
+cmp_text_files.egg-info/requires.txt
+cmp_text_files.egg-info/top_level.txt
