@@ -1,0 +1,10 @@
+README.md
+setup.py
+ssegmetrics/__init__.py
+ssegmetrics/metrics.py
+ssegmetrics/sample.py
+ssegmetrics.egg-info/PKG-INFO
+ssegmetrics.egg-info/SOURCES.txt
+ssegmetrics.egg-info/dependency_links.txt
+ssegmetrics.egg-info/requires.txt
+ssegmetrics.egg-info/top_level.txt

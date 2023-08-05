@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: ssegmetrics
+Version: 0.1.0
+Summary: Metrics about segmentation based on Ptyhon.
+Home-page: https://github.com/geoyee/segMetrics
+Author: geoyee
+Author-email: geoyee@yeah.net
+License: UNKNOWN
+Description: # segMetrics
+        Metrics about segmentation based on Ptyhon.
+        
+        ```python
+        from ssegmetrics import SampleMetrics
+        
+        pred = "datas/pred.png"
+        label = "datas/label.png"
+        num_classes = 2
+        
+        SampleMetrics(pred, label, num_classes)
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: Apache Software License
+Description-Content-Type: text/markdown
