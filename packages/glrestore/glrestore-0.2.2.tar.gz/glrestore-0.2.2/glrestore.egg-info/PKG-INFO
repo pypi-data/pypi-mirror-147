@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: glrestore
+Version: 0.2.2
+Summary: Easily restore objects from AWS glacier from the command line using python
+Home-page: https://github.com/MrOlm/glrestore
+Author: Matthew Olm
+Author-email: mattolm@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.4.0
