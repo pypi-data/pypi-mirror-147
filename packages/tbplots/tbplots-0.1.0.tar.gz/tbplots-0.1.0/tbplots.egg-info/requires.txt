@@ -1,0 +1,4 @@
+tensorboard
+numpy
+scipy
+matplotlib
