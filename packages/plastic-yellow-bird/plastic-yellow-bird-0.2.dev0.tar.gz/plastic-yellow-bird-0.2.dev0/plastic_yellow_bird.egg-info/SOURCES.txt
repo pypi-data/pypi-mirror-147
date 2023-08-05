@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+plastic_yellow_bird/__init__.py
+plastic_yellow_bird/hello.py
+plastic_yellow_bird.egg-info/PKG-INFO
+plastic_yellow_bird.egg-info/SOURCES.txt
+plastic_yellow_bird.egg-info/dependency_links.txt
+plastic_yellow_bird.egg-info/top_level.txt
