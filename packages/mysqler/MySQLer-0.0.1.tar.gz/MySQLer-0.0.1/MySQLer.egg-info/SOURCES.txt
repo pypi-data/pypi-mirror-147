@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+MySQLer.egg-info/PKG-INFO
+MySQLer.egg-info/SOURCES.txt
+MySQLer.egg-info/dependency_links.txt
+MySQLer.egg-info/top_level.txt
+mysqler/__init__.py
+mysqler/mysql.py
+mysqler/table.py
