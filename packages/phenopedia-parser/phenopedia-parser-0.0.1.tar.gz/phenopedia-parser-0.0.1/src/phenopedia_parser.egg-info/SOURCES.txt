@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/phenopedia_parser/__init__.py
+src/phenopedia_parser/phenopedia_parser.py
+src/phenopedia_parser.egg-info/PKG-INFO
+src/phenopedia_parser.egg-info/SOURCES.txt
+src/phenopedia_parser.egg-info/dependency_links.txt
+src/phenopedia_parser.egg-info/top_level.txt
