@@ -1,0 +1,6 @@
+gimpformats
+Pillow
+scikit-image
+glob2
+torch
+torchvision
