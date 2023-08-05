@@ -1,0 +1,48 @@
+[tool.poetry]
+name = "mgcplotter"
+version = "1.0.0"
+description = "Microbial Genome Circular plotting tool using Circos"
+authors = ["moshi"]
+license = "GPL-3.0-only"
+homepage = "https://github.com/moshi4/MGCplotter/"
+repository = "https://github.com/moshi4/MGCplotter/"
+readme = "README.md"
+keywords = [
+    "bioinformatics",
+    "genomics",
+    "comparative-genomics",
+    "circos",
+    "visualization",
+]
+classifiers = [
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+include = ["tests"]
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "--cov=src --tb=line --cov-report=xml --cov-report=term"
+testpaths = ["tests"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+biopython = "^1.79"
+matplotlib = "^3.5.1"
+cogclassifier = "^1.0.4"
+pandas = "^1.4.2"
+
+[tool.poetry.dev-dependencies]
+black = "^22.3.0"
+flake8 = "^4.0.1"
+pydocstyle = "^6.1.1"
+pytest = "^7.1.1"
+pytest-cov = "^3.0.0"
+
+[tool.poetry.scripts]
+MGCplotter = "mgcplotter.mgcplotter:main"
+generate_cog_color_template = "mgcplotter.mgcplotter:generate_cog_color_template"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
