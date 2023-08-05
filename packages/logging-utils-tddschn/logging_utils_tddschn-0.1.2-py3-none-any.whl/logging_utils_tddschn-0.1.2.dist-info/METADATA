@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: logging-utils-tddschn
+Version: 0.1.2
+Summary: Logging utilities for my personal use.
+Author: Teddy Xinyuan Chen
+Author-email: 45612704+tddschn@users.noreply.github.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
