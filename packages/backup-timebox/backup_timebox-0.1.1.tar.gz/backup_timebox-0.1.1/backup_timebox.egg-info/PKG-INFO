@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: backup-timebox
+Version: 0.1.1
+Summary: Backup manager
+Author: Mathias Millet <mathias.millet@mailden.eu>
+License: GNU General Public License v3.0
+Keywords: ["backup"]
+Platform: UNKNOWN
+Classifier: Topic :: System :: Archiving :: Backup
+Provides-Extra: dev
+
+UNKNOWN
+
