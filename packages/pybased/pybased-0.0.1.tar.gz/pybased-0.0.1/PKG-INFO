@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: pybased
+Version: 0.0.1
+Summary: Library for creating arbitrary binary encodings.  Includes variations on base32, base64, base85, and more.
+Home-page: https://gitlab.com/N3X15/python-based
+License: MIT
+Author: Rob Nelson
+Author-email: nexisentertainment@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click (>=8.1.2,<9.0.0)
+Requires-Dist: frozendict (>=2.3.2,<3.0.0)
+Requires-Dist: tabulate (>=0.8.9,<0.9.0)
+Project-URL: Repository, https://gitlab.com/N3X15/python-based
+Description-Content-Type: text/markdown
+
+# based
+
+Library for creating arbitrary binary encodings.  Includes variations on base32, base64, base85, and more.
+
+## Getting started
+
+```shell
+$ pip install pybased
+```
+
+## Doing stuff
+```python
+# Lets's assume we want to use the Crockford32 encoding scheme.
+from based.standards.base32 import crockford32
+
+# And let's assume the variable data has what we want to encode.
+data: bytes = ...
+
+# Encode to string.
+encoded: str = crockford32.encode_bytes(data)
+
+# ...
+
+# Decode the string back to bytes.
+data: bytes = crockford32.decode_bytes(encoded)
+```
+
+## `based` Command-Line Tool
+
+`based --help`
+
+NOTE: This is generally only useful for testing.
