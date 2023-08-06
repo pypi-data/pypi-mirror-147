@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: autoads-test
+Version: 0.3.4
+Summary: Easy to use Ads library
+Home-page: UNKNOWN
+License: UNKNOWN
+Keywords: AutoAds
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Requires-Dist: nltk
+Requires-Dist: torch
+Requires-Dist: scipy
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: django
+Requires-Dist: urllib3
+Requires-Dist: sklearn
+Requires-Dist: google-ads
+Requires-Dist: transformers
+Requires-Dist: beautifulsoup4
+Requires-Dist: sentence-transformers
+
+AutoAds is a Easy to use Ads library
+
