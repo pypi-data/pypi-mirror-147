@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.py
+digma_instrumentation/__init__.py
+digma_instrumentation/configuration.py
+digma_instrumentation/instrumentation_tools.py
+digma_instrumentation/opentelemetry_utils.py
+digma_instrumentation/version.py
+opentelemetry_instrumentation_digma.egg-info/PKG-INFO
+opentelemetry_instrumentation_digma.egg-info/SOURCES.txt
+opentelemetry_instrumentation_digma.egg-info/dependency_links.txt
+opentelemetry_instrumentation_digma.egg-info/requires.txt
+opentelemetry_instrumentation_digma.egg-info/top_level.txt
