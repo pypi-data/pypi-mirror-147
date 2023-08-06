@@ -1,0 +1,10 @@
+README.md
+setup.py
+pyseisdl/__init__.py
+pyseisdl/sgk.py
+pyseisdl.egg-info/PKG-INFO
+pyseisdl.egg-info/SOURCES.txt
+pyseisdl.egg-info/dependency_links.txt
+pyseisdl.egg-info/not-zip-safe
+pyseisdl.egg-info/requires.txt
+pyseisdl.egg-info/top_level.txt
