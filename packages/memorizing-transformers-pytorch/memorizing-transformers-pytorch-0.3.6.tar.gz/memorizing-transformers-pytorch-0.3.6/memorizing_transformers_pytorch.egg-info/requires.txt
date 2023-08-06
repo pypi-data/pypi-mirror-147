@@ -1,0 +1,7 @@
+einops>=0.4
+einops-exts
+filelock
+joblib
+faiss-gpu
+numpy
+torch>=1.6
