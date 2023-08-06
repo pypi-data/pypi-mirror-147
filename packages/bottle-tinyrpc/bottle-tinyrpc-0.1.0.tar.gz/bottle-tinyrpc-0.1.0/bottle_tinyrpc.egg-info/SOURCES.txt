@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+bottle_tinyrpc/__init__.py
+bottle_tinyrpc.egg-info/PKG-INFO
+bottle_tinyrpc.egg-info/SOURCES.txt
+bottle_tinyrpc.egg-info/dependency_links.txt
+bottle_tinyrpc.egg-info/requires.txt
+bottle_tinyrpc.egg-info/top_level.txt
