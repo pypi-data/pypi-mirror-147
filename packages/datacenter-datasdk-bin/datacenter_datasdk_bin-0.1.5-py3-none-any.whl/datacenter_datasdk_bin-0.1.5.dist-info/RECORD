@@ -1,0 +1,9 @@
+datacenter_datasdk_bin/__init__.py,sha256=aTRZfs5TnMdaRedt-bS8ermC0T7i0fNMGBh90E2aCK0,89
+datacenter_datasdk_bin/taos_api.py,sha256=OWPgAPidQoRtr-gcyu0wD_MsvRbBTx9Wn9TlxTRN6UU,6085
+datacenter_datasdk_bin/verify.py,sha256=FokRLi2GZ1WR6E0wMBphK0dEvdZKzhWopjlH-oZN4wU,1554
+datacenter_datasdk_bin-0.1.5.dist-info/LICENSE.txt,sha256=s4TM9FRdlPDs1J29NV-d7WSp9BimB1XCafZsoX7MJTM,1065
+datacenter_datasdk_bin-0.1.5.dist-info/METADATA,sha256=H3ZBcXnHAfzLmlPsfMnC_OXargkhiHrZGH8aC_EjXQ8,1961
+datacenter_datasdk_bin-0.1.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+datacenter_datasdk_bin-0.1.5.dist-info/top_level.txt,sha256=rbrkI_cn84HqlGXrYfDtTwlOhUTjOOdtBMfewV48lgQ,23
+datacenter_datasdk_bin-0.1.5.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+datacenter_datasdk_bin-0.1.5.dist-info/RECORD,,
