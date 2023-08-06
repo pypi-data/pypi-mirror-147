@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: wDRMetrics
+Version: 0.0.3
+Summary: A GUI wrapper for pyDRMetrics. Rewritten using Flask.
+Home-page: http://pypi.python.org/pypi/wDRMetrics/
+Author: Zhang
+Author-email: oo@zju.edu.cn
+License: LICENSE.txt
+Platform: UNKNOWN
+License-File: LICENCE
+
+UNKNOWN
+
