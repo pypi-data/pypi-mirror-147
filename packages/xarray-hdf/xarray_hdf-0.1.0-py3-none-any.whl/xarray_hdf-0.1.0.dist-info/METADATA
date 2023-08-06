@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: xarray-hdf
+Version: 0.1.0
+Summary: Store xarray Datasets using PyTables, with support for attributes.
+Home-page: https://github.com/otaithleigh/xarray-hdf
+Author: Peter Talley
+Author-email: peterctalley@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+Requires-Dist: h5py
+Requires-Dist: pandas
+Requires-Dist: tables
+Requires-Dist: xarray
+
+``xarray-hdf``
+++++++++++++++
+
+Store xarray Datasets using PyTables, with support for attributes.
+
+This is admittedly a bit hackish, but makes it easier to store Datasets and
+DataFrames together in the same HDF5 file. If you just have Datasets, you should
+use NETCDF.
+
+
