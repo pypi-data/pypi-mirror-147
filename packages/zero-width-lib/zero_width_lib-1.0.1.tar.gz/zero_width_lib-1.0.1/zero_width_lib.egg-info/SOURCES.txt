@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.cfg
+./zero_width_lib/__init__.py
+./zero_width_lib/util.py
+zero_width_lib/__init__.py
+zero_width_lib/util.py
+zero_width_lib.egg-info/PKG-INFO
+zero_width_lib.egg-info/SOURCES.txt
+zero_width_lib.egg-info/dependency_links.txt
+zero_width_lib.egg-info/top_level.txt
