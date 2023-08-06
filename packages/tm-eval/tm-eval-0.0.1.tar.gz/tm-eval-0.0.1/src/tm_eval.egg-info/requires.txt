@@ -1,0 +1,7 @@
+gensim
+
+[dev]
+check-manifest
+
+[test]
+coverage
