@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: datajoint-babel
+Version: 0.1.0
+Summary: Generate schema code from model definitions for both Python and MATLAB
+License: MPL-2.0
+Author: sneakers-the-rat
+Author-email: JLSaunders987@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: datajoint (>=0.13.4,<0.14.0)
+Requires-Dist: parse (>=1.19.0,<2.0.0)
+Requires-Dist: pydantic (>=1.9.0,<2.0.0)
