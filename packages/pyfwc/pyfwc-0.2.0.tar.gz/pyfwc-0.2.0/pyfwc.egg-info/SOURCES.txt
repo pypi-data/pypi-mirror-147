@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+pyfwc/__init__.py
+pyfwc/__version__.py
+pyfwc/fwc.py
+pyfwc.egg-info/PKG-INFO
+pyfwc.egg-info/SOURCES.txt
+pyfwc.egg-info/dependency_links.txt
+pyfwc.egg-info/requires.txt
+pyfwc.egg-info/top_level.txt
