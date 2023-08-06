@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/python-antsy/__init__.py
+src/python_antsy.egg-info/PKG-INFO
+src/python_antsy.egg-info/SOURCES.txt
+src/python_antsy.egg-info/dependency_links.txt
+src/python_antsy.egg-info/requires.txt
+src/python_antsy.egg-info/top_level.txt
