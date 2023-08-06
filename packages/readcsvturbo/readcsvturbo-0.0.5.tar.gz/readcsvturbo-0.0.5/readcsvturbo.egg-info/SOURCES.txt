@@ -1,0 +1,11 @@
+README.md
+setup.py
+readcsvturbo/__init__.py
+readcsvturbo/readcsvturbo.py
+readcsvturbo/speedtest.py
+readcsvturbo/test.py
+readcsvturbo.egg-info/PKG-INFO
+readcsvturbo.egg-info/SOURCES.txt
+readcsvturbo.egg-info/dependency_links.txt
+readcsvturbo.egg-info/requires.txt
+readcsvturbo.egg-info/top_level.txt
