@@ -1,0 +1,7 @@
+numpy
+pytest
+coverage
+pytest-cov
+MetaTrader5
+abstractEasyT
+supportLibEasyT
