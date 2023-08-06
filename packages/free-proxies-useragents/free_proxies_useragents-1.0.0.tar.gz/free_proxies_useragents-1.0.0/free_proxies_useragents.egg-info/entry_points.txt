@@ -1,0 +1,3 @@
+[console_scripts]
+freeprx = free_proxies_useragents.freeprx:main
+
