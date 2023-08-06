@@ -1,0 +1,8 @@
+itsdangerous
+Jinja2
+misaka<3.0,>=2.0
+html5lib
+werkzeug>=1.0
+bleach
+Flask-Caching>=1.9
+Flask
