@@ -1,0 +1,9 @@
+comstrip/.python-version,sha256=kA3s38TE7S-EPDMIBNJ2OUJ33LxoX2AfG45O4dLfUfo,6
+comstrip/__init__.py,sha256=MDqvirZncNTMGs8x3mKo4EuDScNVnZ1mhFQjWX0Sj5A,125
+comstrip/comstrip.el,sha256=rsezlVEoW-AKsJ6gazJDM5YWt3ozV63CMmNl9dXdbIo,13048
+comstrip/comstrip.py,sha256=uuoZb3cc1BEmYfEEkX0F8b7qhtKwqCEO4UH-_t3Jv8E,30303
+comstrip/util.py,sha256=1EnxzjbUwcGyf8cIRsndhW42jEXHK0qUvH_FJTGq8TU,3717
+comstrip-0.0.1.dist-info/LICENSE,sha256=bNescRfHJtavUfpfFouFlUpqM267m3QV0JgvKUMoKWQ,1109
+comstrip-0.0.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+comstrip-0.0.1.dist-info/METADATA,sha256=0VG1jBMvvqEG6pdp-KWmxiRpp7LaUXH4wHxIlHaABH0,4406
+comstrip-0.0.1.dist-info/RECORD,,
