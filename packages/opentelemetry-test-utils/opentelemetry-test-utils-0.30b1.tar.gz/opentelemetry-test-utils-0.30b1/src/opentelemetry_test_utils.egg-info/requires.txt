@@ -1,0 +1,5 @@
+opentelemetry-api==1.11.1
+opentelemetry-sdk==1.11.1
+asgiref~=3.0
+
+[test]
