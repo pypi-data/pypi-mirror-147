@@ -1,0 +1,4 @@
+[console_scripts]
+quarkbuild3.9 = arkit:quarkbuild
+quarkwheel3.9 = arkit:quarkwheel
+
