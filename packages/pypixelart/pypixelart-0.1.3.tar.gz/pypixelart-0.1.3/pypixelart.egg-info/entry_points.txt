@@ -1,0 +1,3 @@
+[console_scripts]
+pypixelart = pypixelart.main:main
+
