@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: pyquats
+Version: 1.0.3
+Summary: Python implementation of quaternions
+Home-page: https://github.com/ufkapano/pyquats
+Author: Andrzej Kapanowski
+Author-email: andrzej.kapanowski@uj.edu.pl
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Education
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=2.7,>=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+
+# pyquats
+
+Python implementation of quaternions is presented. 
+The code is written with Python 2.7 and Python 3.7.
+
+## Modules
+
+* quats - Quat class
+* numpyquats - Quat class using numpy (slow)
+* qmath - mathematical functions for quaternions
+[exp(q), log(c), sin(q), cos(q), sinh(q), cosh(q)]
+* qtools - rotations, random unit quaternions
+
+## References
+
+[1] http://en.wikipedia.org/wiki/Quaternion
+
+EOF
+
+
