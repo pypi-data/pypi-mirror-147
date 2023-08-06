@@ -1,0 +1,19 @@
+{% load i18n %}
+
+{% if request.is_using_django_horizontal_list_filter %}
+    <label>{{ title }}</label>
+    <input type="text" name="{{spec.input_name}}" value="{{spec.input_value}}" class="TextInputFieldHorizontalFilter" />
+{% else %}
+    <h3>{{ title }}</h3>
+    <ul class="TextInputFieldFilter">
+        <li>
+            <form method="GET" action="?">
+                <input type="text" name="{{spec.input_name}}" value="{{spec.input_value}}" class="TextInputFieldFilterInput" />
+                <input type="button" value="{% trans "Search" %}"  class="TextInputFieldFilterSubmitButton" />
+                <input type="button" value="{% trans "Reset" %}" class="TextInputFieldFilterResetButton" />
+            </form>
+        </li>
+    </ul>
+{% endif %}
+
+</select>
