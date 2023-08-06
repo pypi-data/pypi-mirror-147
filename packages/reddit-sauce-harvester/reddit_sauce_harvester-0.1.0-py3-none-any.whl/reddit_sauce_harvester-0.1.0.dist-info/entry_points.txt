@@ -1,0 +1,2 @@
+[console_scripts]
+rsharvester = reddit_sauce_harvester.cli:main
