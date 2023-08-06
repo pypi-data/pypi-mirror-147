@@ -1,0 +1,8 @@
+pytest_persistence/__init__.py,sha256=aBEbDvx4LMg8A1TJJR6dEHu8rQODVin528hLS_EDvuA,22
+pytest_persistence/plugin.py,sha256=y826IDMWj8SVHqF-wGSh50mzH9WjHnkb8wsjGKo0d1Y,5605
+pytest_persistence-0.1.4.dist-info/LICENSE,sha256=UQb9W7wn5kkvihKF06MX1wHZjFOEKmCiuK3m23lQOWs,1077
+pytest_persistence-0.1.4.dist-info/METADATA,sha256=AQW4alpWQY_TywHI_LZVKfPAu6CBtJe_U62Al-8vrDM,872
+pytest_persistence-0.1.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pytest_persistence-0.1.4.dist-info/entry_points.txt,sha256=nLXwIgMh5KzlbYlDvpctVvttiQvoEpua8vHCVG_KRwU,51
+pytest_persistence-0.1.4.dist-info/top_level.txt,sha256=YOPnlYxyRANiDxREi5zlliODiczq3ulrDYtPqwd4nlY,19
+pytest_persistence-0.1.4.dist-info/RECORD,,
