@@ -1,0 +1,68 @@
+debug 1650750638.846919 parse_packet src/lescan.cc:464: 04 3e 21 02 01 00 00 1b ee b5 80 07 00 15 02 01 06 11 06 64 97 81 d1 ed ba 6b ac 11 4c 9d 34 3e 20 09 73 bc 
+debug 1650750638.847328 parse_packet src/lescan.cc:477: Event packet received
+info  1650750638.847436 parse_event_packet src/lescan.cc:501: event_code = 0x3e: Meta event
+info  1650750638.847557 parse_event_packet src/lescan.cc:502: length = 33
+info  1650750638.847678 parse_le_meta_event src/lescan.cc:521: subevent_code = 0x02: LE Advertising Report Event
+info  1650750638.847782 parse_le_meta_event_advertisement src/lescan.cc:536: num_reports = 1
+info  1650750638.847909 parse_le_meta_event_advertisement src/lescan.cc:543: event_type = 0x00 ADV_IND, Connectable undirected advertising
+info  1650750638.848013 parse_le_meta_event_advertisement src/lescan.cc:558: Address type = 0: Public device address
+info  1650750638.848138 parse_le_meta_event_advertisement src/lescan.cc:577: address = 00:07:80:b5:ee:1b
+info  1650750638.848258 parse_le_meta_event_advertisement src/lescan.cc:580: length = 21
+debug 1650750638.848379 parse_le_meta_event_advertisement src/lescan.cc:585: Data = 02 01 06 11 06 64 97 81 d1 ed ba 6b ac 11 4c 9d 34 3e 20 09 73 
+info  1650750638.848560 parse_le_meta_event_advertisement src/lescan.cc:592: RSSI = -68 dBm
+debug 1650750638.848688 parse_le_meta_event_advertisement src/lescan.cc:605: data.size() = 21
+debug 1650750638.848812 parse_le_meta_event_advertisement src/lescan.cc:606: Packet = 02 01 06 11 06 64 97 81 d1 ed ba 6b ac 11 4c 9d 34 3e 20 09 73 
+debug 1650750638.848992 parse_le_meta_event_advertisement src/lescan.cc:610: length = 2
+debug 1650750638.849112 parse_le_meta_event_advertisement src/lescan.cc:615: type = 1
+info  1650750638.849234 parse_le_meta_event_advertisement src/lescan.cc:621: Flags = 06 
+info  1650750638.849354 parse_le_meta_event_advertisement src/lescan.cc:627:         LE general discoverable
+info  1650750638.849458 parse_le_meta_event_advertisement src/lescan.cc:630:         BR/EDR unsupported
+debug 1650750638.849562 parse_le_meta_event_advertisement src/lescan.cc:605: data.size() = 18
+debug 1650750638.849681 parse_le_meta_event_advertisement src/lescan.cc:606: Packet = 11 06 64 97 81 d1 ed ba 6b ac 11 4c 9d 34 3e 20 09 73 
+debug 1650750638.849852 parse_le_meta_event_advertisement src/lescan.cc:610: length = 17
+debug 1650750638.849971 parse_le_meta_event_advertisement src/lescan.cc:615: type = 6
+info  1650750638.850093 parse_le_meta_event_advertisement src/lescan.cc:684: UUIDs (128 bit incomplete, 16 bit incomplete ):
+info  1650750638.850229 parse_le_meta_event_advertisement src/lescan.cc:687:     7309203e-349d-4c11-ac6b-baedd1819764
+debug 1650750638.850414 parse_packet src/lescan.cc:464: 04 3e 24 02 01 04 00 1b ee b5 80 07 00 18 17 09 44 79 6e 6f 66 69 74 20 49 6e 63 20 44 4f 54 53 20 78 78 78 78 31 be 
+debug 1650750638.850661 parse_packet src/lescan.cc:477: Event packet received
+info  1650750638.850765 parse_event_packet src/lescan.cc:501: event_code = 0x3e: Meta event
+info  1650750638.850885 parse_event_packet src/lescan.cc:502: length = 36
+info  1650750638.851005 parse_le_meta_event src/lescan.cc:521: subevent_code = 0x02: LE Advertising Report Event
+info  1650750638.851108 parse_le_meta_event_advertisement src/lescan.cc:536: num_reports = 1
+info  1650750638.851228 parse_le_meta_event_advertisement src/lescan.cc:551: event_type = 0x04 SCAN_RSP, Scan response
+info  1650750638.851332 parse_le_meta_event_advertisement src/lescan.cc:558: Address type = 0: Public device address
+info  1650750638.851452 parse_le_meta_event_advertisement src/lescan.cc:577: address = 00:07:80:b5:ee:1b
+info  1650750638.851572 parse_le_meta_event_advertisement src/lescan.cc:580: length = 24
+debug 1650750638.851692 parse_le_meta_event_advertisement src/lescan.cc:585: Data = 17 09 44 79 6e 6f 66 69 74 20 49 6e 63 20 44 4f 54 53 20 78 78 78 78 31 
+info  1650750638.851881 parse_le_meta_event_advertisement src/lescan.cc:592: RSSI = -66 dBm
+debug 1650750638.852002 parse_le_meta_event_advertisement src/lescan.cc:605: data.size() = 24
+debug 1650750638.852121 parse_le_meta_event_advertisement src/lescan.cc:606: Packet = 17 09 44 79 6e 6f 66 69 74 20 49 6e 63 20 44 4f 54 53 20 78 78 78 78 31 
+debug 1650750638.852335 parse_le_meta_event_advertisement src/lescan.cc:610: length = 23
+debug 1650750638.852455 parse_le_meta_event_advertisement src/lescan.cc:615: type = 9
+info  1650750638.852577 parse_le_meta_event_advertisement src/lescan.cc:665: Name (complete): Dynofit Inc DOTS xxxx1
+debug 1650750638.852735 parse_packet src/lescan.cc:464: 04 3e 17 02 01 00 01 0b 57 16 21 76 7c 0b 02 01 1a 07 ff 4c 00 10 02 0a 00 bc 
+debug 1650750638.852923 parse_packet src/lescan.cc:477: Event packet received
+info  1650750638.853027 parse_event_packet src/lescan.cc:501: event_code = 0x3e: Meta event
+info  1650750638.853146 parse_event_packet src/lescan.cc:502: length = 23
+info  1650750638.853266 parse_le_meta_event src/lescan.cc:521: subevent_code = 0x02: LE Advertising Report Event
+info  1650750638.853369 parse_le_meta_event_advertisement src/lescan.cc:536: num_reports = 1
+info  1650750638.853489 parse_le_meta_event_advertisement src/lescan.cc:543: event_type = 0x00 ADV_IND, Connectable undirected advertising
+info  1650750638.853593 parse_le_meta_event_advertisement src/lescan.cc:560: Address type = 0: Random device address
+info  1650750638.853757 parse_le_meta_event_advertisement src/lescan.cc:577: address = 7c:76:21:16:57:0b
+info  1650750638.853894 parse_le_meta_event_advertisement src/lescan.cc:580: length = 11
+debug 1650750638.854014 parse_le_meta_event_advertisement src/lescan.cc:585: Data = 02 01 1a 07 ff 4c 00 10 02 0a 00 
+info  1650750638.854166 parse_le_meta_event_advertisement src/lescan.cc:592: RSSI = -68 dBm
+debug 1650750638.854287 parse_le_meta_event_advertisement src/lescan.cc:605: data.size() = 11
+debug 1650750638.854407 parse_le_meta_event_advertisement src/lescan.cc:606: Packet = 02 01 1a 07 ff 4c 00 10 02 0a 00 
+debug 1650750638.854558 parse_le_meta_event_advertisement src/lescan.cc:610: length = 2
+debug 1650750638.854678 parse_le_meta_event_advertisement src/lescan.cc:615: type = 1
+info  1650750638.854799 parse_le_meta_event_advertisement src/lescan.cc:621: Flags = 1a 
+info  1650750638.854918 parse_le_meta_event_advertisement src/lescan.cc:627:         LE general discoverable
+info  1650750638.855021 parse_le_meta_event_advertisement src/lescan.cc:633:         simultaneous LE BR host
+info  1650750638.855125 parse_le_meta_event_advertisement src/lescan.cc:636:         simultaneous LE BR controller
+debug 1650750638.855228 parse_le_meta_event_advertisement src/lescan.cc:605: data.size() = 8
+debug 1650750638.855347 parse_le_meta_event_advertisement src/lescan.cc:606: Packet = 07 ff 4c 00 10 02 0a 00 
+debug 1650750638.855489 parse_le_meta_event_advertisement src/lescan.cc:610: length = 7
+debug 1650750638.855608 parse_le_meta_event_advertisement src/lescan.cc:615: type = 255
+info  1650750638.855728 parse_le_meta_event_advertisement src/lescan.cc:671: Manufacturer data: 4c 00 10 02 0a 00 
+OK
