@@ -1,0 +1,5 @@
+ngram_reader-0.1.1.dist-info/METADATA,sha256=ujbwTCpIOLQE6nT6EugNt-hR6dbrBTIEgLEXvZBLif4,261
+ngram_reader-0.1.1.dist-info/WHEEL,sha256=DleoLQ-Z57M3BXxsEQSEp6kdCBBHACko_eQLYMp_O7g,108
+ngram_reader/__init__.py,sha256=ldezqCLhoRM8aCPK1lCzRz-XmrDbaOhTLtj1x7n8vxk,60
+ngram_reader/ngram_reader.cpython-38-x86_64-linux-gnu.so,sha256=YMoFCeBfkW8AokNVk12jXlyVcw2NL0H2M9KhJ1cRYDM,1673600
+ngram_reader-0.1.1.dist-info/RECORD,,
