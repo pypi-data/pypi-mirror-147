@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: vmashd
+Version: 0.1.0
+Summary: A frivilous tool to create random video/audio from provided files.
+Home-page: https://github.com/boonej/vmashd
+Author: Jonathan Boone
+Author-email: jeboone@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/boonej/vmashd/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+
+UNKNOWN
+
