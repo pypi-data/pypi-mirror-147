@@ -1,0 +1,1 @@
+This just very simple calculator library.

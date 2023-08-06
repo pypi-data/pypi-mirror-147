@@ -1,0 +1,7 @@
+LICENSE.txt
+README.txt
+setup.py
+Trash_Calculator.egg-info/PKG-INFO
+Trash_Calculator.egg-info/SOURCES.txt
+Trash_Calculator.egg-info/dependency_links.txt
+Trash_Calculator.egg-info/top_level.txt
