@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: mkdocs-matplotlib
+Version: 0.4.0
+Summary: Live rendering of python code using matplotlib
+Author: An Hoang
+Author-email: an.hoang@statworx.com
+Requires-Python: >=3.8.9,<3.9.0
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: beautifulsoup4 (>=4.11.1)
+Requires-Dist: mkdocs (>=1.3.0)
+Requires-Dist: mkdocs-material (>=8.2.8)
+Requires-Dist: seaborn (>=0.11.2,<0.12.0)
+Description-Content-Type: text/markdown
+
+# Mkdocs-Matplotlib
+
+**Mkdocs-Matplotlib** is a plugin for [mkdocs](https://www.mkdocs.org/) which allows you to automatically generate matplotlib figures and add them to your documentation.
+Simply write the code as markdown into your documention.
+
+![screenshot](docs/assets/screenshot.png)
+
+## Quick Start
+
+This plugin can be installed with `pip`
+
+```shell
+pip install mkdocs-matplotlib
+```
+To enable this plugin for mkdocs you need to add the following lines to your `mkdocs.yml`.
+
+```yaml
+plugins:
+  - mkdocs_matplotlib
+```
+
+To render a code cell using matplotlib you simply have to add the comment `# mkdocs: render` at the top of the cell.
+
+```python
+# mkdocs: render
+import matplotlib.pyplot as plt
+import numpy as np
+
+xpoints = np.array([1, 8])
+ypoints = np.array([3, 10])
+
+plt.plot(xpoints, ypoints)
+```
+
