@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: macapype
+Version: 0.3.0.2.dev3
+Summary: Pipeline for anatomic processing for macaque
+Author: macatools team
+License: BSD 3
+Platform: UNKNOWN
+License-File: LICENCE.txt
+Requires-Dist: nipype
+Requires-Dist: nilearn
+Requires-Dist: networkx
+Requires-Dist: pybids
+Requires-Dist: scikit-image
+Requires-Dist: nibabel
+Requires-Dist: numpy
+Requires-Dist: brain-slam
+
+UNKNOWN
+
