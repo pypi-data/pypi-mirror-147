@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: pyframes
+Version: 0.0.4
+Summary: Python interface for the frames.ai database.
+Home-page: https://github.com/Sensoritio/pyframes
+Author: Darryn Anton Jordan
+Author-email: <darryn@sensorit.io>
+License: UNKNOWN
+Keywords: python,frames.ai,sensorit
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pillow
+Requires-Dist: requests
+
+# pyframes
+Python package for interfacing with the frames.ai database.
+
+## Install
+```
+pip3 install pyframes
+```
+
+## Example
+Get your JWT from [spothole.sensorit.io/api/](https://spothole.sensorit.io/api/).
+```
+from pyframes import frames
+f = frames.Frames()
+f.set_jwt("<jwt>")
+record = f.get_record(1)
+print(record.id)
+```
+
+
