@@ -1,0 +1,9 @@
+LICENSE
+README.rst
+setup.py
+package_xhttp/__init__.py
+package_xhttp/main.py
+package_xhttp.egg-info/PKG-INFO
+package_xhttp.egg-info/SOURCES.txt
+package_xhttp.egg-info/dependency_links.txt
+package_xhttp.egg-info/top_level.txt
