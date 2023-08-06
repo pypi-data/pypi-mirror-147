@@ -1,0 +1,9 @@
+wizmusic/__init__.py,sha256=MF64bwUCd4sm3dvcxZnkb4ujHtxT_KeuXdD0nVieEt4,27
+wizmusic/client.py,sha256=Hxa0LhqFKu0qxUBzOHK3CnffWy4F3RwAYMOg-HfkVR4,2349
+wizmusic/player.py,sha256=sKcwKlZVsJQE2S3tuNWsP_DxqL3CxHab3szQsFUferc,480
+wizmusic/utils.py,sha256=7R8a--wUh918VP9vlv1EIRYo4C0Yttqy3qVoWUykjB4,814
+wizmusic/wiz.py,sha256=zt7wshjzx2sSXHMKrKDvxGmnTz-X6sBgXk9hTmoVoZ0,1792
+wizmusic-0.1.1.dist-info/entry_points.txt,sha256=vl9CZtZYg71nURPGpEohtuisumeQqPoagUiefLoAu_8,48
+wizmusic-0.1.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+wizmusic-0.1.1.dist-info/METADATA,sha256=qrliszHmYApQ3x_PrvX4mvOx9uQeDJfduXcnDwfvoO4,425
+wizmusic-0.1.1.dist-info/RECORD,,
