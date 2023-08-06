@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: lacosmic
+Version: 1.0.0
+Summary: Laplacian Cosmic Ray Identification
+Home-page: https://github.com/larrybradley/lacosmic
+Author: Larry Bradley
+Author-email: larry.bradley@gmail.com
+License: BSD 3-Clause
+Keywords: astronomy,astrophysics,images,cosmic rays
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+Provides-Extra: test
+Provides-Extra: docs
+License-File: LICENSE.rst
+
+========
+lacosmic
+========
+
+|PyPI Version| |CI Status| |Codecov Status| |Stable RTD Status| |Zenodo| |Astropy|
+
+lacosmic is a Python package to remove cosmic rays from an
+astronomical image using the `L.A.Cosmic algorithm
+<http://www.astro.yale.edu/dokkum/lacosmic/>`_.  The algorithm is
+based on Laplacian edge detection and is described in `van Dokkum
+(2001; PASP 113, 1420)
+<https://ui.adsabs.harvard.edu/abs/2001PASP..113.1420V/abstract>`_.
+
+
+.. |PyPI Version| image::  https://img.shields.io/pypi/v/lacosmic.svg?logo=pypi&logoColor=white&label=PyPI
+    :target: https://pypi.org/project/lacosmic/
+    :alt: PyPI Latest Release
+
+.. |Astropy| image:: https://img.shields.io/badge/powered%20by-AstroPy-orange.svg?style=flat
+    :target: https://www.astropy.org/
+    :alt: Powered by Astropy
+
+.. |CI Status| image:: https://img.shields.io/github/workflow/status/larrybradley/lacosmic/CI%20Tests?label=CI%20Tests&logo=github
+    :target: https://github.com/larrybradley/lacosmic/actions
+    :alt: CI Status
+
+.. |Codecov Status| image:: https://img.shields.io/codecov/c/github/larrybradley/lacosmic?logo=codecov
+    :target: https://codecov.io/gh/larrybradley/lacosmic
+    :alt: Codecov Status
+
+.. |Stable RTD Status| image:: https://img.shields.io/readthedocs/lacosmic/latest.svg?logo=read%20the%20docs&logoColor=white&label=Docs&version=stable
+    :target: https://lacosmic.readthedocs.io/en/stable/
+    :alt: Stable Documentation Status
+
+.. |Zenodo| image:: https://zenodo.org/badge/28157875.svg
+    :target: https://zenodo.org/badge/latestdoi/28157875
+    :alt: Zenodo Latest DOI
+
+
