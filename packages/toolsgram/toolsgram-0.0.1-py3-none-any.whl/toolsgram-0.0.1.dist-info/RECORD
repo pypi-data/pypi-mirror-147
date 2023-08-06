@@ -1,0 +1,12 @@
+toolsgram/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+toolsgram/error/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+toolsgram/image/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+toolsgram/model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+toolsgram/system/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+toolsgram/telegram/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+toolsgram/web/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+toolsgram-0.0.1.dist-info/LICENSE,sha256=EZxoPrQW1GZCrqXVc0VS5fxIvv0Zr7dg9_JmR6H32SI,1068
+toolsgram-0.0.1.dist-info/METADATA,sha256=H4eF55BglBi7VTIRR5vT-__bzVF9JvK8MHheP5eNGc4,1133
+toolsgram-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+toolsgram-0.0.1.dist-info/top_level.txt,sha256=M9KFvSVuSqtJDjgi17UdA_1BhyqZG_mqG9Pr0NLjt5I,10
+toolsgram-0.0.1.dist-info/RECORD,,
