@@ -1,0 +1,157 @@
+Metadata-Version: 2.1
+Name: skelly
+Version: 0.0.1
+Summary: Generate a project skeleton
+Home-page: https://gitlab.com/narvin/skelly
+Author-email: Narvin Singh <Narvin.A.Singh@gmail.com>
+License: The MIT License (MIT)
+        
+        Copyright © 2022 Narvin Singh
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+        
+Project-URL: Homepage, https://gitlab.com/narvin/skelly
+Project-URL: Repository, https://gitlab.com/narvin/skelly
+Project-URL: Bug Tracker, https://gitlab.com/narvin/skelly/-/issues
+Keywords: code generator,skeleton,stub,template
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+======
+skelly
+======
+
+Generate a project skeleton so you can start coding right away.
+
+Installation
+============
+
+::
+
+  git clone https://gitlab.com/narvin/skelly
+  cd skelly
+  pip install .
+
+Usage
+=====
+
+Once installed, `skelly` can be run as a module:
+
+::
+
+  python -m skelly.main
+
+or as a console application:
+
+::
+
+  skelly
+
+`skelly` has a plugin architecture where `skelly.builders` can be registered to
+create different types of projects. The default builder builds Python projects.
+
+Python Project
+--------------
+
+Python projects built by the default builder, using its default template, include:
+
+- a `venv` using the Python installation from which `skelly` was invoked
+- packaging with `setuptools` configured via `setup.cfg`
+- tooling configured via `setup.cfg`
+
+  - code formatting with `black`
+  - linting with `pylint`
+  - PEP 8 style checking with `pycodestyle`
+  - strict type checking with `mypy`
+  - unit testing with `pytest`
+  - running all of the above tools with `tox`
+  - building and uploading a distribution with `build` and `twine`
+
+- the project package, itself, is `pip` installed in the `venv` in editable mode
+
+Prompt the user for values required by the template, then create a project in the
+current directory.
+
+::
+
+  skelly
+
+Create a project in the directory `/tmp/mypkg`, without prompting the user because
+all of the required template values are provided in the command.
+
+::
+
+  skelly \
+    -t author "Narvin Singh" \
+    -t email "Narvin.A.Singh@gmail.com" \
+    -t description "A sample project." \
+    -t repo "https://gitlab.com/narvin/mypkg" \
+    /tmp/mypkg
+
+Only prompt the user for the repo, which is required by the template, then create
+a project in the current directory.
+
+::
+
+  skelly \
+    -t author "Narvin Singh" \
+    -t email "Narvin.A.Singh@gmail.com" \
+    -t description "A sample project."
+
+This command will raise an error because the repo wasn't specified, and the `-s`
+option was used to prevent prompting the user for missing template values.
+
+::
+
+  skelly \
+    -s \
+    -t author "Narvin Singh" \
+    -t email "Narvin.A.Singh@gmail.com" \
+    -t description "A sample project."
+
+Create a project in `/tmp/mypkg` with its `venv` in `/tmp/mypkg/.venv310`, and
+install the packages specified in `~/requirements.txt` in the `venv`. The `env_dir`
+builder option, unless specified as an absolute path, is relative to the `target`
+directory. The `req_file` builder option, unless specified as an absolute path,
+is relative to the current directory.
+
+::
+
+  cd ~
+  skelly \
+    -o env_dir .venv310 \
+    -o req_file requirements.txt \
+    /tmp/mypkg
+
+Create a project in the current directory using a custom template. The user won't
+be prompted for any template values.
+
+::
+
+  skelly \
+    -p ~/my_template \
+    -t my_template_var foo
+
+Other Types of Projects
+=======================
+
+Coming soon.
+
+If there was a hypothetical builder called `javascript`, this command would use it
+to build a project in the current directory.
+
+::
+
+  skelly -b javascript
+
+
+
