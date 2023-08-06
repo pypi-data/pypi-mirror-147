@@ -1,0 +1,12 @@
+LICENCE.txt
+MANIFEST.in
+README.md
+setup.py
+5sim_python.egg-info/PKG-INFO
+5sim_python.egg-info/SOURCES.txt
+5sim_python.egg-info/dependency_links.txt
+5sim_python.egg-info/requires.txt
+5sim_python.egg-info/top_level.txt
+fivesim/__init__.py
+fivesim/client.py
+fivesim/errors.py
