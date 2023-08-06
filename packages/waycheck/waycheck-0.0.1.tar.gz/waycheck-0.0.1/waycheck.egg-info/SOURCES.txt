@@ -1,0 +1,10 @@
+README.md
+setup.py
+waycheck/__init__.py
+waycheck/errors.py
+waycheck/main.py
+waycheck/version.py
+waycheck.egg-info/PKG-INFO
+waycheck.egg-info/SOURCES.txt
+waycheck.egg-info/dependency_links.txt
+waycheck.egg-info/top_level.txt
