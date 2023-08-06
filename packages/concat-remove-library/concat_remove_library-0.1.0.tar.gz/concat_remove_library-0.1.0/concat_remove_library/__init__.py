@@ -1,0 +1,1 @@
+from concat_remove_library.concat_remove import Concat_Remove_Class
