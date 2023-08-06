@@ -1,0 +1,11 @@
+consepsimdisc/__init__.py,sha256=NVu0e4m2PdUo_G6RO4Qb4JD7yNcEWXBWE9dB_DucGBA,68
+consepsimdisc/disc.py,sha256=fyuhNBRpZ1ae6ueisx_6UkJ_XIwxjs7xkofpwOuFDXU,12982
+consepsimdisc/algoritmos/__init__.py,sha256=T32lbSdnUhL0L_PHnkeVH6lyXWMAcDWXuuQaoTgh9CE,158
+consepsimdisc/algoritmos/aproximacion.py,sha256=ni-yfh7vcF8Wtxe07mdI7qllupDVbzIH8DMwtO0c_S8,15120
+consepsimdisc/algoritmos/determistas.py,sha256=YZTEsP8fKtL4Vj-_u5RRu0x8eTaJNvQw7peY6LVwsso,9565
+consepsimdisc/algoritmos/generic.py,sha256=6FuS3ghOynWWPFoa9P6c5rnCSUJmJmTjSsxozRQzmgU,4084
+consepsimdisc/algoritmos/paralelos.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+consepsimdisc-0.0.4.dist-info/METADATA,sha256=tQZl40EchJD-WhBN99z2SISV9L1EC5AkWwO4_8UHZNY,458
+consepsimdisc-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+consepsimdisc-0.0.4.dist-info/top_level.txt,sha256=QgYFaxMnlz0mZzlViFkH0OmkdB_vxDrCp9aPHv2CW0Q,14
+consepsimdisc-0.0.4.dist-info/RECORD,,
