@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: gddriver
+Version: 0.2.14
+Summary: The gddriver is an efficient tool for operating the storage service such as oss and ftp and s3
+Home-page: https://gitlab.genedock.com/genedock/gddriver
+Author: genedock
+Author-email: gddriver@genedock.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Description-Content-Type: text/markdown; charset=UTF-8
+Requires-Dist: crcmod
+Requires-Dist: oss2 (>=2.4.0)
+Requires-Dist: boto3 (==1.17.112)
+Requires-Dist: bce-python-sdk
+Requires-Dist: pbr (==5.8.0)
+Requires-Dist: aliyun-python-sdk-sts (>=3.0.0)
+
+The gddriver is an efficient tool for operating the storage service such as oss and ftp and s3
+
+
