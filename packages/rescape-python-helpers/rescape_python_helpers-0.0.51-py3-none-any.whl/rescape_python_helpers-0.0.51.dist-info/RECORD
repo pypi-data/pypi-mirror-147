@@ -1,0 +1,13 @@
+rescape_python_helpers/__init__.py,sha256=0TiQ_QY2IDkoUYFGOUIaSec19b4Rq3gOGu6q5mC9-aA,1058
+rescape_python_helpers/functional/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rescape_python_helpers/functional/memoize.py,sha256=ONXvHCAucs3r43oTVpSmtSbc0DOKyzvNwvfeNq48v9g,1202
+rescape_python_helpers/functional/ramda.py,sha256=Jf8z1H1SU6azvMgm8r02mKkaD-GjmXLuoQ7-iHgqG9k,36224
+rescape_python_helpers/functional/ramda_test.py,sha256=1JEeZVEjJscpy9VrJsHSf4ppKDaGrajTDDZtHleQZNo,13088
+rescape_python_helpers/geospatial/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rescape_python_helpers/geospatial/geometry_helpers.py,sha256=KuFF88zQ3c6_MIEAkKwvrk4kAZIJhiv0zWBGWoZ8DbQ,1474
+rescape_python_helpers/geospatial/geometry_helpers_test.py,sha256=4fWltHx5thKwXNA2EPTanAWkAAEi23RgyibHCFQkPa4,3943
+rescape_python_helpers-0.0.51.dist-info/LICENSE,sha256=BZSExKdt6L2QT62NnCHGHpDkpDsvsiSOA-KedZ7LP24,1069
+rescape_python_helpers-0.0.51.dist-info/METADATA,sha256=Op_qh6Me6RWTawnwxpkin2KIgSyWqwxc5KBIKQPFXtc,2316
+rescape_python_helpers-0.0.51.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+rescape_python_helpers-0.0.51.dist-info/top_level.txt,sha256=3Is3wHEotzDqbQW6yR4NuK4wcRj_JXL-fj9__7q3lK8,23
+rescape_python_helpers-0.0.51.dist-info/RECORD,,
