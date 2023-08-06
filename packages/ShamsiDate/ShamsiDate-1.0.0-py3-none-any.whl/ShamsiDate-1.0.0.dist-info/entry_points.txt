@@ -1,0 +1,2 @@
+[console_scripts]
+shamsi = shamsidate.shamsi:main
