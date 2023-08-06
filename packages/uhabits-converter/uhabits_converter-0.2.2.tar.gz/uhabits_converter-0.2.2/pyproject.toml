@@ -1,0 +1,67 @@
+[tool.poetry]
+name = "uhabits_converter"
+version = "0.2.2"
+description = "convert types of habit from uhabits"
+authors = ["Conor Sheehan <conor.sheehan.dev@gmail.com>"]
+license = "MIT"
+homepage = "https://github.com/ConorSheehan1/uhabits_converter"
+readme = "README.md"
+classifiers = [
+  "Intended Audience :: End Users/Desktop ",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Utilities",
+]
+packages = [
+  # { include = "*.py", from = "src"}
+  { include = "src" }
+]
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+fire = "^0.4.0"
+rich = {version = "^11.2.0", python = ">=3.8,<4.0"}
+inquirer = "^2.9.1"
+
+[tool.poetry.dev-dependencies]
+black = "^22.1.0"
+isort = {version = "^5.10.1", python = ">=3.8,<4.0"}
+taskipy = {version = "^1.8.2", python = ">=3.8,<4.0"}
+mypy = "^0.931"
+pytest = "^7.0.1"
+pandas = {version = "^1.3.0", python = ">=3.8,<4.0"}
+bump2version = "^1.0.1"
+pre-commit = "^2.17.0"
+
+[tool.taskipy.tasks]
+cli = "python src/cli.py"
+bumpversion = "bumpversion"
+ci_lint = "black --check ."
+ci_isort = "isort --check --diff ."
+dev = "python src/cli.py"
+isort = 'isort .'
+lint = "black ."
+mypy = "mypy --ignore-missing-imports src/*.py"
+tests = "python -m pytest tests"
+
+# linter configs
+[tool.isort]
+import_heading_stdlib = "Standard Library"
+import_heading_thirdparty = "Third party"
+# copied from https://github.com/psf/black/blob/master/docs/compatible_configs.md
+multi_line_output = 3
+include_trailing_comma = true
+force_grid_wrap = 0
+use_parentheses = true
+line_length = 100
+
+[tool.black]
+line_length = 100
+
+# cli entrypoint
+[tool.poetry.scripts]
+uhabits_converter = "src.cli:main"
+
+[build-system]
+requires = ["poetry-core>=0.12"]
+build-backend = "poetry.core.masonry.api"
