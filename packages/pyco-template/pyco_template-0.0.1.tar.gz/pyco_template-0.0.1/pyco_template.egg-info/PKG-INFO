@@ -1,0 +1,153 @@
+Metadata-Version: 2.1
+Name: pyco-template
+Version: 0.0.1
+Summary: support json template for python developers
+Home-page: http://github.com/dodoru/pyco-template
+Author: dodoru
+Author-email: dodoru@foxmail.com
+Maintainer: dodoru
+Maintainer-email: dodoru@foxmail.com
+License: GNU LGPLv3
+Keywords: Python json template format render
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+## pyco-template
+
+- Fast 
+- Simple
+- Easy To Use 
+- Lightweight (no more requirements)
+- 尘归尘，土归土，配置归配置，逻辑归逻辑，业务归业务
+
+----
+
+## install
+- `pip install pyco-template`
+
+## usage sample
+```python
+
+from pyco_template.ext_json import CoTextTemplate
+from pyco_template.ext_json import CoJsonTemplate
+
+
+def test_text():
+    ## NOTE: generally string_format should use `CoTextTemplate`    
+    ## NOTE: 注意这种是不适合 CoJsonTemplate, 因为有"{}"
+    text = """
+    {
+      "username": "{name}",
+      "password": "{password}",
+      "email": "{name}@address.com"
+    }
+    """
+    tpl = CoTextTemplate(text)
+    print(tpl)
+    txt = tpl.render(password="***")
+    print(100, txt)
+
+
+def test_text2():
+    ## NOTE: suggest to use string_template with ${}
+    ## NOTE: 这种使用 ${} ，可以使用 CoJsonTemplate 
+    text = """
+    {
+      "username": "${name}",
+      "password": "${password}",
+      "email": "${name}@address.com"
+    }
+    """
+
+    tpl = CoJsonTemplate(text)
+    txt = tpl.render(password="***")
+    print(101, txt)
+
+
+def test_list1():
+    data2 = ["username=${name}", "password=${pwd}"]
+    tpl2 = CoJsonTemplate.create(data2)
+    txt2 = tpl2.render(pwd="***")
+    print(201, txt2)
+
+
+def test_list2():
+    data1 = ["username={name}", "password={pwd}"]
+    tpl1 = CoJsonTemplate.create(data1, _used_delimit=False)
+    txt1 = tpl1.render(name="developer", ignore_info="this will be ignored!")
+    print(202, txt1)
+
+
+def test_dict1():
+    data = dict(
+        username="${name}",
+        password="${password}",
+        email="${name}@address.com",
+    )
+    tpl = CoJsonTemplate.create(data)
+    txt = tpl.render(name="developer")
+    print(301, txt)
+
+
+def test_dict2():
+    data = dict(
+        username="{name}",
+        password="{password}",
+        email="{name}@address.com",
+    )
+    tpl = CoJsonTemplate.create(data, False)
+    txt = tpl.render(name="developer")
+    tpl.save_file(fout="test_dict.tmp.json")
+    print(302, txt)
+
+
+def test_dict3():
+    data = {
+        "name": "{topic_name}",
+        "sensor": "{sensor_key}",
+        "input": "{dataset_dir}",
+        "device": "{sdir}",
+        "calib_params": "",
+        "protocol": {
+            "name": "data_proto",
+            "version": "{version}"
+        },
+        "type": "{topic_name}.{type}",
+        "elem_count": 0,
+        "elem_size": 0,
+        "order": "up",
+        "data": [
+            "{sdir}/{sensor_key}.bin"
+        ],
+        "index": [
+            "{sdir}/{sensor_key}.index.json"
+        ]
+    }
+
+    tpl_json = CoJsonTemplate.create(data, _used_delimit=False)
+    # print(tpl_json)
+    kws1 = dict(topic_name="camera", version=2, extra_info="hello")
+    txt1 = tpl_json.render(**kws1)
+    print(303, txt1)
+    tpl_json.save_file(fout="test_dict.tmp.json", **kws1)
+    
+    tpl2 = CoJsonTemplate.load_file(fout="test_dict.tmp.json")
+    print(304, tpl2.render())
+
+```
+
+
+

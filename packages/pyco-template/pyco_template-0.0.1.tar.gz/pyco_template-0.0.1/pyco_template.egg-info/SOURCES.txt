@@ -1,0 +1,8 @@
+setup.py
+pyco_template/__init__.py
+pyco_template/ext_json.py
+pyco_template.egg-info/PKG-INFO
+pyco_template.egg-info/SOURCES.txt
+pyco_template.egg-info/dependency_links.txt
+pyco_template.egg-info/not-zip-safe
+pyco_template.egg-info/top_level.txt
