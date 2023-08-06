@@ -1,0 +1,18 @@
+[console_scripts]
+celescope = celescope.celescope:main
+multi_capture_rna = celescope.capture_rna.multi_capture_rna:main
+multi_capture_virus = celescope.capture_virus.multi_capture_virus:main
+multi_citeseq = celescope.citeseq.multi_citeseq:main
+multi_convert10X = celescope.convert10X.multi_convert10X:main
+multi_dynaseq = celescope.dynaseq.multi_dynaseq:main
+multi_fl_vdj_CR = celescope.fl_vdj_CR.multi_fl_vdj_CR:main
+multi_fl_vdj_TRUST4 = celescope.fl_vdj_TRUST4.multi_fl_vdj_TRUST4:main
+multi_fl_vdj_TRUST4_split = celescope.fl_vdj_TRUST4_split.multi_fl_vdj_TRUST4_split:main
+multi_fusion = celescope.fusion.multi_fusion:main
+multi_hla = celescope.hla.multi_hla:main
+multi_rna = celescope.rna.multi_rna:main
+multi_snp = celescope.snp.multi_snp:main
+multi_sweetseq = celescope.sweetseq.multi_sweetseq:main
+multi_tag = celescope.tag.multi_tag:main
+multi_vdj = celescope.vdj.multi_vdj:main
+
