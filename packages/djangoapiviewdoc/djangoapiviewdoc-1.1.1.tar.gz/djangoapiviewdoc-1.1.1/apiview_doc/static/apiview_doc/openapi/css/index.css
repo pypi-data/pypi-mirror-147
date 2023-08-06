@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+}
+
+#app, .app-container {
+    height: 100vh;
+    background-color: #f5f7f9;
+}
+
+
+.el-scrollbar__wrap {
+    overflow-x: hidden;
+}
+
+.el-aside {
+    overflow: hidden;
+    height: calc(100vh - 110px);
+    min-height: calc(100vh - 110px);
+    background-color: white;
+
+}
+
+.container-header {
+    height: 50px;
+    background-color: white;
+    line-height: 50px;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 3px 0 #eae9e9;
+}
+
+.container-main {
+    padding: 0 10%;
+    height: calc(100vh - 110px);
+    min-height: calc(100vh - 110px);
+}
+
+.container-content {
+    background-color: white;
+}
+
+.doc-header {
+    max-width: 1448px;
+    align-items: center;
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    padding: 0 10%;
+    color: #606266;
+}
+
+.header-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.el-header {
+    height: 50px !important;
+}
+
+.doc-content {
+    max-width: 900px;
+    background-color: #fff;
+    margin: 10px 100px;
+    position: relative;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.doc-title {
+    margin: 10px 0 30px;
+    font-size: 32px;
+    border-bottom: 1px solid #e6ecf1;
+}
+
+pre {
+    position: relative;
+    margin-bottom: 24px;
+    background: #FFF;
+    overflow: hidden;
+    font-size: 16px;
+}
+
+.pre-numbering {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    padding: 12px 2px 12px 0;
+    border-right: 1px solid #C3CCD0;
+    background-color: #EEE;
+    text-align: right;
+}
+
+.pre-numbering li {
+    list-style: none;
+    font-family: Menlo, monospace;
+    color: #AAA;
+}
+
+.doc-request-info {
+    border-left: 4px solid #409EFF;
+}
+
+.doc-param {
+    border-left: 4px solid #409EFF;
+}
+
+.doc-tip {
+    padding: 8px 16px;
+    background-color: #ecf8ff;
+    border-radius: 4px;
+    border-left: 5px solid #91d5ff;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.doc-alart {
+    box-sizing: border-box;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 4px 10px;
+    word-wrap: break-word;
+    border-radius: 2px;
+}
+
+.doc-alart-info {
+    padding: 2px 10px;
+    background-color: #e6f7ff;
+    border: 1px solid #91d5ff;
+}
+
+.doc-path {
+    font-weight: bold;
+}
+
+.doc-request-info-li {
+    margin: 10px 0;
+}
+
+.doc-run-button {
+    display: flex;
+    text-align: right;
+    margin: 10px 0;
+}

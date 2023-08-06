@@ -1,0 +1,194 @@
+{% load pioneertags %}
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <!-- import CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <link rel="stylesheet" type="text/css" href="{% static 'apiview_doc/openapi/css/index.css' %}">
+</head>
+<body>
+<div id="app"
+     v-loading.fullscreen.lock="fullscreenLoading">
+    <div class="app-container">
+        <el-container class="container-header">
+            <el-header class="doc-header">
+                <div class="header-title">
+                    {{ title }}
+                </div>
+            </el-header>
+        </el-container>
+        <el-container class="container-main">
+            <el-aside width="300px">
+                <el-scrollbar style="height: 100%">
+                    {% include 'apiview_doc/openapi/aside_menu.html' %}
+                </el-scrollbar>
+            </el-aside>
+            <el-scrollbar style="height: 100%; width: 100%">
+                <el-main class="container-content">
+                    {% include 'apiview_doc/openapi/content.html' %}
+                </el-main>
+            </el-scrollbar>
+        </el-container>
+    </div>
+</div>
+
+</body>
+
+<!-- import Vue before Element -->
+<script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+<!-- import JavaScript -->
+<script src="https://unpkg.com/element-ui/lib/index.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+<script type="text/javascript">
+    const menuData = {% get_open_api_info paths  %}
+    new Vue({
+        el: '#app',
+        filters: {
+            methodFilter(method) {
+                const methodColor = {
+                    POST: '',
+                    GET: 'success',
+                    PUT: 'warning',
+                    PATCH: 'info',
+                    HEAD: 'danger',
+                }
+                return methodColor[method]
+            }
+        },
+        data: function () {
+            return {
+                content: null,
+                defaultActiveMenu: null,
+                fullscreenLoading: false,
+                formData: null,
+                menuData,
+            }
+        },
+        created() {
+            this.initMenu()
+        },
+        methods: {
+            initMenu() {
+                this.fullscreenLoading = true;
+                setTimeout(() => {
+                    this.fullscreenLoading = false;
+                }, 1000);
+                const val = this.getQueryVariable('path')
+                if (val) {
+                    this.getContentByPath(val)
+                    this.defaultActiveMenu = val
+                }
+
+            },
+
+            getContentByPath(path) {
+                for (let i = 0; i < this.menuData.length; i++) {
+                    for (let j = 0; j < this.menuData[i].paths.length; j++) {
+                        if (this.menuData[i].paths[j].path === path) {
+                            this.content = this.menuData[i].paths[j]
+                            this.getFormDataArray()
+                            break
+                        }
+                    }
+                }
+            },
+
+            getFormDataArray() {
+                const tempData = {}
+                const parameters = this.content.parameters
+                if (parameters.length > 0) {
+                    for (let i = 0; i < parameters.length; i++) {
+                        tempData[parameters[i].name] = null
+                    }
+                }
+                this.formData = tempData
+
+            },
+
+            submitRun() {
+                console.log(this.formData)
+            },
+
+            selectMenu(val) {
+
+                const newurl = this.updateQueryStringParameter(window.location.href, 'path', val);
+                //向当前url添加参数，没有历史记录
+                window.history.replaceState({
+                    path: newurl
+                }, '', newurl);
+            },
+
+
+            clickMenu(val) {
+                const path = window.location.host + window.location.pathname
+                const params = this.getQueryVariable('path')
+                const protocol = window.location.protocol
+                if (params) {
+                    this.defaultActiveMenu = val.path
+                }
+                if (val) {
+                    this.content = val
+                    this.getFormDataArray()
+                    this.replaceParamVal('path', this.defaultActiveMenu)
+                }
+            },
+
+            updateQueryStringParameter(uri, key, value) {
+                if (!value) {
+                    return uri;
+                }
+                var re = new RegExp("([?&])" + key + "=.*?(&|$)", "i");
+                var separator = uri.indexOf('?') !== -1 ? "&" : "?";
+                if (uri.match(re)) {
+                    return uri.replace(re, '$1' + key + "=" + value + '$2');
+                } else {
+                    return uri + separator + key + "=" + value;
+                }
+            },
+
+            getQueryVariable(variable) {
+                const query = window.location.search.substring(1);
+                const vars = query.split("&");
+                for (var i = 0; i < vars.length; i++) {
+                    var pair = vars[i].split("=");
+                    if (pair[0] === variable) {
+                        return pair[1];
+                    }
+                }
+                return false
+            },
+            // 修改参数
+            replaceParamVal(key, value) {
+                let oUrl = window.location.href.toString();
+                let re = eval('/(' + key + '=)([^&]*)/gi');
+                return oUrl.replace(re, key + '=' + value)
+            },
+            // 获取参数
+            getUrlParam(key) {
+                let reg = new RegExp("(^|&)" + key + "=([^&]*)(&|$)"); //构造一个含有目标参数的正则表达式对象
+                let r = window.location.search.substr(1).match(reg);  //匹配目标参数
+                if (r != null) return unescape(r[2]);
+                return null; //返回参数值
+            },
+            // 修改参数
+            setParamVal(key, value) {
+                let url = window.location.href
+                if (this.getUrlParam(key) != null) {
+                    window.location.href = replaceParamVal(key, value)
+                } else {
+                    if (url.indexOf("?") === -1) {
+                        window.location.href = url + '?' + key + '=' + value
+                    } else {
+                        window.location.href = url + '&' + key + '=' + value
+                    }
+                }
+            }
+        }
+    })
+
+</script>
+
+</html>
