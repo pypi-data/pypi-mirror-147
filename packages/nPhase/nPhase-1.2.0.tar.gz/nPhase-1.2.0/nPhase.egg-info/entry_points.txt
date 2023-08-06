@@ -1,0 +1,2 @@
+[console_scripts]
+nphase = bin.nPhasePipeline:main
