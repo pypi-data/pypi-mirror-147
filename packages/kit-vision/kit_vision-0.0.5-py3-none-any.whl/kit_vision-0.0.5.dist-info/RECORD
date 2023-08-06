@@ -1,0 +1,9 @@
+vkit/__init__.py,sha256=5BvIu2H3_ncMeQDzgioAQ3CS1pmcAFYkYF5yIdCDox8,41
+vkit/callbacks.py,sha256=GIlwchYHC_V2mUHMXG2iWBVlycvXxmfSAoqhWiNUH-o,684
+vkit/lr.py,sha256=mP5yFGnIfr5Q_PcReh1YXVmoVrHPsg7WRHBLq9AnVMU,6391
+vkit/metrics.py,sha256=R19GB2mFT5eJXqoAYgnukYgwhdKEkmT4o5Cms2lMfhg,527
+kit_vision-0.0.5.dist-info/LICENSE,sha256=vj-OJJAxcL6CiBqbhFaxpleTdmVQ9h22wsikgphI-0Y,1076
+kit_vision-0.0.5.dist-info/METADATA,sha256=KAmJr4-qJZV5-Jk_gcc9p5VlORg0SvoW4pEdZElVwWA,1692
+kit_vision-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+kit_vision-0.0.5.dist-info/top_level.txt,sha256=AdvGDHFRy5A_xuaecQQWUHP_Kd5qXqVOcoqcV-yO68g,5
+kit_vision-0.0.5.dist-info/RECORD,,
