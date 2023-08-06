@@ -1,0 +1,5 @@
+Flask>=2
+networkx>=2
+Pebble>=4
+pygraphviz>=1
+schedule>=1
