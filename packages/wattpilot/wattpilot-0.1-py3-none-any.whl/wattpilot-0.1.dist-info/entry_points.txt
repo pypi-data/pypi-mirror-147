@@ -1,0 +1,2 @@
+[console_scripts]
+wattpilotshell = wattpilot.wattpilotshell:main
