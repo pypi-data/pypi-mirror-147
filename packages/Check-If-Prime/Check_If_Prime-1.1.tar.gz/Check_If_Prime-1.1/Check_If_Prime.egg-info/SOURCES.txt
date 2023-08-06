@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+Check_If_Prime/__init__.py
+Check_If_Prime/check_prime.py
+Check_If_Prime.egg-info/PKG-INFO
+Check_If_Prime.egg-info/SOURCES.txt
+Check_If_Prime.egg-info/dependency_links.txt
+Check_If_Prime.egg-info/top_level.txt
