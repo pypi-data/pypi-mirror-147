@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: Apache-ShenYu-Client
+Version: 0.2
+Summary: Apache ShenYu client
+Home-page: https://github.com/apache/incubator-shenyu-client-python
+Author: https://shenyu.apache.org
+Author-email: dev@shenyu.apache.org 
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+
+UNKNOWN
+
