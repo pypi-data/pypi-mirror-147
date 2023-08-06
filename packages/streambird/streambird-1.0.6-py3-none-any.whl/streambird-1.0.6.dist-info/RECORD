@@ -1,0 +1,16 @@
+streambird/__init__.py,sha256=VqEAkUmNKw2IT0MQtfQuCSB5kIZ7YDZa3a_Tb0Dr944,851
+streambird/_version.py,sha256=UNMrZj_SlkgbTxI5490_GGrLjZ213R5Jqxib7VLse_g,54
+streambird/api.py,sha256=fgKgmCtS57q0Sj6eXmFUkLlBts_77kdD8hjKVlrkPck,6073
+streambird/exceptions.py,sha256=rDjDpbDYxf7FpcZ_-GPda1LHV5taGNVaU1qp7eNe4Uc,2501
+streambird/api_resources/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+streambird/api_resources/magic_link.py,sha256=RKrW9KpbstWwMrzDFogef8okwziLIWvP1Ox702RUclU,2136
+streambird/api_resources/oauth.py,sha256=7uVIAjdT_3qB5A4-pAhRiQwJU8GbxIyVbP4nkTm70q0,731
+streambird/api_resources/otp.py,sha256=P3uALGd0073mwV6peXi0VZ90jel5FJ9-wDx1EMxIO9U,3131
+streambird/api_resources/session.py,sha256=Zb4CbA4xNGMAZ3dZ4VQGjqga26z4Ivk3oB1uRDJ42RM,1095
+streambird/api_resources/user.py,sha256=rjNzvZPXPsH_SgPb8xmMQoBMfB5Z47QV5UWynV76Pp0,2412
+streambird/api_resources/wallet.py,sha256=7cZEOQ9ptvs25ZL9S9MFXZsgEcSVNxbxBzbV2huoX18,919
+streambird-1.0.6.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+streambird-1.0.6.dist-info/METADATA,sha256=5I-r2Xx27kxjCtjxo_AxcHnzNWwlptQxoamGleMf3Mc,3076
+streambird-1.0.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+streambird-1.0.6.dist-info/top_level.txt,sha256=bfywTs70NutQ6SIGEq5JvCbVI6gInS-Bp9goqSQH6Qg,11
+streambird-1.0.6.dist-info/RECORD,,
