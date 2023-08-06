@@ -1,0 +1,9 @@
+LICENSE
+README.rst
+setup.cfg
+setup.py
+python_kucoin_x.egg-info/PKG-INFO
+python_kucoin_x.egg-info/SOURCES.txt
+python_kucoin_x.egg-info/dependency_links.txt
+python_kucoin_x.egg-info/requires.txt
+python_kucoin_x.egg-info/top_level.txt
