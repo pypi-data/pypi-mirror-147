@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: nextchat
+Version: 1.0.0.1
+Summary: Easy to use bot API for https://replchat.vapwastaken.repl.co/
+Author: Bleekpie
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
