@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: PyExpPlotting-andnp
+Version: 0.8.1
+Summary: A few plotting utilities to go with PyExpUtils
+Home-page: https://github.com/andnp/PyExpPlotting.git
+Author: Andy Patterson
+Author-email: andnpatterson@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib (>=2.2.3)
+Requires-Dist: numba (>=0.52.0)
+Requires-Dist: scipy (>=1.5.4)
+Requires-Dist: pyexputils-andnp (>=3.1.0)
+Provides-Extra: dev
+Requires-Dist: mypy (>=0.770) ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: commitizen ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: pipenv-setup[black] ; extra == 'dev'
+Requires-Dist: build ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+
+# PyExpPlotting
+
+TODO: write up some documentation.
+For now just need to investigate source code, sorry :(
+
+
