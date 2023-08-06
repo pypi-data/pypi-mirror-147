@@ -1,0 +1,6 @@
+pandas
+pytest
+sklearn
+coverage
+setuptools
+pytest-cov

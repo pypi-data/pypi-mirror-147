@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+moviesViewEstimator/__init__.py
+moviesViewEstimator/linear_regression_model.pickle
+moviesViewEstimator/model.py
+moviesViewEstimator.egg-info/PKG-INFO
+moviesViewEstimator.egg-info/SOURCES.txt
+moviesViewEstimator.egg-info/dependency_links.txt
+moviesViewEstimator.egg-info/requires.txt
+moviesViewEstimator.egg-info/top_level.txt
+tests/__init__.py
+tests/conftest.py
+tests/test_model.py
