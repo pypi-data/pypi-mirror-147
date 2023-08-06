@@ -1,0 +1,4 @@
+[console_scripts]
+wid-crawler = wid.cli.web_img_crawler:main
+wid-downloader = wid.cli.web_img_downloader:main
+
