@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+xvideos/__init__.py
+xvideos/reader.py
+xvideos.egg-info/PKG-INFO
+xvideos.egg-info/SOURCES.txt
+xvideos.egg-info/dependency_links.txt
+xvideos.egg-info/requires.txt
+xvideos.egg-info/top_level.txt
+xvideos/utils/__init__.py
+xvideos/utils/help_functions.py
