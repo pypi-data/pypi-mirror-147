@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: UGrid
+Version: 0.12.0
+Summary: `UGrid` is a library to write and read UGrid files.
+Home-page: https://github.com/Deltares/UGridPy
+Author: Luca Carniato
+Author-email: luca.carniato@deltares.nl
+License: MIT
+Platform: Windows
+Platform: Linux
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: meshkernel
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: sphinx-book-theme ; extra == 'docs'
+Requires-Dist: myst-nb ; extra == 'docs'
+Provides-Extra: lint
+Requires-Dist: flake8 ; extra == 'lint'
+Requires-Dist: black (==21.4b1) ; extra == 'lint'
+Requires-Dist: isort ; extra == 'lint'
+Provides-Extra: tests
+Requires-Dist: pytest ; extra == 'tests'
+Requires-Dist: pytest-cov ; extra == 'tests'
+Requires-Dist: nbval ; extra == 'tests'
+
+# UGridPy
+
+`UGridPy` is a library for writing/reading UGrid files. It supports writing 1D networks, 1D mesh, 2D meshes and 1D-2D contacts in UGrid Format.
+The underlying C++ library `UGrid` can be found [here](https://github.com/Deltares/UGrid.git).
+
+# Installation
+
+## Windows
+
+The library can be installed from PyPI by executing
+
+```bash
+pip install ugrid
+```
+
+## Linux
+
+Currently, we only offer wheels specific to Deltares' CentOS machines.
+We plan to release a manylinux wheel at PyPI in the future. 
+
+# Examples
+
+*To be detailed*
+
+# License
+
+`UGridPy` uses the MIT license.
+However, the wheels on PyPI bundle the LGPL licensed [UGrid](https://github.com/Deltares/UGrid).
+Please make sure that this fits your needs before depending on it.
+
+
+# Contributing
+
+In order to install `UGridPy` locally, please execute the following line inside your virtual environment
+
+```bash
+pip install -e ".[tests, lint, docs]"
+```
+
+Then add a compiled `UGridApi.dll` into your `src` folder.
+
+Also make sure that your editor is configured to format the code with [`black`](https://black.readthedocs.io/en/stable/) and [`isort`](https://pycqa.github.io/isort/).
+
+
