@@ -1,0 +1,17 @@
+tartiflette-aiohttp
+aioca
+p4p<4.0.0
+ruamel-yaml
+pydantic
+aiohttp-cors
+
+[dev]
+black==21.9b0
+isort>5.0
+pytest-cov
+mypy
+flake8-isort
+sphinx-rtd-theme-github-versions
+pre-commit
+websockets
+pytest-asyncio>0.17
