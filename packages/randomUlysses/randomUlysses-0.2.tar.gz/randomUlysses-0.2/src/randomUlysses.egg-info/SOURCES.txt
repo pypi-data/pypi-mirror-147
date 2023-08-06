@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+pyproject.toml
+setup.cfg
+src/Ulysses.txt
+src/randomUlysses.py
+src/randomUlysses.egg-info/PKG-INFO
+src/randomUlysses.egg-info/SOURCES.txt
+src/randomUlysses.egg-info/dependency_links.txt
+src/randomUlysses.egg-info/top_level.txt
