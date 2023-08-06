@@ -1,0 +1,8 @@
+LICENSE.txt
+README.txt
+setup.py
+imaginationsea.egg-info/PKG-INFO
+imaginationsea.egg-info/SOURCES.txt
+imaginationsea.egg-info/dependency_links.txt
+imaginationsea.egg-info/requires.txt
+imaginationsea.egg-info/top_level.txt

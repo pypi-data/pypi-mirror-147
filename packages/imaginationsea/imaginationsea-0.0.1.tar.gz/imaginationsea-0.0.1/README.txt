@@ -1,0 +1,1 @@
+This creates a very fast and easy-to-use virtual assistant that is completely customizable, at the same time has some tools that make controlling computers simple

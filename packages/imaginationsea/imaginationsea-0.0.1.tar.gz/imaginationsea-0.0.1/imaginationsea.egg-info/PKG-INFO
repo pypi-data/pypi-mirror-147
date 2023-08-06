@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: imaginationsea
+Version: 0.0.1
+Summary: This creates a very fast and easy-to-use virtual assistant that is completely customizable, at the same time has some tools that make controlling computers simple
+Home-page: https://python.imaginationsea.in/
+Author: shivansh seth
+Author-email: inshivansh2008@gmail.com
+License: MIT
+Keywords: fast app maker
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+This creates a very fast and easy-to-use virtual assistant that is completely customizable, at the same time has some tools that make controlling computers simple
+
+Change Log
+==========
+
+0.0.1 (22/04/20212)
+-------------------
+- First Release
+
