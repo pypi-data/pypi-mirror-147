@@ -1,0 +1,9 @@
+theoretical_ecology_simulator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+theoretical_ecology_simulator/community.py,sha256=30qdpz2c7vOKmHwK_rEPToITI-fOFm0Vk_WkhN33ZAM,5988
+theoretical_ecology_simulator/integration.py,sha256=LiiVpNVKqITs2mZmFB2DenShllMT2ou68Uijq-Zl2I4,1674
+theoretical_ecology_simulator/models.py,sha256=pddFWWI2tgO3k50F9pS8CU1L1mQmRXExyW_KOe9Rj20,166
+theo_eco_simulator-0.0.1.dist-info/LICENSE,sha256=Y7oIwV7Uv3c12usaPpoI2p6mssgVJ6rEq4rOqHcNPIY,1076
+theo_eco_simulator-0.0.1.dist-info/METADATA,sha256=pFEHndCcL3OFg59t9wckMBelJf_QxYzbqZj8CuBEATk,609
+theo_eco_simulator-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+theo_eco_simulator-0.0.1.dist-info/top_level.txt,sha256=G62wc1HyKr25dW0eeYTjGQMPBEC8-jzKbNAOu91U8gU,30
+theo_eco_simulator-0.0.1.dist-info/RECORD,,
