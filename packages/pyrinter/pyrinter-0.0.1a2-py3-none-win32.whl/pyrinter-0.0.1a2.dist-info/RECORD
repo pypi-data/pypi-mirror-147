@@ -1,0 +1,15 @@
+py_printer/__init__.py,sha256=mzJe9mLvV85do-PdudeNpln4KRwQ9ZF7uV0uUU7LK3o,32
+py_printer/utils/__init__.py,sha256=4SswYjbYKscZ1kTR-9qbj2xQ8yEjo_9ezmBsbzWElKM,40
+py_printer/utils/win_utils.py,sha256=lBFmpRlF8Vor40xxfP3d-bEKd9ahMdy6dc1X-ryDDg4,343
+pyrinter/__init__.py,sha256=OrqnUnWovJ0zHhiZoixZSI5jSysKZWdAltbIO5Q4kpU,121
+pyrinter/document.py,sha256=P2rWjg-N1Ifak8jdOez8L6HpKwVUtQsn9zjXoaUKYpg,1684
+pyrinter/printers/__init__.py,sha256=7JwPMU2I_ZEfvK08f9HM8sNuP-i3kizN0K5-Dfy0dvg,34
+pyrinter/printers/abs_printer.py,sha256=RVZ7VV0cInMwFKxAqqnm7Zx3vJ6m2LBoaM24j_XjYVc,910
+pyrinter/printers/win_printer.py,sha256=6z_tejWaWztlsbq0C43A6K3BUPkM5iOKDov_nNik-Rg,1515
+pyrinter/utils/__init__.py,sha256=Hb8SiBM0S1jDtinc6wMl7d-6oVknGOVrUiMGCRWweas,42
+pyrinter/utils/win_utils.py,sha256=lBFmpRlF8Vor40xxfP3d-bEKd9ahMdy6dc1X-ryDDg4,343
+pyrinter-0.0.1a2.dist-info/LICENSE,sha256=ZbDIvAQEP3M-qrNAXOMqaXf4jrPSmbLCqgbdNNwcaYQ,1086
+pyrinter-0.0.1a2.dist-info/METADATA,sha256=Pwe-AsgYVuO2cs1jrhetP0S6y-5TAgTomfeCpFT1PcQ,1230
+pyrinter-0.0.1a2.dist-info/WHEEL,sha256=-Ii4AvxI1xY6ei6edHf20sWJQxzkEjIQmkF7g6dYLTo,94
+pyrinter-0.0.1a2.dist-info/top_level.txt,sha256=ahQpvD_9Nn5iCVXO7U3xCz78yzExPMPt6UOyx8pcSmQ,9
+pyrinter-0.0.1a2.dist-info/RECORD,,
