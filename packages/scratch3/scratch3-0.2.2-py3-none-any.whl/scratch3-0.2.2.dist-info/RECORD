@@ -1,0 +1,12 @@
+scratch3/__init__.py,sha256=ZaymJ7i5TUZSmoh1dx-R-DSUBjTZv0VAcPLR1kdAh7s,122
+scratch3/_cloud.py,sha256=CNVmgo9D9XEXE3S9NrYlOmVMyMDBgdiDxUMw97yrYs8,5908
+scratch3/_cloud_requests.py,sha256=7wyxoSa8_eoNxEyOWf2TA8bvC-Mi3K2Xck3sAwaw6IQ,5074
+scratch3/_encoder.py,sha256=5M2JFwGyf83PtCv1DRwQtIOSaOa_HMoFqZ1fiLkyiQg,1713
+scratch3/_exceptions.py,sha256=pDuPjAbwWtdMryF7YKZonGDe-VP9IZ58-DKSQgoRwEw,150
+scratch3/_project.py,sha256=AAu2iR9x2edtekkQrEueJyzD7bbQrX2GXhtp7UMlbTw,15419
+scratch3/_session.py,sha256=PCOE2FhoJ7_gjphKdl5Xht5bW_5zV-A-T87ivuzp6zM,10950
+scratch3/_user.py,sha256=3q_AYhp8tOAjNkKtelz9OKr9w9SREOTM9wjAfUYpTqE,13271
+scratch3-0.2.2.dist-info/METADATA,sha256=G6Jg24XyzZP01NgxZ0qUywUhbE2TSxIozriPbh9TtdY,14032
+scratch3-0.2.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+scratch3-0.2.2.dist-info/top_level.txt,sha256=Fv4w9yjbZVffvZ5Izq19Qqr1oUJCHnGfBNYbMoiY9Rc,9
+scratch3-0.2.2.dist-info/RECORD,,
