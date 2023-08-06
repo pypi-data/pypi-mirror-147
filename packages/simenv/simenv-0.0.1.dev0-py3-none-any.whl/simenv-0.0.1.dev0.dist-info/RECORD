@@ -1,0 +1,10 @@
+simenv/__init__.py,sha256=c2pXER3C8aNtgq4-ad_406h-FNJhiQIUonicchORPA0,313
+simenv/core/__init__.py,sha256=cpDREKlKwo9TCuMU-bV3RiFUADTwEXWgkpswNf4uEAo,71
+simenv/core/node.py,sha256=11V2fq1E1xS4hFdk4Rsrrp6Zl2VOUqAYLcG1-6dJPZQ,456
+simenv/core/scene.py,sha256=lVgRVJK1bGrnhLJ3yFEnKkFjQ8A2FLSIrz74QFYC0N4,880
+simenv/core/view.py,sha256=uiwlqhjjQqAq63-AI7ae-HgoB43zNfCuOG2eKT4iXNU,307
+simenv-0.0.1.dev0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+simenv-0.0.1.dev0.dist-info/METADATA,sha256=3V54rvkJh9noGYDUzjKZzvAX8U27FGxY1eHgFcTQNP4,2021
+simenv-0.0.1.dev0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+simenv-0.0.1.dev0.dist-info/top_level.txt,sha256=Hesd06AsRdWKu2WYE-M2A9OPoVJo52vmfQ9cdnwl3vY,7
+simenv-0.0.1.dev0.dist-info/RECORD,,
