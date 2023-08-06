@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: rsconnect
+Version: 0.1.3
+Summary: A small meta-package to install package to use with RStudio Connect.
+Home-page: https://github.com/sellorm/rsconnect
+Author: Mark Sellors
+Author-email: python@5vcc.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# rsconnect
+
+<!-- badges: start -->
+[![lifecycle:
+experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html)
+<!-- badges: end -->
+
+
+A simple meta-package to install packages for working with RStudio Connect.
+
+The packages installed with this package are:
+
+* [rsconnect-jupyter](https://pypi.org/project/rsconnect-jupyter/)
+* [rsconnect-python](https://pypi.org/project/rsconnect-python/)
+* [pins](https://pypi.org/project/pins/)
+
+## License
+
+This package is released under an MIT license.
+
+This project is **not** affiliated with RStudio.
+
+"RStudio" and "RStudio Connect" are trademarks of [RStudio, PBC](https://rstudio.com).
+
+
+

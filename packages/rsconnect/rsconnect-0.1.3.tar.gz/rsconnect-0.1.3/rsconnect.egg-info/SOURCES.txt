@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+rsconnect.egg-info/PKG-INFO
+rsconnect.egg-info/SOURCES.txt
+rsconnect.egg-info/dependency_links.txt
+rsconnect.egg-info/requires.txt
+rsconnect.egg-info/top_level.txt
