@@ -1,0 +1,8 @@
+README.md
+setup.py
+cmatcher/__init__.py
+cmatcher.egg-info/PKG-INFO
+cmatcher.egg-info/SOURCES.txt
+cmatcher.egg-info/dependency_links.txt
+cmatcher.egg-info/requires.txt
+cmatcher.egg-info/top_level.txt
