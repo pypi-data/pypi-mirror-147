@@ -1,0 +1,10 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.cfg
+src/animalib/__init__.py
+src/animalib/sprite.py
+src/animalib.egg-info/PKG-INFO
+src/animalib.egg-info/SOURCES.txt
+src/animalib.egg-info/dependency_links.txt
+src/animalib.egg-info/top_level.txt
