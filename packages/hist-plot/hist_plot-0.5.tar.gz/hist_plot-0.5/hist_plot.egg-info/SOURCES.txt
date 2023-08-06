@@ -1,0 +1,11 @@
+README
+README.md
+setup.py
+hist_plot/__init__.py
+hist_plot/hist_score.py
+hist_plot/utils.py
+hist_plot.egg-info/PKG-INFO
+hist_plot.egg-info/SOURCES.txt
+hist_plot.egg-info/dependency_links.txt
+hist_plot.egg-info/not-zip-safe
+hist_plot.egg-info/top_level.txt
