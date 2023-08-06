@@ -1,0 +1,12 @@
+onionprobe (0.3.0+nmu0) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * New upstream version.
+
+ -- Silvio Rhatto <rhatto@riseup.net>  Tue, 19 Apr 2022 16:52:11 -0300
+
+onionprobe (0.2.2) unstable; urgency=medium
+
+  * New upstream version.
+
+ -- Silvio Rhatto <rhatto@torproject.org>  Mon, 11 Apr 2022 09:09:35 -0300
