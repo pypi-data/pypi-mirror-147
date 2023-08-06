@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+NiceEncryption/NiceEncryption.py
+NiceEncryption/__init__.py
+NiceEncryption.egg-info/PKG-INFO
+NiceEncryption.egg-info/SOURCES.txt
+NiceEncryption.egg-info/dependency_links.txt
+NiceEncryption.egg-info/top_level.txt
