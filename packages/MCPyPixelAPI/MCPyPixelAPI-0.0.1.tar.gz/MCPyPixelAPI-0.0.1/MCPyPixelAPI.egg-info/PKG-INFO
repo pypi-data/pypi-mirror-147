@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: MCPyPixelAPI
+Version: 0.0.1
+Summary: Hypixel API for Python
+Home-page: UNKNOWN
+Author: William Allen
+Author-email: redacted@tocomail.com
+License: UNKNOWN
+Description: Easily use the Pypixel API from your terminal with PyPixel
+Keywords: python,video,stream,video stream,camera stream,sockets
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
