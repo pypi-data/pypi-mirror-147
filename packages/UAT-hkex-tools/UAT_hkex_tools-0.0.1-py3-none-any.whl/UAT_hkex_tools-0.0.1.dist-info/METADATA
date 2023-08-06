@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: UAT-hkex-tools
+Version: 0.0.1
+Summary: Reader for HKEX daily report
+Home-page: UNKNOWN
+Author: marchlam
+License: GPLv3
+Platform: UNKNOWN
+License-File: License.txt
+Requires-Dist: re
+Requires-Dist: os
+Requires-Dist: datatime
+
+UNKNOWN
+
