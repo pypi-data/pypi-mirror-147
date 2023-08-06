@@ -1,0 +1,11 @@
+pysvn/__init__.py,sha256=_fOVT5KAyZ2Qez809KGN2nZiIkKQ_e2rBCbJtsT5lhg,1602
+pysvn/client.py,sha256=su1I96S7Jyv0og0X6wiKL2yksuJLPwOYgeM0snyEp58,12748
+pysvn/constants.py,sha256=Q4hL_nKFxeR12ml0G1BVzgJVXf9QYGeHusecSr9Bauw,519
+pysvn/errors.py,sha256=nQfu8V0OraKXy5PPRtqxUw8BVLCexAKATXEchNUpSGc,475
+pysvn/models.py,sha256=0lHOlssC1186fgA-XlFrGPVHZ3BDSZ_7PdoYvteTDyw,359
+pysvn/utils.py,sha256=HZKhuJ30Xl06NUl-JEHFkf2fSx2AuUKsk987gZwUDQM,974
+pysubversion-0.4.0.dist-info/LICENSE,sha256=OMTF712IR5-_eKhH_pe9S1b2H0NQ4aqE9--Ve8q051g,1519
+pysubversion-0.4.0.dist-info/METADATA,sha256=wCyfI5BqQDA_nEPK3yTinXCR6SXpCVH5aTt3XxEcZYE,5794
+pysubversion-0.4.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pysubversion-0.4.0.dist-info/top_level.txt,sha256=zIE03iqHIAe3Lqwk5WDDpWX4Zyuk4S6RQvQ6nTn9SHk,6
+pysubversion-0.4.0.dist-info/RECORD,,
