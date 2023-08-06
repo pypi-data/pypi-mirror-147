@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: cfig
+Version: 0.2.0
+Summary: A configuration manager for Python
+License: MIT
+Author: Stefano Pigozzi
+Author-email: me@steffo.eu
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Provides-Extra: cli
+Requires-Dist: click (>=8.1.2,<9.0.0); extra == "cli"
+Requires-Dist: colorama (>=0.4.4,<0.5.0); extra == "cli"
+Requires-Dist: lazy-object-proxy (>=1.7.1,<2.0.0)

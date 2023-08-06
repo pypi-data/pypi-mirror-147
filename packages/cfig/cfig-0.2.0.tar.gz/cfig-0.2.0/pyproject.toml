@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "cfig"
+version = "0.2.0"
+description = "A configuration manager for Python"
+authors = ["Stefano Pigozzi <me@steffo.eu>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+lazy-object-proxy = "^1.7.1"
+click = { version = "^8.1.2", optional = true }
+colorama = { version = "^0.4.4", optional = true }
+
+[tool.poetry.extras]
+cli = ["click", "colorama"]
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.1"
+Sphinx = "^4.5.0"
+sphinx-rtd-theme = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
