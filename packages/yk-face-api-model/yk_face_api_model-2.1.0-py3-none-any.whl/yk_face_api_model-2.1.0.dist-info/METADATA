@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: yk-face-api-model
+Version: 2.1.0
+Summary: YooniK face API data model package.
+Home-page: https://yoonik.me
+Author: YooniK
+Author-email: tech@yoonik.me
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6.2
+Description-Content-Type: text/markdown
+Requires-Dist: six
+Requires-Dist: yk-utils (<2,>=1.1.1)
+
+![https://yk-website-images.s3.eu-west-1.amazonaws.com/LogoV4_TRANSPARENT.png](https://yk-website-images.s3.eu-west-1.amazonaws.com/LogoV4_TRANSPARENT.png)
+
+# YooniK Face API Models
+
+This package contains the data models for YooniK Face API, an offering within [YooniK Services](https://yoonik.me).
+
+For more information please [contact us](mailto:info@yoonik.me).
+
