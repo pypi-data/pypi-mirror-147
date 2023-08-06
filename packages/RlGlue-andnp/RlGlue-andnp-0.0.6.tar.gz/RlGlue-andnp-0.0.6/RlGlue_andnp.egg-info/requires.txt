@@ -1,0 +1,10 @@
+
+[dev]
+numpy>=1.19.5
+flake8
+commitizen
+pre-commit
+pipenv-setup[black]
+build
+twine
+mypy
