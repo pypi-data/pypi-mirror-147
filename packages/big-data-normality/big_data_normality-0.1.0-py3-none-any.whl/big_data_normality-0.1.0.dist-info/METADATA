@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: big-data-normality
+Version: 0.1.0
+Summary: Normality Test for Big Data
+Home-page: https://github.com/serhateerdem
+Author: Serhat Erdem
+Author-email: erdemserhat1994@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (>=1.22.3)
+Requires-Dist: pandas (>=1.4.2)
+Requires-Dist: scipy (>=1.8.0)
+Requires-Dist: statistics (>=1.0.3.5)
+
+# Empirical Normality Test 
+
+A normality test based on empirical rule for big data
+
+### Installation
+```
+pip install big-data-normality
+```
+
+### Get started
+How to multiply one number by another with this lib:
+
+```Python
+from big_data_normality.empirical_normality_test import EmpiricalNormalityTest
+
+# Instantiate a EmpiricalNormalityTest object
+emp_norm_test = EmpiricalNormalityTest(2)
+```
+
