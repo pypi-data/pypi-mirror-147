@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: boapy
+Version: 0.1.0
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+License-File: LICENSE
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# boapy
+
+> A JavaScript interpreter that can be used in Python using the boa engine.
+
+## Install
+
+```sh
+pip install boapy
+```
+
+## Example
+
+```py
+from boapy import execute
+
+execute("function add(a,b){ return a+b}")
+result = execute("add(1,2)")
+print(result)
+```
+
