@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: horus_deploy
+Version: 0.6.4
+Summary: Configuration deployment for Horus devices.
+Author: Horus View and Explore B.V.
+Author-email: info@horus.nu
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# horus-deploy
+
+Deploy configurations to Horus devices.
+
+horus-deploy is a wrapper around [pyinfra][]. In addition to the
+functionality pyinfra provides, horus-deploy provides the following:
+
+- Device discovery on local network.
+- Automatic SSH parameter selection for connecting to devices.
+- Operations and deploy scripts for common actions.
+
+See `./docs/README.md` for more information.
+
+[pyinfra]: https://pyinfra.com/
+
+
