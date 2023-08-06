@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+strip_markdown/__init__.py
+strip_markdown/__main__.py
+strip_markdown/strip_markdown.py
+strip_markdown.egg-info/PKG-INFO
+strip_markdown.egg-info/SOURCES.txt
+strip_markdown.egg-info/dependency_links.txt
+strip_markdown.egg-info/requires.txt
+strip_markdown.egg-info/top_level.txt
