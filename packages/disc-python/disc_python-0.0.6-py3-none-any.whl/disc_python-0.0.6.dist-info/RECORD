@@ -1,0 +1,13 @@
+disc_python/__init__.py,sha256=LrN9EE5kRkvwMv2LX1rcCYBhuoZhYshFfItBKfj3k7I,100
+disc_python/disc.py,sha256=oRyTQVQsj071_U4DqSuCTOLLjZYlpEb1spmCwebN2nM,12996
+disc_python/algoritmos/__init__.py,sha256=XFLgOdazZ0JkUJMFWMUOBvmFiT0wxKXXNBNs5uWDYmU,146
+disc_python/algoritmos/aproximacion.py,sha256=ldczHZ_hsyoiclK7ggKBqU1oTsChvxNnqGSHJ4_X1E8,15115
+disc_python/algoritmos/determistas.py,sha256=YZTEsP8fKtL4Vj-_u5RRu0x8eTaJNvQw7peY6LVwsso,9565
+disc_python/algoritmos/generic.py,sha256=6FuS3ghOynWWPFoa9P6c5rnCSUJmJmTjSsxozRQzmgU,4084
+disc_python/algoritmos/paralelos.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+disc_python/corpus/__init__.py,sha256=DJv3tsSkALqfROjWE2OfGH5kuFcnlQq7U3cpUaTPvNg,40
+disc_python/corpus/wornet.py,sha256=g-c8OFOsBUZjS35l7kLRrdKsghb30SmArXg_os5xWA4,9945
+disc_python-0.0.6.dist-info/METADATA,sha256=IESntaZpMhm77uJsBdHVr2C1TlXIwJt4JHQVeV1RX6A,456
+disc_python-0.0.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+disc_python-0.0.6.dist-info/top_level.txt,sha256=8H11jlO0Mw0rMHo2oBPx04dUgtL91YARbJpMxchOvMo,12
+disc_python-0.0.6.dist-info/RECORD,,
