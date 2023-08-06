@@ -1,0 +1,2 @@
+[console_scripts]
+check_directory = check_directory:main
