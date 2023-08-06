@@ -1,0 +1,3 @@
+[console_scripts]
+remake = remake.remake_cmd:remake_cmd
+
