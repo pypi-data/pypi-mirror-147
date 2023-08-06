@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: behtarino
+Version: 0.0.9
+Summary: Reval SDK
+Home-page: https://reval.me
+Author: Mahdi K. Fard
+Author-email: mahdi3466@gmail.com
+License: BSD 2-clause
+Platform: UNKNOWN
+Requires-Dist: grpcio
+
+UNKNOWN
+

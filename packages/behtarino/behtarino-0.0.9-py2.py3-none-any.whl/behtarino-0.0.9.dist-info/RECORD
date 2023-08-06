@@ -1,0 +1,12 @@
+revalsdk/__init__.py,sha256=uDnV6TD-uXihBaxs7Wulusq-L0Pxq9zZFZdP86BwQZ4,753
+revalsdk/authentication_pb2.py,sha256=iZVMpYrKs6uRaooMF663G0RoRYq9Q3gQSgK-K0eolgk,3713
+revalsdk/authentication_pb2_grpc.py,sha256=9EzCz01aZkXB9yh0DubWZcw__s_c_QQwi0AEmm4a4YQ,2241
+revalsdk/functions.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+revalsdk/internal_pb2.py,sha256=bjksDSnwy4styxO7PF3r8teNaLHdnUB7Yu_ssSn43KM,1497
+revalsdk/internal_pb2_grpc.py,sha256=u7mPQe7USnDqmPN_5mRPlSkMN8aIwYhepCx7l_vLdcA,6043
+revalsdk/notification_pb2.py,sha256=0SJ6LBC1gSe6Ko3D4L_2ZizjuDSNnbKSmsWeftViwq4,2713
+revalsdk/notification_pb2_grpc.py,sha256=r3KVX72tjCrkFRxu2zNrFYWb8eprf9KXEhLxgtTFGFc,2270
+behtarino-0.0.9.dist-info/METADATA,sha256=yV2EvgyT_idXPZQ6Pcvv9JYUqabzclxFPTVi3RjjM5E,228
+behtarino-0.0.9.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+behtarino-0.0.9.dist-info/top_level.txt,sha256=EDlb_D5kHntCrmwvhCHyqGPdo1i5MpqOrsFuJ3U0ks8,9
+behtarino-0.0.9.dist-info/RECORD,,
