@@ -1,0 +1,2 @@
+[console_scripts]
+akinaka = akinaka.main:main
