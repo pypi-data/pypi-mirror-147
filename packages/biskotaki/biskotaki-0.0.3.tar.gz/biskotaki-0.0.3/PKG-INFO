@@ -1,0 +1,112 @@
+Metadata-Version: 2.1
+Name: biskotaki
+Version: 0.0.3
+Summary: Project generated from the https://github.com/boromir674/cookiecutter-python-package/tree/master/src/cookiecutter_python cookiecutter
+Home-page: https://github.com/boromir674/biskotaki
+Download-URL: https://github.com/boromir674/biskotaki/archive/v0.0.3.tar.gz
+Author: Konstantinos Lampridis
+Author-email: k.lampridis@hotmail.com
+License: AGPLv3
+Project-URL: Documentation, https://biskotaki.readthedocs.io/
+Project-URL: Bug Tracker, https://github.com//biskotaki/issues
+Project-URL: Source Code, https://github.com/boromir674/biskotaki
+Keywords: python library
+Platform: All
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Natural Language :: English
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Software Distribution
+Classifier: Typing :: Typed
+Description-Content-Type: text/x-rst
+Provides-Extra: docs
+Provides-Extra: test
+Provides-Extra: typing
+License-File: LICENSE.txt
+
+BISKOTAKI
+
+Project generated from the https://github.com/boromir674/cookiecutter-python-package/tree/master/src/cookiecutter_python cookiecutter
+
+.. start-badges
+
+| |build| |release_version| |wheel| |supported_versions| |commits_since_specific_tag_on_master| |commits_since_latest_github_release|
+
+
+|
+| **Source Code:** https://github.com/boromir674/biskotaki
+| **Pypi Package:** https://pypi.org/project/biskotaki/
+|
+
+
+.. Test Workflow Status on Github Actions for specific branch <branch>
+
+.. |build| image:: https://img.shields.io/github/workflow/status/boromir674/biskotaki/Test%20Python%20Package/master?label=build&logo=github-actions&logoColor=%233392FF
+    :alt: GitHub Workflow Status (branch)
+    :target: https://github.com/boromir674/biskotaki/actions/workflows/test.yaml?query=branch%3Amaster
+
+.. above url to workflow runs, filtered by the specified branch
+
+.. |release_version| image:: https://img.shields.io/pypi/v/biskotaki
+    :alt: Production Version
+    :target: https://pypi.org/project/biskotaki/
+
+.. |wheel| image:: https://img.shields.io/pypi/wheel/biskotaki?color=green&label=wheel
+    :alt: PyPI - Wheel
+    :target: https://pypi.org/project/biskotaki
+
+.. |supported_versions| image:: https://img.shields.io/pypi/pyversions/biskotaki?color=blue&label=python&logo=python&logoColor=%23ccccff
+    :alt: Supported Python versions
+    :target: https://pypi.org/project/biskotaki
+
+.. |commits_since_specific_tag_on_master| image:: https://img.shields.io/github/commits-since/boromir674/biskotaki/v0.0.3/master?color=blue&logo=github
+    :alt: GitHub commits since tagged version (branch)
+    :target: https://github.com/boromir674/biskotaki/compare/v0.0.3..master
+
+.. |commits_since_latest_github_release| image:: https://img.shields.io/github/commits-since/boromir674/biskotaki/latest?color=blue&logo=semver&sort=semver
+    :alt: GitHub commits since latest release (by SemVer)
+
+
+Features
+========
+
+- TODO-feature 1
+- TODO-feature 2
+
+Prerequisites
+=============
+
+You need to have Python installed.
+
+Installation
+============
+
+Using `pip` is the approved way for installing `biskotaki`.
+
+.. code-block
+
+    python3 -m pip install biskotaki
+
+
+Usage
+=====
+
+TODO
+
+License
+=======
+
+* Free software: Affero GNU General Public License v3.0
+
+
