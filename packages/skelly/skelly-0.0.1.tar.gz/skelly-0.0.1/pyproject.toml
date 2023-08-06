@@ -1,0 +1,65 @@
+[build-system]
+requires = ["setuptools>=42"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "skelly"
+version = "0.0.1"
+description = "Generate a project skeleton"
+readme = "README.rst"
+requires-python = ">=3.6"
+license = {file = "LICENSE"}
+keywords = ["code generator", "skeleton", "stub", "template"]
+authors = [
+    {name = "Narvin Singh", email = "Narvin.A.Singh@gmail.com"}
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+
+[project.urls]
+Homepage = "https://gitlab.com/narvin/skelly"
+Repository = "https://gitlab.com/narvin/skelly"
+"Bug Tracker" = "https://gitlab.com/narvin/skelly/-/issues"
+
+[project.scripts]
+skelly = "skelly.main:main"
+
+[project.entry-points."skelly.builders"]
+default = "builder_python.builder:PythonBuilder"
+python = "builder_python.builder:PythonBuilder"
+
+[tool.setuptools]
+package-data = {"*" = ["py.typed"]}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.black]
+exclude = "{{"
+
+[tool.mypy]
+strict = true
+
+[tool.tox]
+legacy_tox_ini = """
+[tox]
+isolated_build = True
+envlist = py310
+
+[testenv]
+deps =
+    black
+    pylint
+    pycodestyle
+    mypy
+    pytest
+commands =
+    black src tests
+    pylint -j 0 --ignore-paths '.*{{.*' src tests
+    pycodestyle --exclude '{{' src tests
+    mypy --exclude '{{' src tests
+    pytest tests
+"""
