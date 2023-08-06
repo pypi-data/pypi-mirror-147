@@ -1,0 +1,7 @@
+inmanta_plugins/ubuntu/__init__.py,sha256=HJZ9K0m6CGnl6bo8KgNLvzmbEbYUkkU9HAFYOAnNtB8,4463
+inmanta_plugins/ubuntu/setup.cfg,sha256=BgsXsYICd8hg9bZoVVN2fvwquKl4AXkJSv1PI_RnI1A,317
+inmanta_plugins/ubuntu/model/_init.cf,sha256=mJZsa2czuozGPvE_maI3TrqE_EHeSlpnjEnikcKr9tQ,1021
+inmanta_module_ubuntu-0.4.8.dist-info/METADATA,sha256=YZeuu14Iq-9Lp2eEWj7iMqzunzYip5Y23Ibm4nRAnp0,198
+inmanta_module_ubuntu-0.4.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+inmanta_module_ubuntu-0.4.8.dist-info/top_level.txt,sha256=rb9c6eWQS8KFuSa3ktEcXpk-oSsCL9ZCVAgv7S0Eg_w,16
+inmanta_module_ubuntu-0.4.8.dist-info/RECORD,,
