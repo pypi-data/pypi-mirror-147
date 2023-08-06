@@ -1,0 +1,10 @@
+opticalflow3D/__init__.py,sha256=VY56IKB3ACsihL6XCmuovaTcOkF1Y8N9NVlKGkdAUvY,105
+opticalflow3D/opticalflow3D.py,sha256=mT3vtifwHdtgtA0mVGFx6M-wv43CAbl2Dv62xMCPhJs,14129
+opticalflow3D/helpers/__init__.py,sha256=7_Qx83tbFksJ_urox95Z_ivv-c4UG3xm6yZJr9sOVCA,153
+opticalflow3D/helpers/farneback_functions.py,sha256=Xd6BkdSeLpY3mg6l-78o2EIIYFvsYtmPBO_rg9UALBs,17930
+opticalflow3D/helpers/helpers.py,sha256=AJl_sd-Jo4L2zn4OgjK1FhhTt2UCiuq5FettL5kuRmI,6387
+opticalflow3D/helpers/pyrlk_functions.py,sha256=Gn4UIysr053plTWKa51GffYfXhXocjnDHlHzRIUc3n8,11752
+opticalflow3d-0.2.0.dist-info/METADATA,sha256=PNTx7AdY5ggyMxQk7AkorJDQfEOsFUL-CcPAo0vsT1o,2825
+opticalflow3d-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+opticalflow3d-0.2.0.dist-info/top_level.txt,sha256=z2CynB_Ym4K2SUjA4HA_NCYl-gfWP6qZcTNM3_ZGYpg,14
+opticalflow3d-0.2.0.dist-info/RECORD,,
