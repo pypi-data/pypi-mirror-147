@@ -1,0 +1,6 @@
+rate_exchange_fetcher/__init__.py,sha256=aA88THAMJ7OMwjsM7rOcqpnwdxDspGuKdkgyXed5gqo,97
+rate_exchange_fetcher/client.py,sha256=_M3UMi0wFkhS7WQaAMqBWasiGTU7fG1RoYkb9_VsgwY,293
+rate_exchange_fetcher/fetcher.py,sha256=KpbobDpxobm7nt25j-Is8LAXJTJj9_n7epfDQiIXerM,309
+rate_exchange_fetcher-0.0.3.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+rate_exchange_fetcher-0.0.3.dist-info/METADATA,sha256=igiQKQIGRE9LsPZbX_u-ZA70mYBQxpq3xGWn3uftftc,369
+rate_exchange_fetcher-0.0.3.dist-info/RECORD,,
