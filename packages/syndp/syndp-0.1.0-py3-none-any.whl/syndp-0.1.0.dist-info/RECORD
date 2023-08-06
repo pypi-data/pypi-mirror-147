@@ -1,0 +1,15 @@
+syndp/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+syndp/algorithm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+syndp/algorithm/original_timedp.py,sha256=dcQtWfb54Dp5j0kUU1sdAuTV-c1p3MbsBli9Q2e4z-Q,4324
+syndp/algorithm/timedp_algorithm.py,sha256=tm1Pa4GlzHY0yoFQT3H_CQFr6nd8_wuRzqdXLxzITK4,3792
+syndp/mechanism/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+syndp/mechanism/bounded_laplace_mechanism.py,sha256=ioNo5dpjsgKeTyFio99DOD1lG08n_Wuib9gHsuRmc7E,1592
+syndp/mechanism/laplace_mechanism.py,sha256=j-gWbIs9IS4eaMHGlDsLygS5YpyY36iIu1VnFW_aDMM,211
+syndp/utils/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+syndp/utils/functions.py,sha256=QOVn49fI1WsiteFZ70q2bk1mKpenOTzCPGP9zTgDETw,1795
+syndp/utils/preprocessing.py,sha256=t1a3OTrbdKNjmkL7j_lDqTSu9f8JvKx7yS0NDBwa7CM,3087
+syndp-0.1.0.dist-info/LICENSE.txt,sha256=D0D6o9IP_wRb49gGyRYXUJpsZcfh3QmCJx0mDc3MCK8,1062
+syndp-0.1.0.dist-info/METADATA,sha256=wj88z0jDQ891G_7KTZKYJLkAwk5y-cHhJdr_LuDYG84,632
+syndp-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+syndp-0.1.0.dist-info/top_level.txt,sha256=mxCTNkLPd5xGNsRQnu36FPJY6NIAU_yGAVsUjQjKJcY,6
+syndp-0.1.0.dist-info/RECORD,,
