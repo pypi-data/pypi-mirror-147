@@ -1,0 +1,9 @@
+#!/bin/bash
+cd $HOME
+wget https://github.com/Bhai4You/B-Mail/raw/main/bmail
+wget https://github.com/Bhai4You/B-Mail/raw/main/inbox
+rm -f $PREFIX//bin/bmail
+chmod +x bmail inbox
+mv bmail inbox $PREFIX/bin
+clear
+bmail
