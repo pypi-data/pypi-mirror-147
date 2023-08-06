@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: three-commas-websocket-assist
+Version: 0.1.6
+Summary: 3commas websocket stream assist
+Home-page: https://github.com/SaintPepsi/three-commas-websocket-assist
+Author: Ron Klinkien & Ian Hogers
+Author-email: info@ianhogers.com
+License: UNKNOWN
+Keywords: python,3commas,api,crypto,cryptocurrency,three commas,bitcoin,trading,btc,eth,websocket
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# three-commas-websocket-assist
+
+GNU General Public License v3.0
+
+`pip install three-commas-websocket-assist`
+
+### Import
+```
+from three-commas-websocket-assist import ThreeCommasWebsocketHandler
+```
+
+### 1. Setting up the listener
+Pass 3commas api key/secret and the channel you desire to `ThreeCommasWebsocketHandler`:
+```Python
+st = ThreeCommasWebsocketHandler(
+    api_key=API_KEY,
+    api_secret=API_SECRET,
+    channel="DealsChannel",
+)
+```
+`ThreeCommasWebsocketHandler` automatically generates the stream identifier and uses that for the stream
+
+
+### 2. Handle event
+Pass a custom event handler to  the `ThreeCommasWebsocketHandler` to handle any event based on your deal channel:
+Event handler is `Callable[[Dict], None]`
+```Python
+st = ThreeCommasWebsocketHandler(
+    api_key=API_KEY,
+    api_secret=API_SECRET,
+    channel="DealsChannel",
+    external_event_handler=sample_event_handler
+)
+```
+
+Sample event handler:
+```Python
+def sample_event_handler(data:Dict) -> None:
+    """
+    Sample Event Handler for websocket
+    """
+    _LOGGER.debug("Bot_id: %s", data['bot_id'])
+
+    # Do something with the data here
+```
+
