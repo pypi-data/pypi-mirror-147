@@ -1,0 +1,10 @@
+bw2calc>=2.0.dev2
+bw2data>=4.0.dev7
+constructive_geometries
+fiona
+geopandas
+rasterio
+requests
+shapely
+voluptuous
+wrapt
