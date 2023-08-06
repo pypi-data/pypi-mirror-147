@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/MinoDabsWeirdPackage.egg-info/PKG-INFO
+src/MinoDabsWeirdPackage.egg-info/SOURCES.txt
+src/MinoDabsWeirdPackage.egg-info/dependency_links.txt
+src/MinoDabsWeirdPackage.egg-info/top_level.txt
+src/MinoDabsWeirdPythonPackage/__init__.py
+src/MinoDabsWeirdPythonPackage/example.py
