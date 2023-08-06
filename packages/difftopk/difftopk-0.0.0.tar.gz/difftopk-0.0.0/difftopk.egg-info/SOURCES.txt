@@ -1,0 +1,7 @@
+README.md
+setup.py
+difftopk.egg-info/PKG-INFO
+difftopk.egg-info/SOURCES.txt
+difftopk.egg-info/dependency_links.txt
+difftopk.egg-info/requires.txt
+difftopk.egg-info/top_level.txt
