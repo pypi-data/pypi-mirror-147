@@ -1,0 +1,17 @@
+README.md
+setup.cfg
+setup.py
+aanalytcsseg.egg-info/PKG-INFO
+aanalytcsseg.egg-info/SOURCES.txt
+aanalytcsseg.egg-info/dependency_links.txt
+aanalytcsseg.egg-info/top_level.txt
+aanalyticsseg/__init__.py
+aanalyticsseg/__version__.py
+aanalyticsseg/actCreateSeg.py
+aanalyticsseg/actCreateSegment.py
+aanalyticsseg/actGetSeg.py
+aanalyticsseg/actLibrarySeg.py
+aanalyticsseg/actSegmentLibrary.py
+aanalyticsseg/actSegmentSaver.py
+aanalyticsseg/actUpdateSeg.py
+aanalyticsseg/actUpdateSegment.py
