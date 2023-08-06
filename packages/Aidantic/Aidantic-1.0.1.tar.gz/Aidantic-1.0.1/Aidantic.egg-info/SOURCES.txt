@@ -1,0 +1,8 @@
+README.md
+setup.py
+Aidantic.egg-info/PKG-INFO
+Aidantic.egg-info/SOURCES.txt
+Aidantic.egg-info/dependency_links.txt
+Aidantic.egg-info/top_level.txt
+aidantic/__init__.py
+aidantic/aidantic.py
