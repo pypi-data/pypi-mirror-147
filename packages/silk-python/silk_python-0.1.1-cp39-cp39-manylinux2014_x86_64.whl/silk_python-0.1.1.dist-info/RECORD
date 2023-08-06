@@ -1,0 +1,10 @@
+pysilk/__init__.py,sha256=TXdWyeacqZc2M4Ik2TQtPMXCUefEBHi5t9vTgJAv7aE,44
+pysilk/_silk.c,sha256=YCcRaXKKewqJhuWObKSLD4WFg8TlpoI0q-0ecSLydR4,364696
+pysilk/_silk.cpython-39-x86_64-linux-gnu.so,sha256=HaT5mWQl6SHACH7Mg3k0X8JvyyWLOwwZ1tHB_h-V4Q4,434024
+pysilk/_silk.pyi,sha256=Kan9Zy1cMdNyiDqmMNhnv5qxWt8nf2SoLwvWTRIhc_A,586
+pysilk/_silk.pyx,sha256=sxjcDqLXqnIUsdycx1Ni3AikbI5xWCO2_U8hHQZzIJA,9923
+pysilk/silk.pxd,sha256=SkZn_al3yz7ciqcbgyXlZbocNzLR37f9If9htv0NeBI,2185
+silk_python-0.1.1.dist-info/METADATA,sha256=L33xuMUIlmWFwrpHYoo2SPP-3kYKAErJG_qGf4ytWBo,2931
+silk_python-0.1.1.dist-info/WHEEL,sha256=_Tzqjbl1t_2pj9gfZPvG1ppyvaOyoxUa053nfh40rE8,103
+silk_python-0.1.1.dist-info/top_level.txt,sha256=tcB-cCbL6OMj8uspHFAz4kJ8ObWLz--nuLQ1wVc0GRY,7
+silk_python-0.1.1.dist-info/RECORD,,
