@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "smat-cli"
+version = "0.1.2"
+description = "A command line tool and library to get data from the Social Media Analysis Toolkit (SMAT)."
+authors = ["dhosterman <daniel@danielhosterman.com>"]
+readme = "README.md"
+homepage = "https://gitlab.com/dhosterman/smat-cli"
+repository = "https://gitlab.com/dhosterman/smat-cli"
+documentation = "https://gitlab.com/dhosterman/smat-cli/-/blob/main/README.md"
+license = "Public Domain"
+
+[tool.tox]
+legacy_tox_ini = """
+[tox]
+envlist = py37,py38,py39,py310
+isolated_build = True
+
+[testenv]
+deps = pytest
+commands = pytest
+"""
+
+[tool.poetry.dependencies]
+python = ">=3.7,<4"
+click = "^8.0.4"
+requests = "^2.27.1"
+urllib3 = "^1.26.9"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.1"
+black = "^22.1.0"
+tox = "^3.24.5"
+pytest-mock = "^3.7.0"
+
+[tool.poetry.scripts]
+smat = "smat_cli.cli:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
