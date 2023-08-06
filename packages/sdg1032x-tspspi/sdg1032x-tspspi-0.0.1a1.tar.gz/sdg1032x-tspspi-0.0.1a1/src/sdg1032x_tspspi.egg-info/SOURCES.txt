@@ -1,0 +1,12 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.cfg
+src/sdg1032x/__init__.py
+src/sdg1032x/sdg1032x.py
+src/sdg1032x/sdg1032xminicli.py
+src/sdg1032x_tspspi.egg-info/PKG-INFO
+src/sdg1032x_tspspi.egg-info/SOURCES.txt
+src/sdg1032x_tspspi.egg-info/dependency_links.txt
+src/sdg1032x_tspspi.egg-info/entry_points.txt
+src/sdg1032x_tspspi.egg-info/top_level.txt
