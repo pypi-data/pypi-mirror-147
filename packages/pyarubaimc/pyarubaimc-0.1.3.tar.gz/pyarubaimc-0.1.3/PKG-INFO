@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: pyarubaimc
+Version: 0.1.3
+Summary: A python binding to work with the Aruba IMC API
+Home-page: https://github.com/aruba/pyarubaimc
+Author: Rick Kauffman
+Author-email: rick@rickkauffman.com
+License: UNKNOWN
+Download-URL: https://github.com/aruba/pyarubaimc/archive/refs/tags/v0.1.3.tar.gz
+Description: UNKNOWN
+Keywords: IMC,api,python
+Platform: UNKNOWN
