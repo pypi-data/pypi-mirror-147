@@ -1,0 +1,14 @@
+http_message_signatures/__init__.py,sha256=UClu9UG-gaXrjT3aUixtFDUYH5BsCzL7Z272CMwaU68,353
+http_message_signatures/_algorithms.py,sha256=2F8D1bMpdmJltgxIglYpZnuWoNi_o5WgIMd8mciB3nU,6652
+http_message_signatures/algorithms.py,sha256=IxuhcAQ0-oyJ1dfyoXr0BWMZgmJy_fd5xrmU2DkZHmE,185
+http_message_signatures/exceptions.py,sha256=lbIJ5Z2feWFKhH2C4knI4bi0mhYB-jmi__ZV-iNIgHI,239
+http_message_signatures/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+http_message_signatures/resolvers.py,sha256=9FpzLWwm7kRtdN8Eo92YJnT936Y61cmHBf2bmY0w_ns,3259
+http_message_signatures/signatures.py,sha256=KxAIbEyn9RNFqMxP_WYSkhTlBVx1La0wdrXfM8Pk0xI,9268
+http_message_signatures/structures.py,sha256=Mg5QeRLk2vMNZLovJoKZsaps2dy14zGc1rEz0p8pHqo,1512
+http_message_signatures/version.py,sha256=3ijnD_eA6j4Wua9rQlPRJ8GF8xXgh1MavJHyBl0w2zM,142
+http_message_signatures-0.4.1.dist-info/LICENSE,sha256=c7p036pSC0mkAbXSFFmoUjoUbzt1GKgz7qXvqFEwv2g,10273
+http_message_signatures-0.4.1.dist-info/METADATA,sha256=mrZNmCbTZVRhW0gRfX7_dBf_VOdWczJUlW0U6iqHw68,5194
+http_message_signatures-0.4.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+http_message_signatures-0.4.1.dist-info/top_level.txt,sha256=9-VThl-09OI1yQ1ejs76InY3ENi24isY60cUUZrviiw,24
+http_message_signatures-0.4.1.dist-info/RECORD,,
