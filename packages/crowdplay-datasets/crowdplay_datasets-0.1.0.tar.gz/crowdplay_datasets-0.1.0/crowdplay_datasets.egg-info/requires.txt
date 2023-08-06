@@ -1,0 +1,3 @@
+SQLAlchemy>=1.3.20
+gym>=0.23.1
+opencv-python>=4.4.0.46

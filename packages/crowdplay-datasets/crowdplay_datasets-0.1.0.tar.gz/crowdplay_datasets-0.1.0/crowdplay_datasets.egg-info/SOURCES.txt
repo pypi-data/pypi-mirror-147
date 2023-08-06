@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+crowdplay_datasets/__init__.py
+crowdplay_datasets/dataset.py
+crowdplay_datasets/deepmind.py
+crowdplay_datasets/install.py
+crowdplay_datasets.egg-info/PKG-INFO
+crowdplay_datasets.egg-info/SOURCES.txt
+crowdplay_datasets.egg-info/dependency_links.txt
+crowdplay_datasets.egg-info/requires.txt
+crowdplay_datasets.egg-info/top_level.txt
+examples/example.py
+examples/examples.ipynb
+scripts/convert_to_gzip.sh
+scripts/convert_to_uncompressed.sh
