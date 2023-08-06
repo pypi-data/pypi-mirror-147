@@ -1,0 +1,8 @@
+README.md
+setup.py
+ontag/__init__.py
+ontag/boolEval.py
+ontag.egg-info/PKG-INFO
+ontag.egg-info/SOURCES.txt
+ontag.egg-info/dependency_links.txt
+ontag.egg-info/top_level.txt
