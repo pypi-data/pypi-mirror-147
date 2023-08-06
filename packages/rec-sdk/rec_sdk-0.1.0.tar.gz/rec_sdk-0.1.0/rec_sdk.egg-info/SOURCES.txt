@@ -1,0 +1,7 @@
+setup.py
+rec_sdk/__init__.py
+rec_sdk/test.py
+rec_sdk.egg-info/PKG-INFO
+rec_sdk.egg-info/SOURCES.txt
+rec_sdk.egg-info/dependency_links.txt
+rec_sdk.egg-info/top_level.txt
