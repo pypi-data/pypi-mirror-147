@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: chull
+Version: 1.0.0
+Summary: convex hull from points
+Author: Szabolcs Dombi
+Author-email: cprogrammer1994@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# chull
+
+convex hull from points
+
+```
+pip install chull
+```
+
+- [Documentation](https://chull.readthedocs.io/)
+- [chull on Github](https://github.com/szabolcsdombi/chull/)
+- [chull on PyPI](https://pypi.org/project/chull/)
+
+## Usage
+
+```py
+points = np.array([
+    ...
+])
+
+vertices, normals = chull.make_hull(points)
+```
+
+
