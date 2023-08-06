@@ -1,0 +1,11 @@
+.gitignore
+CONTRIBUTING.md
+README.md
+pyproject.toml
+.github/workflows/publish.yml
+src/radicale_bsdauth/__init__.py
+src/radicale_bsdauth.egg-info/PKG-INFO
+src/radicale_bsdauth.egg-info/SOURCES.txt
+src/radicale_bsdauth.egg-info/dependency_links.txt
+src/radicale_bsdauth.egg-info/requires.txt
+src/radicale_bsdauth.egg-info/top_level.txt
