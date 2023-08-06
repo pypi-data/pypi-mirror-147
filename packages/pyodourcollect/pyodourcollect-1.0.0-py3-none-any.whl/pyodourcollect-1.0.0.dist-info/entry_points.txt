@@ -1,0 +1,3 @@
+[console_scripts]
+odourcollect = pyodourcollect.command_line:main
+
