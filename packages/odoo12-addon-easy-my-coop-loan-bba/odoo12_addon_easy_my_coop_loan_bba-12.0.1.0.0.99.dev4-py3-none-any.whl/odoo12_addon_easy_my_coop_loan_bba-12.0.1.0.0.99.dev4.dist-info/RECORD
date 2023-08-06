@@ -1,0 +1,13 @@
+odoo/addons/easy_my_coop_loan_bba/README.rst,sha256=xaA85yG8oF555SvuVJ7S6nvqJx_ZgnsnUBJsPyrfxsA,1987
+odoo/addons/easy_my_coop_loan_bba/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/easy_my_coop_loan_bba/__manifest__.py,sha256=oVTlnh5qV6NqhKqQ32y0jeVQVw9C1I3oixThbKRzjcw,537
+odoo/addons/easy_my_coop_loan_bba/i18n/easy_my_coop_loan_bba.pot,sha256=F0WZy_zCTsinYgbw2tA7Sy9bhBv2A9z-Z4HoFAkqr2M,1396
+odoo/addons/easy_my_coop_loan_bba/models/__init__.py,sha256=1F3IFFo2XKu0GQm4i4dkI6AOtCEaPy5f3n3bXIzbJps,30
+odoo/addons/easy_my_coop_loan_bba/models/loan_issue_line.py,sha256=OpTz9jry9rs7glNb_p3aEqw2Bv5mLfQcWgL8IznQYSI,4719
+odoo/addons/easy_my_coop_loan_bba/readme/CONTRIBUTORS.rst,sha256=8XvkW6bg5_zNI85boycL_Ov83-JhQ7h1e7NAe4RPCgM,22
+odoo/addons/easy_my_coop_loan_bba/readme/DESCRIPTION.rst,sha256=e1nP2Y0XrElr7in0F2Lq10FXsR8SONwnwVLEjIh9nEE,74
+odoo/addons/easy_my_coop_loan_bba/static/description/index.html,sha256=tcPpQNk5VfM0TzCz5eTJYS5xQA3-UeKCIA6QrQ3RWxY,10934
+odoo12_addon_easy_my_coop_loan_bba-12.0.1.0.0.99.dev4.dist-info/METADATA,sha256=luz7eaHP4CBYEXTtBrRCOL3ZWGyLya8coZdFAIC0XqM,2554
+odoo12_addon_easy_my_coop_loan_bba-12.0.1.0.0.99.dev4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+odoo12_addon_easy_my_coop_loan_bba-12.0.1.0.0.99.dev4.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_easy_my_coop_loan_bba-12.0.1.0.0.99.dev4.dist-info/RECORD,,
