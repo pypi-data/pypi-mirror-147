@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: airflow-poetry-test
+Version: 0.1.0
+Summary: Test packages para composer
+Author: Guillermo Britos
+Author-email: guillermo.britos@uala.com.ar
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: airflow-provider-great-expectations (>=0.1.4,<0.2.0)
+Requires-Dist: apache-airflow-providers-amazon (>=3.3.0,<4.0.0)
+Requires-Dist: apache-airflow-providers-jira (>=2.0.4,<3.0.0)
+Requires-Dist: apache-airflow-providers-slack
+Requires-Dist: google-cloud-datastore (>=2.5.1,<3.0.0)
