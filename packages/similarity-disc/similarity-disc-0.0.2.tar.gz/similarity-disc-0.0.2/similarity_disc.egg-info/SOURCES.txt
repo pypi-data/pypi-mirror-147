@@ -1,0 +1,14 @@
+README.md
+setup.py
+similarity-disc/__init__.py
+similarity-disc/disc.py
+similarity-disc/algoritmos/__init__.py
+similarity-disc/algoritmos/aproximacion.py
+similarity-disc/algoritmos/determistas.py
+similarity-disc/algoritmos/generic.py
+similarity-disc/algoritmos/paralelos.py
+similarity_disc.egg-info/PKG-INFO
+similarity_disc.egg-info/SOURCES.txt
+similarity_disc.egg-info/dependency_links.txt
+similarity_disc.egg-info/requires.txt
+similarity_disc.egg-info/top_level.txt
