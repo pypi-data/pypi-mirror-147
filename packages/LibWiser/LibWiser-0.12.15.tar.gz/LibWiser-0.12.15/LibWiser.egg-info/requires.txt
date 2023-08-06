@@ -1,0 +1,5 @@
+engineering_notation
+numba
+numpy
+scipy
+setuptools
