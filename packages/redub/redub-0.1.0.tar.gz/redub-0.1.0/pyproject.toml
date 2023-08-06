@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "redub"
+version = "0.1.0"
+description = "an app for renaming an entire directory of images using an excel spreadsheet"
+authors = ["David Flood <davidfloodii@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^1.4.2"
+PySimpleGUI = "^4.59.0"
+openpyxl = "^3.0.9"
+
+[tool.poetry.dev-dependencies]
+rich = "^12.2.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
