@@ -1,0 +1,18 @@
+# sparkai-python-client
+
+The official [SparkAI](https://www.spark.ai) Python client
+
+## Installation
+
+$ pip install --upgrade sparkai
+
+## Usage
+
+```
+import sparkai.SparkAIClient
+client = SparkAIClient('PROVIDED_API_KEY')
+url = https://picsum.photos/200/300
+instructions = 'Annotate any object in the photo'
+token = client.create_engagement_from_image_url(url, instructions=instructions)
+```
+
