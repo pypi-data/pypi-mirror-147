@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+./annotations2sub/Annotations2Sub.py
+./annotations2sub/__init__.py
+./annotations2sub/en.mo
+Annotations2Sub.egg-info/PKG-INFO
+Annotations2Sub.egg-info/SOURCES.txt
+Annotations2Sub.egg-info/dependency_links.txt
+Annotations2Sub.egg-info/entry_points.txt
+Annotations2Sub.egg-info/top_level.txt
