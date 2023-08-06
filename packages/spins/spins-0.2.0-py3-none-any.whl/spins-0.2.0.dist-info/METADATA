@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: spins
+Version: 0.2.0
+Summary: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.5
+License-File: LICENSE
+Requires-Dist: contours[shapely]
+Requires-Dist: dill
+Requires-Dist: flatdict
+Requires-Dist: gdspy (>=1.4)
+Requires-Dist: h5py
+Requires-Dist: jsonschema
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pyyaml
+Requires-Dist: requests
+Requires-Dist: schematics
+Requires-Dist: scipy
+Requires-Dist: typing-inspect
+Provides-Extra: dev
+Requires-Dist: pylint ; extra == 'dev'
+Requires-Dist: pytype ; extra == 'dev'
+Requires-Dist: yapf ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+Requires-Dist: pytest-xdist ; extra == 'test'
+
+UNKNOWN
+
