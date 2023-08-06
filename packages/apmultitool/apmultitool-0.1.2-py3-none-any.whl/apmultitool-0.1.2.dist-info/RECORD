@@ -1,0 +1,17 @@
+apmultitool-0.1.2.data/data/assets/AllWords.txt,sha256=AQsEDYocP6BQ7oKhzOKM9mUQR3n04HouKizl7MhhcQY,5329554
+apmultitool-0.1.2.data/data/assets/Synonyms.json,sha256=hmESoJPJa4zrAgUovFOxDK1c-4YqTlsFMt6ylEaWgSQ,19007701
+apmultitool-0.1.2.data/data/assets/Words_Frequency.json,sha256=5juSvMwa9VY9ppxHDqj4Y63gPY39yuRalIS-fooIxP0,512547
+apmultitool-0.1.2.data/data/assets/Words_Length.json,sha256=Z-ixw-cYTCVFQ9B6O3-VTL7IDFoJy1FFIBQLW2PfDb8,391173
+multitool/__init__.py,sha256=HKo2bLAHxKY2LpH1Ca42iDHMC9n5snu-IKS6WmO80mE,34
+multitool/__main__.py,sha256=9h-Gz2s6IZ1ltxIRlCL7gQAvM_ZdYuNlyJq5GVDrNNA,118
+multitool/cli.py,sha256=z3aPmgywlKTMJPQFm7WKw7M0kW_rPEoTskOwmHupSZ0,3225
+multitool/runner.py,sha256=DL7GljGC1mqAIL8IhuoJg-KLr7lVjbb8N8G9CvTpNyo,5517
+multitool/version.py,sha256=YvuYzWnKtqBb-IqG8HAu-nhIYAsgj9Vmc_b9o7vO-js,22
+multitool/win.py,sha256=SI5koOjNbgR8cDAJA8MpfySH0cb-SfkQsN9Hj00qXNg,8139
+multitool/wordle.py,sha256=n4cRgwotmN49ewnGnRszcCn5R7MS3BqrQNOh4iTbh4M,3143
+apmultitool-0.1.2.dist-info/LICENSE,sha256=TBgUQwbanviy0aPxyVZGfpRPMiWgGrehjuGwGCjThlo,1121
+apmultitool-0.1.2.dist-info/METADATA,sha256=0szambA_0dzu3IkfLn0uhsQsbiPsr9H4_ZQoZ3D-llY,3173
+apmultitool-0.1.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+apmultitool-0.1.2.dist-info/entry_points.txt,sha256=fSUbC2peng1DEFK4Kn3SpyH3qyLV70kPtJceoX5zJ-o,86
+apmultitool-0.1.2.dist-info/top_level.txt,sha256=m5htEMt-s30vWPmkmIyK7w6RCFJzyZLvK1WcGjRofDE,10
+apmultitool-0.1.2.dist-info/RECORD,,
