@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/fbilr/__init__.py
+src/fbilr.egg-info/PKG-INFO
+src/fbilr.egg-info/SOURCES.txt
+src/fbilr.egg-info/dependency_links.txt
+src/fbilr.egg-info/requires.txt
+src/fbilr.egg-info/top_level.txt
+src/scripts/find_barcode.py
+src/scripts/plot_barcode_detail.py
