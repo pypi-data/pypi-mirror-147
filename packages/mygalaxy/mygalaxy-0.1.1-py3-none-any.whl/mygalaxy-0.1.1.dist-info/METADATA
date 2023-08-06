@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: mygalaxy
+Version: 0.1.1
+Summary: A small galaxy to learn poetry
+Author: Gloria Macia
+Author-email: g.macia-munoz@lse.ac.uk
+Requires-Python: >=3.9,<3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: scipy (>=1.8.0,<2.0.0)
