@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: mumodule
+Version: 0.0.1
+Summary: A short summary about your package
+Author: Álvaro Navarro
+Author-email: alvaro.nl@ua.es
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+License-File: LICENSE.txt
+
+# https://www.youtube.com/watch?v=zhpI6Yhz9_4
+This is a very simple calculator...
+
+To upload: 
+0- conda install setuptools twine
+1- python setup.py sdist
+2- twine upload --repository-url https://upload.pypi.org/legacy/ dist/*
+
+Change Log
+==========
+
+
+0.0.1 (22/04/2022)
+------------------
+- First Release
+
