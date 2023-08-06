@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+kit_vision.egg-info/PKG-INFO
+kit_vision.egg-info/SOURCES.txt
+kit_vision.egg-info/dependency_links.txt
+kit_vision.egg-info/requires.txt
+kit_vision.egg-info/top_level.txt
+vkit/__init__.py
+vkit/callbacks.py
+vkit/lr.py
+vkit/metrics.py
