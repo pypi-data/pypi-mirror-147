@@ -1,0 +1,52 @@
+Metadata-Version: 1.1
+Name: alabester
+Version: 4.2.0
+Summary: A non-configurable sidebar-enabled Sphinx theme borked from Alabaster
+Home-page: https://github.com/introt/alabester
+Author: introt
+Author-email: introt@koti.fimnet.fi
+License: UNKNOWN
+Description: What is Alabester?
+        ==================
+        
+        Alabaster with some bugs squashed, and one big one introduced: it lost much of the configurability.
+        
+        The name is kinda ironic; despite no changes other than the name, so many things broke.
+        
+        For future reference: just put a fixed ``alabaster.css`` into the ``_static`` folder and call it a day ;)
+        
+        If you'd like to help figuring out what went wrong here, check out the writeup on my `bleg <https://introt.github.io/bleg>`_.
+        
+        -----
+        
+        What is Alabaster?
+        ==================
+        
+        Alabaster is a visually (c)lean, responsive, configurable theme for the `Sphinx
+        <http://sphinx-doc.org>`_ documentation system. It is Python 2+3 compatible.
+        
+        It began as a third-party theme, and is still maintained separately, but as of
+        Sphinx 1.3, Alabaster is an install-time dependency of Sphinx and is selected
+        as the default theme.
+        
+        Live examples of this theme can be seen on `this project's own website
+        <http://alabaster.readthedocs.io>`_, `paramiko.org <http://paramiko.org>`_,
+        `fabfile.org <http://fabfile.org>`_ and `pyinvoke.org <http://pyinvoke.org>`_.
+        
+        For more documentation, please see http://alabaster.readthedocs.io.
+        
+        .. note::
+            You can install the development version via ``pip install -e
+            git+https://github.com/bitprophet/alabaster/#egg=alabaster``.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 7 - Inactive
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Documentation
+Classifier: Topic :: Software Development :: Documentation
