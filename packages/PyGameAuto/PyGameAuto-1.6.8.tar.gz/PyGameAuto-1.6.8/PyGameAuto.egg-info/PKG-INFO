@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: PyGameAuto
+Version: 1.6.8
+Summary: Python 游戏脚本开发集成包
+Home-page: https://gitee.com/lexgeek/PyGameAuto.git
+Author: Lex
+Author-email: 2983997560@qq.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.6
+License-File: LICENSE
+
+UNKNOWN
+
