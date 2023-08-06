@@ -1,0 +1,13 @@
+django_perm_filter/__init__.py,sha256=JdAu4nIW0kLNQ1BlYNkI91FfEBGkEZjikb4Eajp-c3M,132
+django_perm_filter/apps.py,sha256=kv2-Wj5jHgxlk_Z231_jeYkXtXk0b-KUyI8XTlBHBAc,280
+django_perm_filter/init.py,sha256=VkbA5jFw0Pox_HB_kDDqI69DTurYzYMso4zjS7q1cJ4,717
+django_perm_filter/mixins.py,sha256=GTfK_ADVQ_1wx-V38qcyZleiqKekTfFCsaAEH1EJNLU,465
+django_perm_filter/models.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_perm_filter/settings.py,sha256=357NiLWG3IQoMn6bZsBmn5bQC8ik79jF14IFXdWdYj8,4421
+django_perm_filter/utils.py,sha256=Ai5v4mpT2KCERwugbLm9s8pEitW8A0y5EWn8zjr3vnE,980
+django_perm_filter-0.1.1.dist-info/AUTHORS.md,sha256=R82aoMBzg2_Tp-QO4mHEjDlAHGAWHD1bF32cIfrEqE4,201
+django_perm_filter-0.1.1.dist-info/LICENSE,sha256=sNEb8hPzXGLD53M9yVoYjBNKxNs4QcwfvuUzisJOSBQ,1079
+django_perm_filter-0.1.1.dist-info/METADATA,sha256=GWoMARwUHS-uIDG0FqrvMc7pMbMvTH-l1bYUakQQBSk,3989
+django_perm_filter-0.1.1.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+django_perm_filter-0.1.1.dist-info/top_level.txt,sha256=ZaYbYK3qr49S4BI2foXb37s3mklGlDcJdPezZXnLxLM,19
+django_perm_filter-0.1.1.dist-info/RECORD,,
