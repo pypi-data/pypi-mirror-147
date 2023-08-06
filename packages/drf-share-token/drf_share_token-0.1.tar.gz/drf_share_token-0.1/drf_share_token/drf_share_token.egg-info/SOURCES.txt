@@ -1,0 +1,15 @@
+LICENSE.rst
+README.md
+setup.cfg
+setup.py
+drf_share_token/drf_share_token.egg-info/PKG-INFO
+drf_share_token/drf_share_token.egg-info/SOURCES.txt
+drf_share_token/drf_share_token.egg-info/dependency_links.txt
+drf_share_token/drf_share_token.egg-info/requires.txt
+drf_share_token/drf_share_token.egg-info/top_level.txt
+drf_share_token/tests/__init__.py
+drf_share_token/tests/models.py
+drf_share_token/tests/serializer.py
+drf_share_token/tests/test_authentication.py
+drf_share_token/tests/test_mixins.py
+drf_share_token/tests/test_tokens.py
