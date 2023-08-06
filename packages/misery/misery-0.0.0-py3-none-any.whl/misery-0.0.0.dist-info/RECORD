@@ -1,0 +1,8 @@
+misery/__init__.py,sha256=0f7FBM_vdlR7TjvJVtDiCltZ4gg_n9zEVLobq54IHC4,62
+misery/core.py,sha256=pIsFOZIj_XfZdccm_fGQJMvYOtQ1UcMaJFSkqQrydOU,4919
+misery/dict_repo.py,sha256=3rwbqsTeKXtXBFfW6EGpn1_UDZ6RVTa3BbBHDZdki6o,5164
+misery/pg_repo.py,sha256=Y7rG6cZR_VwFuA1dwx8g7PG4b1bwbdZ2aoukZ3dJ20s,8618
+misery-0.0.0.dist-info/LICENSE,sha256=gwEysTcGE8g9KLKVcnHhmDfaVL2TmvXxSlamssJ9xlE,1069
+misery-0.0.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+misery-0.0.0.dist-info/METADATA,sha256=LGe6Dsr682HZzQwLgLFhXTewrDKu6WuT4IFEcvysDss,249
+misery-0.0.0.dist-info/RECORD,,
