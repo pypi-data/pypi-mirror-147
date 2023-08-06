@@ -1,0 +1,11 @@
+csg_pywaapi.py,sha256=HkuGfB704pyMAUo4Z5oqnsQaJBQUf07bNkYwldrD6DA,39180
+csg_helpers/AudioFileReader.py,sha256=Su_xjEQsETvGzlkSKBXeEfpIu704KSLjVSKE7ifr3Bs,564
+csg_helpers/Files.py,sha256=bXUtfTfwDGvZmJbO7oe8XBaqfA85s1PyBNE4bd3DQM0,1017
+csg_helpers/__init__.py,sha256=XG8n-EIDMPEDbtZqzDmg5Y3_AduvHPcj9RwKaphuE2c,101
+csg_helpers/gui.py,sha256=tD42K565bu4PpPnyBsNJB4piN59_6w17h8SttpdHJ28,1686
+csg_helpers/soundbank_helper.py,sha256=2E0VDg98a6URt5pGi5ckGzu3oV9GKR8zlqof8QLWbg8,1669
+csg_pywaapi-1.1.17.dist-info/LICENCE,sha256=5BAeVu9mYHVw6j4aktFH9KPSaXzAwAR2ekuiIW0IoxU,1060
+csg_pywaapi-1.1.17.dist-info/METADATA,sha256=vKWq3RwMXVB-7ov3YPcfKRAsloBzPbihw2iLeuzTIUE,869
+csg_pywaapi-1.1.17.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+csg_pywaapi-1.1.17.dist-info/top_level.txt,sha256=cKnVz0QW8GE16PIyR39wEzqpM8aNSoF_FzkGQqY9cHw,24
+csg_pywaapi-1.1.17.dist-info/RECORD,,
