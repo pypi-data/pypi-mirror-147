@@ -1,0 +1,13 @@
+gdelttools/__init__.py,sha256=uVi8WuvXZXNGNnLox0trAgdafrlHHcvbWUu5xSrC61E,143
+gdelttools/_version.py,sha256=GOi4SpDa4gAhsVP-glk1zetISK_ejr9nXIZUrpCpAjg,128
+gdelttools/gdeltcsv.py,sha256=DsMoDh4MzkiC3IEnegAbm_hIhEeRKcBI_-hsPHOckTk,1712
+gdelttools/gdeltexample.py,sha256=ymuN6cuFMvDxWQuazTB5uFTThyKXCmnRyQGbnpoBfhk,2060
+gdelttools/gdeltloader.py,sha256=8XPxhKxIkmSaasgpnUabFvuvlgy2P1oZdsypJ1JsQ50,4936
+gdelttools/mapgeolocation.py,sha256=js7D-HNp-TLnTNWGOrdmgzXmnmXGV4kwfE2JIU6dTKo,2156
+gdelttools/web.py,sha256=XHudDpV6OkOAlkzkJy_gFP_7lZjshDp17x7wLTqVHRg,1664
+gdelttools-0.5a17.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+gdelttools-0.5a17.dist-info/METADATA,sha256=T6sMlhHI-fERoB7B8mbzysR7ZjcRfsMA59Hx6ngiBh4,6247
+gdelttools-0.5a17.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+gdelttools-0.5a17.dist-info/entry_points.txt,sha256=f32f3a3d17xQW_mHX_Btah6F6DB9-Q3eR-Gt7bDprGc,60
+gdelttools-0.5a17.dist-info/top_level.txt,sha256=mt0qIdCmdlEIjmIW1GtLQb_sPHLCCfj-pDEe4Sewp2o,11
+gdelttools-0.5a17.dist-info/RECORD,,
