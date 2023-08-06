@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "pyusage"
+version = "0.1.0"
+description = ""
+authors = ["PyUsage Team <packages@pyusage.com>"]
+license = "Apache-2.0"
+packages = [{ include = "usage", from = "src" }]
+[tool.poetry.dependencies]
+python = "^3.7"
+pydantic = "^1.9.0"
+
+[tool.poetry.dev-dependencies]
+pylint = "^2.13.5"
+black = "^22.3.0"
+mypy = "^0.942"
+bandit = "^1.7.4"
+isort = "^5.10.1"
+pydocstyle = { extras = ["toml"], version = "^6.1.1" }
+pytest = "^7.1.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pylint.messages_control]
+disable = ["missing-module-docstring"]
+extension-pkg-whitelist = ["pydantic"]
+
+[tool.pydocstyle]
+convention = "google"
+# D100 is "Missing docstring in public module"
+# D104 is "Missing docstring in public package"
+add-ignore = ["D100", "D104"]
