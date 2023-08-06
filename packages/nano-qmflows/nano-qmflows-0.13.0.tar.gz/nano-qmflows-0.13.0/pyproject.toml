@@ -1,0 +1,20 @@
+[build-system]
+# Minimum requirements for the build system to execute.
+requires = ['Cython', 'setuptools>=48.0', 'wheel', 'pybind11>=2.2.4']
+
+[tool.mypy]
+plugins = "numpy.typing.mypy_plugin"
+show_error_codes = true
+
+[[tool.mypy.overrides]]
+module = [
+    "scm.plams.*",
+    "h5py.*",
+    "scipy.*",
+    "noodles.*",
+    "schema.*",
+    "mendeleev.*",
+    "pybind11.*",
+    "Cython.*",
+]
+ignore_missing_imports = true
