@@ -1,0 +1,34 @@
+A new histogram-based approach for visualizing anomaly detection algorithm performance and prediction confidence.
+
+Background
+______________________
+Performance visualization of anomaly detection algorithms is an 
+essential aspect of anomaly and intrusion detection systems. 
+It allows analysts to highlight trends and outliers in anomaly 
+detection models results to gain intuitive understanding of detection
+models. This work presents a new way of visualizing anomaly 
+detection algorithm results using a histogram. 
+
+Importance of the Visualization Approach
+____________________________
+- provides a better understanding
+of detection algorithms performance by revealing the exact 
+proportions of true positives, true negatives, false positives, 
+and false negatives of detection algorithms. 
+- provides insights into the strengths and weaknesses of detection
+algorithms performance on different aspects of a datasets unlike 
+previous approaches that rely on only positive and negative 
+decision scores. 
+- can be applied to performance visualization and analysis of 
+supervised machine learning techniques involving 
+binary classification of imbalanced datasets.
+
+
+References
+________________
+Users can refer to our paper below for further insight and 
+examples:
+- Aboah Boateng E, Bruce JW. Unsupervised Machine Learning 
+Techniques for Detecting PLC Process Control Anomalies. Journal of Cybersecurity and Privacy. 
+2022; 2(2):220-244. https://doi.org/10.3390/jcp2020012
+
