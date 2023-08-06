@@ -1,0 +1,2 @@
+[napari.manifest]
+napari-blob-detection = napari_blob_detection:napari.yaml

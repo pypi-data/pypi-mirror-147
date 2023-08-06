@@ -1,0 +1,15 @@
+napari_blob_detection/__init__.py,sha256=hO5N04KWLBUGZGLfLqhAh9osmFx07qihCpqyqZN-Gfg,226
+napari_blob_detection/_detect.py,sha256=9Txls5juEQWllwFt0ccIcZW8CGHFF_vmK9_LO7Tozw8,4382
+napari_blob_detection/_points_to_labels.py,sha256=jGoMfx5FrcnmdWJiuwiDkEJXDZ5BeCPaa1IOR0vO-Iw,1297
+napari_blob_detection/_widget.py,sha256=3k0qnnGoNBEIkb11BGf9GRSxMYPVEgA9ED8ssCTqH0Q,1071
+napari_blob_detection/napari.yaml,sha256=nO2M7IR07T76TvEhvxEwz6AfoSHIjCTF_9_M3bKOXTA,648
+napari_blob_detection/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_blob_detection/_tests/test_detect.py,sha256=r4xRsKXyKmku0cvF7vGNaCTM38J72WU_D1hvcshSxGg,2483
+napari_blob_detection/_tests/test_points_to_labels.py,sha256=hWbgQsTBugDmUqvtcnjLMsT4pOQnKAvVMBpATDFTUaI,1967
+napari_blob_detection/_tests/test_widget.py,sha256=H1363qyCzPie3KUgMPS-KoViwcLLs4sxjy87dgGOpBo,500
+napari_blob_detection-0.0.2.dist-info/LICENSE,sha256=kvogJN1MBurLGttjuwqloCcO1rPuRDaPwaWDU0j6IYk,1490
+napari_blob_detection-0.0.2.dist-info/METADATA,sha256=Y6OGaalidSd65cUP5Y2TfjpK-i2pbcPUHscA2i3bXMU,5423
+napari_blob_detection-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+napari_blob_detection-0.0.2.dist-info/entry_points.txt,sha256=tT3oJ527zjr1QjPoTlVoLFGUatE9YI4zIg4R50e5l5s,76
+napari_blob_detection-0.0.2.dist-info/top_level.txt,sha256=v5SbUrmNvlc4ZpDX3S_mh4HETmiww7wGbWUmaTqk1yw,22
+napari_blob_detection-0.0.2.dist-info/RECORD,,

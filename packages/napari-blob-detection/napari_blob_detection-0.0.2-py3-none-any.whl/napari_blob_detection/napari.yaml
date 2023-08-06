@@ -1,0 +1,16 @@
+name: napari-blob-detection
+display_name: napari blob detection
+contributions:
+  commands: 
+    - id: napari-blob-detection.detect_blobs_widget
+      python_name: napari_blob_detection:detect_blobs_widget
+      title: Detects blobs on images
+    - id: napari-blob-detection.points_to_labels
+      python_name: napari_blob_detection:points_to_labels
+      title: Convert points layer to labels layer 
+  widgets:
+    - command: napari-blob-detection.detect_blobs_widget
+      display_name: Detects blobs on images
+    - command: napari-blob-detection.points_to_labels
+      autogenerate: true
+      display_name: Convert points layer to labels layer
