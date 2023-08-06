@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: pomerium-http-adapter
+Version: 0.6.1
+Summary: Transport adapter for requests to handle Pomerium authentication
+Home-page: https://github.com/elastx/python-pomerium_http_adapter
+Author: Joel Rangsmo
+Author-email: joel.rangsmo@elastx.se
+License: Apache License 2.0
+Download-URL: https://github.com/elastx/python-pomerium_http_adapter/archive/v0.6.1.tar.gz
+Keywords: pomerium,requests,adapter
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Environment :: Plugins
+Classifier: Topic :: Internet :: WWW/HTTP
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# pomerium_http_adapter
+#### Transport adapter for requests to handle Pomerium authentication
+
+
+## Introduction
+This Python module acts as a "transport adapter" for the popular "requests"
+library. It enables transparent Pomerium authentication (in a similar
+fashion as "pomerium-cli") of HTTPS requests.
+
+
+## Current status
+The module is still in early development and lacks things such as a test
+suite and documentation. Contributions are welcome!
+
+
+## Example usage
+```
+import requests
+import pomerium_http_adapter
+
+session = requests.Session()
+adapter = pomerium_http_adapter.PomeriumHTTPAdapter(
+    authenticated_domains=['example.com'])
+
+session.mount('https://', adapter)
+
+for user in session.get('https://api.example.com/v2/users').json():
+    print('=> %s' % user['name'])
+
+```
+
+
