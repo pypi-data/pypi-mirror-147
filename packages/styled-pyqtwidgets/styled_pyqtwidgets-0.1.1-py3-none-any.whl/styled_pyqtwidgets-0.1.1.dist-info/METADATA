@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: styled-pyqtwidgets
+Version: 0.1.1
+Summary: create stylized table widget
+Home-page: https://git.is4s.com/DixonLeuenberger/table_model_package
+Author: Dixon Leuenberger
+License: UNKNOWN
+Keywords: qTableWidget,pypi,package
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pyqt5
+Provides-Extra: dev
+Requires-Dist: check-manifest ; extra == 'dev'
+
+# Package for easily creating and formatting frequenly used table model
+    
+Simple package for stylizing and formatting PyQt5 Widgets
+
+Install with `pip3 install styled-pyqtwidgets`
+
+
+## Expected Usage
+```
+from PyQt5 import QtWidgets
+from StyledWidgets.TableStyles import StyledTableWidget
+
+table = QtWidgets.QTableWidget()
+table_widget = StyleTableWidget(table)
+```
+
