@@ -1,0 +1,189 @@
+{% extends 'timeseer.html' %}
+{% from 'flows.html' import flows_header with context %}
+{% from 'macros.html' import bootstrap_icon, visualize_check_score, visualize_series_name, pagination %}
+{% from 'flow-menu.html' import flow_menu with context %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='dist/charts.js') }}"></script>
+{% endblock %}
+
+{% block styles %}
+<style>
+.offcanvas img {
+    max-width: 100%;
+}
+</style>
+{% endblock %}
+
+{% block menu %}
+{{ flow_menu(kpi.name) }}
+{% endblock %}
+
+{% block main %}
+{% call flows_header(block_evaluation.flow_evaluation, score.name|capitalize) %}
+<div class="row">
+    <div class="col-md-auto gx-4 gx-lg-0">
+        <form method="POST" action="{{ url_for('.generate_csv', page=paging.page, sourcename=source_name) }}">
+            <input type="hidden" name="kpi" value="{{ kpi.name }}">
+            <input type="hidden" name="score" value="{{ score.name }}">
+            <input type="hidden" name="blockevaluationid" value="{{ block_evaluation.db_id }}">
+            <button type="submit" class="btn btn-secondary">
+                Generate CSV
+            </button>
+        </form>
+    </div>
+    <div class="col-md-auto mt-2 mt-md-0">
+        <a  href="{{ url_for('.score_evolution', sourcename=source_name, kpi=kpi.name, score=score.name, blockevaluationid=block_evaluation.db_id) }}"
+            class="btn btn-primary">
+            History
+        </a>
+    </div>
+</div>
+{% endcall %}
+
+<div class="pt-3 my-3">
+    {% if score.short_help_text %}
+    <p>
+        {{ score.short_help_text }}
+        <a data-bs-toggle="offcanvas"
+           href="#score-help-text"
+           aria-controls="score-help-text"
+           aria-expanded="false">
+            {{ bootstrap_icon('question-circle') }}
+        </a>
+    </p>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="score-help-text">
+        <div class="offcanvas-header">
+            <h3 class="offcanvas-title h5">{{ score.name }}</h3>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+        {{ score.html_help_text|safe }}
+        </div>
+    </div>
+    {% endif %}
+</div>
+
+<div class="my-3">
+    {% if score_distribution|map('last')|sum > 0 %}
+    <div class="card card-body mb-3">
+    <p>Evaluated over {{ score_distribution|map('last')|sum }} series:</p>
+    {% if score.data_type == 'bool' %}
+    <div class="score-pie" data-height="300">
+        <table class="visually-hidden">
+            <tbody>
+                {% for value, count in score_distribution %}
+                {% if value in [0, 90] %}
+                <tr>
+                    <td class="pie-label">{{ value }}</td>
+                    <td class="pie-value">{{ count }}</td>
+                </tr>
+                {% endif %}
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    {% else %}
+    <div class="histogram" data-score-coloring="yes">
+        <table class="visually-hidden">
+            <thead>
+                <tr>
+                    <th class="histogram-bin-label" colspan="2">{{ score.name }} score</th>
+                    <th>Bin start</th>
+                    <th>Bin end</th>
+                    <th class="histogram-value-label">Number of time series</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for value, count in score_distribution %}
+                <tr>
+                    <td class="histogram-bin-text">{{ value }} - {{ value + 10 }}</td>
+                    <td class="histogram-bin-start">{{ value }}</td>
+                    <td class="histogram-bin-end">{{ value + 10 }}</td>
+                    <td class="histogram-value">{{ count }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    {% endif %}
+    </div>
+    {% endif %}
+
+    {% if series_scores|count > 0 %}
+
+    {{ pagination(
+        paging,
+        url_for('.score_report', flowname=flow_name, sourcename=source_name, kpi=kpi.name, score=score.name, page=paging.page-1, blockid=block_id, blockevaluationid=block_evaluation.db_id),
+        url_for('.score_report', flowname=flow_name, sourcename=source_name, kpi=kpi.name, score=score.name, page=paging.page+1, blockid=block_id, blockevaluationid=block_evaluation.db_id)
+    ) }}
+
+    <table class="ts-table table table-borderless align-middle">
+        <thead class="thead-secondary">
+            <tr class="border-top border-bottom">
+                <th scope="col">Series name</th>
+                <th scope="col">
+                    Result
+                    {% if score.data_type != 'bool' %}
+                    (higher is better)
+                    {% endif %}
+                </th>
+                {% if event_frame_types|count > 0 %}
+                <th scope="col">Event frames</th>
+                {% endif %}
+            </tr>
+        </thead>
+        <tbody>
+            {% for score_value, all_scores in series_scores|groupby('score.score') %}
+            {% for score in all_scores|sort(attribute='series.name') %}
+            {% set series = score.series %}
+            {% set value = score.score %}
+            <tr class="border-bottom">
+                <td>
+                    <a class="ts-table-link text-dark fw-normal text-decoration-none" href="{{ url_for('.display_series', seriesid=series.series_id, blockevaluationid=block_evaluation.db_id) }}">
+                        {{ visualize_series_name(series.name) }}
+                    </a>
+                </td>
+                {{ visualize_check_score(value) }}
+                {% if event_frame_types|count > 0 %}
+                <td>
+                    <div class="dropdown">
+                        <button type="button"
+                                class="btn btn-sm btn-secondary dropdown-toggle"
+                                data-bs-toggle="dropdown"
+                                aria-haspopup="true"
+                                aria-expanded="false">
+                            List event frames
+                        </button>
+                        <div class="dropdown-menu">
+                            {% for type in event_frame_types %}
+                            <a class="dropdown-item"
+                               href="{{ url_for('.event_frame_detail', seriesid=series.series_id, type=type, blockevaluationid=block_evaluation.db_id) }}">
+                                {{ type }}
+                            </a>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </td>
+                {% endif %}
+            </tr>
+            {% endfor %}
+            {% endfor %}
+        </tbody>
+    </table>
+    {{ pagination(
+        paging,
+        url_for('.score_report', flowname=flow_name, sourcename=source_name, kpi=kpi.name, score=score.name, page=paging.page-1, blockevaluationid=block_evaluation.db_id),
+        url_for('.score_report', flowname=flow_name, sourcename=source_name, kpi=kpi.name, score=score.name, page=paging.page+1, blockevaluationid=block_evaluation.db_id)
+    ) }}
+    {% endif %}
+</div>
+
+<script>
+(function () {
+{% include 'scripts/histogram.js' %}
+{% include 'scripts/pie.js' %}
+})();
+</script>
+{% endblock %}
