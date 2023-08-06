@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: apsd
+Version: 0.5
+Summary: Package Description
+Home-page: UNKNOWN
+Author-email: inspiredbycatdreams@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+
+To generate a INN, you must specify InnType('YUR') for legal entities and InnType('FIZ') 
+                            for individuals In inn_withdrawal() the INN of the selected type is displayed
+
+                            Example:
+
+                                    from apsd.inn import InnType
+
+                                    x = InnType('FIZ').inn_withdrawal()
+
+                                    print(x)
+
+                                    #904836365687
+
+                    
+                        
+
