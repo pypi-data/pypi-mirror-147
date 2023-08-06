@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "threshold-finder"
+version = "0.1.2"
+description = "Finding optimal threshold based on ROC CURVE."
+authors = ["thibaultbl"]
+readme = "README.rst"
+
+[tool.poetry.dependencies]
+python = ">=3.7.1,<4.0"
+pandas = "^1.3"
+scikit-learn = "^1.0.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
