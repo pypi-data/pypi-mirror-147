@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+honkaiDex/__config__.py
+honkaiDex/__init__.py
+honkaiDex/config.py
+honkaiDex/data/__init__.py
+honkaiDex/data/character.py
+honkaiDex/data/stigamata_1.json
+honkaiDex/data/stigamata_1.py
+honkaiDex/parse_v1/__init__.py
+honkaiDex/parse_v1/stigamata_1.py
+honkaidex.egg-info/PKG-INFO
+honkaidex.egg-info/SOURCES.txt
+honkaidex.egg-info/dependency_links.txt
+honkaidex.egg-info/requires.txt
+honkaidex.egg-info/top_level.txt
