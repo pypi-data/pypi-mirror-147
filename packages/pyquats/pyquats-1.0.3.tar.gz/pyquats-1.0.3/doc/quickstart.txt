@@ -1,0 +1,110 @@
+QUICK START
+----------------------------------------------------------------------
+INSTALLING AN OFFICIAL RELEASE
+
+Requires: Python 2.7 or Python >= 3.7, numpy
+
+python -m pip install --upgrade pip
+python -m pip install pyquats
+----------------------------------------------------------------------
+INSTALLING FROM SOURCE
+
+1. Clone the project into the git repository
+
+git clone https://github.com/ufkapano/pyquats.git
+
+2. Install the package in the editable mode
+
+cd pyquats
+python -m pip install -e .
+
+3. You can update the package any time
+
+git pull
+----------------------------------------------------------------------
+QUATERNIONS
+
+import math
+from pyquats.quats import Quat
+#from pyquats.numpyquats import Quat   # quaternions using numpy (slow)
+
+c = 5 + 6J             # complex
+q = Quat(1, 2, 3, 4)   # quaternion
+p = Quat(5.0, 2.5, 3.6, 4.9)   # quaternion
+
+p == q, p != q   # comparisons
++q, -q
+p + q, p + c, c + q
+p - q, p - c, c - q
+p * q, p * c, c * q
+# p / q, p // q not supported because p * (~q) may be different from (~q) * p
+abs(q)
+q.conjugate()
+~q       # reciprocal
+pow(q, n), q ** n
+q.is_unit()   # test a unit quaternion
+[q[i] for i in range(4)]   # __getitem__ implemented
+q.apply_to_vector(vector3d)   # return the rotated vector (q is unit)
+q.get_rotation_matrix()   # return the rotation matrix (q is unit)
+----------------------------------------------------------------------
+UNIT QUATERNIONS AS ROTATIONS
+
+import math
+
+rotX90 = Quat.from_x_rotation(math.pi * 0.5)
+rotY90 = Quat.from_y_rotation(math.pi * 0.5)
+rotZ90 = Quat.from_z_rotation(math.pi * 0.5)
+rotX180 = Quat.from_x_rotation(math.pi)   # Quat(0, 1, 0, 0)
+rotY180 = Quat.from_y_rotation(math.pi)   # Quat(0, 0, 1, 0)
+rotZ180 = Quat.from_z_rotation(math.pi)   # Quat(0, 0, 0, 1)
+rotY60 = Quat.from_eulers(0, math.pi / 3.0, 0)
+rotZ60 = Quat.from_eulers(math.pi / 3.0, 0, 0)
+----------------------------------------------------------------------
+RANDOM UNIT QUATERNIONS
+
+from pyquats.qtools import random_unit_quat
+from pyquats.qtools import random_move_quat
+from pyquats.qtools import random_quat_Xwall
+from pyquats.qtools import random_quat_Ywall
+from pyquats.qtools import random_quat_Zwall
+from pyquats.qtools import random_move_Xwall
+from pyquats.qtools import random_move_Ywall
+from pyquats.qtools import random_move_Zwall
+
+unit = random_unit_quat()   # random unit quat on S^3
+Xwall = random_quat_Xwall   # vector l || X
+Ywall = random_quat_Ywall   # vector l || Y
+Zwall = random_quat_Zwall   # vector l || Z
+
+# for Monte Carlo moves
+unit_new = random_move_quat(ksi=0.5) * unit
+Xwall_new = random_move_Xwall(ksi=0.25) * Xwall
+Ywall_new = random_move_Ywall(ksi=0.25) * Ywall
+Zwall_new = random_move_Xwall(ksi=0.25) * Zwall
+----------------------------------------------------------------------
+MATHEMATICAL FUNCTIONS FOR QUATERNIONS
+
+from pyquats.quats import Quat
+import pyquats.qmath as qmath
+
+c = 5 + 6J             # complex
+q = Quat(1, 2, 3, 4)   # quaternion
+
+print ( qmath.exp(c) )
+print ( qmath.exp(q) )
+
+print ( qmath.log(c) )
+
+print ( qmath.sin(c) )
+print ( qmath.sin(q) )
+
+print ( qmath.cos(c) )
+print ( qmath.cos(q) )
+
+print ( qmath.sinh(c) )
+print ( qmath.sinh(q) )
+
+print ( qmath.cosh(c) )
+print ( qmath.cosh(q) )
+----------------------------------------------------------------------
+EOF
