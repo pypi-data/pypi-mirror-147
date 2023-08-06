@@ -1,0 +1,10 @@
+aws_cdk/aws_cloudwatch/__init__.py,sha256=zjNQO9PflaN_T2a6MRMPYnrHFUCMrzcmYKBjd4MtsBk,536834
+aws_cdk/aws_cloudwatch/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_cloudwatch/_jsii/__init__.py,sha256=-8hL2anSjFCR5epbqqrIxVPiV9Jk-lFU7Vdm080MWl0,421
+aws_cdk/aws_cloudwatch/_jsii/aws-cloudwatch@1.153.1.jsii.tgz,sha256=CGmCWlWLrU1nQdshrZ9l30XdeCiHoRr31GNuB3qVHnw,285900
+aws_cdk.aws_cloudwatch-1.153.1.dist-info/LICENSE,sha256=wX3LqRrxZ97zcDpw0dQ58Zb9AQalEDmXs6nP39muv7o,11391
+aws_cdk.aws_cloudwatch-1.153.1.dist-info/METADATA,sha256=P-XglBLoeWw7VdilpRGg2HyO2ohYYDrC82QC6ID6HD8,17444
+aws_cdk.aws_cloudwatch-1.153.1.dist-info/NOTICE,sha256=piksgoXop22-zO1J9i3rVrv57wUN9siPK1pqGzZ7-AE,113
+aws_cdk.aws_cloudwatch-1.153.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+aws_cdk.aws_cloudwatch-1.153.1.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_cloudwatch-1.153.1.dist-info/RECORD,,
