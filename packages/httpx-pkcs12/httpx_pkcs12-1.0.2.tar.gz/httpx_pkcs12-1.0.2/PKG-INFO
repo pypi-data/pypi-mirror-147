@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: httpx-pkcs12
+Version: 1.0.2
+Summary: Addon which activates PKCS12 certificates usage with HTTPX client.
+License: MIT
+Author: Shagit Ziganshin
+Author-email: theLastOfCats@pm.me
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: cryptography (>=3.4.7,<37.0.0)
+Description-Content-Type: text/markdown
+
+## httpx-pkcs12
+
+Addon which activates PKCS12 certificates usage with HTTPX client.
+
+## Usage
+```python
+with open('path/to/your/cert', 'rb') as f:
+    cert_contents = f.read()
+password = 'your-secret-password'
+
+context = create_ssl_context(cert_contents, password)
+
+# async version
+async with httpx.AsyncClient(verify=context) as client:
+    response = ...
+
+# or sync version
+response = httpx.get(..., verify=context)
+```
