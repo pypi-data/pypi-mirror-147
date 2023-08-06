@@ -1,0 +1,7 @@
+iperf3>=0.1.11
+matplotlib>=3.4.0
+tqdm>=4.55.0
+Pillow>=8.2.0
+scipy>=1.6.0
+numpy>=1.20.0
+PySimpleGUI>=4.34.0
