@@ -1,0 +1,12 @@
+ruishi/__init__.py,sha256=qCLWu0WqEobk1N2hBuPBM_o0i0JQA9nNyaIfKOLZmhQ,171
+ruishi/erros.py,sha256=q5_dpqWdW_ObEpd3ot5YyKZHe0umJvcke21ICnTCwQU,307
+ruishi/main.py,sha256=5Q6dAh7wqNwCEAXwgAcKfuLcsPaFiDA9gV6477gHonA,2941
+ruishi/models/__init__.py,sha256=in6zhqkWYnNMukxAwwwl34BeBXVdGb1p1WtLPLUq0Xo,76
+ruishi/models/request.py,sha256=12lOf0JrcAC7_zfUlg9-FxQpHOcWYeEgoi8S9vKPLKo,3298
+ruishi/models/response.py,sha256=4yB5CETKSKl_rxv3B4iOO6IlawadTdE2DwKFgxWeKTY,1358
+ruishi/models/ruishi_models.py,sha256=rGhuEhr5v4tc-6_sjzezeuin9nt5TOqGq7H674Qu7Vw,497
+ruishi-0.1.1.dist-info/LICENSE,sha256=6Z-RyGihkN3auiEthdW5xrQoDqo3w8JVmpfRzaJHyX4,1066
+ruishi-0.1.1.dist-info/METADATA,sha256=F7e9Dc7E5tohDiEQ25utMr_ZksFQo1KzlhswwfRYmW8,1038
+ruishi-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ruishi-0.1.1.dist-info/top_level.txt,sha256=8YAipjSs4Xkk9Q3PDCCotHAuwTKqMH50xiCN5D07w58,7
+ruishi-0.1.1.dist-info/RECORD,,
