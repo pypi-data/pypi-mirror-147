@@ -1,0 +1,11 @@
+srsly/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+srsly/cli.py,sha256=I4of9FoOqj4-gUTztx5Q3fkfQp2AEUDlo4z7r0d09Pg,9744
+srsly/workflow.tar.gz,sha256=9ciuQBmYBWihnNO3U92NqbvXj7nAnXh7ZXBNHJDGFOc,4497
+srsly/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+srsly/tests/test_cli.py,sha256=YTj2WJEf6s952BT0frqT0k2ce6GoCYAYVzSf6Kq3x7E,1068
+srslyrun-0.1.0.dist-info/LICENSE,sha256=huxl6rIgOyjrGtBbnkfHmbHJPxRvHJvnHD-COB6aklE,1074
+srslyrun-0.1.0.dist-info/METADATA,sha256=IfiXZoTv3hUK9rVC9SbmahLUq_hnVZhybyYYqG1vxDY,3005
+srslyrun-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+srslyrun-0.1.0.dist-info/entry_points.txt,sha256=vu0z4oHKh_tM1c51X0GQql1auCSjSrzTGcDe-RUo-VY,41
+srslyrun-0.1.0.dist-info/top_level.txt,sha256=TXhaztKWFjuGKlTFNJcSwDQkYN0ELHqohBa9ArpK0uI,6
+srslyrun-0.1.0.dist-info/RECORD,,
