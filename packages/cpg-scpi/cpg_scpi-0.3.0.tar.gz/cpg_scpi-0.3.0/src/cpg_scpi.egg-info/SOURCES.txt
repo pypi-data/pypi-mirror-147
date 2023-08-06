@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/cpg_scpi/__init__.py
+src/cpg_scpi/__main__.py
+src/cpg_scpi.egg-info/PKG-INFO
+src/cpg_scpi.egg-info/SOURCES.txt
+src/cpg_scpi.egg-info/dependency_links.txt
+src/cpg_scpi.egg-info/requires.txt
+src/cpg_scpi.egg-info/top_level.txt
+src/cpg_scpi/test/__init__.py
