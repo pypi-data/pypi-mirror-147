@@ -1,0 +1,10 @@
+aanalyticssegg/__init__.py,sha256=w8JcZvnz9AK26Qudds7i9KqAFrhTcM2wI-J5ZPFfzVw,152
+aanalyticssegg/__version__.py,sha256=ugyuFliEqtAwQmH4sTlc16YXKYbFWDmfyk87fErB8-8,21
+aanalyticssegg/actCreateSeg.py,sha256=7U0YtNsqACkhqyg1A7UzZlF9sUNoWSrY-BafkaIpJBE,11864
+aanalyticssegg/actGetSeg.py,sha256=Gf6tRsA6L8H0lK5mONF4y8qDdSMszApTjiWjV23WXZ0,2888
+aanalyticssegg/actLibrarySeg.py,sha256=lf-kDmlDBWgkE7AzzyZHfJ5Atnjq9pxyiwBj8GKhSr0,1575
+aanalyticssegg/actUpdateSeg.py,sha256=UK0SPja66_U33RXhAZfcjOPHLaeyvjCEXQQRXKyZUqk,6622
+aanalyticssegg-0.0.1.dist-info/METADATA,sha256=EjSjmsH1K6VjzNXJMDDlW0nsCzeugsMuMvmopC39AEY,511
+aanalyticssegg-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+aanalyticssegg-0.0.1.dist-info/top_level.txt,sha256=PdBzLADsOJjmxUHoMzKTAMD-dCktXKDOz-i09teLW3M,15
+aanalyticssegg-0.0.1.dist-info/RECORD,,
