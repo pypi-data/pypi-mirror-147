@@ -1,0 +1,17 @@
+luscious_dl/__init__.py,sha256=0p9GhLfhXXvOZwkEbXItZlzjG75zjq8JY08_lCXphqE,61
+luscious_dl/album.py,sha256=5-9aw5cAA_us_48QGpdv69ggo98PVWxSgLzeFfXq9Vg,5551
+luscious_dl/command_line.py,sha256=6brpMr69c38S6DLoRdoUspxgHf1dVQmHu4zlhr8GxI4,3030
+luscious_dl/downloader.py,sha256=lZf0UQjqKDqSZQV85scpQjIAY7ZCPJ3Sjsk0cbBooik,2743
+luscious_dl/logger.py,sha256=Zn5mhNtL6K6Sy8CbqzNSjSAkcKvd54ziof0mFAHP3jE,1486
+luscious_dl/menu.py,sha256=eAfQ2WVkqRDPnxAsrxiKmYEJ_qhWL5hDo37TayBD_s0,3786
+luscious_dl/parser.py,sha256=2WoVcZNcb602HcR4GSlqDrXNJGyXsVr2-BUZqRSW38M,1686
+luscious_dl/querys.py,sha256=KqHUYdMhQjVAHeocuATp8f3ZafaXiM-KSrDHPskWaeQ,7554
+luscious_dl/start.py,sha256=wcUzG_x_zw_65YKA0PnL-s9Jytqhe1o6lcpwp3iLyE4,6258
+luscious_dl/user.py,sha256=xNI2-sAvH_KavMkYblig0wQYNtg3x-aq23XwtlyIDA0,2279
+luscious_dl/utils.py,sha256=UZebHzsexLxa7i-FZ-UA6jU3Kkv8TCX7iGmeWgZVPEM,10297
+luscious_downloader-4.10.0.dist-info/LICENSE,sha256=NPm1GUSiADcPWP0n-exAZnhpGFINT03musCI9746qtg,1064
+luscious_downloader-4.10.0.dist-info/METADATA,sha256=fb9bjuJrP8LQU5BtjxSUCtRjs8W-qa3CHDSYJhBhN60,5390
+luscious_downloader-4.10.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+luscious_downloader-4.10.0.dist-info/entry_points.txt,sha256=JnWvOlnTqBIPF0oGSYFtDQFzuERXH6nSoTsj4ULroeI,49
+luscious_downloader-4.10.0.dist-info/top_level.txt,sha256=QU4wbhzIavJ2RxpX78mHe8RwLamXfOrmG6iv2LFo_w8,12
+luscious_downloader-4.10.0.dist-info/RECORD,,
