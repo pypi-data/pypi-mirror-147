@@ -1,0 +1,17 @@
+README.md
+setup.cfg
+setup.py
+pyteledantic/__init__.py
+pyteledantic/methods.py
+pyteledantic/models.py
+pyteledantic/utils.py
+pyteledantic.egg-info/PKG-INFO
+pyteledantic.egg-info/SOURCES.txt
+pyteledantic.egg-info/dependency_links.txt
+pyteledantic.egg-info/requires.txt
+pyteledantic.egg-info/top_level.txt
+pyteledantic/exceptions/__init__.py
+pyteledantic/exceptions/exceptions.py
+tests/__init__.py
+tests/conftest.py
+tests/test_methods.py
