@@ -1,0 +1,11 @@
+LICENSE.txt
+README.rst
+setup.cfg
+setup.py
+colorize/__init__.py
+colorize/cli.py
+colorize_cli.egg-info/PKG-INFO
+colorize_cli.egg-info/SOURCES.txt
+colorize_cli.egg-info/dependency_links.txt
+colorize_cli.egg-info/entry_points.txt
+colorize_cli.egg-info/top_level.txt

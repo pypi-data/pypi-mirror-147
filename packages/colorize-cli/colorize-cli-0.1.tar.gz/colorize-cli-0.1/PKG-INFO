@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: colorize-cli
+Version: 0.1
+Summary: Highlight matched strings in a text
+Home-page: https://github.com/aleksandr-vin/colorize
+Download-URL: https://github.com/aleksandr-vin/colorize/archive/v0.1.tar.gz
+Author: Aleksandr Vinokurov
+Author-email: aleksandr.vin@gmail.com
+License: MIT
+Keywords: cat,colors,terminal,console,logs,ascii,regex,cli
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Information Technology
+Classifier: Topic :: Software Development
+Classifier: Topic :: Home Automation
+Classifier: Topic :: Internet
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: User Interfaces
+Classifier: Topic :: System :: Monitoring
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/x-rst
+License-File: LICENSE.txt
+
+Highlight matched strings in a text
+===================================
+
+.. image:: https://asciinema.org/a/fYZQYgtftLeicD4ap4zMHveg6.png
+  :width: 400
+  :alt: Showcase
+
+`See in action <https://asciinema.org/a/fYZQYgtftLeicD4ap4zMHveg6>`_
+
+Usage
+-----
+
+Pipe text though it to highlight:
+
+1. Numbers, try `| colorize '[0-9]+'`.
+2. Lines matching phrase, try `| colorize '.*phrase.*'`.
+3. Headers in curl, try `| colorize '^[^:]*:'`.
+
+If you don't like distribution of the colors, add some random number as second argument.
+
+
