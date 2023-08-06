@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+vkit/kit_vision.egg-info/PKG-INFO
+vkit/kit_vision.egg-info/SOURCES.txt
+vkit/kit_vision.egg-info/dependency_links.txt
+vkit/kit_vision.egg-info/requires.txt
+vkit/kit_vision.egg-info/top_level.txt
