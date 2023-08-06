@@ -1,0 +1,12 @@
+nltk
+torch
+scipy
+numpy
+pandas
+django
+urllib3
+sklearn
+google-ads
+transformers
+beautifulsoup4
+sentence_transformers
