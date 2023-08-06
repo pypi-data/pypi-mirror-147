@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+torchvision4ad/__init__.py
+torchvision4ad.egg-info/PKG-INFO
+torchvision4ad.egg-info/SOURCES.txt
+torchvision4ad.egg-info/dependency_links.txt
+torchvision4ad.egg-info/requires.txt
+torchvision4ad.egg-info/top_level.txt
+torchvision4ad/datasets/__init__.py
+torchvision4ad/datasets/mvtec.py
