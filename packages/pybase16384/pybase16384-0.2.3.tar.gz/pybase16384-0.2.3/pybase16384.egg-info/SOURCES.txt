@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+setup.py
+./base16384/base1464.c
+pybase16384/__init__.py
+pybase16384/_core.c
+pybase16384/_core.pyi
+pybase16384/_core.pyx
+pybase16384/base16384.pxd
+pybase16384.egg-info/PKG-INFO
+pybase16384.egg-info/SOURCES.txt
+pybase16384.egg-info/dependency_links.txt
+pybase16384.egg-info/not-zip-safe
+pybase16384.egg-info/requires.txt
+pybase16384.egg-info/top_level.txt
