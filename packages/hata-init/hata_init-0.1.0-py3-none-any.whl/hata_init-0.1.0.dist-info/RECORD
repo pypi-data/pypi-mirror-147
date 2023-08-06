@@ -1,0 +1,9 @@
+hata/main/commands/init/__init__.py,sha256=6gQLGZLt7dRvacpstkZDVbUFHIcCQsgLJMxIogwMGmc,229
+hata/main/commands/init/app_creator.py,sha256=tPili3eFO3zdJnNDWXlXsGbZbHwfmbLw7tVYGFgjWd4,4297
+hata/main/commands/init/app_entry.py,sha256=5UITt75L6E90Gcsj6iZ8Glxcpffv-XTmW6JoYwCgVFA,316
+hata/main/commands/init/callback.py,sha256=DLN-wxsMrKSSBIRQadAlxLdoYqZE_LmCqMfnZwjckYs,1837
+hata/main/commands/init/constants.py,sha256=g3DMXmzGbCjshLHJdTusobHclFMM-Hm8K3kYBh89peA,6485
+hata/main/commands/init/utils.py,sha256=pzGNPopITzZ90fiy3yPCskXRKDlDxknkxQcW68We5Ns,197
+hata_init-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+hata_init-0.1.0.dist-info/METADATA,sha256=TcYgOs5jYhSZOIv5smCTpkD9bPvv5Bakb94dwvQrrIo,661
+hata_init-0.1.0.dist-info/RECORD,,
