@@ -1,0 +1,2 @@
+python_codon_tables
+biopython
