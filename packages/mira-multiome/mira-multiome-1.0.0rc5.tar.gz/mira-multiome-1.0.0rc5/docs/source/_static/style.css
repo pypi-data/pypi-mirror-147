@@ -1,0 +1,24 @@
+
+.container-xl {
+    max-width: 1600px;
+}
+
+.panel-height {
+    padding: 8%;
+    max-height:300px;
+    object-fit: contain;
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.home-content {
+    max-width: 75%;
+}
+
+.hidden { color: #FFFFFF }
+
+div.nboutput.container div.output_area.stderr {
+  background: #d0d2dd;
+}
