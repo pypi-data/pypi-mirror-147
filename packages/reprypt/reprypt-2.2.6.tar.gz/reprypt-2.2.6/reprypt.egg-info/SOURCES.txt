@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+reprypt/__init__.py
+reprypt/__main__.py
+reprypt/py.typed
+reprypt.egg-info/PKG-INFO
+reprypt.egg-info/SOURCES.txt
+reprypt.egg-info/dependency_links.txt
+reprypt.egg-info/entry_points.txt
+reprypt.egg-info/top_level.txt
