@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+clime_badges/__init__.py
+clime_badges/main.py
+clime_badges/version.py
+clime_badges.egg-info/PKG-INFO
+clime_badges.egg-info/SOURCES.txt
+clime_badges.egg-info/dependency_links.txt
+clime_badges.egg-info/entry_points.txt
+clime_badges.egg-info/requires.txt
+clime_badges.egg-info/top_level.txt
