@@ -1,0 +1,2 @@
+[console_scripts]
+maintain-website-tool = maintain_website_tool.main:main
