@@ -1,0 +1,6 @@
+fish/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fish/main.py,sha256=oS-2t-YKEsMgbEcJOuds2MxZcZiYuGjXGpSl1K-0Oms,20
+test_fish-0.0.1.dist-info/METADATA,sha256=3RsDWpSnsxFdsuZLuHCEIPpQGh7nNu3J_FMZ9qumH94,168
+test_fish-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+test_fish-0.0.1.dist-info/top_level.txt,sha256=KQJNgjw_ipDutxRJIE93vj-8ev7EeHP2xd356l5c_g8,5
+test_fish-0.0.1.dist-info/RECORD,,
