@@ -1,0 +1,3 @@
+labelbox
+pandas
+snowflake-connector-python
