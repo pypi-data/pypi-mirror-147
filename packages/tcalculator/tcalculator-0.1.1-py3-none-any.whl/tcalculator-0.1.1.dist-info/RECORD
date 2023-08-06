@@ -1,0 +1,10 @@
+tcalculator/__init__.py,sha256=1U0TZk12wlZFYF8xfqLPXf6qMBBvF2RF9B7i5c1LqH8,424
+tcalculator/add.py,sha256=ZpAD0kwtq4OEoaRwZA1f8A1GUBUa6KWhQMbZsk5f8DM,448
+tcalculator/multiply/__init__.py,sha256=CoX7ixQwUppPAXZ1egIKzZXDXHPNEPKvIXIes5ZVgRM,484
+tcalculator/multiply/multiply_ab.py,sha256=O1GD0bYqD05NV0e0qEiLDszv8nQCfpKF34ahK-FVVQM,442
+tcalculator/multiply/multiply_abc.py,sha256=Euk48xhrnJj4Hz2gBfkJ5w9V8_NvbfNShQi_5wOIW14,445
+tcalculator-0.1.1.dist-info/LICENSE,sha256=a_MQkxt_7ILJq0g3zW9Jt3s-sXiXxLxfyFa4ytIPRdg,1094
+tcalculator-0.1.1.dist-info/METADATA,sha256=1cIpwBYjvJ9sSfatRSFlLY4_bT2LOFEtx8LaaDqbaBA,790
+tcalculator-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tcalculator-0.1.1.dist-info/top_level.txt,sha256=Zb6OwyDLcDiz4Wkl0cBLaBnSrjVtw8dzZnf0uH9M2wY,12
+tcalculator-0.1.1.dist-info/RECORD,,
