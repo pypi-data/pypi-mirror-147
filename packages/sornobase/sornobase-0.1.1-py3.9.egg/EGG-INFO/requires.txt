@@ -1,0 +1,7 @@
+mock
+python_magic
+python_dateutil
+pytz
+requests
+six
+tzlocal
