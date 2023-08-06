@@ -1,0 +1,13 @@
+src/__init__.py,sha256=FPkDRyIplRlvE5dyyOGOTcsrgaSRVbhFcJdNYAu3_3A,43
+src/class_names.txt,sha256=vrgyQu-dRMEOtB1NagrTDKyHxLgAr_kjMMCtV5xGflQ,7735
+src/main.py,sha256=PA5lsJz-P52nlWqh20zKCsLdURvWT8-HlwpjXT13Plc,4046
+src/ontology.json,sha256=nGhfRAPuzDypvjf9coXPIS_qrqb_cinT58qJ4NHy0V0,342780
+src/csv/balanced_train_segments.csv,sha256=O4Pl_57XLP2jfU42zgglDhB8HqcPEJ9qtmaKwgDbXpQ,1211931
+src/csv/eval_segments.csv,sha256=9wVfU5NfcOdOOUlKXIxMePFwD84nUCi9NuMRhvM9Rds,1143389
+src/csv/unbalanced_train_segments.csv,sha256=uy39Xk8c7TnblIBjPFEPgT14mfS3RyqoOkEbSkOhJpg,101468408
+audioset_downloader-0.1.1.dist-info/LICENSE,sha256=rPn5PKPZK1Lue9YOeg3nTxvJzW8FhlsD7v9ZSSPS6js,1071
+audioset_downloader-0.1.1.dist-info/METADATA,sha256=gVhApw7wMWx7oQnivVJZuvZmGqaZj4UkMinyH_yh-wc,516
+audioset_downloader-0.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+audioset_downloader-0.1.1.dist-info/entry_points.txt,sha256=BnvOsn20V8JP1HnZa9ZhJDpyp6CYQUQxrc0L-IovAv4,96
+audioset_downloader-0.1.1.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+audioset_downloader-0.1.1.dist-info/RECORD,,
