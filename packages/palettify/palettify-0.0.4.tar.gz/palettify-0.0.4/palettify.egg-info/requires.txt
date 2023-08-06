@@ -1,0 +1,2 @@
+Pillow-SIMD==8.4.0.post0
+cython==0.29.28
