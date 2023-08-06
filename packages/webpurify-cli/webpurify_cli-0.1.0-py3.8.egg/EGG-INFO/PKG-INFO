@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: webpurify-cli
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: https://github.com/rrajaravi/webpurify-cli.git
+Author: Raja Ravi
+Author-email: r.rajaravi@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console

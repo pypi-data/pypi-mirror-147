@@ -1,0 +1,11 @@
+README.md
+setup.py
+webpurify_cli/__init__.py
+webpurify_cli/exceptions.py
+webpurify_cli/webpurify.py
+webpurify_cli.egg-info/PKG-INFO
+webpurify_cli.egg-info/SOURCES.txt
+webpurify_cli.egg-info/dependency_links.txt
+webpurify_cli.egg-info/entry_points.txt
+webpurify_cli.egg-info/requires.txt
+webpurify_cli.egg-info/top_level.txt
