@@ -1,0 +1,15 @@
+pyqrack/__init__.py,sha256=hNBEWPUwU2xFXUcQ0CWl2mI87U_KDyl3b5vn3Ooq1XY,341
+pyqrack/pauli.py,sha256=URlC7tAYwetabQYsLhK_d_2qRmXGr_n4N8zOF8LlNpw,657
+pyqrack/qrack_simulator.py,sha256=aJJza4mfO3mxfKNN70kLhDcgR6Bt6BoKPeDr7ySKoMA,28163
+pyqrack/qrack_cl_precompile/Windows/x86/qrack_cl_precompile.exe,sha256=tRR0Q2VukPqr-Io7o4Y1OyeyDEuZWoD6C5vkMJ2XrZg,141312
+pyqrack/qrack_system/__init__.py,sha256=-oZ9dsb1hixsnrkUJRY_C5DzQ_l6MtifF_Z465BgqV4,334
+pyqrack/qrack_system/qrack_system.py,sha256=FC2Axo0cDmuHEY7HfVkUI7dz0Tjyx_OTonyLfFEveuI,17102
+pyqrack/qrack_system/qrack_lib/Windows/x86/qrack.lib,sha256=tNtYIcAvggphGqBfiAkowlQLq8wlcukjL2_k3hJXOcQ,7253982
+pyqrack/qrack_system/qrack_lib/Windows/x86/qrack_pinvoke.dll,sha256=8qrhabHqgU81KI94Kw2OcrdpxtgRxwfNhJnuoXer48g,1249792
+pyqrack/qrack_system/qrack_lib/Windows/x86/qrack_pinvoke.exp,sha256=z0FR848SdHwYbeCdXDmMInIqhKytnPoNH4X7RdW6a9I,10640
+pyqrack/qrack_system/qrack_lib/Windows/x86/qrack_pinvoke.lib,sha256=3_68f4EybAZZsYWgX5Qg3CGSVzCBxdb8esfHlBRN1zg,19722
+pyqrack-0.11.5.dist-info/LICENSE,sha256=Qgx0JeqddJkiPf_gu_K0_U56bf-VAFjFOCm5xINNFU0,1064
+pyqrack-0.11.5.dist-info/METADATA,sha256=VqPcGb9W_DzF1hMybcrVmZ8C5LFPNPCKGEX3GMMSijs,4079
+pyqrack-0.11.5.dist-info/WHEEL,sha256=B-MEufKsIKRyyg0orbkY9mg4Nvh0GwM_cF_UcS57u8I,94
+pyqrack-0.11.5.dist-info/top_level.txt,sha256=YE_3q9JTGRLMilNg2tGP1y7uU-Dx8PDao2OhwoIbv8E,8
+pyqrack-0.11.5.dist-info/RECORD,,
