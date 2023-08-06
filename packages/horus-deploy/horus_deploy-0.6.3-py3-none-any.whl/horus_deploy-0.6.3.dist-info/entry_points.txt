@@ -1,0 +1,2 @@
+[console_scripts]
+horus-deploy = horus_deploy.cli:main
