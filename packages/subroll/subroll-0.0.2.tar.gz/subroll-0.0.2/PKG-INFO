@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: subroll
+Version: 0.0.2
+Summary: Automatically choose a random IPv6 address from your subnet.
+Home-page: https://github.com/witer33/subroll
+Author: witer33
+Author-email: dev@witer33.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/witer33/subroll/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# subroll
+Automatically choose a random IPv6 address from your subnet.  
+Currently it only supports Linux and requests.
+
+# AnyIP
+
+**AnyIP** is a new feature of the Linux kernel, you need to **enable AnyIP** in order to use this library.
+
+```
+sudo ip -6 route add local 0123:4567:89ab::/48 dev lo
+```
+
+This will enable AnyIP, replace `0123:4567:89ab::/48` with your subnet and run this command on a shell.
+___(this will not persist after reboot)___
+
+# Example
+```python3
+from src.subroll import SubRoll
+
+roll = SubRoll("0123:4567:89ab::/48")
+
+for _ in range(100):
+    session = roll.get_session()
+    print(session.get("https://ipv6.wtfismyip.com/text").text)
+```
+
+
