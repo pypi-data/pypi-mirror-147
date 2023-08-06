@@ -1,0 +1,11 @@
+AUTHORS
+MANIFEST.in
+setup.cfg
+setup.py
+scripts/install_tfacon.sh
+tfacon.egg-info/PKG-INFO
+tfacon.egg-info/SOURCES.txt
+tfacon.egg-info/dependency_links.txt
+tfacon.egg-info/top_level.txt
+tfacon_pip/__init__.py
+tfacon_pip/tfacon_binary/tfacon
