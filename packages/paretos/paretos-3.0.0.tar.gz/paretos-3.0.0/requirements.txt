@@ -1,0 +1,5 @@
+requests==2.27.1
+requests_toolbelt==0.9.1
+dependency_injector==4.38.0
+python-jose==3.3.0
+python-keycloak==0.27.0
