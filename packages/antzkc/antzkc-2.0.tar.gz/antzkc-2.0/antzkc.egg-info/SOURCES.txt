@@ -1,0 +1,6 @@
+README.txt
+setup.py
+antzkc.egg-info/PKG-INFO
+antzkc.egg-info/SOURCES.txt
+antzkc.egg-info/dependency_links.txt
+antzkc.egg-info/top_level.txt
