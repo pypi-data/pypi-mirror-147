@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+src/cw_download_chess_com_games/__init__.py
+src/cw_download_chess_com_games/cw_download_chess_com_games.py
+src/cw_download_chess_com_games.egg-info/PKG-INFO
+src/cw_download_chess_com_games.egg-info/SOURCES.txt
+src/cw_download_chess_com_games.egg-info/dependency_links.txt
+src/cw_download_chess_com_games.egg-info/entry_points.txt
+src/cw_download_chess_com_games.egg-info/top_level.txt

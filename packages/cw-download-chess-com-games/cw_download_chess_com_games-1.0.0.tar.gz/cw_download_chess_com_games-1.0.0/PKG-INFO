@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: cw_download_chess_com_games
+Version: 1.0.0
+Summary: Download all chess.com games.
+Home-page: https://github.com/ChameleonRed/cw_download_chess_com_games
+Author: Cezary K. Wagner
+Author-email: Cezary.Wagner@gmail.com
+License: http://creativecommons.org/licenses/by-nc-nd/4.0
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: Free for non-commercial use
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Games/Entertainment
+Classifier: Topic :: Games/Entertainment :: Board Games
+Classifier: Topic :: Education
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Description
+
+Download all [chess.com](https://chess.com/) games at once. 
+All games PGN file will be stored current or specified directory.
+
+Raw source JSON files with extra information will be stored in `output/cache` path.
+
+# Install
+
+`pip install cw-download-chess-com-games`
+
+# Usage
+
+## Get help
+
+`cw_download_chess_com_games -h`
+
+## Get games
+
+`cw_download_chess_com_games --user_name your_chess_com_name`
+
+## Get games into custom path/directory
+
+`cw_download_chess_com_games --user_name your_chess_com_name --output_path .`
+
+## Update recent games
+
+Delete `output/cache` to allow fresh download.
+
+# License
+
+Copyright 2022 by Cezary K. Wagner. Licensed under [Attribution-NonCommercial-NoDerivatives 4.0 International](http://creativecommons.org/licenses/by-nc-nd/4.0).
+
+

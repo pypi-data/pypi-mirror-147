@@ -1,0 +1,2 @@
+[console_scripts]
+cw_download_chess_com_games = cw_download_chess_com_games.cw_download_chess_com_games:main
