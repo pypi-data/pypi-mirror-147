@@ -1,0 +1,12 @@
+xpycommon/__init__.py,sha256=HHwCWhM8akTNyX3YuQXVVhxI61ICEWYkvxYoyRxsukY,2689
+xpycommon/bluetooth.py,sha256=Y-AXamPOttjTatPPTBkB5Ub3FYmvlx8m-FHsO6rugNk,9583
+xpycommon/common.py,sha256=cnnTy3uy9dRU3G6xL5lkOpktX2xYpMFBa24bni1F0l8,23815
+xpycommon/libc_wrapper.py,sha256=IN-aLByKaDGznKcxIjjRUjtTI6LZBU9qy_sAVOIIrc0,3799
+xpycommon/pytransform/__init__.py,sha256=OAwIt1kGBC0Y5zsNJlTrAwQwmJhMqierRUVI_ZOjqgg,13587
+xpycommon/pytransform/platforms/linux/aarch64/_pytransform.so,sha256=IGcDU5tORezfx7akVupw2MfualOqsYneQBsz9Gt8mgE,1087608
+xpycommon/pytransform/platforms/linux/x86_64/_pytransform.so,sha256=kLrW2zLt_kPHheJs2ozij44vu0NzpcE6Gs2_gJOPgdg,1198080
+xpycommon-0.0.8.dist-info/LICENSE.txt,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+xpycommon-0.0.8.dist-info/METADATA,sha256=FdNkt1cgiNYyGXgtZ5i2R8TN3unyfMEjcvprq179NCY,603
+xpycommon-0.0.8.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+xpycommon-0.0.8.dist-info/top_level.txt,sha256=8HNHL5KxFrZYwnduG2-rrchUee1JG_WDTLWJzC5mW24,10
+xpycommon-0.0.8.dist-info/RECORD,,
