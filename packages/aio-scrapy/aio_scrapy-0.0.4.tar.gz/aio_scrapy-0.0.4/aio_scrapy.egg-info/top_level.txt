@@ -1,0 +1,17 @@
+aioscrapy
+aioscrapy\core
+aioscrapy\core\downloader
+aioscrapy\core\downloader\handlers
+aioscrapy\core\downloader\handlers\__pycache__
+aioscrapy\core\scheduler
+aioscrapy\db
+aioscrapy\downloadermiddlewares
+aioscrapy\extensions
+aioscrapy\https
+aioscrapy\middleware
+aioscrapy\pipelines
+aioscrapy\scrapyd
+aioscrapy\settings
+aioscrapy\spidermiddlewares
+aioscrapy\spiders
+aioscrapy\utils
