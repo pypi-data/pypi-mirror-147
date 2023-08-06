@@ -1,0 +1,11 @@
+pvn/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pvn/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pvn/core/objeto.py,sha256=RKaKUcp0ZHlCigte_KXm0YhEHIsftFvHrT9aWey9Ads,6587
+pvn/core/terminal.py,sha256=Vq4VktUum52atccKBElOLlvHbjBYLgPg0ivhZp6GX_c,315
+pvn/transporte/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pvn/transporte/extracao.py,sha256=7LvJQECr_yjjI6NW4jMbl7ZYu7xW4PV14F1SXVwzSYM,11544
+pvn-0.0.5.dist-info/LICENCE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+pvn-0.0.5.dist-info/METADATA,sha256=bSAQTYouVKhRDVE2W91Oa9vfXIVhhLpohQG0JFE0nDg,476
+pvn-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pvn-0.0.5.dist-info/top_level.txt,sha256=Qcd2eh8wVlBc6-GSlmfEr8uKZMIJm-QJd8UD6gX9-Nw,4
+pvn-0.0.5.dist-info/RECORD,,
