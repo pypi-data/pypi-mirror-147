@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: conflux
+Version: 0.1.1
+Summary: python SDK for Conflux network
+Home-page: UNKNOWN
+Author: Conflux-Dev
+Author-email: wangpan@conflux-chain.org
+License: UNKNOWN
+Keywords: python,conflux,blockchain
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: web3 (<=5.17.0,>=5.14.0)
+Requires-Dist: cfx-address (>=0.0.4)
+Requires-Dist: cfx-account (>=0.0.3)
+Requires-Dist: eth-tester (>=0.5.0b4)
+
+A Python SDK for interacting with Conflux network, check details here https://github.com/conflux-chain/python-conflux-sdk
+
