@@ -1,0 +1,17 @@
+langtable/__init__.py,sha256=ORQmZNJGRmZlogMbW6mVsIwRejh8OBtnvshKJXJpQgg,511
+langtable/langtable.py,sha256=8oSKsQZsKd15WdfDgBUksJjZ5Gq7J2rYzXqfcFx-kvw,101977
+langtable/data/keyboards.xml.gz,sha256=bw7QAUB8IBl-_xsPHCfnrZk0MhX_chypmk0ZvziM1kc,5849
+langtable/data/languages.xml.gz,sha256=OsiTx3q7B7cZ1FkMuTosFmonFf832c6vmTrRmiJjFsY,372271
+langtable/data/territories.xml.gz,sha256=ZiSLyBKSknFzfMZS3qTtSCe_MpRp_9n_6mtaRxMUi8E,441897
+langtable/data/timezoneidparts.xml.gz,sha256=WpvSc44De26mjsZOg77N6TJwSNY8Wg5AbvB91q3aLQU,351010
+langtable/data/timezones.xml.gz,sha256=UJ6YNPOKG5yp2hEgbEK_4yWsnmrbDhHZAr6ZL-Wr0Fw,3542
+langtable/schemas/keyboards.rng,sha256=Gy8zXngR6VZ6QXGrsp4u7Aolpk-VkWTJ_8kTlT-a9ss,1301
+langtable/schemas/languages.rng,sha256=rDTnJ-yPK7CgwQCjVMhLMCf0xzGpG2cnx0iIn85f0Po,4153
+langtable/schemas/territories.rng,sha256=KnDf45rlNpmsDTmzND0WDDXGNy08N1fx0reRjKUS_SQ,3482
+langtable/schemas/timezoneidparts.rng,sha256=--LNbran9DrHSDQSZMqxYjermlPRo39GZwLtR-zF_Ug,683
+langtable/schemas/timezones.rng,sha256=l2sVJPyo48ESnNaTr1QHgv5fV26cIJZ_XxElumAc3F0,665
+langtable-0.0.58.dist-info/COPYING,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+langtable-0.0.58.dist-info/METADATA,sha256=6FssL-fOOKH8vzmulcFeZgm0N02Nd6ZsER0Njucs8rg,2434
+langtable-0.0.58.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+langtable-0.0.58.dist-info/top_level.txt,sha256=vFuD4S3tAk7ZEIOqrR5tqqm-ThvhpwXxYUMxZdXY1-0,10
+langtable-0.0.58.dist-info/RECORD,,
