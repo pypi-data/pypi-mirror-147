@@ -1,0 +1,1 @@
+from inn import InnType
