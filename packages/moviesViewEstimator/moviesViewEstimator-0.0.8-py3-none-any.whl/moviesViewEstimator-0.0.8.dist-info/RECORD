@@ -1,0 +1,11 @@
+moviesViewEstimator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+moviesViewEstimator/linear_regression_model.pickle,sha256=ZVAbAg69KBPj5mR3fok25YFQbiiWnCKz6fjgf567qkI,602
+moviesViewEstimator/model.py,sha256=86quoS5_PspZ79CaOREb19QaA56HR-1WE7XUeiOwbi8,7362
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=TADIoT8Ro1lm_XU1_a73ew3ze6kthxvnV_7CKl5-XMQ,344
+tests/test_model.py,sha256=kct4ggzPftfZSZWYVG5z9ixR3V8yygmTfDFTmjQlch0,803
+moviesViewEstimator-0.0.8.dist-info/LICENSE,sha256=zlWLtJY1fTwwv-GpXwvS8WQ4F8YnZ6c9zlOpCuV8ARI,1093
+moviesViewEstimator-0.0.8.dist-info/METADATA,sha256=L_7PQ1I3dhcXePwbSWSMn69k4RQ12h1QM-fnl5ouJTw,2248
+moviesViewEstimator-0.0.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+moviesViewEstimator-0.0.8.dist-info/top_level.txt,sha256=ZS-xHDp9N1eQsjLN6p1PK3stuGg4dWxe4U0r3lQixCo,26
+moviesViewEstimator-0.0.8.dist-info/RECORD,,
