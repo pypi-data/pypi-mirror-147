@@ -1,0 +1,10 @@
+README.md
+setup.py
+dnres_cli.egg-info/PKG-INFO
+dnres_cli.egg-info/SOURCES.txt
+dnres_cli.egg-info/dependency_links.txt
+dnres_cli.egg-info/entry_points.txt
+dnres_cli.egg-info/requires.txt
+dnres_cli.egg-info/top_level.txt
+src/__init__.py
+src/dnres_cli.py
