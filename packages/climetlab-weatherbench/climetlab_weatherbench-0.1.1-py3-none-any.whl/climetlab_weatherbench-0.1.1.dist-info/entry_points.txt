@@ -1,0 +1,2 @@
+[climetlab.datasets]
+weatherbench = climetlab_weatherbench.main:Main
