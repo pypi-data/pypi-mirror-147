@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/simple_qtable_model.egg-info/PKG-INFO
+src/simple_qtable_model.egg-info/SOURCES.txt
+src/simple_qtable_model.egg-info/dependency_links.txt
+src/simple_qtable_model.egg-info/requires.txt
+src/simple_qtable_model.egg-info/top_level.txt
+src/table-model/__init__.py
+src/table-model/tableStyles.py
