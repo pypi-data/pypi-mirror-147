@@ -1,0 +1,8 @@
+aiofiles>=0.8.0
+cattrs==1.10.0
+
+[all]
+portray
+
+[docs]
+portray
