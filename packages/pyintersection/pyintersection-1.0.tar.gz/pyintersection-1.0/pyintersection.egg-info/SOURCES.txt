@@ -1,0 +1,12 @@
+README.md
+setup.py
+pyintersection/__init__.py
+pyintersection.egg-info/PKG-INFO
+pyintersection.egg-info/SOURCES.txt
+pyintersection.egg-info/dependency_links.txt
+pyintersection.egg-info/top_level.txt
+pyintersection/extmodule/main.cpp
+pyintersection/extmodule/main.cpp
+pyintersection/pymodule/__init__.py
+pyintersection/pymodule/intersect.py
+pyintersection/pymodule/optimize.py
