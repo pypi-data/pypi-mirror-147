@@ -1,0 +1,62 @@
+from cassandra.data.dataAnalysis.correlation import *
+from cassandra.data.dataProcessing.prophet import *
+from cassandra.data.featureSelection.ols import *
+from cassandra.data.dataAnalysis.exploration.utils import show_media, show_no_media, create_csv, define_features
+from cassandra.data.featureSelection.multicollinearity import check_multicollinearity
+import pandas as pd
+from IPython.core.display import display
+
+
+def exploration(csv_path, name_date_column, name_target_column, dict_columns_aggregate={}, window_start='',
+                window_end='', national_holidays_abbreviation='IT', future_dataframe_periods=14, plot_prophet=True,
+                weekly_seasonality=True, yearly_seasonality=True, daily_seasonality=True, seasonality_mode='additive',
+                media_split=True, show_graph_media=True, show_graph_no_media=False, plot_for_line=5, show_only_one='',
+                constant_ols=True):
+    # create csv
+    csv = create_csv(csv_path, dict_columns_aggregate)
+
+    display(csv)
+
+    # create df with seasonality variables
+    df = prophet(df=csv, name_date_column=name_date_column, name_target_column=name_target_column,
+                 window_start=window_start, window_end=window_end,
+                 national_holidays_abbreviation=national_holidays_abbreviation,
+                 future_dataframe_periods=future_dataframe_periods, plot_prophet=plot_prophet,
+                 weekly_seasonality=weekly_seasonality, yearly_seasonality=yearly_seasonality,
+                 daily_seasonality=daily_seasonality, seasonality_mode=seasonality_mode)
+
+    # define variables and show graph each other
+    if media_split:
+        everything, media, organic, price, seasonality, no_media, no_organic, no_price, no_seasonality, media_google, media_fb, media_others = define_features(df=df, media_split=media_split)
+
+        if show_graph_media:
+            show_media(df, name_date_column, name_target_column, media, media_google, media_fb, media_others)
+        if show_graph_no_media:
+            show_no_media(df, name_date_column, name_target_column, organic, price, seasonality)
+
+    else:
+        everything, media, organic, price, seasonality, no_media, no_organic, no_price, no_seasonality = define_features(df=df, media_split=media_split)
+        if show_graph_media:
+            show_media(df, name_date_column, name_target_column, media)
+        if show_graph_no_media:
+            show_no_media(df, name_date_column, name_target_column, organic, price, seasonality)
+
+    pd.set_option("display.max_rows", None)
+    pd.set_option("display.max_columns", None)
+    # df.fillna(method = 'bfill', inplace=True)
+    # df.fillna(method = 'ffill', inplace=True)
+    display(df.corr())
+
+    show_relationship_between_variables(df, plot_for_line=plot_for_line, show_only_one=show_only_one)
+
+    # Features Selection
+    X = df[everything]
+    y = df[name_target_column]
+
+    # OLS model
+    result_ols, model_ols = ols(X, y, constant=constant_ols)
+
+    # check for multicollinearity
+    check_multicollinearity(X)
+
+    return df
