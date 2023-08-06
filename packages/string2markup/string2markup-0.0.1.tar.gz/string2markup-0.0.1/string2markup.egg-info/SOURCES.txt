@@ -1,0 +1,7 @@
+README.md
+setup.py
+string2markup/__init__.py
+string2markup.egg-info/PKG-INFO
+string2markup.egg-info/SOURCES.txt
+string2markup.egg-info/dependency_links.txt
+string2markup.egg-info/top_level.txt
