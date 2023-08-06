@@ -1,0 +1,7 @@
+README.md
+setup.py
+udbserver.c
+udbserver.egg-info/PKG-INFO
+udbserver.egg-info/SOURCES.txt
+udbserver.egg-info/dependency_links.txt
+udbserver.egg-info/top_level.txt

@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: udbserver
+Version: 0.1
+Summary: Python bindings of udbserver
+Home-page: https://github.com/bet4it/udbserver
+Author: Bet4
+Author-email: 0xbet4@gmail.com
+License: MIT License
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Debuggers
+
+UNKNOWN
+
