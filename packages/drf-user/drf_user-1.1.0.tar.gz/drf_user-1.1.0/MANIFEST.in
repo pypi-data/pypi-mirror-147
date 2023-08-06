@@ -1,0 +1,11 @@
+include LICENSE *.py *.yml *.yaml *.txt *.md
+include Makefile
+global-exclude __pycache__
+global-exclude *.py[co]
+
+# Tests
+recursive-include tests *
+
+# Documentation
+recursive-include docs *
+prune docs/_build
