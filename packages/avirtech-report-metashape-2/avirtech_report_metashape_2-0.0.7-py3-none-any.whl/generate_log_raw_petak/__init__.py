@@ -1,0 +1,1 @@
+from generate_log_raw_petak.generate_log_raw_petak import generate_log_raw_petak
