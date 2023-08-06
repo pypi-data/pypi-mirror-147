@@ -1,0 +1,11 @@
+eegraph/__init__.py,sha256=1tuXk1YAWhsMCTOJing81ht5mD8J6iFsLti--zGQHVw,20
+eegraph/graph.py,sha256=R7dTgUkiM6iZ6_8bOMVBZYcKtHQN1DKwEG7N-vz02cA,1278
+eegraph/importData.py,sha256=23_ndFHGhGka66e1seI2xTWVTjymu2cea3DOKGkUWX0,2287
+eegraph/modelateData.py,sha256=f8tGmW9Hn7DI8pzLcAjKn7tPkaptcVAgf6e___HOExU,1222
+eegraph/strategy.py,sha256=K1TNsiUtRbYKyy47NGLT5i6qWYgWp8OzJfkIEsJsmZ8,15155
+eegraph/tools.py,sha256=CBBi67l3qdb2nzC7ohSdyBNbK9ramyoYteSjRN0KJH4,35980
+EEGRAPH-0.1.12.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+EEGRAPH-0.1.12.dist-info/METADATA,sha256=1FeE2ucqhUL-pLJLus1o0fUxaPPt87F3X-nENLqw6No,6195
+EEGRAPH-0.1.12.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+EEGRAPH-0.1.12.dist-info/top_level.txt,sha256=DnJvpgbJoKfIkQN-HFuqUQKfdToHtnu-Bk_ZzaUfeNg,8
+EEGRAPH-0.1.12.dist-info/RECORD,,
