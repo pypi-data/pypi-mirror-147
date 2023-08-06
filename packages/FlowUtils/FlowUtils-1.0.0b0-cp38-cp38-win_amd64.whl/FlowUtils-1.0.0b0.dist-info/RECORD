@@ -1,0 +1,11 @@
+flowutils/__init__.py,sha256=7KKVxhnoLnsAoL5nPZqJaigUqHwfllB1mgPDb7NsDUU,38
+flowutils/compensate.py,sha256=sBOPEniV_TmoC0Q63tIXG8P_4MsXn3kJ7M778E8xyqE,11820
+flowutils/gating.py,sha256=kCigXUVoGgOKhYgKHUXoHrjF4zziW4WqexqIwpnFmGY,3330
+flowutils/gating_c.cp38-win_amd64.pyd,sha256=ZH2MPTrnYw7EPKP3_FHOr5WtUM3r1ON2pD6sRZmPjHc,14848
+flowutils/logicle_c.cp38-win_amd64.pyd,sha256=qA_GfpUUV0-JgZ4ZVidDLI0plkW5dpjSkZ3cBJ_C0Eo,19456
+flowutils/transforms.py,sha256=tkAVNzU9OasYyaHTsCXraeDAypPgbBQL7Px64tjVMjY,11071
+FlowUtils-1.0.0b0.dist-info/LICENSE,sha256=hEyVnKOpNWUqvqdIo3VI7EgcQy-cVJnGousux53aVi4,1528
+FlowUtils-1.0.0b0.dist-info/METADATA,sha256=EZfH4IDG-MDNNHzuMnxPTDbbNP36P11Wg3U7T2JNLvE,2172
+FlowUtils-1.0.0b0.dist-info/WHEEL,sha256=M2GQ3lde8oJhlQPj2wbRvnqE3cuovPJasri5X5aCmck,100
+FlowUtils-1.0.0b0.dist-info/top_level.txt,sha256=SRs0WtxfhJXXrDKGYpnwuWjVKISTQMFD5533Pnu4oCw,10
+FlowUtils-1.0.0b0.dist-info/RECORD,,
