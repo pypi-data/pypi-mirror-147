@@ -1,0 +1,17 @@
+mpes/__init__.py,sha256=wY84XzbXQSW41h9ykVYJTbl6RJdlTALSWDmzb5gIESw,221
+mpes/analysis.py,sha256=2nN_gah3BOcQ_UeIvPZc_rhLSSZslv7lz8jxt0DqXgc,109653
+mpes/bandstructure.py,sha256=iTqHyIEAv9LW1T7HkRLVKADWCPmCm7o0damAbZ60nb0,12555
+mpes/base.py,sha256=qtAvAY8fq3Jn0gOPcZMlpjJKzSw7x0oCHdFMOY89G44,18959
+mpes/beamtime.py,sha256=FXCFs01quf4NOfgF1pM-kFa_6h5r8nKIDfxHNX-aSIA,6277
+mpes/dask_tps.py,sha256=kDNPB3ifWq8n_cs0UgLecPYpyi3e8JnnjYqBkGYtLFk,2104
+mpes/fprocessing.py,sha256=x9k-ZRkOvqQmRQB_q6ry5zxXdsp4n6ZfPJSFjwhLhBQ,123114
+mpes/igoribw.py,sha256=iJ5Ya1s1bnoHHxeCb5KD4xIF66o-owWQdcwM-onaVGk,26502
+mpes/legacy.py,sha256=unvrIKEM_Bc5pZruQSRy_fSZ4o_kVEHOKmiGo3xbCEo,7103
+mpes/mirrorutil.py,sha256=up-mupxjFG6PbY4GonlupE9osT_TxNgeDsnYq3RiHDM,7041
+mpes/utils.py,sha256=XD2oKYl0ipHif8w4vUw3LwdRtIDebmK8RAl0PsOIHxQ,9926
+mpes/visualization.py,sha256=8jvfLE3fu9LFknNqIqj-2A3bY7Ff1F7wPz3THFXEaHM,36569
+mpes-1.1.3.dist-info/LICENSE.md,sha256=OB0ng3naObuZ60ipH5d2iQgOF7hxCSV3Zo1rj60Ra1M,1072
+mpes-1.1.3.dist-info/METADATA,sha256=YQi9w9kjPRX3v3Vm68kL31XPjlnFi4t50TfkCuuo81U,6674
+mpes-1.1.3.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+mpes-1.1.3.dist-info/top_level.txt,sha256=8bEuX8PcpUvxCf9F8D-X7iBZY2J73y5Fm-n506p3clE,5
+mpes-1.1.3.dist-info/RECORD,,
