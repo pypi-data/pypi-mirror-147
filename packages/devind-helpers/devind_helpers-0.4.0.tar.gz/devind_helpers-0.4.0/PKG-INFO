@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: devind-helpers
+Version: 0.4.0
+Summary: Devind helpers.
+Home-page: https://github.com/devind-team/devind-django-helpers
+License: MIT
+Keywords: django,graphene,helpers
+Author: Victor
+Author-email: lyferov@yandex.ru
+Requires-Python: >=3.9,<4.0
+Classifier: Framework :: Django
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Django (>=3.2.12,<5.0.0)
+Requires-Dist: flatten-dict (>=0.4.2,<0.5.0)
+Requires-Dist: graphene-django (>=2.15.0,<3.0.0)
+Requires-Dist: graphene-django-optimizer (>=0.8.0,<0.9.0)
+Requires-Dist: inflection (>=0.5.1,<0.6.0)
+Requires-Dist: openpyxl (>=3.0.9,<4.0.0)
+Requires-Dist: redis (>=4.1.4,<5.0.0)
+Project-URL: Repository, https://github.com/devind-team/devind-django-helpers
+Description-Content-Type: text/markdown
+
+# Devind helpers python library.
