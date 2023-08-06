@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+suef_simpletcp/BaseConnection.py
+suef_simpletcp/Client.py
+suef_simpletcp/Server.py
+suef_simpletcp/__init__.py
+suef_simpletcp.egg-info/PKG-INFO
+suef_simpletcp.egg-info/SOURCES.txt
+suef_simpletcp.egg-info/dependency_links.txt
+suef_simpletcp.egg-info/top_level.txt
