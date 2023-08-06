@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.cfg
+generated/emi/__init__.py
+generated/emi/__main__.py
+generated/emi/emi.py
+generated/emi.egg-info/PKG-INFO
+generated/emi.egg-info/SOURCES.txt
+generated/emi.egg-info/dependency_links.txt
+generated/emi.egg-info/entry_points.txt
+generated/emi.egg-info/requires.txt
+generated/emi.egg-info/top_level.txt
