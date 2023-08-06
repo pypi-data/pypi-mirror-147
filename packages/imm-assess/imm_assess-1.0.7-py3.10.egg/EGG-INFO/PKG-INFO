@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: imm-assess
+Version: 1.0.7
+Summary: A python client library used to assess client immigration possibilities.
+Home-page: UNKNOWN
+Author: Jacky Zhang
+Author-email: jackyzhang1969@gmail.com
+License: UNKNOWN
+Keywords: Canada,Immigration,Assess,Model,Programs,APIs
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+UNKNOWN
+
