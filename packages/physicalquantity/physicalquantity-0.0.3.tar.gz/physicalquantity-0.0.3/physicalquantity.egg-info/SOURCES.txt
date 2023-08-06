@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+physicalquantity/__init__.py
+physicalquantity.egg-info/PKG-INFO
+physicalquantity.egg-info/SOURCES.txt
+physicalquantity.egg-info/dependency_links.txt
+physicalquantity.egg-info/top_level.txt
