@@ -1,0 +1,3 @@
+[console_scripts]
+uhabits_converter=src.cli:main
+
