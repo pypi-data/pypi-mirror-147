@@ -1,0 +1,11 @@
+formpy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+formpy/answer.py,sha256=zXCS28UtezRduNc24y_Smx3rlCZHilVTk0MDh30al4I,2955
+formpy/form.py,sha256=dLHLmrqTiJF-HJqXwFFSoYlu9o8haaaOz2W5mbrDxHA,2324
+formpy/question.py,sha256=IRa_2fAwdQQd0aLGp4KzAlZFrxawGYej6wzjV68RTDs,2300
+formpy/template.py,sha256=Pyxg_GBIsJH0a2y1uCbnXE_MU09UG9nib7JFTB7kuuA,8734
+formpy/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+formpy/utils/img_processing.py,sha256=t4C3FhmJhwY04cnD8jHRxob_X_61TZDlUxG36w6zks4,7634
+formpy/utils/template_definition.py,sha256=rpGAt0aZoISbdNBACNPK4dWsITMF4cNhP-Cqr9ARM0k,1893
+formpy_omr-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+formpy_omr-0.1.0.dist-info/METADATA,sha256=2lZO04nJlSLZ4PWziq1xLGmM6ZW1DyxRWWIfoSAzyvw,442
+formpy_omr-0.1.0.dist-info/RECORD,,
