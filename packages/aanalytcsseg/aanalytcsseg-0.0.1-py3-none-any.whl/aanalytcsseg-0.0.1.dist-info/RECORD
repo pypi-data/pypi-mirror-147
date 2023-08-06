@@ -1,0 +1,14 @@
+aanalyticsseg/__init__.py,sha256=HycyeBqttDZl_VIV2WtYwdRbsx0TBF4sl8Q1rywBwoQ,284
+aanalyticsseg/__version__.py,sha256=ugyuFliEqtAwQmH4sTlc16YXKYbFWDmfyk87fErB8-8,21
+aanalyticsseg/actCreateSeg.py,sha256=7U0YtNsqACkhqyg1A7UzZlF9sUNoWSrY-BafkaIpJBE,11864
+aanalyticsseg/actCreateSegment.py,sha256=S5x7SiG3ddKKPPVscE5ciRhYqA3I-SjbqZKjCqMb6TA,2893
+aanalyticsseg/actGetSeg.py,sha256=ulyrYAvZnyyZK9g_oVa9pNj1QD2WYbbW47tO8rX8MYM,2863
+aanalyticsseg/actLibrarySeg.py,sha256=lf-kDmlDBWgkE7AzzyZHfJ5Atnjq9pxyiwBj8GKhSr0,1575
+aanalyticsseg/actSegmentLibrary.py,sha256=7iVY1UFuUOzxNwo8hMGrPeTKbWe-1OvLFS2n3NOkpXQ,1885
+aanalyticsseg/actSegmentSaver.py,sha256=1DHPY35DbCG1rG2r3WkiSDKl10ir7U3bm0yXlbDCgyo,2571
+aanalyticsseg/actUpdateSeg.py,sha256=UK0SPja66_U33RXhAZfcjOPHLaeyvjCEXQQRXKyZUqk,6622
+aanalyticsseg/actUpdateSegment.py,sha256=pd34DR52F2fO3MnOjdr4wrro7WtNMsohvGPmu4qQMmw,2859
+aanalytcsseg-0.0.1.dist-info/METADATA,sha256=aZmcilT-eMbpYKH6D8QUPlGLsK3N3g8Q4F6mcCZ6S5g,492
+aanalytcsseg-0.0.1.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+aanalytcsseg-0.0.1.dist-info/top_level.txt,sha256=aCdq69icqnWzYECgwnx2XZi67dU-NIxsxWFYgWdNWN4,14
+aanalytcsseg-0.0.1.dist-info/RECORD,,
