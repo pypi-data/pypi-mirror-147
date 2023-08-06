@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: fastapi-cloud-logging
+Version: 0.8.4
+Summary: Cloud Logging For FastAPI
+Home-page: https://github.com/quoth/fastapi-cloud-logging
+License: MIT
+Author: quoth
+Author-email: 4wordextinguisher@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: fastapi (>=0.71)
+Requires-Dist: google-cloud-logging (>=3,<4)
+Project-URL: Repository, https://github.com/quoth/fastapi-cloud-logging
+Description-Content-Type: text/markdown
+
+# fastapi-cloud-logging
+
+## Installation
+
+```sh
+pip install fastapi-cloud-logging
+```
+
+## Usage
+
+Add middleware and handler to send a request info to cloud logging.
+
+```python
+from fastapi import FastAPI
+from google.cloud.logging import Client
+from google.cloud.logging_v2.handlers import setup_logging
+
+from fastapi_cloud_logging import FastAPILoggingHandler, RequestLoggingMiddleware
+
+app = FastAPI()
+
+# Add middleware
+app.add_middleware(RequestLoggingMiddleware)
+
+# Use manual handler
+handler = FastAPILoggingHandler(Client())
+setup_logging(handler)
+```
+
