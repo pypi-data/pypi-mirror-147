@@ -1,0 +1,16 @@
+MANIFEST.in
+README.rst
+setup.py
+nonebot_plugin_dida/__init__.py
+nonebot_plugin_dida/config.py
+nonebot_plugin_dida.egg-info/PKG-INFO
+nonebot_plugin_dida.egg-info/SOURCES.txt
+nonebot_plugin_dida.egg-info/dependency_links.txt
+nonebot_plugin_dida.egg-info/requires.txt
+nonebot_plugin_dida.egg-info/top_level.txt
+nonebot_plugin_dida/file/source/changelog.md
+nonebot_plugin_dida/file/source/column.md
+nonebot_plugin_dida/file/source/project.md
+nonebot_plugin_dida/file/source/task.md
+nonebot_plugin_dida/file/template/task.json
+nonebot_plugin_dida/file/template/updateTask.json

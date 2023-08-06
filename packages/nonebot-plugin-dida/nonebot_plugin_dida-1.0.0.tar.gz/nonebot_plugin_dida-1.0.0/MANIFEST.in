@@ -1,0 +1,2 @@
+include nonebot_plugin_dida/file/template/*.json
+include nonebot_plugin_dida/file/source/*.md
