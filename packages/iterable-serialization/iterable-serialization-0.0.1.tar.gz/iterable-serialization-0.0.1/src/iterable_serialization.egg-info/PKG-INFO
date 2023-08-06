@@ -1,0 +1,94 @@
+Metadata-Version: 2.1
+Name: iterable-serialization
+Version: 0.0.1
+Summary: Serialization/deserialization of iterables of type 'str' to a single string.
+Home-page: https://github.com/stefantaubert/iterable-serialization
+Author: Stefan Taubert
+Author-email: stefan.taubert@posteo.me
+Maintainer: Stefan Taubert
+Maintainer-email: stefan.taubert@posteo.me
+License: MIT
+Project-URL: Homepage, https://github.com/stefantaubert/iterable-serialization
+Project-URL: Issues, https://github.com/stefantaubert/iterable-serialization/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Operating System :: OS Independent
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: BSD
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Unix
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# iterable-serialization
+
+Serialization/deserialization of iterables of type `str`.
+
+This package aims to be a better version of:
+
+```python
+serialized = "|".join(("a", "b", "c"))
+print(serialized)
+# a|b|c
+
+deserialized = serialized.split("|")
+print(deserialized)
+# ['a', 'b', 'c']
+```
+
+It makes it possible to serialize/deserialize an iterable with occurring symbols as separator:
+
+```python
+serialized = serialize_iterable(("a", "b", "c"), "a")
+print(serialized)
+# aabac
+
+deserialized = deserialize_iterable(serialized, "a")
+print(list(deserialized))
+# ['a', 'b', 'c']
+```
+
+With the version above, it would result in a wrong deserialization result:
+
+```python
+serialized = "a".join(("a", "b", "c"))
+print(serialized)
+# aabac
+
+deserialized = serialized.split("a")
+print(list(deserialized))
+# ['', '', 'b', 'c']
+```
+
+## Installation
+
+```sh
+pipenv install -e git+https://github.com/stefantaubert/iterable-serialization.git@master#egg=iterable_serialization
+```
+
+## Usage
+
+```python
+from iterable_serialization import deserialize_iterable, serialize_iterable
+
+serialized = serialize_iterable(("a", "b", "c"), "a")
+print(serialized)
+# aabac
+
+deserialized = deserialize_iterable(serialized, "a")
+print(list(deserialized))
+# ['a', 'b', 'c']
+```
+
+
