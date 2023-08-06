@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: rdm
+Version: 0.11.1
+Summary: Regulatory Documentation Manager
+Home-page: https://github.com/innolitics/rdm
+Author: Innolitics, LLC
+Author-email: info@innolitics.com
+License: MIT
+Keywords: regulatory documentation medical iec62304 iec82304 iso14971 510k
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Scientific/Engineering :: Medical Science Apps.
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/x-rst
+License-File: LICENSE.txt
+Requires-Dist: jinja2 (>=2.7)
+Requires-Dist: pyyaml
+Requires-Dist: gitpython
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: check-manifest ; extra == 'dev'
+Requires-Dist: sphinx ; extra == 'dev'
+Requires-Dist: sphinx-autobuild ; extra == 'dev'
+Requires-Dist: mock ; extra == 'dev'
+Requires-Dist: docutils ; extra == 'dev'
+Requires-Dist: coverage ; extra == 'dev'
+Provides-Extra: github
+Requires-Dist: pygithub ; extra == 'github'
+
+Regulatory Documentation Manager
+
