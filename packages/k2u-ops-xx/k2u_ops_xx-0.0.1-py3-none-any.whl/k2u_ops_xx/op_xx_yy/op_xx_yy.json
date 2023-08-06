@@ -1,0 +1,71 @@
+{
+  "env_prop_list": null,
+  "code": "op_xx_yy",
+  "name": "算子xx_yy",
+  "created_user": "admin",
+  "icon": null,
+  "description": "算子xx_yy",
+  "version": 1,
+  "environment": "python3",
+  "input_num": 1,
+  "output_num": 1,
+  "run_mode": "BOTH",
+  "scope": "PUBLIC",
+  "main_entry": "op_xx_yy.py",
+  "status": "NORMAL",
+  "parameter_list": [
+    {
+      "name": "ailab.operator.inputdata",
+      "alias": "ailab.operator.inputdata",
+      "description": "输入数据",
+      "value_addable": false,
+      "default_value": [
+        {
+          "var_type": "DATAFRAME",
+          "in_out": "INPUT",
+          "col_addable": false,
+          "editable": false,
+          "deletable": false,
+          "name": "input",
+          "description": "输入",
+          "columns": []
+        }
+      ],
+      "optional": false,
+      "type": "INPUT_DATA",
+      "value": null
+    },
+    {
+      "name": "ailab.operator.outputdata",
+      "alias": "ailab.operator.outputdata",
+      "description": "输出数据",
+      "value_addable": false,
+      "default_value": [
+        {
+          "var_type": "DATAFRAME",
+          "in_out": "OUTPUT",
+          "col_addable": false,
+          "editable": false,
+          "deletable": false,
+          "columns": [],
+          "name": "output",
+          "description": "输出",
+          "display_name": "输出"
+        }
+      ],
+      "optional": false,
+      "type": "OUTPUT_DATA",
+      "value": null
+    },
+    {
+      "name": "ailab.operator.operatorparams",
+      "alias": "ailab.operator.operatorparams",
+      "description": "算子run函数param中的变量描述",
+      "value_addable": false,
+      "default_value": [],
+      "optional": false,
+      "type": "SCRIPT_PARAM",
+      "value": null
+    }
+  ]
+}

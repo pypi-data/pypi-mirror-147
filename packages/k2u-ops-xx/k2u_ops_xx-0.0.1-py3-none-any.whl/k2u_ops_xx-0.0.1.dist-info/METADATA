@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: k2u-ops-xx
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: numpy (>=1.18.5)
+Requires-Dist: pandas (>=1.0.5)
+Requires-Dist: pytest
+
+k2assets 算子开发库
+
+*介绍*
+
+**重点内容**
+
+1. 求平均算子
+2. 追加算子
+
+
+``print('code ...')``
+
+
+## 客户端安装包 ##
+        pip3 install -i http://10.1.10.128:18080  pkk1 --trusted-host 10.1.10.128
+
+
+
