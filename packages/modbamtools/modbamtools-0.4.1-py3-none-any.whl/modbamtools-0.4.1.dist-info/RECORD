@@ -1,0 +1,16 @@
+cinder/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+modbamtools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+modbamtools/calcregions.py,sha256=S5f5mbgFTT8HmQy-FCacEjTXnifFCF2sI4T_3Bzwmqg,2625
+modbamtools/cli.py,sha256=fho8osRkQkQ8DmOvRosA3Ndqk9FZL1bIPfsCKa4EBok,13678
+modbamtools/clustering.py,sha256=JzuLLk8NarVEKy7VDSCJ0YHyn35yCS-yPuKTNr0bbqg,2919
+modbamtools/gene_models.py,sha256=MWNygWuU4qmos9g_-W-FnijC1cke7UFfX4mm06omg70,7036
+modbamtools/heterogeneity.py,sha256=DMQFAhwEi9iRo2WFkoBBb6xB3HQjgjivwog4pXy45cI,8007
+modbamtools/modbamviz.py,sha256=7DRAb4z86IpU62MrM7MnMCDSIGHVgllKV5MN-vDLEGk,6018
+modbamtools/tracks.py,sha256=CYxZ_oV1CVO4RVq6zdE8qYMA1qc3e_9dVQG5DysyVmw,7991
+modbamtools/utils.py,sha256=EOdFBle35nlKe5wKR7LuKuQGAF0yXmWQE5fGk0ZPCXQ,8490
+modbamtools-0.4.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+modbamtools-0.4.1.dist-info/METADATA,sha256=gd4SR8JdknKBcI8PD6nBZcLFeb-L8D3lNFY_l4bTpJU,2851
+modbamtools-0.4.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+modbamtools-0.4.1.dist-info/entry_points.txt,sha256=Ds7_Sy9tdBZzkDphRusdU20Z2hfEpIOTX9E7sw-HCdI,52
+modbamtools-0.4.1.dist-info/top_level.txt,sha256=8vDNp-l-Bp6oKK7QAneU-dlVoXG0mes-LO4Us1fWWwA,19
+modbamtools-0.4.1.dist-info/RECORD,,
