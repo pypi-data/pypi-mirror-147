@@ -1,0 +1,103 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Install DEV environment",
+            "type": "shell",
+            "command": "rm -rf .venv && python -m venv .venv && source .venv/bin/activate && python -m pip install --upgrade pip && python -m pip install -e \".[develop]\"",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [],
+            "windows": {
+                "command": "Remove-Item .\\.venv -Recurse -Force ; python -m venv .venv ; .\\.venv\\Scripts\\Activate.ps1 ; python -m pip install --upgrade pip ; python -m pip install -e \".[develop]\"",
+                "options": {
+                    "cwd": "${workspaceFolder}"
+                },
+                "problemMatcher": []
+            }
+        },
+        {
+            "label": "Install PROD environment",
+            "type": "shell",
+            "command": "rm -rf .venv && python -m venv .venv && source .venv/bin/activate && python -m pip install --upgrade pip && python -m pip install -e .",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [],
+            "windows": {
+                "command": "Remove-Item .\\.venv -Recurse -Force ; python -m venv .venv ; .\\.venv\\Scripts\\Activate.ps1 ; python -m pip install --upgrade pip ; python -m pip install -e .",
+                "options": {
+                    "cwd": "${workspaceFolder}"
+                },
+                "problemMatcher": []
+            }
+        },
+        {
+            "label": "Build project",
+            "type": "shell",
+            "command": "source .venv/bin/activate && python setup.py -v build install",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [],
+            "windows": {
+                "command": ".\\.venv\\Scripts\\Activate.ps1 ; python .\\setup.py -v build install",
+                "options": {
+                    "cwd": "${workspaceFolder}"
+                },
+                "problemMatcher": []
+            }
+        },
+        {
+            "label": "Clean project",
+            "type": "shell",
+            "command": "source .venv/bin/activate && python setup.py -v clean",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [],
+            "windows": {
+                "command": ".\\.venv\\Scripts\\Activate.ps1 ; python .\\setup.py clean",
+                "options": {
+                    "cwd": "${workspaceFolder}"
+                },
+                "problemMatcher": []
+            }
+        },
+        {
+            "label": "Code clean (all files)",
+            "type": "shell",
+            "command": "source .venv/bin/activate && pre-commit run --verbose --all-files --show-diff-on-failure",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [],
+            "windows": {
+                "command": ".\\.venv\\Scripts\\Activate.ps1 ; pre-commit run --verbose --all-files --show-diff-on-failure",
+                "options": {
+                    "cwd": "${workspaceFolder}"
+                },
+                "problemMatcher": []
+            }
+        },
+        {
+            "label": "Code clean (files have changed)",
+            "type": "shell",
+            "command": "source .venv/bin/activate && pre-commit run --verbose --show-diff-on-failure",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [],
+            "windows": {
+                "command": ".\\.venv\\Scripts\\Activate.ps1 ; pre-commit run --verbose --show-diff-on-failure",
+                "options": {
+                    "cwd": "${workspaceFolder}"
+                },
+                "problemMatcher": []
+            }
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug - Module",
+            "type": "python",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "python": "${workspaceFolder}/.venv/bin/python",
+            "module": "gsc",
+            "args": [
+                // Input param to self-test
+            ],
+            "justMyCode": false,
+            "windows": {
+                "python": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
+                "module": "gsc",
+                "args": [
+                    // Input param to self-test
+                ],
+                "justMyCode": false
+            },
+        },
+        {
+            "name": "Debug - Current file",
+            "type": "python",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "python": "${workspaceFolder}/.venv/bin/python",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "windows": {
+                "python": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
+                "program": "${file}",
+                "console": "integratedTerminal",
+                "justMyCode": false
+            }
+        }
+    ]
+}
