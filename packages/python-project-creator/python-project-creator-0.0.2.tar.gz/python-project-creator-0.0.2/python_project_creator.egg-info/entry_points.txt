@@ -1,0 +1,3 @@
+[console_scripts]
+ppc = ppc_cli.main:main
+
