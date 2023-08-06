@@ -1,0 +1,6 @@
+awscli
+patool
+datalad
+wget
+osfclient
+gdown
