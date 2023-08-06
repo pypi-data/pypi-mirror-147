@@ -1,0 +1,7 @@
+README.md
+find_zx.py
+setup.py
+find_zx.egg-info/PKG-INFO
+find_zx.egg-info/SOURCES.txt
+find_zx.egg-info/dependency_links.txt
+find_zx.egg-info/top_level.txt
