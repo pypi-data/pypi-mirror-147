@@ -1,0 +1,15 @@
+LICENSE.md
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+juicebox_notebook/__init__.py
+juicebox_notebook/browser.py
+juicebox_notebook/file_reader.py
+juicebox_notebook.egg-info/PKG-INFO
+juicebox_notebook.egg-info/SOURCES.txt
+juicebox_notebook.egg-info/dependency_links.txt
+juicebox_notebook.egg-info/top_level.txt
+juicebox_notebook/js/juicebox.min.js
+juicebox_notebook/js/localNotebookFile.js
+juicebox_notebook/js/messageHandler.js

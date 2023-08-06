@@ -1,0 +1,6 @@
+include juicebox/*
+recursive-include juicebox *.js
+recursive-include juicebox *.css
+recursive-include juicebox *.png
+recursive-include juicebox *.svg
+recursive-include juicebox *.map
