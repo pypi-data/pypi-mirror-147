@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: matrix2latex
+Version: 0.0.4
+Summary: A package to help researchers convert matrices and tensors to LaTeX tables.
+Home-page: https://github.com/ssaurab/matrix2latex
+Author: Saon
+Author-email: saonsa@protonmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/ssaurab/matrix2latex/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+A package to help researchers convert matrices and tensors to LaTeX tables directly in notebooks. Has options to add an index row and index columns. 
+
+Contributions and suggestions are welcome. 
+
