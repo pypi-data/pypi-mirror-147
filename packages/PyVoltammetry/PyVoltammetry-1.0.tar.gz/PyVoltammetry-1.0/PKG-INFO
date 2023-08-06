@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: PyVoltammetry
+Version: 1.0
+Summary: A Python package for analysing CV curves of electrocatalysts
+Home-page: https://github.com/kkyang26/PyVoltammetry
+Author: Yang Li
+Author-email: yli52156@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+PyVoltammetry
+----------
+
+`PyVoltammetry` is a Python package for analysing CV curves of electrocatalysts.
+
+Py includes modules for
+- Importing data
+- Splitting double layer and different peaks
+- Calculating the peak area
+- visualising results.
+
+
+## Installation
+
+You can download the package and paste `PyVoltammetry` folder into the root directory of your project.
+
+Or an easier way is from [PyPI](https://pypi.org/project/PyVoltammetry/) using pip.
+
+```bash
+pip install PyVoltammetry
+```
+

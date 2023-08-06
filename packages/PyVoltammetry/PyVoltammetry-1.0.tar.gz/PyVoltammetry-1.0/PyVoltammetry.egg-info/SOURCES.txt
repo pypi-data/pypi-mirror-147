@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+PyVoltammetry/__init__.py
+PyVoltammetry.egg-info/PKG-INFO
+PyVoltammetry.egg-info/SOURCES.txt
+PyVoltammetry.egg-info/dependency_links.txt
+PyVoltammetry.egg-info/requires.txt
+PyVoltammetry.egg-info/top_level.txt
+PyVoltammetry/analyse/AnalyseCV.py
+PyVoltammetry/analyse/TransferData.py
+PyVoltammetry/analyse/__init__.py
+PyVoltammetry/visualisation/ShowFigure.py
+PyVoltammetry/visualisation/__init__.py
