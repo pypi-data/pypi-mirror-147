@@ -1,0 +1,17 @@
+stockwell/__init__.py,sha256=ADWx8rcRu6xxy1vL9aC2NgAI7YSVjNfi-lQ2jTVcfSU,207
+stockwell/_version.py,sha256=05Su03Q2G8MeURTa4QQw7R3YAkzSak2tItjQxEc-VbA,497
+stockwell/c_libs/stmodule.c,sha256=F3mPslxjYOl5sMEae8MsydN2mGbaTS49WAiNXSSWd3I,5025
+stockwell/c_libs/sinemodule.c,sha256=VTbVg-nO4Q6AiviB4SCAJ4Rf_rIrs4VYpuN08bznSQU,2472
+stockwell/c_libs/st_types.h,sha256=k4Ka2oiwSOggod8hYe6jF8WfzYKyl9VA7udthPadli4,63
+stockwell/c_libs/st.c,sha256=3yy1cGVmPcOs1_Puoc3gdkSgGm14j5cLv9ONJMt3VC4,8704
+stockwell/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stockwell/lib/st.cpython-36m-i386-linux-gnu.so,sha256=fkbgR-NX_NXUH3yVL69EU8viRZYFCbdYnTVXgt5wJt8,62412
+stockwell/lib/sine.cpython-36m-i386-linux-gnu.so,sha256=0vQ7mYMS4S04wF79nDL3hmcxeizNjCYkh4Efwuh0YbA,38636
+stockwell/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stockwell/tests/test_stockwell.py,sha256=v0C_cL_OVubAFjhmRC1RuS336oOsCQ2W-_64U7fX1Wo,665
+stockwell-1.0.6.dist-info/RECORD,,
+stockwell-1.0.6.dist-info/METADATA,sha256=u-7SpP5LjLBFjnvgob2rORpnlp0t0SWL_Js88ZIitXU,5149
+stockwell-1.0.6.dist-info/top_level.txt,sha256=3gtl9vn5edrQB9mJMSrf868Bc1ng57oQSw6LZwD6HKU,18
+stockwell-1.0.6.dist-info/WHEEL,sha256=Hp9YkCGGCfuN351EtloZ52--FHyb2SJ8-a0P6IH8Wpw,146
+stockwell-1.0.6.dist-info/LICENSE.txt,sha256=rWJoZt3vach8ZNdLq-Ee5djzCMFnJ1gIfBeJU5RIop4,21782
+stockwell.libs/libfftw3-3deb7d87.so.3.2.3,sha256=Gx6BDQvUj5xnbPylHPIbeC33jpGFCY_SPWi5Au3d8Dw,849872
