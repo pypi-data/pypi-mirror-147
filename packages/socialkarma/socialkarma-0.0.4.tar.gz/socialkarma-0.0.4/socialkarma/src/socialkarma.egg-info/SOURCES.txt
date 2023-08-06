@@ -1,0 +1,7 @@
+LICENSE.txt
+setup.cfg
+setup.py
+socialkarma/src/socialkarma.egg-info/PKG-INFO
+socialkarma/src/socialkarma.egg-info/SOURCES.txt
+socialkarma/src/socialkarma.egg-info/dependency_links.txt
+socialkarma/src/socialkarma.egg-info/top_level.txt
