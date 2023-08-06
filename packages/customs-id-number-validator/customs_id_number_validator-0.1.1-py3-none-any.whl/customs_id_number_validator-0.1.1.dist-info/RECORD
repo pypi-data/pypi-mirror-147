@@ -1,0 +1,10 @@
+customs_id_number/__init__.py,sha256=OlpeZpulZwGUtRUWYAzW2A6PU1yoCmKOAM8h2oJf3QU,235
+customs_id_number/customs_id_number.py,sha256=wkOlzV4CaLeh3u-qwXV86WXEpJmhRuNgXet8zL8O8x0,3002
+package/__init__.py,sha256=_-xz-HC_Tv1wbtcHdxO16SyttKjL0ZiBH-l_eisKyBk,232
+package/customs_id_number.py,sha256=wkOlzV4CaLeh3u-qwXV86WXEpJmhRuNgXet8zL8O8x0,3002
+customs_id_number_validator-0.1.1.dist-info/LICENSE,sha256=vD__ELbMq3Vre6cCRJOvF-YC-eX29La_dNm6YeSzNZE,1077
+customs_id_number_validator-0.1.1.dist-info/METADATA,sha256=O7-mu8MRdRoNDlZkoN6feOgaK4jflKRX5IVsS65I5Ao,729
+customs_id_number_validator-0.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+customs_id_number_validator-0.1.1.dist-info/entry_points.txt,sha256=FZOA33jbUIr6QKoWsxW1c7Q_4yStk6uYgZu_rnF237A,98
+customs_id_number_validator-0.1.1.dist-info/top_level.txt,sha256=Oz5guDIKP5dlSXkSeoOsdmU6CQBXFamqAdQZd2NpukA,18
+customs_id_number_validator-0.1.1.dist-info/RECORD,,
