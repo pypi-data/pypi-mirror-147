@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+AirtablePy/__init__.py
+AirtablePy/api.py
+AirtablePy/query.py
+AirtablePy/utils.py
+AirtablePy.egg-info/PKG-INFO
+AirtablePy.egg-info/SOURCES.txt
+AirtablePy.egg-info/dependency_links.txt
+AirtablePy.egg-info/requires.txt
+AirtablePy.egg-info/top_level.txt
