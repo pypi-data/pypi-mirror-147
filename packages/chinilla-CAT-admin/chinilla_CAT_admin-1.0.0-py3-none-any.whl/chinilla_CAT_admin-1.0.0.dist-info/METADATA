@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: chinilla-CAT-admin
+Version: 1.0.0
+Summary: Tools to administer issuance and redemption of a Chinilla Asset Token or CAT
+Home-page: https://github.com/Chinilla
+Author: Edward Teach
+Author-email: edward@chinilla.net
+License: https://opensource.org/licenses/Apache-2.0
+Project-URL: Bug Reports, https://github.com/Chinilla/chinilla-CAT-admin
+Project-URL: Source, https://github.com/Chinilla/chinilla-CAT-admin
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Security :: Cryptography
+License-File: LICENSE
+Requires-Dist: chinilla-blockchain
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+
+UNKNOWN
+
