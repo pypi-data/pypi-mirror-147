@@ -1,0 +1,13 @@
+pylinal/__init__.py,sha256=CBJlDmkat_Krg00qoxmFTBcXrLZBpd_HkhBjZVEIOW4,179
+pylinal/matrix.py,sha256=XhPPqDnyFzeMIxa-Lr69v3VvIbLhd84juCuqeHgv-XI,7410
+pylinal/typedefs.py,sha256=ZhyjSapaiEkpKNEroRQRmsQZ8MLOt_GyVtWJ6oqo-8g,311
+pylinal/vector.py,sha256=hVE9Jk8ih_pDGm4WNN2nNSD2QuF1faxAyzn8zM-7mCQ,5102
+pylinal/functions/__init__.py,sha256=F1tNDkll7YC-bwo0lokGFfCt6ggQPpT6BIFEMTY7CUg,93
+pylinal/functions/func.py,sha256=GsnAZXNtuMSG1x1Swl5o9-PypzaC3IEnku4J79o5Jmc,2032
+pylinal/functions/matrixfunc.py,sha256=o0qjxGNp1hviz12CCvgnsn3pVmsvTQ8F5OP2hYfBcSQ,4648
+pylinal/functions/vectorfunc.py,sha256=hoqas8hiHHh8rdUqty-gWOj6BQNgYlBeQezIM1s1-gg,3807
+pylinal-0.1.3.dist-info/LICENSE,sha256=rNYAWP8HbvGPBH9zdOrdYh2SbAuZ3gKA8M8OBdSxA4o,1067
+pylinal-0.1.3.dist-info/METADATA,sha256=I3etccjcdf333phttzO-KjmQjnF-CyOg_hgmsoq0plk,2203
+pylinal-0.1.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pylinal-0.1.3.dist-info/top_level.txt,sha256=eD8EI8ssk3amEHyF6mJRCgNNy2Gr8lI2lewNJB4lFCw,8
+pylinal-0.1.3.dist-info/RECORD,,
