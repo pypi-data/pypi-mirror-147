@@ -1,0 +1,3 @@
+[console_scripts]
+AMR_Summary = amr_summary.amr_summary:cli
+

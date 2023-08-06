@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+AMR_Summary.egg-info/PKG-INFO
+AMR_Summary.egg-info/SOURCES.txt
+AMR_Summary.egg-info/dependency_links.txt
+AMR_Summary.egg-info/entry_points.txt
+AMR_Summary.egg-info/top_level.txt
+amr_summary/__init__.py
+amr_summary/amr_summary.py
+amr_summary/version.py
