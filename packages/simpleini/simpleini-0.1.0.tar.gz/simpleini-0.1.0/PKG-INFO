@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: simpleini
+Version: 0.1.0
+Summary: Simple use ini files
+Author: to101
+Author-email: to101kv@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
