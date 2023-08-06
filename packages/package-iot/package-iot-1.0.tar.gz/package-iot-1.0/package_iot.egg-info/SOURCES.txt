@@ -1,0 +1,12 @@
+setup.cfg
+setup.py
+package-iot/Binomialdistribution.py
+package-iot/Gaussiandistribution.py
+package-iot/Generaldistribution.py
+package-iot/__init__.py
+package-iot/iot.py
+package_iot.egg-info/PKG-INFO
+package_iot.egg-info/SOURCES.txt
+package_iot.egg-info/dependency_links.txt
+package_iot.egg-info/not-zip-safe
+package_iot.egg-info/top_level.txt
