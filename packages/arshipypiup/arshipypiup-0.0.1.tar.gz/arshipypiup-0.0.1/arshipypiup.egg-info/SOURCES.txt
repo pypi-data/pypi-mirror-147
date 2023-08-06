@@ -1,0 +1,8 @@
+README.md
+setup.py
+arshipypiup/__init__.py
+arshipypiup.egg-info/PKG-INFO
+arshipypiup.egg-info/SOURCES.txt
+arshipypiup.egg-info/dependency_links.txt
+arshipypiup.egg-info/not-zip-safe
+arshipypiup.egg-info/top_level.txt
