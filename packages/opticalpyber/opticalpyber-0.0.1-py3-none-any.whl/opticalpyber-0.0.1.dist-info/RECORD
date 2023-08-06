@@ -1,0 +1,10 @@
+opticalpyber/__init__.py,sha256=9u6NXakq-0ntze5ZHnBGhA8F4zD-vew9tnL5FduJ6wo,361
+opticalpyber/optical_fiber.py,sha256=G9Aa3QgRHJ3cc93hFOEEQRn9Khoc_oQYp1v4MiXtL_M,3495
+opticalpyber/planar_waveguide.py,sha256=gBcGXxFyep0mEyhBOeKcr1LV655p3AzW-quEvrs6QCY,4196
+opticalpyber/retangular_waveguide.py,sha256=DtAfTnEdTlGiOTZ8d7vB3sPvRQqKhGc0ziUZhbB4CJA,13578
+opticalpyber/waveguide.py,sha256=lZcp86D1l5wuggnRiQKaySEINhVjwXyGP1iXy9qEo40,3261
+opticalpyber-0.0.1.dist-info/LICENSE,sha256=TKhAKflqCEska4j5jEIAPT8ZkhF7NQssOujOLVBKwcs,1093
+opticalpyber-0.0.1.dist-info/METADATA,sha256=cVMplYQDxi-Nv5WVOqSCaDfZ9ZM9XhR9skTOfSxEerY,5185
+opticalpyber-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+opticalpyber-0.0.1.dist-info/top_level.txt,sha256=73Kq5kw2YFCf936YvazYMEzZJo5y18fGp1qW47VHPlc,13
+opticalpyber-0.0.1.dist-info/RECORD,,
