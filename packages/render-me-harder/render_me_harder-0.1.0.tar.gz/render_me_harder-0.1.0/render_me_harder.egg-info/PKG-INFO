@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: render-me-harder
+Version: 0.1.0
+Summary: Stupidly simple API for rendering 3D models to images
+Home-page: https://github.com/minexew/render_me_harder
+Author: minexew
+Author-email: minexew@gmail.com
+License: MIT license
+Keywords: render_me_harder
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+License-File: LICENSE
+
+================
+render_me_harder
+================
+
+
+.. image:: https://img.shields.io/pypi/v/render_me_harder.svg
+        :target: https://pypi.python.org/pypi/render_me_harder
+
+.. image:: https://img.shields.io/travis/minexew/render_me_harder.svg
+        :target: https://travis-ci.com/minexew/render_me_harder
+
+.. image:: https://readthedocs.org/projects/render-me-harder/badge/?version=latest
+        :target: https://render-me-harder.readthedocs.io/en/latest/?version=latest
+        :alt: Documentation Status
+
+
+
+
+Stupidly simple API for rendering 3D models to images
+
+
+* Free software: MIT license
+* Documentation: ~~https://render-me-harder.readthedocs.io.~~
+
+It exports exactly one function: ::
+
+    def render_frames(mesh: trimesh.Trimesh,
+                      w: int,
+                      h: int,
+                      num_frames: int) -> Sequence[Image.Image]
+
+
+Features
+--------
+
+* easy to use
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
