@@ -1,0 +1,18 @@
+providers:
+  -
+    name: digitalocean
+    api_token:
+  -
+    name: linode
+    api_token:
+  -
+    name: vultr
+    api_token:
+  -
+    name: aws
+    api_token:
+      region:
+      access_key:
+      secret_key:
+
+default: digitalocean
