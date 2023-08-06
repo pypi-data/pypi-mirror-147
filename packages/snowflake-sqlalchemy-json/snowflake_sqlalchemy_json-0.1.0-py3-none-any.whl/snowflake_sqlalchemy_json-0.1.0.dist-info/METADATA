@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: snowflake-sqlalchemy-json
+Version: 0.1.0
+Summary: A library to handle JSON with snowflake-sqlalchemy.
+Home-page: https://github.com/masamitsu-murase/snowflake-sqlalchemy-json
+Author: Masamitsu MURASE
+Author-email: masamitsu.murase@gmail.com
+License: MIT
+Project-URL: Bug Reports, https://github.com/masamitsu-murase/snowflake-sqlalchemy-json/issues
+Project-URL: Source, https://github.com/masamitsu-murase/snowflake-sqlalchemy-json
+Keywords: snowflake sqlalchemy
+Platform: UNKNOWN
+Requires-Python: >=3.7.*, <4
+Description-Content-Type: text/markdown
+Requires-Dist: snowflake-sqlalchemy
+Provides-Extra: package
+Requires-Dist: wheel ; extra == 'package'
+Requires-Dist: twine ; extra == 'package'
+Provides-Extra: test
+
+# snowflake-sqlalchemy-json
+
+This is a library to handle JSON data.
+
+
