@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: Bruni
+Version: 0.0.3
+Summary: Portfolio Analysis
+Home-page: UNKNOWN
+Author: Federico Bruni
+Author-email: brunifederico99@gmail.com
+License: UNKNOWN
+Keywords: python,portfolio,standard deviation,std,stocks,Bruni
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Operating System :: MacOS :: MacOS X
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: pandas
+Requires-Dist: pandas-datareader
+Requires-Dist: numpy
+Requires-Dist: datetime
+
+This package allows you to compute the standard deviation of a portfolio, 
+whatever it is the number of stocks are in it, or the correlation table.
+------------------------------------------------------------------------------------------------------
+The algorithm for the standard deviation of the portfolio follow this formula 
+and it's based on the returns of the stocks:
+σ² = Σ°Σ'[w°w'σ(R°,R')]
+
+
