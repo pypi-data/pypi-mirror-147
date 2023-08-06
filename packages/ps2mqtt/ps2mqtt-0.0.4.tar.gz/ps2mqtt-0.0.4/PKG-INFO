@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: ps2mqtt
+Version: 0.0.4
+Summary: Daemon that pushes psutil information to mqtt broker
+Home-page: https://github.com/dgomes/ps2mqtt
+Author: Diogo Gomes
+Author-email: diogogomes@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.0
+Classifier: Topic :: Utilities
+Classifier: Environment :: No Input/Output (Daemon)
+Classifier: Operating System :: POSIX
+Classifier: Intended Audience :: System Administrators
+License-File: LICENSE
+
+UNKNOWN
+
