@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+tark/__init__.py
+tark/parser.py
+tark/states.py
+tark/structures.py
+tark/tark.py
+tark/tokenizer.py
+tark.egg-info/PKG-INFO
+tark.egg-info/SOURCES.txt
+tark.egg-info/dependency_links.txt
+tark.egg-info/top_level.txt
