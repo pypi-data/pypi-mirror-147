@@ -1,0 +1,6 @@
+setup.py
+FCoRE.egg-info/PKG-INFO
+FCoRE.egg-info/SOURCES.txt
+FCoRE.egg-info/dependency_links.txt
+FCoRE.egg-info/requires.txt
+FCoRE.egg-info/top_level.txt
