@@ -1,0 +1,9 @@
+asyncclick>=8.0
+anyio>=3.5
+ruamel.yaml>=0.17
+deflatable-dict>=0.3
+tqdm>=4
+kubernetes>=22.6
+
+[tests]
+pytest==6.2.4
