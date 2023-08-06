@@ -1,0 +1,11 @@
+juicebox_notebook/__init__.py,sha256=FYdHGLF2BCwxez_7i3AR4p2BJauz8RdZ3EILOsfXHHU,35
+juicebox_notebook/browser.py,sha256=hprkabO0hk8FN2ybEDhTpNYJLHtDRT6W7H0C2ipKVBs,5327
+juicebox_notebook/file_reader.py,sha256=x20jc-HHoQqK4UDAb8Tb4cHlHDtWCGTv_iF-1t_DEvA,1667
+juicebox_notebook/js/juicebox.min.js,sha256=ctYbKPUFYXr2tpgAu7EjbpE8OQyi2pVxkBeNiVJezJk,540543
+juicebox_notebook/js/localNotebookFile.js,sha256=s0WbTlh44zX7dzPeyOQbGpYiXBsQR61KSJSXyL_xgwQ,6347
+juicebox_notebook/js/messageHandler.js,sha256=kjc4JjO41T_ucX-alrt7oK7OhAc9GbXjaeymkBAxExc,8778
+juicebox_notebook-0.2.0.dist-info/LICENSE.md,sha256=DfkjtuRWWtWSgA0_Wjbb8XgXPvPCywK1lCLGYbLSSPw,1140
+juicebox_notebook-0.2.0.dist-info/METADATA,sha256=K6lQfKeroSiIdPpU_I0C8-FY1WecD0aL9W14JxIbfh0,7997
+juicebox_notebook-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+juicebox_notebook-0.2.0.dist-info/top_level.txt,sha256=TOpjrcGz_nEnyPEjXVCBF_pLnXKSKbTqVLCRc8yB-U8,18
+juicebox_notebook-0.2.0.dist-info/RECORD,,
