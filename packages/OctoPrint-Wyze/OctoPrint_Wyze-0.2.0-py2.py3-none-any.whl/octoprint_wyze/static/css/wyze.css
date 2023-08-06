@@ -1,0 +1,141 @@
+.wyze-table {
+    display: block;
+    margin: 0 auto;
+    overflow-x: auto;
+}
+
+.wyze-table :is(td, th) {
+    text-align: center !important;
+    vertical-align: middle !important;
+}
+
+.wyze-nowrap {
+    white-space: nowrap;
+}
+
+.wyze-list {
+    padding-left: 0px;
+    overflow-x: auto;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.wyze-list li:not(:first-child) {
+    margin-left: 20px;
+}
+
+.wyze-pending-actions {
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+.wyze-registration {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.wyze-delay {
+    margin-top: 12px;
+    max-width: 40px;
+    text-align: left !important;
+    -moz-appearance:textfield; /* Firefox */
+}
+
+.wyze-delay::-webkit-outer-spin-button,
+.wyze-delay::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+.wyze-sticky-column {
+    background-color: ghostwhite;
+    left: 0;
+    position: sticky;
+    z-index: 1;
+}
+
+.wyze-sticky-column-first-row {
+    background-color: white;
+    left: 0;
+    position: sticky;
+    z-index: 1;
+}
+
+.themeify.cyborg .wyze-sticky-column {
+    background-color: #0099CC; /* @blueDark */
+    color: white;
+    left: 0;
+    position: sticky;
+    z-index: 1;
+}
+
+.themeify.cyborg .wyze-sticky-column-first-row {
+    background-color: #060606; /* @bodyBackground */
+    left: 0;
+    position: sticky;
+    z-index: 1;
+}
+
+.themeify.discoranged .wyze-sticky-column {
+    background-color: #FC8003; /* @orange */
+    color: #2f3136; /* @notquiteBlack */
+    left: 0;
+    position: sticky;
+    z-index: 1;
+}
+
+.themeify.discoranged .wyze-sticky-column-first-row {
+    background-color: #2f3136; /* @notquiteBlack */
+    left: 0;
+    position: sticky;
+    z-index: 1;
+}
+
+.themeify.discorded .wyze-sticky-column {
+    background-color: #7289DA; /* @blurple */
+    color: white;
+    left: 0;
+    position: sticky;
+    z-index: 1;
+}
+
+.themeify.discorded .wyze-sticky-column-first-row {
+    background-color: #36393f; /* @darkish */
+    left: 0;
+    position: sticky;
+    z-index: 1;
+}
+
+.themeify.dyl .wyze-sticky-column {
+    background-color: #4caf50;
+    color: white;
+    left: 0;
+    position: sticky;
+    z-index: 1;
+}
+
+.themeify.nighttime .wyze-sticky-column {
+    background-color: #34383C;
+    left: 0;
+    position: sticky;
+    z-index: 1;
+}
+
+.themeify.nighttime .wyze-sticky-column-first-row {
+    background-color: #232629;
+    left: 0;
+    position: sticky;
+    z-index: 1;
+}
+
+.themeify.nighttime th {
+    border: 0;
+}
