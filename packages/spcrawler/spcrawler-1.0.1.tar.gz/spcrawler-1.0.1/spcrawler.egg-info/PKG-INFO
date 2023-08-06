@@ -1,0 +1,131 @@
+Metadata-Version: 2.1
+Name: spcrawler
+Version: 1.0.1
+Summary: spcrawler:  A command-line tool to backup Sharepoint public installations data from open API endpoint
+Home-page: https://github.com/ruarxive/spcrawler/
+Download-URL: https://github.com/ruarxive/spcrawler/
+Author: Ivan Begtin
+Author-email: ivan@begtin.tech
+License: Apache 2.0
+Keywords: backup archive metadata sharepoint
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Topic :: Software Development
+Classifier: Topic :: System :: Networking
+Classifier: Topic :: Terminals
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Utilities
+Provides-Extra: python_version == "3.0" or python_version == "3.1"
+License-File: LICENSE
+License-File: AUTHORS.rst
+
+spcrawler: a command-line tool to backup Sharepoint public installation data from open API endpoint
+########################################################################################################################
+
+spcrawler is a command-line tool to backup Sharepoint public installation data from open API endpoint
+It uses Sharepoint API located at "/_api/web" and dumps all data and resources.
+
+
+.. contents::
+
+.. section-numbering::
+
+
+
+Main features
+=============
+
+* Metadata extraction
+* Download all files (resources) from Sharepoint installation
+
+
+
+Installation
+============
+
+
+Any OS
+-------------
+
+A universal installation method (that works on Windows, Mac OS X, Linux, …,
+and always provides the latest version) is to use pip:
+
+
+.. code-block:: bash
+
+    # Make sure we have an up-to-date version of pip and setuptools:
+    $ pip install --upgrade pip setuptools
+
+    $ pip install --upgrade spcrawler
+
+
+(If ``pip`` installation fails for some reason, you can try
+``easy_install spcrawler`` as a fallback.)
+
+
+Python version
+--------------
+
+Python version 3.6 or greater is required.
+
+Usage
+=====
+
+
+Synopsis:
+
+.. code-block:: bash
+
+    $ spcrawler [command] [flags]
+
+
+See also ``python -m spcrawler`` and ``spcrawler [command] --help`` for help for each command.
+
+
+
+Commands
+========
+
+Ping command
+------------
+Pings API endpoint located at url + "/_api/web" and returns OK if it's available.
+
+
+Ping asutk.ru API endpoint
+
+.. code-block:: bash
+
+    $ spcrawler ping --url https://asutk.ru
+
+
+
+Walk command
+------------
+Lists objects in Sharepoint installation
+
+Walks over FA.ru website objects
+
+.. code-block:: bash
+
+    $ spcrawler walk --url http://fa.ru
+
+Dump command
+------------
+Dumps all objects/lists/data from API to JSON lines files. Stores all data to local path "domainname/data"
+
+Dumps data from FA.ru (Financial university) website
+
+.. code-block:: bash
+
+    $ spcrawler dump --url http://fa.ru
+
+
+

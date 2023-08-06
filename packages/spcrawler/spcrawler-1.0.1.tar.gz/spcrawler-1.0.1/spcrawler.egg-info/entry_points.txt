@@ -1,0 +1,2 @@
+[console_scripts]
+spcrawler = spcrawler.__main__:main
