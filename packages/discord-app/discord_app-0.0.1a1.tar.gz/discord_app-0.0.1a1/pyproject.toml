@@ -1,0 +1,93 @@
+[build-system]
+requires = [
+    "poetry-core>=1.0.0"
+]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "discord_app"
+version = "0.0.1-alpha.1"
+description = "Discord Interaction Application framework for Python"
+authors = ["JackyCCC <jacky9813@hotmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/jacky9813/discord_app"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4"
+requests = "^2.27.1"
+Flask = "^2.1.1"
+PyNaCl = "^1.4.0"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^4.0.1"
+tox = "^3.25.0"
+pytest = "^7.1.1"
+pytest-cov = "^3.0.0"
+mypy = "^0.942"
+types-requests = "^2.27.20"
+
+[tool.pytest.ini_options]
+addopts = "--cov=src/discord_app"
+testpaths = [
+    "tests/all.py",
+]
+
+[tool.mypy]
+mypy_path = "src"
+disallow_untyped_defs = true
+check_untyped_defs = true
+disallow_any_generics = true
+ignore_missing_imports = true
+no_implicit_optional = true
+show_error_codes = true
+strict_equality = true
+warn_redundant_casts = true
+warn_return_any = true
+warn_unreachable = true
+warn_unused_configs = true
+no_implicit_reexport = true
+
+[tool.tox]
+legacy_tox_ini = """
+[tox]
+minversion=3.20.0
+envlist = py39, py310, flake8, mypy
+isolated_build = true
+
+[gh-actions]
+python = 
+    3.9: py39, mypy, flake8
+    3.10: py310
+
+[tox:.package]
+basepython = python3
+
+[testenv]
+setenv = 
+    PYTHONPATH = {toxinidir}
+deps = 
+    -r{toxinidir}/requirements_dev.txt
+commands = 
+    pytest --basetemp={envtmpdir}
+passenv = *
+
+[testenv:flake8]
+basepython = python3.9
+deps = flake8
+commands = flake8 src
+
+[testenv:mypy]
+basepython = python3.9
+deps = 
+    -r{toxinidir}/requirements_dev.txt
+commands = mypy src
+"""
