@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+dist/obfuscated/btatt/__init__.py
+dist/obfuscated/btatt/att.py
+dist/obfuscated/btatt/client.py
+dist/obfuscated/btatt/server.py
+dist/obfuscated/btatt.egg-info/PKG-INFO
+dist/obfuscated/btatt.egg-info/SOURCES.txt
+dist/obfuscated/btatt.egg-info/dependency_links.txt
+dist/obfuscated/btatt.egg-info/requires.txt
+dist/obfuscated/btatt.egg-info/top_level.txt
+dist/obfuscated/btatt/pytransform/__init__.py
+dist/obfuscated/btatt/pytransform/_pytransform.so
