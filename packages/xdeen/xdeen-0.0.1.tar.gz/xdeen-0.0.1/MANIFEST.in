@@ -1,0 +1,2 @@
+include xdeen/static/*
+include xdeen/static/**/*

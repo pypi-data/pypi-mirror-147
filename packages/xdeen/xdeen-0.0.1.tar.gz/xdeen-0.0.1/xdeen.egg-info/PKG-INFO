@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: xdeen
+Version: 0.0.1
+Summary: AI trading network for cryptocurrencies
+Home-page: https://xdeen.net
+Author: Sherif Light
+Author-email: sherif@xdeen.net
+License: UNKNOWN
+Project-URL: Documentation, https://docs.xdeen.net
+Project-URL: Say Thanks!, https://xdeen.net/discord
+Project-URL: Source, https://github.com/xdeen-ai/xdeen
+Project-URL: Tracker, https://github.com/xdeen-ai/xdeen/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# xdeen-core
+
+
