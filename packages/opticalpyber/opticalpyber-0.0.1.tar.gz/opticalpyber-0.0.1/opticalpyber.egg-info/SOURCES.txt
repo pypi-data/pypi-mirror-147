@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+opticalpyber/__init__.py
+opticalpyber/optical_fiber.py
+opticalpyber/planar_waveguide.py
+opticalpyber/retangular_waveguide.py
+opticalpyber/waveguide.py
+opticalpyber.egg-info/PKG-INFO
+opticalpyber.egg-info/SOURCES.txt
+opticalpyber.egg-info/dependency_links.txt
+opticalpyber.egg-info/requires.txt
+opticalpyber.egg-info/top_level.txt
