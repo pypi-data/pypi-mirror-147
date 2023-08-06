@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: pdemo
+Version: 0.0.1
+Summary: pip demo
+Home-page: https://github.com/ezhonca/pdemo.git
+Author: caizhongming
+Author-email: zhongming.cai@foxmail.com
+License: MIT Licence
+Description: pip demo!!!
+Keywords: pip,pathtool,timetool,magetool,mage
+Platform: any
