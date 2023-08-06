@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: my-best-python-project
+Version: 0.0.1
+Summary: My Best Python Project
+Home-page: https://github.com/eggplants/my-best-python-project
+Author: eggplants
+Author-email: w10776e8w@yahoo.co.jp
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: types
+Provides-Extra: all
+License-File: LICENSE
+
+# My best python project
+
+[![PyPI](
+  https://img.shields.io/pypi/v/my-best-python-project?color=blue
+  )](
+  https://pypi.org/project/my-best-python-project/
+) [![Maintainability](
+  https://api.codeclimate.com/v1/badges/e6d94059d1dc7f08d2a4/maintainability
+  )](
+  https://codeclimate.com/github/eggplants/my-best-python-project/maintainability
+)
+
+[![pre-commit.ci status](
+  https://results.pre-commit.ci/badge/github/eggplants/my-best-python-project/master.svg
+  )](
+  https://results.pre-commit.ci/latest/github/eggplants/my-best-python-project/master
+) [![pages-build-deployment](
+  https://github.com/eggplants/my-best-python-project/actions/workflows/pages/pages-build-deployment/badge.svg
+  )](
+  https://github.com/eggplants/my-best-python-project/actions/workflows/pages/pages-build-deployment
+)
+
+This is a sample project.
+
+## Installation
+
+```sh
+pip install git+https://github.com/eggplants/my-best-python-project
+# or,
+pip install my-best-python-project
+```
+
+## License
+
+[MIT License](https://github.com/eggplants/my-best-python-project/blob/master/LICENSE)
+
+
