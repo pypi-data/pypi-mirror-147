@@ -1,0 +1,4 @@
+com_ineuron_utils
+detectron2
+tf2
+yolo
