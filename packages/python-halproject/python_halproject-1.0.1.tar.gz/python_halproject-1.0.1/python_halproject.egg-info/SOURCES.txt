@@ -1,0 +1,7 @@
+setup.py
+hal/__init__.py
+python_halproject.egg-info/PKG-INFO
+python_halproject.egg-info/SOURCES.txt
+python_halproject.egg-info/dependency_links.txt
+python_halproject.egg-info/requires.txt
+python_halproject.egg-info/top_level.txt
