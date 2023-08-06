@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: odoo14-addon-jsonifier
+Version: 14.0.0.1.1.dev1
+Summary: JSON-ify data for all models - SKELETON
+Home-page: https://github.com/OCA/server-tools
+Author: Akretion, ACSONE, Camptocamp, Odoo Community Association (OCA)
+Author-email: support@odoo-community.org
+License: LGPL-3
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 14.0
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Requires-Python: >=3.6
+Requires-Dist: odoo (<14.1dev,>=14.0a)
+
+This module is meant to replace `base_jsonify`.
+Once is confirmed that it can be published on the apps store
+the switch will be made.
+
+
