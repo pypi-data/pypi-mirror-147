@@ -1,0 +1,13 @@
+info/gianlucacosta/cervantes/__init__.py,sha256=3Nkgu5IAuRuG8AXqfanvPb9BIJ30rlBasTKxIRwB6r4,1936
+info/gianlucacosta/cervantes/inspectors.py,sha256=UuZocXET0NJ3GtKFFmON_F0AkaNuQ_IMP1CUKjjbAwA,7514
+info/gianlucacosta/cervantes/partial_term.py,sha256=L-xQWWOwJss9yJhmzatVuJpbffLocWCFeIDu9v9GFUQ,561
+info/gianlucacosta/cervantes/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+info/gianlucacosta/cervantes/sqlite/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+info/gianlucacosta/cervantes/sqlite/dictionary.py,sha256=SPM2SmFrgK3zbkPSCXfa9fWjxjPlzxOoI6vAfZMrSJw,534
+info/gianlucacosta/cervantes/sqlite/schema.py,sha256=baFPt1GEX9x5iVNOot4wEmiHo1E6BmiE-oMo9p5K9do,2513
+info/gianlucacosta/cervantes/sqlite/serializers.py,sha256=lvj0fMmd6AG76ijsRcA4bu73Ue4gQdTD_hh2D5ljiqQ,3958
+info/gianlucacosta/cervantes/terms.py,sha256=_oq7lgH6HdUfDmGaMkuH-sEyoA11ZqwRlDligTFyJa8,1236
+info.gianlucacosta.cervantes-1.0.0.dist-info/LICENSE,sha256=wjcuo88ClINWGDz_YJdFkeWewt_AIIe16jvfVMpzRhc,1071
+info.gianlucacosta.cervantes-1.0.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+info.gianlucacosta.cervantes-1.0.0.dist-info/METADATA,sha256=7jb6zH-mNAaTmOvM3RLOMj3Tlq6Z1D4kyEqQwECbncM,9713
+info.gianlucacosta.cervantes-1.0.0.dist-info/RECORD,,
