@@ -1,0 +1,11 @@
+firebolt_ingest/__init__.py,sha256=rnObPjuBcEStqSO0S6gsdS_ot8ITOQjVj_-P1LUUYpg,22
+firebolt_ingest/aws_settings.py,sha256=IUEKUnapGMaqli94uZR1BtQQJHiiHlnSL5vAXGUl4Gs,2163
+firebolt_ingest/table_model.py,sha256=I7LOsQjK4zu_WURIK82_GR2RsTwb8RvMol1E4y8iGEw,10066
+firebolt_ingest/table_service.py,sha256=ZNrkydcJ8VwwTXMRrYa7CPI-5zSpaa56SrCXu4zFn8o,4494
+firebolt_ingest/table_utils.py,sha256=fb24TF9iiu_htVQxxgpErVFrnjj0EoUdfI8rFRVT1wM,4541
+firebolt_ingest-0.1.1.dist-info/LICENSE,sha256=A4MQfAmu3EiWyaXjkWppFelH4JzSOKqDNmoqad52gnA,11354
+firebolt_ingest-0.1.1.dist-info/METADATA,sha256=pkPkQnmoGj8u6JflXa0nNNzusk-FEQz-vvQ5fPaTUoU,2428
+firebolt_ingest-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+firebolt_ingest-0.1.1.dist-info/entry_points.txt,sha256=2aRpi9Bf75wC98YiEcNBjWaCDlKjc0jga4Ms9-kRIXc,62
+firebolt_ingest-0.1.1.dist-info/top_level.txt,sha256=HaI3B4kLH6-eJ3gosuSETu5Dds2pRneN8v_xQnHygow,16
+firebolt_ingest-0.1.1.dist-info/RECORD,,
