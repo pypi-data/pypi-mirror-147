@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+jax_nca/__init__.py
+jax_nca/dataset.py
+jax_nca/nca.py
+jax_nca/trainer.py
+jax_nca/utils.py
+jax_nca.egg-info/PKG-INFO
+jax_nca.egg-info/SOURCES.txt
+jax_nca.egg-info/dependency_links.txt
+jax_nca.egg-info/requires.txt
+jax_nca.egg-info/top_level.txt

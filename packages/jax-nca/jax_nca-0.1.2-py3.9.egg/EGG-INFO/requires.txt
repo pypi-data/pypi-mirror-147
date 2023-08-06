@@ -1,0 +1,14 @@
+numpy
+jax
+flax
+matplotlib
+einops
+tensorflow
+tensorboardX
+optax
+tqdm
+pandas
+pillow
+ipycanvas
+orjson
+opencv-python
