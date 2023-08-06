@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: commented-code
+Version: 0.1.0
+Summary: Mininal pylint addon to detect commented code.
+Home-page: https://github.com/paulourbano-com/commented_code
+Author: Paulo Urbano
+Author-email: paulo@paulourbano.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: astroid
+Requires-Dist: pylint
+
+# commented_code
+Minimal pylint add-on to detect commented code in Python 
+
+
