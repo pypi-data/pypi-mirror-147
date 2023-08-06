@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: handsfree
+Version: 0.1.3
+Summary: 
+Author: xiaojunnuo
+Author-email: xiaojunnuo@qq.com
+Requires-Python: >=3.8,<3.9
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: cython (>=3.0.0a10,<4.0.0)
+Requires-Dist: psutil (>=5.9.0,<6.0.0)
+Requires-Dist: pywebview (>=3.6.3,<4.0.0)
+Requires-Dist: requests (>=2.27.1,<3.0.0)
+Requires-Dist: setuptools (>=62.1.0,<63.0.0)
