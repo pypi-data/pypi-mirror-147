@@ -1,0 +1,10 @@
+ftea/__init__.py,sha256=XIe_AzEXwg-g-NvkDS3M8K-fitqTz75hzxFnDE7E4mI,119
+ftea/_tea.c,sha256=ds2B6P5wd-b-Z4KjnTAwgeCFziqKpV_LE4lYLV39KQ8,974198
+ftea/_tea.cp39-win_amd64.pyd,sha256=G4TX-E6r97Jm1rB4hjUaNB497hQAGyoa1KQ3mitPKSI,155136
+ftea/_tea.pyi,sha256=aAwgll02fRdknJjt9apBKdOKap6YoA9AhGc3SbAkxVo,1058
+ftea/_tea.pyx,sha256=8ewx9gR3ZVsSMhGJfXGppHnYgrLmR2j2_jG7lscXZag,10924
+ftea/tea.pxd,sha256=qXS0o3GPBlmqPLYSVIZfvegqu7rDwnQNNSNw7oDp4HU,1680
+ftea-0.1.0.dist-info/METADATA,sha256=iDqeYlP-rwdSRXmJC80edOxnylNGsB3dtUgC06jIn18,2719
+ftea-0.1.0.dist-info/WHEEL,sha256=fVcVlLzi8CGi_Ul8vjMdn8gER25dn5GBg9E6k9z41-Y,100
+ftea-0.1.0.dist-info/top_level.txt,sha256=xkHrnwTvGio5Idj5czEfRq42b9XM5r6WaP5wxggeYhE,5
+ftea-0.1.0.dist-info/RECORD,,
