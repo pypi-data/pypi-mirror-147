@@ -1,0 +1,2 @@
+topolvm_vg: vg1
+target_namespace: openshift-storage
