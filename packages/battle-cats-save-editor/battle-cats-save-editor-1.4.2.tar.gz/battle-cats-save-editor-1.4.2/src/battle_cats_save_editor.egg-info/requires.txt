@@ -1,0 +1,4 @@
+colored
+tkinter
+python-dateutil
+requests
