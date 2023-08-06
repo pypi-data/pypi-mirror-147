@@ -1,0 +1,11 @@
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+fyers/algomojo/__init__.py
+fyers/algomojo/fyers.py
+fyers/algomojo_fyers.egg-info/PKG-INFO
+fyers/algomojo_fyers.egg-info/SOURCES.txt
+fyers/algomojo_fyers.egg-info/dependency_links.txt
+fyers/algomojo_fyers.egg-info/requires.txt
+fyers/algomojo_fyers.egg-info/top_level.txt
