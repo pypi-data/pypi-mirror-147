@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: GrandpaDos
+Version: 0.1
+Summary: Partial HTTPS DoS tool. A Slowloris rewrite in Python.
+Home-page: https://github.com/onkarbatra/grandpados
+Author: Onkar Singh
+Author-email: onkar.singh23@avenues.org
+License: MIT
+Description: UNKNOWN
+Keywords: dos,http,grandpados
+Platform: UNKNOWN
