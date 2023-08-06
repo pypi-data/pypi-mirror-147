@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/oom_reap_me_first/__init__.py
+src/oom_reap_me_first/auto_enable.py
+src/oom_reap_me_first.egg-info/PKG-INFO
+src/oom_reap_me_first.egg-info/SOURCES.txt
+src/oom_reap_me_first.egg-info/dependency_links.txt
+src/oom_reap_me_first.egg-info/top_level.txt
