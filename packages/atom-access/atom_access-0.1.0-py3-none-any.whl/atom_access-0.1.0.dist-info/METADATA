@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: atom-access
+Version: 0.1.0
+Summary: Atom access is a ray tracing package for determining steric          hinderance
+Author: Chilton Group
+Author-email: chilton.group@dummy.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: xyz-py
+
+UNKNOWN
+
