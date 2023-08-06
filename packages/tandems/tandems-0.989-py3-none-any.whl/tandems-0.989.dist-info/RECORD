@@ -1,0 +1,11 @@
+tandems/HELP,sha256=iWZNs2Wi_zGrUXA5LOhrXx9Merv1HWnrNx-hsYWhZ_0,8633
+tandems/__init__.py,sha256=IhbmZVGreXJP014IZkNVX1WEBuhaf08owMhHy1tm-0A,75921
+tandems/data/AM1_5 smarts295.ext.txt,sha256=BkPZri_EuMghsafAj6AAl4m3XUDilFZqp3_LmyUosBE,80163
+tandems/data/AM1_5 smarts295.out.txt,sha256=sShul09--gsfg2WN1IXw5rm0b2Vqli7etCybj4yLOvc,4831
+tandems/data/lat40.clusters.npy,sha256=CqfD0RYlJShP8L4muJ1exSTjEpgsrsI2ZwCyynPTxU0,6758832
+tandems/data/lat40.timePerCluster.npy,sha256=MjVcUO3zCST41uIFIeuk0fCaWRYKLg3YKWrIARupJ1M,3456
+tandems-0.989.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+tandems-0.989.dist-info/METADATA,sha256=R8IVbX7XEVkA27ZfhkVfrko8XqJk8pqAaQhblc9onkQ,2367
+tandems-0.989.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tandems-0.989.dist-info/top_level.txt,sha256=OkUu3mpSs88b98-eLe-JM_-C24HmazeLb1T4KMFh0gA,8
+tandems-0.989.dist-info/RECORD,,
