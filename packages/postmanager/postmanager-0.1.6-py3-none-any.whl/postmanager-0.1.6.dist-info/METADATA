@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: postmanager
+Version: 0.1.6
+Summary: Post manager to manage all post types with various storage backends
+Home-page: https://subaquatic-pierre.github.io/postmanager
+Author: Pierre du Toit
+Author-email: subaquatic.pierre@gmail.com
+License: MIT
+Project-URL: Source, https://github.com/subaquatic-pierre/postmanager
+Project-URL: Tracker, https://github.com/alexmalins/subaquatic-pierre/postmanager/issues
+Project-URL: Documentation, https://subaquatic-pierre.github.io/postmanager
+Platform: unix
+Platform: linux
+Platform: osx
+Platform: cygwin
+Platform: win32
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: <4,>=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: boto3
+Provides-Extra: testing
+Requires-Dist: pytest (>=6.0) ; extra == 'testing'
+Requires-Dist: coverage (==4.4.1) ; extra == 'testing'
+Requires-Dist: mypy (>=0.910) ; extra == 'testing'
+Requires-Dist: flake8 (>=3.9) ; extra == 'testing'
+Requires-Dist: tox (>=3.24) ; extra == 'testing'
+
+# PostManager
+
+[![PyPI](https://img.shields.io/pypi/v/postmanager.svg)](https://pypi.python.org/pypi/postmanager)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue)](https://github.com/subaquatic-pierre/postmanager/blob/main/LICENSE)
+[![Tests](https://github.com/subaquatic-pierre/postmanager/workflows/Tests/badge.svg)](https://github.com/subaquatic-pierre/postmanager/actions/workflows/1_tests.yml)
+[![Linting](https://github.com/subaquatic-pierre/postmanager/workflows/Linting/badge.svg)](https://github.com/subaquatic-pierre/postmanager/actions/workflows/3_linting.yml)
+[![Codecov](https://codecov.io/gh/subaquatic-pierre/postmanager/branch/main/graph/badge.svg?token=lQUanTQKRO)](https://codecov.io/gh/subaquatic-pierre/postmanager)
+
+A simple post manager for managing posts hosted on AWS S3 bucket.
+
+The project can be imported into a REST API to manage all CRUD operations associated with the Request
+
+## Requirements
+
+- AWS CLI installed and configured
+
+## Example Flask Project
+
+An example flask project can be found at this repo:
+
+<https://github.com/subaquatic-pierre/postmanager-flask-example>
+
+
