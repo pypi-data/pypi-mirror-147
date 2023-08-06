@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: teachstack
+Version: 0.1
+Summary: Python SDK for teachstack APIs
+Home-page: https://docs.teachmint.com/
+Author: Parth Agrawal
+Author-email: parth@teachmint.com
+License: MIT
+Keywords: teachstack,teachmint,python
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+License-File: LICENSE.txt
+
+This module can be used to call teachstack APIs by just using a function. Refer https://docs.teachmint.com for more details.
+
