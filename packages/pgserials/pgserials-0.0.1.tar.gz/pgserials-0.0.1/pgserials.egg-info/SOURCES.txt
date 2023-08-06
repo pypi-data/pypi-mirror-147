@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+pgserials/__init__.py
+pgserials/exceptions.py
+pgserials/pgserials.py
+pgserials/utils.py
+pgserials.egg-info/PKG-INFO
+pgserials.egg-info/SOURCES.txt
+pgserials.egg-info/dependency_links.txt
+pgserials.egg-info/requires.txt
+pgserials.egg-info/top_level.txt
