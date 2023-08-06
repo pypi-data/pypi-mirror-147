@@ -1,0 +1,11 @@
+README.md
+setup.py
+file_upload/__init__.py
+file_upload/file_client.py
+file_upload/upload.py
+hxl_upload.egg-info/PKG-INFO
+hxl_upload.egg-info/SOURCES.txt
+hxl_upload.egg-info/dependency_links.txt
+hxl_upload.egg-info/entry_points.txt
+hxl_upload.egg-info/requires.txt
+hxl_upload.egg-info/top_level.txt
