@@ -1,0 +1,2 @@
+include src/cini_selector/CONFIG_FILE/*.json
+include PIPY_README.md

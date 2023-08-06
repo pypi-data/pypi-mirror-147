@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: CINI_selector
+Version: 0.0.4
+Summary: cini_selector: Module that work with the Spanish CINI code notification. Helping to verify if the code are valid or not. And help on each level The diffewrent options that the user have.
+Home-page: https://github.com/R-Rijnbeek/CINI_selector
+Author: Robert Rijnbeek
+Author-email: robert270384@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/R-Rijnbeek/CINI_selector/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# python_CINI_selector
+
+This repository that build and is the standard CINI selector for differrent use. It is not a package but it is useful to use it in different python projects.
+
+## Instalation
+
+Once activate your python environment. use as standard pip installation: 
+
+````
+pip install CINI-selector
+````
+
+
