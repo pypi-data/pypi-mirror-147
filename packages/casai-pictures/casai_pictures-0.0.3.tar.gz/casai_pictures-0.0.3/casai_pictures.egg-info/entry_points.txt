@@ -1,0 +1,3 @@
+[console_scripts]
+pic_upload = casai_pictures.main:main
+

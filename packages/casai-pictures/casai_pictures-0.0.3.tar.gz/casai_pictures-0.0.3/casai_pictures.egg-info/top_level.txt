@@ -1,0 +1,3 @@
+casai_pictures
+compressed_originals
+new_format
