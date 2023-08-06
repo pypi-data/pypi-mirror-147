@@ -1,0 +1,102 @@
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+skip = [
+    "snapshots",
+    ".venv/",
+    "dist/"
+]
+
+[tool.black]
+line-length = 88
+target-version = ['py37', 'py38', 'py39']
+include = '\.pyi?$|docs/source/conf.py'
+extend-exclude = "snapshots"
+
+
+[tool.pytest.ini_options]
+addopts = "-vv -p no:warnings --cov --cov-report xml"
+testpaths = [
+    "tests"
+]
+
+[tool.coverage.run]
+branch = true
+source = [
+    "ts_ids_core"
+]
+omit = ["snapshots"]
+
+# Many options copied from the docs here:
+# https://coverage.readthedocs.io/en/coverage-5.5/config.html#syntax
+[tool.coverage.report]
+show_missing = true
+# Regexes for lines to exclude from consideration
+exclude_lines = [
+    # Have to re-enable the standard pragma
+    "pragma: no cover",
+
+    # Don't complain about missing debug-only code:
+    "def __repr__",
+    "if self\\.debug",
+
+    # Don't complain if tests don't hit defensive assertion code:
+    "raise AssertionError",
+    "raise NotImplementedError",
+
+    # Don't complain if non-runnable code isn't run:
+    "if 0:",
+    "if __name__ == .__main__.:",
+]
+ignore_errors = true
+
+[tool.poetry]
+name = "ts-ids-core"
+version = "0.1.0-alpha.2"
+description = ""
+authors = ["TetraScience <developers@tetrascience.com>"]
+packages = [
+    { include = "ts_ids_core" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pydantic = ">=1.8,<2"
+typing-extensions = ">=4.0"
+click = ">=8.0"
+
+[tool.poetry.dev-dependencies]
+pytest = ">=5.2"
+black = {version = ">=19.b10", extras = ["jupyter"]}
+datamodel-code-generator = ">=0.11.0"
+snapshottest = "^0.6"
+coverage = {version = "*", extras = ["toml"]}
+pytest-cov = "^3.0"
+pytest-steps = "*"
+isort = "^5.0"
+autoflake = "^1.4"
+invoke = "^1.0"
+pytest-mock = "^3.0"
+# Although iPython is not strictly required for devloping ts-ids-core, its version is
+# set here in order to prevent users from installing  iPython >= 7.17.0, < 7.31.1,
+# which has a critical security bug.
+# See https://github.com/tetrascience/ts-ids-core/security/dependabot/1 for details.
+ipython = "<7.17.0|>=7.31.1"
+frozendict = "~=2.0"
+pylint = ">=2.9"  # enables --ignore-paths
+flake8 = ">=4.0"
+flake8-print = ">=4.0"
+Sphinx = "~=4.0"
+sphinx-rtd-theme = "~=1.0"
+# Required for adding the content of a Markdown file to reStructuredText file
+# in documentation. See docs/index.rst.
+docutils = ">=0.17"
+myst-parser = ">=0.17.0,<1"
+
+[tool.poetry.scripts]
+export-schema = "ts_ids_core.scripts.programmatic_ids_to_jsonschema:write_jsonschema_ids"
+import-schema = "ts_ids_core.scripts.jsonschema_to_programmatic_ids:main_cli"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
