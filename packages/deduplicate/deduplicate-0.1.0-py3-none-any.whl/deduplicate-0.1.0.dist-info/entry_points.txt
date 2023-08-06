@@ -1,0 +1,4 @@
+
+            [vpype.plugins]
+            deduplicate=deduplicate.deduplicate:deduplicate
+        
