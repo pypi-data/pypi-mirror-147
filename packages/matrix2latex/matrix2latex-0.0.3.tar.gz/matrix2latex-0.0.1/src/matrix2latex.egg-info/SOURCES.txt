@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/matrix2latex/__init__.py
+src/matrix2latex/latex_tabulizer.py
+src/matrix2latex.egg-info/PKG-INFO
+src/matrix2latex.egg-info/SOURCES.txt
+src/matrix2latex.egg-info/dependency_links.txt
+src/matrix2latex.egg-info/top_level.txt
