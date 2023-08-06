@@ -1,0 +1,227 @@
+import json
+import os
+import platform
+import random
+import re
+import shutil
+import sys
+import uuid
+from datetime import datetime
+from pathlib import Path
+from secrets import token_hex
+from typing import Any, Dict, Optional
+
+import pkg_resources
+from dvc.repo import Repo as DVCRepo
+from git.repo import Repo as GITRepo
+
+from smartparams.settings import RESOURCE_DIR
+
+
+class SmartLab:
+    PATTERNS = dict(
+        number=r'\d+',
+        hash=r'[a-zA-Z0-9]+',
+        uuid=r'\w{8}-\w{4}-\w{4}-\w{4}-\w{12}',
+        adjective=r'[a-zA-Z\-]+',
+        noun=r'[a-zA-Z\-]+',
+        year=r'\d{2}|\d{4}',
+        month=r'\d{1,2}',
+        day=r'\d{1,2}',
+        hour=r'\d{1,2}',
+        minute=r'\d{1,2}',
+        second=r'\d{1,2}',
+        microsecond=r'\d+',
+    )
+
+    def __init__(
+        self,
+        remote: str = 'origin',
+    ) -> None:
+        self._remote = remote
+
+        with RESOURCE_DIR.joinpath('dictionary.json').open() as file:
+            self._dictionary = json.load(file)
+
+    def new(
+        self,
+        save_dir: Path,
+        version: Optional[str] = '{number:03d}_{adjective}_{noun}',
+    ) -> Path:
+        """Creates directory for new experiment.
+
+        Args:
+            save_dir: Main directory for experiments.
+            version: Pattern for new folder name. Available fields: number, hash, uuid, adjective,
+                noun, year, month, day, hour, minute, second, microsecond.
+
+        Returns:
+            Path to newly created experiment directory.
+
+        """
+        if version:
+            date = datetime.now()
+            save_dir = save_dir.joinpath(
+                version.format(
+                    number=self._get_next_number(
+                        save_dir=save_dir,
+                        version=version,
+                    ),
+                    hash=token_hex(16),
+                    uuid=uuid.uuid4(),
+                    adjective=random.choice(self._dictionary['adjectives']),
+                    noun=random.choice(self._dictionary['nouns']),
+                    year=date.year,
+                    month=date.month,
+                    day=date.day,
+                    hour=date.hour,
+                    minute=date.minute,
+                    second=date.second,
+                    microsecond=date.microsecond,
+                )
+            )
+
+        save_dir.mkdir(parents=True, exist_ok=True)
+        return save_dir
+
+    def download(
+        self,
+        target: Path,
+        recursive: bool = True,
+        remote: Optional[str] = None,
+        jobs: Optional[int] = None,
+        skip_exists: bool = False,
+        force: bool = True,
+    ) -> Path:
+        """Automatically downloads files from DVC storage of given remote.
+
+        Args:
+            target: Path to file or directory to download.
+            recursive: Download files in all subdirectories.
+            remote: Name of the remote storage to download from.
+            jobs: Parallelism level for DVC to download data from remote storage.
+            skip_exists: Skips fetching DVC cache if target path exists.
+            force: Overrides workspace files without asking.
+
+        Returns:
+            Path to downloaded file or directory.
+
+        """
+        target_path = target.resolve()
+
+        if skip_exists and target_path.exists():
+            return target_path
+
+        root_dir = DVCRepo.find_root(root=target)
+        while not target.with_name(target.name + '.dvc').exists():
+            target = target.parent
+            if target.is_mount():
+                raise RuntimeError(f"Target {target_path} is not versioned by DVC.")
+
+        DVCRepo(root_dir).pull(
+            targets=str(target),
+            remote=remote or self._remote,
+            force=force,
+            recursive=recursive,
+            jobs=jobs,
+        )
+
+        if not target_path.exists():
+            raise RuntimeError(f"Target {target_path} does not exist after completed download.")
+
+        return target_path
+
+    def upload(
+        self,
+        target: Path,
+        recursive: bool = False,
+        remote: Optional[str] = None,
+        sync: bool = True,
+        jobs: Optional[int] = None,
+    ) -> None:
+        """Uploads files to DVC storage of given remote.
+
+        Args:
+            target: Path to the file or directory to be uploaded.
+            recursive: Uploads each file in all subdirectories separately.
+            remote: Name of the remote storage to be uploaded.
+            sync: Uploads to remote storage, otherwise save only to local cache.
+            jobs: Parallelism level for DVC to upload data to remote storage.
+
+        """
+        root_dir = DVCRepo.find_root(root=target)
+
+        DVCRepo(root_dir).add(
+            targets=str(target),
+            recursive=recursive,
+            jobs=jobs,
+            remote=remote or self._remote,
+            to_remote=sync,
+        )
+
+    @staticmethod
+    def remove(path: Path) -> None:
+        """Removes given file or directory with DVC metadata.
+
+        Args:
+            path: Path to the file or directory to remove.
+
+        """
+        if path.is_dir():
+            shutil.rmtree(path)
+        else:
+            path.unlink(missing_ok=True)
+
+        path.with_suffix(path.suffix + '.dvc').unlink(missing_ok=True)
+
+    @staticmethod
+    def metadata() -> Dict[str, Any]:
+        date = datetime.now()
+        path, *args = sys.argv
+        repo = GITRepo(path, search_parent_directories=True)
+        return dict(
+            date=date.strftime('%Y-%m-%d'),
+            time=date.strftime('%H:%M:%S'),
+            user=os.getlogin(),
+            host=platform.node(),
+            os=platform.platform(),
+            python=platform.python_version(),
+            script=path,
+            args=args,
+            git={remote.name: remote.url for remote in repo.remotes},
+            branch=repo.active_branch.name,
+            commit=repo.active_branch.commit.hexsha if repo.active_branch.is_valid() else None,
+            uncommited_files=[file.a_path for file in repo.index.diff(None)],
+            untracted_files=repo.untracked_files,
+            packages=[f'{package.key}=={package.version}' for package in pkg_resources.working_set],
+        )
+
+    def _build_pattern(
+        self,
+        string: str,
+    ) -> str:
+        offset = 0
+        for match in re.finditer(r'{(?P<name>\w+)(?::.+?)?}', string):
+            name = match.group('name')
+            replacement = rf'(?P<{name}>{self.PATTERNS[name]})'
+            string = string[: match.start() + offset] + replacement + string[match.end() + offset :]
+            offset += len(replacement) - (match.end() - match.start())
+
+        return string
+
+    def _get_next_number(
+        self,
+        save_dir: Path,
+        version: str,
+    ) -> int:
+        if not save_dir.exists():
+            return 1
+
+        pattern = self._build_pattern(version)
+        version_number = 0
+        for path in save_dir.iterdir():
+            if path.is_dir() and (match := re.fullmatch(pattern, path.name)):
+                if number := match.group('number'):
+                    version_number = max(version_number, int(number))
+
+        return version_number + 1
