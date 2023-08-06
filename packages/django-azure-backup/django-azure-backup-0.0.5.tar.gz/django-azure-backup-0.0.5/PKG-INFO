@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: django-azure-backup
+Version: 0.0.5
+Summary: postgres backup database with cloud upload.
+Home-page: https://github.com/GlibAI/rewa_backup/
+Author: Ajit Mourya
+Author-email: ajit@glib.ai
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Django Database Backup
+
+This package can take postgres dump and able to upload data in azure cloud storage.
+
+## Build Process
+open the link.
+[click here for steps.](https://packaging.python.org/tutorials/packaging-projects/#uploading-the-distribution-archives)
+
+## Required 
+1. Django Default Database Config.
+2. AZURE_ACCOUNT_NAME (Azure Storage Account Name).
+3. AZURE_CREDENTIAL (Azure Key).
+4. AZURE_CONTAINER (Azure Container Name).
+5. AZURE_BACKUP_FOLDER_NAME.
+
+## Commands
+1. python3 manage.py db-backup-list
+2. python3 manage.py db-backup
+3. python3 manage.py db-restore
+
+
