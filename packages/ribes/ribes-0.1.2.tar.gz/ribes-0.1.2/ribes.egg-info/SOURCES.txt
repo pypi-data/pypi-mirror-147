@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+ribes/__init__.py
+ribes/app.py
+ribes/caller.py
+ribes/dispatcher.py
+ribes/errors.py
+ribes/models.py
+ribes/settings.py
+ribes.egg-info/PKG-INFO
+ribes.egg-info/SOURCES.txt
+ribes.egg-info/dependency_links.txt
+ribes.egg-info/requires.txt
+ribes.egg-info/top_level.txt
