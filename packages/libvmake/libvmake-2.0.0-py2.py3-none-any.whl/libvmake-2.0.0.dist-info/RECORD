@@ -1,0 +1,12 @@
+libvmake/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+libvmake/__main__.py,sha256=qkvvVu8nNB-IWfaOlROFEb5MGmZFL_1-34Ajj6eeCLY,768
+libvmake/libvmake.py,sha256=gn0dHWU953wu6avC6HcA-GTAIuSq6kNTBht006YA2Wk,21046
+libvmake/utils.py,sha256=ppjB9H2E-xqwCDmOb4DLVcELlpJtsz9-qAwN_HXklo4,2290
+libvmake/__pycache__/__init__.cpython-39.pyc,sha256=HKtmfEP9M-hGuhJsFfiFuIn_JpNlifEGLowUZJHllTk,150
+libvmake/res/elevate.exe,sha256=Q_HkWuB3FWGeqtcFdltY5t6WnMvV6U8j0NYWBw8YgUI,6144
+libvmake/res/gsudo.exe,sha256=lReMPDBxj7pqd9kxxtVsIhq5geRVGGNif_eP4mHQnq4,169496
+libvmake-2.0.0.dist-info/LICENCE,sha256=dhMxZuDrthTwxoyNVkJDZKJn2WB87psHfwddfxhtZxU,1097
+libvmake-2.0.0.dist-info/METADATA,sha256=bprMBpkD2eG7289R1YRA1zgh0vajinuOkepl18wN9iU,1643
+libvmake-2.0.0.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+libvmake-2.0.0.dist-info/top_level.txt,sha256=V3ELEEZhtJcU7xGKru0j-5UQTREN4g4uAnNpS6U93ic,9
+libvmake-2.0.0.dist-info/RECORD,,
