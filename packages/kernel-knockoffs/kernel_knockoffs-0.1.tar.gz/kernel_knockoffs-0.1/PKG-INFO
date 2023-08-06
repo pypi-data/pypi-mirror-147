@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: kernel_knockoffs
+Version: 0.1
+Summary: Kernel-based knockoff procedure.
+Home-page: https://github.com/hclimente/kernel_knockoffs
+Author: Héctor Climente-González
+Author-email: hector.climente@riken.jp
+License: GPL-3
+Keywords: fdr,feature_selection,kernel,knockoffs,hsic,mmd
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# kernel_knockoffs
+
+## Pre-requisites
+
+This project has three pre-requisites:
+
+- [Anaconda](https://www.anaconda.com/products/individual)
+- [mamba](https://github.com/mamba-org/mamba)
+- [pre-commit](https://pre-commit.com/)
+
+When the three of them are available, run the following commands:
+```
+# install the virtual environment in ./env/
+make setup
+# (optional) if you want to contribute, install pre-commit
+pre-commit install
+```
+
+
