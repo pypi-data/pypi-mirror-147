@@ -1,0 +1,3 @@
+[console_scripts]
+imbibed = imbibed.imbibed:main
+

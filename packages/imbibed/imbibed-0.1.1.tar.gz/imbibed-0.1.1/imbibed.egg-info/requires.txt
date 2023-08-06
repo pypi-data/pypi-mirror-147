@@ -1,0 +1,4 @@
+bibtexparser~=1.2
+requests-cache~=0.9
+requests~=2.27
+tqdm~=4.62
