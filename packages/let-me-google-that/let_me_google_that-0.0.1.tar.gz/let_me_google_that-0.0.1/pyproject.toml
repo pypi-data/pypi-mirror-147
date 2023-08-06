@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "let_me_google_that"
+version = "0.0.1"
+description = "Google for you because you to lazy to do that"
+authors = ["Your Name <you@example.com>"]
+license = "n"
+
+[tool.poetry.dependencies]
+python = "^3.5"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
