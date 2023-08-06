@@ -1,0 +1,11 @@
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+zerodha/algomojo/__init__.py
+zerodha/algomojo/zerodha.py
+zerodha/algomojo_zerodha.egg-info/PKG-INFO
+zerodha/algomojo_zerodha.egg-info/SOURCES.txt
+zerodha/algomojo_zerodha.egg-info/dependency_links.txt
+zerodha/algomojo_zerodha.egg-info/requires.txt
+zerodha/algomojo_zerodha.egg-info/top_level.txt
