@@ -1,0 +1,6 @@
+README.md
+setup.py
+temailer.egg-info/PKG-INFO
+temailer.egg-info/SOURCES.txt
+temailer.egg-info/dependency_links.txt
+temailer.egg-info/top_level.txt
