@@ -1,0 +1,8 @@
+django_rest_crypto/__init__.py,sha256=gSUtXxWJaNEcpUz2gWnP2bETf_INsBt7KMUB2aVATgk,155
+django_rest_crypto/encrypt.py,sha256=UpVdfb0hxBcCGgB4e2WjX3PWBqMLp1ADJ9JDvx8L3lY,4635
+django_rest_crypto/middlewares.py,sha256=yjfVeqvFoOz-enEeHbbyWSRZINk-39SdqYKrnDCfPNk,945
+django_rest_crypto/version.json,sha256=xK1CJ7ibDKEhzvvKDfjLZUqFaA4Uv2x-SW9Xtvoesvg,194
+django_rest_crypto-1.0.1.dist-info/METADATA,sha256=MftqyD27UywZOk4uQJEds49jrIXu3M_MNDAYNk5z3Pw,1352
+django_rest_crypto-1.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+django_rest_crypto-1.0.1.dist-info/top_level.txt,sha256=tIjheEXjQGn3PQ1-hrFjOQQ58F3sZYGUBFC257pYOIg,19
+django_rest_crypto-1.0.1.dist-info/RECORD,,
