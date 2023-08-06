@@ -1,0 +1,5 @@
+[console_scripts]
+bcsp = assess.bcsp:main
+noc = assess.noc:main
+qa = assess.quickassess:main
+
