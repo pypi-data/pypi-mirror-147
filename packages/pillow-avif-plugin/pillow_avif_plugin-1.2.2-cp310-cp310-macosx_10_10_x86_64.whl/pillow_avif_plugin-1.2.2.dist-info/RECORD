@@ -1,0 +1,16 @@
+pillow_avif_plugin-1.2.2.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pillow_avif_plugin-1.2.2.dist-info/RECORD,,
+pillow_avif_plugin-1.2.2.dist-info/LICENSE,sha256=Y-GPM2BDn_PNAiKqwHfB2ubsfRy0GSy4Y_0XqT_80Sg,23691
+pillow_avif_plugin-1.2.2.dist-info/WHEEL,sha256=-3AsZTJYFhEmt81u027sVv1qFM0_SLfrlHrraYLPS1w,112
+pillow_avif_plugin-1.2.2.dist-info/top_level.txt,sha256=xrg4zRnqDyl_JEyEQh3oCcAU4BHneocD-DCFDzf4g9E,12
+pillow_avif_plugin-1.2.2.dist-info/METADATA,sha256=XNgTWgeMvz2n2oiQuA0M0_lv28BHyTcAXc1S8SA5Mmg,1636
+pillow_avif/AvifImagePlugin.py,sha256=J-a1lf1yj7RqH9ZI7_WEMCAuG77ofcek_f5GtiY_auc,8177
+pillow_avif/_avif.cpython-310-darwin.so,sha256=JLY1jtsg9oefwHtsI2iwx1iqXJiTd2m1yEJH02PO2oM,58928
+pillow_avif/__init__.py,sha256=KjJsqr2XKw0ZJsUUdN5M5bRoIISUDzap1R6Pk5H75J4,84
+pillow_avif/.dylibs/libvmaf.1.dylib,sha256=X4hXk2G3Eop8pTqt81hFV0_Qoe7i6wCd8IoGM0CGuRU,883376
+pillow_avif/.dylibs/libaom.3.3.0.dylib,sha256=mRte7Rgch2nCxVbylr_rjt77UneXRT5QlaF_o_NFr88,5608000
+pillow_avif/.dylibs/libbrotlienc.1.0.9.dylib,sha256=OrFGC9f2AVc4WzF7eoO1bEvYEwBM2dzhHWUDwu_Ne9w,601200
+pillow_avif/.dylibs/libavif.14.0.1.dylib,sha256=dqNT7scBzX9sHOYqgJfJ7iNz4rasP-m8mcft_XldJXQ,15895328
+pillow_avif/.dylibs/libbrotlidec.1.0.9.dylib,sha256=mnnpKssLF2KUoJqS7kzf57hEeiNPKjpqQtLGowcsYF4,71216
+pillow_avif/.dylibs/libbrotlicommon.1.0.9.dylib,sha256=Oeb3XvOnhDV7IkIp9nS4l5ohQPX9eIb3KpzRhIjvDuo,159632
+pillow_avif/.dylibs/libjxl.0.6.1.dylib,sha256=9pWyF1aQtw0sL7X1uB7v11Ea19EnF31bIVQB2aAWNok,2635136
