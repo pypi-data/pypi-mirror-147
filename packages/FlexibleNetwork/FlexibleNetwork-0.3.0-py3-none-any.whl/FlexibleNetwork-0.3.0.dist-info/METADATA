@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: FlexibleNetwork
+Version: 0.3.0
+Summary: Library for Flexible network automation with Python
+Home-page: https://github.com/eslam-gomaa/Flexible-Network
+Author: Eslam Gomaa
+License: MIT
+Project-URL: Bug Tracker, https://github.com/eslam-gomaa/Flexible-Network/issues
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: configparser
+Requires-Dist: pytest
+Requires-Dist: rocketchat-API
+Requires-Dist: requests
+Requires-Dist: paramiko
+Requires-Dist: tabulate
+Requires-Dist: tabulate[widechars]
+Requires-Dist: tinydb
+Requires-Dist: pygments
+Requires-Dist: boto3
+
+UNKNOWN
+
+
