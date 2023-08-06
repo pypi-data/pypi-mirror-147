@@ -1,0 +1,2 @@
+graft pycustomcalculator/static
+graft pycustomcalculator/templates

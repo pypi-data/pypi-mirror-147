@@ -1,0 +1,3 @@
+[console_scripts]
+calc = pycustomcalculator_arnab.app:start_app
+

@@ -1,0 +1,15 @@
+LICENSE
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+pycustomcalculator_arnab/__init__.py
+pycustomcalculator_arnab/app.py
+pycustomcalculator_arnab/mycalculator.py
+pycustomcalculator_arnab.egg-info/PKG-INFO
+pycustomcalculator_arnab.egg-info/SOURCES.txt
+pycustomcalculator_arnab.egg-info/dependency_links.txt
+pycustomcalculator_arnab.egg-info/entry_points.txt
+pycustomcalculator_arnab.egg-info/requires.txt
+pycustomcalculator_arnab.egg-info/top_level.txt
