@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pytxc
+Version: 0.1.0
+Summary: Python parser from TransXChange.
+License: MIT
+Author: Ciaran McCormick
+Author-email: ciaran@ciaranmccormick.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Shapely (>=1.8.1,<2.0.0)
+Requires-Dist: lxml (>=4.7.1,<5.0.0)
+Requires-Dist: pyproj (>=3.3.0,<4.0.0)
+Requires-Dist: shapely-geojson (>=0.0.1,<0.0.2)
