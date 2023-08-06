@@ -1,0 +1,3 @@
+[console_scripts]
+regexport = regexport.main:main
+
