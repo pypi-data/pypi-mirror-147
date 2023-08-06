@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+Flask_VisJS.egg-info/PKG-INFO
+Flask_VisJS.egg-info/SOURCES.txt
+Flask_VisJS.egg-info/dependency_links.txt
+Flask_VisJS.egg-info/requires.txt
+Flask_VisJS.egg-info/top_level.txt
+flask_visjs/__init__.py
+flask_visjs/_version.py
+flask_visjs/static/vis.min.css
+flask_visjs/static/vis.min.js
+flask_visjs/templates/pyvis.css.j2
+flask_visjs/templates/pyvis.html.j2
+flask_visjs/templates/pyvis.js.j2
