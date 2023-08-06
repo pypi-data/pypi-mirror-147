@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: find_github_email
+Version: 1.2.6
+Summary: Find any GitHub user’s email address
+Home-page: https://github.com/UdhavPawar/find_github_email
+Author: Udhav Pawar
+Author-email: upawar78@gmail.com
+License: MIT
+Download-URL: https://github.com/UdhavPawar/find_github_email/archive/v1.0.tar.gz
+Keywords: github-profile,github-email,python3,github-api,github,email,pypi,pypi-package
+Platform: UNKNOWN
+License-File: LICENSE
+
+Some of the best profiles simply have no contact information apart from a GitHub username. Hence, this python package is targetted for finding almost any GitHub user's email address, so you can easliy network/reach out to your favorite developers. Read more about it here: https://blog.udhav.com
+
