@@ -1,0 +1,104 @@
+Metadata-Version: 2.1
+Name: telepathy
+Version: 1.1.12
+Summary: An OSINT toolkit for investigating Telegram chats.
+Home-page: https://pypi.python.org/pypi/telepathy/
+Author: Jordan Wildon
+Author-email: j.wildon@pm.me
+License: LICENSE.txt
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: Click
+Requires-Dist: Pandas
+Requires-Dist: Telethon
+
+Telepathy: An OSINT toolkit for investigating Telegram chats.
+
+
+**Installation**
+
+*Install from source*
+
+``
+git clone https://github.com/jordanwildon/Telepathy.git
+``
+
+Navigate to the installation directory ``cd telepathy`` and run setup.py, this will set up the tool and install all the necessary dependencies.
+
+``
+sudo python3 setup.py install
+``
+
+*or*
+
+``
+pip3 install telepathy
+``
+
+Then register for and obtain your Telegram API details from [my.telegram.org][1].
+
+**Usage**
+
+Upon installation completion, you will be able to use Telepathy. On first use, Telepathy will ask for your API details and then an authorization code that will be sent to your Telegram account. If you have two-factor authentication enabled, you'll be asked to input your Telegram password.
+
+
+
+Usage: telepathy [OPTIONS]
+
+  Telepathy is an OSINT toolkit for investigating
+  Telegram chats.
+
+Options:
+  --verbose            Prints output to the
+                       terminal.
+  -n, --name TEXT      Specifies a chat to
+                       investigate. You can use
+                       this more than once.
+  -a, --archive        Archives the specified chat.
+  -m, --media          Archives media in the
+                       specified chat.
+  -f, --forwards       Scrapes forwarded messages.
+  -p, --participants   Scrapes members from the
+                       specified group.
+  -u, --user TEXT      Looks up a specified user
+                       ID.
+  -i, --info TEXT      Looks up a specified channel
+                       by ID.
+  -l, --location TEXT  Finds users near to
+                       specified coordinates.
+  --help               Show this message and exit.
+
+
+**A note on how Telegram works**
+
+Telegram chats are organised into two [key types][2]: channels and megagroups/supergroups. Each module works slightly differently depending on the chat type. For example, subscribers of Channels can't be scraped with the *members.py* module. Channels can have seemingly unlimited subscribers, megagroups can have up to 200,000 members.
+
+** Upcoming changes **
+With the release of the Telepathy CLI interface, the toolkit has entered its next stage of production. Despite this, some bugs may still be present and some features are yet to be added. In some environments (particularly Windows), Telepathy struggles to effectively manage files and can sometimes produce errors. Fixes for these errors will come in due course.
+
+Upcoming features include:
+  - Re-adding a time specification flag for the archive module to set archiving for specific period.
+  - Giving the archiver module the ability to archive comments on channel posts.
+  - Reintroducing batch archiving based on a to_archive.csv.
+  - Reintroducing advanced tools as part of the package.
+
+**Feedback**
+
+Please send feedback to @[jordanwildon][3] on Twitter
+
+**Usage terms**
+
+You may use Telepathy however you like, but your usecase is your responsibility. Be safe and respectful.
+
+**Credits**
+
+All tools created by Jordan Wildon (@[jordanwildon][3]). Alex Newhouse (@[AlexBNewhouse][4]) contributed to the early release of Telepathy.
+
+Where possible, credit for the use of this tool in published research is desired, but not required.
+
+[1]: <https://my.telegram.org/auth?to=apps> "Telegram API"
+[2]: <https://core.telegram.org/api/channel> "Telegram chat types"
+[3]: <https://www.twitter.com/jordanwildon> "@jordanwildon"
+[4]: <https://www.twitter.com/AlexBNewhouse> "@AlexBNewhouse"
+
+
