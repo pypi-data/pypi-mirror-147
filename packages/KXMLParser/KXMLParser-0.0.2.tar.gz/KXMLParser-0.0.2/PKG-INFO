@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: KXMLParser
+Version: 0.0.2
+Summary: Rest Framework Parser xml to json
+Home-page: https://github.com/k1k0borba/KXMLParser
+Author: Rodrigo Borba
+Author-email: k1k0borba@gmail.com
+License: MIT License
+Description: # kxmlparser
+        Rest-Framework Parser Convert xml to json
+        
+        ##Getting Started
+        #### Dependencies
+        You need Python 3.7 or later
+        
+        You also need json and xmltodict packages available from PyPI, if you have pip just run:
+        pip install xmltodict
+        
+        ####Instalation
+        Clone this repo to your Local Machine using:
+        ```
+        git clone https://github.com/k1k0borba/kxml2json.git
+        ```
+        
+        ## Features
+        - File structure for PyPI packages
+        - Setup with package informations
+        - License example
+        
+        
+Keywords: Xml2Json
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
