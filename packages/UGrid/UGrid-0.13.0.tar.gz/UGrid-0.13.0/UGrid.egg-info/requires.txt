@@ -1,0 +1,17 @@
+numpy
+meshkernel
+
+[docs]
+sphinx
+sphinx_book_theme
+myst_nb
+
+[lint]
+flake8
+black==21.4b1
+isort
+
+[tests]
+pytest
+pytest-cov
+nbval
