@@ -1,0 +1,9 @@
+README.md
+setup.py
+python-office/__init__.py
+python-office/hello-world.py
+python_wps.egg-info/PKG-INFO
+python_wps.egg-info/SOURCES.txt
+python_wps.egg-info/dependency_links.txt
+python_wps.egg-info/requires.txt
+python_wps.egg-info/top_level.txt
