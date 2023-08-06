@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: gym-stopping
+Version: 0.0.0
+Summary: A OpenAI Gym Env for continuous control
+Home-page: UNKNOWN
+Author: Claudia Viaro
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# gym-stopping
+
