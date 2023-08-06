@@ -1,0 +1,62 @@
+[tool.poetry]
+name = "envcast"
+version = "1.2.0"
+authors = ["Denis Anikin <ad@xfenix.ru>"]
+license = "MIT"
+description = "This module helps to cast environment variables to desired types. It may be very useful for 12factor app usage."
+readme = "README.md"
+homepage = "https://github.com/xfenix/envcast/"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+[tool.poetry.urls]
+"Documentation" = "https://github.com/xfenix/envcast#envcast"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+pylint = "*"
+pytest = "*"
+pytest-xdist = "*"
+mypy = "*"
+Faker = "*"
+pytest-cov = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.flit.metadata]
+dist-name = "envcast"
+module = "envcast"
+
+[tool.isort]
+line_length = 120
+multi_line_output = 3
+include_trailing_comma = true
+lines_after_imports = 2
+lexicographical = true
+sections = ["FUTURE", "STDLIB", "FIRSTPARTY", "THIRDPARTY", "LOCALFOLDER"]
+no_lines_before = ["STDLIB", "THIRDPARTY"]
+known_third_party = []
+known_local_folder = ["envcast",]
+
+[tool.black]
+line-length = 120
+
+[tool.pytest.ini_options]
+addopts = "--cov . --cov-report term-missing"
+
+[tool.pylint.format]
+max-line-length=120
+
+[tool.pylint.messages_control]
+disable=["logging-fstring-interpolation"]
