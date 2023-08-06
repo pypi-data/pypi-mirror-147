@@ -1,0 +1,15 @@
+watchdoc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+watchdoc/docx_manager.py,sha256=-GvbTf5DwxQZ3pMMuA_4OLUsc2Tojk0UJXqkUsQ3Qx8,2712
+watchdoc/folder_manager.py,sha256=nbmRfpRjrovA-X23TN2Dfq-55qu8lWoecT66t3U9fWs,3954
+watchdoc/image_manager.py,sha256=GuRmT2Lpaqzif_ZqgxRiyX6Yuxsigh3X2wvIdlMF_G8,1791
+watchdoc/markdown_manager.py,sha256=f_uFgqEQhB643nQ79PPlyNxUocsbz90O0ehjoHUF-3g,383
+watchdoc/odt_manager.py,sha256=C7rBLeX11eMqusfvZaAxDVsnTxBjUwTkaM3VrGMn2CI,169
+watchdoc/pptx_manager.py,sha256=rBvbhJ_nVCb9z5AAL-7bFGd4Imzx40XWF2XVf6l0f48,2186
+watchdoc/table_of_contents.py,sha256=6FvR-B5AhSHfW9f5Dww987TLN_NcNt5EMC1L0Su7z2Q,731
+watchdoc/update_docs.py,sha256=sjloPc_CmW7TO7PE3rtdymybAnW5TFNgZ89dR0bSY-E,1807
+watchdoc/watch_docs.py,sha256=br5AsHaVAtbs4OH7kETd3u0ACXo-9fTWGRRklc1Shb0,2923
+watchdoc-0.0.1.dist-info/LICENCE,sha256=RBhg5hIyHCQyj9Hd6pdx4QVzRdIfplLdnbuNB0fm2H4,1093
+watchdoc-0.0.1.dist-info/METADATA,sha256=GAfLusq_vQXHTszFo5O3Iw2PX2CC-Ej3g8w7BVTDhKY,883
+watchdoc-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+watchdoc-0.0.1.dist-info/top_level.txt,sha256=hRVzPl5L_wyaU6OdveRGBdH2vFwGWcz6uQRhGfK9oVc,9
+watchdoc-0.0.1.dist-info/RECORD,,
