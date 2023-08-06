@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "raspcuterie"
+version = "1.0.0-alpha.0"
+description = "Charcuterie dashboard and controller for the Raspberry PI"
+authors = ["jelmert <info@jelmert.nl>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Flask = {extras = ["async"], version = "^2.1.1"}
+click = "^8.1.2"
+PyYAML = "^6.0"
+Pygments = "^2.11.2"
+"RPi.GPIO" = {version = "^0.7.1", platform = "armv6l"}
+pydantic = "^1.9.0"
+timeout-decorator = "^0.5.0"
+gunicorn = "^20.1.0"
+"RPi.bme280" = "^0.2.4"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.1"
+pre-commit = "^2.18.1"
+gunicorn = "^20.1.0"
+flake8 = "^4.0.1"
+coverage = "^6.3.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+raspcuterie = "raspcuterie.cli:cli"
+
+[tool.isort]
+profile = "black"
+
+[tool.coverage.run]
+branch = true
+source = ["raspcuterie"]
+omit = ["raspcuterie/wsgi.py"]
