@@ -1,0 +1,16 @@
+cpmel/__init__.py,sha256=WNtGy-4XhVT6VvCXiKh2SIqFzzdVEYZqbSQL1E3IFmo,398
+cpmel/_args_conv.py,sha256=B1M47y4Y5dUABzIuzzcYqYS3TLdE72FpfUybqWOwNm4,4743
+cpmel/_mel.py,sha256=2cpGKmxIEOYtfWZ_oCYNDt-j13oi4kZZJA8uy8dWens,2285
+cpmel/cmds.py,sha256=_E9bULbwo5U9afbhs_NwcJqa4rmfJp-TBy4uq3S4jQg,667
+cpmel/exc.py,sha256=l27p7T1IAEXoRq57w1xBnNUv5s7Bzv8WQ34TtLrmbYY,552
+cpmel/_command/__init__.py,sha256=l-CW2m57Am5noSUldd_7JaWnh46lZ783JREPEMs1xU4,296
+cpmel/_command/build_new_func.py,sha256=LXUYCYl0YrCc0Og2oraK1PGPAMOibj-oP7zepV6R_ys,3018
+cpmel/_command/commands.py,sha256=JP2gjVl_ZtUuNPqv6aXodmxMi4oGldRCWjxYuFwv0os,5194
+cpmel/_object_types/__init__.py,sha256=SzLZ9FbTh2SRwnr3nrq_UxoaJeYmqD56KpoKHdyq8AQ,296
+cpmel/_object_types/core.py,sha256=w1jYwDqvmjey3ji89tds0z6WRhKyBHQN6d_pamO8vkI,14739
+cpmel/_object_types/other.py,sha256=8x0bsWGV2BphthM_EbCcF_vKniNRhL-taKj-LKUtZEI,8634
+cpmel-3.0.0b0.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+cpmel-3.0.0b0.dist-info/METADATA,sha256=0aMOG0FQCKaR5I8D3md4s_nBpX2eqocVXgm_00RaAfg,1600
+cpmel-3.0.0b0.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+cpmel-3.0.0b0.dist-info/top_level.txt,sha256=iJNkoqSXehmFrDEEZJU4a3iI4uvWYFLHcJO245dZYWs,6
+cpmel-3.0.0b0.dist-info/RECORD,,
