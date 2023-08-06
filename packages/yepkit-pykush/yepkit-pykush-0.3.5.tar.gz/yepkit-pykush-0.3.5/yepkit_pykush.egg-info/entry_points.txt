@@ -1,0 +1,3 @@
+[console_scripts]
+pykush = pykush.pykush:main
+
