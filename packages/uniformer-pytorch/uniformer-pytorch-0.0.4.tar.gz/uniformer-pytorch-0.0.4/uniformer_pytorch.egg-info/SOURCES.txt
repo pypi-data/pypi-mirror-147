@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+uniformer_pytorch/__init__.py
+uniformer_pytorch/uniformer_pytorch.py
+uniformer_pytorch.egg-info/PKG-INFO
+uniformer_pytorch.egg-info/SOURCES.txt
+uniformer_pytorch.egg-info/dependency_links.txt
+uniformer_pytorch.egg-info/requires.txt
+uniformer_pytorch.egg-info/top_level.txt
