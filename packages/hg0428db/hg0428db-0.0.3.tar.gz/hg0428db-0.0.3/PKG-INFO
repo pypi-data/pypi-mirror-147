@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: hg0428db
+Version: 0.0.3
+Summary: A simple remote database system designed for replit terminal games.
+Home-page: https://github.com/hg0428/hg0428db
+Author: Hudson Gouge
+Author-email: hudson.gouge@icloud.com
+License: MIT
+Download-URL: https://github.com/hg0428/hg0428db/archive/refs/tags/v0.0.2.tar.gz
+Description: UNKNOWN
+Keywords: Database,db,API
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
