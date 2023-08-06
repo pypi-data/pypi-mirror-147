@@ -1,0 +1,15 @@
+numpy>=1.19.5
+numba>=0.52.0
+scipy>=1.5.4
+rlglue-andnp
+
+[dev]
+build
+commitizen
+mypy>=0.942
+flake8>=4.0.1
+gym>=0.18.0
+pre-commit
+pygame
+pipenv-setup[black]
+twine
