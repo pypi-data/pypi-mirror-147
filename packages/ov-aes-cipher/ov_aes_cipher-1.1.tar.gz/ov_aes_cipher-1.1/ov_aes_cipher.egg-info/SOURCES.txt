@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+ov_aes_cipher/__init__.py
+ov_aes_cipher/ov_aes_cipher.py
+ov_aes_cipher.egg-info/.gitignore
+ov_aes_cipher.egg-info/PKG-INFO
+ov_aes_cipher.egg-info/SOURCES.txt
+ov_aes_cipher.egg-info/dependency_links.txt
+ov_aes_cipher.egg-info/requires.txt
+ov_aes_cipher.egg-info/top_level.txt
