@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: mw-wechatpay
+Version: 0.0.2
+Summary: wechat pay 
+Home-page: UNKNOWN
+Author: candyabc
+Author-email: hfcandyabc@163.com
+License: mit
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+
+UNKNOWN
+
