@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: fingerpaint
+Version: 1.2.3
+Summary: Draw using your laptop's touchpad
+Home-page: https://github.com/Wazzaps/fingerpaint
+Author: David Shlemayev
+Author-email: david.shlemayev@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Environment :: X11 Applications
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Topic :: Artistic Software
+Classifier: Topic :: Multimedia :: Graphics :: Editors :: Raster-Based
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: evdev (>=1.3.0)
+Requires-Dist: Pillow (>=5.3.0)
+Requires-Dist: pyudev
+
+# FingerPaint
+
+This utility lets you draw using your laptop's touchpad on Linux.
+
+Pressing any key or clicking the touchpad will finish the drawing.
+
+Your touchpad will not control the cursor while drawing, though external mice should still work.
+
+It has support for both X11 (all desktop environments), and Wayland (just Gnome at the moment).
+
+## Video:
+
+[![Video](http://img.youtube.com/vi/4gewfYs4I68/0.jpg)](http://www.youtube.com/watch?v=4gewfYs4I68 "FingerPaint demonstration video")
+
+## Installation
+
+### Ubuntu / Debian
+
+```shell
+apt install xinput python3-pip python3-tk
+pip3 install fingerpaint
+```
+
+### Arch / Manjaro
+
+If you are using X11, [Install `fingerpaint` via the AUR](https://aur.archlinux.org/packages/fingerpaint/).
+
+If you are using Wayland, [Install `fingerpaint-wayland` via the AUR](https://aur.archlinux.org/packages/fingerpaint-wayland/).
+
+## Usage examples
+```shell
+# Simple usage
+fingerpaint -o painting.png
+
+# Play with style
+fingerpaint --dark -o painting.png
+
+# Copy to clipboard (using bash)
+fingerpaint --hint=$'Press any key or click to finish drawing\nImage will be copied to clipboard' -o - | xclip -sel clip -t image/png
+
+# Copy to clipboard (using fish)
+fingerpaint --hint="Press any key or click to finish drawing"\n"Image will be copied to clipboard" -o - | xclip -sel clip -t image/png
+```
+
+## Uses
+
+- Digitize your signature to sign PDFs
+- Enter complex characters (e.g. Math symbols) or Asian scripts
+- Doodle I guess
+
+

@@ -1,0 +1,3 @@
+[console_scripts]
+fingerpaint=fingerpaint.fingerpaint:cli
+

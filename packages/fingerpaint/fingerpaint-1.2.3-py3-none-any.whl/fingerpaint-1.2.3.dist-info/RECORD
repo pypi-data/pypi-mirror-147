@@ -1,0 +1,9 @@
+fingerpaint/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fingerpaint/fingerpaint.py,sha256=nHmiSUQ7EWA9vAztZNkmYrIJUGDSHH0bNM5zdgI9ju8,11231
+fingerpaint/data/fix_permissions.sh,sha256=hMThM-pjrPjY0lTAvKNJYxi137ADOJZ-ngLQ3hAGv1o,209
+fingerpaint-1.2.3.dist-info/LICENSE,sha256=-cN1ob5KQfe3AwHdg8kcuJ5BVnR4hZt37vN1pS14JQU,18091
+fingerpaint-1.2.3.dist-info/METADATA,sha256=p4OhUsINl2SVPXHN21MksPiiPikePbbppnLR7qszwXY,2268
+fingerpaint-1.2.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+fingerpaint-1.2.3.dist-info/entry_points.txt,sha256=0Jm019GF3xjSecaXvZ018h1L1I-KkBqX98ZMZhS5MoU,59
+fingerpaint-1.2.3.dist-info/top_level.txt,sha256=1rsTSPfURnYjxa_tdc93yll6LKBsrS-VFIii9gvjIPc,12
+fingerpaint-1.2.3.dist-info/RECORD,,
