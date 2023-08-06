@@ -1,0 +1,13 @@
+README.md
+setup.py
+FrumPy.egg-info/PKG-INFO
+FrumPy.egg-info/SOURCES.txt
+FrumPy.egg-info/dependency_links.txt
+FrumPy.egg-info/requires.txt
+FrumPy.egg-info/top_level.txt
+frumpy/__init__.py
+frumpy.egg-info/PKG-INFO
+frumpy.egg-info/SOURCES.txt
+frumpy.egg-info/dependency_links.txt
+frumpy.egg-info/requires.txt
+frumpy.egg-info/top_level.txt
