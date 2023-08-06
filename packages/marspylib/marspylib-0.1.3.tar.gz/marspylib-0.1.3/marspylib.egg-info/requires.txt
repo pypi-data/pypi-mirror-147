@@ -1,0 +1,4 @@
+jpype1>=1.3.0
+pyimagej
+scyjava
+matplotlib
