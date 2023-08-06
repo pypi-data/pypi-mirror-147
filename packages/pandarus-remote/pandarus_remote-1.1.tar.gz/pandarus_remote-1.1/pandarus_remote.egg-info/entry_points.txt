@@ -1,0 +1,3 @@
+[console_scripts]
+pandarus-remote = pandarus_remote.bin:webapp
+

@@ -1,0 +1,10 @@
+appdirs
+docopt
+fiona
+flask
+pandarus>=1.0
+peewee
+rasterio
+redis
+requests
+rq
