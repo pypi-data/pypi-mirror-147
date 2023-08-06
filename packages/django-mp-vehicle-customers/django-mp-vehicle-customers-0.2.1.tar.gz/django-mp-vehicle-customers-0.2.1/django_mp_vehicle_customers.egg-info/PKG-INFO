@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: django-mp-vehicle-customers
+Version: 0.2.1
+Summary: Django customers app
+Home-page: https://github.com/pmaigutyak/mp-vehicle-customers
+Author: Paul Maigutyak
+Author-email: pmaigutyak@gmail.com
+License: MIT
+Download-URL: https://github.com/pmaigutyak/mp-vehicle-customers/archive/0.2.1.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
