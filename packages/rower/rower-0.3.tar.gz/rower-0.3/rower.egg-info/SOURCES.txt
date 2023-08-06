@@ -1,0 +1,47 @@
+LICENSE
+MANIFEST.in
+README.md
+pytest.ini
+setup.py
+rower/__init__.py
+rower/base.py
+rower/data_package.py
+rower/updating.py
+rower.egg-info/PKG-INFO
+rower.egg-info/SOURCES.txt
+rower.egg-info/dependency_links.txt
+rower.egg-info/requires.txt
+rower.egg-info/top_level.txt
+rower/data/ecoinvent 3.3 apos/activity_mapping.json
+rower/data/ecoinvent 3.3 apos/datapackage.json
+rower/data/ecoinvent 3.3 apos/definitions.json
+rower/data/ecoinvent 3.3 consequential/activity_mapping.json
+rower/data/ecoinvent 3.3 consequential/datapackage.json
+rower/data/ecoinvent 3.3 consequential/definitions.json
+rower/data/ecoinvent 3.3 cutoff/activity_mapping.json
+rower/data/ecoinvent 3.3 cutoff/datapackage.json
+rower/data/ecoinvent 3.3 cutoff/definitions.json
+rower/data/ecoinvent 3.4 apos/activity_mapping.json
+rower/data/ecoinvent 3.4 apos/datapackage.json
+rower/data/ecoinvent 3.4 apos/definitions.json
+rower/data/ecoinvent 3.4 consequential/activity_mapping.json
+rower/data/ecoinvent 3.4 consequential/datapackage.json
+rower/data/ecoinvent 3.4 consequential/definitions.json
+rower/data/ecoinvent 3.4 cutoff/activity_mapping.json
+rower/data/ecoinvent 3.4 cutoff/datapackage.json
+rower/data/ecoinvent 3.4 cutoff/definitions.json
+rower/data/ecoinvent 3.5 apos/activity_mapping.json
+rower/data/ecoinvent 3.5 apos/datapackage.json
+rower/data/ecoinvent 3.5 apos/definitions.json
+rower/data/ecoinvent 3.5 consequential/activity_mapping.json
+rower/data/ecoinvent 3.5 consequential/datapackage.json
+rower/data/ecoinvent 3.5 consequential/definitions.json
+rower/data/ecoinvent 3.5 cutoff/activity_mapping.json
+rower/data/ecoinvent 3.5 cutoff/datapackage.json
+rower/data/ecoinvent 3.5 cutoff/definitions.json
+rower/data/ecoinvent 3.8 cutoff/activity_mapping.json
+rower/data/ecoinvent 3.8 cutoff/datapackage.json
+rower/data/ecoinvent 3.8 cutoff/definitions.json
+rower/data/ecoinvent generic/datapackage.json
+rower/data/ecoinvent generic/definitions.json
+rower/data/ecoinvent generic/rows-topomapping.json.bz2
