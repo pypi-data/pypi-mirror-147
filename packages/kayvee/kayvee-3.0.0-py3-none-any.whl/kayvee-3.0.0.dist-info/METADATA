@@ -1,0 +1,92 @@
+Metadata-Version: 2.1
+Name: kayvee
+Version: 3.0.0
+Summary: Write data to key=val pairs, for human and machine readability
+Home-page: https://github.com/Clever/kayvee-python/
+Author: Clever
+Author-email: tech-notify@getclever.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.9.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: nose (>=1.0)
+Requires-Dist: future (>=0.18.2)
+
+# kayvee-python
+
+Kayvee translates an dictionary into a human and machine parseable string, with a "json" format.
+
+## Usage
+
+The Kayvee formatter can be used directly or through the `kayvee.logger`
+
+### kayvee formatter
+
+```python
+import kayvee as kv
+
+print(kv.format(source="logger-test",
+                level=kv.INFO,
+                title="informational-log-title",
+                dict(id=name_id, context=context_str))
+```
+
+### kayvee.logger
+
+```python
+import kayvee.logger as logger
+
+log = logger.Logger("logger-test")
+log.info("information-log-title", dict(id=name_id, context=context_str))
+
+# Pass global variables:
+log = logger.Logger("logger-test", default_fields=dict("query"=query))
+log.info("msg-title")
+```
+
+Other functions supported for structured logging:
+
+* `Logger.debug`
+* `Logger.info`
+* `Logger.warn`
+* `Logger.error`
+* `Logger.critical`
+
+Supported metrics:
+
+* `Logger.counter`
+* `Logger.gauge`
+
+## Releasing a new version
+
+When you merge changes for a new version:
+
+- bump the `VERSION`
+- update `CHANGELOG.md` explaining the changes
+- after merging, run `publish.sh`
+    - requires you to install twine and wheel via `pip install <package>`
+    - creates a git tag associating the version with the commit
+    - publishes the versioned package to pypi (Python package store)
+
+If you have any issues, please work with `#oncall-infra`.
+
+
+## 3.0.0 (2022-04-18)
+  * Upgrade to python 3.9.12
+## 2.0.2 (2016-05-20)
+  * Fix broken Logger. Add `default_fields` support to logger.
+## 2.0.1 (2016-01-21)
+  * Allow pip installing for all Pip versions. Avoid `parse_requirements` error.
+## 2.0.0 (2015-10-06)
+  * add kayvee.logger support for direct logging; metrics support
+## 1.0.1 (2014-01-05)
+  * Support for Pip version >= 6, because using parse_requirements
+## 1.0.0 (2014-01-05)
+  * Change ouput of format to be JSON instead of key=val
+## 0.0.2 (2014-10-21)
+  * Fix imports to allow pip installation.
+## 0.0.1 (2014-09-29)
+ * Initial release.
+
+
