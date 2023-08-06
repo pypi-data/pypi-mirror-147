@@ -1,0 +1,7 @@
+setup.py
+test_lib/__init__.py
+test_lib/testlib.py
+test_lib_aoi.egg-info/PKG-INFO
+test_lib_aoi.egg-info/SOURCES.txt
+test_lib_aoi.egg-info/dependency_links.txt
+test_lib_aoi.egg-info/top_level.txt
