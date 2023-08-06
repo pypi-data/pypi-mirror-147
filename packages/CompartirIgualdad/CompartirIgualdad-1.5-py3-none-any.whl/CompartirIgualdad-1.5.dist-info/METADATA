@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: CompartirIgualdad
+Version: 1.5
+Summary: Sistema hecho en python para compartir archivos en la red 
+Home-page: https://github.com/sc0tfree/updog
+Author: Z4mbr4
+Author-email: patagonilibre@protonmail.com
+License: GPLv3
+Download-URL: https://github.com/Z4mbr4/CompartirIgualdad.tar.gz
+Keywords: Compartir Igualdad - HTTP server SimpleHTTPServer directory
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Flask
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Communications :: File Sharing
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI
+Classifier: Topic :: Security
+Description-Content-Type: text/markdown
+Requires-Dist: colorama
+Requires-Dist: flask
+Requires-Dist: flask-httpauth
+Requires-Dist: pyopenssl
+Requires-Dist: werkzeug
+
+# Compartir Igualdad
+Desarrollo en python para compartir archivos mediante una web local.
+
+Realizado a partir de la materia Aplicaciones Libres de la Universidad del Comahue Regional Curza.
+
+**Su instalación:**
+
+`pip install CompartirIgualdad`
+
+**Subido en pypi.org:** https://pypi.org/project/CompartirIgualdad/
+
+Código Fuente: https://github.com/Z4mbr4/CompartirIgualdad/
+
+
+

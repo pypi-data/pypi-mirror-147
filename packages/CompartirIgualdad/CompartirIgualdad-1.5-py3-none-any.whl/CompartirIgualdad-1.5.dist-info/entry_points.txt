@@ -1,0 +1,3 @@
+[console_scripts]
+CompartirIgualdad = CompartirIgualdad.__main__:main
+
