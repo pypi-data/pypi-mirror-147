@@ -1,0 +1,10 @@
+Commacceslib/__init__.py,sha256=vn9X89iQJJNWQVEu-6Sh-niFje9zrk6H5eDvmbrkiJE,1161
+Commacceslib/comm.py,sha256=z4ZJfo09lWqLcIH0cw0lpy--AIdBoi4q_TUF0TrL9oI,11170
+Commacceslib/use_comm.py,sha256=k-bRFGqobR2XjhyMmqA5FswtAg-5qS7KyJaAsbP1IMo,8946
+Commacceslib/data_convert/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Commacceslib/data_convert/chip_bitmap_pos.py,sha256=rB30u1BL8WPJZ4xp3jDBN07GTUB2e7KC5dXh8TZyvyM,783
+Commacceslib/data_convert/data_swap.py,sha256=g7gJbSgailFuAn8cU73L0ff_JgbUIH_pRdaCIRaEduE,337
+Commacceslib-0.0.5.dist-info/METADATA,sha256=_e6adrJgy5AyzSI8oiMoSMnOV8zLZ3AKSf6luNbLc_k,509
+Commacceslib-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+Commacceslib-0.0.5.dist-info/top_level.txt,sha256=CA3Fd_TohC3ilvmeTSiMmfjeQ_SE-3optSkweyS4ihk,13
+Commacceslib-0.0.5.dist-info/RECORD,,
