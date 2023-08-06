@@ -1,0 +1,21 @@
+{
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./tests",
+        "-p",
+        "test*.py"
+    ],
+    "python.testing.pytestEnabled": false,
+    "python.testing.unittestEnabled": true,
+    "esbonio.sphinx.confDir": "",
+    "coverage-gutters.coverageFileNames": [
+        "lcov.info",
+        "cov.xml",
+        "coverage.xml",
+        "jacoco.xml",
+    ],
+    "python.linting.pylintEnabled": true,
+    "python.linting.flake8Enabled": true,
+    "editor.formatOnSave": true
+}
