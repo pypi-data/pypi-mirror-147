@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: ScopeSim-Templates
+Version: 0.4.0
+Summary: On-sky source templates for ScopeSim
+Home-page: https://github.com/astronomyk/ScopeSim_Templates
+Author: Kieran Leschinski
+Author-email: kieran.leschinski@unive.ac.at
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+License-File: LICENCE.txt
+License-File: LICENSE
+
+UNKNOWN
+

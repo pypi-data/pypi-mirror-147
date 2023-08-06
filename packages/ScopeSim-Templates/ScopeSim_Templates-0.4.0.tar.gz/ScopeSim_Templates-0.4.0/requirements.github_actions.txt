@@ -1,0 +1,16 @@
+pytest
+
+numpy>=1.17
+scipy
+matplotlib
+astropy
+
+requests
+pyyaml>5
+synphot
+photutils
+
+pyckles
+spextra
+skycalc_ipy
+git+https://github.com/AstarVienna/ScopeSim.git@dev_master
