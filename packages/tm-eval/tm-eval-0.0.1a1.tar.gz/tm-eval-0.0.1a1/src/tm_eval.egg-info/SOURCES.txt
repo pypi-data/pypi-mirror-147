@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/tm_eval/__init__.py
+src/tm_eval/topic_modeling.py
+src/tm_eval.egg-info/PKG-INFO
+src/tm_eval.egg-info/SOURCES.txt
+src/tm_eval.egg-info/dependency_links.txt
+src/tm_eval.egg-info/requires.txt
+src/tm_eval.egg-info/top_level.txt
+src/tm_eval/__pycache__/__init__.cpython-39.pyc
+src/tm_eval/__pycache__/topic_modeling.cpython-39.pyc
