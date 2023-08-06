@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+srsly/__init__.py
+srsly/cli.py
+srsly/workflow.tar.gz
+srsly/tests/__init__.py
+srsly/tests/test_cli.py
+srslyrun.egg-info/PKG-INFO
+srslyrun.egg-info/SOURCES.txt
+srslyrun.egg-info/dependency_links.txt
+srslyrun.egg-info/entry_points.txt
+srslyrun.egg-info/requires.txt
+srslyrun.egg-info/top_level.txt
