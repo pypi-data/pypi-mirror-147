@@ -1,0 +1,8 @@
+scipy
+numpy
+dacite
+
+[dev]
+pytest
+black
+mypy
