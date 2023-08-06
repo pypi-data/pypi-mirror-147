@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: aich
+Version: 0.0.1
+Summary: Encrypt & Decrypt Words Found In A Local Dictionary. Helpful In Tokenizing Blockchain Wallet Passwords.
+Home-page: https://github.com/arijitaich/AICH-Encryption
+Author: Arijit Aich
+Author-email: a2.arijitaich@gmail.com
+License: UNKNOWN
+Description: # AICH-Encryption
+         Encrypt Words Found In A Dictionary. Helpful In Tokenizing Blockchain Wallet Passwords.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
