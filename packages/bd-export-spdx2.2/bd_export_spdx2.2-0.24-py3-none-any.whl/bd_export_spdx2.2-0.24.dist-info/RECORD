@@ -1,0 +1,14 @@
+export_spdx/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+export_spdx/config.py,sha256=ZBawEGGGl8PjkKoo4o_xXDtvvuHvYWz1Vnc04GNqao0,4182
+export_spdx/data.py,sha256=b4erh3cCBIazYr-q_zqo6tsI29NjONzW_DP7zvb2HeE,6683
+export_spdx/globals.py,sha256=h_oBjybVYAvp20jxY1rafkmavpDjcwVc8_aqG1aVpxQ,1234
+export_spdx/main.py,sha256=UR2qs4JS4cajDX8FPqjPvmphLVz0RglAfm2I-FsIjZY,6984
+export_spdx/process.py,sha256=B1HTCph5NVU0LvCTFAwemoXwnjpYWKnlh4-gLz8QYX0,25846
+export_spdx/projects.py,sha256=Sl_gMujlMYgX7XUfVmL789eTzBFra_G2b83WHk-prmU,1916
+export_spdx/spdx.py,sha256=auoZJmLN6uJV6mNV3AT6rp0icWAr83BuIMVC1MkzoQ0,5924
+bd_export_spdx2.2-0.24.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+bd_export_spdx2.2-0.24.dist-info/METADATA,sha256=h9I6iW3GymgsrWT5Qkn8zkssT5ACzCABVq9FszXVWno,8431
+bd_export_spdx2.2-0.24.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bd_export_spdx2.2-0.24.dist-info/entry_points.txt,sha256=bzuk6pxY0QNEGebTI8aDQxiurTwgKY3Ufd8mfiyeFdQ,56
+bd_export_spdx2.2-0.24.dist-info/top_level.txt,sha256=sDdFusfAnXxiTWUFR1Ni3tL41ZTZBLDgXcH5ycTMlBI,12
+bd_export_spdx2.2-0.24.dist-info/RECORD,,
