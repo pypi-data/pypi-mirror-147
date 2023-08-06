@@ -1,0 +1,9 @@
+geometricus/__init__.py,sha256=PAX2P7e6YS66PllNHKTlmrU12OHPYp66CV65Mkj2jRk,272
+geometricus/geometricus.py,sha256=5e7ROy3a-1a1JJmEqEmOhvhz44a_ESp3YywJY-9QZFY,26209
+geometricus/moment_utility.py,sha256=_UypOg0ZYBTY_G_McwLDZWmk-nfj-s7zswkOw3FSvac,51714
+geometricus/protein_utility.py,sha256=a7Rqjn8zh6tcARgJL1DU4o5nQ5DvLWLhqsvEtNIeA6o,2102
+geometricus-0.3.0.dist-info/LICENSE,sha256=EDF5RgnzGZt5ihWv0pjiB9pZ7URrmdApJWcLdI56QxI,1068
+geometricus-0.3.0.dist-info/METADATA,sha256=J3tsrqnoFg_g3LD1bnySx3qSwEPPyup9H9hecLKNDDo,2296
+geometricus-0.3.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+geometricus-0.3.0.dist-info/top_level.txt,sha256=mogJqbinzPFYbkxgLn8Yuc6kiH6DuwrtUkmyM_OcVYE,12
+geometricus-0.3.0.dist-info/RECORD,,
