@@ -1,0 +1,2 @@
+[console_scripts]
+supercharged = src.lib.__main__:main
