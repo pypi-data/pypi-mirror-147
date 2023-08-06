@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: twarchive
+Version: 0.5.0
+Summary: Download tweets for use with the twarchive Hugo theme
+Home-page: https://github.com/mrled/twarchive/
+Author: Micah R Ledbetter
+Author-email: me@micahrl.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# twarchive
+
+A companion package for the twarchive Hugo theme.
+This package makes it easy to download tweets in the format that the Hugo theme expects.
+
+For more information, see
+<https://github.com/mrled/twarchive>
+
+
