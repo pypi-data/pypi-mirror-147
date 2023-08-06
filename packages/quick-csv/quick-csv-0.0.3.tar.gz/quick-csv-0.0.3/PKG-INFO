@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: quick-csv
+Version: 0.0.3
+Summary: Read and write CSV or TXT files in a simple manner
+Home-page: https://github.com/dhchenx/quick-csv
+Author: Donghua Chen
+Author-email: douglaschan@126.com
+License: MIT
+Project-URL: Bug Reports, https://github.com/dhchenx/quick-csv/issues
+Project-URL: Source, https://github.com/dhchenx/quick-csv
+Keywords: csv file,txt file,write,read,quick-csv,quickcsv
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: test
+License-File: LICENSE
+
+## Quick CSV
+
+Read and write CSV or TXT files in a simple manner
+
+### Installation
+```pip
+pip install quick-csv
+```
+
+### Usage
+Example 1: read and write csv or txt files
+```python
+from quickcsv.file import *
+# read a csv file
+list_model=read_csv('data/test.csv')
+for idx,model in enumerate(list_model):
+    print(model)
+    list_model[idx]['id']=idx
+# save a csv file
+write_csv('data/test1.csv',list_model)
+
+# write a text file
+write_text('data/text1.txt',"Hello World!")
+# read a text file
+print(read_text('data/text1.txt'))
+```
+Example 2: create dataframe from a list of models
+```python
+from quickcsv.file import *
+# read a csv file
+list_model=read_csv('data/test.csv')
+# create a dataframe from list_model
+df=create_df(list_model)
+# print
+print(df)
+```
+
+### License
+
+The `quick-csv` project is provided by [Donghua Chen](https://github.com/dhchenx). 
+
+
+
