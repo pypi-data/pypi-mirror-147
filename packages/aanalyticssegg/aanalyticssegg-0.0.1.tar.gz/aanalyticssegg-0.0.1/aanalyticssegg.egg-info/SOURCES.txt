@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+aanalyticssegg/__init__.py
+aanalyticssegg/__version__.py
+aanalyticssegg/actCreateSeg.py
+aanalyticssegg/actGetSeg.py
+aanalyticssegg/actLibrarySeg.py
+aanalyticssegg/actUpdateSeg.py
+aanalyticssegg.egg-info/PKG-INFO
+aanalyticssegg.egg-info/SOURCES.txt
+aanalyticssegg.egg-info/dependency_links.txt
+aanalyticssegg.egg-info/top_level.txt
