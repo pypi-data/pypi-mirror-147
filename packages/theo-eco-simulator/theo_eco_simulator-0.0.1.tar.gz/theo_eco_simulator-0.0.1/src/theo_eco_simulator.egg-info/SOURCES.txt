@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/theo_eco_simulator.egg-info/PKG-INFO
+src/theo_eco_simulator.egg-info/SOURCES.txt
+src/theo_eco_simulator.egg-info/dependency_links.txt
+src/theo_eco_simulator.egg-info/top_level.txt
+src/theoretical_ecology_simulator/__init__.py
+src/theoretical_ecology_simulator/community.py
+src/theoretical_ecology_simulator/integration.py
+src/theoretical_ecology_simulator/models.py
