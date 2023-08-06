@@ -1,0 +1,13 @@
+.changelist_object_toolbar_separator {
+    display: inline-block;
+    padding: 0 5px 0 3px;
+}
+.changelist_object_toolbar_separator:after {
+    content: "|";
+}
+.field-changelist_object_toolbar {
+    text-align: right;
+}
+.column-changelist_object_toolbar {
+    text-align: right;
+}

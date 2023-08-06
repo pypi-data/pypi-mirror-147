@@ -1,0 +1,11 @@
+
+.TextInputFieldFilter .TextInputFieldFilterInput {
+    display: block;
+    width: 90%;
+}
+.TextInputFieldFilter input[type=button] {
+    padding: 4px 8px;
+}
+.TextInputFieldFilter input[type=button].TextInputFieldFilterResetButton {
+    background-color: #999;
+}
