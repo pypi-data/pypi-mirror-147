@@ -1,0 +1,9 @@
+LICENSE.txt
+README.rst
+setup.py
+src/aquantresearch/__init__.py
+src/aquantresearch/functions.py
+src/aquantresearch.egg-info/PKG-INFO
+src/aquantresearch.egg-info/SOURCES.txt
+src/aquantresearch.egg-info/dependency_links.txt
+src/aquantresearch.egg-info/top_level.txt
