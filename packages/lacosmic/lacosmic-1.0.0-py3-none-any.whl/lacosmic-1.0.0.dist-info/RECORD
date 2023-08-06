@@ -1,0 +1,12 @@
+lacosmic/__init__.py,sha256=3Dn67jnbBVlidpd918KPAYIbR7cKS3HTOfGoaIYVysc,516
+lacosmic/_astropy_init.py,sha256=8RFJn-IUqlOVo6zWgRZvTLxR7GOFP2EcuNrkC-pxZWw,355
+lacosmic/conftest.py,sha256=E2ylaxtN5UD5FQzLkjtSSjzvgNy_DsWPG_ktQJjQWWk,1003
+lacosmic/core.py,sha256=guggNKbaV_-vcV9kSQD3bofLB4cQF-LHPuHWzR5tYaA,10401
+lacosmic/version.py,sha256=9IV4GN-l9xWB46cMEbfv00Sc_e-eQoE4b35jsCAlCnw,337
+lacosmic/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lacosmic/tests/test_core.py,sha256=fuoJbjFmngz73xrvXW1sSo1ZdH3yaECb2baOW635F3Y,3295
+lacosmic-1.0.0.dist-info/LICENSE.rst,sha256=iBSZeymOuc778Lrpfs1oLeziV1T4YApuSMfMz0gGzqg,1495
+lacosmic-1.0.0.dist-info/METADATA,sha256=PcFeR4oUTeLSqbWoREZ8cAjObAUKbg7PCA-9Y2Yi1gI,2631
+lacosmic-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+lacosmic-1.0.0.dist-info/top_level.txt,sha256=z_QW6suObvmFzBEVJUbgS4YyZYMKDb4xJ94f-BDo6tw,9
+lacosmic-1.0.0.dist-info/RECORD,,
