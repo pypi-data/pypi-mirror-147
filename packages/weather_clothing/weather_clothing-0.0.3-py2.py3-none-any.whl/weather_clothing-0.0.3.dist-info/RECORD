@@ -1,0 +1,7 @@
+weather_clothing/__init__.py,sha256=dIe2ezaYYrp9yDXeBEigBkI7KrJyRwWUFsHkr9dXbHU,117
+weather_clothing/clothing_item.py,sha256=3FOhNVGgqgfs-GjkekPTZitS1kKc5iEUDWxP8APu3RI,1709
+weather_clothing/comparisons.py,sha256=7ftRQg2V-RwFey2zyYIkti11RhqqG6fX8np7wMfSqJY,2818
+weather_clothing-0.0.3.dist-info/LICENSE,sha256=Kvw8MH6IVZjYTOPYYSKE2UlApl67tPIOvZgefGZcynQ,1102
+weather_clothing-0.0.3.dist-info/WHEEL,sha256=96_DCfscDnVj9fVNwi1rfifiRwfpxLjwXWglVksjj_E,99
+weather_clothing-0.0.3.dist-info/METADATA,sha256=zL2un-jjSgt0tYeTq8-ctRvyWWtCyZIUDQwx1-HLruY,901
+weather_clothing-0.0.3.dist-info/RECORD,,
