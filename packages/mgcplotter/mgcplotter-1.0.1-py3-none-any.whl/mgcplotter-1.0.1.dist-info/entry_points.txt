@@ -1,0 +1,4 @@
+[console_scripts]
+MGCplotter=mgcplotter.mgcplotter:main
+generate_cog_color_template=mgcplotter.mgcplotter:generate_cog_color_template
+
