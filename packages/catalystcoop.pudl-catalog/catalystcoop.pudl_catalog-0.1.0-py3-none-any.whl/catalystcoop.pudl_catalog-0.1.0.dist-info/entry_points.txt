@@ -1,0 +1,2 @@
+[intake.catalogs]
+pudl_cat = pudl_catalog:pudl_cat
