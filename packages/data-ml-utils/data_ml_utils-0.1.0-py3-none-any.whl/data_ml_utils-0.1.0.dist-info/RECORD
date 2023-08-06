@@ -1,0 +1,9 @@
+data_ml_utils/client_boto3/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+data_ml_utils/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+data_ml_utils/core/config.py,sha256=vDpCKYNEO2jnnbsaX8Dcity-XIMqrkahgbCUpAvvEyg,234
+data_ml_utils/core/pyathena_utils.py,sha256=t3lbwEC6nEr9J-x3RXFivMPyz0PE_2YmHoXVwipnyHY,3179
+data_ml_utils/pyathena_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+data_ml_utils/pyathena_client/client.py,sha256=C6zVt3trZKI1QGCegdfgV1tqyMIMuuHPs3PEvIoHzV4,4250
+data_ml_utils-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+data_ml_utils-0.1.0.dist-info/METADATA,sha256=-mR3HKIjEwN_aCi3WZFQkVl9u6egQcxLR9Fv9QYaMEg,1639
+data_ml_utils-0.1.0.dist-info/RECORD,,

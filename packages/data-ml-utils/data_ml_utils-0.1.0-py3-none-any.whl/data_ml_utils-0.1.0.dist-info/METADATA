@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: data-ml-utils
+Version: 0.1.0
+Summary: 
+License: MIT
+Author: Shu Ming Peh
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PyYAML (==5.4.1)
+Requires-Dist: appdirs (==1.4.4)
+Requires-Dist: attrs (==20.3.0)
+Requires-Dist: black (>=22.3.0,<23.0.0)
+Requires-Dist: cfgv (==3.2.0)
+Requires-Dist: coverage (==5.4)
+Requires-Dist: distlib (==0.3.1)
+Requires-Dist: filelock (==3.0.12)
+Requires-Dist: flake8 (>=4.0.1,<5.0.0)
+Requires-Dist: identify (==1.5.13)
+Requires-Dist: iniconfig (==1.1.1)
+Requires-Dist: isort (>=5.10.1,<6.0.0)
+Requires-Dist: mccabe (==0.6.1)
+Requires-Dist: mock (>=4.0.3,<5.0.0)
+Requires-Dist: moto (>=3.1.5,<4.0.0)
+Requires-Dist: mypy-extensions (==0.4.3)
+Requires-Dist: nodeenv (==1.5.0)
+Requires-Dist: packaging (==20.9)
+Requires-Dist: pandas (==1.3.5)
+Requires-Dist: pluggy (==0.13.1)
+Requires-Dist: poetry (==1.1.11)
+Requires-Dist: pre-commit (==2.10.0)
+Requires-Dist: py (==1.10.0)
+Requires-Dist: pyathena (>=2.5.2,<3.0.0)
+Requires-Dist: pydantic (>=1.9.0,<2.0.0)
+Requires-Dist: pyparsing (==2.4.7)
+Requires-Dist: pytest (>=7.1.1,<8.0.0)
+Requires-Dist: pytest-cov (>=3.0.0,<4.0.0)
+Requires-Dist: pytest-custom-exit-code (==0.3.0)
+Requires-Dist: regex (==2020.11.13)
+Requires-Dist: six (==1.15.0)
+Requires-Dist: toml (==0.10.2)
+Requires-Dist: typed-ast (==1.4.2)
+Requires-Dist: typing-extensions (>=4.2.0,<5.0.0)
+Requires-Dist: virtualenv (==20.4.2)
