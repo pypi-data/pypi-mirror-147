@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+ini/__init__.py
+mumodule.egg-info/PKG-INFO
+mumodule.egg-info/SOURCES.txt
+mumodule.egg-info/dependency_links.txt
+mumodule.egg-info/top_level.txt
