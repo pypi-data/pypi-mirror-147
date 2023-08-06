@@ -1,0 +1,111 @@
+Metadata-Version: 2.1
+Name: pibooth-dropbox
+Version: 0.0.1
+Summary: Pibooth plugin to upload pictures on Dropbox.
+Home-page: https://github.com/pibooth/pibooth-dropbox
+Download-URL: https://github.com/pibooth/pibooth-dropbox/archive/0.0.1.tar.gz
+Author: Sébastien Ravel, Vincent Verdeil, Antoine Rousseaux
+License: GPLv3
+Keywords: Raspberry Pi,camera,photobooth
+Platform: unix
+Platform: linux
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Other Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Natural Language :: English
+Classifier: Topic :: Multimedia :: Graphics :: Capture :: Digital Camera
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: pibooth (>=2.0.0)
+Requires-Dist: dropbox (>=11.29.0)
+
+
+===============
+pibooth-dropbox
+===============
+
+|PythonVersions| |PypiPackage| |Downloads|
+
+``pibooth-dropbox`` is a plugin for the `pibooth`_ application.
+
+Its permits to upload the pictures to a `Dropbox`_ folder. It requires an
+internet connection.
+
+Install
+-------
+
+::
+
+    $ pip3 install pibooth-dropbox
+
+Configuration
+-------------
+
+Here below the new configuration options available in the `pibooth`_ configuration.
+**The keys and their default values are automatically added to your configuration after first** `pibooth`_ **restart.**
+
+.. code-block:: ini
+
+    [DROPBOX]
+
+    # Dropbox folder where pictures are uploaded. Subfolders can be separated by /
+    album_name = Pibooth
+
+    # Refresh-Token for the dropbox api
+    token =
+
+    # Dropbox Application Key
+    app_key =
+
+    # Dropbox Application Password
+    app_secret =
+
+.. note:: Edit the configuration by running the command ``pibooth --config``.
+
+Picture URL
+-----------
+
+Uploaded picture URL is set to ``app.previous_picture_url`` attribute at the end of
+`processing` state (``state_processing_exit`` hook).
+
+Grant secured access
+--------------------
+
+The upload part was mainly taken und adapted from the Dropbox Api example updown.py from the dropbox-sdk-python
+https://github.com/dropbox/dropbox-sdk-python
+https://github.com/dropbox/dropbox-sdk-python/blob/master/example/updown.py
+
+Description on how to create a dropbox app is described here for a Gravity app, but it can be used to create any other custom app:
+https://docs.gravityforms.com/creating-a-custom-dropbox-app/
+
+Description on how to create a refresh token and how to implement this into a python code is very good described here:
+https://stackoverflow.com/questions/70641660/how-do-you-get-and-use-a-refresh-token-for-the-dropbox-api-python-3-x
+
+
+.. --- Links ------------------------------------------------------------------
+
+.. _`pibooth`: https://pypi.org/project/pibooth
+
+.. _`Dropbox`: https://www.dropbox.com
+
+.. |PythonVersions| image:: https://img.shields.io/badge/python-3.6+-red.svg
+   :target: https://www.python.org/downloads
+   :alt: Python 3.6+
+
+.. |PypiPackage| image:: https://badge.fury.io/py/pibooth-dropbox.svg
+   :target: https://pypi.org/project/pibooth-dropbox
+   :alt: PyPi package
+
+.. |Downloads| image:: https://img.shields.io/pypi/dm/pibooth-dropbox?color=purple
+   :target: https://pypi.org/project/pibooth-dropbox
+   :alt: PyPi downloads
+
+
