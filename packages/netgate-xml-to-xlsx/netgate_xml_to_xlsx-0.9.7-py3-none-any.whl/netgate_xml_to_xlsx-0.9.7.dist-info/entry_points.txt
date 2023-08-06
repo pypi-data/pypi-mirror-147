@@ -1,0 +1,4 @@
+[console_scripts]
+flakeheaven=flakeheaven:entrypoint
+netgate-xml-to-xlsx=netgate_xml_to_xlsx.main:main
+
