@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: fafnir
+Version: 0.1.1
+Summary: Kill ancestor process
+License: MIT
+Keywords: proc,kill
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Utilities
+License-File: LICENSE
+Requires-Dist: psutil
+
+Kills ancestor process.
+
+
