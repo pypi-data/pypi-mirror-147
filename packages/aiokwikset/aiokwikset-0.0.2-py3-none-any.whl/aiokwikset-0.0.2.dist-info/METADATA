@@ -1,0 +1,116 @@
+Metadata-Version: 2.1
+Name: aiokwikset
+Version: 0.0.2
+Summary: Python interface for Kwikset Halo API
+Home-page: https://github.com/explosivo22/aiokwikset
+Author: Brad Barbour
+Author-email: barbourbj@gmail.com
+License: Apache Software License
+Keywords: kwikset,home automation,kwikset halo
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohttp (>=3.7.0)
+Requires-Dist: aioboto3 (==9.5.0)
+
+
+# aiokwikset - Python interface for the Kwikset Halo API
+
+Python library for communicating with the [Kwikset Halo Devices](https://www.kwikset.com/halo) via the Kwikset Halo cloud API.
+
+***WARNING***
+* This library only works if you have signed up for and created a home/had a home shared with you from the Kwikset Application.
+* [IOS](https://apps.apple.com/us/app/kwikset/id1465996742)
+* [Android](https://play.google.com/store/apps/details?id=com.kwikset.blewifi)
+
+NOTE:
+
+* This library is community supported, please submit changes and improvements.
+* This is a very basic interface, not well thought out at this point, but works for the use cases that initially prompted spitting this out from.
+
+## Supports
+
+- locking/unlocking
+- retrieving basic information
+
+## Installation
+
+```
+pip install aiokwikset
+```
+
+## Examples
+
+```python
+import asyncio
+
+from aiohttp import ClientSession
+
+from aiokwikset import async_get_api
+
+
+async def main() -> None:
+    """Run!"""
+    api = await async_get_api("<EMAIL>", "<PASSWORD>")
+
+    # Get user account information:
+    user_info = await api.user.get_info()
+
+    # Get home/homes information
+    homes_info = await api.user.get_homes()
+
+    # Get devices information
+    devices = await api.device.get_devices(homes_info['homeid'])
+
+    # Get a device specific information
+    device_info = await api.device.get_device_info(devices['data'][0]['deviceid'])
+
+    # Lock the specific device
+    lock = await api.device.lock_device(devices['data'][0], user_info)
+
+
+asyncio.run(main())
+
+```
+By default, the library creates a new connection to Kwikset with each coroutine. If you are calling a large number of coroutines (or merely want to squeeze out every second of runtime savings possible), an aiohttp ClientSession can be used for connection pooling:
+
+```python
+import asyncio
+
+from aiohttp import ClientSession
+
+from aiokwikset import async_get_api
+
+
+async def main() -> None:
+    """Create the aiohttp session and run the example."""
+    async with ClientSession() as websession:
+        api = await async_get_api("<EMAIL>", "<PASSWORD>", session=websession)
+
+    # Get user account information:
+    user_info = await api.user.get_info()
+
+    # Get home/homes information
+    homes_info = await api.user.get_homes()
+
+    # Get devices information
+    devices = await api.device.get_devices(homes_info['homeid'])
+
+    # Get a device specific information
+    device_info = await api.device.get_device_info(devices['data'][0]['deviceid'])
+
+    # Lock the specific device
+    lock = await api.device.lock_device(devices['data'][0], user_info)
+
+
+asyncio.run(main())
+```
+
+## Known Issues
+
+* not all APIs supported
+
+
