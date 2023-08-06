@@ -1,0 +1,1 @@
+Delete folder objects created by the Globus transfer of Level 1 data to the object store.
