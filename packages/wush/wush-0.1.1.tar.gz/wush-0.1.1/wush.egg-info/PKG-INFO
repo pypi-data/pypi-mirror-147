@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: wush
+Version: 0.1.1
+Summary: Useful api client on terminal
+Home-page: https://github.com/wxnacy/wush
+Author: wxnacy
+Author-email: wxnacy@gmail.com
+License: MIT
+Description: 
+        # Wush
+        
+        Url Shell
+        
+        
+        ## 更新历史
+        
+        [HISTORY](docs/HISTORY.md)
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+Provides-Extra: spider

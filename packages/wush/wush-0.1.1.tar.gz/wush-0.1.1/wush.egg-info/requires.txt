@@ -1,0 +1,12 @@
+browsercookie
+requests
+pyyaml
+prompt_toolkit
+flask
+rich
+csarg
+wpy
+
+[spider]
+selenium
+webdriver-manager
