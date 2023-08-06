@@ -1,0 +1,3 @@
+include README.md
+recursive-include CapiPy/ncfiles *
+recursive-include CapiPy/utils *
