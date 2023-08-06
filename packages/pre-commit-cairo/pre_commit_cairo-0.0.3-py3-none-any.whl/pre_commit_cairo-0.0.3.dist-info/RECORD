@@ -1,0 +1,7 @@
+pre_commit_cairo/__init__.py,sha256=4GZKi13lDTD25YBkGakhZyEQZWTER_OWQMNPoH_UM2c,22
+pre_commit_cairo/check_lint.py,sha256=L9qtmZcuQNcEc4Yz-Rb8XAdw4JWhuWNe-E3bNPFazwI,2037
+pre_commit_cairo-0.0.3.dist-info/entry_points.txt,sha256=Y5M5PsxAujjzS5xtdZdHYh2sl122Mmp05A8wiiD2TgQ,63
+pre_commit_cairo-0.0.3.dist-info/LICENSE,sha256=n0EeOe8aIYqixm34pyg2KvI_UCJucNFGljAVOXUZkoA,1068
+pre_commit_cairo-0.0.3.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+pre_commit_cairo-0.0.3.dist-info/METADATA,sha256=E8uCc6Ymwn4wEPLxu_pNj7nXLDyyRCY6zEjNfyPrnYI,439
+pre_commit_cairo-0.0.3.dist-info/RECORD,,
