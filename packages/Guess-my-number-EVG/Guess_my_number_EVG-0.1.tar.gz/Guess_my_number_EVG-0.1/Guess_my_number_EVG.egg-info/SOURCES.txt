@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+Guess_my_number_EVG.egg-info/PKG-INFO
+Guess_my_number_EVG.egg-info/SOURCES.txt
+Guess_my_number_EVG.egg-info/dependency_links.txt
+Guess_my_number_EVG.egg-info/requires.txt
+Guess_my_number_EVG.egg-info/top_level.txt
+test/__init__.py
+test/run.py

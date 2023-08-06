@@ -1,0 +1,1 @@
+Easy Pyhon code how you trying to guess the random digit from 1 to 100
