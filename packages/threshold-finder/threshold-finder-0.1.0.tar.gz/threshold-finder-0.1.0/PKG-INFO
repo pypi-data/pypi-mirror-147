@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: threshold-finder
+Version: 0.1.0
+Summary: Finding optimal threshold based on ROC CURVE.
+Author: thibaultbl
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pandas (>=1.4.2,<2.0.0)
+Requires-Dist: scikit-learn (>=1.0.2,<2.0.0)
