@@ -1,0 +1,12 @@
+flycheap/__init__.py,sha256=O-xpVXzM3JiRPhsd6xsuGAt3bvmhm6A8qS94EAXyhTw,172
+flycheap/_airline.csv,sha256=C4tcxz-J8_Kumi_jPYRkriCWTVTENUyFAzoZ9Czyg7s,49222
+flycheap/_airport.csv,sha256=Vsu8_plqC9R9fNDZ1DZyTxuGd0Sm_f4GgCrLjkyG31g,20171
+flycheap/_throughput.csv,sha256=vet78JLJ_-j6I5zsRatO0EqqVfrbsv6e33sMkUR5S_M,14502
+flycheap/civilaviation.py,sha256=OcBPpKFlubJCd-RD8kOJC3VceX5KzV7Ndd4rler-vac,40774
+flycheap/ctripcrawler.py,sha256=1PjJyovW7lc3mT0yxRSiFioSFcCEZynpOX2QEcscXi4,46144
+flycheap/rebuilder.py,sha256=-ePD7A4l8Hoj2gFw1NvZ8RB4sr0L9oPa-T4U51bdZXY,81446
+flycheap-0.1.7.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+flycheap-0.1.7.dist-info/METADATA,sha256=uHHjjkffr098vXQcUDV77EDvGyoLiB8vlI7brCvF7pw,6444
+flycheap-0.1.7.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+flycheap-0.1.7.dist-info/top_level.txt,sha256=pADrmTCqwIF_rrk9du3eMbeUve0pcDD1NVFAzrZ7dkU,9
+flycheap-0.1.7.dist-info/RECORD,,
