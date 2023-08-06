@@ -1,0 +1,2 @@
+[console_scripts]
+youdied = youdied:main
