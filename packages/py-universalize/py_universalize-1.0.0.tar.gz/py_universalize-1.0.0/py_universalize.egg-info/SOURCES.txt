@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+py_universalize.egg-info/PKG-INFO
+py_universalize.egg-info/SOURCES.txt
+py_universalize.egg-info/dependency_links.txt
+py_universalize.egg-info/top_level.txt
+universalize/__init__.py
+universalize/colors.py
+universalize/errors.py
+universalize/get_languages.py
+universalize/locale.py
+universalize/py_universalize.py
+universalize/set_primary_language.py
+universalize/setup.py
+universalize/shared.py
