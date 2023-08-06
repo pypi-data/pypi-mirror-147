@@ -1,0 +1,24 @@
+{
+  "description": "WooCommerce client",
+  "author": "Cochise Ruhulessin",
+  "author_email": "cochise.ruhulessin@unimatrixone.io",
+  "url": "https://gitlab.com/unimatrixone/libraries/libapi/woocommerce",
+  "licenses": "Proprietary",
+  "install_requires": [
+    "headless",
+    "pydantic"
+  ],
+  "classifiers": [
+     "Development Status :: 4 - Beta",
+     "Environment :: Console",
+     "Environment :: Web Environment",
+     "Intended Audience :: Developers",
+     "License :: Other/Proprietary License",
+     "Operating System :: POSIX",
+     "Operating System :: POSIX :: Linux",
+     "Programming Language :: Python :: 3.10",
+     "Programming Language :: Python :: 3 :: Only",
+     "Topic :: Internet",
+     "Topic :: Software Development :: Libraries"
+  ]
+}

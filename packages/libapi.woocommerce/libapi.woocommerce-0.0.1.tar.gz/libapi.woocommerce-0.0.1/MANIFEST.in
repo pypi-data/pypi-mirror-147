@@ -1,0 +1,11 @@
+include VERSION
+include libapi/woocommerce/package.json
+include requirements.txt
+include README.md
+include VERSION
+recursive-include libapi VERSION
+recursive-include libapi **.html
+recursive-include libapi **.j2
+recursive-include libapi **.json
+recursive-include libapi **.yaml
+recursive-include libapi **.xml
