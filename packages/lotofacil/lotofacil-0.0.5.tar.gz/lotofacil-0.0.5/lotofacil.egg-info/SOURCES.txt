@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+lotofacil/__init__.py
+lotofacil.egg-info/PKG-INFO
+lotofacil.egg-info/SOURCES.txt
+lotofacil.egg-info/dependency_links.txt
+lotofacil.egg-info/requires.txt
+lotofacil.egg-info/top_level.txt
