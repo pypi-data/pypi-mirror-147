@@ -1,0 +1,10 @@
+consql/__init__.py,sha256=QoNwV58nJM9Ieu_QYDMRDfpeUHWNpzX6i3Ayx4ogTu4,226
+consql/errors.py,sha256=-WFtVpttw_1QgNOgo4fQq7Lkuv6I0JGNWULKPFclPP0,1335
+consql/main.py,sha256=5UnTV4y8WCN4fgwTNv6kzjld8lHA4dP83_6OwgWDNk0,493
+consql/model.py,sha256=PldgwVHhOf3TlEE4qkYX-mbp7LUBSXninYKd2fm3c48,9827
+consql/table.py,sha256=xx3gu4e1xgXIaDDvvP1d_SEy1ItqV6AeD4Ol915pZFA,1530
+consql-0.2.dist-info/LICENSE,sha256=qm4mnnBRGXYOcLElnE4N1ulqPNHR63ufwfTGaxvC_50,1069
+consql-0.2.dist-info/METADATA,sha256=QZM3yNu7vLTl-MQwsqbJXZbOH0ZSBdY2s1LlExtXcAY,1081
+consql-0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+consql-0.2.dist-info/top_level.txt,sha256=DKubBj01Kh_A7drPj5pnaLEpP0S7zmc-JBeNvLcL4V0,7
+consql-0.2.dist-info/RECORD,,
