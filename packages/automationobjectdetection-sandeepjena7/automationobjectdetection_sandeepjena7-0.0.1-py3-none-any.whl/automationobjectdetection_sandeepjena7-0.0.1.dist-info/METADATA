@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: automationobjectdetection-sandeepjena7
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/sandeepjena7/automateobjectdetctiontf1dectron2yolov5
+Author: sandeepjean777
+Author-email: sandeepjean777@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: protobuf
+Requires-Dist: six
+Requires-Dist: tensorboard (==1.14.0)
+Requires-Dist: tensorflow (==1.14.0)
+Requires-Dist: opencv-python
+Requires-Dist: matplotlib
+Requires-Dist: Cython
+Requires-Dist: torch (==1.8.1)
+Requires-Dist: torchvision (==0.9.1)
+Requires-Dist: fvcore
+Requires-Dist: cloudpickle
+Requires-Dist: omegaconf
+Requires-Dist: pandas
+Requires-Dist: seaborn
+Requires-Dist: requests
+Requires-Dist: pycocotools
+
+UNKNOWN
+
