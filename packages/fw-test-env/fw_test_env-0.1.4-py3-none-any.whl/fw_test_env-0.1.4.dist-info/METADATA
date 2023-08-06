@@ -1,0 +1,106 @@
+Metadata-Version: 2.1
+Name: fw-test-env
+Version: 0.1.4
+Summary: Flywheel integration test environment through a Pytest plugin.
+Home-page: https://gitlab.com/flywheel-io/tools/lib/fw-test-env
+License: MIT
+Keywords: Flywheel,Pytest,docker,fixture,integration,test,testing
+Author: Flywheel
+Author-email: support@flywheel.io
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: docker (>=5.0.0,<6.0.0)
+Requires-Dist: fw-core-client (>=1.0.0,<2.0.0)
+Requires-Dist: fw-utils (>=3.0.1,<4.0.0)
+Requires-Dist: importlib-metadata (>=4.8.2,<5.0.0); python_version < "3.8"
+Requires-Dist: memoization (>=0,<1)
+Requires-Dist: pymongo (>=3,<5)
+Requires-Dist: pytest (>=6,<8)
+Requires-Dist: pyyaml (>=6.0,<7.0)
+Requires-Dist: retry (>=0,<1)
+Project-URL: Documentation, https://gitlab.com/flywheel-io/tools/lib/fw-test-env
+Project-URL: Repository, https://gitlab.com/flywheel-io/tools/lib/fw-test-env
+Description-Content-Type: text/markdown
+
+# fw-test-env
+
+`fw-test-env` provides a Flywheel integration test environment that can be used
+easily as a Pytest plugin.
+
+It uses docker to spin up
+
+- MongoDB
+- Flywheel Core
+
+`fw` fixture exposes the following attributes:
+
+- `fw.load` - Load test data
+- `fw.dump` - Dump database
+- `fw.reset` - Cleanup database
+- `fw.db` - Pymongo database client
+- `fw.client` - Get authenticated `CoreClient` instance (e.g. `fw.client.admin`)
+
+When using the `fw` pytest plugin it will load sane defaults into the database.
+For more details check the [default fixture yaml](fw_test_env/defaults.yml).
+
+## Installation
+
+Add as a `poetry` dev dependency to your project:
+
+```bash
+poetry add --dev fw-test-env
+```
+
+## Usage
+
+```python
+import pytest
+
+pytest_plugins = "fw_test_env.pytest_plugin"
+
+
+def test_core_client(fw):
+    resp = fw.client.admin.get("/users/self")
+    assert resp["_id"] == "admin@flywheel.test"
+
+
+# skip creating any acquisition
+@pytest.mark.fw_data({"acquisitions": []})
+def test_with_custom_defaults(fw):
+    resp = fw.client.admin.get("/acquisitions")
+    assert len(resp) == 0
+
+
+# specify the filepath relative to "test/data"
+# current limitations: test file name needs to be a valid UUID
+# and it should start with '0000' (four zero)
+def test_with_files(fw):
+    test_file = "00000000-0000-0000-0000-000000000000"
+    fw.load({"files": [{"name": "test.txt", "uuid": test_file}]})
+    acq_id = fw.dump()["acquisitions"][-1]["_id"]
+    resp = fw.client.admin.get(f"/acquisitions/{str(acq_id)}/files/test.txt", raw=True)
+    assert resp.content == b"foo bar\n"
+
+```
+
+For more examples see: [test_pytest_fixtures.py](tests/test_pytest_fixtures.py)
+
+## Development
+
+Install the project using `poetry` and enable `pre-commit`:
+
+```bash
+poetry install
+pre-commit install
+```
+
+## License
+
+[![MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+
