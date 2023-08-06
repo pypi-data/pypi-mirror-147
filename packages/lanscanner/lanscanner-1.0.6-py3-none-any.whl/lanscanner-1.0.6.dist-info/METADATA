@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: lanscanner
+Version: 1.0.6
+Summary: A Project to scan IPs and open ports
+Home-page: https://github.com/mrm78/lanScanner
+Author: mohamad
+Author-email: mr.mirshamsi.78@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/mrm78/lanScanner/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: netifaces (==0.11.0)
+Requires-Dist: pyfiglet
+
+lanscanner
+=======
+lanscanner is an automatic network scanner.
+this tool lists all the interfaces for you. after chossing, all active IPs in the network are detected and then shows all open ports for each ip.
+
+
+usage
+=======
+
+
+installation:
+
+    pip install lanscanner
+
+run:
+
+    python3 -m scanner
+
+
