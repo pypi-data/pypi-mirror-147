@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "airflow-poetry-test"
+version = "0.1.2"
+description = "Test packages para composer"
+authors = ["Guillermo Britos <guillermo.britos@uala.com.ar>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+apache-airflow-providers-amazon = "^3.3.0"
+google-cloud-datastore = "^2.5.1"
+apache-airflow-providers-slack = "[http]"
+airflow-provider-great-expectations = "^0.1.4"
+apache-airflow-providers-jira = "^2.0.4"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
