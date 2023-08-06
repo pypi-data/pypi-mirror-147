@@ -1,0 +1,12 @@
+__main__.py,sha256=fLY5kxphi7HmxUjV61gZDdmrnuv_k0mcU0HbqJ9py5g,5126
+jira2branch/__init__.py,sha256=mnWSD_YtoD219_297TdhXWVC0XRxLrVYMZNREPalC2U,75
+jira2branch/__main__.py,sha256=Nx6bevBbiEstUIt3Oy3z-L66cRhcaAyR8TelTh_0yuo,16325
+jira2branch/pipeline_stats.py,sha256=lwyHqersiCVXpl1aiQSx9wCoxrKKn_Z8JM-UyhBVm_Q,1433
+jira2branch/test_main.py,sha256=JKJjbfJbTXv8ahVdn0jAf3A55vEC4TKXt7eFfr0VeOs,838
+jira2branch/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jira2branch/tests/test_main.py,sha256=WIrJrXb2ad249KtA5JyFG1RYW9Rl7UW6rC45xJTcDBU,1483
+jira2branch-0.1.16.dist-info/METADATA,sha256=Rboc-37ZOsnUlIBavmcu_nHF-aJ8f6YBQ79z3UpKcdI,2142
+jira2branch-0.1.16.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+jira2branch-0.1.16.dist-info/entry_points.txt,sha256=uJv7fOt6F0rSiamfjGGR1e5ELbFFY0frksV2QqrG4_k,57
+jira2branch-0.1.16.dist-info/top_level.txt,sha256=i7fHxZGUWi6AfyroUzA-Ya7kNKyxbEYHm5swx8PbEYk,12
+jira2branch-0.1.16.dist-info/RECORD,,
