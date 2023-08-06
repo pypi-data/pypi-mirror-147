@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+setup.py
+app/__init__.py
+app/wCLAMs.py
+app/static/bootstrap.css
+app/static/bootstrap.js
+app/static/jquery-3.3.1.min.js
+app/static/jquery.blockUI.js
+app/static/jquery.form.min.js
+app/static/sample.csv
+app/templates/home.html
+wCLAMs.egg-info/PKG-INFO
+wCLAMs.egg-info/SOURCES.txt
+wCLAMs.egg-info/dependency_links.txt
+wCLAMs.egg-info/requires.txt
+wCLAMs.egg-info/top_level.txt
