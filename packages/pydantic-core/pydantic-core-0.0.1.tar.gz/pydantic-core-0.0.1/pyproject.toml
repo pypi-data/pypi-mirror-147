@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pydantic-core"
+version = "0.0.1"
+description = "Placeholder until pydantic-core is released."
+authors = ["Samuel Colvin <s@muelcolvin.com>"]
+readme = "README.md"
+packages = [{include = "pydantic_core"}]
+license = "MIT"
+repository = "https://github.com/samuelcolvin/pydantic-core"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
