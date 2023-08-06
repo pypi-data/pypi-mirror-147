@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: nimutool
+Version: 0.1.12
+Summary: Tools for Nordic Inertial inertial measurement units
+Home-page: UNKNOWN
+Author: Timo Pihlström
+Author-email: timo.pihlstrom@nordicinertial.com
+License: UNKNOWN
+Keywords: imu,inertial measurement unit
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: python-can
+Requires-Dist: matplotlib
+Requires-Dist: tqdm
+
+Tooling for reading and visualizing CAN messages sent by Nordic Inertial or Pacific Inertial devices
+
