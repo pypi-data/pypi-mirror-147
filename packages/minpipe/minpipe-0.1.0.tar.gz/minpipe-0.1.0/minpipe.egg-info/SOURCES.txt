@@ -1,0 +1,10 @@
+.gitignore
+LICENSE
+README.md
+minpipe.py
+setup.py
+test_minpipe.py
+minpipe.egg-info/PKG-INFO
+minpipe.egg-info/SOURCES.txt
+minpipe.egg-info/dependency_links.txt
+minpipe.egg-info/top_level.txt
