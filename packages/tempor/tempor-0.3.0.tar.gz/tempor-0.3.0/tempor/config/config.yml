@@ -1,0 +1,32 @@
+providers:
+  -
+    name: digitalocean
+    api_token:
+  -
+    name: linode
+    api_token:
+  -
+    name: vultr
+    api_token:
+  -
+    name: aws
+    api_token:
+      region:
+      access_key:
+      secret_key:
+  -
+    name: gcp
+    api_token:
+      auth_file:
+      project:
+      region:
+      zone:
+  -
+    name: azure
+    api_token:
+      subscription_id:
+      client_id:
+      client_secret:
+      tenant_id:
+
+default: digitalocean
