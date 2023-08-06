@@ -1,0 +1,9 @@
+requests
+
+[test]
+flake8
+pycodestyle
+pylint
+pytest
+pytest-cov
+pytest-httpserver
