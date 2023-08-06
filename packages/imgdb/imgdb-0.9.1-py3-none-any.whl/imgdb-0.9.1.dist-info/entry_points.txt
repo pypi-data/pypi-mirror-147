@@ -1,0 +1,2 @@
+[console_scripts]
+imgdb = imgdb.rt_parser:imdb_cli_init
