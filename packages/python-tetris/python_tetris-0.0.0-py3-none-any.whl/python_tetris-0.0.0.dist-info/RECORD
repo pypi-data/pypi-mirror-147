@@ -1,0 +1,16 @@
+python_tetris/__init__.py,sha256=ShXQBVjyiSOHxoQJS2BvNG395W4KZfqMxZWBAR0MZrE,22
+python_tetris/ars,sha256=zfINoZbCHb2onCGZOBuJ8yjDxSJ7kmyCczOzZHov0qc,560
+python_tetris/client.py,sha256=FYV56unDwN-N8JJXyRJNDlBL5j9kjl6MEn89LS_ppEY,899
+python_tetris/colors.py,sha256=FKaLI_KuzBAagzQFqez5HwnWEXSmZjmX8cl1IhGFR-o,353
+python_tetris/main.py,sha256=e40Ch4TZ5is0dmMBvCkz0k8dBZnKT9d4CGfmul2Fy4U,6292
+python_tetris/network.py,sha256=-CQUATCzuW8Q2_YuIw1sPdIa3jG6kHaFutIXlyJYF14,887
+python_tetris/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python_tetris/server.py,sha256=1Ogt5bHER9Mqxtr8xTKoTf1naBTTGKdoF_LuQcxiZ5k,1373
+python_tetris/spirtesheet.py,sha256=F9wV1F7R44r0yrcoQFPdEZ_AjQO8thmMXj2oeAAYZfs,79
+python_tetris/tetris.py,sha256=iZiX4e5OBQm2ggbbloRIzDpAOQwS4bIZQIJ7KPlwhnI,7750
+python_tetris/tetromino.py,sha256=B9lGOEizC7mxdei30a2eirD535bZlTa2rGu9BdjQGfE,617
+python_tetris-0.0.0.dist-info/METADATA,sha256=3aFL08Y2ZsgtrumFYdwobcLu93g0nkQoMHRHuCbO6K4,1532
+python_tetris-0.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+python_tetris-0.0.0.dist-info/entry_points.txt,sha256=L5b3m5NFFq1GJqeD9Fj9_x1bxt3ZHuECu9uvB3-k8rM,145
+python_tetris-0.0.0.dist-info/top_level.txt,sha256=09NOCu6fOJ2ih7i9lwxjQqHRpEuSRCoIYunyEa5Q4Mc,14
+python_tetris-0.0.0.dist-info/RECORD,,

@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: python-tetris
+Version: 0.0.0
+Summary: Tetris in Python
+Home-page: https://github.com/asashakira/python-tetris
+Author: asashakira
+Author-email: asa.shakira340@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: pygame (==2.0.2)
+Provides-Extra: all
+Requires-Dist: black ; extra == 'all'
+Requires-Dist: flake8 ; extra == 'all'
+Requires-Dist: mypy ; extra == 'all'
+Requires-Dist: isort ; extra == 'all'
+Requires-Dist: setuptools (>=46.4.0) ; extra == 'all'
+Requires-Dist: pre-commit ; extra == 'all'
+Requires-Dist: types-setuptools ; extra == 'all'
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: setuptools (>=46.4.0) ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Provides-Extra: types
+Requires-Dist: types-setuptools ; extra == 'types'
+
+# tetris
+
+## Installation
+
+```sh
+pip install git+https://github.com/asashakira/python-tetris
+```
+
+## How to play
+
+Run:
+
+```sh
+py-tetris
+```
+
+## Instructions
+
+- `z`: left rotation
+- `x`: right rotation
+- `space`: hard drop
+- `arrow keys`: move a mino
+
+
