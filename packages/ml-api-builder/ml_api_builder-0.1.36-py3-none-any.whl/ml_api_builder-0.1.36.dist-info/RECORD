@@ -1,0 +1,8 @@
+ml_api_builder/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+ml_api_builder/config.py,sha256=GBGmMqbKzoZoNwCIn77PQO165N_8WGMtEW3O9wboNlM,306
+ml_api_builder/jenkins_job.py,sha256=hQWHs7XAfiGXxwdZNNeXrTQU_ddsloel6C8EOJdwf0s,5408
+ml_api_builder/ml_api.py,sha256=aHpU4baLIf30ycoafke_KqhfaHbUtkbi4H7hnx4fpdM,3156
+ml_api_builder/test.py,sha256=ytkDr2IV5T2C1Va_UiJ6TnIxR3pEFcU7kMGPBdkGagI,1976
+ml_api_builder-0.1.36.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+ml_api_builder-0.1.36.dist-info/METADATA,sha256=4o2q8LUyjKMogS09bwsFVYE-nWn6WBGIEPXyTMlBjQw,484
+ml_api_builder-0.1.36.dist-info/RECORD,,
