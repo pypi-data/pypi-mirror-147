@@ -1,0 +1,17 @@
+django-embed-video>1.3
+wagtail<3.0,>2.11
+
+[develop]
+tox
+django
+mock-django
+mock
+pytest-django
+pytest
+
+[test]
+mock-django
+mock
+pytest-django
+pytest-cov
+pytest
