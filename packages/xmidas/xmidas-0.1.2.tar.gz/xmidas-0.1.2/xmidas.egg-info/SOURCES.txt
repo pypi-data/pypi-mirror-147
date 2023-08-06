@@ -1,0 +1,112 @@
+AUTHORS.rst
+CONTRIBUTING.rst
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+requirements.txt
+setup.cfg
+setup.py
+versioneer.py
+docs/Makefile
+docs/make.bat
+docs/source/Loading_Data.rst
+docs/source/conf.py
+docs/source/index.rst
+docs/source/installation.rst
+docs/source/release-history.rst
+xmidas/__init__.py
+xmidas/_version.py
+xmidas/main.py
+xmidas.egg-info/PKG-INFO
+xmidas.egg-info/SOURCES.txt
+xmidas.egg-info/dependency_links.txt
+xmidas.egg-info/entry_points.txt
+xmidas.egg-info/requires.txt
+xmidas.egg-info/top_level.txt
+xmidas/css/darkStyle.css
+xmidas/css/defaultStyle.css
+xmidas/css/modern.css
+xmidas/tests/__init__.py
+xmidas/tests/conftest.py
+xmidas/tests/test_general.py
+xmidas/uis/ClusterView.ui
+xmidas/uis/ComponentScatterPlot.ui
+xmidas/uis/ComponentView.ui
+xmidas/uis/Log.ui
+xmidas/uis/MaskedView.ui
+xmidas/uis/RefChooser.ui
+xmidas/uis/Scatter3D.ui
+xmidas/uis/Scatter3D_plotly.ui
+xmidas/uis/ScatterView.ui
+xmidas/uis/StackViewer.ui
+xmidas/uis/XANESViewer.ui
+xmidas/uis/__init__.py
+xmidas/uis/align_test.ui
+xmidas/uis/animation.gif
+xmidas/uis/animation2.gif
+xmidas/uis/animationWindow.ui
+xmidas/uis/animation_atom.gif
+xmidas/uis/mainwindow_admin.ui
+xmidas/uis/maskedScatterPlotFit.ui
+xmidas/uis/midas.py
+xmidas/uis/midasMainwindow.ui
+xmidas/uis/multipleScatterFit.ui
+xmidas/uis/mutlichannel.ui
+xmidas/uis/pancake.ico
+xmidas/uis/singleStackView.ui
+xmidas/uis/splash.gif
+xmidas/uis/xanesFitStat.ui
+xmidas/uis/xrf_xanes_gui_3ID.ui
+xmidas/uis/SVGs/Arrow Down.svg
+xmidas/uis/SVGs/Arrow Left.svg
+xmidas/uis/SVGs/Arrow Right.svg
+xmidas/uis/SVGs/Arrow Up.svg
+xmidas/uis/SVGs/Basket.svg
+xmidas/uis/SVGs/Book.svg
+xmidas/uis/SVGs/Calendar.svg
+xmidas/uis/SVGs/Camera.svg
+xmidas/uis/SVGs/Case.svg
+xmidas/uis/SVGs/Change View.svg
+xmidas/uis/SVGs/Check V2.svg
+xmidas/uis/SVGs/Check.svg
+xmidas/uis/SVGs/Chervon Right Circle.svg
+xmidas/uis/SVGs/Chevron Down Circle.svg
+xmidas/uis/SVGs/Chevron Down.svg
+xmidas/uis/SVGs/Chevron Left Circle.svg
+xmidas/uis/SVGs/Chevron Left.svg
+xmidas/uis/SVGs/Chevron Right.svg
+xmidas/uis/SVGs/Chevron Up Circle.svg
+xmidas/uis/SVGs/Chevron Up.svg
+xmidas/uis/SVGs/Clock.svg
+xmidas/uis/SVGs/Close.svg
+xmidas/uis/SVGs/Cog.svg
+xmidas/uis/SVGs/Cross Circle.svg
+xmidas/uis/SVGs/Download.svg
+xmidas/uis/SVGs/Edit V2.svg
+xmidas/uis/SVGs/Edit.svg
+xmidas/uis/SVGs/File.svg
+xmidas/uis/SVGs/Grid.svg
+xmidas/uis/SVGs/Heart.svg
+xmidas/uis/SVGs/Image.svg
+xmidas/uis/SVGs/Link.svg
+xmidas/uis/SVGs/Location Cursor.svg
+xmidas/uis/SVGs/Location.svg
+xmidas/uis/SVGs/Logout.svg
+xmidas/uis/SVGs/Mail.svg
+xmidas/uis/SVGs/Menu.svg
+xmidas/uis/SVGs/Message.svg
+xmidas/uis/SVGs/Microphone.svg
+xmidas/uis/SVGs/More.svg
+xmidas/uis/SVGs/Plus Circle.svg
+xmidas/uis/SVGs/Plus.svg
+xmidas/uis/SVGs/Power Button.svg
+xmidas/uis/SVGs/Printer.svg
+xmidas/uis/SVGs/Settings.svg
+xmidas/uis/SVGs/Share.svg
+xmidas/uis/SVGs/Shutter.svg
+xmidas/uis/SVGs/Star.svg
+xmidas/uis/SVGs/Trash.svg
+xmidas/uis/SVGs/Trophy.svg
+xmidas/uis/SVGs/User.svg
+xmidas/uis/SVGs/Video.svg
