@@ -1,0 +1,12 @@
+ribes/__init__.py,sha256=20c-awiAwx4S0P81kbkF5dABneZatFGIo7aoIpFcXY0,689
+ribes/app.py,sha256=2HAkR8FXGb4p6gcNlTDUtWlwzgMTiailAwmYW2wJFJU,4150
+ribes/caller.py,sha256=njQzIbZhNnwLj12HhxeHrzipOxuWrWi8ydsI0eZMXTM,2544
+ribes/dispatcher.py,sha256=Bk5tnA0e9GwptpmGBRDKckAGf1KSRXRm2cMHvzcpPpA,3585
+ribes/errors.py,sha256=_5TVVIjmMhs9EQPACENe7eKmHQG7KPk5sqPhoMRwMF8,1691
+ribes/models.py,sha256=Gxkp_-Nc0znKG6qHrq_7aTLUdrgwc24q2ra9n3x0q_M,1316
+ribes/settings.py,sha256=j9WdT4ykoD2VFWCu3bR1zojpggmRAF0Le9G8Agd5bJ4,794
+ribes-0.1.2.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+ribes-0.1.2.dist-info/METADATA,sha256=ubTy169vkiEJHhIRWNA3teHI-3qSEAUaNfvvOELrY_M,1970
+ribes-0.1.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+ribes-0.1.2.dist-info/top_level.txt,sha256=GJJgZQ3PWt5axghJIGJh6-3jdGpaUksiAxx9X8Clk9I,6
+ribes-0.1.2.dist-info/RECORD,,
