@@ -1,0 +1,8 @@
+browsers/__init__.py,sha256=bwcMTIhlo2hfVf58EG_2kRt7IfAJPMZ10MJ8PnCM_oM,2489
+browsers/linux.py,sha256=NiIOdYdGX6jp8w_aEtnN7aD31dLDZDRNvAUCUpl6XXw,1877
+browsers/osx.py,sha256=PsGAm7Z8c1CObFr8_kMdFM2ZVGmrudyy6pnATEgam4E,2268
+browsers/windows.py,sha256=M_q2IfCrKTaZ93lULWxbg66QIKcJR13nKOUrO23RCnM,2833
+pybrowsers-0.3.0.dist-info/LICENSE,sha256=G_3_E3EWi_CTucOOoXcEyHagvMpwA8a-Pt7spbW9ZiU,1071
+pybrowsers-0.3.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+pybrowsers-0.3.0.dist-info/METADATA,sha256=De4VXmI84LUS8_Ozr_NYqGDwDstoS4mO956aRJgM1sA,4797
+pybrowsers-0.3.0.dist-info/RECORD,,
