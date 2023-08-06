@@ -1,0 +1,14 @@
+README.md
+setup.py
+consepsimdisc.egg-info/PKG-INFO
+consepsimdisc.egg-info/SOURCES.txt
+consepsimdisc.egg-info/dependency_links.txt
+consepsimdisc.egg-info/requires.txt
+consepsimdisc.egg-info/top_level.txt
+similarity-disc/__init__.py
+similarity-disc/disc.py
+similarity-disc/algoritmos/__init__.py
+similarity-disc/algoritmos/aproximacion.py
+similarity-disc/algoritmos/determistas.py
+similarity-disc/algoritmos/generic.py
+similarity-disc/algoritmos/paralelos.py
