@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: creon-plus
+Version: 0.0
+Summary: 대신증권 Creon Plus API
+Author: jihogrammer
+Author-email: jihogrammer@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: pywin32
+
+# Creon Plus
+
+> 대신증권에서 제공하는 Creon Plus API를 사용하기 쉽게 재구성한 패키지입니다.
+> 
+> jihogrammer@gmail.com
+
+언젠가는 쓸만한 날이 오기를 바라며.
+
