@@ -1,0 +1,8 @@
+README.md
+setup.py
+u-redis-green/Redis-x64-3.0.504.zip.py
+u-redis-green/__init__.py
+u_redis_green.egg-info/PKG-INFO
+u_redis_green.egg-info/SOURCES.txt
+u_redis_green.egg-info/dependency_links.txt
+u_redis_green.egg-info/top_level.txt
