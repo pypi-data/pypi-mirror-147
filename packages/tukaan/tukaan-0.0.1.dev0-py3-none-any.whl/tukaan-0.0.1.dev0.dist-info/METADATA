@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: tukaan
+Version: 0.0.1.dev0
+Summary: UNKNOWN
+Home-page: https://github.com/tukaan/tukaan
+Author: rdbende
+Author-email: rdbende@gmail.com
+License: MIT license
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Requires-Dist: pillow (>=8.0.0)
+Requires-Dist: psutil (>=5.9.0)
+Requires-Dist: screeninfo (>=0.8)
+Requires-Dist: distro (>=1.6.0) ; sys_platform == "linux"
+
+UNKNOWN
+
+
