@@ -1,0 +1,11 @@
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/unit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/unit/test_logger.py,sha256=BFMUFyrtsk-tcmXKeHWDTNMhDNimjRdViuNX7WHOfnw,4206
+woodchips/__init__.py,sha256=WkxHrHMQUg4FHh_rtR6EIXIat8NIRsnxADmAupiAPBI,81
+woodchips/logger.py,sha256=ZQfLP97o0WKF4eR6iRh5exuMFHI2WauLQrPX90sopA0,3574
+woodchips/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+woodchips-0.2.4.dist-info/LICENSE,sha256=mq4Ki0I01VvUB-mByrPZUCjgFwhcxEg5Z8aNPKLozKQ,1071
+woodchips-0.2.4.dist-info/METADATA,sha256=lQeJ0NywilN_5wn4MnxAXecn2CkhfOlwzxg6CUiAFM8,4281
+woodchips-0.2.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+woodchips-0.2.4.dist-info/top_level.txt,sha256=YuttIJBtc7V-T1BnLWEac2glqnr4EYOmpISWb7_SvJs,15
+woodchips-0.2.4.dist-info/RECORD,,
