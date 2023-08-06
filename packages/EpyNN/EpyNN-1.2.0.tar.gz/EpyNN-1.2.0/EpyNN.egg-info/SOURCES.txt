@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.cfg
+setup.py
+EpyNN.egg-info/PKG-INFO
+EpyNN.egg-info/SOURCES.txt
+EpyNN.egg-info/dependency_links.txt
+EpyNN.egg-info/requires.txt
+EpyNN.egg-info/top_level.txt
+bin/epynn
