@@ -1,0 +1,8 @@
+torchvision4ad/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+torchvision4ad/datasets/__init__.py,sha256=DUxRxg8n5bjnZNZaPsIrzm3GhXLGXkq4dge3tlhVtYI,50
+torchvision4ad/datasets/mvtec.py,sha256=xkiguA850GmpuysPTrWecwbq0fnc9-ZDN56XhQg8P18,5741
+torchvision4ad-0.1.2.dist-info/LICENSE,sha256=P9KhkwwO5xU9h7j7bzWw2wPRQf9wE5x4sEZA_7nq_D8,1060
+torchvision4ad-0.1.2.dist-info/METADATA,sha256=R-Mxuf5ohzhuiGoeTA6ViKehqpSf4cH8ARyqRyoV7T0,1436
+torchvision4ad-0.1.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+torchvision4ad-0.1.2.dist-info/top_level.txt,sha256=LrKDjcsMc6Ctwxp3Mefm1cLr4P0ckMrywLc5DAJjOkQ,39
+torchvision4ad-0.1.2.dist-info/RECORD,,
