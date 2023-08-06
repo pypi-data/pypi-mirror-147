@@ -1,0 +1,10 @@
+ftea/__init__.py,sha256=c-c4Cv8SLpcsGoZ_DR8_boSbTFu_HyRhrKNcOBGxKuM,116
+ftea/_tea.c,sha256=MnOvC4j7YXVICsASeuMFMeaPkrwIXd9TbE5BirXpD8I,974341
+ftea/_tea.cpython-310-x86_64-linux-gnu.so,sha256=XxwsMMeAAL_KPM5cAuvJB3FP5GgX3O3ZDu0C35tRzxc,264016
+ftea/_tea.pyi,sha256=PoWJ3K4_I8wDjcnLdnXPKeZfZcwFG4scHafXz6fTUpU,1041
+ftea/_tea.pyx,sha256=zPeHwQ58S0Sm4WlT_4UNwiIGnwxnBlA1uh6moHKEJNQ,10722
+ftea/tea.pxd,sha256=skiNXreMRIGm5hvPV2BjTbFxC0mB0s4wKhGBAWrVl8k,1745
+ftea-0.1.1rc1.dist-info/METADATA,sha256=Ya9Xx_0wExYNUs-TzsIoYRHxn9Xj8P0_mLv5uGuDH4Y,2722
+ftea-0.1.1rc1.dist-info/WHEEL,sha256=nTy_Z8ivGEB6qFwVLg7_h6rq0Jt0JU5Pz2cL2_FjSMQ,105
+ftea-0.1.1rc1.dist-info/top_level.txt,sha256=xkHrnwTvGio5Idj5czEfRq42b9XM5r6WaP5wxggeYhE,5
+ftea-0.1.1rc1.dist-info/RECORD,,
