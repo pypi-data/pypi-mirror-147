@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: cloudwatcher
+Version: 0.0.1
+Summary: A tool for monitoring AWS CloudWatch metrics
+Home-page: UNKNOWN
+Author: Michal Stolarczyk
+Author-email: michal.stolarczyk@nih.gov
+License: BSD2
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: System :: Distributed Computing
+Description-Content-Type: text/markdown
+
+# Cloudwatcher
+

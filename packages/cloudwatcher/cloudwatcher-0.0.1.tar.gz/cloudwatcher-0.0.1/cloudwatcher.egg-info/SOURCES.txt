@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+cloudwatcher/__init__.py
+cloudwatcher/_version.py
+cloudwatcher/cloudwatcher.py
+cloudwatcher.egg-info/PKG-INFO
+cloudwatcher.egg-info/SOURCES.txt
+cloudwatcher.egg-info/dependency_links.txt
+cloudwatcher.egg-info/entry_points.txt
+cloudwatcher.egg-info/top_level.txt
+requirements/requirements-all.txt
