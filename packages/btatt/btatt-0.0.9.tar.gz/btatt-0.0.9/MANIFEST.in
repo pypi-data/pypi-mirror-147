@@ -1,0 +1,1 @@
+recursive-include dist/obfuscated/btatt/pytransform *.so

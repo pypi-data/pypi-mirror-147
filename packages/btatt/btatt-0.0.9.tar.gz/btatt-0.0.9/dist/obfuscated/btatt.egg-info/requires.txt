@@ -1,0 +1,3 @@
+bthci>=0.0.25
+pyclui>=0.0.14
+xpycommon>=0.0.8
