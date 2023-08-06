@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+humor/__init__.py
+humor/humor.py
+humor.egg-info/PKG-INFO
+humor.egg-info/SOURCES.txt
+humor.egg-info/dependency_links.txt
+humor.egg-info/top_level.txt
