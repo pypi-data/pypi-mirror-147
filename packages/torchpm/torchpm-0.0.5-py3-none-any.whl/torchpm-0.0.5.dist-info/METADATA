@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: torchpm
+Version: 0.0.5
+Summary: Pharmacometrics in PyTorch.
+Home-page: https://github.com/yeoun9/torchpm
+Author: Sungwoo Goo
+Author-email: yeoun9@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: ~=3.6
+License-File: LICENSE
+Requires-Dist: torch (>=1.3.0)
+Requires-Dist: numpy (>=1.19.5)
+Requires-Dist: torchdiffeq (>=0.2.1)
+Requires-Dist: sympy (>=1.7.1)
+Requires-Dist: sympytorch (>=0.1.1)
+
+UNKNOWN
+
