@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: sealan-sdk
+Version: 0.1.4
+Summary: Sealan Cloud SDK for Python
+Home-page: https://github.com/sealan-cloud/sealan-sdk-python
+Author: Sealan Cloud
+Maintainer-email: zhong@sealan.tech
+License: Apache License 2.0
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: requests (>=2.26.0)
+
+============================
+Sealan Cloud SDK for Python
+============================
+
+Sealan Cloud Python SDK is the official software development kit, which allows Python developers to write software that makes use of Sealan Cloud services like Device Manager and SIM Card Manager
+
+The SDK works on Python versions:
+
+   * 3.6 and greater
+
+Quick Start
+-----------
+First, install the library:
+
+.. code-block:: sh
+
+    $ pip install sealan-sdk 
+
+or download source code from github and install:
+
+.. code-block:: sh
+
+    $ git clone https://github.com/sealan/sealan-cloud-sdk-python.git
+    $ cd sealan-cloud-sdk-python
+    $ python setup.py install
+
+
