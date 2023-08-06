@@ -1,0 +1,4 @@
+PySimpleGUI
+pywin32
+pypiwin32
+pyttsx3
