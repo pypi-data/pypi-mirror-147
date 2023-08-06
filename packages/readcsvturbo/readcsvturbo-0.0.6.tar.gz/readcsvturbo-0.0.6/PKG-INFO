@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: readcsvturbo
+Version: 0.0.6
+Summary: Improved method for reading the first/last/specific line from csv into a DataFrame
+Home-page: https://github.com/donjor/read-csv-turbo
+Author: Donjor
+Author-email: donjordev@gmail.com
+License: UNKNOWN
+Keywords: python,pandas,readcsv,readfirstlinecsv,readlastlinecsv,readspecificlinecsv
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+
+Improved method for reading the first/last/specific line from csv into a DataFrame
+
+Ever deal with multiple huge csv files and and the panads `read_csv/skiprows` method is slowing you down? You are not alone.
+
+read-csv-turbo is an improved method of reading the first and last lines using unix `head` and `tail` commands to get the data you want in a dataframe as fast as possible. I may include Windows support in the future if requested.
+
+Reading a large csv once is "fine" but often I find myself looping through many files and this process is painfully slow which is why StackOverflow suggestions didn't cut it. There may be a newer/smarter way of approaching this but this method should be as fast as you could get. 
+
+At the moment the use case of this is quite limited as it just provides a fast way to read the `first`, `last` or `n` row of a csv into a dataframe
+
+github: https://github.com/donjor/read-csv-turbo
+
+
