@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: GooseBib
+Version: 0.5.6
+Summary: Reformat BibTeX files
+Home-page: https://github.com/tdegeus/GooseBib
+Author: Tom de Geus
+Author-email: tom@geus.me
+License: MIT
+Keywords: LaTeX; BibTeX
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: arxiv
+Requires-Dist: bibtexparser
+Requires-Dist: click
+Requires-Dist: docopt
+Requires-Dist: GitPython
+Requires-Dist: numpy
+Requires-Dist: PyYAML
+Requires-Dist: requests
+Requires-Dist: tqdm
+
+Reformat BibTeX files
+
