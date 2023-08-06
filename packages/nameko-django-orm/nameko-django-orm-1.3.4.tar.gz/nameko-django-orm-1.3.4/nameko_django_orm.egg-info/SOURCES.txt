@@ -1,0 +1,9 @@
+README.txt
+setup.cfg
+setup.py
+nameko_django_orm/__init__.py
+nameko_django_orm.egg-info/PKG-INFO
+nameko_django_orm.egg-info/SOURCES.txt
+nameko_django_orm.egg-info/dependency_links.txt
+nameko_django_orm.egg-info/requires.txt
+nameko_django_orm.egg-info/top_level.txt
