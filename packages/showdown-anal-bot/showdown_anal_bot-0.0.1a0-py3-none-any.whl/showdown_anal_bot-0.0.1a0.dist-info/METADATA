@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: showdown-anal-bot
+Version: 0.0.1a0
+Summary: Pokemon Showdown analysis tools
+Home-page: https://github.com/yoursred/showdown-anal-bot
+Author: yoursred
+Author-email: yoursred@yoursred.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/yoursred/showdown-anal-bot/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: The Unlicense (Unlicense)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: showdownpy
+Requires-Dist: requests
+
+# Pokemon Showdown analysis bot/tools
+
+`python -m showdown_anal_bot`
+
