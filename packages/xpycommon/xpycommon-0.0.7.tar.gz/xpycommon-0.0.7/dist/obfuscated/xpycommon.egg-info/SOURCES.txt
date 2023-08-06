@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+dist/obfuscated/xpycommon/__init__.py
+dist/obfuscated/xpycommon/bluetooth.py
+dist/obfuscated/xpycommon/common.py
+dist/obfuscated/xpycommon/libc_wrapper.py
+dist/obfuscated/xpycommon.egg-info/PKG-INFO
+dist/obfuscated/xpycommon.egg-info/SOURCES.txt
+dist/obfuscated/xpycommon.egg-info/dependency_links.txt
+dist/obfuscated/xpycommon.egg-info/top_level.txt
+dist/obfuscated/xpycommon/pytransform/__init__.py
+dist/obfuscated/xpycommon/pytransform/_pytransform.so
