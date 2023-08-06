@@ -1,0 +1,4 @@
+pika>=0.13
+
+[dev]
+check-manifest
