@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/iuextract/__init__.py
+src/iuextract/data.py
+src/iuextract/extract.py
+src/iuextract/iu_utils.py
+src/iuextract.egg-info/PKG-INFO
+src/iuextract.egg-info/SOURCES.txt
+src/iuextract.egg-info/dependency_links.txt
+src/iuextract.egg-info/top_level.txt
