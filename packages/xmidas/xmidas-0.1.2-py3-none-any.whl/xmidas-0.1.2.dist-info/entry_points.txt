@@ -1,0 +1,3 @@
+[console_scripts]
+xmidas = xmidas.main:start_xmidas
+

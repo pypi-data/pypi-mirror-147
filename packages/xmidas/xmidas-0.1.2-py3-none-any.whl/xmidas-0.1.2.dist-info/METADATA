@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: xmidas
+Version: 0.1.2
+Summary: Multimodal Image Data Analysis Software
+Home-page: https://github.com/NSLS-II/xmidas
+Author: Brookhaven National Laboratory
+Author-email: 
+License: BSD (3-clause)
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: h5py
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pyqtgraph (>=0.12.2)
+Requires-Dist: pystackreg
+Requires-Dist: scikit-image
+Requires-Dist: scikit-learn
+Requires-Dist: scipy (>=1.7)
+Requires-Dist: tifffile
+Requires-Dist: silx
+Requires-Dist: xraylarch (>=0.9.57)
+Requires-Dist: pyshortcuts
+Requires-Dist: packaging
+Provides-Extra: all
+Requires-Dist: pyqt5 ; extra == 'all'
+Requires-Dist: opencv-python-headless ; extra == 'all'
+
+======================================================
+XMidas (X-Ray Multimodal Image Data Analysis Software)
+======================================================
+
+.. image:: https://img.shields.io/pypi/v/xmidas.svg
+        :target: https://pypi.python.org/pypi/xmidas
+
+Software for analysis of imaging and spectrosocpy data collected at NSLS-II,
+Brookhaven National Laboratory
+
+* Free software: 3-clause BSD license
+* Documentation: https://nsls-ii.github.io/xmidas/.
+
+
