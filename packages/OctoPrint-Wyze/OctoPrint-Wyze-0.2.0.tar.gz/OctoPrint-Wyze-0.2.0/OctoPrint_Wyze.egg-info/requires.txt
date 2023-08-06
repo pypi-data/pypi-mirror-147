@@ -1,0 +1,3 @@
+OctoPrint
+wyze_sdk
+cryptography
