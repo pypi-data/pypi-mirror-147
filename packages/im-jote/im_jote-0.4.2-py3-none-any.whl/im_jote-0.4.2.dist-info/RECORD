@@ -1,0 +1,12 @@
+jote/VERSION,sha256=4ve7YI68niQJL_y3lq0KqD8AFa_iNjXwF99SJzFQ8A0,6
+jote/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jote/__main__.py,sha256=rAzsjWwwYR356Mzsb3flqfscmVrPcB-MFqQaNx9MrQM,378
+jote/compose.py,sha256=ZX32yYYz1a8Pe656S_zOPjXZaYWsctmYEIHH_fAw52I,8965
+jote/jote.py,sha256=q3P3SnCYZbMGKCf1jk_sra-87d4BuDZN9HWP2qwYebY,34857
+jote/jote.yamllint,sha256=qmHwlEativiB3QequkbSfOZyaMORaxT9sNoPSVZs6Ew,591
+im_jote-0.4.2.dist-info/LICENSE,sha256=k9N8uza38tvZ1Ej4Gz7opBha4jQTd3vPohv9f8Txqu0,1080
+im_jote-0.4.2.dist-info/METADATA,sha256=QJjILDyKEYrrCUkUA2Dq4O1HFGj-FQ9FMG3ErhRun-o,9801
+im_jote-0.4.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+im_jote-0.4.2.dist-info/entry_points.txt,sha256=RDwLocpc52colsaoEiL8JQNjt1IJWBADVJWerYnq3WM,40
+im_jote-0.4.2.dist-info/top_level.txt,sha256=OMl0YC3ZQ7fKah38VbPMICNyfgm7ixr_aRk9DWLxBkM,5
+im_jote-0.4.2.dist-info/RECORD,,
