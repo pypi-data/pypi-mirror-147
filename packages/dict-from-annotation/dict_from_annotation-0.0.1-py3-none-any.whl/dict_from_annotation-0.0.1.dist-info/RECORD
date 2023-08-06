@@ -1,0 +1,11 @@
+dict_from_annotation/__init__.py,sha256=M0NZuQ7-112l8K2h1eayVvSmvQrufrOcD5AYKgIf_Is,1
+dict_from_annotation/annotation_handling.py,sha256=UOEc_-ndaTVHd3AyahMLiGTg22r7TK3B9A49z6NOIFk,1687
+dict_from_annotation/argparse_helper.py,sha256=0YXD4vevWuB4EoistteuC-uNJSOzMk6_tNuV-FHozq8,6377
+dict_from_annotation/cli.py,sha256=dvww5KRwR75HsImrXi-PF58jnBCAFe-Ae7WULmmkBDk,1943
+dict_from_annotation/main.py,sha256=8DqoD-8QrUvHzEeFZ6FcrmQQXH4KNq6v4FLGXT423vg,6294
+dict_from_annotation-0.0.1.dist-info/LICENSE,sha256=eu_EojY-yOBFiUJjoOpAyoguAqCfopYosNabwxz6fLc,1071
+dict_from_annotation-0.0.1.dist-info/METADATA,sha256=Vt31UfcJzFqvJZ5A01DCyf3whsqCerZ5da4cmE406JU,2507
+dict_from_annotation-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dict_from_annotation-0.0.1.dist-info/entry_points.txt,sha256=OHgyZ2fZIf4AL7iXBtwMlhcY_QofwBJi1frpTQQIQzg,74
+dict_from_annotation-0.0.1.dist-info/top_level.txt,sha256=RV9On9agjVC22r1_9E8C6ajDcwQhmRKM_6jI4S8kVnw,21
+dict_from_annotation-0.0.1.dist-info/RECORD,,
