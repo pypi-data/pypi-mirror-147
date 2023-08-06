@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: fafnir
+Version: 0.1.2
+Summary: Kill ancestor process
+Home-page: https://git.sr.ht/~mcepl/fafnir
+Author-email: Matěj Cepl <mcepl@cepl.eu>
+License: MIT
+Project-URL: Homepage, https://git.sr.ht/~mcepl/fafnir
+Project-URL: Bug Tracker, https://todo.sr.ht/~mcepl/fafnir
+Project-URL: Changelog, https://git.sr.ht/~mcepl/fafnir/tree/master/item/CHANGES
+Keywords: proc,kill
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Utilities
+License-File: LICENSE
+Requires-Dist: psutil
+
+Kills ancestor process.
+
+
