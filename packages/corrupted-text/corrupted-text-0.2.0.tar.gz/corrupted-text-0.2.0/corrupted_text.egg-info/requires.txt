@@ -1,0 +1,16 @@
+numpy>=1.16.4
+polyleven==0.7
+
+[acc_measurement]
+datasets>=1.0.0
+tensorflow>=2.6.0
+
+[lint]
+black==22.3.0
+docstr-coverage==2.2.0
+flake8==3.8.2
+isort==5.6.4
+
+[test]
+datasets>=1.0.0
+pytest>=6.2.5
