@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: kit-vision
+Version: 0.0.6
+Summary: Vision kit - Usefull tools for your computer vision project with TensorFlow
+Home-page: https://github.com/mehrdad-dev/vision-kit
+Author: Mehrdad Mohammdian
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: Topic :: Scientific/Engineering
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+<p align="center">
+  <img  width="400" height="89" src="https://github.com/mehrdad-dev/vision-kit/blob/main/assets/vision-kit.png" alt="vision kit, mehrdad mohammadian,vkit" />
+</p>
+
+<h3 align="center" dir=rtl>
+Useful tools for your computer vision project with TensorFlow
+</h3>
+ 
+
+---
+
+🚧 **Under Construction** 🚧
+
+## What is the Vision Kit (vkit)?
+A set of tools (like callbacks, metrics, models and etc) for use in your computer vision projects specifically created by the TensorFlow library.
+
+## 📥 How to install
+
+**Using pypi:**
+
+`pip install -U kit-vision`
+
+## 🔄 How to update
+Follow these steps:
+
+1. `pip uninstall kit-vision`
+
+2. `pip install -U kit-vision`
+
+## 📒 Documentation
+comming soon ...
+
+
+## 🤝 Contribution 
+Please create a new isssue in github about your contribution.
+
+## ⚠️ Licence
+[See here.](https://github.com/mehrdad-dev/vision-kit/blob/main/LICENSE)
+
+
+
+
+
+
+
