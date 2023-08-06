@@ -1,0 +1,14 @@
+Django>=3.0
+markdown
+bleach
+
+[test]
+black>=22.3.0
+psycopg2
+pytest
+pytest-django==4.2.0
+pytest-pythonpath
+dj-database-url
+testing.postgresql
+beautifulsoup4
+html5lib
