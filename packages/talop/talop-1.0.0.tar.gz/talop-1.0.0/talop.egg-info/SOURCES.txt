@@ -1,0 +1,6 @@
+README.md
+setup.py
+talop.egg-info/PKG-INFO
+talop.egg-info/SOURCES.txt
+talop.egg-info/dependency_links.txt
+talop.egg-info/top_level.txt
