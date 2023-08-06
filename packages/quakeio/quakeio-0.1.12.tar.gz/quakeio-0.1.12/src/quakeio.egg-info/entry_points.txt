@@ -1,0 +1,3 @@
+[console_scripts]
+quakeio = quakeio.__main__:main
+

@@ -1,0 +1,180 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "type": "object",
+    "title": "QuakeComponent",
+    "description": "quakeIO Ground Motion Record schema.",
+    "examples": [
+        {
+            "station_no": "58658",
+            "azimuth": "37.691N, 122.099W",
+            "instr_period": 0.0047,
+            "instr_period.units": "sec",
+            "peak_accel": 17.433,
+            "peak_accel.units": "cm/sec/sec",
+            "peak_accel.time": 20.27,
+            "peak_veloc": 0.205,
+            "peak_veloc.units": "cm/sec",
+            "peak_veloc.time": 20.29,
+            "peak_displ": -0.004,
+            "peak_displ.units": "cm",
+            "peak_displ.time": 20.27,
+            "init_veloc": 0.0,
+            "init_veloc.units": "cm/sec",
+            "init_displ": 0.0,
+            "init_displ.units": "cm",
+            "file_name": "chan001.v2"
+        }
+    ],
+    "required": [
+        "peak_accel",
+        "peak_accel.units",
+        "peak_accel.time",
+        "peak_veloc",
+        "peak_veloc.units",
+        "peak_veloc.time",
+        "peak_displ",
+        "peak_displ.units",
+        "peak_displ.time"
+    ],
+    "properties": {
+        "accel": {"$ref": "series.schema.json"},
+        "veloc": {"$ref": "series.schema.json"},
+        "displ": {"$ref": "series.schema.json"},
+        "ihdr": {
+            "$id": "#/properties/motions/items/anyOf/0/properties/components/items/anyOf/0/properties/ihdr",
+            "type": "array",
+            "title": "ihdr",
+            "description": "Integer header data",
+            "additionalItems": false,
+            "items": {"type": "integer"}
+        },
+        "rhdr": {
+            "$id": "#/properties/motions/items/anyOf/0/properties/components/items/anyOf/0/properties/rhdr",
+            "type": "array",
+            "title": "rhdr",
+            "items": {"type": "number"}
+        },
+        "location": {
+            "$id": "#/properties/location",
+            "type": "string",
+            "title": "Location",
+            "description": "Number identifying station at which the data was recorded."
+        },
+        "station_no": {
+            "$id": "#/properties/station_no",
+            "type": "string",
+            "title": "Station number",
+            "description": "Number identifying station at which the data was recorded."
+        },
+        "azimuth": {
+            "$id": "#/properties/azimuth",
+            "type": "string",
+            "title": "Azimuth",
+            "examples": ["37.691N, 122.099W"]
+        },
+        "instr_period": {
+            "$id": "#/properties/instr_period",
+            "type": "number",
+            "title": "Instrument period",
+            "examples": [0.0047]
+        },
+        "instr_period.units": {
+            "$id": "#/properties/instr_period.units",
+            "type": "string",
+            "title": "Instrument period units",
+            "examples": ["sec"]
+        },
+        "peak_accel": {
+            "$id": "#/properties/peak_accel",
+            "type": "number",
+            "title": "Peak acceleration",
+            "examples": [17.433]
+        },
+        "peak_accel.units": {
+            "$id": "#/properties/peak_accel.units",
+            "type": "string",
+            "title": "Peak acceleration units",
+            "default": "",
+            "examples": ["cm/sec/sec"]
+        },
+        "accel.time_step": {
+            "type": "number",
+            "title": "Time step of acceleration data"
+        },
+        "peak_accel.time": {
+            "$id": "#/properties/peak_accel.time",
+            "type": "number",
+            "title": "Time of peak acceleration",
+            "examples": [20.27]
+        },
+        "peak_veloc": {
+            "$id": "#/properties/peak_veloc",
+            "type": "number",
+            "title": "Peak velocity",
+            "examples": [0.205]
+        },
+        "peak_veloc.units": {
+            "$id": "#/properties/peak_veloc.units",
+            "type": "string",
+            "title": "peak_veloc.units",
+            "default": "",
+            "examples": ["cm/sec"]
+        },
+        "peak_veloc.time": {
+            "$id": "#/properties/peak_veloc.time",
+            "type": "number",
+            "title": "Time of peak velocity"
+        },
+        "peak_displ": {
+            "$id": "#/properties/peak_displ",
+            "type": "number",
+            "title": "Peak displacement"
+        },
+        "peak_displ.units": {
+            "$id": "#/properties/peak_displ.units",
+            "type": "string",
+            "title": "peak_displ.units",
+            "examples": ["cm"]
+        },
+        "peak_displ.time": {
+            "$id": "#/properties/peak_displ.time",
+            "type": "number",
+            "title": "Time of peak displacement",
+            "examples": [20.27]
+        },
+        "init_displ": {
+            "$id": "#/properties/init_displ",
+            "type": "number",
+            "title": "Initial displacement",
+            "default": 0.0
+        },
+        "init_displ.units": {
+            "$id": "#/properties/init_displ.units",
+            "type": "string",
+            "title": "init_displ.units",
+            "description": "Units",
+            "examples": ["cm/sec"]
+        },
+        "init_veloc": {
+            "$id": "#/properties/init_veloc",
+            "type": "number",
+            "title": "Initial velocity",
+            "default": 0.0
+        },
+        "init_veloc.units": {
+            "$id": "#/properties/init_veloc.units",
+            "type": "string",
+            "title": "init_veloc.units",
+            "description": "Initial velocity units",
+            "examples": ["cm/sec"]
+        },
+        "file_name": {
+            "$id": "#/properties/file_name",
+            "type": "string",
+            "title": "Source file name",
+            "default": ""
+        }
+    },
+    "additionalProperties": true
+}
+
