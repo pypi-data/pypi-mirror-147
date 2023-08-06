@@ -1,0 +1,3 @@
+[console_scripts]
+oda-experiments = odaexperiments.cli:cli
+
