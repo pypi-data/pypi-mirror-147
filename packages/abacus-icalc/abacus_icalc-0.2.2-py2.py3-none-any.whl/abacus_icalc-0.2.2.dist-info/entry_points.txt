@@ -1,0 +1,5 @@
+[console_scripts]
+abacus=abacus:main
+abacus-basic=abacus.basic:main_basic
+abacus-ipython=abacus.ipython:main_ipython
+
