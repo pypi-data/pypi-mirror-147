@@ -1,0 +1,3 @@
+[console_scripts]
+docker = kaniko_remote.main:cli [docker-cli]
+kaniko-remote = kaniko_remote.main:cli
