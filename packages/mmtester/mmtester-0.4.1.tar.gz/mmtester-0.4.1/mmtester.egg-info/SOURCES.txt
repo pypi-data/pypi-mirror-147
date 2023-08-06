@@ -1,0 +1,13 @@
+LICENSE
+setup.py
+mmtester/__init__.py
+mmtester/atcoder.cfg
+mmtester/old_topcoder.cfg
+mmtester/tester.py
+mmtester/topcoder.cfg
+mmtester.egg-info/PKG-INFO
+mmtester.egg-info/SOURCES.txt
+mmtester.egg-info/dependency_links.txt
+mmtester.egg-info/entry_points.txt
+mmtester.egg-info/requires.txt
+mmtester.egg-info/top_level.txt
