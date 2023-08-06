@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/SearchMusic/__init__.py
+src/SearchMusic.egg-info/PKG-INFO
+src/SearchMusic.egg-info/SOURCES.txt
+src/SearchMusic.egg-info/dependency_links.txt
+src/SearchMusic.egg-info/top_level.txt
