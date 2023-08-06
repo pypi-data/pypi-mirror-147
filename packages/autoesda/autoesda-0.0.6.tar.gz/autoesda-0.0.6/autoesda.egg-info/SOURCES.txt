@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+autoesda/__init__.py
+autoesda/autoesda.py
+autoesda.egg-info/PKG-INFO
+autoesda.egg-info/SOURCES.txt
+autoesda.egg-info/dependency_links.txt
+autoesda.egg-info/not-zip-safe
+autoesda.egg-info/requires.txt
+autoesda.egg-info/top_level.txt
