@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: antiberty
+Version: 0.0.3
+Summary: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: einops (>=0.3.0)
+Requires-Dist: numpy (>=1.21.2)
+Requires-Dist: tokenizers (>=0.10.2)
+Requires-Dist: torch (>=1.7.1)
+Requires-Dist: transformers (>=4.5.1)
+
+README.md
+
