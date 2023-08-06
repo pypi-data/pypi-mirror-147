@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: TML-toolkit
+Version: 1.0.4
+Summary: Tools for topological machine learning
+Home-page: UNKNOWN
+Author: Sigurd Solberg
+Author-email: sigroll@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires: numpy
+Requires: matplotlib
+Requires: scipy
+Requires: scikit
+Requires: tensorflow
+
+UNKNOWN
+
