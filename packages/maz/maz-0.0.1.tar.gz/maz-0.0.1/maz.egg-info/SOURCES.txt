@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+maz/__init__.py
+maz.egg-info/PKG-INFO
+maz.egg-info/SOURCES.txt
+maz.egg-info/dependency_links.txt
+maz.egg-info/top_level.txt
