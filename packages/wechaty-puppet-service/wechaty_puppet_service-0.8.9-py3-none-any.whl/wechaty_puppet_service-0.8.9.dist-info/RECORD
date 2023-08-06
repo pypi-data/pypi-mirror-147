@@ -1,0 +1,12 @@
+wechaty_puppet_service/__init__.py,sha256=K_Dp_QcjpzeSk-sRPIbod_oBwTAA5I6XEOZrmZVAh0s,155
+wechaty_puppet_service/config.py,sha256=o9nh1bbw6TDkYE4ZLj_1OkgWQLu2c8xxfSB22vvABt8,1456
+wechaty_puppet_service/puppet.py,sha256=n8ZKQPXw_ZoCvRxdr5t-z8axD5dshrvntHO3hGU9Gg0,38272
+wechaty_puppet_service/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wechaty_puppet_service/utils.py,sha256=rAk-zAfyzuTVGjAHi7BIuLBXr2ADH4weWDk8fp95VdE,2878
+wechaty_puppet_service/version.py,sha256=ylj8mOgpgHsIChGiIEDoLarmmBrNi-f-JhJ6WugDaNQ,18
+wechaty_puppet_service/version_test.py,sha256=83vroIV-FfZYCDmFfm35vA-jM5mG7S4irvf6PIA4ThA,251
+wechaty_puppet_service-0.8.9.dist-info/LICENSE,sha256=8rt_h9LqElMvkR7sqTtMz307F4bVK02jLUXLY3Ye6UA,11372
+wechaty_puppet_service-0.8.9.dist-info/METADATA,sha256=1OBUUp-UHH67G0o4cokXosPa89o6zqzxdYD_pFwziiA,2573
+wechaty_puppet_service-0.8.9.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+wechaty_puppet_service-0.8.9.dist-info/top_level.txt,sha256=R3t4v6ceW0Y0UM-eB_mjGtpZ9texI076mvVEYTa_cjI,23
+wechaty_puppet_service-0.8.9.dist-info/RECORD,,
