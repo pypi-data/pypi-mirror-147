@@ -1,0 +1,10 @@
+candyshop/__init__.py,sha256=IBPDt-4BPQpqK0I1K884fmkVusLyWCsEKaTkdDwUoVk,1422
+candyshop/bundle.py,sha256=UW7jBRxse-myu0VfSfVANr049gaC9ld_BRhkWWqpafU,12824
+candyshop/environment.py,sha256=Jr5P3GiNHffuHFgrK6L1ii5_QO63G4X15bQn6vs3ooA,13085
+candyshop/utils.py,sha256=7PbtKM3M-EzgcmH-evHJT-uItbQL6hcQXRWiR0_Ov8g,4031
+candyshop-0.2.0.dist-info/AUTHORS.rst,sha256=-8efadmO6jRT0mxQ4vGTR6NymMYT9Jy7IKhNq2ePJwo,447
+candyshop-0.2.0.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+candyshop-0.2.0.dist-info/METADATA,sha256=kXD6z3UA50Hvc0eyNvId7qQJyX9B2WXBYT05BS0VQpI,47200
+candyshop-0.2.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+candyshop-0.2.0.dist-info/top_level.txt,sha256=I9SY4hhGPdfH0TgjYtKXrkRhIozs8M1rWVa657B4JdQ,10
+candyshop-0.2.0.dist-info/RECORD,,
