@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: engrproblems
+Version: 2.1
+Summary: ENGR 103 HW package, my first Programming package 
+Home-page: UNKNOWN
+Author: Ryan Hopkins
+Author-email: hopkinsr@oregonstate.edu
+License: UNKNOWN
+Keywords: python,first package,Engr 103,OSU,ENGR 103 HW
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+# 10EngineeringProblems
+Programs designed to Solve Engineering Problems
+To run each program just import the module using
+`import 10EngrProblems`
+Then to run each block of code just call *HW* then the number of the problem you are working on. 
+As seen below this is how you would run HW1()
+`HW1()`
+
+
