@@ -1,0 +1,3 @@
+[console_scripts]
+o2tuner = o2tuner:entrypoint
+
