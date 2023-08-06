@@ -1,0 +1,15 @@
+README.md
+setup.py
+iceotherm/__init__.py
+iceotherm.egg-info/PKG-INFO
+iceotherm.egg-info/SOURCES.txt
+iceotherm.egg-info/dependency_links.txt
+iceotherm.egg-info/requires.txt
+iceotherm.egg-info/top_level.txt
+iceotherm/lib/__init__.py
+iceotherm/lib/analytical_solutions.py
+iceotherm/lib/constants.py
+iceotherm/lib/ice_properties.py
+iceotherm/lib/numerical_model.py
+iceotherm/lib/shearmargin_ode.py
+iceotherm/lib/supporting_functions.py

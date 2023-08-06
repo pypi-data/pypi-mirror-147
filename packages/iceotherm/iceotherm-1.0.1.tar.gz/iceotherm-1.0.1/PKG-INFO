@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: iceotherm
+Version: 1.0.1
+Summary: A Python package for glacier and ice-sheet thermal modeling
+Home-page: https://github.com/benhills/iceotherm
+Author: Benjamin Hills
+Author-email: bhills@uw.edu
+License: GNU GPL-3.0
+Description: UNKNOWN
+Platform: UNKNOWN
