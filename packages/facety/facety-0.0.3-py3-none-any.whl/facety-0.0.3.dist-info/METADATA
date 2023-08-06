@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: facety
+Version: 0.0.3
+Summary: Stub for reserve name
+Home-page: https://facety.notion.site
+Author: Team Facety
+Author-email: soft@facety.tech
+License: UNKNOWN
+Project-URL: Source Code, https://gitlab.com/facety/common/python/stub
+Project-URL: Bug Tracker, https://gitlab.com/facety/common/python/stub/-/issues
+Keywords: facety
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.10
+
+UNKNOWN
+
