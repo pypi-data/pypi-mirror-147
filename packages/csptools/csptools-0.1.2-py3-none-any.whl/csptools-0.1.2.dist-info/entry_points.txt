@@ -1,0 +1,3 @@
+[console_scripts]
+CSP = csptools.command.cli:csptools
+

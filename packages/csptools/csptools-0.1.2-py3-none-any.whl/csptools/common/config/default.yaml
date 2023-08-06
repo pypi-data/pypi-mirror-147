@@ -1,0 +1,26 @@
+# gitlab 配置
+
+#url: http://192.168.55.37:12001/
+
+gitlab_in:
+  url: 'http://27.196.143.167:12001/'
+  token: 'uuMT9AkxLNpeYVDYAQEv'
+  groups:
+    - '人工智能专项'
+    - 'pl'
+
+gitlab_out:
+  url: 'http://192.168.55.37:12001/'
+  token: 'FyvDzBm8EmYLfiUxxb2q'
+  groups:
+    - '人工智能'
+    - 'safetyctrl'
+
+
+# nexus 配置
+nexus:
+  url: "http://192.168.54.151"
+  docker_port: '28081'
+  resources_port: '18081'
+  resources_groups:
+    - '/safetyctrl/iVideoAnalytics/1.0.0'
