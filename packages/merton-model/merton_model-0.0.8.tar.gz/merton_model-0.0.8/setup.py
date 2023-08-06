@@ -1,0 +1,227 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Apr 14 13:24:07 2022
+
+@author: charlesr
+"""
+from setuptools import setup, find_packages
+# =============================================================================
+# 
+# try:
+#     import pypandoc
+#     long_description = pypandoc.convert_file('README.md', 'rst', format = 'md')
+# except(IOError, ImportError):
+#     long_description = open('README.md').read()
+# =============================================================================
+
+setup(
+    name = 'merton_model',
+    version = '0.0.8',
+    author = 'Charles Rambo',
+    author_email = 'charlesr@ssi-invest.com',
+    description = 'Merton model distance to default',
+    long_description = """
+
+## Introduction
+The Merton model was first developed by economist Robert Merton in 1974. The model makes a claim about default probabilities based on the capital structure of the firm. It models the value of equity as a call option on the total assets of the underlying firm. If assets are below the call option’s strike price at time $T$, the firm defaults, the value of equity goes to zero, and the remaining value of the firm is divided equally among debt holders. 
+
+The model has some limitations. The version of the model we considered makes the Black-Scholes assumptions, which are generally accepted to be false. Furthermore, it does not address the possibility of a bankruptcy before time $T$.
+
+We used several resources. Of particular utility was a Society of Actuaries article entitled "Structural Credit Risk Modeling: Merton and Beyond" by Wang, "Options, Futures, and Other Derivatives" 9th ed. by Hull, and Journal of Banking & Finance article "Credit spreads with dynamic debt" by Das and Kim.
+
+## Functions
+
+`get_d(V, T, K, r, sigma_V)`
+
+* V: Value of the firm.
+* T: Time until maturity.
+* K: Strike price; related to the firm's debt level.
+* r: Risk-free rate.
+* sigma_V: Firm volatility.
+
+`distance(V, T, K, r, sigma_V)` 
+
+The Merton model distance to default. Corresponds to $d_2$ in the Black-Scholes framework.
+
+* V: Value of the firm.
+* T: Time until maturity.
+* K: Strike price; related to the firm's debt level.
+* r: Risk-free rate.
+* sigma_V: Firm volatility.
+
+`prob_default(V, T, K, r, sigma_V)`
+
+The probability of default using the Merton model. Corresponds to $N(-d_2)$ in the Black-Scholes framework.
+
+* V: Value of the firm.
+* T: Time until maturity.
+* K: Strike price; related to the firm's debt level.
+* r: Risk-free rate.
+* sigma_V: Firm volatility.
+
+`call(V, T, K, r, sigma_V)`
+
+Value of a call option under the Black-Scholes framework. Corresponds to the value of equity under the Merton model. Formula on page 604 of "Options, Futures, and Other Derivatives" 9th ed. by Hull.
+
+* V: Value of the firm.
+* T: Time until maturity.
+* K: Strike price; related to the firm's debt level.
+* r: Risk-free rate.
+* sigma_V: Firm volatility.
+
+`put(V, T, K, r, sigma_V, phi = 1)`
+
+Value of a put option under the Black-Scholes framework. Corresponds to value of insurance required to make debt risk free. Formula on page 604 of "Options, Futures, and Other Derivatives" 9th ed. by Hull.
+    
+* V: Value of the firm.
+* T: Time until maturity.
+* K: Strike price; related to the firm's debt level.
+* r: Risk-free rate.
+* sigma_V: Firm volatility.
+* phi: Fraction of firm's value retained in the case of default.
+
+`put_ui(V, T, K, H, r, sigma_V, phi = 1)`
+
+Value of an up-and-in put option under the Black-Scholes framework. Formula on page 605 of "Options, Futures, and Other Derivatives" 9th ed. by Hull.
+    
+* V: Value of the firm.
+* T: Time until maturity.
+* K: Strike price; related to the firm's debt level.
+* r: Risk-free rate.
+* sigma_V: Firm volatility.
+* phi: Fraction of firm's value retained in the case of default.
+
+`put_uo(V, T, K, H, r, sigma_V, phi = 1)`
+
+Value of an up-and-out put option under the Black-Scholes framework. Formula on page 605 of "Options, Futures, and Other Derivatives" 9th ed. by Hull.
+    
+* V: Value of the firm.
+* T: Time until maturity.
+* K: Strike price; related to the firm's debt level.
+* H: Value of the firm which deactivates the up-and-out option.
+* r: Risk-free rate.
+* sigma_V: Firm volatility. 
+* phi: Fraction of firm's value retained in the case of default.
+
+`put_di(V, T, K, H, r, sigma_V, phi = 1)`
+
+Value of a down-and-in put option under the Black-Scholes framework. Formula on page 606 of "Options, Futures, and Other Derivatives" 9th ed. by Hull.
+    
+* V: Value of the firm.
+* T: Time until maturity.
+* K: Strike price; related to the firm's debt level.
+* H: Value of the firm which deactivates the up-and-out option.
+* r: Risk-free rate.
+* sigma_V: Firm volatility. 
+* phi: Fraction of firm's value retained in the case of default.
+
+`put_do(V, T, K, H, r, sigma_V, phi = 1)`
+
+Value of a down-and-out put option under the Black-Scholes framework. Formula on page 606 of "Options, Futures, and Other Derivatives" 9th ed. by Hull.
+    
+* V: Value of the firm.
+* T: Time until maturity.
+* K: Strike price; related to the firm's debt level.
+* H: Value of the firm which deactivates the up-and-out option.
+* r: Risk-free rate.
+* sigma_V: Firm volatility. 
+* phi: Fraction of firm's value retained in the case of default.
+
+`prob_default_mc(V, T, K, r, sigma_V, trails = 10000, steps = None)`
+
+Probability of default if possible for some values of t prior to maturity. Default occurs if the value of the firm is below K at time Δt, 2Δt, ..., or T = steps · Δt.
+If T is measured in years, steps = floor(12 * T + 1) corresponds to possibility of default at each monthly payment. Probability obtained using Monte Carlo simulation.
+    
+* V: Value of the firm.
+* T: Time until maturity.
+* K: Strike price; related to the firm's debt level.
+* r: Risk-free rate.
+* sigma_V: Firm volatility. 
+* trails: Monte Carlo simulations used to obtain approximation; antithetic values also considered.
+* steps: Number of times the firm can default within each simulation.
+
+`spread(V, T, K, r, sigma_V, phi = 1)`
+
+CDS spread given default only possible at T. Uses the Black-Scholes framework. Value tends to be below market CDS spreads.
+    
+* V: Value of the firm.
+* T: Time until maturity.
+* K: Strike price; related to the firm's debt level.
+* r: Risk-free rate.
+* sigma_V: Firm volatility. 
+* phi: Fraction of firm's value retained in the case of default.
+
+`spread_mc(V, T, K, r, sigma_V, phi = 1, trails = 10000, steps = None)`
+
+CDS spread if default possible for some values of t prior to maturity. Default occurs if the value of the firm is below K at time Δt, 2Δt, ..., or T = steps · Δt. If T is measured in years, steps floor(12 * T + 1) corresponds to monthly payments. In the case of default, partial payment assumed to be made at time T. Probability obtained using Monte Carlo simulation.
+    
+* V: Value of the firm.
+* T: Time until maturity.
+* K: Strike price; related to the firm's debt level.
+* r: Risk-free rate.
+* sigma_V: Firm volatility. 
+* phi: Fraction of firm's value retained in the case of default.
+* trails: Monte Carlo simulations used to obtain approximation; antithetic values also considered.
+* steps: Number of times the firm can default within each simulation.
+
+`spread_das(V, T, K_1, K_2, H, r, sigma_V, phi = 1)`
+
+CDS spread if default possible only at time T, but firm increases/decreases debt if its value goes above/below barrior. Inspired by the Journal of Banking & Finance article "Credit spreads with dynamic debt" by Das and Kim.
+
+* V: Value of the firm.
+* T: Time until maturity.
+* K_1: Strike price if firm does not increase/decrease its debt level.
+* K_2: Strike price if firm increase/decrease its debt level.
+* H: Value of the firm which triggers it to increase/decrease its debt level from K_1 to K_2.
+* r: Risk-free rate.
+* sigma_V: Firm volatility. 
+* phi: Fraction of firm's value retained in the case of default.
+
+`obj(sigma_V, sigma_E, V, T, K, r)`
+
+Objective function to be minimized. Used to obtain the volatility of the firm's value.
+    
+* sigma_V: Firm volatility.
+* sigma_E: Equity volatility.
+* V: Value of the firm.
+* T: Time until maturity.
+* K: Strike price; related to the firm's debt level.
+* r: Risk-free rate.
+
+`get_sigma_V(sigma_E, V, T, K, r)`
+
+Obtain the volatility of the firm's value. Uses the Black-Scholes framework and fsolve.
+    
+* sigma_E: Equity volatility.
+* V: Value of the firm.
+* T: Time until maturity.
+* K: Strike price; related to the firm's debt level.
+* r: Risk-free rate.
+
+`get_K(CL, NCL, T = 1, r = 0)`
+
+If the value of the firm drops below K at maturity, then the firm is considered to be in default under the Merton model. Formula overweights current liabilities because they must be paid within the year or one business cycle.
+    
+* CL: Current liabilities.
+* NCL: Noncurrent liabilities
+* T: Time until maturity.
+* r: Risk-free rate.
+
+## References
+Wang, Yu. “Structural Credit Risk Modeling: Merton and Beyond.” Society of Actuaries. 2009.
+
+Sundaresan, Suresh. “A Review of Merton’s Model of the Firm’s Capital Structure with its Wide Applications.” *Annual Review of Financial Economics.* 2013. 
+
+Hull, John. *Options, Futures, and Other Derivatives* 9th ed. Pearson. 2015.
+
+Das, S. and Kim. "Credit spreads with dynamic debt." *Journal of Banking & Finance.* 2015. 
+"""
+    ,
+    long_description_content_type = 'text/markdown',
+    classifiers = [
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent"
+        ]
+)
+
