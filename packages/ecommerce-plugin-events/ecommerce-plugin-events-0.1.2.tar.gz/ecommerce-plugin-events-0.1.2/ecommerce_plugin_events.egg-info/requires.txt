@@ -1,0 +1,7 @@
+Django
+confluent_kafka
+edx_django_utils
+fastavro
+openedx_events
+requests
+setuptools
