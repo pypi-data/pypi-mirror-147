@@ -1,0 +1,10 @@
+asciigen/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+asciigen/colorscales.py,sha256=OhMNCrNxcSNwm9Rp5UxllxIcaMcXo0HogRQiZ0QdgYs,528
+asciigen/image.py,sha256=URpO5GqQpTjcg0wKai8XnPDP_IbycnqKdpROjHn539E,1095
+asciigen/main.py,sha256=6rP6UVMWFxPurnRF30GdgmVB1Li5ANL24nSPnL5X614,1650
+asciigen/render.py,sha256=XKEZG3fO4M0fO70zReFAIKVWL6QoiQe7kuhGUCN-6bg,893
+asciigen/renderer.py,sha256=BxMyJyrDqIHrTpK_YkFTqfgdQXTYgkRcMiRoHVeVWWQ,1316
+asciigen-0.1.0.dist-info/entry_points.txt,sha256=C0Tc_FPKOvRobxA6Fj_X8aA6jB8K3Qt7pcj_a9OHlkI,46
+asciigen-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+asciigen-0.1.0.dist-info/METADATA,sha256=TnqGUjvNDf7Jl5GrsrF80_73IHy2pU7H2Hm9gGF5AbE,438
+asciigen-0.1.0.dist-info/RECORD,,
