@@ -1,0 +1,3 @@
+tablewriter
+matplotlib
+PyPDF2
