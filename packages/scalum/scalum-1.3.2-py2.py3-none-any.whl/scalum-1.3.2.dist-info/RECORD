@@ -1,0 +1,9 @@
+scalum/__init__.py,sha256=v-9XnbwT6c3yQ9TjZQf7nYJtr5pdni14PDy2G80xY7s,277
+scalum/Scale.py,sha256=_MIgcuIm_p64SIv0q7M2DPx43j6aNJeFK0tUiOgQnnI,1145
+scalum/ScaleWithInverse.py,sha256=Sxn50bXoY7kNu-5nj7p3gr0Z8Bitr6hKCeUzQkys5DQ,912
+scalum/ScaleWithPaddingMap.py,sha256=FVgDKKZvFGl8mb4cjhA54JorZaKvtNI6SiG3Gg66ZrM,925
+scalum/ScaleWithPolyAnnotation.py,sha256=4y1obXZzedNoue0eykWWH_UsjO_cp3aQbFAESlC9SVg,1074
+scalum/ScaleWithYoloAnnotation.py,sha256=tjQT558ZB3SU8I9HGKlnc-PDUAV-0PkgIkD8_hlsqdk,1267
+scalum-1.3.2.dist-info/WHEEL,sha256=2SyTS6-hWVbCVhxpPo1j5f9gwaWw-hVIJs0s_cC8MXM,87
+scalum-1.3.2.dist-info/METADATA,sha256=HyYB3AdEL5GI0gBpzhjdkKxEBhVNJBHLhnMVbG2wde0,586
+scalum-1.3.2.dist-info/RECORD,,
