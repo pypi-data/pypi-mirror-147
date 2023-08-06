@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: alactions
+Version: 0.0.5
+Summary: Workflows
+Home-page: https://github.com/pyscaffold/pyscaffold/
+Author: Julian Mulla
+Author-email: jmulla@gmail.com
+License: MIT
+Project-URL: Documentation, https://pyscaffold.org/
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Description-Content-Type: text/x-rst; charset=UTF-8
+License-File: LICENSE.txt
+Requires-Dist: importlib-metadata
+Requires-Dist: click
+Provides-Extra: testing
+Requires-Dist: setuptools ; extra == 'testing'
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+
+==
+al
+==
+
+
+    Workflow Management
+
