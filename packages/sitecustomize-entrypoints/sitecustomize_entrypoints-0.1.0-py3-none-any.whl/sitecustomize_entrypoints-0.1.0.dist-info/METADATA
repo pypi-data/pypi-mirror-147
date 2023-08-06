@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: sitecustomize-entrypoints
+Version: 0.1.0
+Summary: 
+Home-page: https://github.com/Darsstar/sitecustomize-entrypoints
+Author: Dos Moonen
+Author-email: d.moonen@nki.nl
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Project-URL: Repository, https://github.com/Darsstar/sitecustomize-entrypoints
+Description-Content-Type: text/markdown
+
+# sitecustomize-entrypoints
+
+A very simple library that makes a python module called `sitecustomize`
+available. Python's [site](https://docs.python.org/3/library/site.html)
+module gives it, and `usercustomize`, special treatment by importing it after
+it is done looking for and processing .pth files.
+
+What this package does is that is finds all `sitecustomize` entry points and,
+if they are callable, calls them.
