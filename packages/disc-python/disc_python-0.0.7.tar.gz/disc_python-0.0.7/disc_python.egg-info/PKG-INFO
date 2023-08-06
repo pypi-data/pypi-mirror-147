@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: disc-python
+Version: 0.0.7
+Summary: Library to compute conceptual distance by using DIS-C method
+Home-page: https://gitlab.com/TebanMT
+Author: Esteban Mendiola Tellez
+Author-email: mendiola_esteban@outlook.com
+License: MIT
+Platform: UNKNOWN
+
+# Codigo para la tesis "Algoritmo para el cálculo acelerado de distancias conceptuales"
+
+## Estado
+#### En desarrollo
+
+

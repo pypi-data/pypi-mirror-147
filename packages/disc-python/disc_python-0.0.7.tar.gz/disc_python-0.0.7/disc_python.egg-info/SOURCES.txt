@@ -1,0 +1,16 @@
+README.md
+setup.py
+disc_python/__init__.py
+disc_python/disc.py
+disc_python.egg-info/PKG-INFO
+disc_python.egg-info/SOURCES.txt
+disc_python.egg-info/dependency_links.txt
+disc_python.egg-info/requires.txt
+disc_python.egg-info/top_level.txt
+disc_python/algoritmos/__init__.py
+disc_python/algoritmos/aproximacion.py
+disc_python/algoritmos/determistas.py
+disc_python/algoritmos/generic.py
+disc_python/algoritmos/paralelos.py
+disc_python/corpus/__init__.py
+disc_python/corpus/wornet.py
