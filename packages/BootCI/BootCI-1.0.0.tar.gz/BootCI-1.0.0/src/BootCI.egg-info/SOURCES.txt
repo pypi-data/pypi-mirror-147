@@ -1,0 +1,11 @@
+LICENCE
+README.md
+pyproject.toml
+setup.cfg
+src/BootCI/Fisher_Pitman_paired_test.py
+src/BootCI/__init__.py
+src/BootCI/paired_bootstrap_interval.py
+src/BootCI.egg-info/PKG-INFO
+src/BootCI.egg-info/SOURCES.txt
+src/BootCI.egg-info/dependency_links.txt
+src/BootCI.egg-info/top_level.txt
