@@ -1,0 +1,3 @@
+[console_scripts]
+smat=smat_cli.cli:main
+
