@@ -1,0 +1,100 @@
+Metadata-Version: 2.1
+Name: pinet
+Version: 0.2.4
+Summary: Translate Python Code to HTML
+Home-page: UNKNOWN
+Author: ineerajrajeev
+Author-email: neerajshetkar@gmail.com
+License: GNU General Public License
+Keywords: html,web,piNet,translate
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# piNet
+## Translate Python Code to HTML
+
+piNet is a python module built to work with seamlessly Web Development frameworks like Django and Flask. This module renders Python code to HTML
+
+## Features
+
+- Compatible with Python 3
+- Supports all tags and global attributes supported by HTML 5
+- HTML files can either be rendered or can be exported from Python File
+- Does not require any dependencies to be installed
+
+## Installation
+
+piNet requires Python 3 to run so make sure you're using latest version of PIP and Python
+
+```bash
+pip install piNet
+```
+
+## Usage
+
+Place attributes to HTML tags in parameters to the corresponding initializer of the tag.
+In case of closing tag, render function takes contents between opening and closing tag.
+In other cases render function takes no parameters.
+
+Due to conflict with Python keywords name of some tags or attributes have been changes as below.
+
+1. 'class' attribute can be accessed by 'clas' parameter.
+2. 'del' tag can be accessed by 'delete' subclass of HTML tag
+
+...More will be  listed
+
+```python
+from pinet import *
+object = html("Hello World") # Generates HTML object with 'Hello World' as Title
+page_to_be_exported = object.render(
+    object.h1(name="heading_1", id="heading_1", clas="heading_1").render(
+        object.p(name="paragraph", id="paragraph", clas="paragraph").render(
+            "Text in first Paragraph"
+        ),
+        object.a(href="https://any_link", target='_blank').render(
+            object.p(name="paragraph", id="paragraph", clas="paragraph").render(
+                "Text in Second Paragraph"
+            )
+        )
+    )
+)
+export_html(page_to_be_exported, 'filename.html')
+```
+
+Above code generates a HTML file in current working directory named  ```filename.html```
+The contnts of the file would be as follows
+
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello world</title>
+  </head>
+  <body>
+    <h1 name="heading_1" id="heading_1" class="heading_1">
+        <p name="paragraph" id="paragraph" class="paragraph">
+            Text in first Paragraph
+        </p>
+        <a href="https://any_link" target="_blank">
+            <p name="paragraph" id="paragraph" class="paragraph">
+                Text in Second Paragraph
+            </p>
+        </a>
+    </h1>
+  </body>
+</html>
+
+```
+
+## Bugs
+Since module is still in Beta testing so few tags are yet to be added. Please let me knnow if you encounter any bug, crash, etc. or If you have any suggestion feel free to let me know.
+
+
+## Caution
+
+## License
+
+GNU General Public License
+
+
