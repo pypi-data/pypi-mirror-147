@@ -1,0 +1,12 @@
+tidypolars/__init__.py,sha256=_RNr1-gKdsJFm5ULCE4Cp5MmMgnoA81JJZ_PjwAblRY,445
+tidypolars/funs.py,sha256=y7fTxwQgSMHQkVjszh26Q5cI22ZMgz88DuxtCBTsfsI,16686
+tidypolars/lubridate.py,sha256=Yn8yF2EtEBhkL-_frJczA3Njjmxmx1nrAXN_tMqbK9Q,4320
+tidypolars/reexports.py,sha256=xSfEiKvQbsqGDn3JUbMnRMK_ii9S4GJIWlk2IWJNHig,645
+tidypolars/stringr.py,sha256=NBw9mAOD9NVlU-X0qnBj4ek0kj2w77FFwH55cUVa-cc,8503
+tidypolars/tibble.py,sha256=v4iUboZ7w0W62IHNeF6PB-2KnmOVe4WwVWVI8aq3gQU,30102
+tidypolars/tidyselect.py,sha256=GNkj-3dko_e-Dsxar43lFKPm2mPOpCeXe_YY1NT8_Ew,1830
+tidypolars/utils.py,sha256=RQiI-jKnJIZF1WyvbeMR157rCeHUrxDLue5i4QQe15c,2425
+tidypolars-0.2.15.dist-info/LICENSE,sha256=yWqZ1v1_VsQHOQmk9dBhHZy6YRv0GOTXL79RVQvbdp8,1073
+tidypolars-0.2.15.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+tidypolars-0.2.15.dist-info/METADATA,sha256=0OmRoIVxsoF7Q1pwVU4LaDgnGJ1EfengqORJj2zuPQY,8264
+tidypolars-0.2.15.dist-info/RECORD,,
