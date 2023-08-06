@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: bpfmaps
+Version: 0.0.1
+Summary: Python wrapper of libbpf to interact with bpf maps
+Home-page: https://github.com/PeterStolz/pybpfmaps
+Author: Peter Stolz
+Author-email: 50801264+PeterStolz@users.noreply.github.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/PeterStolz/pybpfmaps/issues
+Keywords: eBPF,bpfmaps,libbpf
+Platform: linux
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Pybpfmaps
+[![pytests](https://github.com/PeterStolz/pybpfmaps/actions/workflows/pytests.yml/badge.svg)](https://github.com/PeterStolz/pybpfmaps/actions/workflows/pytests.yml)
+[![codecov](https://codecov.io/gh/PeterStolz/pybpfmaps/branch/main/graph/badge.svg?token=HMYY954POH)](https://codecov.io/gh/PeterStolz/pybpfmaps)
+
+Python library to interact with bpf/ebpf maps via libbpf bindings.
+
+## Installation
+
+## Usage
+
+
+
+

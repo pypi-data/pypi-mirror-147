@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+dependencies/libbpf/src/libbpf.so
+src/bpfmaps.egg-info/PKG-INFO
+src/bpfmaps.egg-info/SOURCES.txt
+src/bpfmaps.egg-info/dependency_links.txt
+src/bpfmaps.egg-info/top_level.txt
