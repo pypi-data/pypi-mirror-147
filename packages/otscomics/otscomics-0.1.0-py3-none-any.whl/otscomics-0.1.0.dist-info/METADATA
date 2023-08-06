@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: otscomics
+Version: 0.1.0
+Summary: Distances between cells for single-cell omics with optimal transport
+Home-page: UNKNOWN
+Author: Geert-Jan Huizing
+Author-email: huizing@ens.fr
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: pot (>=0.8)
+Requires-Dist: torch (>=1.0)
+Requires-Dist: numpy (>=1.20)
+Requires-Dist: scipy (>=1.6)
+Requires-Dist: tqdm (>=4.62)
+
+UNKNOWN
+
