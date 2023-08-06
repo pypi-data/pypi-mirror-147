@@ -1,0 +1,7 @@
+README.md
+setup.py
+cprinter/__init__.py
+cprinter.egg-info/PKG-INFO
+cprinter.egg-info/SOURCES.txt
+cprinter.egg-info/dependency_links.txt
+cprinter.egg-info/top_level.txt
