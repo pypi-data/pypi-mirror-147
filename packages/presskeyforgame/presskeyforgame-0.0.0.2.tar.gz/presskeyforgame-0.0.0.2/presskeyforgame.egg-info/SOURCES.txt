@@ -1,0 +1,7 @@
+key.py
+presskeyforgame.py
+setup.py
+presskeyforgame.egg-info/PKG-INFO
+presskeyforgame.egg-info/SOURCES.txt
+presskeyforgame.egg-info/dependency_links.txt
+presskeyforgame.egg-info/top_level.txt
