@@ -1,0 +1,6 @@
+python_libnuml-1.1.6.dist-info/RECORD,,
+python_libnuml-1.1.6.dist-info/METADATA,sha256=BoewZ0glqHUvcfPdY7RqhKn5SiAfzTsw4W9xcAUOFLA,505
+python_libnuml-1.1.6.dist-info/top_level.txt,sha256=Gc55T67KQGJlnjIR0cYbWY69kslv-PgTeihGbM4_1Mw,17
+python_libnuml-1.1.6.dist-info/WHEEL,sha256=Vqd_n_IKgR469FNqkIoqwEhrX3PSWel3O4QQXU4e5pU,150
+libnuml/__init__.py,sha256=SpeAnNOLDtHG1iYTJRSgJSKKEJ8S5vrX29-Q3bLqsWA,208196
+libnuml/_libnuml.cpython-37m-x86_64-linux-gnu.so,sha256=HezVQ7RKZn6sERuzEg4EiQbmph3L7aaeob1b-d1LKe0,6952208
