@@ -1,0 +1,12 @@
+# base ===========
+torch>=1.6
+numpy >=1.14
+Pillow
+
+# logger =========
+# wandb>=0.11.2
+comet_ml
+pyyaml>=5.4
+
+# callbacks ======
+# torchvision # vision callback
