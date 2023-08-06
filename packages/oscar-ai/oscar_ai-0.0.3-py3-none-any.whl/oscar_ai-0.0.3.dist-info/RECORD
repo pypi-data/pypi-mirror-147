@@ -1,0 +1,8 @@
+oscar_ai/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+oscar_ai/actions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+oscar_ai/actions/speak.py,sha256=1EZ9jEvSwzFeFFOVfOhCqUXPrsDE36MtYz9BzZeWT0Q,169
+oscar_ai-0.0.3.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+oscar_ai-0.0.3.dist-info/METADATA,sha256=1yYMs6waM2hF7murz3hg3BKVwZbfVcMHJV5emBGB0yg,1173
+oscar_ai-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+oscar_ai-0.0.3.dist-info/top_level.txt,sha256=cfMdIZguYEcXjM618myP8wXcuMy-2xWkd-Tk8c52LIY,9
+oscar_ai-0.0.3.dist-info/RECORD,,

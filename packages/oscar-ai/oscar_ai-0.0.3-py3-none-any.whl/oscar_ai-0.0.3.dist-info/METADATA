@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: oscar-ai
+Version: 0.0.3
+Summary: TODO
+Home-page: https://github.com/TODO
+Author: Oscar Lopez
+Author-email: olopezdeveloper@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/TODO
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## Steps to build package
+
+python3 -m pip install --upgrade build
+
+python3 -m build
+
+
+### Create test pypi accound
+https://test.pypi.org/account/register/
+
+### Create and save private token
+https://test.pypi.org/manage/account/#api-tokens
+
+
+python3 -m pip install --upgrade twine
+
+python3 -m twine upload --repository testpypi dist/*
+
+
+
+
+
+
+
+## Installation from test.pypi.org
+```
+$ python3 -m venv venv
+$ source venv/bin/activate
+$ python -m pip install --index-url https://test.pypi.org/simple/ --no-deps oscar-ai
+
+```
+
+
+## Test it
+```
+$ python
+
+>>> from oscar_ai.actions.speak import Speaker
+>>> oscar = Speaker()
+>>> oscar.say_something()
+```
+
+
+## Unistall
+```
+$ pip uninstall oscar-ai
+```
+
+
