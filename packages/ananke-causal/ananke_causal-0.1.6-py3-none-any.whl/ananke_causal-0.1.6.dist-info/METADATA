@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: ananke-causal
+Version: 0.1.6
+Summary: Causal inference with graphical models
+Home-page: https://gitlab.com/causal/ananke
+Author: See AUTHORS
+Author-email: rbhatta8@jhu.edu
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: COPYING
+License-File: AUTHORS
+Requires-Dist: graphviz
+Requires-Dist: networkx
+Requires-Dist: autograd
+Requires-Dist: scipy
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: statsmodels
+Requires-Dist: pygraphviz
+
+Ananke, named for the Greek primordial goddess of necessity and causality,is a python package for causal inference using the language of graphical models.
+
+Documentation: https://ananke.readthedocs.io/en/latest/index.html
+
