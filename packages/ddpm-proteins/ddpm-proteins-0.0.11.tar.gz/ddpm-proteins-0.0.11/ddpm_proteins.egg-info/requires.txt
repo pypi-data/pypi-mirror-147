@@ -1,0 +1,12 @@
+einops
+matplotlib
+numpy
+pillow
+proDy
+scipy
+sidechainnet
+seaborn
+torch
+torchvision
+tqdm
+wandb
