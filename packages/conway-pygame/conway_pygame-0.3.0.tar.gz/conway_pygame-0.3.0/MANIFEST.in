@@ -1,0 +1,4 @@
+include conway/assets/*.png
+include README.md
+include LICENSE
+include requirements.txt
