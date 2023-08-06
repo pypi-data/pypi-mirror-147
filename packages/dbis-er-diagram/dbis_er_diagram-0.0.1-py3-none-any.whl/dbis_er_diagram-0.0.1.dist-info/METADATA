@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: dbis-er-diagram
+Version: 0.0.1
+Summary: RWTH Aachen Computer Science i5/dbis assets for Lecture Datenbanken und Informationssysteme
+Home-page: https://github.com/rwth-acis/dbis-er-diagram.git
+Author: Michal Slupczynski
+Author-email: slupczynski@dbis.rwth-aachen.de
+License: Apache
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+Requires-Dist: graphviz (~=0.19.1)
+Requires-Dist: ipython (~=8.2.0)
+Requires-Dist: networkx (~=2.7.1)
+
+# dbis-er-diagram
+RWTH Aachen Computer Science i5/dbis assets for Lecture Datenbanken und Informationssysteme
+
+
