@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+pomerium_http_adapter/__init__.py
+pomerium_http_adapter/pomerium_http_adapter.py
+pomerium_http_adapter.egg-info/PKG-INFO
+pomerium_http_adapter.egg-info/SOURCES.txt
+pomerium_http_adapter.egg-info/dependency_links.txt
+pomerium_http_adapter.egg-info/requires.txt
+pomerium_http_adapter.egg-info/top_level.txt
