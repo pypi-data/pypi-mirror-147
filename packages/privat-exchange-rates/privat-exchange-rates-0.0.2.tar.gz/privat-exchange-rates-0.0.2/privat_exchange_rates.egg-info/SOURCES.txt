@@ -1,0 +1,9 @@
+README.md
+setup.py
+privat_exchange_rates/__init__.py
+privat_exchange_rates/exchange_rates.py
+privat_exchange_rates.egg-info/PKG-INFO
+privat_exchange_rates.egg-info/SOURCES.txt
+privat_exchange_rates.egg-info/dependency_links.txt
+privat_exchange_rates.egg-info/requires.txt
+privat_exchange_rates.egg-info/top_level.txt
