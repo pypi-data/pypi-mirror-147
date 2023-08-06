@@ -1,0 +1,4 @@
+requests
+json.encoder
+wheel
+pycryptodome
