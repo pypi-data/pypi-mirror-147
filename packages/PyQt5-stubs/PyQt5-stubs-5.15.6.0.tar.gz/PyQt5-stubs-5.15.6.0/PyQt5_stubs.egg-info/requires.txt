@@ -1,0 +1,5 @@
+
+[dev]
+mypy==0.930
+pytest
+pytest-xvfb
