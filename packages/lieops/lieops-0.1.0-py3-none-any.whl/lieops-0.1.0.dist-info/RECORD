@@ -1,0 +1,27 @@
+lieops/.ipynb_checkpoints/__init__-checkpoint.py,sha256=5YlVjuR0s8ICKDJoYe9jKnChUDrpg1Arpwd2wUYBMYA,798
+lieops/__init__.py,sha256=5YlVjuR0s8ICKDJoYe9jKnChUDrpg1Arpwd2wUYBMYA,798
+lieops/linalg/.ipynb_checkpoints/__init__-checkpoint.py,sha256=qDxzloiDaWPrGbmcT4x-7r7eHAbP4FkY_vumeTQWb64,27
+lieops/linalg/.ipynb_checkpoints/checks-checkpoint.py,sha256=j41NFAB0v-g9ioZgQe0Dpqk25mvFaaXc7sSVO5g-El8,3755
+lieops/linalg/.ipynb_checkpoints/matrix-checkpoint.py,sha256=eFn_hKSS0x-mvQRhP8PyqwEnm_fWsrmUSCTXNEcpN9c,7453
+lieops/linalg/.ipynb_checkpoints/nf-checkpoint.py,sha256=2czF2N-BHBdJZRlE7JBaR9UsExa0DmhGPc8WPRrSE5s,30128
+lieops/linalg/.ipynb_checkpoints/tools-checkpoint.py,sha256=8QhrZuhR8fl_d9ItL0gtX3bbhPsUFiQQryZIMeSDKmw,15247
+lieops/linalg/__init__.py,sha256=qDxzloiDaWPrGbmcT4x-7r7eHAbP4FkY_vumeTQWb64,27
+lieops/linalg/checks.py,sha256=j41NFAB0v-g9ioZgQe0Dpqk25mvFaaXc7sSVO5g-El8,3755
+lieops/linalg/matrix.py,sha256=2SwYubOKEijgmAzXo1WF7RqEYFPROOb4TiFSNbUzbHk,7452
+lieops/linalg/nf.py,sha256=2czF2N-BHBdJZRlE7JBaR9UsExa0DmhGPc8WPRrSE5s,30128
+lieops/linalg/tools.py,sha256=8QhrZuhR8fl_d9ItL0gtX3bbhPsUFiQQryZIMeSDKmw,15247
+lieops/ops/.ipynb_checkpoints/__init__-checkpoint.py,sha256=vQ9L46Zy5DmkL8FGnr68IxxpNOlQvTYot6RHG4DlbAg,112
+lieops/ops/.ipynb_checkpoints/genfunc-checkpoint.py,sha256=TEkQeJUYAHLEKMVXPgf0HW-F364WIZ_IBQ0QoZNY-xQ,262
+lieops/ops/.ipynb_checkpoints/lie-checkpoint (conflicted copy 2021-12-19 220546).py,sha256=3UZ-U6POO1vTmvmGCSrzz9NrHSMqr4ggZiLc3wlyb_0,29764
+lieops/ops/.ipynb_checkpoints/lie-checkpoint.py,sha256=Pwt4QFL4cLVvHfc3opsusqFFhADAWAOKt3rqCGyqgxI,40950
+lieops/ops/.ipynb_checkpoints/magnus-checkpoint.py,sha256=BrRWfzickViOHptDD5MiOcvTeSuV78v-PwVNN6wmchM,31458
+lieops/ops/.ipynb_checkpoints/nf-checkpoint.py,sha256=IuMRKj82fEfGd4ryC5PsvURJbUNUK8cYKYJ45gnyebY,17539
+lieops/ops/__init__.py,sha256=vQ9L46Zy5DmkL8FGnr68IxxpNOlQvTYot6RHG4DlbAg,112
+lieops/ops/genfunc.py,sha256=TEkQeJUYAHLEKMVXPgf0HW-F364WIZ_IBQ0QoZNY-xQ,262
+lieops/ops/lie.py,sha256=Pwt4QFL4cLVvHfc3opsusqFFhADAWAOKt3rqCGyqgxI,40950
+lieops/ops/magnus.py,sha256=BrRWfzickViOHptDD5MiOcvTeSuV78v-PwVNN6wmchM,31458
+lieops/ops/nf.py,sha256=IuMRKj82fEfGd4ryC5PsvURJbUNUK8cYKYJ45gnyebY,17539
+lieops-0.1.0.dist-info/COPYING,sha256=ohtQsc8F-Zdz9Lm2UWv0roYEk4hx697njEGD8RLkDFo,711
+lieops-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+lieops-0.1.0.dist-info/METADATA,sha256=qgFkB41QVxwViACXz9ZAQzL-USGrEY8d5CJM2GuCHJg,758
+lieops-0.1.0.dist-info/RECORD,,
