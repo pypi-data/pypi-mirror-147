@@ -1,0 +1,12 @@
+flask_visjs/__init__.py,sha256=6QH-J8hWmmL5cWwQiSR7Ik2Mz_1o2_Lit7jx5b0wj4c,3311
+flask_visjs/_version.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+flask_visjs/static/vis.min.css,sha256=iq5ygGJ7021Pi7H5S-QAUXCPUfaBzfqeplbg_KlEssg,23777
+flask_visjs/static/vis.min.js,sha256=JuQeAGbk9rG_EoRMixuy5X8syzICcvB0dj3KindZkY0,690222
+flask_visjs/templates/pyvis.css.j2,sha256=AFPJZlF-CrmwuMdCW_K_QZE42txAt1Z-P3NXKB53VsY,2934
+flask_visjs/templates/pyvis.html.j2,sha256=b3JfUnoCw7m8aVs6haoQsxpXBfbOclRtIox_1J16yWs,317
+flask_visjs/templates/pyvis.js.j2,sha256=e3wrvX1ZCrpUK2PUEbDOfFshY7xfd1gKb0N7BoF5kEs,4526
+Flask_VisJS-0.1.0.dist-info/LICENSE,sha256=a5dqspPU8SwH-HQJ8AftQ6mv9b4i4le8iLurbjUUEtI,1450
+Flask_VisJS-0.1.0.dist-info/METADATA,sha256=KuFGvgwsGwvWmr0w_c5Qn6Na58J5a6iNH3hkto_nuEY,906
+Flask_VisJS-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+Flask_VisJS-0.1.0.dist-info/top_level.txt,sha256=ikRnozb7YnhesBaumf4_qGuTVVKG3jbR2xPAN55-o5E,12
+Flask_VisJS-0.1.0.dist-info/RECORD,,
