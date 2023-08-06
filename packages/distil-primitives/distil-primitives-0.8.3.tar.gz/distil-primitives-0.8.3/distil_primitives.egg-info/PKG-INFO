@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: distil-primitives
+Version: 0.8.3
+Summary: Distil primitives as a single library
+Home-page: UNKNOWN
+License: Apache-2.0
+Description: UNKNOWN
+Keywords: d3m_primitive
+Platform: UNKNOWN
+Provides-Extra: cpu
+Provides-Extra: gpu
