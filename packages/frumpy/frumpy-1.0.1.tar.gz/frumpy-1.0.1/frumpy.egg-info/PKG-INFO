@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: frumpy
+Version: 1.0.1
+Summary: It's Frumpy time.
+Author: Frumpy
+Author-email: frumpyfrumpster@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Frumpy
+
+Welcome to Frumpy. Welcome to the Frump.
+
+<p align="center">
+  <img width="400" src="Frumpy.png">
+</p>
+
+## Installation
+
+```bash
+pip install frumpy
+```
+
+## Usage
+
+Use exactly like `numpy` lol
+
+```python
+import frumpy
+x = frumpy.array((0, 1, 2))
+print(x)
+>>> [0 1 2]
+```
+

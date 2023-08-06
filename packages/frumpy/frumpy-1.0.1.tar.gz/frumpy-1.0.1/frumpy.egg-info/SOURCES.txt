@@ -1,0 +1,8 @@
+README.md
+setup.py
+frumpy/__init__.py
+frumpy.egg-info/PKG-INFO
+frumpy.egg-info/SOURCES.txt
+frumpy.egg-info/dependency_links.txt
+frumpy.egg-info/requires.txt
+frumpy.egg-info/top_level.txt
