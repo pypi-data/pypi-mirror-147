@@ -1,0 +1,12 @@
+craftr/dsl/__init__.py,sha256=tVabQ0dB9YS_kebg_Mx9qOnzhkWTjV9salRz-vJI4QM,528
+craftr/dsl/__main__.py,sha256=X35AoqiFtUUP6kFRxouBesjQLwvbgNYtQMFNi7enj24,1232
+craftr/dsl/_execute.py,sha256=TLo8XBzGW_pWcXHJ-qx4yNZ5Zuj70UUIWafQu0aNJ6U,979
+craftr/dsl/_rewriter.py,sha256=WIGRPyBCFJcAlarMazX8euwHL3Jjqy91SAWzYB79W-8,26847
+craftr/dsl/_runtime.py,sha256=FYlFCVfWikLqB9YGj3lRg57W5zu0MeBGKYwVrOUSFdw,9213
+craftr/dsl/_transpiler.py,sha256=1ooanMXx9fFcN_NYs9mkDgyjblsjwPO1lQQ3szuk_zQ,10399
+craftr/dsl/_util.py,sha256=bwL69locLiTBa8P15DzgpVi2qTZQHBWaYyn3WvxX-qA,642
+craftr/dsl/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+craftr_dsl-0.8.5.dist-info/LICENSE,sha256=U9M_0Nc9_gQ_PhqGGhiH-y-ewo7PcnEZFnZbzyJ1u7Q,1084
+craftr_dsl-0.8.5.dist-info/WHEEL,sha256=KXNDfOTTCr-VyxnCJDozfJ6nmi3hNN9RABDaCXBsNak,85
+craftr_dsl-0.8.5.dist-info/METADATA,sha256=WHpoVaW9mnCS1kuXFAS7Kmqlur3430ye3klmFyHuQyM,1379
+craftr_dsl-0.8.5.dist-info/RECORD,,
