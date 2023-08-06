@@ -1,0 +1,17 @@
+deskapp/__init__.py,sha256=kneSzmG4PCBeCYp1zq4sNJmnLZOa1lLFNEnhnA1P8rY,512
+deskapp/app.py,sha256=NTkF5fh8sA8KZxF2qyRJVyCIAUobUdP9a9zb7jo-Ltk,9978
+deskapp/callback.py,sha256=8oqu27rdVtId-fAIe3CqUV6v_UeoLSXWpwrwZPY3Yr8,751
+deskapp/cli.py,sha256=ZgW3XMrA40i8F49yU2gf2sGtjqhiWgllCrjVZ2BA49Q,115
+deskapp/frontend.py,sha256=XU8mzuZz5nUnqExBG3-iIBRpaP-xgnFu8vwTuqyVNZ0,19849
+deskapp/keys.py,sha256=BHwJvDa5M49BY3SpP-sKHvTN3dTWIJGIv9uex06Iblg,349
+deskapp/module.py,sha256=0uk0sbk8-IuHAeETVOkkErQ8qN5aavqyjczvZQLs0HQ,2778
+deskapp/test.py,sha256=9Lj3PeRVSSQfTQzOFkOF3y6yppxuShXaWtKm1UqYH28,111
+deskapp/mods/__init__.py,sha256=EqQvdpIjQmf313q_TcNzBKvrD25_3XKyAyXcSdKp2uc,125
+deskapp/mods/about.py,sha256=BskcbURjMPnB7hBG5TWLQhjz8HZArPUIuKn0P1kfEws,1384
+deskapp/mods/fire.py,sha256=2FzNMO_rPFNzDU2ZgRBe5pooLdQ7RXD2stXyuu0mKfM,3732
+deskapp-0.0.3.dist-info/LICENSE.txt,sha256=3N5F1cooQd4GE1M0g70UyTgTGCz-GvQmKXiUiumiB-c,1057
+deskapp-0.0.3.dist-info/METADATA,sha256=lRdZmVhdZ7Pvora--DgZwI_pwPs2dmFkclQv3MgcUA4,1555
+deskapp-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+deskapp-0.0.3.dist-info/entry_points.txt,sha256=WT_DMkrax8DDYaDqs08wFWLH3bVFI1y58MTzU46K9s8,45
+deskapp-0.0.3.dist-info/top_level.txt,sha256=-6nkySEPZt-hrzk29VHGP_QgWnB_H4spR0gUNP5CXkY,8
+deskapp-0.0.3.dist-info/RECORD,,
