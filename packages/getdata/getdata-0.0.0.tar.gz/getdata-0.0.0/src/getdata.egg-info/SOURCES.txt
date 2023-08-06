@@ -1,0 +1,12 @@
+LICENSE.txt
+README.rst
+setup.cfg
+setup.py
+src/getdata/__init__.py
+src/getdata.egg-info/PKG-INFO
+src/getdata.egg-info/SOURCES.txt
+src/getdata.egg-info/dependency_links.txt
+src/getdata.egg-info/requires.txt
+src/getdata.egg-info/top_level.txt
+src/getdata/source/__init__.py
+src/getdata/source/source.py
