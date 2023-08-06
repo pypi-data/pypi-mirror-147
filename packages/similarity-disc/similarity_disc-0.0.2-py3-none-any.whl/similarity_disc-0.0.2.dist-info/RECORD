@@ -1,0 +1,11 @@
+similarity-disc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+similarity-disc/disc.py,sha256=fyuhNBRpZ1ae6ueisx_6UkJ_XIwxjs7xkofpwOuFDXU,12982
+similarity-disc/algoritmos/__init__.py,sha256=T32lbSdnUhL0L_PHnkeVH6lyXWMAcDWXuuQaoTgh9CE,158
+similarity-disc/algoritmos/aproximacion.py,sha256=ni-yfh7vcF8Wtxe07mdI7qllupDVbzIH8DMwtO0c_S8,15120
+similarity-disc/algoritmos/determistas.py,sha256=YZTEsP8fKtL4Vj-_u5RRu0x8eTaJNvQw7peY6LVwsso,9565
+similarity-disc/algoritmos/generic.py,sha256=6FuS3ghOynWWPFoa9P6c5rnCSUJmJmTjSsxozRQzmgU,4084
+similarity-disc/algoritmos/paralelos.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+similarity_disc-0.0.2.dist-info/METADATA,sha256=f8SEzHdDuQPQOU9sJojbaVxUvI1MEzAV_JwheLrQP2U,460
+similarity_disc-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+similarity_disc-0.0.2.dist-info/top_level.txt,sha256=XbhqWIvaLapmPQ20Dscbu0fGa035KmnO-As9h6jLSCc,16
+similarity_disc-0.0.2.dist-info/RECORD,,
