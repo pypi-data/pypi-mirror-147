@@ -1,0 +1,536 @@
+# Changelog
+
+- 2022-04-19 2.1.2
+    - added NaN check to has\_linearity\_coeffs (and made public)
+- 2022-04-19 2.1.1
+    - restored automatic laser disable at connect
+    - restored automatic TEC enable at connect
+    - added demo-workflow.py
+    - added 'make pip-install-local'
+- 2022-04-06 2.1.0
+    - Setup interface devices in new architecture
+- 2022-03-21 2.0.3
+    - renamed has\_laser\_tec to sig\_laser\_tec
+    - added has\_interlock\_feedback
+- 2022-03-17 2.0.2
+    - explicitly prefer libusb0 backend (needed for 64-bit)
+    - fixed potential EEPROM logging bug
+- 2022-01-28 2.0.1
+    - fixed logging bug
+- 2022-01-18 2.0.0
+    - add support for Andor Spectrometers
+- 2021-12-13 1.1.37
+    - dropped FeatureMask support from EEPROM format 9 (only support on format 10+)
+- 2021-10-28 1.1.36
+    - added FID.can\_laser\_fire() and is\_laser\_firing() (and corresponding Reading flags)
+    - grouped laser commands in FID
+    - switched some FID getters from returning 1/0 to True/False
+- 2021-10-18 1.1.35
+    - added OceanDevice.py
+    - Changed DeviceFinderUSB.py to use usb.core
+- 2021-10-13 1.1.34
+    - added get\_fpga\_configuration\_register
+    - trap for 0ms integration time
+- 2021-09-21 1.1.33
+    - added DetectorROI.enabled
+    - added SpectrometerSettings.init\_regions
+    - added FID.clear\_regions, set\_single\_region
+    - fixed bin2x2 bug
+    - added SpectrometerState.ignore\_timeouts\_for
+- 2021-09-20 1.1.32
+    - many ROI updates
+- 2021-09-16 1.1.31
+    - DetectorRegions working from ENLIGHTEN
+- 2021-09-16 1.1.30
+    - don't try to configure/claim interface on Windows
+- 2021-09-13 1.1.29
+    - fixed untethered uint16s
+- 2021-09-01 1.1.28
+    - replaced set\_pixel\_depth with set\_pixel\_mode
+    - updated opcodes for set\_pixel\_mode and set\_detector\_roi
+    - removed FileSpectrometer
+    - removed Overrides
+    - removed FileBus
+- 2021-08-31 1.1.27
+    - added DetectorRegions
+    - added DetectorROI
+    - added set\_detector\_roi
+    - added set\_pixel\_depth
+- 2021-08-20 1.1.26
+    - untethered
+- 2021-08-12 1.1.25
+    - extracted WrapperWorker
+    - docs
+- 2021-08-12 1.1.24
+    - many changes to area scan
+- 2021-08-11 1.1.23
+    - get\_detector\_gain\* only updates session eeprom if update\_session\_eeprom=True
+- 2021-08-04 1.1.22
+    - auto-apply startup\_integration\_time\_ms on connect
+- 2021-07-28 1.1.21
+    - added utils.to\_bool
+- 2021-07-20 1.1.20
+    - fixed setting gain to 0.99999999
+- 2021-07-15 1.1.19
+    - InGaAs fix
+- 2021-07-15 1.1.18
+    - merged customer fix
+    - removed rounding from even-odd correction
+- 2021-07-15 1.1.17
+    - more consistent rounding / casting to ints
+    - removed heartbeat logs
+    - removed EEPROM serial number validation on write
+    - docs
+- 2021-07-14 1.1.16
+    - debugs
+- 2021-07-14 1.1.15
+    - added hardwareEvenOdd
+- 2021-07-14 1.1.14
+    - moved float\_to\_uint16 to EEPROM
+    - bumped EEPROM.format to 12
+- 2021-07-14 1.1.13
+    - made FID.py return values more consistent
+    - added utils.float\_to\_uint16
+- 2021-07-06 1.1.12
+    - removed regex from SpectrometerSettings.full\_model
+- 2021-06-21 1.1.11
+    - store retrieved detector\_offset to cached EEPROM after read from FPGA
+    - updated gettors in WasatchShell
+- 2021-06-21 1.1.10
+    - fixed "detctor" typos in FID gettors
+- 2021-06-18 1.1.9
+    - cache battery percentage
+- 2021-05-25 1.1.8
+    - updates for cross-platform logging
+- 2021-05-25 1.1.7
+    - changed SpectrometerState.laser\_power\_in\_mW to use\_mW
+    - changed SpectrometerState.laser\_power to laser\_power\_perc and \_mW
+    - changed Reading          .laser\_power to laser\_power\_perc and \_mW
+    - removed bare\_readings
+- 2021-05-24 1.1.6
+    - fixed laser\_power\_in\_mW bug
+- 2021-05-19 1.1.5
+    - demo version logging
+    - log SRM coefficients on math exception
+- 2021-05-14 1.1.4
+    - added ROI
+- 2021-04-28 1.1.3
+    - fixed poison-pill bug on IMX
+- 2021-04-15 1.1.2
+    - fixed settings.is\_arm bug
+- 2021-04-14 1.1.1
+    - downleveled some error messages
+    - clarified state.gain\_db vs eeprom.detector\_gain
+    - enforced that is\_sig implies is\_arm
+    - log format tweak
+- 2021-04-09 1.1.0
+    - changing WasatchDeviceWrapper from multiprocess to multithreaded
+- 2021-04-05 1.0.73
+    - fixed get\_ambient\_temperature\_degC
+    - renamed get\_ccd\_trigger\_source -> get\_trigger\_source
+    - renamed get\_mod\_duration -> get\_mod\_duration\_us
+    - renamed get\_mod\_period -> get\_mod\_period\_us
+    - renamed get\_mod\_width -> get\_mod\_width\_us
+    - renamed get\_mod\_pulse\_delay -> get\_mod\_delay\_us
+    - renamed set\_cont\_strobe\_enable -> set\_strobe\_enable (just simplified set\_laser\_enable)
+- 2021-03-30 1.0.72
+    - added EEPROM.update\_digest()
+- 2021-03-30 1.0.71
+    - update state.gain\_db during get\_detector\_gain
+- 2021-03-30 1.0.70
+    - prevent vertical binning start/stop lines from matching (stop must be > start)
+- 2021-03-25 1.0.69
+    - restored even/odd InGaAs gain/offset correction
+- 2021-03-23 1.0.68
+    - added macOS to Darwin exclusion in applog.py
+- 2021-03-18 1.0.67
+    - fixed InGaAs bug on get\_high\_gain\_mode\_enabled
+- 2021-03-15 1.0.66
+    - added FeatureMask.cutoff\_filter\_installed
+    - added EEPROM.laser\_warmup\_sec
+    - added Gen 1.5 to WasatchShell
+    - made Fast Area Scan the default
+- 2021-02-24 1.0.65
+    - docs
+    - accessory connector 
+        - added get/set_fan_enable
+        - added get/set_lamp_enable
+        - added FeatureMask.gen15
+- 2021-02-02 1.0.64
+    - consolidated spectrometer feature queries into SpectrometerSettings
+    - added support for "fast" area scan
+    - added support for raman\_correction
+    - fixed invert\_x\_axis bug
+    - accessory connector (initial ICD, testing pending FW)
+        - SpectrometerState
+            - shutter_enabled
+            - cont_strobe_enabled
+            - cont_strobe_width_us
+            - cont_strobe_period_us
+        - FeatureIdentificationDevice (and WasatchShell)
+            - set_shutter_enable
+            - get_shutter_enable
+            - set_cont_strobe_enable
+            - get_cont_strobe_enable
+            - set_cont_strobe_period_us
+            - get_cont_strobe_period_us
+            - set_cont_strobe_width_us
+            - get_cont_strobe_width_us
+            - get_ambient_temperature_degC
+- 2021-01-05 1.0.63
+    - added get\_high\_gain\_mode\_enable()
+    - added G9206 and G14237 to InGaAs detection
+    - made InGaAs detection more robust
+    - added parabolic approximation
+- 2020-11-20 1.0.62
+    - added docs about Unicode logger warnings
+- 2020-11-12 1.0.61
+    - added demo.py --version, stdev, debug output
+- 2020-??-?? 1.0.60
+    - added invertXAxis, bin2x2 to EEPROM.dump
+- 2020-08-06 1.0.59
+    - removed SiG Area Scan "stomp first 125px" kludge
+- 2020-08-04 1.0.58
+    - reduced area scan "prefix overwrite" for non-IMX detectors
+- 2020-07-28 1.0.57
+    - deprecated get\_raman\_mode from WasatchShell
+    - simplified retry logic
+    - simplified set\_high\_gain\_mode
+    - increased laser watchdog on micro
+    - drafted get/set\_analog\_state/value
+    - disabled I2C overrides
+- 2020-06-24 1.0.56
+    - removed SW implementation of odd gain/offset
+    - added get\_line profiling
+    - automatically update laser watchdog timeout on ramanMicro
+    - deprecated HW laserDelay and ramanMode on ramanMicro
+    - added throwaways in TakeOne for ramanMicro
+    - added SpectrometerState.gainDb for ramanMicro
+- 2020-06-11 1.0.55
+    - moved settings to lambdas
+    - added vertical ROI
+    - clamp offset
+    - move area scan from 0xe9 to 0xeb
+    - support 2048px ARM
+    - moved bad pixel correction into get\_line
+    - added Reading.__str__
+- 2020-05-15 1.0.54
+    - added EEPROM.feature_mask
+    - added FeatureMask.invert_x_axis
+    - added FeatureMask.bin2x2
+    - bumped EEPROM to rev 9
+    - support start-of-frame markers
+    - schedule_disconnect on DFU mode
+    - added Raman Mode, Raman Delay, Laser Watchdog
+- 2020-04-26 1.0.53
+    - added raman\_mode\_enable
+    - support subformat 0
+    - better handling of 5th wavecal coeff
+    - extend timeouts for SiG sensor waking
+    - allow external triggering on FX2
+    - added SpectrometerSettings.full_model()
+    - added SpectrometerSettings.is_sig()
+- 2020-03-27 1.0.52
+    - increased timeout for multiple devices
+    - added gain/offset initialization from EEPROM
+    - zero NaN wavecal coeffs
+- 2020-03-25 1.0.51
+    - increased timeout for multiple devices
+    - added EEPROM.avg\_resolution
+- 2020-03-23 1.0.50
+    - added SpectrometerState.acquisition\_take\_dark\_enable
+    - moved 5th wavecal coeff to EEPROM rev 8
+    - added retries on read of spectral bulk endpoint
+    - stubbing retry logic for FID.send\_code 
+    - fixed some bugs from moving coeffs\_look\_valid to utils
+- 2020-02-28 1.0.49
+    - EEPROM fix
+- 2020-02-27 1.0.48
+    - refactored spline
+    - updated laser ramping docs
+    - added connection state checks
+    - updated raman intensity calibration definition
+    - added DFU docs
+- 2020-01-15 1.0.47
+    - added demo-simple.py
+- 2020-01-10 1.0.46
+    - updated EEPROM to format 7
+- 2019-10-11 1.0.45
+    - added Raman Intensity calibration
+    - added get_battery_register
+    - added SpectrometerSettings.lock_wavecal, has_excitation()
+    - added utils.generate_wavelengths_from_wavenumbers
+    - added utils.generate_excitation
+    - removed unused response_queue
+    - Doxygen
+- 2019-10-08 1.0.44
+    - raman intensity calibration fixes
+- 2019-10-08 1.0.43
+    - added raman intensity calibration
+    - added README_SETTINGS.md
+- 2019-09-30 1.0.42
+    - added timout to applog listener
+    - fixed horizontal ROI limits
+    - added take_one, cancel_take_one, reset_scan_averaging
+    - added README_CHANGELOG.md
+- 2019-09-19 1.0.41
+    - added various to_dict() methods to better-support JSON serialization
+- 2019-09-16 1.0.40
+    - WasatchShell updates
+    - fixed demo.py with --max and --scans-to-average
+- 2019-09-16 1.0.39
+    - added EEPROM.get_horizontal_roi()
+- 2019-08-20 1.0.38
+    - WasatchShell updates
+    - added laser_power_require_modulation
+- 2019-07-30 1.0.37
+    - added laser\_power\_high\_resolution
+    - stopped sending FX2 fake buffers on laser pulse width/period
+- 2019-07-16 1.0.36
+    - added allow\_nan to EEPROM.json()
+- 2019-07-16 1.0.35
+    - added --eod to WasatchShell 
+- 2019-06-17 1.0.34
+    - round negatives to zero when writing unsigned EEPROM fields
+- 2019-06-05 1.0.33
+    - made write\_eeprom 2nd-tier on ARM, legacy offset on FX2
+- 2019-06-05 1.0.32
+    - disable "fake buffer length from value" on ARM
+- 2019-05-31 1.0.31
+    - updated scripts/deploy
+    - still working on reading.laser\_enabled
+- 2019-05-31 1.0.30
+    - moved write\_eeprom to 2nd-tier command
+- 2019-05-29 1.0.29
+    - enable Area Scan for IMX detectors
+    - added EEPROM.product\_configuration
+    - changed min/max\_integration\_time\_ms to 32-bit
+- 2019-05-15 1.0.28
+    - fixed DeviceFinderUSB bug in Linux
+- 2019-05-13 1.0.27
+    - fallback bus/addr implementation
+- 2019-05-10 1.0.26
+    - README-RPI.md
+    - added conda-rpi.yml
+    - cleanup Queue references in exception cases
+    - added DeviceID.__repr__()
+- 2019-04-30 1.0.25
+    - made linearity\_coeffs, laser\_power\_coeffs and min/max\_laser\_power\_mW customer-editable
+- 2019-04-29 1.0.24
+    - support for area scan on FX2
+- 2019-04-25 1.0.23
+    - fixed utils.truthy() (Py3)
+- 2019-04-24 1.0.22
+    - added max\_tries and max\_integration\_time\_ms to balance\_acquisition
+    - WasatchShell updates
+    - logging fixes for ENLIGHTEN under Windows
+- 2019-04-18 1.0.21
+    - added get\_detector\_tec\_setpoint\_degC
+    - added get\_detector\_tec\_setpoint\_raw
+    - added get\_selected\_laser
+- 2019-04-15 1.0.20
+    - merging Pipes and Py3
+- 2019-04-15 1.0.19
+    - moved multiprocessing.Queue to .Pipe
+- 2019-04-11 py3-1.1.0
+    - initial Python 3 version (works on Linux)
+- 2019-04-10 1.0.18
+    - fixed for Windows (reverted multiprocessing.Manager to multiprocessing)
+- 2019-04-10 1.0.17
+    - memory profiling
+    - removed Zynq delay
+- 2019-04-05 1.0.16
+    - made allow\_default\_gain\_reset default
+- 2019-04-04 1.0.15
+    - added swap\_alternating\_pixels
+    - added allow\_default\_gain\_reset
+- 2019-04-02 1.0.14
+    - clear response queue when disabling free-running mode
+    - Zynq fix
+- 2019-04-01 1.0.13
+    - Enable ENG-0034 Rev 4
+- 2019-03-29 1.0.12
+    - disable select\_laser if no laser present
+    - kludge SiG-VIS to bare\_readings
+- 2019-03-28 1.0.11
+    - validate set\_laser\_enable with gettor
+    - replace WasatchDevice internal multiprocessing.Queue with array
+- 2019-03-26 1.0.10
+    - added set\_selected\_laser to WasatchShell
+    - add is\_zynq() with 250ms min USB interval
+    - ignore NULLs/control chars in reading FPGA revision string
+- 2019-03-22 1.0.9
+    - added set\_selected\_laser
+    - improved robustness when recovering from disabled triggering
+- 2019-03-15 1.0.8
+    - added bare\_readings so WasatchShell wouldn't double-sample photodiode
+    - added immediate\_mode so WasatchShell could use change\_setting
+    - fixed BalanceAcquisition to support non-free-running mode
+    - moved auto-triggered laser disable to after laser temperature and photodiode readouts
+- 2019-03-14 1.0.7
+    - stubbed select\_laser
+    - tweaked poison-pill logic
+- 2019-02-16 1.0.6
+    - added DeviceID
+    - renamed DeviceListFID -> DeviceFinderUSB
+    - removed bus\_order
+- 2019-02-16 1.0.5
+    - disabled EEPROM range-checks on integration time
+- 2019-02-07 1.0.4
+    - added default\_detector\_setpoint\_degC
+    - tweaked auto-laser behavior
+    - default to DEBUG logging until initialized
+- 2019-02-04 1.0.3
+    - fixed demo.py
+    - renamed get\_interlock to get\_laser\_interlock
+- 2019-01-21 1.0.2
+    - improved hotplug support
+- 2019-01-18 1.0.1
+    - better support for hotplug / unplug events (poison pill updates)
+    - added SpectrometerSettings.excitation()
+- 2019-01-16 1.0.0
+    - added UUID for tracking multiple spectrometers
+    - deprecated StrokerProtocol devices
+- 2018-01-04 0.9.18
+    - updated EEPROM field definitions to latest draft of ENG-0034 Rev 4
+    - added battery support
+- 2018-11-28 0.9.17
+    - fixed scan averaging in non-free-running mode
+- 2018-11-27 0.9.16
+    - bugfixes
+- 2018-11-27 0.9.15
+    - changed detector\_offset to SInt16
+    - added SpectrometerState.free\_running\_mode, .acquisition\_laser\_trigger\_enable, .acquisition\_laser\_trigger\_delay\_ms
+    - added "acquire" device command (letting ENLIGHTEN trigger individual acquisitions)
+- 2018-10-03 0.9.14
+    - fixed demo.py --outfile
+- 2018-09-27 0.9.13
+    - fixed demo.py integration time
+- 2018-09-25 0.9.12
+    - ARM triggering
+- 2018-08-22 0.9.11
+    - improved exception handling
+- 2018-08-14 0.9.10
+    - InGaAs offset/gain processing in software
+- 2018-07-31 0.9.9
+    - added dependency on pexpect for testing
+- 2018-07-31 0.9.8
+    - added utils.interpolate\_array
+- 2018-07-13 0.9.7
+    - converted WasatchShell into a wrapper over Wasatch.PY
+    - added numerous getters
+    - added BalanceAcquisition
+- 2018-07-13 0.9.6
+    - added Doxyfile
+    - moved class/method docs to Doxygen format
+- 2018-07-11 0.9.5
+    - added comms\_init
+- 2018-07-10 0.9.4
+    - added StatusMessage
+- 2018-07-05 0.9.3
+    - added graph\_alternating\_pixels
+- 2018-06-13 0.9.2
+    - internally track FileSpectrometer integration time state
+- 2018-06-12 0.9.1
+    - fixed shell.py's "get\_config"
+- 2018-06-12 0.9.0
+    - taking spectra from IMX
+- 2018-06-08 0.8.9
+    - detector\_ccd/offset\_odd stubbed
+    - fixed command de-dupping
+- 2018-06-07 0.8.8
+    - peak math
+- 2018-06-06 0.8.7
+    - added area\_under\_peak
+- 2018-06-04 0.8.6
+    - added CommandSettings.py
+    - added wasatch.applog.MainLogger(enable\_stdout=True)
+- 2018-06-04 0.8.5
+    - added shell.py
+- 2018-06-01 0.8.4
+    - added Overrides
+- 2018-05-31 0.8.3
+    - FileSpectrometer mostly working
+- 2018-05-29 0.8.2
+    - initial version of FileSpectrometer
+    - added JSON support
+- 2018-05-17 0.8.1
+    - ARM debugs
+    - added set\_laser\_power\_mW
+- 2018-05-15 0.8.0
+    - EEPROM writing works
+- 2018-05-14 0.7.4
+    - fixed get\_ccd\_gain in StrokerProtocol devices
+- 2018-05-09 0.7.3
+    - raise exception on reading unexpected pixel count
+- 2018-05-09 0.7.2
+    - added support for 2048-pixel FID spectrometers
+- 2018-05-08 0.7.1
+    - updates for ENLIGHTEN 1.3.0
+- 2018-04-30 0.7.0
+    - added SpectrometerSettings
+    - added SpectrometerState
+    - added EEPROM
+- 2018-04-21 0.6.10
+    - Reading.session\_count
+    - Reading.laser\_power
+    - robustness
+- 2018-04-20 0.6.9
+    - additional lasersec
+- 2018-04-19 0.6.8
+    - fixed laser ramp rounding
+- 2018-04-18 0.6.7
+    - draft area scan implementation
+- 2018-04-17 0.6.6
+    - parameterized laser\_ramp\_increments
+- 2018-04-16 0.6.5
+    - updated laser power ramping
+- 2018-04-13 0.6.4
+    - initial laser power ramping
+- 2018-04-12 0.6.3
+    - added get\_secondary\_adc\_calibrated
+    - reads linearity, ROI from EEPROM
+- 2018-04-06 0.6.2
+    - fixed secondary ADC endian order
+- 2018-04-05 0.6.1
+    - StrokerProtocolDevice fixes
+    - FPGAOptions fixes to laser\_control and laser\_type
+    - added enable\_secondary\_adc
+    - added invert\_x\_axis
+    - better FID USB logging
+- 2018-03-22 0.6.0
+    - starting multi-spectrometer support
+    - tagging before attempting switch to MonoLibUsb
+- 2018-03-06 0.5.6
+    - added FPGAOptions
+    - supported more EEPROM options
+    - added fpga\_reset()
+    - don't read laser temp unless has\_laser
+- 2018-03-02 0.5.5
+    - added "max\_usb\_interval\_ms"
+    - de-dupe USB commands
+- 2018-02-15 0.5.4
+    - added "min\_usb\_interval\_ms"
+- 2018-02-14 0.5.3
+    - added set\_ccd\_offset()
+- 2018-01-26 0.5.2
+    - added set\_ccd\_trigger() 
+- 2018-01-24 0.5.1
+    - added get/set\_laser\_temperature\_setpoint\_raw() 
+- 2018-01-22 0.5.0
+    - initial customer release
+    - analyzed non-blocking issue on MacOS
+    - default TEC to min 
+- 2018-01-22 0.2.2 
+    - tested and documented for Linux
+- 2018-01-22 0.2.1 
+    - tested and documented for MacOS
+- 2018-01-22 0.2.0 
+    - added demo.py, Windows run instructions
+- 2018-01-08 0.1.2 
+    - swapped LSB/MSB on high-gain mode
+- 2018-01-05 0.1.1 
+    - fixed laser\_enable
+    - updated NIR high-gain mode
+- 2018-01-05 0.1.0 
+    - initial import from ENLIGHTEN
