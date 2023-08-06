@@ -1,0 +1,11 @@
+simple_static/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simple_static/build.py,sha256=dj1cywuXzfCmQni4WMQ7icBqb3KzeRsEtI_9h8Sifmk,2676
+simple_static/plugins.py,sha256=GERW_dsAANeULY5X_T5Hb4d_Vtuu868hsFt6DocfiyY,1288
+simple_static/serve.py,sha256=vSzxu7PY5oG_pQpfFjc1UORbQYxxilJcZ6bPSgpt8xw,1845
+simple_static/utils.py,sha256=YOEhY56U4HMknjmVErvGpmenK58Owklvqy95XANMwpE,3002
+simple_static-0.0.3.dist-info/LICENSE,sha256=CVQvRa83s_IFXvBUeHdwL626PlDJ6ciQyjhGZ1wdwdQ,1070
+simple_static-0.0.3.dist-info/METADATA,sha256=wU6ozVDUoMI7SKH0xME5aOdGMqiF0g_5yq_yRDgOKQI,303
+simple_static-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+simple_static-0.0.3.dist-info/entry_points.txt,sha256=8gV-kvO1agZGJFxUZC2113VHqbW0qiMqntOPsGUL6Gg,86
+simple_static-0.0.3.dist-info/top_level.txt,sha256=dbIYVEwSyGLKCfjx5uNFX9hz2JOiv04Ofj-nUKxOCo4,14
+simple_static-0.0.3.dist-info/RECORD,,
