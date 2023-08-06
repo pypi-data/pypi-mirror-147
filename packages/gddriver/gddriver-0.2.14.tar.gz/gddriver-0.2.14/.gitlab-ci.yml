@@ -1,0 +1,45 @@
+include:
+  - project: 'opqa/cicd_templates'
+    ref: master
+    file: '/templates/.pypi_package.yml'
+
+variables:
+  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+  PIP_OPTS: "--index-url https://pypi.tuna.tsinghua.edu.cn/simple"
+
+cache:
+  paths:
+    - .cache/pip
+    - venv
+
+stages:
+  - test
+  - private_pypi_package
+  - public_pypi_package
+
+
+before_script:
+  - python -V
+  - pip install -r requirements-ut.txt $PIP_OPTS
+  - pip install nose coverage $PIP_OPTS
+
+
+python2:
+  image: "python:2.7"
+  stage: test
+  script:
+    - nosetests --with-coverage --cover-branches --cover-erase --cover-package=gddriver -v .
+  only:
+    - merge_requests
+  tags:
+    - seqflow-tools-bj
+
+python3:
+  image: python:3.7.5
+  stage: test
+  script:
+    - nosetests --with-coverage --cover-branches --cover-erase --cover-package=gddriver -v .
+  only:
+    - merge_requests
+  tags:
+    - seqflow-tools-bj

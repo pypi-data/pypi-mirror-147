@@ -1,0 +1,6 @@
+crcmod
+oss2>=2.4.0
+boto3==1.17.112
+bce-python-sdk
+pbr==5.8.0
+aliyun-python-sdk-sts>=3.0.0
