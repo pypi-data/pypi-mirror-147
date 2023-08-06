@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+unicorn_binance_suite.egg-info/PKG-INFO
+unicorn_binance_suite.egg-info/SOURCES.txt
+unicorn_binance_suite.egg-info/dependency_links.txt
+unicorn_binance_suite.egg-info/requires.txt
+unicorn_binance_suite.egg-info/top_level.txt
