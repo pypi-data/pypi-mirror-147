@@ -1,0 +1,3 @@
+[console_scripts]
+audioset-classes = src.main:print_classes
+audioset-dl = src.main:download_cli

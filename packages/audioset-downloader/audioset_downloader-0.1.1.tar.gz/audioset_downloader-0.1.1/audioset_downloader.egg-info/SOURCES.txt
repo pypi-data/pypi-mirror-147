@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+audioset_downloader.egg-info/PKG-INFO
+audioset_downloader.egg-info/SOURCES.txt
+audioset_downloader.egg-info/dependency_links.txt
+audioset_downloader.egg-info/entry_points.txt
+audioset_downloader.egg-info/requires.txt
+audioset_downloader.egg-info/top_level.txt
+src/__init__.py
+src/class_names.txt
+src/main.py
+src/ontology.json
+src/csv/balanced_train_segments.csv
+src/csv/eval_segments.csv
+src/csv/unbalanced_train_segments.csv

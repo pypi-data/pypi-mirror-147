@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: audioset-downloader
+Version: 0.1.1
+Summary: cli to download examples of a specific class from google AudioSet
+Home-page: https://github.com/ktonal/audioset-downloader
+Download-URL: https://github.com/ktonal/audioset-downloader
+Author: Antoine Daurat
+Author-email: ktonalberlin@gmail.com
+License: MIT
+Keywords: audioset dataset sound deep-learning
+Platform: UNKNOWN
+Requires-Python: >=3.6
+License-File: LICENSE
+
+UNKNOWN
+
