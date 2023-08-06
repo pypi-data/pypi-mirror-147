@@ -1,0 +1,7 @@
+README.md
+setup.py
+christian_watson_SDK.egg-info/PKG-INFO
+christian_watson_SDK.egg-info/SOURCES.txt
+christian_watson_SDK.egg-info/dependency_links.txt
+christian_watson_SDK.egg-info/requires.txt
+christian_watson_SDK.egg-info/top_level.txt

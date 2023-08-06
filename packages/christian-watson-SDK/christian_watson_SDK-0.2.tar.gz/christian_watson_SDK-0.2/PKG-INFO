@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: christian_watson_SDK
+Version: 0.2
+Summary: SDK for use with The One API, a Lord of the Rings API
+Home-page: https://github.com/nicofasho/christian_watson-SDK
+Author: Christian Watson
+Author-email: chris23w@gmail.com
+License: UNKNOWN
+Description: # Lord of the Rings Python SDK
+        
+        The Lord of the Rings Python SDK enables Python developers an easy way to access LOTR related info in their apps.
+        
+        ## Quickstart
+        
+        `$ pip install christian_watson_SDK`
+        
+            from christian_watson_SDK import LOTRClient
+        
+            client = LOTRClient('YOUR_API_KEY_ENV_VARIABLE')
+        
+            movies = await client.movies()
+        
+Keywords: sdk lord of the rings
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
