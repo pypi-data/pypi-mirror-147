@@ -1,0 +1,10 @@
+mytflib/DataLoader.py,sha256=IsD10dh6Lx_LMq8PvCZhRh-w9N0t2pocJ6uB_Ln0nmM,9102
+mytflib/LR_Shaper.py,sha256=mNJWS1nG9A_ewfMmzHEeC1D0N-ssXVheBSUN0M7L91A,11825
+mytflib/LR_Tuner.py,sha256=pqGkmbGx-Pc-52skTa2Gew10-IQkm2tTtbXVlDMCI_s,5986
+mytflib/TFrec_Curator.py,sha256=hSVPXSPgYpfd6BCCvBqmvh-isy9n-hA_FrSW29oGwcY,3596
+mytflib/Train_Manager.py,sha256=1dJVeupVZN5Vnk1Biwv3VzQk1giUSw4GOjwek520QEI,5909
+mytflib/__init__.py,sha256=e3dcFRLxAjI4jmGrsyIMiqSjIhDSvvIWFWJDAtq17cE,192
+mytflib-0.0.1.4.dist-info/METADATA,sha256=5e2rGLKV11mhTeR-vdDmMEeHAMVkJCUYc7-rXKr88WI,984
+mytflib-0.0.1.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mytflib-0.0.1.4.dist-info/top_level.txt,sha256=zBQEPQVltHGYfGWgerr1kU8aySNXIV3F_RBPHJy3qQE,8
+mytflib-0.0.1.4.dist-info/RECORD,,
