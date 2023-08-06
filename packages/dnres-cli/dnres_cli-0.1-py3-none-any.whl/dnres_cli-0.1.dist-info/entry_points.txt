@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        dnres=src.dnres_cli:dnres
+    
