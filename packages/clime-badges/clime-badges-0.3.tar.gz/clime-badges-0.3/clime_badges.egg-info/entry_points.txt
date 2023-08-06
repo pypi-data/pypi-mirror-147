@@ -1,0 +1,2 @@
+[console_scripts]
+clime-badges = clime_badges.main:main
