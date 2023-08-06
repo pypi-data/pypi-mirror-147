@@ -1,0 +1,13 @@
+termcolor
+pandas
+tqdm
+xarray
+netCDF4
+nc-time-axis
+dask
+
+[psm]
+pathos
+fbm
+statsmodels
+pyvsl
