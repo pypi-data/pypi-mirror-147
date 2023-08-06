@@ -1,0 +1,51 @@
+[tool.poetry]
+name        = "kitsu.py_extended"
+version     = "1.0.4"
+description = "kitsu.py_extened is an asynchronous API wrapper for Kitsu written in Python. (Extend kitsu.py)"
+authors     = ["Dymattic <dymattic@naise.io>","MrArkon <mrarkon@outlook.com>"]
+maintainers = ["Dymattic <dymattic@naise.io>"]
+license     = "MIT"
+readme      = "README.md"
+repository  = "https://github.com/dymattic/kitsu.py_extended/"
+packages    = [
+    { include = "kitsu_extended" },
+    { include = "LICENSE"}
+]
+keywords    = ["kitsu", "async kitsu", "kitsu.py", "kitsu api wrapper"]
+classifiers = [
+    "Topic :: Internet",
+    "Topic :: Utilities",
+    "Topic :: Games/Entertainment",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Typing :: Typed"
+]
+
+[tool.poetry.dependencies]
+python          = "^3.8"
+aiohttp         = "^3.7.4"
+python-dateutil = "^2.8.2"
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/dymattic/kitsu.py_extended/issues"
+"Changelog" = "https://github.com/dymattic/kitsu.py_extended/blob/master/CHANGELOG.md"
+
+[tool.poetry.dev-dependencies]
+black = "^21.6b0"
+isort = "^5.9.3"
+
+[tool.black]
+line-length = 125
+target-version = ["py39"]
+
+[tool.pyright]
+include = ["kitsu"]
+useLibraryCodeForTypes = true
+pythonVersion = "3.9"
+
+[build-system]
+requires      = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
