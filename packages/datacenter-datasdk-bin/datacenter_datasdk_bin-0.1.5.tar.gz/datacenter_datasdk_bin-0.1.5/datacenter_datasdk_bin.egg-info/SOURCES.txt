@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+datacenter_datasdk_bin/__init__.py
+datacenter_datasdk_bin/taos_api.py
+datacenter_datasdk_bin/verify.py
+datacenter_datasdk_bin.egg-info/PKG-INFO
+datacenter_datasdk_bin.egg-info/SOURCES.txt
+datacenter_datasdk_bin.egg-info/dependency_links.txt
+datacenter_datasdk_bin.egg-info/requires.txt
+datacenter_datasdk_bin.egg-info/top_level.txt
+datacenter_datasdk_bin.egg-info/zip-safe
