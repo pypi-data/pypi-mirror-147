@@ -1,0 +1,3 @@
+[console_scripts]
+ribodetector = ribodetector.detect:main
+ribodetector_cpu = ribodetector.detect_cpu:main
