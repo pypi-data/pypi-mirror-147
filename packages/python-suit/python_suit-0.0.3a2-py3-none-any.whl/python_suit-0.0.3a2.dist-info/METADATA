@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: python-suit
+Version: 0.0.3a2
+Summary: However it suits you
+Home-page: https://github.com/shacham6/suit
+Author: Shacham Ginat
+Author-email: shacham6@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: virtualenv
+Requires-Dist: click
+Requires-Dist: rich
+Requires-Dist: tomli
+Requires-Dist: python-box (~=6.0)
+Requires-Dist: typing-extensions
+Requires-Dist: pydantic
+Requires-Dist: click-default-group
+
+UNKNOWN
+
