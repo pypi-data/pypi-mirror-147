@@ -1,0 +1,12 @@
+setuptools>=61.0.0
+
+[:python_version < "3.11"]
+toml
+
+[:python_version < "3.5"]
+pathlib2
+
+[test]
+pytest
+pytest-cov
+wheel
