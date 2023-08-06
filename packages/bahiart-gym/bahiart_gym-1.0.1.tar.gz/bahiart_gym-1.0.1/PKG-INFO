@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: bahiart_gym
+Version: 1.0.1
+Summary: A toolkit to develop openAI Gym environments on top of the RCSSSERVER3D simulator
+Home-page: https://bitbucket.org/bahiart3d/bahiart-gym/
+Author: Gabriel Mascarenhas, Marco A. C. Simões, Rafael Fonseca
+Author-email: teambahiart@gmail.com
+License: agpl-3.0
+Download-URL: https://bitbucket.org/bahiart3d/bahiart-gym/downloads/BahiaRT_GYM_v1.0.0.zip
+Description: UNKNOWN
+Keywords: CUSTOM,ENVIRONMENT,GYM,OPTIMIZATION,MACHINE,LEARNING
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
