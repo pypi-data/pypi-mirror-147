@@ -1,0 +1,10 @@
+boto3==1.18.11
+marshmallow==3.6.0
+nameko>=3.0.0
+sqlalchemy~=1.4.0
+walrus~=0.8.0
+
+[dev]
+coverage~=5.5.0
+flake8~=3.9.0
+pytest~=6.2.0
