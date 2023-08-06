@@ -1,0 +1,15 @@
+ntmirror/__init__.py,sha256=yzjW4UcYMKX3PdjUO7aCwvhZeM-9tmN0232JErItHuw,35
+ntmirror/dbloader_mysql.py,sha256=2wO1_TTOuN07cfJ9rvIfuAcZF2_88XdwIUcZ1HSmoWY,1190
+ntmirror/dbloader_sqlalchemy.py,sha256=noMmCFkBlXkWyJi-5pebZQH4x3HCfADHH64tr-RRzfU,754
+ntmirror/dbloader_sqlwriter.py,sha256=roJNG0yIhTcylJ6F52ut_Jy_RaJFqpfUQvgAOtfAuKQ,1075
+ntmirror/dbschema.py,sha256=-N-DV3ebz-uTLTo0eJQCwhUNQbH-_C9S9TUA2GVbuxs,4585
+ntmirror/downloader.py,sha256=7_10G13nvHmU5aEGwgomHmNJYvbZCwX4Z7-R1EkFoyo,1199
+ntmirror/scripts_helper.py,sha256=cBqddtRV8F_Bg7IARVBrai7cFWk_0JUS1m8E566XNqA,847
+ntmirror-1.0.0.data/scripts/ntmirror-dbload,sha256=yEXkkPw2UZvu_cxhaoC6LUL1bbDH7wlJ0zTibezoYFU,3914
+ntmirror-1.0.0.data/scripts/ntmirror-download,sha256=cP2-eN4lTxpooJ7I2rPcws5Vene8WMt4staedclTc9I,1667
+ntmirror-1.0.0.dist-info/AUTHORS.txt,sha256=JsyCD_QEp9hjjOHUOMsNPBFSTK6Zi8kyZ81uH03_sX0,194
+ntmirror-1.0.0.dist-info/LICENSE.txt,sha256=kjBL_wwjkyj8wJHbE6FIB7NI9REmSJolcFGAV0YSBS0,1073
+ntmirror-1.0.0.dist-info/METADATA,sha256=zzRaahnvC5I8MK_w2zMicjGVE9VNLqKoGKaE0Yrafu4,1690
+ntmirror-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ntmirror-1.0.0.dist-info/top_level.txt,sha256=rD_P3t2m7ZdMabOAN5nlaj9kmUrvW7AYc4AC3n_WvW0,9
+ntmirror-1.0.0.dist-info/RECORD,,
