@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: Urlgod
+Version: 2.12
+Summary: URLS Discovery Tool
+Home-page: https://github.com/phlmox/urlgod
+Author: @EnesSaltk7
+Author-email: ww00uzi@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# urlgod
+Recon tool for URLs discovery
+
+# sources
+
+* Commoncrawl
+* Virustotal (Needs api key)
+* WebArchive
+* OTX
+
+
