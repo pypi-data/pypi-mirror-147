@@ -1,0 +1,1 @@
+<div class="change_list_object_toolbar">{% for button in buttons %}{% if button %}<span class="change_list_object_toolbar_button">{% autoescape off %}{{button.value}}{% endautoescape %}</span> {% if not forloop.last%}<span class="change_list_object_toolbar_separator"></span>{% endif %}{% endif %}{% endfor %}</div>

@@ -1,0 +1,10 @@
+
+magic-import
+xlsxhelper
+openpyxl
+fastutils
+django
+django-middleware-global-request
+django-static-fontawesome
+django-app-requires
+django-mptt
