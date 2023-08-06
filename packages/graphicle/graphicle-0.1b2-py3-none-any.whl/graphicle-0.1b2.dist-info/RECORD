@@ -1,0 +1,12 @@
+graphicle/__init__.py,sha256=Pu0jwt6yH_4kcA6adAmp3Rtlbfw4DzYL2KrbqlYSXWM,471
+graphicle/_base.py,sha256=JCjoPcbGT52LXwWZWSeA6L_nRf-yqPqFqWh1JH0Lmho,1191
+graphicle/_version.py,sha256=lBunGmcka-HqBgyYDspsAZ-Jp3M4yHCEebfdgzv5cVY,139
+graphicle/data.py,sha256=nH9J6rj4u6es9ZcgtMr3Ew2FZPytX3ekUVtzIQXeCXw,30663
+graphicle/matrix.py,sha256=nDsh7cJ57HK-e2AL6t-NqXqGEODvNp5roCIXfhFoV-Q,4694
+graphicle/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+graphicle/transform.py,sha256=N5HMM0SHiDUBACRt-rkoUqAiN5bmUoCR-DImK5fbAlo,6754
+graphicle-0.1b2.dist-info/LICENSE.txt,sha256=zHn0ULLhOGv6ie9wUZvOhr3XZXpC67k4FEDS_-3Z6m0,1527
+graphicle-0.1b2.dist-info/METADATA,sha256=CifgtZSTdCjdaDDj3sTECz8LJbvU-cexzhY11xcta9Q,1512
+graphicle-0.1b2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+graphicle-0.1b2.dist-info/top_level.txt,sha256=d3RPxSqH_z6Ct4QVVwsT3B4LkhujXUZmnsGxGRj3Nso,10
+graphicle-0.1b2.dist-info/RECORD,,

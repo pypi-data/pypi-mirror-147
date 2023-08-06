@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: graphicle
+Version: 0.1b2
+Summary: Encode particle physics data onto graph structures.
+Home-page: https://github.com/jacanchaplais/graphicle
+Author: Jacan Chaplais
+Author-email: jacanchaplais@gmail.com
+License: BSD 3-Clause License
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: numpy
+Requires-Dist: vector
+Requires-Dist: mcpid
+Requires-Dist: typicle (>=0.1.4)
+Requires-Dist: networkx
+Provides-Extra: dev
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: numpy (==1.20) ; extra == 'dev'
+Requires-Dist: flake8 (==3.9.2) ; extra == 'dev'
+Requires-Dist: tox (==3.24.3) ; extra == 'dev'
+Requires-Dist: pytest (==6.2.5) ; extra == 'dev'
+Requires-Dist: pytest-cov (==2.12.1) ; extra == 'dev'
+Requires-Dist: mypy (==0.910) ; extra == 'dev'
+
+# graphicle
+
+![Tests](https://github.com/jacanchaplais/graphicle/actions/workflows/tests.yml/badge.svg)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+Utilities for representing high energy physics data as graphs / networks.
+
+# Features
+- Calculate affinity matrices from 4-momenta
+- Produce adjacency matrices from the affinity
+  - k-nearest neighbours (weighted optional)
+  - fully connected
+
+## Installation
+```
+pip install graphicle
+```
+
+# Coming soon
+- [ ] Documentation
+
+
