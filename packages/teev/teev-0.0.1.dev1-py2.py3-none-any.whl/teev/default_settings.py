@@ -1,0 +1,7 @@
+COMMANDS = []
+
+PARSE_MODE = "HTML"
+
+TOKEN = None
+
+SCHEME = {}
