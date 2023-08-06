@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "testouillos"
+version = "0.0.4"
+description = "A simple test"
+authors = ["Yann Rabiller <yann.rabiller@gmail.com>"]
+license = "MIT"
+repository = "https://github.com/Einenlum/testouillos"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.27.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

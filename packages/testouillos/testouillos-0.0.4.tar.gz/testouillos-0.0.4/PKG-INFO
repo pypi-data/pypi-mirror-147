@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: testouillos
+Version: 0.0.4
+Summary: A simple test
+Home-page: https://github.com/Einenlum/testouillos
+License: MIT
+Author: Yann Rabiller
+Author-email: yann.rabiller@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: requests (>=2.27.1,<3.0.0)
+Project-URL: Repository, https://github.com/Einenlum/testouillos
