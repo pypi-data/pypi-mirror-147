@@ -1,0 +1,13 @@
+AUTHORS.md,sha256=frwXBfZsyQZ8-khR_hKY9LSogglUndPy94fVFl4A_9g,294
+HISTORY.md,sha256=bs8zahEJXwH2LndJy9UY-z2CkNgP_qJgsHOfJv2VEIE,11
+LICENSE,sha256=LX-nFUH8DKs2Qa2-10DhVFli8bkYpyHZrRvC-qN3kYY,1066
+minos/plugins/lmdb/__init__.py,sha256=L4FfjJn5at2UZGpnvLyoW7xyY6zNFKQ_4Ih_1yFfdoM,348
+minos/plugins/lmdb/clients.py,sha256=S4d4UYvgdTrn5UFoXk9KNWQAtqopSGhsS86fhVn_hKM,4191
+minos/plugins/lmdb/factories/__init__.py,sha256=cQtL2R3GoMaP5h1Z_n1ieeBdJtys7Oc5DfYra2og7jA,69
+minos/plugins/lmdb/factories/saga/__init__.py,sha256=-2vQB3K6BT5hXv6MTYLw2v46JgdYdPRscALp2Tj-Qn8,75
+minos/plugins/lmdb/factories/saga/executions.py,sha256=2sUbH5djtMbCda01uL4henCU7dmtPYu5NV_JPMF8Ozg,1998
+minos/plugins/lmdb/operations.py,sha256=jr9HIq2NujNfqNTql0Z3R7n64k_eofkh_JupkzHWg5s,685
+minos_database_lmdb-0.7.0.dev2.dist-info/LICENSE,sha256=LX-nFUH8DKs2Qa2-10DhVFli8bkYpyHZrRvC-qN3kYY,1066
+minos_database_lmdb-0.7.0.dev2.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+minos_database_lmdb-0.7.0.dev2.dist-info/METADATA,sha256=koTQAAQ_9Si53R_EeWKtmRhH4n2mc7LELUc9GnqETIE,3178
+minos_database_lmdb-0.7.0.dev2.dist-info/RECORD,,
