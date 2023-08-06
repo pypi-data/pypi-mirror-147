@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/three_commas_websocket_assist/__init__.py
+src/three_commas_websocket_assist/main.py
+src/three_commas_websocket_assist.egg-info/PKG-INFO
+src/three_commas_websocket_assist.egg-info/SOURCES.txt
+src/three_commas_websocket_assist.egg-info/dependency_links.txt
+src/three_commas_websocket_assist.egg-info/requires.txt
+src/three_commas_websocket_assist.egg-info/top_level.txt
