@@ -1,0 +1,14 @@
+odoo/addons/easy_my_coop_website_taxshelter/README.rst,sha256=ofli436o7GmjFoC5sU9tAILH_hdpaFSbt2osGdFordA,2111
+odoo/addons/easy_my_coop_website_taxshelter/__init__.py,sha256=kSWYuO-PxZ84nc6BjSWeVUfsZm6WHS036w3uy09DqBA,26
+odoo/addons/easy_my_coop_website_taxshelter/__manifest__.py,sha256=CXfwYgRXn84c6TMGDnCD0kOFzGiM_jmH1_zqq27zwe0,636
+odoo/addons/easy_my_coop_website_taxshelter/controllers/__init__.py,sha256=4KFqEP2QHFbPN66eQJMdGsmNz2v7ywWv_FR1pW_kkLk,19
+odoo/addons/easy_my_coop_website_taxshelter/controllers/main.py,sha256=-iBq38vpHR4Hozt8xQvMk-ZINLTdz9TUbNPZlAXvVVA,5154
+odoo/addons/easy_my_coop_website_taxshelter/i18n/easy_my_coop_website_taxshelter.pot,sha256=P-bBEQ_fI1Rqsa2GK6qLPOSsWB-9b_2Zn937QTz-ZMQ,2206
+odoo/addons/easy_my_coop_website_taxshelter/readme/CONTRIBUTORS.rst,sha256=atTsrn6OfgMVmhM6AJIBNlsMk8aWcQncvFdcWvAVt7s,137
+odoo/addons/easy_my_coop_website_taxshelter/readme/DESCRIPTION.rst,sha256=NPhwZMsWstWk6-5i-lSMP_bjGenaDSWjcC_V13yc13w,57
+odoo/addons/easy_my_coop_website_taxshelter/static/description/index.html,sha256=tOzQ6F8fW7MmaOKz7whKKJaiaa5ptZ_v-d5QdXt6tF0,11194
+odoo/addons/easy_my_coop_website_taxshelter/views/easy_my_coop_website_taxshelter_templates.xml,sha256=WQfQYMqQdlSvA8eO_lpDEp7F_bNd8dkLVzQbQKJgAJo,9008
+odoo12_addon_easy_my_coop_website_taxshelter-12.0.1.0.0.99.dev17.dist-info/METADATA,sha256=sAGvPZovwyCng0vhGReDlZ4c5VKCCPuyVMmqRIWE6bE,2685
+odoo12_addon_easy_my_coop_website_taxshelter-12.0.1.0.0.99.dev17.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+odoo12_addon_easy_my_coop_website_taxshelter-12.0.1.0.0.99.dev17.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_easy_my_coop_website_taxshelter-12.0.1.0.0.99.dev17.dist-info/RECORD,,
