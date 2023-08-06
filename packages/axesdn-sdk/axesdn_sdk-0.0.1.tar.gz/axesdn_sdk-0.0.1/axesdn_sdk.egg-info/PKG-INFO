@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: axesdn-sdk
+Version: 0.0.1
+Summary: AXESDN SDK Library for Python
+Author: AXESDN DEV Team
+Author-email: devops@axesdn.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# AXESDN Python SDK
+
+### Requirements
+
+- Python >= 3.7
+
+### Installation
+
+- Install with pip
+```
+pip install axesdn_sdk
+```
+
+### Usage
+
+- [Quick Examples](axesdnSDK/example)
+
+### Changelog
+
+- Detailed changes for each release are documented in the [release notes](CHANGELOG.md)
+
+### License
+
+[Apache-2.0](http://www.apache.org/licenses/LICENSE-2.0)
+
+Copyright (c) 2018-present, AXESDN rights reserved.
+
