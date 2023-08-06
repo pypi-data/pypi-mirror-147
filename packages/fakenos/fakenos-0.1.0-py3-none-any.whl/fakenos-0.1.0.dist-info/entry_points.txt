@@ -1,0 +1,3 @@
+[console_scripts]
+fakenos=fakenos.plugins.utils.cli:run_cli
+
