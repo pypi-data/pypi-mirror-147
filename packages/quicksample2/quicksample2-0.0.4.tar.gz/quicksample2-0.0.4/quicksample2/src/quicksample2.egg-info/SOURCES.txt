@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+quicksample2/src/quicksample2.py
+quicksample2/src/quicksample2.egg-info/PKG-INFO
+quicksample2/src/quicksample2.egg-info/SOURCES.txt
+quicksample2/src/quicksample2.egg-info/dependency_links.txt
+quicksample2/src/quicksample2.egg-info/top_level.txt
