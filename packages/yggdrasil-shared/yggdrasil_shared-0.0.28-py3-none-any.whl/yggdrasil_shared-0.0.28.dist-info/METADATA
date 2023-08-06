@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: yggdrasil-shared
+Version: 0.0.28
+Summary: Yggdrasil Shared library
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: boto3 (==1.18.11)
+Requires-Dist: marshmallow (==3.6.0)
+Requires-Dist: nameko (>=3.0.0)
+Requires-Dist: sqlalchemy (~=1.4.0)
+Requires-Dist: walrus (~=0.8.0)
+Provides-Extra: dev
+Requires-Dist: coverage (~=5.5.0) ; extra == 'dev'
+Requires-Dist: flake8 (~=3.9.0) ; extra == 'dev'
+Requires-Dist: pytest (~=6.2.0) ; extra == 'dev'
+
+UNKNOWN
+
+
