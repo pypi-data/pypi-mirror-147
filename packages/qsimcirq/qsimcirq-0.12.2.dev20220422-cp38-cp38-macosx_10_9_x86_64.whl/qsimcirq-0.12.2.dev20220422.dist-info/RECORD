@@ -1,0 +1,16 @@
+qsimcirq/__init__.py,sha256=EcEQe_hL9swF-_IJ6_y1WfR1ST35KXj3eOTXzDfZuBg,1885
+qsimcirq/_version.py,sha256=H-UzqWBxxS2Oh1VRIOwN2jx_Yw68Jxk8qMdds24NsSg,109
+qsimcirq/py.typed,sha256=DtCsIDq6KOv2NOEdQjTbeMWJKRh6ZEL2E-6Mf1RLeMA,59
+qsimcirq/qsim_avx2.cpython-38-darwin.so,sha256=PW25EpDp8YiwzrbAG0dKQ-69U9vC9WGyz2hylrnZKT8,753976
+qsimcirq/qsim_avx512.cpython-38-darwin.so,sha256=3A2PHHQM6hLXwVC8yjy8BgJzjRRppcQWu7w4iJMnIVk,786744
+qsimcirq/qsim_basic.cpython-38-darwin.so,sha256=nVAsovWKL5RxoYNozK-ghKfV23J4bS4BH2OGN7ZvGhQ,589784
+qsimcirq/qsim_circuit.py,sha256=RzCnIFhqRQsJ_9W2ln8892FB-qgSInTJJgoyd2gJ8IE,17531
+qsimcirq/qsim_decide.cpython-38-darwin.so,sha256=nF9J1_7ZARsmAQX20bnHQFUGW22EjL0kfKzLXk3zQa0,82428
+qsimcirq/qsim_simulator.py,sha256=xwDU9TA-2ptCbfLkzA8OqDZiW6-scqkBahytlJ8r15Y,35842
+qsimcirq/qsim_sse.cpython-38-darwin.so,sha256=ux3livtI_7UBGBlKM9-xNCjqbCRfydkXHAG9bRRKwfI,688336
+qsimcirq/qsimh_simulator.py,sha256=ZpLbK0-LHxQ3u_FWpRKfW3K8aiULgsb9QZmz0wWDEXM,2810
+qsimcirq-0.12.2.dev20220422.dist-info/LICENSE,sha256=WNHhf_5RCaeuKWyq_K39vmp9F28LxKsB4SpomwSZ2L0,11357
+qsimcirq-0.12.2.dev20220422.dist-info/METADATA,sha256=zAmmBOExF20aPMtwG0x4wJOH9DhGggzn9bTUzAKu4ds,6225
+qsimcirq-0.12.2.dev20220422.dist-info/WHEEL,sha256=RA4ju32EWHpO-G1BhxTQ3AwXQWjnnrzYGkM9skoN7_I,109
+qsimcirq-0.12.2.dev20220422.dist-info/top_level.txt,sha256=ZT7Yp5ZwZIVjDtRiuG2CcUyfzZVHgYiaIFuRZxtCeZ4,152
+qsimcirq-0.12.2.dev20220422.dist-info/RECORD,,
