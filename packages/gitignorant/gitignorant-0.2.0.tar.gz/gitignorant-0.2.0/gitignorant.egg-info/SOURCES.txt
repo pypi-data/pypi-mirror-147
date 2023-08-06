@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+gitignorant/__init__.py
+gitignorant/py.typed
+gitignorant.egg-info/PKG-INFO
+gitignorant.egg-info/SOURCES.txt
+gitignorant.egg-info/dependency_links.txt
+gitignorant.egg-info/top_level.txt
