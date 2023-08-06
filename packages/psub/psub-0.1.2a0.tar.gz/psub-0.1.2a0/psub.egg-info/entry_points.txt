@@ -1,0 +1,4 @@
+[console_scripts]
+psub = psub.cli:main
+sge_monitor = psub.utilities.sge_monitor:main
+
