@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/tinyssb/__init__.py
+src/tinyssb.egg-info/PKG-INFO
+src/tinyssb.egg-info/SOURCES.txt
+src/tinyssb.egg-info/dependency_links.txt
+src/tinyssb.egg-info/top_level.txt
