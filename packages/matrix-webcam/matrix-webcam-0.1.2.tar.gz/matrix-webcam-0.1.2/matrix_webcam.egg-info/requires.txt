@@ -1,0 +1,8 @@
+numpy~=1.20
+opencv-contrib-python~=4.5
+
+[dev]
+pre-commit
+pylint
+black~=22.3.0
+mypy
