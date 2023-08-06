@@ -1,0 +1,5 @@
+include LICENSE
+include requirements.txt
+include README.md
+include supercharged/templates/TRAFIK_TEMPLATE.yml
+include installed_apps/frontend/src/index.html
