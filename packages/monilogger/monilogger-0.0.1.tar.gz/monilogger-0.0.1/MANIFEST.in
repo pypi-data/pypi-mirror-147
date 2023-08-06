@@ -1,0 +1,3 @@
+include src/CMakeLists.txt
+include src/MoniLog.cc
+include src/monilog_module.cc

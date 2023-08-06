@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/CMakeLists.txt
+src/MoniLog.cc
+src/monilog_module.cc
+src/monilog/__init__.py
+src/monilog/monilog.py
+src/monilog/include/MoniLog.h
+src/monilogger.egg-info/PKG-INFO
+src/monilogger.egg-info/SOURCES.txt
+src/monilogger.egg-info/dependency_links.txt
+src/monilogger.egg-info/not-zip-safe
+src/monilogger.egg-info/requires.txt
+src/monilogger.egg-info/top_level.txt
