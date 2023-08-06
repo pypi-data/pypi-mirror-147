@@ -1,0 +1,17 @@
+xgboost_distribution/__init__.py,sha256=kZ7BCj5xelpd0uymner7VshpRPHKe_4ZC_GsiO2JPyc,641
+xgboost_distribution/model.py,sha256=hRlDOp4yJodvxCgc5mtOFWdwpOubB6ZYleFU1GL349k,9960
+xgboost_distribution/distributions/__init__.py,sha256=CJjICU9Rz6M4HUWhodlU8guKcDKbN5xgiabjmnIWN-g,1877
+xgboost_distribution/distributions/base.py,sha256=uVlHkhOEf3xFxBiczwfbtyQ29iOqE3FvhsC35AZIoRo,1329
+xgboost_distribution/distributions/exponential.py,sha256=R3cyRIey-COC7vXyDRytNRrs7daCJmPrF8lkRKe2vT8,1754
+xgboost_distribution/distributions/laplace.py,sha256=61_J7Modm-2KRzxizlm77vUfM9aKPD_yYMKfIqY5MQA,2708
+xgboost_distribution/distributions/log_normal.py,sha256=dPlSMZJ5nyyeldbPItGMHf8c5Y9J0u9fc7lFxtojHwM,2468
+xgboost_distribution/distributions/negative_binomial.py,sha256=FYeyM5Rza2iO3InMG0sx5DWXxeN4hViKV7gSvegSASs,3495
+xgboost_distribution/distributions/normal.py,sha256=ACSedo4EMhvBbVj9PWhC-8VXrliUuv8OjH88_uhkMmY,2868
+xgboost_distribution/distributions/poisson.py,sha256=pr9c1jrzODlnKlYFonFfWVwme6ZLZk8-q7W1opdijq4,1696
+xgboost_distribution/distributions/utils.py,sha256=wfGCI5iObg7EkxJjup3kZAIGwt6PO41nIM2qr6ePkUQ,398
+xgboost_distribution-0.2.4.dist-info/AUTHORS.rst,sha256=5c4HgATnO85JVSfVerg-ykxY5WgstT9TP8yamMU73eM,92
+xgboost_distribution-0.2.4.dist-info/LICENSE.txt,sha256=rMBvibJwKsfIUsSFLf0YykFiNVrAwTLj-UKMR_9LEHg,1085
+xgboost_distribution-0.2.4.dist-info/METADATA,sha256=skmYwWB07G5IOm5_DuQRYQKassqhZiHggEmfeQw52hE,6159
+xgboost_distribution-0.2.4.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+xgboost_distribution-0.2.4.dist-info/top_level.txt,sha256=ShD4EaG5zNIKKWUeKgMX5iBylihHnfu5pMlRnplgMug,21
+xgboost_distribution-0.2.4.dist-info/RECORD,,
