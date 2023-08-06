@@ -1,0 +1,15 @@
+mongo_manager/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mongo_manager/mongo_manager.py,sha256=-AhoK9KrJHvvdvXTc0bS-naVbHsQnuJhtpx-4DZLmD4,1426
+mongo_manager/mongo_utils.py,sha256=bmqgIlU6pA-J3hRGUEXAD82w-3j182h54AHSMP0qrpc,1345
+mongo_manager/entity/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mongo_manager/entity/objeto_mongo_abstract.py,sha256=Q6b107U4pNaPTOuOVCc8u1hrr8u7WZ3mu3qIUf0ls3s,2519
+mongo_manager/patrones/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mongo_manager/patrones/singleton.py,sha256=_EVlhx0U6vfh7_2YywimW7ZpbqoeUAdvbIXB7PkTUUI,1429
+mongo_manager/repository/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mongo_manager/repository/repository_base.py,sha256=1dwppkoQbjIZt94wg8HlRzp65Njbx6CT4dkGxmHRQKI,2406
+mongo_manager_juan_palma_borda-0.3.1.dist-info/LICENSE,sha256=loHFpJjEaL7LlZYIL1WxA8C_a09JQ29Yp-xZk5WJ9Jg,1071
+mongo_manager_juan_palma_borda-0.3.1.dist-info/LICENSE.txt,sha256=loHFpJjEaL7LlZYIL1WxA8C_a09JQ29Yp-xZk5WJ9Jg,1071
+mongo_manager_juan_palma_borda-0.3.1.dist-info/METADATA,sha256=cUcKeoA0_GtCWFz87ePkElbipwt8TYEIq-JTg2q8ptk,3326
+mongo_manager_juan_palma_borda-0.3.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mongo_manager_juan_palma_borda-0.3.1.dist-info/top_level.txt,sha256=5JkK5uF79yFkozx8S_Lk6E71YcXB-geWz84gPEtMEbg,14
+mongo_manager_juan_palma_borda-0.3.1.dist-info/RECORD,,
