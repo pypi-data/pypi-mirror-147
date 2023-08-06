@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: profileqc
+Version: 0.0.2
+Summary: Package for quality control of high resolution profile data.
+Home-page: https://github.com/sharksmhi/profileqc
+Author: Johannes Johansson
+Author-email: johannes.johansson@smhi.se
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: six
+Requires-Dist: PyYAML
+Requires-Dist: setuptools
+
+
+Python 3 library developed by Shd at SMHI.
+
+- Quality control of profile data, mainly high resolution oceanographic sensor-data eg. CTD, MVP.
+
+Installation
+------------
+ProfileQC can be installed from PyPI with pip:
+
+`pip install profileqc`
+
+
