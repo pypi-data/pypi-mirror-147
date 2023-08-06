@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: haidetector
+Version: 0.3
+Summary: A Python Library For AI Education
+Home-page: http://www.moyalab.com
+Author: devdio
+Author-email: iammoyalab@gmail.com
+License: GNU GPLv3
+Download-URL: https://www.moyalab.com
+Keywords: Kamibot,AI,Robot,CV
+Platform: UNKNOWN
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Education
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: helloai (>=1.7)
+
+## A Python Library For AI Education
+
+---
+
+Under development and use it under your own responsibility.
+
+
