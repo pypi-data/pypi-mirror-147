@@ -1,0 +1,15 @@
+LICENSE
+README.md
+filehandler.py
+setup.cfg
+setup.py
+tf2helm.py
+tfparser.py
+files/_helpers.tpl
+templates/tf_operator.yaml.j2
+tf2helm.egg-info/PKG-INFO
+tf2helm.egg-info/SOURCES.txt
+tf2helm.egg-info/dependency_links.txt
+tf2helm.egg-info/entry_points.txt
+tf2helm.egg-info/requires.txt
+tf2helm.egg-info/top_level.txt
