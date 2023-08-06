@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: eeg-blinks
+Version: 0.0.1
+Summary: make life easier
+Home-page: UNKNOWN
+Author: rpb
+License: UNKNOWN
+Platform: UNKNOWN
+
+Get EOG from EEG signal recording
+
