@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: perfect-banner
+Version: 1.0.0
+Summary: Let text fit the screen
+Home-page: UNKNOWN
+Author: phoenixR
+License: UNKNOWN
+Keywords: ascii art,art,text,string,terminal
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+perfect-banner
+==============
+
+Your python project might have a cool looking
+ascii art banner. But did you thought, that
+some users may have a terminal open which has
+a character width that is smaller than the one
+of the art.
+
+Perhaps you want create multiple banners with
+different sizes so users with a smaller terminal
+can take a look at your wonderful
+
+```
+  ____                              
+ |  _ \                             
+ | |_) | __ _ _ __  _ __   ___ _ __ 
+ |  _ < / _` | '_ \| '_ \ / _ \ '__|
+ | |_) | (_| | | | | | | |  __/ |   
+ |____/ \__,_|_| |_|_| |_|\___|_|   
+                                    
+```
+
+
+Installation
+------------
+
+
+```
+pip install perfect-banner
+```
+
+
+Example Usage
+-------------
+
+
+```python
+import banner
+import art
+
+def get_banners():
+    for font in art.FONT_NAMES:
+        yield art.text2art("python", font)
+
+choice = banner.choose(*get_banners())
+print(choice)
+```
+
+
