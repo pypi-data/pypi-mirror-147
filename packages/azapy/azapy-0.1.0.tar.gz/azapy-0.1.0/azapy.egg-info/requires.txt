@@ -1,0 +1,11 @@
+numpy
+pandas
+pandas_market_calendars
+scipy
+cvxopt
+ecos
+ta
+plotly
+matplotlib
+yfinance
+requests
