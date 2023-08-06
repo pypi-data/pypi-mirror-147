@@ -1,0 +1,2 @@
+[console_scripts]
+parkon_client = parkon_client.parkon_client:main
