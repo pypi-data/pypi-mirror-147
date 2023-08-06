@@ -1,0 +1,99 @@
+name: Test
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  schedule:
+  - cron: "0 5 * * *"
+
+
+env:
+  depth: 100  # Depth of history to clone, for setuptools-scm
+
+jobs:
+  pytest:
+    strategy:
+      matrix:
+        os:
+        - macos-latest
+        - ubuntu-latest
+        - windows-latest
+        python-version:
+        - "3.7"  # Earliest version supported by genno; matches xarray/setup.cfg
+        - "3.8"
+        - "3.9"
+        - "3.10" # Latest release / latest supported by genno / testable on GHA
+
+        # For fresh releases and development versions of Python, compiled
+        # binary wheels are not available for some dependencies, e.g. llvmlite,
+        # numba, numpy, and/or pandas. Compiling these on the job runner
+        # requires a more elaborate build environment, currently out of scope
+        # for genno. Exclude these versions from CI.
+        # - "3.11.0-alpha.2"  # Development version
+
+        exclude:
+        # JPype1 binary wheels are not available for this combination
+        - os: windows-latest
+          python-version: "3.10"
+
+      fail-fast: false
+
+    runs-on: ${{ matrix.os }}
+    name: ${{ matrix.os }}-py${{ matrix.python-version }}
+
+    steps:
+    - name: Cancel previous runs that have not completed
+      uses: styfle/cancel-workflow-action@0.9.1
+      with:
+        access_token: ${{ github.token }}
+
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: ${{ env.depth }}
+
+    - name: Fetch tags (for setuptools-scm)
+      run: git fetch --tags --depth=${{ env.depth }}
+
+    - uses: actions/setup-python@v2
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    - name: Locate pip cache directory
+      id: pip-cache
+      run: echo "::set-output name=dir::$(pip cache dir)"
+
+    - name: Cache Python packages
+      uses: actions/cache@v3
+      with:
+        path: ${{ steps.pip-cache.outputs.dir }}
+        key: ${{ matrix.os }}-py${{ matrix.python-version }}
+        restore-keys: |
+          ${{ matrix.os }}-
+
+    - uses: ts-graphviz/setup-graphviz@v1
+
+    - name: Upgrade pip, wheel, setuptools-scm
+      run: python -m pip install --upgrade pip wheel setuptools-scm
+
+    - name: Install Python package and dependencies
+      run: |
+        pip install --editable .[docs,tests]
+
+    - name: Specify version of pint
+      if: matrix.python-version != '3.7'
+      run: |
+        # Branch for with https://github.com/hgrecco/pint/pull/1508
+        pip install --upgrade git+https://github.com/khaeru/pint.git@issue/1498#egg=pint
+
+    - name: Run test suite using pytest
+      run: pytest genno --trace-config --verbose --cov-report=xml --cov-report=term --color=yes
+
+    - name: Test documentation build using Sphinx
+      if: ${{ startsWith(matrix.os, 'ubuntu') }}
+      working-directory: doc
+      run: make html
+
+    - name: Upload test coverage to Codecov.io
+      uses: codecov/codecov-action@v2
