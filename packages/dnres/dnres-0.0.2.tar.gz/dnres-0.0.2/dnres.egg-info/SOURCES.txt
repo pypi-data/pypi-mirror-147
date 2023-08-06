@@ -1,0 +1,8 @@
+README.md
+setup.py
+dnres/__init__.py
+dnres.egg-info/PKG-INFO
+dnres.egg-info/SOURCES.txt
+dnres.egg-info/dependency_links.txt
+dnres.egg-info/requires.txt
+dnres.egg-info/top_level.txt
