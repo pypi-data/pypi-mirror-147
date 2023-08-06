@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: tpe
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/nabenabe0928/tpe
+Author: nabenabe0928
+Author-email: shuhei.watanabe.utokyo@gmail.com
+License: UNKNOWN
+Platform: Linux
+Requires-Python: >=3.8
+Requires-Dist: argparse
+Requires-Dist: numpy
+Requires-Dist: scipy (==1.4.1)
+Requires-Dist: scikit-learn
+Requires-Dist: ConfigSpace
+Requires-Dist: pytest
+Requires-Dist: h5py
+
+UNKNOWN
+
+
