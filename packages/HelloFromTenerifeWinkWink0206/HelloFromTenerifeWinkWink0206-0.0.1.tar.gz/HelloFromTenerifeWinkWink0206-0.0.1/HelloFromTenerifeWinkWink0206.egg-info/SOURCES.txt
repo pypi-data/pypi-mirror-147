@@ -1,0 +1,8 @@
+setup.py
+HelloFromTenerifeWinkWink0206.egg-info/PKG-INFO
+HelloFromTenerifeWinkWink0206.egg-info/SOURCES.txt
+HelloFromTenerifeWinkWink0206.egg-info/dependency_links.txt
+HelloFromTenerifeWinkWink0206.egg-info/requires.txt
+HelloFromTenerifeWinkWink0206.egg-info/top_level.txt
+libname/__init__.py
+libname/demo.py
