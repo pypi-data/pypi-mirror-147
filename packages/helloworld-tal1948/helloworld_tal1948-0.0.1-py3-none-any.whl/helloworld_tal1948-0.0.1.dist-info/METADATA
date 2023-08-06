@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: helloworld-tal1948
+Version: 0.0.1
+Summary: Say Hello
+Home-page: https://github.com/talisel
+Author: Tal Barak
+Author-email: talisel@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/x-rst
+License-File: LICENSE.txt
+Requires-Dist: blessings (~=1.7)
+Provides-Extra: dev
+Requires-Dist: pytest (>=3.7) ; extra == 'dev'
+
+Hello World
+===========
+
+This is an example project demonstrating how to publish a python module to PyPI.
+
+Installation:
+~~~~~~~~~~~~~
+
+Run the following to install:
+
+``pip install helloworld``
+
+Usage:
+~~~~~~
+
+.. code-block:: python
+
+    from helloworld import say_hello()
+
+    # Generate "Hello, World!"
+    say_hello()
+
+    # Generate "Hello, Tal!"
+    say_hello("Tal")
+
+
+Developing Hello World:
+~~~~~~~~~~~~~~~~~~~~~~~
+
+To install helloworld, along with the tools you need to develop and run tests,
+run the following in your virtualenv:
+
+``pip install -e .[dev]``
+
+
