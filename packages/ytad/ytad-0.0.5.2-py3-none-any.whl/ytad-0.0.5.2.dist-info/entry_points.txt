@@ -1,0 +1,2 @@
+[console_scripts]
+uvd = ytad.update_notifications:main
