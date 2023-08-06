@@ -1,0 +1,7 @@
+License.txt
+setup.py
+src/UAT_hkex_tools.egg-info/PKG-INFO
+src/UAT_hkex_tools.egg-info/SOURCES.txt
+src/UAT_hkex_tools.egg-info/dependency_links.txt
+src/UAT_hkex_tools.egg-info/requires.txt
+src/UAT_hkex_tools.egg-info/top_level.txt
