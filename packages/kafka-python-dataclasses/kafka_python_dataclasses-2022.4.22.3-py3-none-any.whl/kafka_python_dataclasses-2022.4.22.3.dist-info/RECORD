@@ -1,0 +1,8 @@
+kafka_dataclasses/__init__.py,sha256=hku3lnweI7yQSd3eJrp4Mnzu9sh0yj428CnCHxL_t1A,973
+kafka_dataclasses/skeleton.py,sha256=cdXg2_4Agaxgo2DUhrUEH97fl7qKZvTJYR0NgDja9Ks,969
+kafka_dataclasses/core/__init__.py,sha256=MIOm5GfUoLu9H7UCBEu8j90IOkbLYMjSse8-NYQFDhk,2365
+kafka_python_dataclasses-2022.4.22.3.dist-info/LICENSE.txt,sha256=tXSMYJoZ4-nic-VU9Z4vl3J2_C7DbAOnIeRRq_pS5tg,1078
+kafka_python_dataclasses-2022.4.22.3.dist-info/METADATA,sha256=bx1s3F3AWBL6wPF1IVMsGuLic_y-LBC7_H-yCS9q8-4,2599
+kafka_python_dataclasses-2022.4.22.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+kafka_python_dataclasses-2022.4.22.3.dist-info/top_level.txt,sha256=ly3vrUtfZVm7elvTKCCp6qZ-ysaQxE0r---UBAKyZIs,18
+kafka_python_dataclasses-2022.4.22.3.dist-info/RECORD,,
