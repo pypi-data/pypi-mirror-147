@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: pyak-view
+Version: 0.0.1
+Summary: View text with given font (in Python with AppKit)
+Home-page: https://git.sr.ht/~drj/pyak-view/
+Author: David Jones
+Author-email: drj@pobox.com,
+License: UNKNOWN
+Project-URL: Source, https://git.sr.ht/~drj/pyak-view/
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8
+Requires-Dist: pyobjc (>=8)
+Requires-Dist: pyobjc (<9)
+Provides-Extra: test
+Requires-Dist: pytest (>=6.2.2) ; extra == 'test'
+
+# pyak-view—AppKit View—macOS only
+
+View text in given font, using Apple’s AppKit (in Python).
+
+It is called `pyak-view` after `hb-view` from _harfbuzz_.
+
+Currently in somewhat experimental form.
+
+Basic usage:
+
+    pyak-view --font-file fontfile.otf ¡Hello!
+
+Further command line help is available with
+
+    pyak-view --help
+
+
+
+## INSTALLATION
+
+From PyPI:
+
+    python -m pip install pyak-view
+
+From a clone or copy of this repo:
+
+    python -m pip install -U .
+
+
+# END
+
+
