@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: btgatt
+Version: 0.0.12
+Summary: Bluetooth GATT Utilities
+Home-page: https://pypi.org/project/btgatt
+Author: be
+Author-email: yash@be.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Security
+Classifier: Topic :: System :: Networking
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Telecommunications Industry
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: btatt (>=0.0.8)
+Requires-Dist: pyclui (>=0.0.13)
+Requires-Dist: xpycommon (>=0.0.6)
+
+# btgatt
+
+Bluetooth GATT Utilities
+
+

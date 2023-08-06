@@ -1,0 +1,15 @@
+btgatt/__init__.py,sha256=x2MFG_5LCFMAgPiVDi-Ta59M9lEdGJGVS46yDvarkjc,3329
+btgatt/characteristic.py,sha256=B4eFHUlOncD6fSaSlFG65qnrgnEH3gAJh2wvpInN2cU,37671
+btgatt/client.py,sha256=zOy3Y3_KsSJ0ESCj_diuwyyZJpneV4vIKW3dz1f4kps,37367
+btgatt/client_exceptions.py,sha256=Fd_qNFCjLi_mjL8DMI6ax0aVUS6HwmSDnqcnWKCUlVg,5679
+btgatt/gap.py,sha256=eirprSTIeAdkdVgZ9BRs_KHmbAkpzaF1upJ2tqi7KlU,1455
+btgatt/gatt.py,sha256=BiJtu_iwqxTKDEZRF_5WAex3Iq2F6wwuJ1Qeoza4n5g,171615
+btgatt/service.py,sha256=1RJzg0Z_B5IvyASgLZ-TXWO6G2__l0RmS3cjSUCrrPw,12515
+btgatt/uuids.py,sha256=xF0hzNAfp9MjGphU4vFSG3wa5rgOuxPTLhRULo5jSp4,62475
+btgatt/pytransform/__init__.py,sha256=OAwIt1kGBC0Y5zsNJlTrAwQwmJhMqierRUVI_ZOjqgg,13587
+btgatt/pytransform/_pytransform.so,sha256=kLrW2zLt_kPHheJs2ozij44vu0NzpcE6Gs2_gJOPgdg,1198080
+btgatt-0.0.12.dist-info/LICENSE.txt,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+btgatt-0.0.12.dist-info/METADATA,sha256=i2am2zK7dEboL1S43RP80INv7TufNrHNl2F7U57Lfhs,1087
+btgatt-0.0.12.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+btgatt-0.0.12.dist-info/top_level.txt,sha256=HYeBebn3LA6D4J7QNROCdvAqHIiaxWAwbJazkfsZbuI,7
+btgatt-0.0.12.dist-info/RECORD,,
