@@ -1,0 +1,7 @@
+LICENSE.TXT
+MANIFEST.in
+setup.py
+ai4ipreds.egg-info/PKG-INFO
+ai4ipreds.egg-info/SOURCES.txt
+ai4ipreds.egg-info/dependency_links.txt
+ai4ipreds.egg-info/top_level.txt
