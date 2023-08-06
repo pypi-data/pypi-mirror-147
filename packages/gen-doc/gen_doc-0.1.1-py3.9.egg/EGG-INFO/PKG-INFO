@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: gen-doc
+Version: 0.1.1
+Summary: Module for build documentation
+Home-page: https://github.com/Shchusia/gendoc
+Author: Denis Shchutkiy
+Author-email: denisshchutskyi@gmail.com
+License: UNKNOWN
+Keywords: pip,gen_doc
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## ``gen_doc`` - library for generating documentation
+
+### Installation
+
+```commandline
+pip install gen_doc
+```
+
+### What for?
++ aggregates all `.py` files to one (or same hierarchy folder) `.md` files
++ collects all classes and methods with information about them
+
+### Details
+
+
+
