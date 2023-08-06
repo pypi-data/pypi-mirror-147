@@ -1,0 +1,2 @@
+[console_scripts]
+Annotations2Sub = annotations2sub:main
