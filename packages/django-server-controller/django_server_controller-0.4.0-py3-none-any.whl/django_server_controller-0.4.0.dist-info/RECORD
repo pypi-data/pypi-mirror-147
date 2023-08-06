@@ -1,0 +1,13 @@
+django_server_controller/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_server_controller/controllers.py,sha256=1kCcSl6kZ5cQC6eTxXpxR1pHpcZjcBuWaCYwKNgs_eY,11636
+django_server_controller/settings.py,sha256=KYWmzmXECbQcmP-cOrbGp8Og5-lhoxGAZBW8jR2b0MQ,575
+django_server_controller/tests.py,sha256=8ElYeCN6ZD6betvwcgrkFuhUrux5z9Ht2waC8kFJjuo,113
+django_server_controller/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_server_controller/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_server_controller/management/commands/wsgi-server.py,sha256=0zuAFoo92REHGYM6ET6kNEDmrlapceWR6zoJDGDYIMk,1203
+django_server_controller/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_server_controller-0.4.0.dist-info/LICENSE,sha256=EGFz14kr17y-2QpxB5qB2szKkEpPaSpIv29m5RKZ2EA,1067
+django_server_controller-0.4.0.dist-info/METADATA,sha256=o7B0V5O8ri0rqmuZ8PWkmAdj9Mum2-PrgGUO2NTlm2U,5465
+django_server_controller-0.4.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+django_server_controller-0.4.0.dist-info/top_level.txt,sha256=j2Kxm5ZFn74ro-QlOJ3EgkkoJT3sVVHoKHimkLL9LOo,25
+django_server_controller-0.4.0.dist-info/RECORD,,
