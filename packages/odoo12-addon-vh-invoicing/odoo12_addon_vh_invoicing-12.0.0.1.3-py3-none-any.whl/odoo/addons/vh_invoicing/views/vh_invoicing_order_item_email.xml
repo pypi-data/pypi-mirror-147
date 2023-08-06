@@ -1,0 +1,32 @@
+<odoo>
+  <data noupdate="1">
+    <record id="email_template_invoicing_order_item" model="mail.template">
+      <field name="name">email_tmpl_invoicing_order_item</field>
+      <field name="email_from">${object.company_id.email |safe}</field>
+      <field name="email_to">${object.partner_id.email | safe}</field>
+      <!-- <field name="subject">${object.company_id.name} Cobrament (Ref ${object.number or 'n/a'})</field> -->
+      <field name="subject">${object.company_id.name}: Factures i Rebut mensuals.</field>
+      <field name="model_id" ref="vh_invoicing.model_vh_invoicing_order_item"/>
+      <field name="auto_delete" eval="False"/>
+      <field name="lang">${object.partner_id.lang}</field>
+      <field name="body_html"><![CDATA[
+<div style=" ">
+  <p style=" margin:0px 0px 9px 0px">Estimada,</p>
+  <br><br>
+  <p style=" margin:0px 0px 9px 0px">Us enviem les factures i rebuts corresponents a l’ús de l’habitatge ${object.partner_id.name} i als consums associats que es vehiculen a través de la cooperativa corresponents al periode: <strong>${object.period}</strong><p>
+  <br>
+  <p style=" margin:0px 0px 9px 0px">El rebut corresponent a l’ús de l’habitatge amb REF ${object.report_ref}, per un total de ${"%.2f" % object.receipt_total_invoiced} €</p>
+  % for row in object.non_receipt_invoice_ids:
+  <p style=" margin:0px 0px 9px 0px">La factura corresponent als consums de la vostra UEC amb REF ${row.reference}, per un total de ${row.amount_total} €</p>
+  % endfor
+  <p style=" margin:0px 0px 9px 0px">
+    Al llarg dels propers dies, la cooperativa carregarà al vostre compte corrent un total de <strong style="font-weight:bold">${"%.2f" % object.total_invoiced} €</strong>.
+  </p>
+  <br><br>
+  <p style=" margin:0px 0px 9px 0px">Salutacions cordials,</p>
+</div>
+      ]]></field>
+    </record>
+
+  </data>
+</odoo>
