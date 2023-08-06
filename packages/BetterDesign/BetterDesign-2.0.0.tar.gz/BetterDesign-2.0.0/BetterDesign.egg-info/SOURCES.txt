@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+BetterDesign/__init__.py
+BetterDesign.egg-info/PKG-INFO
+BetterDesign.egg-info/SOURCES.txt
+BetterDesign.egg-info/dependency_links.txt
+BetterDesign.egg-info/top_level.txt
+BetterDesign/design/BetterDesign.py
+BetterDesign/design/__init__.py
