@@ -1,0 +1,11 @@
+word_to_pronunciation/__init__.py,sha256=ImBQ4znFXd1Bha915feDXWuTz46gR0MBHXSxVzmqnOc,186
+word_to_pronunciation/api.py,sha256=QihhlQ9tr0UgcS6RCM3bnnSekHdulBfGCoHjpnrupeY,3449
+word_to_pronunciation/core.py,sha256=RYzH40-XWtVZ0khqTXw53WyKVi3olab9EGMQtMN8jJY,4887
+word_to_pronunciation/types.py,sha256=RF9bRD0Am7QYHjCISqcSgm42LgdcnPenWoENLp43xdo,136
+word_to_pronunciation/utils.py,sha256=uLYQgzXiDeNNiuJ-c4amrLOiz_6a5OE2Ynx-Yn-9LI4,1027
+word_to_pronunciation-0.0.1.dist-info/LICENSE,sha256=f7ccy388991JE5k_Hbhsw9-E7nEX7lXc3PISzQCFXTQ,1073
+word_to_pronunciation-0.0.1.dist-info/METADATA,sha256=_pyCZVB9n5eq-Lfr14RKgKCyBWMSO-eui3fy9uQjxKM,3608
+word_to_pronunciation-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+word_to_pronunciation-0.0.1.dist-info/entry_points.txt,sha256=OHgyZ2fZIf4AL7iXBtwMlhcY_QofwBJi1frpTQQIQzg,74
+word_to_pronunciation-0.0.1.dist-info/top_level.txt,sha256=KYkbB5iH0DJBa0pyxfkQHbvCbpL4Xw6LO_3QJN0XeYs,22
+word_to_pronunciation-0.0.1.dist-info/RECORD,,
