@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: PyExpPlotting-andnp
+Version: 0.8.1
+Summary: A few plotting utilities to go with PyExpUtils
+Home-page: https://github.com/andnp/PyExpPlotting.git
+Author: Andy Patterson
+Author-email: andnpatterson@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+
+# PyExpPlotting
+
+TODO: write up some documentation.
+For now just need to investigate source code, sorry :(
+
+
