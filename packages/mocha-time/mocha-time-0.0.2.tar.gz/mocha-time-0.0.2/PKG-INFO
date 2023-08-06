@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: mocha-time
+Version: 0.0.2
+Summary: Python Performance Profiling for Production
+Home-page: https://github.com/mocha-dev/mocha
+Author: Jared Zhao
+License: Apache 2.0
+Platform: UNKNOWN
+Requires-Python: >=3.6
+
+UNKNOWN
+
