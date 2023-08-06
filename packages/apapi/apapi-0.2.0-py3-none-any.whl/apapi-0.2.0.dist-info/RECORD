@@ -1,0 +1,15 @@
+apapi/__init__.py,sha256=Fq0Ruxyo00tJlgTpvASopJoJOMFlqU9cwCjFjaCBudM,624
+apapi/__main__.py,sha256=dvTl1nJYAupus6HlAm3KFf3eONm22jXdA5vci_vEik0,9603
+apapi/__version__.py,sha256=wV916Q8N3mL02ldeRjdB2lWTUxjKNNiJlkEJRXnLhls,343
+apapi/authentication.py,sha256=JzTGGyT-4mjsTcAb1Bc5QSAbDJXJrhKMIeFXH31xGk8,450
+apapi/basic_connection.py,sha256=TvdgwpK8SjZV2nltiFxg6Gk5TviqWEY3_Cql4RawzgQ,4107
+apapi/bulk.py,sha256=ptRD1va2DkyTYdTNZpCZfKhAwac0ddMoT9OESftrfXY,9603
+apapi/connection.py,sha256=0y7F0W3o14vJy3DCrus8LzAaKego0Q4OVouEEE0fHI4,397
+apapi/transactional.py,sha256=75yPO1yvPbYC7XIab2VMtrfLPhPLy2zR_SOaklFIYLs,12877
+apapi/utils.py,sha256=wXxZlAe2hKa6JR7Eos2LwB1z5nPf16aANhUPKtFOkGg,1847
+apapi-0.2.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+apapi-0.2.0.dist-info/METADATA,sha256=AqHXzO1NQnaKVzz8RU-fjTwyWurBm1ZUAewfH5KHGZM,2827
+apapi-0.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+apapi-0.2.0.dist-info/entry_points.txt,sha256=cv40cr71neQfcuKIzaLr83tF4wXSJ3TyHgGJXBy5Uic,47
+apapi-0.2.0.dist-info/top_level.txt,sha256=4ZpvKlEAXewTRVhxHDQYk3c-HRex4ravqiyTFrvWWoI,6
+apapi-0.2.0.dist-info/RECORD,,
