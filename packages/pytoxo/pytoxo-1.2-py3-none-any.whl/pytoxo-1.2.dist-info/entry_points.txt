@@ -1,0 +1,4 @@
+[console_scripts]
+pytoxo_cli = pytoxo_cli.__main__:main
+pytoxo_gui = pytoxo_gui.__main__:main
+
