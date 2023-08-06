@@ -1,0 +1,8 @@
+setuptools
+requests
+python-jose[cryptography]
+pyOpenSSL>=21.0.0
+pandas
+numpy
+aiohttp[speedups]
+nest_asyncio
