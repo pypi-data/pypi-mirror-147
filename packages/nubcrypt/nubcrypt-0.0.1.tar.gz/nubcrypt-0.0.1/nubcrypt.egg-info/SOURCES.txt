@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+nubcrypt/__init__.py
+nubcrypt.egg-info/PKG-INFO
+nubcrypt.egg-info/SOURCES.txt
+nubcrypt.egg-info/dependency_links.txt
+nubcrypt.egg-info/top_level.txt
+nubcrypt/core/__init__.py
+nubcrypt/core/_core.pyx
+nubcrypt/core/errors.py
+nubcrypt/core/nubcrypt.py
+nubcrypt/test/__init__.py
+nubcrypt/test/test.py
+nubcrypt/test/test.txt

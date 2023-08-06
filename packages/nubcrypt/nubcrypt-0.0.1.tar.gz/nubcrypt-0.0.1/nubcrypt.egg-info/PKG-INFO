@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: nubcrypt
+Version: 0.0.1
+Summary: Data encryption
+Home-page: https://github.com/nubcakee/nubcrypt
+Author: Anggi Kharisma Putra
+Author-email: anggikharismaputra@gmail.com
+License: MIT
+Description: # Nubcrypt - Noob File Encryption
+        Python data encryption tools
+        
+        ## Install
+        ``pip install nubcrypt``
+        
+        ## Common Usages
+        ```python
+        import nubcrypt as nbx
+        
+        filetarget = "testfile.txt"
+        key = "secret key"
+        
+        #encrypt a file
+        outfile = filetarget + ".nubx"
+        nbx.encrypt_file(filetarget, key, outfile)
+        
+        #encrypt a bytes
+        nbx_bytes = nbx.encrypt_bytes("encrypt this text".encode(), key)
+        ```
+        
+Keywords: encryption,data-encryption,cryptography
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
