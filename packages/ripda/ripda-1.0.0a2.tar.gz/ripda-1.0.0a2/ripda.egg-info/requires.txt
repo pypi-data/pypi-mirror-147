@@ -1,0 +1,6 @@
+ecutils
+fastapi
+uvicorn[standard]
+sqlmodel
+tqdm
+asyncpg
