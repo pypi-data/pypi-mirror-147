@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: bottle-tinyrpc
+Version: 0.1.0
+Summary: TinyRPC Integration for the Bottle Web Framework
+Home-page: https://github.com/cope-systems/bottle-tinyrpc
+Author: Robert Cope
+Author-email: robert@copesystems.com
+License: MIT
+Platform: any
+Classifier: Environment :: Web Environment
+Classifier: Environment :: Plugins
+Classifier: Framework :: Bottle
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+License-File: LICENSE
+Requires-Dist: bottle
+Requires-Dist: tinyrpc
+
+# bottle-tinyrpc
+A TinyRPC plugin for the Bottle Web Framework
+
+
