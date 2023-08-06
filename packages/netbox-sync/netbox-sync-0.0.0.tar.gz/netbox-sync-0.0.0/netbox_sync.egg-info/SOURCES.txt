@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+netbox_sync/__init__.py
+netbox_sync.egg-info/PKG-INFO
+netbox_sync.egg-info/SOURCES.txt
+netbox_sync.egg-info/dependency_links.txt
+netbox_sync.egg-info/not-zip-safe
+netbox_sync.egg-info/requires.txt
+netbox_sync.egg-info/top_level.txt
