@@ -1,0 +1,8 @@
+mail_handler/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mail_handler/render_mail.py,sha256=5IYgJAVpKDx9EEvlQXvomhCO4Rjk7VX0WwTgvT0YjAw,3807
+mail_handler/send_mail.py,sha256=3xuTCF4d6ZvO_RIe2T8B-1dmN9enwNZPZ5BQz2eS-ks,6003
+pycontw_mail_handler-0.7.0.dist-info/entry_points.txt,sha256=tOoLo2xxf7CyqkoiQ_pr5jZL6zW5u6Z81snsWspnumw,99
+pycontw_mail_handler-0.7.0.dist-info/LICENSE,sha256=X-fTiV0t3fjFU8hwRo6SJ6vpzxDHkS0LNIOcXcHAego,1065
+pycontw_mail_handler-0.7.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+pycontw_mail_handler-0.7.0.dist-info/METADATA,sha256=w4iQVUf_nj7CLfIJAMj2I10NZVW58CXoJU8Jvso-1KM,5728
+pycontw_mail_handler-0.7.0.dist-info/RECORD,,
