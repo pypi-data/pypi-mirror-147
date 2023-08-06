@@ -1,0 +1,17 @@
+LICENSE.rst
+README.md
+setup.cfg
+setup.py
+drf_share_token/__init__.py
+drf_share_token/apps.py
+drf_share_token/authentication.py
+drf_share_token/mixins.py
+drf_share_token/permissions.py
+drf_share_token/settings.py
+drf_share_token/tokens.py
+drf_share_token/user.py
+drf_share_token.egg-info/PKG-INFO
+drf_share_token.egg-info/SOURCES.txt
+drf_share_token.egg-info/dependency_links.txt
+drf_share_token.egg-info/requires.txt
+drf_share_token.egg-info/top_level.txt
