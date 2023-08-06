@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: eth-blocky
+Version: 0.1.0
+Summary: Ethereum utilities for mapping blocks to timestamps
+Home-page: https://github.com/vonum/eth-blocky
+Author: Milan Keca
+Author-email: vonum.mk@gmail.com
+License: UNKNOWN
+Description: # eth-blocky
+        Package providing date utilities for finding blocks
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
