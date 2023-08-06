@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: strsplit
+Version: 1.0.0
+Summary: Easy splitting of strings
+Home-page: https://github.com/not-nef/strsplit
+Author: not-nef
+License: MIT
+Keywords: strsplit
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# strsplit
+
+Easy splitting of strings
+
