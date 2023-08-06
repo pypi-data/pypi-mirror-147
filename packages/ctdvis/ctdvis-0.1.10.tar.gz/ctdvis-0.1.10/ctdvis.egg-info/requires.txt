@@ -1,0 +1,11 @@
+numpy
+matplotlib
+bokeh
+gsw
+pyproj
+pandas
+ctdpy
+requests
+PyYAML
+setuptools
+PyQt5
