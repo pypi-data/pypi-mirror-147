@@ -1,0 +1,2 @@
+[console_scripts]
+mvirs = mVIRs.mvirs:main
