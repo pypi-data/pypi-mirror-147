@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: PyFastDub
+Version: 2.0.0
+Summary: A Python package (+CLI) for voice over subtitles, with the ability to embed in video, audio ducking, and dynamic voice changer for a single track.
+Author: Nikita (NIKDISSV)
+Author-email: nikdissv.forever@protonmail.com
+License: UNKNOWN
+Project-URL: Download Voices, https://rhvoice.su/voices/
+Project-URL: GitHub, https://github.com/NIKDISSV-Forever/FastDub
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Typing :: Typed
+Requires-Python: >=3.8
+Requires-Dist: pyttsx3
+Requires-Dist: pydub
+Requires-Dist: moviepy
+Requires-Dist: imageio-ffmpeg
+
+UNKNOWN
+
