@@ -1,0 +1,8 @@
+setup.py
+fast/__init__.py
+fast/fast01.py
+fast/fast02.py
+super_fast.egg-info/PKG-INFO
+super_fast.egg-info/SOURCES.txt
+super_fast.egg-info/dependency_links.txt
+super_fast.egg-info/top_level.txt
