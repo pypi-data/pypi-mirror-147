@@ -1,0 +1,10 @@
+pycharge/__init__.py,sha256=qq-lWSc9DJgx-kcWBIrDtMr1BonzgMtAmvZHTLd9VMM,756
+pycharge/charges.py,sha256=HtrKrzCljiLAsYQLCvjit7GkxsJ2N1-n0SamdumsJ64,20700
+pycharge/dipole.py,sha256=DDtN7Zoa_Jr41eWmk7lyRXOyJBs9YFeVPRFbXkf6gBk,15206
+pycharge/dipole_analyses.py,sha256=rPnYGeQ7CGDQg7UnujDX3X0bgCdpdBCDpklQlA5CIMw,5348
+pycharge/simulation.py,sha256=NvKMjOy5RWfXZIWmAIQE0hwj72KDnqki5cC1LmyKs-U,23297
+pycharge-1.0.dist-info/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+pycharge-1.0.dist-info/METADATA,sha256=skyngqkWA8LnrHpRMNaNFsjs83Jjj4rSV_j49fOauVU,7276
+pycharge-1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pycharge-1.0.dist-info/top_level.txt,sha256=ayeH_73QDfR6Kq4RzWdy3ZgBIP--IuH_rkMd64E75Do,9
+pycharge-1.0.dist-info/RECORD,,
