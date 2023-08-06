@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/contour/__init__.py
+src/contour/__main__.py
+src/contour/info.py
+src/contour/main.py
+src/segcontour.egg-info/PKG-INFO
+src/segcontour.egg-info/SOURCES.txt
+src/segcontour.egg-info/dependency_links.txt
+src/segcontour.egg-info/entry_points.txt
+src/segcontour.egg-info/requires.txt
+src/segcontour.egg-info/top_level.txt
