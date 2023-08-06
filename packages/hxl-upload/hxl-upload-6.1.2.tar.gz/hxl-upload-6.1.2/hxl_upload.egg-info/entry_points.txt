@@ -1,0 +1,3 @@
+[console_scripts]
+myupload = file_upload.upload:start
+
