@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: maintain-website-tool
+Version: 0.0.7
+Summary: Maintain a Website. Includes link checker.
+Home-page: https://codeberg.org/developers/maintain-website-tool
+Author: CSDUMMI
+Author-email: csdummi.misquality@simplelogin.co
+License: UNKNOWN
+Project-URL: Bug Tracker, https://codeberg.org/developers/maintain-website-tool/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# maintain-website-tool
+
+A tool to make it simpler to maintain a website against the increasing entropy on the web.
+
+This tool includes:
+- A link checker
+- A CLI Interface
+- A visualization of the links on a website
+
+
