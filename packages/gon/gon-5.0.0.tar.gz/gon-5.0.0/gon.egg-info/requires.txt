@@ -1,0 +1,8 @@
+bentley-ottmann<8.0,>=7.1.0
+clipping<6.0,>=5.0.0
+ground<9.0,>=8.1.0
+locus<9.0,>=8.1.0
+orient<7.0,>=6.1.0
+reprit<1.0,>=0.7.0
+sect<7.0,>=6.1.0
+symba<2.0,>=1.1.0
