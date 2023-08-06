@@ -1,0 +1,7 @@
+appdirs>=1.4.0
+toml
+pyyaml
+psutil
+
+[testing]
+pytest
