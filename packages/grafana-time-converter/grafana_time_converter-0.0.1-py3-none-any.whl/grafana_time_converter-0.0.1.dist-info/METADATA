@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: grafana-time-converter
+Version: 0.0.1
+Summary: Convert grafana timeranges
+Home-page: https://github.com/voyzark/grafana-time-converter
+Author: Jan Zwirner
+Author-email: jan.zwirner@yahoo.de
+License: UNKNOWN
+Keywords: python,grafana
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+# WORK IN PROGRESS
+This package does not work yet!
+Wait for release 0.1 before using
+
+# grafana-time-converter
+Convert grafana time ranges to usable formats
+
+Grafana time ranges come in formats like "now-90d", "now/d+8h", etc.
+Use this package to convert them to actual datetime-objects
+
+
