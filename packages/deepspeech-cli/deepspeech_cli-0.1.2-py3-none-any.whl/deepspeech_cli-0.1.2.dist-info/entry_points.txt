@@ -1,0 +1,3 @@
+[console_scripts]
+git-pp=deepspeech_cli.deepspeech_cli:app
+
