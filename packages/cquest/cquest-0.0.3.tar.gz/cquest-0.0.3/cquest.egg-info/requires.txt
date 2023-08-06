@@ -1,0 +1,8 @@
+certifi
+chardet
+charset-normalizer
+idna
+jsonpath
+PyYAML
+requests
+urllib3
