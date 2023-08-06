@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pyconwaysgame/args.py
+pyconwaysgame/pyconwaysgame.py
+pyconwaysgame.egg-info/PKG-INFO
+pyconwaysgame.egg-info/SOURCES.txt
+pyconwaysgame.egg-info/dependency_links.txt
+pyconwaysgame.egg-info/entry_points.txt
+pyconwaysgame.egg-info/not-zip-safe
+pyconwaysgame.egg-info/requires.txt
+pyconwaysgame.egg-info/top_level.txt
