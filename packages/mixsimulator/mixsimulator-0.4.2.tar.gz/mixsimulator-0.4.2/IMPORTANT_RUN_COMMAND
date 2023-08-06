@@ -1,0 +1,46 @@
+ ### ABOUT USING NEVERGRAD BENCHMARK ON MIXSIMULATOR LIGHT
+ ### AND DEPLOY MIX PKG
+ 
+ 1340  python3 run_experiment.py 
+ 1365  python3 -m pip install torch
+ 1367  python3 run_experiment.py 
+ 1372  python3 run_experiment.py 
+ 1413  python3 -m pip install shap
+ 1433  python3 setup.py sdist bdist_wheel
+ 1434  python3 twine -upload dist/*
+ 1435  python3 -m twine -upload dist/*
+ 1436  python3 -m twine --upload dist/*
+ 1437  python3 -m twine upload dist/*
+ 1438  python3 -m twine upload dist/* --verbose
+ 1439  python3 setup.py sdist bdist_wheel
+ 1440  python3 -m twine upload dist/*
+ 1441  python3 setup.py sdist bdist_wheel
+ 1442  python3 -m twine upload dist/*
+ 1527  python3 test.py 
+ 1550  python3 -m nevergrad.benchmark mixsimulator
+ 1551  python3 nevergrad.benchmark mixsimulator_light
+ 1552  python3 nevergrad.benchmark mixsimulator
+ 1553  python3 nevergrad.benchmark.mixsimulator
+ 1554  python3 -m nevergrad.benchmark mixsimulator_light
+ 1555  python3 -m pip install nevergrad[benchmark]
+ 1556  python3 -m nevergrad.benchmark mixsimulator_light
+ 1557  python3 -m nevergrad.benchmark mixsimulator
+ 1558  python3 -m pip install torchvision
+ 1559  python3 -m nevergrad.benchmark mixsimulator
+ 1560  python3 -m nevergrad.benchmark mixsimulator_light
+ 1561  python3 -m nevergrad.benchmark mixsimulator
+ 1562  python3 -m nevergrad.benchmark mixsimulator_light --plot
+ 1567  python3
+ 1583  python3 retest.py 
+ 1585  python3 test.py 
+ 1586  python3 retest.py 
+ 1611  python3
+ 1643  python3
+ 1647  python3 test_discretization.py 
+ 1649  python3 test_discretization.py 
+ 1822  python3 script_concat_flux.py 
+ 1980  python3 retest_readjustment.py 
+ 1981  python3 test_discretization.py 
+ 1982  python3 retest_readjustment.py 
+ 1993  history | grep "python3"
+ 1994  history | grep "python3" > IMPORTANT_RUN_COMMAND
