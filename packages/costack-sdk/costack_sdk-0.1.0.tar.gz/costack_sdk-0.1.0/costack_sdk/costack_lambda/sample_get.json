@@ -1,0 +1,47 @@
+{
+  "event": {
+    "version": "2.0",
+    "routeKey": "GET /lambda_input/get",
+    "rawPath": "/entropy-default/lambda_input/get",
+    "rawQueryString": "",
+    "headers": {
+      "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+      "accept-encoding": "gzip, deflate, br",
+      "accept-language": "en",
+      "content-length": "0",
+      "host": "xa7tjniy75.execute-api.us-east-1.amazonaws.com",
+      "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"100\", \"Google Chrome\";v=\"100\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"macOS\"",
+      "sec-fetch-dest": "document",
+      "sec-fetch-mode": "navigate",
+      "sec-fetch-site": "none",
+      "sec-fetch-user": "?1",
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
+      "x-amzn-trace-id": "Root=1-62635a5c-5f5a13ab23026cf420f8c33f",
+      "x-forwarded-for": "73.248.52.222",
+      "x-forwarded-port": "443",
+      "x-forwarded-proto": "https"
+    },
+    "requestContext": {
+      "accountId": "372183484622",
+      "apiId": "xa7tjniy75",
+      "domainName": "xa7tjniy75.execute-api.us-east-1.amazonaws.com",
+      "domainPrefix": "xa7tjniy75",
+      "http": {
+        "method": "GET",
+        "path": "/entropy-default/lambda_input/get",
+        "protocol": "HTTP/1.1",
+        "sourceIp": "73.248.52.222",
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+      },
+      "requestId": "RAsOej1nIAMEP7g=",
+      "routeKey": "GET /lambda_input/get",
+      "stage": "entropy-default",
+      "time": "23/Apr/2022:01:46:04 +0000",
+      "timeEpoch": 1650678364427
+    },
+    "isBase64Encoded": false
+  }
+}
