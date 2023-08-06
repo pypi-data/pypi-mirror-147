@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: dashifyML
+Version: 0.1.3
+Summary: UNKNOWN
+Home-page: https://github.com/dashifyML/dashifyML
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.0
+Requires-Dist: pandas
+Requires-Dist: tqdm
+Requires-Dist: dash
+Requires-Dist: dash-bootstrap-components
+Requires-Dist: dash-daq
+Requires-Dist: Flask-Caching
+Requires-Dist: seaborn
+Requires-Dist: dill
+
+UNKNOWN
+
+
