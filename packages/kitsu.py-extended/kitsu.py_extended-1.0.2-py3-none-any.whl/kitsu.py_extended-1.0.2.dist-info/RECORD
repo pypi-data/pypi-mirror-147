@@ -1,0 +1,10 @@
+LICENSE,sha256=yJn4zOxOZ9_djy2LQnW0RrTfJxYzbk7RxlTkBUyabjw,1064
+kitsu/__init__.py,sha256=lDvuTAjAlntvon9b5UIy4dOCyBmeepjolPg85C6r8kA,683
+kitsu/client.py,sha256=kPNcDGJiFoSeMQYfCyDW87zb8T6nkYJubjJeCM86ryA,5436
+kitsu/errors.py,sha256=hdjhQTu4t7hTQ3ISG1kbFo66vf0uhvv-k30n2HAafnc,2211
+kitsu/models.py,sha256=u5Z9udYA4o4TxYkHXNke2Rexf-SAtYyunpn9bavjdbk,12337
+kitsu/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kitsu.py_extended-1.0.2.dist-info/LICENSE,sha256=yJn4zOxOZ9_djy2LQnW0RrTfJxYzbk7RxlTkBUyabjw,1064
+kitsu.py_extended-1.0.2.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+kitsu.py_extended-1.0.2.dist-info/METADATA,sha256=YO6OokNR1XjAX79pIhoDuQO1S9UcWIzuqLIkniIZ0ko,3396
+kitsu.py_extended-1.0.2.dist-info/RECORD,,
