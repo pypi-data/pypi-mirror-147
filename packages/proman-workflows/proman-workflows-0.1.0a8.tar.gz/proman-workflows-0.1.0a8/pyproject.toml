@@ -1,0 +1,205 @@
+[tool.poetry]
+name = "proman-workflows"
+version = "0.1.0a8"
+description = "Task-runner for project automation."
+authors = ["Jesse P. Johnson <jpj6652@gmail.com>"]
+license = "AGPL-3.0-or-later"
+readme = "README.md"
+homepage = "https://github.com/python-protools/proman-workflows"
+# documentation = "https://python-protools.github.io/proman-workflows"
+keywords = ["project management"]
+classifiers = [
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+]
+include = ["workflows/_vendor/gitignore", "workflows/templates"]
+packages = [
+    {include = "workflows", from = "src"},
+]
+
+[tool.poetry.dependencies]
+python = "^3.6.2"
+invoke = "^1.5.0"
+compendium = "^0.1.1-alpha.0"
+python-gnupg = "^0.4.7"
+proman-common = "^0.1.1-alpha.1"
+stevedore = "^3.4.0"
+PyInputPlus = "^0.2.12"
+keyring = "^23.2.1"
+SecretStorage = {version = "^3.3.1", platform = "linux"}
+pygit2 = "^1.7"
+cached-property = {version = "^1.5.2", python = "~3.7"}
+
+[tool.poetry.dev-dependencies]
+black = "^21.7b0"
+docstr-coverage = "^1.2.0"
+flake8 = "^3.8.3"
+pytest-cov = "^2.10.0"
+isort = "^5.9.2"
+bandit = "^1.6.2"
+safety = "^1.9.0"
+mkdocs = "^1.2.2"
+mkdocs-material = "^7.2.0"
+mkdocstrings = "^0.15.2"
+pyfakefs = "^4.5.0"
+types-Jinja2 = "^2.11.2"
+tox = "^3.24.0"
+python-gilt = "^1.2.3"
+twine = "^3.5.0"
+mypy = "^0.910"
+pydocstyle = {extras = ["toml"], version = "^6.1.1"}
+importlib-metadata = {version = "~3.10", python = "~3.6"}
+proman-versioning = "^0.5.0-alpha.1"
+pytest = "^6"
+build = "^0.7.0"
+
+[tool.poetry.extras]
+briefcase = ["briefcase"]
+python = [
+  "black",
+  "flake8",
+  "pytest",
+  "isort",
+  "bandit",
+  "safety",
+  "pyfakefs",
+  "tox",
+  "twine",
+  "mypy",
+]
+shell = [
+  "beautysh"
+]
+
+[tool.poetry.plugins."proman.workflows.pki"]
+gpg = "workflows.pki.gpg:namespace"
+tls = "workflows.pki.tls:namespace"
+
+[tool.poetry.plugins."proman.workflows.vcs"]
+git = "workflows.git:namespace"
+
+[tool.poetry.plugins."proman.workflows.package"]
+flit = "workflows.package.flit:namespace"
+poetry = "workflows.package.poetry:namespace"
+setuptools = "workflows.package.setuptools:namespace"
+twine = "workflows.package.twine:namespace"
+
+[tool.poetry.plugins."proman.workflows.executable"]
+# briefcase = "workflows.executable.briefcase:namespace"
+# pyinstaller = "workflows.executable.pyinstaller:namespace"
+
+[tool.poetry.plugins."proman.workflows.formatter"]
+autopep8 = "workflows.formatter.autopep8:namespace"
+black = "workflows.formatter.black:namespace"
+isort = "workflows.formatter.isort:namespace"
+
+[tool.poetry.plugins."proman.workflows.sca"]
+flake8 = "workflows.sca.flake8:namespace"
+mypy = "workflows.sca.mypy:namespace"
+bandit = "workflows.sca.security.bandit:namespace"
+safety = "workflows.sca.security.safety:namespace"
+
+[tool.poetry.plugins."proman.workflows.qa"]
+pytest = "workflows.qa.pytest:namespace"
+behave = "workflows.qa.behave:namespace"
+
+[tool.poetry.plugins."proman.workflows.system"]
+test-infra = "workflows.system.test_infra:namespace"
+
+# [tool.poetry.plugins."proman.workflows.coverage"]
+# pytest = "workflows.qa.pytest:namespace"
+
+[tool.poetry.plugins."proman.workflows.container.compose"]
+docker_compose = "workflows.container.docker:namespace"
+podman_compose = "workflows.container.podman:namespace"
+
+[tool.poetry.plugins."proman.workflows.docs"]
+mkdocs = "workflows.docs.mkdocs:namespace"
+
+# mock cli namespace
+[tool.poetry.plugins."proman.workflows.mock"]
+original = "mock_workflow.mock.original:namespace"
+update = "mock_workflow.mock.update:namespace"
+
+[tool.poetry.scripts]
+workflow-tools = "workflows:workflow_tools.run"
+workflow-setup = "workflows.setup:setup.run"
+workflow = "workflows:workflow.run"
+# mock command
+# check = "workflows.check:workflow.run"
+
+# [tool.proman.workflows.drivers.unit_tests]
+# name = "sort-headers"
+# driver_name = "isort"
+# driver_namespace = "proman.workflows.formatter"
+#
+# [tool.proman.workflows.drivers.docs]
+# name = "sort-headers"
+# driver_name = "isort"
+# driver_namespace = "proman.workflows.formatter"
+
+[[tool.proman.workflows.plugins]]
+name = "sort-headers"
+driver_name = "isort"
+driver_namespace = "proman.workflows.formatter"
+
+# [[tool.proman.workflows.plugins]]
+# name = "vcs"
+# driver_name = "git"
+# driver_namespace = "proman.workflows.vcs"
+
+[[tool.proman.versioning.files]]
+filepath = "pyproject.toml"
+pattern = "version = \"${version}\""
+
+[[tool.proman.versioning.files]]
+filepath = "src/workflows/__init__.py"
+pattern = "__version__ = '${version}'"
+
+[[tool.proman.versioning.files]]
+filepath = "tests/test_version.py"
+pattern = "__version__ == '${version}'"
+
+[tool.isort]
+profile = "black"
+line_length = 79
+
+[tool.black]
+ling-length = 79
+skip-string-normalization = true
+include = '\.pyi?$'
+exclude = '''
+
+(
+  /(
+    | \.git
+    | \.mypy_cache
+    | \.pytest_cache
+    | \.vagrant
+    | _build
+    | dist
+  )
+)
+'''
+
+[tool.pytest.ini_options]
+filterwarnings = [
+  "ignore::DeprecationWarning:invoke.*:",
+  "ignore::DeprecationWarning:_yaml.*:",
+]
+
+[tool.mypy]
+warn_redundant_casts = true
+warn_unused_ignores = true
+disallow_untyped_defs = true
+ignore_missing_imports = true
+
+[build-system]
+requires = ["poetry_core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
