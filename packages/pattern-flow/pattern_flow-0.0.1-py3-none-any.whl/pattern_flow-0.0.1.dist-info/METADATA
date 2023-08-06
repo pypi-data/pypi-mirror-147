@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: pattern-flow
+Version: 0.0.1
+Summary: Batch processing Image with GUI to show input and output
+Home-page: https://github.com/Alanzp/PatternFlow
+Author: Alan
+Author-email: 975497332@qq.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Alanzp/PatternFlow/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Install dependence package
+```bash
+pip install -r requirements.txt
+```
+---
+# Run GUI
+```bash
+python main.py
+```
+
+
+
