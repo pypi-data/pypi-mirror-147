@@ -1,0 +1,43 @@
+[project]
+name = "fafnir"
+description = "Kill ancestor process"
+readme = "README"
+license = {text = "MIT"}
+keywords = ["proc", "kill"]
+authors = [
+  { name = "Matěj Cepl", email = "mcepl@cepl.eu" },
+]
+# project_urls = [
+#     Bug Tracker = https://todo.sr.ht/~mcepl/fafnir
+#     Changelog = https://git.sr.ht/~mcepl/fafnir/tree/master/item/CHANGES
+# ]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: System Administrators",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Utilities",
+]
+dependencies = ["psutil"]
+dynamic = ["version"]
+
+[tool.setuptools]
+platforms = ["any"]
+# python_requires = ">=3.5, <4"
+license-files = ["LICENSE"]
+
+[project.urls]
+Homepage = "https://git.sr.ht/~mcepl/fafnir"
+"Bug Tracker" = "https://todo.sr.ht/~mcepl/fafnir"
+Changelog = "https://git.sr.ht/~mcepl/fafnir/tree/master/item/CHANGES"
+
+[tool.setuptools.dynamic]
+version = {attr = "fafnir.VERSION"}
+
+[project.scripts]
+fafnir = "fafnir:main"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"

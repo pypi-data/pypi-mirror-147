@@ -1,0 +1,10 @@
+LICENSE
+README
+fafnir.py
+pyproject.toml
+fafnir.egg-info/PKG-INFO
+fafnir.egg-info/SOURCES.txt
+fafnir.egg-info/dependency_links.txt
+fafnir.egg-info/entry_points.txt
+fafnir.egg-info/requires.txt
+fafnir.egg-info/top_level.txt
