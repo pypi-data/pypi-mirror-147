@@ -1,0 +1,10 @@
+joblib>=1.0
+numpy>=1.20
+pandas>=1.2
+pillow>=8.0
+
+[dev]
+black>=22.1
+isort>=5.10
+flake8>=4.0
+mypy>=0.930
