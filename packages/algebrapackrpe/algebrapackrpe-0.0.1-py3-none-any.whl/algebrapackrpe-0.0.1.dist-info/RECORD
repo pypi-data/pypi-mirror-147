@@ -1,0 +1,10 @@
+algebrapackrpe/__init__.py,sha256=rf90kOn6tzXEKxsCupDi71E78F0xql1byT3iT7uBJrc,254
+algebrapackrpe/add.py,sha256=ZSgLtstD9iWthbIIGwg9EMPKhE37PrYNuzmbrN3ESzA,207
+algebrapackrpe/subtract.py,sha256=yoTyAJCE_Mbe86BsIIM4A0B8jWUkZqMQ4dER0D7EB8w,223
+algebrapackrpe/extras/__init__.py,sha256=aqD6JFRsDBX3dhdnzyNnGmKmZSZ78xlTw9-9RsLhPCc,178
+algebrapackrpe/extras/divide.py,sha256=f9auKhcwl9YLfF2filAQavD78morMPgSysjCMB5bvts,218
+algebrapackrpe/extras/multiply.py,sha256=0XYsmHlhr5JrsAGsNTcVZAJBVBopchipkBozumNzCIY,222
+algebrapackrpe-0.0.1.dist-info/METADATA,sha256=g2wIgkM6GvrK8iWageGG0oYOAE-Kti_WTNv-DNoWobM,568
+algebrapackrpe-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+algebrapackrpe-0.0.1.dist-info/top_level.txt,sha256=2-XKjnfo4HMGrWlYJ9_8IpLBxUHaIEWVVksqVJkXe1o,15
+algebrapackrpe-0.0.1.dist-info/RECORD,,
