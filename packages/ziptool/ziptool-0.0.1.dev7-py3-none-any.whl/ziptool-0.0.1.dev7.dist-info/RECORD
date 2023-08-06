@@ -1,0 +1,11 @@
+ziptool/__init__.py,sha256=g_zdkDJqusA-PUnCBkAtbR-d7OWQroEAR6GtAbho52M,103
+ziptool/fetch_data.py,sha256=F35yORyrxJhfACo8txH9TpHC9UqUgoFto6J2F-58f0Y,1888
+ziptool/geo_conversion.py,sha256=1Dt1X-4KQxZWunO_7MuODXwmaFxDRkyiJu2Oo9pG_Ik,4327
+ziptool/interface.py,sha256=9QrzrN09u2IOkODORJM0UWS2iNs-wqo_rg64j7RgrRA,5781
+ziptool/load.py,sha256=FXmlUcWpE9-ckQWl4hvfoJqA0GlpDr0fRRffox8H-rU,381
+ziptool/query_by_zip.py,sha256=Yq4ReHtM8ykd2ghNoW0eFiKGsHySjz2xrqVjqB_cwGQ,2677
+ziptool/resources/zip_tract_122021.parquet,sha256=KJyTU_ToRvUJUwm6eGaPWo_KAldQJU09M_KECA9Bruk,6252799
+ziptool/utils.py,sha256=KGhEmKYqSCmmQBwxJ6GJZvInlaralk3K9Ep-szuoloc,2268
+ziptool-0.0.1.dev7.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+ziptool-0.0.1.dev7.dist-info/METADATA,sha256=q3n_ut1bBt0wRUxgouBod9D_mvV6db6I4FmL2rrZ-wM,1843
+ziptool-0.0.1.dev7.dist-info/RECORD,,
