@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+anony.egg-info/PKG-INFO
+anony.egg-info/SOURCES.txt
+anony.egg-info/dependency_links.txt
+anony.egg-info/requires.txt
+anony.egg-info/top_level.txt
+anonymous/__init__.py
