@@ -1,0 +1,4 @@
+requests~=2.27.1
+dateutils~=0.6.12
+backoff~=1.11.1
+cachetools~=5.0.0
