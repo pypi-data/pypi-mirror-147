@@ -1,0 +1,875 @@
+<main class="api__content">
+<article class="api__article" id="content">
+<header class="api__article-header">
+<h1 class="api__article-title">Module <strong>bytewax.inputs</strong></h1>
+</header>
+<section class="api__article-intro" id="section-intro">
+<p>Helpers to let you quickly define epoch / batching semantics.</p>
+<p>Use these to wrap an existing iterator which yields items.</p>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre class="language-python line-numbers"><code class="language-python">&#34;&#34;&#34;Helpers to let you quickly define epoch / batching semantics.
+
+Use these to wrap an existing iterator which yields items.
+
+&#34;&#34;&#34;
+
+import datetime
+import heapq
+
+from .bytewax import AdvanceTo, Emit
+
+from dataclasses import dataclass
+from typing import Any, Callable, Iterable, Tuple
+
+
+def yield_epochs(fn: Callable):
+    &#34;&#34;&#34;A decorator function to unwrap an iterator of [epoch, item]
+    into successive `AdvanceTo` and `Emit` classes with the
+    contents of the iterator.
+
+    Use this when you have an input_builder function that returns
+    a generator of (epoch, item) to be used with `cluster_main` or
+    `spawn_cluster`:
+
+    &gt;&gt;&gt; from bytewax import Dataflow, cluster_main
+    &gt;&gt;&gt; from bytewax.inputs import yield_epochs, fully_ordered
+    &gt;&gt;&gt; flow = Dataflow()
+    &gt;&gt;&gt; flow.capture()
+    &gt;&gt;&gt; @yield_epochs
+    ... def input_builder(i, n):
+    ...   return fully_ordered([&#34;a&#34;, &#34;b&#34;, &#34;c&#34;])
+    &gt;&gt;&gt; cluster_main(flow, input_builder, lambda i, n: print, [], 0, 1)
+    (0, &#39;a&#39;)
+    (1, &#39;b&#39;)
+    (2, &#39;c&#39;)
+    &#34;&#34;&#34;
+
+    def inner_fn(worker_index, worker_count):
+        gen = fn(worker_index, worker_count)
+        for (epoch, item) in gen:
+            yield AdvanceTo(epoch)
+            yield Emit(item)
+
+    return inner_fn
+
+
+def single_batch(wrap_iter: Iterable) -&gt; Iterable[Tuple[int, Any]]:
+    &#34;&#34;&#34;All input items are part of the same epoch.
+
+    Use this for non-streaming-style batch processing.
+
+    &gt;&gt;&gt; from bytewax import Dataflow, run
+    &gt;&gt;&gt; flow = Dataflow()
+    &gt;&gt;&gt; flow.capture()
+    &gt;&gt;&gt; out = run(flow, single_batch([&#34;a&#34;, &#34;b&#34;, &#34;c&#34;]))
+    &gt;&gt;&gt; sorted(out)
+    [(0, &#39;a&#39;), (0, &#39;b&#39;), (0, &#39;c&#39;)]
+
+    Args:
+
+        wrap_iter: Existing input iterable of just items.
+
+    Yields:
+
+        Tuples of `(epoch, item)`.
+
+    &#34;&#34;&#34;
+    for item in wrap_iter:
+        yield (0, item)
+
+
+def tumbling_epoch(
+    wrap_iter: Iterable,
+    epoch_length: Any,
+    time_getter: Callable[[Any], Any] = lambda _: datetime.datetime.now(),
+    epoch_start_time: Any = None,
+    epoch_start: int = 0,
+) -&gt; Iterable[Tuple[int, Any]]:
+    &#34;&#34;&#34;All inputs within a tumbling window are part of the same epoch.
+
+    The time of the first item will be used as start of the 0
+    epoch. Out-of-order items will cause issues as Bytewax requires
+    inputs to dataflows to be in epoch order. See
+    `bytewax.inputs.fully_ordered()`.
+
+    &gt;&gt;&gt; from bytewax import Dataflow, run
+    &gt;&gt;&gt; items = [
+    ...     {
+    ...         &#34;timestamp&#34;: datetime.datetime(2022, 2, 22, 1, 2, 3),
+    ...         &#34;value&#34;: &#34;a&#34;,
+    ...     },
+    ...     {
+    ...         &#34;timestamp&#34;: datetime.datetime(2022, 2, 22, 1, 2, 4),
+    ...         &#34;value&#34;: &#34;b&#34;,
+    ...     },
+    ...     {
+    ...         &#34;timestamp&#34;: datetime.datetime(2022, 2, 22, 1, 2, 8),
+    ...         &#34;value&#34;: &#34;c&#34;,
+    ...     },
+    ... ]
+    &gt;&gt;&gt; flow = Dataflow()
+    &gt;&gt;&gt; flow.map(lambda item: item[&#34;value&#34;])
+    &gt;&gt;&gt; flow.capture()
+    &gt;&gt;&gt; out = run(flow, tumbling_epoch(
+    ...     items,
+    ...     datetime.timedelta(seconds=2),
+    ...     lambda item: item[&#34;timestamp&#34;],
+    ... ))
+    &gt;&gt;&gt; sorted(out)
+    [(0, &#39;a&#39;), (0, &#39;b&#39;), (2, &#39;c&#39;)]
+
+    By default, uses &#34;ingestion time&#34; and you don&#39;t need to specify a
+    way to access the timestamp in each item.
+
+    &gt;&gt;&gt; import pytest; pytest.skip(&#34;Figure out sleep in test.&#34;)
+    &gt;&gt;&gt; items = [
+    ...     &#34;a&#34;, # sleep(4)
+    ...     &#34;b&#34;, # sleep(1)
+    ...     &#34;c&#34;,
+    ... ]
+    &gt;&gt;&gt; list(tumbling_epoch(items, datetime.timedelta(seconds=2)))
+    [(0, &#39;a&#39;), (2, &#39;b&#39;), (2, &#39;c&#39;)]
+
+    Args:
+
+        wrap_iter: Existing input iterable of just items.
+
+        epoch_length: Length of each epoch window.
+
+        time_getter: Function that returns a timestamp given an
+            item. Defaults to current wall time.
+
+        epoch_start_time: The timestamp that should correspond to
+            the start of the 0th epoch. Otherwise defaults to the time
+            found on the first item.
+
+        epoch_start: The integer value to start counting epochs from.
+            This can be used for continuity during processing.
+
+    Yields:
+
+        Tuples of `(epoch, item)`.
+
+    &#34;&#34;&#34;
+    for item in wrap_iter:
+        time = time_getter(item)
+
+        if epoch_start_time is None:
+            epoch_start_time = time
+            epoch = epoch_start
+        else:
+            epoch = int((time - epoch_start_time) / epoch_length) + epoch_start
+
+        yield (epoch, item)
+
+
+def fully_ordered(wrap_iter: Iterable) -&gt; Iterable[Tuple[int, Any]]:
+    &#34;&#34;&#34;Each input item increments the epoch.
+
+    Be careful using this in high-volume streams with many workers, as
+    the worker overhead goes up with finely granulated epochs.
+
+    &gt;&gt;&gt; from bytewax import Dataflow, run
+    &gt;&gt;&gt; flow = Dataflow()
+    &gt;&gt;&gt; flow.capture()
+    &gt;&gt;&gt; out = run(flow, fully_ordered([&#34;a&#34;, &#34;b&#34;, &#34;c&#34;]))
+    &gt;&gt;&gt; sorted(out)
+    [(0, &#39;a&#39;), (1, &#39;b&#39;), (2, &#39;c&#39;)]
+
+    Args:
+
+        wrap_iter: Existing input iterable of just items.
+
+    Yields:
+
+        Tuples of `(epoch, item)`.
+
+    &#34;&#34;&#34;
+    epoch = 0
+    for item in wrap_iter:
+        yield (epoch, item)
+        epoch += 1
+
+
+@dataclass
+class _HeapItem:
+    &#34;&#34;&#34;Wrapper class which holds pairs of time and item for implementing
+    `sorted_window()`.
+
+    We need some class that has an ordering only based on the time.
+
+    &#34;&#34;&#34;
+
+    time: Any
+    item: Any
+
+    def __lt__(self, other):
+        &#34;&#34;&#34;Compare just by timestamp. Ignore the item.&#34;&#34;&#34;
+        return self.time &lt; other.time
+
+
+def sorted_window(
+    wrap_iter: Iterable,
+    window_length: Any,
+    time_getter: Callable[[Any], Any],
+    on_drop: Callable[[Any], None] = None,
+) -&gt; Iterable[Tuple[int, Any]]:
+    &#34;&#34;&#34;Sort a iterator to be increasing by some timestamp.
+
+    To support a possibly infinite iterator, store a limited sorted
+    buffer of items and only emit things downstream once a certain
+    window of time has passed, as indicated by the timestamp on new
+    items.
+
+    New input items which are older than those already emitted will be
+    dropped to maintain sorted output.
+
+    The window length needs to be tuned for how &#34;out of order&#34; your
+    input data is and how much data you&#39;re willing to drop: Already
+    perfectly ordered input data can have a window of &#34;0&#34; and nothing
+    will be dropped. Completely reversed input data needs a window
+    that is the difference between the oldest and youngest timestamp
+    to ensure nothing will be dropped.
+
+    &gt;&gt;&gt; from bytewax import Dataflow, run
+    &gt;&gt;&gt; items = [
+    ...     {
+    ...         &#34;timestamp&#34;: datetime.datetime(2022, 2, 22, 1, 2, 4),
+    ...         &#34;value&#34;: &#34;c&#34;,
+    ...     },
+    ...     {
+    ...         &#34;timestamp&#34;: datetime.datetime(2022, 2, 22, 1, 2, 3),
+    ...         &#34;value&#34;: &#34;b&#34;,
+    ...     },
+    ...     {
+    ...         &#34;timestamp&#34;: datetime.datetime(2022, 2, 22, 1, 2, 0),
+    ...         &#34;value&#34;: &#34;a&#34;,
+    ...     },
+    ... ]
+    &gt;&gt;&gt; sorted_items = list(
+    ...     sorted_window(
+    ...         items,
+    ...         datetime.timedelta(seconds=2),
+    ...         lambda item: item[&#34;timestamp&#34;],
+    ...     )
+    ... )
+    &gt;&gt;&gt; sorted_items
+    [{&#39;timestamp&#39;: datetime.datetime(2022, 2, 22, 1, 2, 3), &#39;value&#39;: &#39;b&#39;},
+    {&#39;timestamp&#39;: datetime.datetime(2022, 2, 22, 1, 2, 4), &#39;value&#39;: &#39;c&#39;}]
+
+    You could imagine using it with `tumbling_epoch()` to ensure you
+    get in-order, bucketed data into your dataflow.
+
+    &gt;&gt;&gt; flow = Dataflow()
+    &gt;&gt;&gt; flow.map(lambda item: item[&#34;value&#34;])
+    &gt;&gt;&gt; flow.capture()
+    &gt;&gt;&gt; out = run(flow, tumbling_epoch(
+    ...     sorted_items,
+    ...     datetime.timedelta(seconds=0.5),
+    ...     lambda item: item[&#34;timestamp&#34;],
+    ... ))
+    &gt;&gt;&gt; sorted(out)
+    [(0, &#39;b&#39;), (2, &#39;c&#39;)]
+
+    Args:
+
+        wrap_iter: Existing input iterable.
+
+        window_length: Buffering duration. Values will be emitted once
+            this amount of time has passed.
+
+        time_getter: Function to call to produce a timestamp for each
+            value.
+
+        on_drop: Function to call with each dropped item. E.g. log or
+            increment metrics on drop events to refine your window
+            length.
+
+    Yields:
+
+        Values in increasing timestamp order.
+
+    &#34;&#34;&#34;
+    sorted_buffer = []
+    newest_time = None
+    drop_older_than = None
+
+    def is_too_late(time):
+        return drop_older_than is not None and time &lt;= drop_older_than
+
+    def is_newest_item(time):
+        return newest_time is None or time &gt; newest_time
+
+    def emit_all(emit_older_than):
+        while len(sorted_buffer) &gt; 0 and sorted_buffer[0].time &lt;= emit_older_than:
+            sort_item = heapq.heappop(sorted_buffer)
+            yield sort_item.item
+
+    for item in wrap_iter:
+        time = time_getter(item)
+
+        if is_too_late(time):
+            if on_drop:
+                on_drop(item)
+        else:
+            heapq.heappush(sorted_buffer, _HeapItem(time, item))
+
+            if is_newest_item(time):
+                newest_time = time
+                drop_older_than = time - window_length
+
+                yield from emit_all(drop_older_than)
+
+    yield from emit_all(newest_time)</code></pre>
+</details>
+</section>
+<section>
+</section>
+<section>
+</section>
+<section>
+<h2 class="api__article-subtitle" id="header-functions">Functions</h2>
+<dl>
+<dt id="bytewax.inputs.fully_ordered"><code class="language-python name flex">
+<span>def <span class="ident">fully_ordered</span></span>(<span>wrap_iter: Iterable) ‑> Iterable[Tuple[int, Any]]</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Each input item increments the epoch.</p>
+<p>Be careful using this in high-volume streams with many workers, as
+the worker overhead goes up with finely granulated epochs.</p>
+<pre><code class="language-python-repl">&gt;&gt;&gt; from bytewax import Dataflow, run
+&gt;&gt;&gt; flow = Dataflow()
+&gt;&gt;&gt; flow.capture()
+&gt;&gt;&gt; out = run(flow, fully_ordered([&quot;a&quot;, &quot;b&quot;, &quot;c&quot;]))
+&gt;&gt;&gt; sorted(out)
+[(0, 'a'), (1, 'b'), (2, 'c')]
+</code></pre>
+<h2 id="args">Args</h2>
+<dl>
+<dt><strong><code>wrap_iter</code></strong></dt>
+<dd>Existing input iterable of just items.</dd>
+</dl>
+<h2 id="yields">Yields</h2>
+<p>Tuples of <code>(epoch, item)</code>.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre class="language-python line-numbers"><code class="language-python">def fully_ordered(wrap_iter: Iterable) -&gt; Iterable[Tuple[int, Any]]:
+    &#34;&#34;&#34;Each input item increments the epoch.
+
+    Be careful using this in high-volume streams with many workers, as
+    the worker overhead goes up with finely granulated epochs.
+
+    &gt;&gt;&gt; from bytewax import Dataflow, run
+    &gt;&gt;&gt; flow = Dataflow()
+    &gt;&gt;&gt; flow.capture()
+    &gt;&gt;&gt; out = run(flow, fully_ordered([&#34;a&#34;, &#34;b&#34;, &#34;c&#34;]))
+    &gt;&gt;&gt; sorted(out)
+    [(0, &#39;a&#39;), (1, &#39;b&#39;), (2, &#39;c&#39;)]
+
+    Args:
+
+        wrap_iter: Existing input iterable of just items.
+
+    Yields:
+
+        Tuples of `(epoch, item)`.
+
+    &#34;&#34;&#34;
+    epoch = 0
+    for item in wrap_iter:
+        yield (epoch, item)
+        epoch += 1</code></pre>
+</details>
+</dd>
+<dt id="bytewax.inputs.single_batch"><code class="language-python name flex">
+<span>def <span class="ident">single_batch</span></span>(<span>wrap_iter: Iterable) ‑> Iterable[Tuple[int, Any]]</span>
+</code></dt>
+<dd>
+<div class="desc"><p>All input items are part of the same epoch.</p>
+<p>Use this for non-streaming-style batch processing.</p>
+<pre><code class="language-python-repl">&gt;&gt;&gt; from bytewax import Dataflow, run
+&gt;&gt;&gt; flow = Dataflow()
+&gt;&gt;&gt; flow.capture()
+&gt;&gt;&gt; out = run(flow, single_batch([&quot;a&quot;, &quot;b&quot;, &quot;c&quot;]))
+&gt;&gt;&gt; sorted(out)
+[(0, 'a'), (0, 'b'), (0, 'c')]
+</code></pre>
+<h2 id="args">Args</h2>
+<dl>
+<dt><strong><code>wrap_iter</code></strong></dt>
+<dd>Existing input iterable of just items.</dd>
+</dl>
+<h2 id="yields">Yields</h2>
+<p>Tuples of <code>(epoch, item)</code>.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre class="language-python line-numbers"><code class="language-python">def single_batch(wrap_iter: Iterable) -&gt; Iterable[Tuple[int, Any]]:
+    &#34;&#34;&#34;All input items are part of the same epoch.
+
+    Use this for non-streaming-style batch processing.
+
+    &gt;&gt;&gt; from bytewax import Dataflow, run
+    &gt;&gt;&gt; flow = Dataflow()
+    &gt;&gt;&gt; flow.capture()
+    &gt;&gt;&gt; out = run(flow, single_batch([&#34;a&#34;, &#34;b&#34;, &#34;c&#34;]))
+    &gt;&gt;&gt; sorted(out)
+    [(0, &#39;a&#39;), (0, &#39;b&#39;), (0, &#39;c&#39;)]
+
+    Args:
+
+        wrap_iter: Existing input iterable of just items.
+
+    Yields:
+
+        Tuples of `(epoch, item)`.
+
+    &#34;&#34;&#34;
+    for item in wrap_iter:
+        yield (0, item)</code></pre>
+</details>
+</dd>
+<dt id="bytewax.inputs.sorted_window"><code class="language-python name flex">
+<span>def <span class="ident">sorted_window</span></span>(<span>wrap_iter: Iterable, window_length: Any, time_getter: Callable[[Any], Any], on_drop: Callable[[Any], None] = None) ‑> Iterable[Tuple[int, Any]]</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Sort a iterator to be increasing by some timestamp.</p>
+<p>To support a possibly infinite iterator, store a limited sorted
+buffer of items and only emit things downstream once a certain
+window of time has passed, as indicated by the timestamp on new
+items.</p>
+<p>New input items which are older than those already emitted will be
+dropped to maintain sorted output.</p>
+<p>The window length needs to be tuned for how "out of order" your
+input data is and how much data you're willing to drop: Already
+perfectly ordered input data can have a window of "0" and nothing
+will be dropped. Completely reversed input data needs a window
+that is the difference between the oldest and youngest timestamp
+to ensure nothing will be dropped.</p>
+<pre><code class="language-python-repl">&gt;&gt;&gt; from bytewax import Dataflow, run
+&gt;&gt;&gt; items = [
+...     {
+...         &quot;timestamp&quot;: datetime.datetime(2022, 2, 22, 1, 2, 4),
+...         &quot;value&quot;: &quot;c&quot;,
+...     },
+...     {
+...         &quot;timestamp&quot;: datetime.datetime(2022, 2, 22, 1, 2, 3),
+...         &quot;value&quot;: &quot;b&quot;,
+...     },
+...     {
+...         &quot;timestamp&quot;: datetime.datetime(2022, 2, 22, 1, 2, 0),
+...         &quot;value&quot;: &quot;a&quot;,
+...     },
+... ]
+&gt;&gt;&gt; sorted_items = list(
+...     sorted_window(
+...         items,
+...         datetime.timedelta(seconds=2),
+...         lambda item: item[&quot;timestamp&quot;],
+...     )
+... )
+&gt;&gt;&gt; sorted_items
+[{'timestamp': datetime.datetime(2022, 2, 22, 1, 2, 3), 'value': 'b'},
+{'timestamp': datetime.datetime(2022, 2, 22, 1, 2, 4), 'value': 'c'}]
+</code></pre>
+<p>You could imagine using it with <code><a title="bytewax.inputs.tumbling_epoch" href="#bytewax.inputs.tumbling_epoch">tumbling_epoch()</a></code> to ensure you
+get in-order, bucketed data into your dataflow.</p>
+<pre><code class="language-python-repl">&gt;&gt;&gt; flow = Dataflow()
+&gt;&gt;&gt; flow.map(lambda item: item[&quot;value&quot;])
+&gt;&gt;&gt; flow.capture()
+&gt;&gt;&gt; out = run(flow, tumbling_epoch(
+...     sorted_items,
+...     datetime.timedelta(seconds=0.5),
+...     lambda item: item[&quot;timestamp&quot;],
+... ))
+&gt;&gt;&gt; sorted(out)
+[(0, 'b'), (2, 'c')]
+</code></pre>
+<h2 id="args">Args</h2>
+<dl>
+<dt><strong><code>wrap_iter</code></strong></dt>
+<dd>Existing input iterable.</dd>
+<dt><strong><code>window_length</code></strong></dt>
+<dd>Buffering duration. Values will be emitted once
+this amount of time has passed.</dd>
+<dt><strong><code>time_getter</code></strong></dt>
+<dd>Function to call to produce a timestamp for each
+value.</dd>
+<dt><strong><code>on_drop</code></strong></dt>
+<dd>Function to call with each dropped item. E.g. log or
+increment metrics on drop events to refine your window
+length.</dd>
+</dl>
+<h2 id="yields">Yields</h2>
+<p>Values in increasing timestamp order.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre class="language-python line-numbers"><code class="language-python">def sorted_window(
+    wrap_iter: Iterable,
+    window_length: Any,
+    time_getter: Callable[[Any], Any],
+    on_drop: Callable[[Any], None] = None,
+) -&gt; Iterable[Tuple[int, Any]]:
+    &#34;&#34;&#34;Sort a iterator to be increasing by some timestamp.
+
+    To support a possibly infinite iterator, store a limited sorted
+    buffer of items and only emit things downstream once a certain
+    window of time has passed, as indicated by the timestamp on new
+    items.
+
+    New input items which are older than those already emitted will be
+    dropped to maintain sorted output.
+
+    The window length needs to be tuned for how &#34;out of order&#34; your
+    input data is and how much data you&#39;re willing to drop: Already
+    perfectly ordered input data can have a window of &#34;0&#34; and nothing
+    will be dropped. Completely reversed input data needs a window
+    that is the difference between the oldest and youngest timestamp
+    to ensure nothing will be dropped.
+
+    &gt;&gt;&gt; from bytewax import Dataflow, run
+    &gt;&gt;&gt; items = [
+    ...     {
+    ...         &#34;timestamp&#34;: datetime.datetime(2022, 2, 22, 1, 2, 4),
+    ...         &#34;value&#34;: &#34;c&#34;,
+    ...     },
+    ...     {
+    ...         &#34;timestamp&#34;: datetime.datetime(2022, 2, 22, 1, 2, 3),
+    ...         &#34;value&#34;: &#34;b&#34;,
+    ...     },
+    ...     {
+    ...         &#34;timestamp&#34;: datetime.datetime(2022, 2, 22, 1, 2, 0),
+    ...         &#34;value&#34;: &#34;a&#34;,
+    ...     },
+    ... ]
+    &gt;&gt;&gt; sorted_items = list(
+    ...     sorted_window(
+    ...         items,
+    ...         datetime.timedelta(seconds=2),
+    ...         lambda item: item[&#34;timestamp&#34;],
+    ...     )
+    ... )
+    &gt;&gt;&gt; sorted_items
+    [{&#39;timestamp&#39;: datetime.datetime(2022, 2, 22, 1, 2, 3), &#39;value&#39;: &#39;b&#39;},
+    {&#39;timestamp&#39;: datetime.datetime(2022, 2, 22, 1, 2, 4), &#39;value&#39;: &#39;c&#39;}]
+
+    You could imagine using it with `tumbling_epoch()` to ensure you
+    get in-order, bucketed data into your dataflow.
+
+    &gt;&gt;&gt; flow = Dataflow()
+    &gt;&gt;&gt; flow.map(lambda item: item[&#34;value&#34;])
+    &gt;&gt;&gt; flow.capture()
+    &gt;&gt;&gt; out = run(flow, tumbling_epoch(
+    ...     sorted_items,
+    ...     datetime.timedelta(seconds=0.5),
+    ...     lambda item: item[&#34;timestamp&#34;],
+    ... ))
+    &gt;&gt;&gt; sorted(out)
+    [(0, &#39;b&#39;), (2, &#39;c&#39;)]
+
+    Args:
+
+        wrap_iter: Existing input iterable.
+
+        window_length: Buffering duration. Values will be emitted once
+            this amount of time has passed.
+
+        time_getter: Function to call to produce a timestamp for each
+            value.
+
+        on_drop: Function to call with each dropped item. E.g. log or
+            increment metrics on drop events to refine your window
+            length.
+
+    Yields:
+
+        Values in increasing timestamp order.
+
+    &#34;&#34;&#34;
+    sorted_buffer = []
+    newest_time = None
+    drop_older_than = None
+
+    def is_too_late(time):
+        return drop_older_than is not None and time &lt;= drop_older_than
+
+    def is_newest_item(time):
+        return newest_time is None or time &gt; newest_time
+
+    def emit_all(emit_older_than):
+        while len(sorted_buffer) &gt; 0 and sorted_buffer[0].time &lt;= emit_older_than:
+            sort_item = heapq.heappop(sorted_buffer)
+            yield sort_item.item
+
+    for item in wrap_iter:
+        time = time_getter(item)
+
+        if is_too_late(time):
+            if on_drop:
+                on_drop(item)
+        else:
+            heapq.heappush(sorted_buffer, _HeapItem(time, item))
+
+            if is_newest_item(time):
+                newest_time = time
+                drop_older_than = time - window_length
+
+                yield from emit_all(drop_older_than)
+
+    yield from emit_all(newest_time)</code></pre>
+</details>
+</dd>
+<dt id="bytewax.inputs.tumbling_epoch"><code class="language-python name flex">
+<span>def <span class="ident">tumbling_epoch</span></span>(<span>wrap_iter: Iterable, epoch_length: Any, time_getter: Callable[[Any], Any] = &lt;function &lt;lambda&gt;&gt;, epoch_start_time: Any = None, epoch_start: int = 0) ‑> Iterable[Tuple[int, Any]]</span>
+</code></dt>
+<dd>
+<div class="desc"><p>All inputs within a tumbling window are part of the same epoch.</p>
+<p>The time of the first item will be used as start of the 0
+epoch. Out-of-order items will cause issues as Bytewax requires
+inputs to dataflows to be in epoch order. See
+<code><a title="bytewax.inputs.fully_ordered" href="#bytewax.inputs.fully_ordered">fully_ordered()</a></code>.</p>
+<pre><code class="language-python-repl">&gt;&gt;&gt; from bytewax import Dataflow, run
+&gt;&gt;&gt; items = [
+...     {
+...         &quot;timestamp&quot;: datetime.datetime(2022, 2, 22, 1, 2, 3),
+...         &quot;value&quot;: &quot;a&quot;,
+...     },
+...     {
+...         &quot;timestamp&quot;: datetime.datetime(2022, 2, 22, 1, 2, 4),
+...         &quot;value&quot;: &quot;b&quot;,
+...     },
+...     {
+...         &quot;timestamp&quot;: datetime.datetime(2022, 2, 22, 1, 2, 8),
+...         &quot;value&quot;: &quot;c&quot;,
+...     },
+... ]
+&gt;&gt;&gt; flow = Dataflow()
+&gt;&gt;&gt; flow.map(lambda item: item[&quot;value&quot;])
+&gt;&gt;&gt; flow.capture()
+&gt;&gt;&gt; out = run(flow, tumbling_epoch(
+...     items,
+...     datetime.timedelta(seconds=2),
+...     lambda item: item[&quot;timestamp&quot;],
+... ))
+&gt;&gt;&gt; sorted(out)
+[(0, 'a'), (0, 'b'), (2, 'c')]
+</code></pre>
+<p>By default, uses "ingestion time" and you don't need to specify a
+way to access the timestamp in each item.</p>
+<pre><code class="language-python-repl">&gt;&gt;&gt; import pytest; pytest.skip(&quot;Figure out sleep in test.&quot;)
+&gt;&gt;&gt; items = [
+...     &quot;a&quot;, # sleep(4)
+...     &quot;b&quot;, # sleep(1)
+...     &quot;c&quot;,
+... ]
+&gt;&gt;&gt; list(tumbling_epoch(items, datetime.timedelta(seconds=2)))
+[(0, 'a'), (2, 'b'), (2, 'c')]
+</code></pre>
+<h2 id="args">Args</h2>
+<dl>
+<dt><strong><code>wrap_iter</code></strong></dt>
+<dd>Existing input iterable of just items.</dd>
+<dt><strong><code>epoch_length</code></strong></dt>
+<dd>Length of each epoch window.</dd>
+<dt><strong><code>time_getter</code></strong></dt>
+<dd>Function that returns a timestamp given an
+item. Defaults to current wall time.</dd>
+<dt><strong><code>epoch_start_time</code></strong></dt>
+<dd>The timestamp that should correspond to
+the start of the 0th epoch. Otherwise defaults to the time
+found on the first item.</dd>
+<dt><strong><code>epoch_start</code></strong></dt>
+<dd>The integer value to start counting epochs from.
+This can be used for continuity during processing.</dd>
+</dl>
+<h2 id="yields">Yields</h2>
+<p>Tuples of <code>(epoch, item)</code>.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre class="language-python line-numbers"><code class="language-python">def tumbling_epoch(
+    wrap_iter: Iterable,
+    epoch_length: Any,
+    time_getter: Callable[[Any], Any] = lambda _: datetime.datetime.now(),
+    epoch_start_time: Any = None,
+    epoch_start: int = 0,
+) -&gt; Iterable[Tuple[int, Any]]:
+    &#34;&#34;&#34;All inputs within a tumbling window are part of the same epoch.
+
+    The time of the first item will be used as start of the 0
+    epoch. Out-of-order items will cause issues as Bytewax requires
+    inputs to dataflows to be in epoch order. See
+    `bytewax.inputs.fully_ordered()`.
+
+    &gt;&gt;&gt; from bytewax import Dataflow, run
+    &gt;&gt;&gt; items = [
+    ...     {
+    ...         &#34;timestamp&#34;: datetime.datetime(2022, 2, 22, 1, 2, 3),
+    ...         &#34;value&#34;: &#34;a&#34;,
+    ...     },
+    ...     {
+    ...         &#34;timestamp&#34;: datetime.datetime(2022, 2, 22, 1, 2, 4),
+    ...         &#34;value&#34;: &#34;b&#34;,
+    ...     },
+    ...     {
+    ...         &#34;timestamp&#34;: datetime.datetime(2022, 2, 22, 1, 2, 8),
+    ...         &#34;value&#34;: &#34;c&#34;,
+    ...     },
+    ... ]
+    &gt;&gt;&gt; flow = Dataflow()
+    &gt;&gt;&gt; flow.map(lambda item: item[&#34;value&#34;])
+    &gt;&gt;&gt; flow.capture()
+    &gt;&gt;&gt; out = run(flow, tumbling_epoch(
+    ...     items,
+    ...     datetime.timedelta(seconds=2),
+    ...     lambda item: item[&#34;timestamp&#34;],
+    ... ))
+    &gt;&gt;&gt; sorted(out)
+    [(0, &#39;a&#39;), (0, &#39;b&#39;), (2, &#39;c&#39;)]
+
+    By default, uses &#34;ingestion time&#34; and you don&#39;t need to specify a
+    way to access the timestamp in each item.
+
+    &gt;&gt;&gt; import pytest; pytest.skip(&#34;Figure out sleep in test.&#34;)
+    &gt;&gt;&gt; items = [
+    ...     &#34;a&#34;, # sleep(4)
+    ...     &#34;b&#34;, # sleep(1)
+    ...     &#34;c&#34;,
+    ... ]
+    &gt;&gt;&gt; list(tumbling_epoch(items, datetime.timedelta(seconds=2)))
+    [(0, &#39;a&#39;), (2, &#39;b&#39;), (2, &#39;c&#39;)]
+
+    Args:
+
+        wrap_iter: Existing input iterable of just items.
+
+        epoch_length: Length of each epoch window.
+
+        time_getter: Function that returns a timestamp given an
+            item. Defaults to current wall time.
+
+        epoch_start_time: The timestamp that should correspond to
+            the start of the 0th epoch. Otherwise defaults to the time
+            found on the first item.
+
+        epoch_start: The integer value to start counting epochs from.
+            This can be used for continuity during processing.
+
+    Yields:
+
+        Tuples of `(epoch, item)`.
+
+    &#34;&#34;&#34;
+    for item in wrap_iter:
+        time = time_getter(item)
+
+        if epoch_start_time is None:
+            epoch_start_time = time
+            epoch = epoch_start
+        else:
+            epoch = int((time - epoch_start_time) / epoch_length) + epoch_start
+
+        yield (epoch, item)</code></pre>
+</details>
+</dd>
+<dt id="bytewax.inputs.yield_epochs"><code class="language-python name flex">
+<span>def <span class="ident">yield_epochs</span></span>(<span>fn: Callable)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>A decorator function to unwrap an iterator of [epoch, item]
+into successive <code>AdvanceTo</code> and <code>Emit</code> classes with the
+contents of the iterator.</p>
+<p>Use this when you have an input_builder function that returns
+a generator of (epoch, item) to be used with <code>cluster_main</code> or
+<code>spawn_cluster</code>:</p>
+<pre><code class="language-python-repl">&gt;&gt;&gt; from bytewax import Dataflow, cluster_main
+&gt;&gt;&gt; from bytewax.inputs import yield_epochs, fully_ordered
+&gt;&gt;&gt; flow = Dataflow()
+&gt;&gt;&gt; flow.capture()
+&gt;&gt;&gt; @yield_epochs
+... def input_builder(i, n):
+...   return fully_ordered([&quot;a&quot;, &quot;b&quot;, &quot;c&quot;])
+&gt;&gt;&gt; cluster_main(flow, input_builder, lambda i, n: print, [], 0, 1)
+(0, 'a')
+(1, 'b')
+(2, 'c')
+</code></pre></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre class="language-python line-numbers"><code class="language-python">def yield_epochs(fn: Callable):
+    &#34;&#34;&#34;A decorator function to unwrap an iterator of [epoch, item]
+    into successive `AdvanceTo` and `Emit` classes with the
+    contents of the iterator.
+
+    Use this when you have an input_builder function that returns
+    a generator of (epoch, item) to be used with `cluster_main` or
+    `spawn_cluster`:
+
+    &gt;&gt;&gt; from bytewax import Dataflow, cluster_main
+    &gt;&gt;&gt; from bytewax.inputs import yield_epochs, fully_ordered
+    &gt;&gt;&gt; flow = Dataflow()
+    &gt;&gt;&gt; flow.capture()
+    &gt;&gt;&gt; @yield_epochs
+    ... def input_builder(i, n):
+    ...   return fully_ordered([&#34;a&#34;, &#34;b&#34;, &#34;c&#34;])
+    &gt;&gt;&gt; cluster_main(flow, input_builder, lambda i, n: print, [], 0, 1)
+    (0, &#39;a&#39;)
+    (1, &#39;b&#39;)
+    (2, &#39;c&#39;)
+    &#34;&#34;&#34;
+
+    def inner_fn(worker_index, worker_count):
+        gen = fn(worker_index, worker_count)
+        for (epoch, item) in gen:
+            yield AdvanceTo(epoch)
+            yield Emit(item)
+
+    return inner_fn</code></pre>
+</details>
+</dd>
+</dl>
+</section>
+<section>
+</section>
+<footer class="api__footer" id="footer">
+<p class="api__footer-copyright">
+Generated by <a href="https://pdoc3.github.io/pdoc" title="pdoc: Python API documentation generator"><cite>pdoc</cite> 0.10.0</a>.
+</p>
+</footer>
+</article>
+<nav class="api__sidebar" id="sidebar">
+<ul class="api__sidebar-nav" id="index">
+<li class="api__sidebar-nav-item">
+<h3 class="api__sidebar-nav-title">Super-module</h3>
+<ul class="api__sidebar-nav-menu">
+<li class="api__sidebar-nav-menu-item">
+<a class="api__sidebar-nav-menu-link api-supermodule">
+bytewax
+</a>
+</li>
+</ul>
+</li>
+<li class="api__sidebar-nav-item">
+<h3 class="api__sidebar-nav-title"><a href="#header-functions">Functions</a></h3>
+<ul class="api__sidebar-nav-menu">
+<li class="api__sidebar-nav-menu-item"><a title="bytewax.inputs.fully_ordered" href="#bytewax.inputs.fully_ordered">fully_ordered</a></li>
+<li class="api__sidebar-nav-menu-item"><a title="bytewax.inputs.single_batch" href="#bytewax.inputs.single_batch">single_batch</a></li>
+<li class="api__sidebar-nav-menu-item"><a title="bytewax.inputs.sorted_window" href="#bytewax.inputs.sorted_window">sorted_window</a></li>
+<li class="api__sidebar-nav-menu-item"><a title="bytewax.inputs.tumbling_epoch" href="#bytewax.inputs.tumbling_epoch">tumbling_epoch</a></li>
+<li class="api__sidebar-nav-menu-item"><a title="bytewax.inputs.yield_epochs" href="#bytewax.inputs.yield_epochs">yield_epochs</a></li>
+</ul>
+</li>
+</ul>
+</nav>
+</main>
