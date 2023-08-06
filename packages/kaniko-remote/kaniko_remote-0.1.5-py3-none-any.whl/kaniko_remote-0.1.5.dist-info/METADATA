@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: kaniko-remote
+Version: 0.1.5
+Summary: Enable familiar `docker build` semantics using kaniko on k8s
+Home-page: https://github.com/JJ11teen/kaniko-remote
+Author: Lucas Sargent
+Author-email: me@lucas.fish
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/JJ11teen/kaniko-remote/issues
+Keywords: kaniko kubernetes k8s docker build images remote
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: asyncclick (>=8.0)
+Requires-Dist: anyio (>=3.5)
+Requires-Dist: ruamel.yaml (>=0.17)
+Requires-Dist: deflatable-dict (>=0.3)
+Requires-Dist: tqdm (>=4)
+Requires-Dist: kubernetes (>=22.6)
+Provides-Extra: docker-cli
+Provides-Extra: tests
+Requires-Dist: pytest (==6.2.4) ; extra == 'tests'
+
+# kaniko-remote
+Enable familiar `docker build` semantics using remote kaniko on k8s
+
+
