@@ -1,0 +1,6 @@
+[console_scripts]
+contour-console = contour:main
+contour-usage = contour.main:usage
+
+[gui_scripts]
+contour = contour:main
