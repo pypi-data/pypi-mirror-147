@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: dotbimpy
+Version: 0.0.7
+Summary: Python library for dotbim
+Home-page: https://github.com/paireks/dotbimpy
+Author: Wojciech
+Author-email: w.radaczynski@gmail.com
+License: MIT
+Download-URL: https://github.com/paireks/dotbimpy/archive/refs/tags/v_0_0_7.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
