@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: mysqler
+Version: 0.1.0
+Summary: mysql for human.
+License: MIT
+Author: tuna2134
+Author-email: masato.04.11.2007@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: aiomysql (>=0.1.0,<0.2.0)

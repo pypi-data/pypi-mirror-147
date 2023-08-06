@@ -1,0 +1,8 @@
+mysqler/__init__.py,sha256=K019Ngt-rwPN3Moq5DyLtG_HGvylxex3esdW-oUbtDc,102
+mysqler/mysql.py,sha256=rU_WvjOORpmluoGxcowK4dvPSY_qLXkz4oRuehDcrOQ,2099
+mysqler/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mysqler/table.py,sha256=g-vFpD7rBcQEyGiKZ1RrBn4ILK0ThpZPDOsHh3Sj0O0,3820
+mysqler-0.1.0.dist-info/LICENSE,sha256=c-uRJIwqXR4czj-kIjqUncismkiD5sjoglY5lpsvESM,1061
+mysqler-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+mysqler-0.1.0.dist-info/METADATA,sha256=cBFYPMwOOE0j4mI-MQaLmccgcGjjt50QDC9l2uNwApM,369
+mysqler-0.1.0.dist-info/RECORD,,
