@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ndraw</title>
+    <style>
+    </style>
+    <script>
+        templateJs
+    </script>
+    <script>
+        window.onload = function () {
+            let options = {
+                "flow": "flowValue",
+                'link-width-offset': 0,
+                'link-start-offsetx': 0,
+                'link-start-offsety': 0,
+                'link-end-offsety': 0,
+                'link-color': '#666666',
+                'node-distance-offsetx': nodeDistanceX,
+                'node-distance-offsety': nodeDistanceY,
+            };
+            let metricFlow = MetricFlow("graph", options);
+            nodesText
+            ;
+            let nodes = nodesList;
+            if (options['flow'] == 'vertical') {
+                nodes[0]['x'] = window.screen.width / 2 - 100;
+                nodes[0]['y'] = 10;
+            } else {
+                nodes[0]['x'] = 10;
+                nodes[0]['y'] = window.screen.height / 2 - 100;
+            }
+            nodes[0]['children'] = [];
+            let topList = [];
+            let relations = [];
+            for (let i = 1; i < nodes.length; i++) {
+                let node = nodes[i];
+                node['children'] = [];
+                if (node.hasOwnProperty('from') == false || node['from'] == null) {
+                    if (options['flow'] == 'vertical') {
+                        node['x'] = nodes[0]['x'] - 200;
+                        node['y'] = nodes[0]['y'] + 100 * i;
+                        topList.push(node);
+                    } else {
+                        node['x'] = nodes[0]['x'] +200*i;
+                        node['y'] = nodes[0]['y'] -200;
+                        topList.push(node);
+                    }
+                    continue;
+                }
+                let fromDatas = node['from'];
+                if (fromDatas instanceof Array) {
+                    for (let fi = 0; fi < fromDatas.length; fi++) {
+                        let fromIndex = findFromIndex(fromDatas[fi], nodes, i);
+                        nodes[fromIndex]['children'].push(node);
+                        relations.push([fromDatas[fi],node['id']]);
+                    }
+                } else {
+                    let fromIndex = findFromIndex(fromDatas, nodes, i);
+                    nodes[fromIndex]['children'].push(node);
+                     relations.push([fromDatas,node['id']]);
+                }
+            }
+
+            let bodyWidth = nodes.length * 10;
+            if (options['flow'] == 'vertical') {
+                document.getElementById("graph").setAttribute("height", 200 * bodyWidth + 500 + "px")
+                document.getElementById("graph-graph").setAttribute("height", 200 * bodyWidth + 500 + "px")
+            } else {
+                document.getElementById("graph").setAttribute("width", 500 * bodyWidth + 500 + "px")
+                document.getElementById("graph-graph").setAttribute("width", 500 * bodyWidth + 500 + "px")
+
+            }
+            metricFlow.createNodes(nodes);
+            for (let i = 0; i < topList.length; i++) {
+                let top = topList[i];
+                let topDom = metricFlow.createNode(top);
+                if (top.hasOwnProperty("children") && top['children'] != null) {
+                    for (let j = 0; j < top['children'].length; j++) {
+                        let childDom = metricFlow.createNode(top['children'][j]);
+                        metricFlow.createLink(topDom, childDom);
+                    }
+                }
+            }
+
+             for (let i = 0; i < relations.length; i++) {
+                 [sourceId,targetId] = relations[i];
+                 metricFlow.createLink(document.getElementById(sourceId), document.getElementById(targetId));
+             }
+        }
+
+
+        function findFromIndex(fromId, nodes, i) {
+            if (fromId != nodes[i - 1]['id']) {
+                if ((i - 1) > 0) {
+                    return findFromIndex(fromId, nodes, i - 1)
+                }
+            } else {
+                return i - 1
+            }
+        }
+    </script>
+</head>
+<body>
+<div id="graph" height="700px" width="1100px">
+</div>
+</body>
+</html>
