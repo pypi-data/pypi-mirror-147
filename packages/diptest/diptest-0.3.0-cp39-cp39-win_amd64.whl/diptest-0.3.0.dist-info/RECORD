@@ -1,0 +1,11 @@
+diptest/__init__.py,sha256=jU8G2sHjuSyrvOu7KMe5MZfqZzCkoGvatUJdxr1cack,163
+diptest/dip_crit.txt,sha256=SEAqO-stNUoQfjoGIAiO-UUx80B_v2R398vIqlvX7Ws,10070
+diptest/diptest.py,sha256=w2eU1wr9kJJi_2sWOIylEX3Fem7K2tV8xDMq1nWswz4,6862
+diptest/version.py,sha256=OjPYbB5TO-brS9xqGEmXBVYvPA9Tsmvvgct1ZxDeeYE,135
+diptest/lib/_diptest.cp39-win_amd64.pyd,sha256=kJHY26qi4aqPZi42wEmlFO7sjtyjNVJuwLJiRyerXII,134656
+diptest-0.3.0.dist-info/COPYING,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+diptest-0.3.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+diptest-0.3.0.dist-info/METADATA,sha256=i15RBZLTiRxFobfe_Cjd9uHNnlA0A6EfuAlGsZNcp1k,5338
+diptest-0.3.0.dist-info/WHEEL,sha256=w7c8R8EBcsIfULD7fwodEARLixQaQPkGy-B0R6IiyK8,94
+diptest-0.3.0.dist-info/top_level.txt,sha256=kzI_kmPya5kNoZW8ysiepKsD4grmgopsMSAIkKPGEZo,8
+diptest-0.3.0.dist-info/RECORD,,
