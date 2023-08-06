@@ -1,0 +1,10 @@
+README.md
+setup.py
+DirectoryFormulas/Directories.py
+DirectoryFormulas/FunctionsBacktesting.py
+DirectoryFormulas/FunctionsOPT.py
+DirectoryFormulas/__init__.py
+DirectoryFormulas.egg-info/PKG-INFO
+DirectoryFormulas.egg-info/SOURCES.txt
+DirectoryFormulas.egg-info/dependency_links.txt
+DirectoryFormulas.egg-info/top_level.txt
