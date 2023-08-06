@@ -1,0 +1,9 @@
+autopool/__init__.py,sha256=AFw78eB0X8lJv7rEqm1LuvHr8RVqRoWeXe1OL40ekY8,141
+autopool/keras.py,sha256=pyQNG95ZSetrAhG7sGoQYb8sOq2CpcdEToIxcUy9ccs,3977
+autopool/tf.py,sha256=yBzbiK1Q54p1J9qTM7IaWJ88x-zjSRJccumUjBPdqNc,4054
+autopool/version.py,sha256=IqFVZRx6NYSNlIppCOA9n0Z3w7kLeOzlpDyls5_4_jI,108
+autopool-0.2.0.dist-info/LICENSE.md,sha256=SmmQmz8H39eVNizfdHd_kfUMHSIibBtkp3gqgw_O0VE,1068
+autopool-0.2.0.dist-info/METADATA,sha256=arw6kvupesVojDd44dboYkVsOzCEjabe1Zm0QxptBEw,6239
+autopool-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+autopool-0.2.0.dist-info/top_level.txt,sha256=fZd_ECQ63qjCe_bNdSCWIuAGk0WhKc_dZtaA6EXftqQ,9
+autopool-0.2.0.dist-info/RECORD,,
