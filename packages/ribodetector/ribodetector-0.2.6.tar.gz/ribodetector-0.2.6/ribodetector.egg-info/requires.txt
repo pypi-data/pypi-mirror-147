@@ -1,0 +1,5 @@
+pandas
+tqdm
+numpy
+biopython
+onnxruntime>=1.10.0
