@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: awesome-minio
+Version: 1.0.3
+Summary: minio wrapper to perform task like pandas dataframe upload, download
+Home-page: https://github.com/MoBagel/awesome-minio
+License: Apache-2.0
+Author: Schwannden Kuo
+Author-email: schwannden@mobagel.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Internet
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: minio (>=7.1.1,<8.0.0)
+Requires-Dist: pandas (>=1.4.1,<2.0.0)
+Requires-Dist: starlette (==0.16.0)
+Description-Content-Type: text/markdown
+
+[![Stable Version](https://badge.fury.io/py/awesome-minio.svg)](https://pypi.org/project/awesome-minio/)
+[![tests](https://github.com/MoBagel/awesome-minio/workflows/develop/badge.svg)](https://github.com/MoBagel/awesome-minio)
+[![Coverage Status](https://coveralls.io/repos/github/MoBagel/awesome-minio/badge.svg?branch=develop)](https://coveralls.io/github/MoBagel/awesome-minio)
+
+# Awesome Minio
+
+A library that extends minio python client to perform more complex task like read/write pandas DataFrame, json file, ...etc
+
+# Feature
+* list_buckets: list all buckets.
+* list_objects: list object under a prefix.
+* put_as_json: put a dict as json file on s3.
+* exists: check if an object exist on s3.
+* remove_dir: remove a directory on s3.
+* upload_df: Upload df as csv to s3.
+* get_json: Get as dict from a json file on s3.
+* get_df: Get a dataframe from a csv object on s3.
+* remove_objects: Remove objects.
+* download: Downloads data of an object to file.
+
