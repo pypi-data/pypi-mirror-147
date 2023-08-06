@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: cosmotech-api
+Version: 1.2.1
+Summary: Cosmo Tech Plaform API
+Home-page: 
+Author: Repository
+Author-email: platform@cosmotech.com
+License: MIT License
+Keywords: OpenAPI,OpenAPI-Generator,Cosmo Tech Plaform API
+Platform: UNKNOWN
+Requires-Python: >=3.6
+License-File: LICENSE
+
+    Cosmo Tech Platform API  # noqa: E501
+    
+
