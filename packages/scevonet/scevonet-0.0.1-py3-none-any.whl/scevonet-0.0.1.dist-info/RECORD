@@ -1,0 +1,8 @@
+scevonet/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scevonet/net.py,sha256=VZTmpI5IWpLNEzRCfU1SNIpLUjCqNYSDAKFXBMdpjFY,6143
+scevonet/utils.py,sha256=98qodlRiIL04ieLrD1-eeZqrfblonbGyAX8ntSxl-7E,665
+scevonet-0.0.1.dist-info/LICENSE,sha256=l1X3fuMGpjcLEKmZGbwgU3-W3oySgg5jNuztbpZRN4U,1062
+scevonet-0.0.1.dist-info/METADATA,sha256=OhPZNOYtf6nVih3nThG_ceWUH2msimFTK7VgYEqr3As,886
+scevonet-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+scevonet-0.0.1.dist-info/top_level.txt,sha256=BcpjmUjoAQ0S4ukuUJc3hzRYxrbw1J0B0aGt46NRgps,9
+scevonet-0.0.1.dist-info/RECORD,,
