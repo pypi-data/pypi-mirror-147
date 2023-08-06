@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "rgov"
+version = "0.6.8.1"
+description = "Check if campgrounds have availability on Recreation.gov"
+authors = ["Jordan Sweet <hello@jordandsweet.com>"]
+license = "GPL-3.0-only"
+readme = "README.md"
+include = ["data/rgov.db"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+cleo = "^0.8.1"
+fake-useragent = "^0.1.11"
+python-daemon = "^2.3.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+
+[tool.poetry.scripts]
+rgov = "rgov.application:main"
+
+[build-system]
+requires = ["setuptools", "poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
