@@ -1,0 +1,7 @@
+README.md
+setup.py
+difflogic.egg-info/PKG-INFO
+difflogic.egg-info/SOURCES.txt
+difflogic.egg-info/dependency_links.txt
+difflogic.egg-info/requires.txt
+difflogic.egg-info/top_level.txt
