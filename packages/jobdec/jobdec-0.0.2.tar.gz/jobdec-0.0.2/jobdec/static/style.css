@@ -1,0 +1,67 @@
+// Two super simple
+
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
+svg *{
+  transform-box: fill-box;
+  transform-origin: center center;
+}
+& > svg{
+  max-width: 100%;
+  height: auto;
+}
+
+
+.job.pending .progress-circle {
+	 display: none;
+}
+.job.pending .succeeded{
+	 display: none;
+}
+.job.pending .failed{
+	 display: none;
+}
+
+.job.running .progress-circle {
+	 stroke-dasharray: 25 100;
+	 animation: spin 2s linear infinite;
+}
+.job.running .succeeded{
+	 display: none;
+}
+.job.running .failed{
+	 display: none;
+}
+
+.job.succeeded .progress-circle {
+	 display: none;
+}
+.job.succeeded .failed{
+	 display: none;
+}
+
+.job.failed .progress-circle {
+	 display: none;
+}
+.job.failed .succeeded{
+	 display: none;
+}
+
+
+.job.killed .progress-circle {
+	 display: none;
+}
+.job.killed .succeeded{
+	 display: none;
+}

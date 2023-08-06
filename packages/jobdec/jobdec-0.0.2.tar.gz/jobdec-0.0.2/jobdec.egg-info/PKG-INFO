@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: jobdec
+Version: 0.0.2
+Summary: Creates and runs scheduled jobs from Python functions
+Home-page: http://pypi.python.org/pypi/jobdec/
+Author: Gareth Williams
+Author-email: gareth.m.j.williams@gmail.com
+License: LICENCE.txt
+Platform: UNKNOWN
+License-File: LICENCE.txt
+
+
+## JobDec
+
