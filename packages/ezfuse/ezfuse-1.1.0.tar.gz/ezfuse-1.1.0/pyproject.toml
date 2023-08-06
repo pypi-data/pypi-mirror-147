@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "ezfuse"
+version = "1.1.0"
+description = "Quickly mount fuse filesystems in temporary directories"
+authors = ["Sébastien MB <seb@essembeh.org>"]
+license = "Apache-2.0"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: Apache Software License",
+    "Topic :: Utilities"
+]
+readme = "README.md"
+homepage = "https://github.com/essembeh/ezfuse"
+
+
+[tool.poetry.dependencies]
+python = "^3.8"
+colorama = ""
+
+
+[tool.poetry.dev-dependencies]
+black = ""
+pylint = ""
+pytest = ""
+pytest-dotenv = ""
+pytest-cov = ""
+rope = ""
+
+[tool.poetry.scripts]
+ezfuse = 'ezfuse.cli:run'
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
