@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pypedrive-async
+Version: 0.2.7
+Summary: Asyncio/aiohttp based library for interacting with the Pipedrive API.
+Home-page: UNKNOWN
+Author: Austin Howard
+Author-email: austin@tangibleintelligence.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >3.6.1
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp[speedups] (<4,>=3.8)
+Requires-Dist: pydantic[email] (<2,>=1.7.3)
+
+[![Build Status](https://cloud.drone.io/api/badges/tangibleintelligence/pypedrive-api/status.svg)](https://cloud.drone.io/tangibleintelligence/pypedrive-api)
+
+# pypedrive-async
+
+Asyncio/aiohttp based library for interacting with the [Pipedrive API](https://developers.pipedrive.com/docs/api/v1).
+
+
