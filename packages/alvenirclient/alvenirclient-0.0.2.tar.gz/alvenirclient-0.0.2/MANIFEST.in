@@ -1,0 +1,4 @@
+include README.md
+include LICENCE
+include requirements.txt
+include alvenirclient/cert/public_key.crt

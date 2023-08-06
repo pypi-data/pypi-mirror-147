@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+alvenirclient/__init__.py
+alvenirclient/audio_pb2.py
+alvenirclient/audio_pb2_grpc.py
+alvenirclient/client.py
+alvenirclient/handle_full_document.py
+alvenirclient/response_wrapper.py
+alvenirclient.egg-info/PKG-INFO
+alvenirclient.egg-info/SOURCES.txt
+alvenirclient.egg-info/dependency_links.txt
+alvenirclient.egg-info/requires.txt
+alvenirclient.egg-info/top_level.txt
+alvenirclient/cert/public_key.crt
