@@ -1,0 +1,4 @@
+include README.md
+include History.md
+recursive-include cmsplugin_gallery/locale *
+recursive-include cmsplugin_gallery/templates *
