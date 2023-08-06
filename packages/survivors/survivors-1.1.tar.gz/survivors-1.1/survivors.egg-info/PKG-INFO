@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: survivors
+Version: 1.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Iulii Vasilev
+Author-email: iuliivasilev@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+
+#### РЈСЃС‚Р°РЅРѕРІРєР° С‡РµСЂРµР· setup
+python setup.py install
+
+#### РЈСЃС‚Р°РЅРѕРІРєР° С‡РµСЂРµР· tar.gz
+python setup.py sdist
+pip install dist/scsurvivors-1.0.tar.gz
+
+#### РЈРґР°Р»РµРЅРёРµ
+pip uninstall scsurvivors
+
