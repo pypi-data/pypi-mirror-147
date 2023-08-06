@@ -1,0 +1,10 @@
+jax_nca/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jax_nca/dataset.py,sha256=oOE2j1uX2MAa84HZrLuZDjzCw9Z9axI3SpY5DQcmQs4,1051
+jax_nca/nca.py,sha256=bvZmNlGTXtJct6ikCqW6ozo_EuQh-spco1d5K3eVoHU,6343
+jax_nca/trainer.py,sha256=5oZFUy_iOvzdmf5uFKRCaTz3N8MF-2A-jY1CjTqJvKI,7155
+jax_nca/utils.py,sha256=2if64gVuHmntXvMfcl7JEap-NiXdGe8DaMd4li74z-k,1110
+jax_nca-0.1.2.dist-info/LICENSE,sha256=urSlEICHpZRspHx5PM67DhqO_cRvR-dv4qwxLyFzEnk,1082
+jax_nca-0.1.2.dist-info/METADATA,sha256=KWIxOWdX47VBHoQabWPgdhZ1aBx6C1SFK_-SCy8C5Zg,5267
+jax_nca-0.1.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+jax_nca-0.1.2.dist-info/top_level.txt,sha256=YKSm3Z13gzy27CbKp48j93nk1UOmmNoj-nNKvXr2A3Q,8
+jax_nca-0.1.2.dist-info/RECORD,,
