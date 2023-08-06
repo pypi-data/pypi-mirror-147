@@ -1,0 +1,18 @@
+# - install
+# - test
+# - watch
+# - release
+# - dev
+
+install:
+    - $ pip install -r requirements.txt
+    - $ ymm --version
+
+test:
+    - $ python3 -m pytest
+
+watch:
+    - Use `ptw --onpass "say passed" --onfail "say failed"`
+
+ymm:
+    - $ pip install --upgrade ymm

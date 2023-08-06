@@ -1,0 +1,34 @@
+# - install
+# - test
+# - watch
+# - release
+# - dev
+init:
+  KEY: value
+  DICT:
+    A: B
+    C: D
+
+install:
+    - install test
+
+call:
+    - . echo
+
+echo:
+    RESULT: $ echo {DICT}
+
+python:
+    - _ 2 + 2
+
+pvar:
+    IN: 2 + 2
+    OUT: _ {IN}
+
+pipe:
+    IN: "Hello"
+    OUT: ^ xargs
+
+path:
+    IN: "{DICT}"
+    OUT: ~ A
