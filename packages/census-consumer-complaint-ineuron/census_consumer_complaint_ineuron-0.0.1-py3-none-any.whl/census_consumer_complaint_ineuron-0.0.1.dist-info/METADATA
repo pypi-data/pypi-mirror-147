@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: census-consumer-complaint-ineuron
+Version: 0.0.1
+Summary: Project has been completed.
+Author: kaushal
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: tfx (==1.6.1)
+Requires-Dist: apache-beam[interactive]
+Requires-Dist: apache-airflow
+
+UNKNOWN
+
