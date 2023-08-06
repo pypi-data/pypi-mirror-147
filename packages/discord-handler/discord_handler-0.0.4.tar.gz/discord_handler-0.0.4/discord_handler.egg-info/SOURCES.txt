@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+discord_handler/DiscordHandler.py
+discord_handler/__init__.py
+discord_handler.egg-info/PKG-INFO
+discord_handler.egg-info/SOURCES.txt
+discord_handler.egg-info/dependency_links.txt
+discord_handler.egg-info/requires.txt
+discord_handler.egg-info/top_level.txt
