@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+Rimma/__init__.py
+Rimma.egg-info/PKG-INFO
+Rimma.egg-info/SOURCES.txt
+Rimma.egg-info/dependency_links.txt
+Rimma.egg-info/top_level.txt
