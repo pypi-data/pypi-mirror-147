@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+my_best_python_project/__init__.py
+my_best_python_project/main.py
+my_best_python_project.egg-info/PKG-INFO
+my_best_python_project.egg-info/SOURCES.txt
+my_best_python_project.egg-info/dependency_links.txt
+my_best_python_project.egg-info/entry_points.txt
+my_best_python_project.egg-info/requires.txt
+my_best_python_project.egg-info/top_level.txt
