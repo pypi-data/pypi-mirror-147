@@ -1,0 +1,12 @@
+include MANIFEST.in
+include setup.py
+include CMakeLists.txt
+include README.md
+include LICENSE
+include pyproject.toml
+include rapidfuzz/*.pyi
+include rapidfuzz/**/*.pyi
+include rapidfuzz/py.typed
+
+recursive-include rapidfuzz CMakeLists.txt
+recursive-include rapidfuzz *.hpp *.h *.cpp *.cxx *.pyx *.pxd
