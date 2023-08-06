@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+versioneer.py
+ytad/_version.py
+ytad/ytad.egg-info/PKG-INFO
+ytad/ytad.egg-info/SOURCES.txt
+ytad/ytad.egg-info/dependency_links.txt
+ytad/ytad.egg-info/entry_points.txt
+ytad/ytad.egg-info/requires.txt
+ytad/ytad.egg-info/top_level.txt
