@@ -1,0 +1,17 @@
+beautifulsoup4
+dropbox
+feedparser
+gitpython
+oauth2client
+google_api_python_client
+humanfriendly
+humanize
+lxml
+pillow
+PyPDF2
+python_dateutil
+python_twitter
+requests
+six
+tzlocal
+sornobase
