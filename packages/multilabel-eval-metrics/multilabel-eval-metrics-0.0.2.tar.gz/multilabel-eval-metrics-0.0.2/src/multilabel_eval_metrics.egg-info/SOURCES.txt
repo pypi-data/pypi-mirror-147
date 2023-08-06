@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/multilabel_eval_metrics/__init__.py
+src/multilabel_eval_metrics/multilabel_metrics.py
+src/multilabel_eval_metrics.egg-info/PKG-INFO
+src/multilabel_eval_metrics.egg-info/SOURCES.txt
+src/multilabel_eval_metrics.egg-info/dependency_links.txt
+src/multilabel_eval_metrics.egg-info/requires.txt
+src/multilabel_eval_metrics.egg-info/top_level.txt
+src/multilabel_eval_metrics/__pycache__/__init__.cpython-36.pyc
+src/multilabel_eval_metrics/__pycache__/multilabel_metrics.cpython-36.pyc
