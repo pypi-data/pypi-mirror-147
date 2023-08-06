@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: gloce
+Version: 1.2
+Summary: A package for global change ecology studies
+Home-page: https://github.com/zhu3210/gloce
+Author: Lei Zhu
+Author-email: 945329500@qq.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/zhu3210/gloce
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# python-pakeage-gloce
+This packeage save some useful functions for global chenge ecology researchers
+
+
