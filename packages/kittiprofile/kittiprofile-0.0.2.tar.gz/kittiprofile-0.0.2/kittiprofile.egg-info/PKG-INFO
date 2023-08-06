@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: kittiprofile
+Version: 0.0.2
+Summary: Kitti Profile by kittiislearningpython
+Home-page: https://github.com/kittiislearningpython/KittiProfile
+Author: Kittirot Pannukul
+Author-email: kittirot.pn@gmail.com
+License: MIT
+Download-URL: https://github.com/kittiislearningpython/KittiProfile/archive/v0.0.2.zip
+Keywords: Kitti,Profile,Kittirot Pannukul
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE.txt
+
+(Kitti Profile) เป็นตัวอย่างการอัพโหลด Package ไปยัง pypi.org
+=============================================================
+
+PyPi: https://pypi.org/project/kittiprofile/
+
+เป็น Package ที่อธิบาย Profile ส่วนตัว
+
+วิธีติดตั้ง
+~~~~~~~~~~~
+
+เปิด CMD / Terminal
+
+.. code:: python
+
+   pip install kittiprofile
+
+วิธีใช้งานแพ็คเพจนี้
+~~~~~~~~~~~~~~~~~~~~
+
+-  เปิด IDLE ขึ้นมาแล้วพิมพ์…
+
+.. code:: python
+
+   my = Profile('Kong')
+   my.company = 'PSU'
+   my.hobby = ['Fishing ','Running','Sleeping']
+   print(my.name)
+   my.show_email()
+   my.show_myart()
+   my.show_hobby()
+   my.show_gandalf()
+
+
+
