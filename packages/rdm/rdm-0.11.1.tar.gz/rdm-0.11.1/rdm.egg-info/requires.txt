@@ -1,0 +1,16 @@
+jinja2>=2.7
+pyyaml
+gitpython
+
+[dev]
+pytest
+flake8
+check-manifest
+sphinx
+sphinx-autobuild
+mock
+docutils
+coverage
+
+[github]
+pygithub
