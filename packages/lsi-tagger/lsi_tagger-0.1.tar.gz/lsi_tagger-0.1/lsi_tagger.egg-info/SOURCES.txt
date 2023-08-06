@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+lsi_tagger/__init__.py
+lsi_tagger/tag_extractor.py
+lsi_tagger/text_cleaner.py
+lsi_tagger.egg-info/PKG-INFO
+lsi_tagger.egg-info/SOURCES.txt
+lsi_tagger.egg-info/dependency_links.txt
+lsi_tagger.egg-info/requires.txt
+lsi_tagger.egg-info/top_level.txt
+lsi_tagger/tests/__init__.py
+lsi_tagger/tests/test_tag_extractor.py
+lsi_tagger/tests/test_text_cleaner.py

@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: lsi_tagger
+Version: 0.1
+Summary: LSI based, pairwise tag extraction intended for e-commerce product descriptions.
+Home-page: https://github.com/dpalbrecht/lsi-tagger
+Author: David Albrecht
+Author-email: davidpabloalbrecht@gmail.com
+License: MIT
+Keywords: nlp,e-commerce,keyword-extraction,latent-semantic-indexing
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
