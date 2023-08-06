@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+packdrade/__init__.py
+packdrade/pack_data.py
+packdrade.egg-info/PKG-INFO
+packdrade.egg-info/SOURCES.txt
+packdrade.egg-info/dependency_links.txt
+packdrade.egg-info/top_level.txt
