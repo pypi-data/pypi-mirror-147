@@ -1,0 +1,58 @@
+[build-system]
+requires = ["setuptools>=42"]
+build-backend = "setuptools.build_meta"
+
+[project]
+dynamic = ["version"]
+name = "skelly"
+description = "Generate a project skeleton"
+readme = "README.rst"
+requires-python = ">=3.7"
+license = {file = "LICENSE"}
+keywords = ["code generator", "skeleton", "stub", "template"]
+authors = [
+    {name = "Narvin Singh", email = "Narvin.A.Singh@gmail.com"}
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+dependencies = [
+  "importlib_metadata; python_version<'3.8'"
+]
+
+[project.urls]
+Homepage = "https://gitlab.com/narvin/skelly"
+Repository = "https://gitlab.com/narvin/skelly"
+"Bug Tracker" = "https://gitlab.com/narvin/skelly/-/issues"
+
+[project.scripts]
+skelly = "skelly.main:main"
+
+[project.entry-points."skelly.builders"]
+default = "builder_python.builder:PythonBuilder"
+python = "builder_python.builder:PythonBuilder"
+
+[tool.setuptools]
+package-data = {"*" = ["py.typed"], "builder_python" = ["template.tar"]}
+
+[tool.setuptools.dynamic]
+version = {attr = "skelly.__version__"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.mypy]
+strict = true
+
+[tool.tox]
+legacy_tox_ini = """
+[tox]
+isolated_build = True
+envlist = py3{7,8,9,10}
+
+[testenv]
+deps = pytest
+commands = pytest tests
+"""
