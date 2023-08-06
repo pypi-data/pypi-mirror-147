@@ -1,0 +1,12 @@
+pymemeru/__init__.py,sha256=tAE4HsS5ibOyz7cf0maAZYvAcsYELuZ6ryeLP2karjo,146
+pymemeru/aioget.py,sha256=YbaLEkREAF2Drab5KNZ0zFr63PlEsFfQTEijKk5pSPM,195
+pymemeru/models/__init__.py,sha256=uctQBxuUm2OrNh6nL05uf7Ib3-3LUrBdEaKCdsaoPiI,74
+pymemeru/models/page.py,sha256=YZOVnikEMgGf99_ZJ6rPxxg_ITim0n0a8ezXed6BiQs,1457
+pymemeru/models/search.py,sha256=2wfModhJByW8sa79ouA1o03PWbDnLLTRq_rfm3xvin0,153
+pymemeru/page.py,sha256=9-Jc_YXVUCLTb0dqCne4sDhH93WOkBpRa2DoTtn5JXE,1607
+pymemeru/popular.py,sha256=IHtN_83e_5FXDGIUgBlkwzNP73JixTXPiXMk1x3FfxQ,710
+pymemeru/search.py,sha256=LGKy0rrQgCgR2zV5TtTrxNXAvOWS5hx51uAzboQLmgM,646
+pymemeru-0.2.0.dist-info/LICENSE,sha256=UpNppwILUzJAjdtGyPiT-pMqLTlBb9yjGXiaYnceZeQ,1072
+pymemeru-0.2.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+pymemeru-0.2.0.dist-info/METADATA,sha256=31kSzki5IEHCxANCitqL2x3aOVlvU5NR93nY45KbIbE,657
+pymemeru-0.2.0.dist-info/RECORD,,
