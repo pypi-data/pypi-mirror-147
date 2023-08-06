@@ -1,0 +1,15 @@
+argparse
+art
+base64
+bs4
+datetime
+datetime
+gtts
+mutagen
+pygame
+python-dotenv
+requests
+requests
+speech_recognition
+webbrowser
+wikipedia
