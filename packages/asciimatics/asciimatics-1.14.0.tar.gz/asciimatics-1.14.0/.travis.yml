@@ -1,0 +1,64 @@
+---
+
+sudo: false
+
+language: python
+
+env:
+  global:
+    COVERALLS_PARALLEL=true
+
+matrix:
+  fast_finish: true
+  include:
+    - name: "2.7 Linux"
+      env: BUILD=test FORCE_TTY=Y
+      python: '2.7'
+      script: ./noserun.sh
+    - name: "3.5 Linux"
+      env: BUILD=test FORCE_TTY=Y
+      python: '3.5'
+      script: ./noserun.sh
+    - name: "3.6 Linux"
+      env: BUILD=test FORCE_TTY=Y
+      python: '3.6'
+      script: ./noserun.sh
+    - name: "3.7 Linux"
+      env: BUILD=test FORCE_TTY=Y
+      python: '3.7.13'
+      script: ./noserun.sh
+    - name: "pypy Linux"
+      env: BUILD=test FORCE_TTY=Y
+      python: 'pypy'
+      script: ./noserun.sh
+    - name: "3.8 Windows"
+      os: windows
+      language: shell       # 'language: python' is an error on Travis CI Windows
+      before_install:
+         - choco install python --version 3.8.9
+         - python -m pip install --upgrade pip
+         - python -m pip install pywin32
+      env: PATH=/c/Python38:/c/Python38/Scripts:$PATH BUILD=test FORCE_TTY=Y
+      script: ./noserun.bat
+    - name: "Docs"
+      env: BUILD=docs
+      python: '3.6'
+      script: ./builddocs.sh
+
+install:
+  - pip list
+  - pip install -U setuptools
+  - pip install -r requirements/dev.txt
+
+after_success:
+  - |
+    set -ex
+    case "$BUILD" in
+      test)
+        coveralls
+        ;;
+    esac
+    set +ex
+
+notifications:
+  webhooks: https://coveralls.io/webhook
