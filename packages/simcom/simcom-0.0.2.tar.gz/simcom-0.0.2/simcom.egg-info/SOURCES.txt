@@ -1,0 +1,9 @@
+LICENSE
+README.rst
+setup.py
+simcom/__init__.py
+simcom.egg-info/PKG-INFO
+simcom.egg-info/SOURCES.txt
+simcom.egg-info/dependency_links.txt
+simcom.egg-info/requires.txt
+simcom.egg-info/top_level.txt
