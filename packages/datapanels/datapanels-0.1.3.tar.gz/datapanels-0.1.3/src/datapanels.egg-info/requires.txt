@@ -1,0 +1,5 @@
+kivy==2.0.0
+kwidgets>=0.1.2
+kivy_garden.graph
+yfinance
+pyowm
