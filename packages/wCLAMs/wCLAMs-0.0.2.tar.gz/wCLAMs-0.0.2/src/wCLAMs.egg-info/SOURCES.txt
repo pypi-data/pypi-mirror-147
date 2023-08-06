@@ -1,0 +1,9 @@
+LICENCE
+README.md
+pyproject.toml
+setup.cfg
+src/wCLAMs.egg-info/PKG-INFO
+src/wCLAMs.egg-info/SOURCES.txt
+src/wCLAMs.egg-info/dependency_links.txt
+src/wCLAMs.egg-info/requires.txt
+src/wCLAMs.egg-info/top_level.txt
