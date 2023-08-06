@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+milksnake/__init__.py
+milksnake/_compat.py
+milksnake/ffi.py
+milksnake/setuptools_ext.py
+milksnakex.egg-info/PKG-INFO
+milksnakex.egg-info/SOURCES.txt
+milksnakex.egg-info/dependency_links.txt
+milksnakex.egg-info/entry_points.txt
+milksnakex.egg-info/not-zip-safe
+milksnakex.egg-info/requires.txt
+milksnakex.egg-info/top_level.txt
