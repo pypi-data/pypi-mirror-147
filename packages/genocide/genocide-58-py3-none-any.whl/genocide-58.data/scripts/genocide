@@ -1,0 +1,55 @@
+#!python
+# This file is placed in the Public Domain.
+
+
+"modules bot"
+
+
+import os
+import readline
+
+
+from obj import Object, get, keys, update
+
+
+from obj.dbs import Class, Config, Db, find, fntime, last, save
+from obj.fnc import edit, format, register
+
+
+from run.cbs import Callbacks
+from run.cmd import Commands, dispatch
+from run.shl import Shell
+
+
+from exc.dmn import cprint
+from exc.scn import init, introspect, scan
+from exc.wrp import wrap
+from exc.utl import wait
+
+
+Config.name = "genocide"
+Config.workdir = os.path.expanduser("~/.genocide")
+
+
+class Console(Shell):
+
+    def raw(self, txt):
+        cprint(txt)
+
+
+def cmd(event):
+    event.reply(",".join(sorted(Commands.cmd)))
+
+
+Commands.add(cmd)
+
+
+def main():
+    Callbacks.add("command", dispatch)
+    scan("genocide")
+    c = Console()
+    c.start()
+    wait()
+
+
+wrap(main)
