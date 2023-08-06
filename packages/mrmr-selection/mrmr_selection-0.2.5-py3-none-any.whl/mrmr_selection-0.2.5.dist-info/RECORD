@@ -1,0 +1,10 @@
+mrmr/__init__.py,sha256=VDvlkryJDD7tCvQi_1vtnXW4skV4yU455mPyTqr7VwM,170
+mrmr/bigquery.py,sha256=chrRFmUOKZsDQK0JEbtrlMwuLjRgJrtJF6obCtocEYo,12053
+mrmr/main.py,sha256=X7UWDLL_2cHUEdRc-XBxm4MZ52cS6JkFViz28nPLBnU,5755
+mrmr/pandas.py,sha256=Gba1oM0-Tenc5mLODj8ZXUwtNVOVbUsl9nRqbJohbyI,11095
+mrmr/spark.py,sha256=pV3McNR4EhdKO2G_mj3zVEdJBEJS1C2MQA7q-Wu2xnY,8402
+mrmr_selection-0.2.5.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+mrmr_selection-0.2.5.dist-info/METADATA,sha256=CMFfGCQAa07z5kCGUjKI_5W-JIjKMdN2q33L9NnWRXw,5971
+mrmr_selection-0.2.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mrmr_selection-0.2.5.dist-info/top_level.txt,sha256=MP2YOpJaF61vuzbsuRUuCx1BhAl_Hkry4HW3VgpFTRU,5
+mrmr_selection-0.2.5.dist-info/RECORD,,
