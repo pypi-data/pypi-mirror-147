@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "fastapi_handler_exception"
+version = "0.1.0"
+description = "Provides a standard and quick way to add new error handlers to your fastapi application"
+authors = ["Alan Vazquez <alanvazquez1999@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.75.2"
+
+[tool.poetry.dev-dependencies]
+pylint = "^2.13.7"
+pytest = "^7.1.1"
+black = "^22.3.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

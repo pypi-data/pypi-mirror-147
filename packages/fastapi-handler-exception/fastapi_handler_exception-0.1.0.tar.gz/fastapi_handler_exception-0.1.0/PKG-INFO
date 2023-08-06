@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: fastapi-handler-exception
+Version: 0.1.0
+Summary: Provides a standard and quick way to add new error handlers to your fastapi application
+License: MIT
+Author: Alan Vazquez
+Author-email: alanvazquez1999@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: fastapi (>=0.75.2,<0.76.0)
