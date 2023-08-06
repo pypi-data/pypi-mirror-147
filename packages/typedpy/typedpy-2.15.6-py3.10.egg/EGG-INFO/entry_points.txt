@@ -1,0 +1,3 @@
+[console_scripts]
+create-stub = typedpy.scripts.create_stub:main
+
