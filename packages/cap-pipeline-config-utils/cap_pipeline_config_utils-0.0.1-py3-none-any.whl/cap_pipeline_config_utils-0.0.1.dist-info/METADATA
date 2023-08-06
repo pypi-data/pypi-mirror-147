@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: cap-pipeline-config-utils
+Version: 0.0.1
+Summary: Utility package to autogenerate of semantic tags in ontology pipeline
+Home-page: https://github.com/ubyndr/config_utils
+Author: Ugur Bayindir
+Author-email: ugur@ebi.ac.uk
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/ubyndr/config_utils/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: jsonschema (==4.4.0)
+Requires-Dist: SPARQLWrapper (==1.8.5)
+
+UNKNOWN
+
