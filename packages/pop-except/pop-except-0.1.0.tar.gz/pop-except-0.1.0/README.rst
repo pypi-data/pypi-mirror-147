@@ -1,0 +1,105 @@
+==========
+pop-except
+==========
+
+.. image:: https://img.shields.io/badge/made%20with-pop-teal
+   :alt: Made with pop, a Python implementation of Plugin Oriented Programming
+   :target: https://pop.readthedocs.io/
+
+.. image:: https://img.shields.io/badge/made%20with-python-yellow
+   :alt: Made with Python
+   :target: https://www.python.org/
+
+Contracts, subs, and environment for handling exceptions in POP.
+
+About
+=====
+
+This project contains app-merge components for POP.
+It adds a sub for exception hooks and for exceptions.
+This provides a predictable structure for using exceptions in POP.
+
+What is POP?
+------------
+
+This project is built with `pop <https://pop.readthedocs.io/>`__, a Python-based
+implementation of *Plugin Oriented Programming (POP)*. POP seeks to bring
+together concepts and wisdom from the history of computing in new ways to solve
+modern computing problems.
+
+For more information:
+
+* `Intro to Plugin Oriented Programming (POP) <https://pop-book.readthedocs.io/en/latest/>`__
+* `pop-awesome <https://gitlab.com/saltstack/pop/pop-awesome>`__
+* `pop-create <https://gitlab.com/saltstack/pop/pop-create/>`__
+
+Getting Started
+===============
+
+Prerequisites
+-------------
+
+* Python 3.7+
+* git *(if installing from source, or contributing to the project)*
+
+Installation
+------------
+
+.. note::
+
+   If wanting to contribute to the project, and setup your local development
+   environment, see the ``CONTRIBUTING.rst`` document in the source repository
+   for this project.
+
+If wanting to use ``pop-except``, you can do so by either
+installing from PyPI or from source.
+
+Install from PyPI
++++++++++++++++++
+
+.. code-block:: bash
+
+  pip install pop-except
+
+
+Install from source
++++++++++++++++++++
+
+.. code-block:: bash
+
+   # clone repo
+   git clone git@gitlab.com/vmware/pop/pop-except.git
+   cd pop-except
+
+   # Setup venv
+   python3 -m venv .venv
+   source .venv/bin/activate
+   pip install -e .
+
+Usage
+=====
+
+In your project's main ``__init__`` function extend the `pop_except` namespace:
+
+.. code-block:: python:
+
+    def __init__(hub):
+        hub.pop.sub.add("pop_except")
+
+After your code initializes hub.OPT, call `pop_except`'s configure function:
+
+.. code-block:: python:
+
+    def __cli__(hub):
+        hub.pop.config.load(["my_app", "pop_except"], cli=""my_app")
+
+Roadmap
+=======
+
+Reference the `open issues <https://gitlab.com/vmware/pop/pop-except/issues>`__ for a list of
+proposed features (and known issues).
+
+Acknowledgements
+================
+
+* `Img Shields <https://shields.io>`__ for making repository badges easy.
