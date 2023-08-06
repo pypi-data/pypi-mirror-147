@@ -1,0 +1,2 @@
+[console_scripts]
+dict-from-annotation-cli = dict_from_annotation.cli:run

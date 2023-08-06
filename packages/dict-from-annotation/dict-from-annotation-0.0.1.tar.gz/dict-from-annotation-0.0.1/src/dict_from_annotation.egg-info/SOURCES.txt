@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/dict_from_annotation/__init__.py
+src/dict_from_annotation/annotation_handling.py
+src/dict_from_annotation/argparse_helper.py
+src/dict_from_annotation/cli.py
+src/dict_from_annotation/main.py
+src/dict_from_annotation.egg-info/PKG-INFO
+src/dict_from_annotation.egg-info/SOURCES.txt
+src/dict_from_annotation.egg-info/dependency_links.txt
+src/dict_from_annotation.egg-info/entry_points.txt
+src/dict_from_annotation.egg-info/requires.txt
+src/dict_from_annotation.egg-info/top_level.txt

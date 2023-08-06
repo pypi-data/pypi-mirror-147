@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: dict-from-annotation
+Version: 0.0.1
+Summary: Create pronunciation dictionary based on annotations.
+Home-page: https://github.com/stefantaubert/dict-from-annotation
+Author: Stefan Taubert
+Author-email: stefan.taubert@posteo.me
+Maintainer: Stefan Taubert
+Maintainer-email: stefan.taubert@posteo.me
+License: MIT
+Project-URL: Homepage, https://github.com/stefantaubert/dict-from-annotation
+Project-URL: Issues, https://github.com/stefantaubert/dict-from-annotation/issues
+Keywords: ARPAbet,IPA,X-SAMPA,CMU,TTS,Text-to-speech,Speech synthesis,praat,Language,Linguistics
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Operating System :: OS Independent
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: BSD
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Unix
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# dict-from-annotation
+
+[![PyPI](https://img.shields.io/pypi/v/dict-from-annotation.svg)](https://pypi.python.org/pypi/dict-from-annotation)
+[![PyPI](https://img.shields.io/pypi/pyversions/dict-from-annotation.svg)](https://pypi.python.org/pypi/dict-from-annotation)
+[![MIT](https://img.shields.io/github/license/stefantaubert/dict-from-annotation.svg)](LICENSE)
+
+Command-line interface to create pronunciation dictionaries based on manual annotations.
+
+## Installation
+
+```sh
+pip install dict-from-annotation
+```
+
+## Usage
+
+```sh
+# Create example vocabulary
+cat > /tmp/vocabulary.txt << EOF
+Test?
+abc,
+/X|MM|L/
+/X|MM||L/
+EOF
+
+dict-from-annotation-cli \
+  /tmp/vocabulary.txt \
+  /tmp/dictionary.dict \
+  --rest-out /tmp/rest_vocabulary.txt
+
+cat /tmp/dictionary.dict
+# -------
+# Output:
+# -------
+# /X|MM|L/  X MM L
+# -------
+
+cat /tmp/rest_vocabulary.txt
+# -------
+# Output:
+# -------
+# Test?
+# abc,
+# /X|MM||L/
+# -------
+```
+
+
