@@ -1,0 +1,2 @@
+[console_scripts]
+stars = stars.sbumips:run
