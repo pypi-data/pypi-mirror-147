@@ -1,0 +1,15 @@
+LICENSE
+README.rst
+setup.py
+quaver/__init__.py
+quaver/__main__.py
+quaver/enums.py
+quaver/errors.py
+quaver/http.py
+quaver/models.py
+quaver/quaver.py
+quaver.py.egg-info/PKG-INFO
+quaver.py.egg-info/SOURCES.txt
+quaver.py.egg-info/dependency_links.txt
+quaver.py.egg-info/requires.txt
+quaver.py.egg-info/top_level.txt
