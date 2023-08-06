@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: wizmusic
+Version: 0.1.1
+Summary: wiz spotify light
+Author: redraw
+Author-email: redraw@sdf.org
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: colorgram.py (>=1.2.0,<2.0.0)
+Requires-Dist: rich (>=12.2.0,<13.0.0)
+Requires-Dist: spotipy (>=2.19.0,<3.0.0)
