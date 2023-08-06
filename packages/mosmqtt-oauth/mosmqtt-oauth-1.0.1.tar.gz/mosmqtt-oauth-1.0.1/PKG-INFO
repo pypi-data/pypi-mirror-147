@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: mosmqtt-oauth
+Version: 1.0.1
+Summary: OAuth plugin module for MOSQUITTO MQTT
+Home-page: https://github.com/rrajaravi/mosmqtt-oauth
+Author: Raja Ravi
+Author-email: r.rajaravi@gmail.com
+License: MIT
+Description: 
+        Documentation
+        -------------
+        Full documentation is available on `Github`_.
+        .. _`Github`: https://github.com/rrajaravi/mosmqtt-oauth
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
