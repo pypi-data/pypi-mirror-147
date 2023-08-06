@@ -1,0 +1,3 @@
+[console_scripts]
+pytemscript-server = pytemscript.server:run_server
+
