@@ -1,0 +1,11 @@
+LICENSE
+README.md
+__init__.py
+main.py
+setup.py
+audioset_downloader.egg-info/PKG-INFO
+audioset_downloader.egg-info/SOURCES.txt
+audioset_downloader.egg-info/dependency_links.txt
+audioset_downloader.egg-info/entry_points.txt
+audioset_downloader.egg-info/requires.txt
+audioset_downloader.egg-info/top_level.txt
