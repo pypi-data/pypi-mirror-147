@@ -1,0 +1,16 @@
+SlashDiscord/__init__.py,sha256=mv7aOk6Vts5XQr0H-6NqOQW3KJQtTrEvt-C253k2z1A,56
+SlashDiscord/client/__init__.py,sha256=d0Q6Fn44e7wFfLabDOBxpcJ1DPKWlFunGYDUBmO-4hA,22
+SlashDiscord/client/client.py,sha256=0h_qD3XSOzV97ElxSVxa8bHC2SYKOHvMdaJrWVNCvfk,14309
+SlashDiscord/command/__init__.py,sha256=Zawye3ewFc5x0ekYzTgpuKDWLbOs3rswGAce5K13Yo4,23
+SlashDiscord/command/command.py,sha256=jWeCKznj6e307emT6Qep2BuhHaPfWx8c7-JxMlsE-90,1757
+SlashDiscord/util/__init__.py,sha256=Zb0ucg2UmExcP6-sGhT8NQYzFJJv3KvEfXdQ7jCms4k,27
+SlashDiscord/util/embed.py,sha256=DW0wTn8eXzVDCih4JUNIPZkd43_QLKfCM5LBv7SCSNo,2818
+SlashDiscord/util/gateway.py,sha256=uGuOe1NcR4WKm2XdQj8O-F8WsSSSANgKHM78PrMBwt0,10723
+SlashDiscord/util/interaction.py,sha256=6VwF6MmbuI6yJ4JORKqggE2uIRybblY6xlDoTv5eNWY,8148
+SlashDiscord/util/socket.py,sha256=RvQDqp2f2wKRunjAJVEZk9kccVVfwqrxm2iK3webo3s,360
+SlashDiscord/util/user.py,sha256=Qa7z4PAYN-kZZif5T-O108eDa9TibbcfSmiCZcqE4KQ,1616
+SlashDiscord-0.2.1.dist-info/LICENSE,sha256=YF6QR6Vjxcg5b_sYIyqkME7FZYau5TfEUGTG-0JeRK0,35129
+SlashDiscord-0.2.1.dist-info/METADATA,sha256=mKA46_EYse17iQCuwRbP8e9I4Nj2w8mXAIYSCmPcnc4,1526
+SlashDiscord-0.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+SlashDiscord-0.2.1.dist-info/top_level.txt,sha256=ihu9xvTvotO2TeL3qV1wiab0QVtauep-74Jw39BNUF8,13
+SlashDiscord-0.2.1.dist-info/RECORD,,
