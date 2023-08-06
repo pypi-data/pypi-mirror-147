@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: request-handler
+Version: 0.1.3
+Summary: Request handler library
+Author: Kevin van Liebergen
+Author-email: example@email.com
+License: MIT
+Project-URL: Home page, https://github.com/KevinLiebergen/request_handler
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# Status code handler
+
+Library for handler GET requests 
+comparing their status code.
+
+## Installation
+
+``` bash
+$ pip3 install request_handler
+```
+
+## Get started
+
+How to compare the status code to know 
+if continue or stop.
+
+``` python3
+from request_handler import RequestHandler
+
+if __name__ == '__main__':
+    handler = RequestHandler('https://catfact.ninja/fact')
+    handler_jsoned = handler.check_json_response()
+    if handler_jsoned:
+        print(handler_jsoned)
+    else:
+        print("[-] Exiting...")
+        exit(1)
+ 
+```
+
+
