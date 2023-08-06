@@ -1,0 +1,2 @@
+# gst-calculation
+GST is a module that calculates Greedy String Tiling algorithm as described in "String Similarity via Greedy String Tiling and Running Karp−Rabin Matching" (Wise, 1993) - https://www.researchgate.net/publication/262763983_String_Similarity_via_Greedy_String_Tiling_and_Running_Karp-Rabin_Matching

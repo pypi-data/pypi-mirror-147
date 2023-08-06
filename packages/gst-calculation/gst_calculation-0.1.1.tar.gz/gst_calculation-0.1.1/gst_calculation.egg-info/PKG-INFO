@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: gst-calculation
+Version: 0.1.1
+Summary: This package contains Greedy String Tiling calculation
+Home-page: https://github.com/tomytw/gst-calculation
+Author: Tomy Widjaja
+Author-email: tomywid77@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Text Processing :: General
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# gst-calculation
+GST is a module that calculates Greedy String Tiling algorithm as described in "String Similarity via Greedy String Tiling and Running Karp−Rabin Matching" (Wise, 1993) - https://www.researchgate.net/publication/262763983_String_Similarity_via_Greedy_String_Tiling_and_Running_Karp-Rabin_Matching
+
