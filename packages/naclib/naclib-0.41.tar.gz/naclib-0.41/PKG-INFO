@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: naclib
+Version: 0.41
+Summary: Non-Affine Corrections on microscopy images using S/T Polynomial Decomposition
+Home-page: https://gitlab.tudelft.nl/nynke-dekker-lab/public/naclib
+Author: Edo van Veen & Kaley McCluskey
+Author-email: e.n.w.vanveen@tudelft.nl
+License: MIT
+Download-URL: https://gitlab.tudelft.nl/nynke-dekker-lab/public/dist/naclib-v0.41.tar.gz
+Description: UNKNOWN
+Keywords: colocalization,microscopy,distortion correction,STPD
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
