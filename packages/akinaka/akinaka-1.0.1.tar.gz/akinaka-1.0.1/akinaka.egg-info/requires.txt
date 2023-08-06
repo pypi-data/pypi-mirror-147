@@ -1,0 +1,7 @@
+boto3
+datetime
+click
+pyyaml
+kubernetes
+slack_sdk
+messagebird
