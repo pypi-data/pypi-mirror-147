@@ -1,0 +1,67 @@
+markdown_extensions:
+- meta
+- admonition
+- pymdownx.extra
+- pymdownx.details
+- pymdownx.superfences
+- pymdownx.snippets
+- pymdownx.highlight:
+    use_pygments: true
+- pymdownx.tabbed:
+    alternate_style: true
+nav:
+- Home: index.md
+- Quickstart: quickstart.md
+- Usage:
+  - Markdown: usage/markdown.md
+  - Plugins: usage/plugins.md
+  - Ipython: usage/ipython.md
+  - Basic: usage/basic.md
+  - Images: usage/images.md
+  - Tables: usage/tables.md
+  - Code Blocks: usage/code_blocks.md
+  - Sidebar: usage/sidebar.md
+- Reference:
+  - cli: Reference/cli.md
+  - code_context: Reference/code_context.md
+  - config: Reference/config.md
+  - docs: Reference/docs.md
+  - exceptions: Reference/exceptions.md
+  - ipython: Reference/ipython.md
+  - md:
+    - base: Reference/md/base.md
+    - combo: Reference/md/combo.md
+    - containers: Reference/md/containers.md
+    - docstring: Reference/md/docstring.md
+    - file: Reference/md/file.md
+    - handler: Reference/md/handler.md
+    - header: Reference/md/header.md
+    - idstore: Reference/md/idstore.md
+    - image: Reference/md/image.md
+    - list: Reference/md/list.md
+    - md_proxy: Reference/md/md_proxy.md
+    - settings: Reference/md/settings.md
+    - table: Reference/md/table.md
+    - text: Reference/md/text.md
+  - page: Reference/page.md
+  - parser: Reference/parser.md
+  - report: Reference/report.md
+  - settings: Reference/settings.md
+  - tracker: Reference/tracker.md
+  - utils: Reference/utils.md
+- Site Code:
+  - '  Init  ': site_code/__init__.md
+  - Basic: site_code/basic.md
+  - Code Blocks: site_code/code_blocks.md
+  - Images: site_code/images.md
+  - Main: site_code/main.md
+  - Quickstart: site_code/quickstart.md
+  - Sidebar: site_code/sidebar.md
+  - Tables: site_code/tables.md
+plugins:
+- search
+- mkdocstrings
+site_name: Mkreports documentations
+theme:
+  custom_dir: overrides
+  name: material
