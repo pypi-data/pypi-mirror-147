@@ -1,0 +1,8 @@
+itemset_mining/VERSION,sha256=mY9riH7Xpu9E6EIQ0CN7cVvtQupyVPSNxBiv7ApIQQM,6
+itemset_mining/__init__.py,sha256=Yv3jnqgDEb3uLPV3d-OfU8mQv7bEZQm3epv7xjq4WFA,253
+itemset_mining/two_phase_huim.py,sha256=Z6dZOYJAHdUGWEsP59R9cn4yWaMWYa2-19wvzx7gxaU,8766
+itemset_mining-0.2.2.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+itemset_mining-0.2.2.dist-info/METADATA,sha256=O4b9V7u0_ukkb7rAIzIL-1ltZP1EvX3PFXDsGBHfkco,7191
+itemset_mining-0.2.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+itemset_mining-0.2.2.dist-info/top_level.txt,sha256=x7A8mlz7KTk0n-g4OHTAIVNVXe2sZGiK4jp9NC2ufio,15
+itemset_mining-0.2.2.dist-info/RECORD,,
