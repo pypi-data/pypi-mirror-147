@@ -1,0 +1,9 @@
+README.md
+setup.py
+irccodes/__init__.py
+irccodes/constants.py
+irccodes/symbols.py
+irccodes.egg-info/PKG-INFO
+irccodes.egg-info/SOURCES.txt
+irccodes.egg-info/dependency_links.txt
+irccodes.egg-info/top_level.txt
