@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: indic-LayoutParser
+Version: 1.0.0
+Summary: parsing indic text from jpg/pdf
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: parsing indic text from jpg/pdf
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent

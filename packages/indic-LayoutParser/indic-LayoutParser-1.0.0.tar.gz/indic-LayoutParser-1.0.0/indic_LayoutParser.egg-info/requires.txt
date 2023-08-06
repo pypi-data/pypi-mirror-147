@@ -1,0 +1,11 @@
+layoutparser
+pandas
+numpy
+opencv-python
+pillow
+Image
+pytesseract
+pdf2image
+pdfreader
+pathlib
+uuid

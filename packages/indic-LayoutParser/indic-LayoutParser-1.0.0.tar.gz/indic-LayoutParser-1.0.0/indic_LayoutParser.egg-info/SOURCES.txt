@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+indic-LayoutParser/__init__.py
+indic-LayoutParser/indic-LayoutParser.py
+indic-LayoutParser/layout_inference.py
+indic_LayoutParser.egg-info/PKG-INFO
+indic_LayoutParser.egg-info/SOURCES.txt
+indic_LayoutParser.egg-info/dependency_links.txt
+indic_LayoutParser.egg-info/requires.txt
+indic_LayoutParser.egg-info/top_level.txt
