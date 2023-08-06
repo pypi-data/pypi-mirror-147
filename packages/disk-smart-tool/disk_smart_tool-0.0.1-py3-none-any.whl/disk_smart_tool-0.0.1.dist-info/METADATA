@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: disk-smart-tool
+Version: 0.0.1
+Summary: Get S.M.A.R.T. of SATA and NVME disks.
+Home-page: https://github.com/okeyja/disk-smart-tool
+Author: Okeyja
+Author-email: okeyja@abc.xyz
+Maintainer: Okeyja
+Maintainer-email: okeyja@abc.xyz
+License: MIT License
+Platform: all
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >3.4.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Disk S.M.A.R.T. tool
+
+read disk S.M.A.R.T. of SATA disks and NVME disks
+
+## Dependency
+
+```bash
+# Debian / Ubuntu
+apt-get install -y smartmontools
+# RHEL / CentOS / Fedora
+yum install -y smartmontools
+```
+
+## Usage
+
+```python
+from disk_smart_tool.smart_tool import check_disk
+
+result = check_disk("/dev/sda")
+```
+
