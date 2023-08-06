@@ -1,0 +1,15 @@
+thefirstock/__init__.py,sha256=ymGZ9Pikmh0v6bjCU0D4FZaM8bCx3ffwlxUDiUtBaag,79
+thefirstock/base.py,sha256=iKhjIxM9OACtaRkBr7tMU7VNzltE1JT-JqUeJw5G6x0,3374
+thefirstock/execution.py,sha256=KgVTMXn0_-Eucr1qilFWwfIJCD3HA-m195K4vCoHvOU,8428
+thefirstock/functions.py,sha256=rAt9APN1Z1_eygY4to9HcpWOQLUqzdSeOsqqG8bUJiw,17392
+thefirstock/thefirstock.py,sha256=0fghfUzu4P8Psi6fqd_yP2DcT5mL7gyhzp3CkAE_Z8A,5974
+thefirstock/Variables/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+thefirstock/Variables/enums.py,sha256=RoyXk8z083kwFlSPW-qPF9nt_mRYLo8yy5SGdP9zhV4,2049
+thefirstock/Variables/fixedParams.py,sha256=Nb-lVw3KmURGsoxCFNrv3DE-Q9MquVOHyAUuNK8C04g,100
+thefirstock/operations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+thefirstock/operations/apiOperations.py,sha256=x9zkbhdly23SqUSYc183FsJbsX9eC-uxdrhZxRsu-vA,267
+thefirstock-0.0.7.dist-info/LICENSE,sha256=TkSEAtuphPPAnSpUiQPwk5rFTiHDioDPi2AyEN28lk8,1084
+thefirstock-0.0.7.dist-info/METADATA,sha256=vvxH4XmdCASp_SeFtKuDhuRjqFczlgqynrj-1fUImCs,451
+thefirstock-0.0.7.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+thefirstock-0.0.7.dist-info/top_level.txt,sha256=yuHWkk78_a4CHNchsT6uvpKaezLQvXwubcn8O9Iro-Y,12
+thefirstock-0.0.7.dist-info/RECORD,,
