@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: contactssync
+Version: 0.1.22
+Summary: Some useful code for connecting to contact services and objectifying/normalizing contact records, especially for the purpose of synchronizing information between multiple services.
+Home-page: https://github.com/user/nadime
+Download-URL: https://github.com/nadime/contact-sync-lib/archive/refs/tags/v0.1.20-alpha.tar.gz
+Author: Scott Asher
+Author-email: scottpriceasher@gmail.com
+License: MIT
+Keywords: people,contacts,contactssync
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Topic :: Communications
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+License-File: LICENSE.txt
+Requires-Dist: airtable-python-wrapper
+Requires-Dist: attrs
+Requires-Dist: google-auth-oauthlib
+Requires-Dist: google-api-python-client
+Requires-Dist: google-auth-httplib2
+Requires-Dist: google
+Requires-Dist: jinja2
+Requires-Dist: pandas
+Requires-Dist: phonenumbers
+
+UNKNOWN
+
