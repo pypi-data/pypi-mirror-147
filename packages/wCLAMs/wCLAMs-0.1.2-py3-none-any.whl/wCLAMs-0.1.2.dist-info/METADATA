@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: wCLAMs
+Version: 0.1.2
+Summary: A GUI wrapper for pyCLAMs. Rewritten using Flask.
+Home-page: http://pypi.python.org/pypi/wCLAMs/
+Author: Zhang
+Author-email: oo@zju.edu.cn
+License: LICENSE.txt
+Platform: UNKNOWN
+Requires-Dist: flask
+Requires-Dist: pyCLAMs
+
+UNKNOWN
+
+
