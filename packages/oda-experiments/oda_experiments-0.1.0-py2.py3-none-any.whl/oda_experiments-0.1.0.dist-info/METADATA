@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: oda-experiments
+Version: 0.1.0
+Summary: oda-experiments
+Home-page: https://odahub.io/
+Author: V.S.
+Author-email: vladimir.savchenko@gmail.com
+License: GPL-2+
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Internet
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+License-File: COPYING
+Requires-Dist: lxml
+Requires-Dist: six
+Requires-Dist: coloredlogs
+Requires-Dist: path.py
+Requires-Dist: keyrings.cryptfile
+Requires-Dist: click
+Requires-Dist: pyyaml
+Requires-Dist: numpy
+Requires-Dist: click-aliases
+Requires-Dist: pymysql
+Requires-Dist: peewee
+Requires-Dist: flask (>=2.1.0)
+Requires-Dist: gunicorn
+Requires-Dist: pytest-flask
+Requires-Dist: keyring
+Requires-Dist: oda-knowledge-base[cwl,rdf] (>=0.7.28)
+Requires-Dist: Flask-JWT (>=0.3.2)
+Requires-Dist: itsdangerous (==2.0)
+Requires-Dist: jsonschema (<4.0)
+Requires-Dist: pylogstash-context (==0.1.12)
+Requires-Dist: simpler-ansi2html
+Requires-Dist: requests
+Requires-Dist: astroquery
+Requires-Dist: prettytable
+Requires-Dist: logging-tree
+Requires-Dist: werkzeug (~=2.0.0)
+Provides-Extra: cwl
+Requires-Dist: cwltool ; extra == 'cwl'
+Provides-Extra: notebook
+Requires-Dist: nb2workflow ; extra == 'notebook'
+Requires-Dist: papermill ; extra == 'notebook'
+Provides-Extra: oda
+Requires-Dist: oda-api[gw] (>=1.1.30) ; extra == 'oda'
+Requires-Dist: igwn-auth-utils[requests] (==0.2.2) ; extra == 'oda'
+Provides-Extra: rdf
+Requires-Dist: rdflib ; extra == 'rdf'
+Requires-Dist: rdflib-jsonld ; extra == 'rdf'
+
+UNKNOWN
+
