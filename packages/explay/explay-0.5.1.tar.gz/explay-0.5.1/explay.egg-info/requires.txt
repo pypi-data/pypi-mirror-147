@@ -1,0 +1,8 @@
+pandas
+openpyxl
+regex
+XlsxWriter
+numpy
+xlrd
+pyyaml
+pretty_html_table
