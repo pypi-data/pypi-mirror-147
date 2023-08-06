@@ -1,0 +1,3 @@
+[console_scripts]
+adaptdl_on_ray_aws = adaptdl_ray.aws.launch_job:main
+
