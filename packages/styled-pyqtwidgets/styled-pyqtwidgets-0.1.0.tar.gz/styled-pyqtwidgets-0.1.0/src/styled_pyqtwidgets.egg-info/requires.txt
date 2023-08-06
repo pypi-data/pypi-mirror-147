@@ -1,0 +1,4 @@
+pyqt5
+
+[dev]
+check-manifest
