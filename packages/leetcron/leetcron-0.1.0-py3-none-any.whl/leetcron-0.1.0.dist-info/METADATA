@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: leetcron
+Version: 0.1.0
+Summary: Sets up cron job that pushes Leetcode submissions to a Github repository
+Home-page: https://github.com/JING1201/leetcron
+Author: jlionwg
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: python-crontab
+Requires-Dist: browsercookie
+Requires-Dist: PyGithub
+
+# leetcron
+
+A CLI tool for setting up a cron job that pushes recent leetcode submissions to a specified Github repo.
+
+### 0.1.0 Updates
+* Added support for the latest languages on Leetcode
+* Added handling to prevent cron job failing from unrecognized language
+
+## Installation
+```
+pip install leetcron
+```
+
+## Setup
+```
+leetcron setup
+```
+#### Options
+`-g` Github setup
+`-c` Leetcode cookie setup
+`-j` Cronjob setup
+
+#### Notes
+* Obtain a Github Access Token through the steps [here](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line)
+* Make sure you are logged into Leetcode on Chrome or Firefox before running the setup.
+* Try running `leetcron setup -c` to grab the newest Leetcode cookie if task fails.
+
+## Push recent submissions to repo manually
+```
+leetcron run
+```
+
