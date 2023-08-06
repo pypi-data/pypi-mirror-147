@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: python-antsy
+Version: 0.0.7
+Summary: Python package for integrating Antsy in other applications
+Home-page: https://github.com/grupodyd/python-antsy
+Author: Juan F. Duque
+Author-email: jfelipe@grupodyd.com
+License: MIT
+Keywords: antsy
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+[![Release](https://github.com/grupodyd/python-antsy/actions/workflows/release.yml/badge.svg)](https://github.com/grupodyd/python-antsy/actions/workflows/release.yml)
+# python-antsy
+ Python package for integration of Antsy in other applications
+
+Installing
+============
+
+```bash
+pip install python-antsy
+```
+
+Usage
+=====
+```python3
+from python-antsy import Antsy
+```
+
