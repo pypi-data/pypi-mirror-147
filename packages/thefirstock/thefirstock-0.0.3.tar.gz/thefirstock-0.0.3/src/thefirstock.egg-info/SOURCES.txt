@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/thefirstock/__init__.py
+src/thefirstock/base.py
+src/thefirstock/functions.py
+src/thefirstock/thefirstock.py
+src/thefirstock.egg-info/PKG-INFO
+src/thefirstock.egg-info/SOURCES.txt
+src/thefirstock.egg-info/dependency_links.txt
+src/thefirstock.egg-info/top_level.txt
