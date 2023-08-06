@@ -1,0 +1,14 @@
+LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+discogs_alert/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+discogs_alert/__main__.py,sha256=njQHdK_JgjYZ0Ov2MvwQwajs7g6u4F1lx76_fdzBclM,5828
+discogs_alert/click.py,sha256=-icOjvFt2lQ7xLC0IwtmsKVEABa1obGeCDhVPfV24HE,1158
+discogs_alert/client.py,sha256=x0GPo2PhAEX-jjCxZyA7hHTVrpoyMB07YOs6QxzHg-8,5860
+discogs_alert/loop.py,sha256=OKuey6uHYndfiis6JhvOSGHGVVaakh9r0PMtWUth8GQ,5166
+discogs_alert/notify.py,sha256=yzSgv6NaHSdC41gu3JjAtPvkwXiOHdWHuNwRf_DROgQ,1725
+discogs_alert/scrape.py,sha256=k8JQLAPMxLW0Uf9gRWZHMqH48rIdYMnRbFDU2Rn6DzY,4894
+discogs_alert/types.py,sha256=sIXaAB8mbvNSn_t86aQ8sX7kNGz4S0e41v1hVWL2qqA,4212
+discogs_alert/util.py,sha256=KAGQS9AaQBLYkvXm1dHt1Wr4Mo1nEJ7jLE-xiyT7VTs,5218
+discogs_alert-0.0.9.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+discogs_alert-0.0.9.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+discogs_alert-0.0.9.dist-info/METADATA,sha256=y-NyLQNytUqJBoK9PUdDldVVxC-jan2irU1g_INkGLs,17368
+discogs_alert-0.0.9.dist-info/RECORD,,
