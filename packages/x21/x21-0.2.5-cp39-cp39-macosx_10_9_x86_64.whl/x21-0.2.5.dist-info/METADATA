@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: x21
+Version: 0.2.5
+Summary: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Requires-Dist: PyNaCl
+Requires-Dist: setuptools
+Requires-Dist: tomli
+Requires-Dist: tomli-w
+
+UNKNOWN
+
