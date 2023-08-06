@@ -1,0 +1,11 @@
+AUTHORS.md,sha256=frwXBfZsyQZ8-khR_hKY9LSogglUndPy94fVFl4A_9g,294
+HISTORY.md,sha256=qynbHO5lSeBIV39RpSpZxGgwxDyHS27VdFdSP8WIxGQ,1098
+LICENSE,sha256=LX-nFUH8DKs2Qa2-10DhVFli8bkYpyHZrRvC-qN3kYY,1066
+minos/plugins/kafka/__init__.py,sha256=xW8RPtbLEnxwxmcdzLxO7sFE0t818gRe-0dJZtQ7StE,398
+minos/plugins/kafka/common.py,sha256=mJMr-R2jf8wWBsucpji4a3Ri3IaTyTG3qeHOyBauEzE,1133
+minos/plugins/kafka/publisher.py,sha256=YwCHj4xoDAZJ9-_yHOAYiUhKMCzCSQGiyRHJWZZcJp4,2711
+minos/plugins/kafka/subscriber.py,sha256=eYrFl_CVG0dVKhW5f4Vl88cNW6ST3i3HNgUOVu5IguE,4795
+minos_broker_kafka-0.7.0.dev2.dist-info/LICENSE,sha256=LX-nFUH8DKs2Qa2-10DhVFli8bkYpyHZrRvC-qN3kYY,1066
+minos_broker_kafka-0.7.0.dev2.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+minos_broker_kafka-0.7.0.dev2.dist-info/METADATA,sha256=Fzse2jtKLZpzBilAjEHEIgXHuYe-GfcjR4mg0RQYbo4,3574
+minos_broker_kafka-0.7.0.dev2.dist-info/RECORD,,
