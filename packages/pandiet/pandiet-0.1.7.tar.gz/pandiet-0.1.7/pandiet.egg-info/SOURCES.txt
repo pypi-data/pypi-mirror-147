@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+pandiet/__init__.py
+pandiet/core.py
+pandiet.egg-info/PKG-INFO
+pandiet.egg-info/SOURCES.txt
+pandiet.egg-info/dependency_links.txt
+pandiet.egg-info/requires.txt
+pandiet.egg-info/top_level.txt
+tests/__init__.py
+tests/test_core.py

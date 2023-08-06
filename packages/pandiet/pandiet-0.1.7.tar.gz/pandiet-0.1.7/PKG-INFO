@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: pandiet
+Version: 0.1.7
+Summary: A library to reduce memory consumption of Pandas Dataframes
+Home-page: https://github.com/myui/pandiet
+Author: Makoto Yui
+Author-email: myui@apache.org
+License: BSD-3-Clause
+Project-URL: Bug Tracker, https://github.com/myui/pandiet/issues
+Project-URL: Source, https://github.com/myui/pandiet/
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7,<4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pandiet
+[![PyPI Latest Release](https://img.shields.io/pypi/v/pandiet.svg)](https://pypi.org/project/pandiet/)
+
+A library to reduce memory consumption of Pandas Dataframes
+
+# Installation
+
+```sh
+pip install pandiet
+```
+
+# Usage
+
+```python
+import pandas as pd
+from pandiet import Reducer         # supported from v0.1.2
+# from pandiet.core import Reducer
+
+df = pd.read_csv('https://raw.githubusercontent.com/bundgus/pydata2parquet/master/Most-Recent-Cohorts-Scorecard-Elements.csv')
+df_reduced = Reducer().reduce(df, verbose=True)
+```
+
+
