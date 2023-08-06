@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: redub
+Version: 0.1.0
+Summary: an app for renaming an entire directory of images using an excel spreadsheet
+License: MIT
+Author: David Flood
+Author-email: davidfloodii@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: PySimpleGUI (>=4.59.0,<5.0.0)
+Requires-Dist: openpyxl (>=3.0.9,<4.0.0)
+Requires-Dist: pandas (>=1.4.2,<2.0.0)
