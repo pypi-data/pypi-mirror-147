@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+pypaspread/__init__.py
+pypaspread/paspread.py
+pypaspread.egg-info/PKG-INFO
+pypaspread.egg-info/SOURCES.txt
+pypaspread.egg-info/dependency_links.txt
+pypaspread.egg-info/requires.txt
+pypaspread.egg-info/top_level.txt
