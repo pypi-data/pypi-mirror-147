@@ -1,0 +1,14 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+dashamail/__init__.py
+dashamail/client.py
+dashamail/exceptions.py
+dashamail.egg-info/PKG-INFO
+dashamail.egg-info/SOURCES.txt
+dashamail.egg-info/dependency_links.txt
+dashamail.egg-info/not-zip-safe
+dashamail.egg-info/requires.txt
+dashamail.egg-info/top_level.txt
