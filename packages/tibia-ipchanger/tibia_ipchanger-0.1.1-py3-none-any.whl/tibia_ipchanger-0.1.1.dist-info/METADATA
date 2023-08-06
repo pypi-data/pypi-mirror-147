@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: tibia-ipchanger
+Version: 0.1.1
+Summary: Command-line IP changer for Tibia clients (Linux only)
+Home-page: https://github.com/ranisalt/tibia-ipchanger
+License: MIT
+Author: Ranieri Althoff
+Author-email: ranisalt@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: pyelftools (>=0.28,<0.29)
+Project-URL: Repository, https://github.com/ranisalt/tibia-ipchanger
+Description-Content-Type: text/markdown
+
+tibia-ipchanger
+===============
+

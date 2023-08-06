@@ -1,0 +1,13 @@
+ipchanger/__init__.py,sha256=OFLa_A--k8j6zHNDtZLWFEw34C_Q4yfbJwbn1GKPH6A,389
+ipchanger/__main__.py,sha256=Cy4hOosd_izNf8rvJyoAaf5HvQIVRf8jzJ-Md0kBYdY,25
+ipchanger/cli.py,sha256=AGZhhSQ_FisYoSfMznudUZCV-DJktuFcYC-jfcUIF4o,2655
+ipchanger/client.py,sha256=_WTDfZGWbRuSn14eVv6Q6vWD0sbYQ1Dko5Cr2lao2I8,854
+ipchanger/rsa.py,sha256=jUb_NFI7GpPkm6gwSB3A1X2E-Wocf9-EUyLhG1AGbvc,1070
+ipchanger/test_client.py,sha256=Cpuwirnqjs19qm_2r8i9Y8rqbcGEiUsCHfCMCGk5zQ4,1077
+ipchanger/test_rsa.py,sha256=ZsoTPhmNtQy9yKsqBd_rW66WxYdH-rHidkNAUEf_NZE,804
+ipchanger/urls.py,sha256=7_XPWZ93BqR_fUjeYt9NDQVfBhNNgkuW6oNYVhgUr7E,1990
+tibia_ipchanger-0.1.1.dist-info/entry_points.txt,sha256=9gcPN2RLxFW5518HOrMjetgCOFco9D7etnx13oKR7ak,43
+tibia_ipchanger-0.1.1.dist-info/LICENSE,sha256=U6gwKQd9IjjiuKQeFK9frDaJiNKJH5MaFclaOGncxWw,1072
+tibia_ipchanger-0.1.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+tibia_ipchanger-0.1.1.dist-info/METADATA,sha256=tniiAHLxhVfuSCiCSlkkbrOvdA8kQm9c14TFXG_YxFo,611
+tibia_ipchanger-0.1.1.dist-info/RECORD,,
