@@ -1,0 +1,9 @@
+setup.py
+Bruce-li-one/__init__.py
+Bruce-li-one/test1.py
+Bruce-li-one/test2.py
+Bruce_li_one.egg-info/PKG-INFO
+Bruce_li_one.egg-info/SOURCES.txt
+Bruce_li_one.egg-info/dependency_links.txt
+Bruce_li_one.egg-info/requires.txt
+Bruce_li_one.egg-info/top_level.txt
