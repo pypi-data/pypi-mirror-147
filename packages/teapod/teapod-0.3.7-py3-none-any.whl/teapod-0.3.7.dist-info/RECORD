@@ -1,0 +1,11 @@
+teapod/__init__.py,sha256=BRrYI5H_opNi_HgQRi6YVskj_Vi4TwzyiiNHllngXIQ,47
+teapod/scripts/information.py,sha256=JIizl6onMo23cVv9lyJO90HhPMxJ_410NmEQHvVV7y8,2609
+teapod/scripts/org_import.py,sha256=l-pccZLnsrosrnx7vtRflKxUmHkVBNqilzW0EKEJiuU,2561
+teapod/scripts/pip_update_all.py,sha256=xioSnS5c7MnAX-gfBlMs64gsBW6UoNd1PWUqOqPw538,253
+teapod/scripts/poetry_add_latest.py,sha256=dbzna1gwHb2fGfqMCF27TAbO1amaOzCiE2QDrAmxDXg,1058
+teapod/scripts/poetry_export_requirements.py,sha256=_R9bJOzOqKpuNs0jrblM7DBA_ci17POZ2RSnumYh95Y,2403
+teapod/scripts/surge_to_ss.py,sha256=Kzj5Q2-AF9MGQPOnV1POCUqVJjiSRxlxwEsx3xBDn_Y,2875
+teapod-0.3.7.dist-info/entry_points.txt,sha256=mndppeoUDQ5aaABf-GbmZukJe0Gut4tinZR5lOXqkrk,330
+teapod-0.3.7.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+teapod-0.3.7.dist-info/METADATA,sha256=QdH2UtSFp5CNFzqemTn_Nyht16D_RBQijwiMMSJAdtM,418
+teapod-0.3.7.dist-info/RECORD,,
