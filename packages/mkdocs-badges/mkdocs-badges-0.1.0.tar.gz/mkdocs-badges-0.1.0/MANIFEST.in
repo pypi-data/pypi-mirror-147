@@ -1,0 +1,3 @@
+include README.md
+include src/mkdocs_badges/assets/badge.css
+include src/mkdocs_badges/assets/badge.js
