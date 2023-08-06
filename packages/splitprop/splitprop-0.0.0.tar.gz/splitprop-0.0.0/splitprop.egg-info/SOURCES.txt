@@ -1,0 +1,7 @@
+README.md
+setup.py
+splitprop.egg-info/PKG-INFO
+splitprop.egg-info/SOURCES.txt
+splitprop.egg-info/dependency_links.txt
+splitprop.egg-info/requires.txt
+splitprop.egg-info/top_level.txt
