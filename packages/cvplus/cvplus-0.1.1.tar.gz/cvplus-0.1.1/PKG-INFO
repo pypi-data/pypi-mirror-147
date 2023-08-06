@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: cvplus
+Version: 0.1.1
+Summary: CV Tools
+License: MIT
+Author: Daiju Watanabe
+Author-email: 11362284+daizyu@users.noreply.github.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Pillow (>=9.1.0,<10.0.0)
+Requires-Dist: Shapely (>=1.8.1,<2.0.0)
+Requires-Dist: numpy (>=1.22.3,<2.0.0)
+Requires-Dist: opencv-python (>=4.5.5,<5.0.0)
+Requires-Dist: tqdm (>=4.64.0,<5.0.0)
