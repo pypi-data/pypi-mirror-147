@@ -1,0 +1,5 @@
+gpr_algorithm/__init__.py,sha256=putBwnJWkSC0JcMlHRhcJQ-45hOJz3p88CNa8Zpr9ZI,24
+gpr_algorithm/algorithm.py,sha256=O5tmrSjI5Z6JET-6rqD73LYa9GI3DRtGL7Cbn6-d9fc,10338
+gpr_algorithm-0.0.1a0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+gpr_algorithm-0.0.1a0.dist-info/METADATA,sha256=iH4Qs7Xwamhbg8DnBb0MWzhNP7cLBmie8ggNlO7HShU,833
+gpr_algorithm-0.0.1a0.dist-info/RECORD,,
