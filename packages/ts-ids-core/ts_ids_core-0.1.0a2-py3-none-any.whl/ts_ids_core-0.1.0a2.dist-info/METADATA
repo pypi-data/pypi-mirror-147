@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ts-ids-core
+Version: 0.1.0a2
+Summary: 
+Author: TetraScience
+Author-email: developers@tetrascience.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click (>=8.0)
+Requires-Dist: pydantic (>=1.8,<2)
+Requires-Dist: typing-extensions (>=4.0)

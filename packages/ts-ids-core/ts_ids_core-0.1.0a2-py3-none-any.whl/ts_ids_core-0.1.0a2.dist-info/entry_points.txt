@@ -1,0 +1,4 @@
+[console_scripts]
+export-schema=ts_ids_core.scripts.programmatic_ids_to_jsonschema:write_jsonschema_ids
+import-schema=ts_ids_core.scripts.jsonschema_to_programmatic_ids:main_cli
+
