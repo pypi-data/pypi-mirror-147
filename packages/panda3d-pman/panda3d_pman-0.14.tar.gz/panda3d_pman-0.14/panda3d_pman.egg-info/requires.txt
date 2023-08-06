@@ -1,0 +1,7 @@
+panda3d-blend2bam>=0.14
+
+[test]
+panda3d
+pytest
+pylint==2.4.*
+pytest-pylint
