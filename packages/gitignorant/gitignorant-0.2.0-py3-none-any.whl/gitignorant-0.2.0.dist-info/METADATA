@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: gitignorant
+Version: 0.2.0
+Summary: A parser for gitignore files
+Home-page: https://github.com/valohai/gitignorant
+Author: Aarni Koskela
+Author-email: aarni@valohai.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/valohai/gitignorant/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Gitignorant
+
+Gitignorant is (aspires to be)
+
+* a [spec]-compliant .gitignore file parser and matcher
+* for Python 3.6 and newer
+* with full type hinting and test coverage
+* and nothing you don't need
+
+## Features
+
+* Parses .gitignore (and .gitignore style) files
+* Matches against list of parsed rules with the same
+  semantics as Git ("last rule wins")
+
+## Unfeatures
+
+* Trees of .gitignore files are not directly supported,
+  but can be supported by client code.
+
+[spec]: https://git-scm.com/docs/gitignore
+
+
