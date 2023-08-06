@@ -1,0 +1,6 @@
+s3_upload_download/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+s3_upload_download/s3_transfers_utlits.py,sha256=6pGDHNO-rUof5u4paUY5l_YO1zE0SxdLgKOdzadRMLc,2177
+s3_upload_download-0.0.2.dist-info/METADATA,sha256=mSVvqpAA0VH3Se6rkkhcfK7rersGZ0qhb8fIj0qyxCw,1681
+s3_upload_download-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+s3_upload_download-0.0.2.dist-info/top_level.txt,sha256=kPXudgDCjLMo3NKmIi6H510Y0kXVVlHRGeVWxrI-Dw4,19
+s3_upload_download-0.0.2.dist-info/RECORD,,
