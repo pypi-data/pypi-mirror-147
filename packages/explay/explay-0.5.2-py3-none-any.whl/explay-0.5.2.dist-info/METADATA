@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: explay
+Version: 0.5.2
+Summary: make excel jobs playful again
+Home-page: https://github.com/zealzel/explay
+Author: zealzel
+Author-email: zealzel@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pandas
+Requires-Dist: openpyxl
+Requires-Dist: regex
+Requires-Dist: XlsxWriter
+Requires-Dist: numpy
+Requires-Dist: xlrd
+Requires-Dist: pyyaml
+Requires-Dist: pretty-html-table
+
+UNKNOWN
+
