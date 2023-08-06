@@ -1,0 +1,2 @@
+scikit-learn>=0.22.1
+joblib>=0.13.0
