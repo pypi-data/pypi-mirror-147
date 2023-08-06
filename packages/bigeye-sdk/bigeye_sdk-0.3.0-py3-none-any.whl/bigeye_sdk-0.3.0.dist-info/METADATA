@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: bigeye-sdk
+Version: 0.3.0
+Summary: SDK for Bigeye
+Home-page: UNKNOWN
+Author: Bigeye
+Author-email: support@bigeye.com
+License: Apache License Version 2.0
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Requires-Dist: betterproto (==1.2.5)
+Requires-Dist: fuzzywuzzy (~=0.18.0)
+Requires-Dist: requests (~=2.26.0)
+Requires-Dist: smart-open (~=5.2.1)
+
+# Bigeye SDK
+
+```shell
+pip install bigeye_sdk
+```
+
+
+
