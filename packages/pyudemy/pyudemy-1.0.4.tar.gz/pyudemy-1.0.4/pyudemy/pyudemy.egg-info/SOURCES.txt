@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pyudemy/pyudemy.egg-info/PKG-INFO
+pyudemy/pyudemy.egg-info/SOURCES.txt
+pyudemy/pyudemy.egg-info/dependency_links.txt
+pyudemy/pyudemy.egg-info/top_level.txt
