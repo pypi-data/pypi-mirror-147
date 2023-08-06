@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+pacman/__init__.py
+pacman/main.py
+pacman/pacman.py
+pacman_play.egg-info/PKG-INFO
+pacman_play.egg-info/SOURCES.txt
+pacman_play.egg-info/dependency_links.txt
+pacman_play.egg-info/entry_points.txt
+pacman_play.egg-info/top_level.txt
