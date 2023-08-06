@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: BootCI
+Version: 1.0.1
+Summary: Bootstrap confidence intervals and Fisher-Pitman test for paired samples
+Home-page: https://github.com/ybestgen/BootCIExpli
+Author: Yves Bestgen
+Author-email: yves.bestgen@uclouvain.be
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/ybestgen/BootCIExpli/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+# BootCI
+
+This module implements bootstrap confidence intervals (CIs) and Fisher-Pitman test for paired samples. It is based on the *bootstrap\_interval* module by Alexander Neshitov  (https://pypi.org/project/bootstrap-interval/, MIT Licence) which implements the bootstrap CI for one sample. 
+
+See https://github.com/ybestgen/BootCIExpli for details.
+
+
