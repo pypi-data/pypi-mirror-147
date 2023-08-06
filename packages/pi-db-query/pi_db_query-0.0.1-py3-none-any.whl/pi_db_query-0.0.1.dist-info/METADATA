@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: pi-db-query
+Version: 0.0.1
+Summary: PI Database Query Tool
+Home-page: UNKNOWN
+Author: 1@0 (Anil Gurbuz)
+Author-email: <anlgrbz91@gmail.com>
+License: UNKNOWN
+Keywords: OSISoft,PI,Query Tool
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: setuptools (>=58.0.4)
+Requires-Dist: pandas (>=1.3.4)
+Requires-Dist: numpy (>=1.21.2)
+Requires-Dist: piconnect (>=0.9.1)
+Requires-Dist: tqdm (>=4.62.3)
+
+A package simplifying use of PIconnect and implements robust querying functions with basic pre-processing of the queried data
+
