@@ -1,0 +1,10 @@
+LICENSE.txt
+README.txt
+setup.py
+Bruni/Pstd.py
+Bruni/__init__.py
+Bruni.egg-info/PKG-INFO
+Bruni.egg-info/SOURCES.txt
+Bruni.egg-info/dependency_links.txt
+Bruni.egg-info/requires.txt
+Bruni.egg-info/top_level.txt
