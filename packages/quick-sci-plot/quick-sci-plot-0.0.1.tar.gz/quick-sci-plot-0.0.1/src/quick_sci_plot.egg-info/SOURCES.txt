@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/quick_sci_plot/__init__.py
+src/quick_sci_plot/functions.py
+src/quick_sci_plot.egg-info/PKG-INFO
+src/quick_sci_plot.egg-info/SOURCES.txt
+src/quick_sci_plot.egg-info/dependency_links.txt
+src/quick_sci_plot.egg-info/requires.txt
+src/quick_sci_plot.egg-info/top_level.txt
+src/quick_sci_plot/__pycache__/__init__.cpython-36.pyc
+src/quick_sci_plot/__pycache__/functions.cpython-36.pyc

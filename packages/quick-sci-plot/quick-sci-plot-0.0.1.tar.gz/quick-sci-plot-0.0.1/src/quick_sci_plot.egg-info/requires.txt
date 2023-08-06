@@ -1,0 +1,10 @@
+pandas
+quick-csv
+matplotlib
+seaborn
+
+[dev]
+check-manifest
+
+[test]
+coverage
