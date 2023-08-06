@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/strsplit/__init__.py
+src/strsplit.egg-info/PKG-INFO
+src/strsplit.egg-info/SOURCES.txt
+src/strsplit.egg-info/dependency_links.txt
+src/strsplit.egg-info/top_level.txt
+test/test.py
