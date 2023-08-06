@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: CNVpytor
+Version: 1.2.1
+Summary: Python extension of CNVnator
+Home-page: https://github.com/abyzovlab/CNVpytor
+Author: Milovan Suvakov, Abyzov Lab, Mayo Clinic
+Author-email: suvakov@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+![CNVpytor Logo](https://raw.githubusercontent.com/abyzovlab/CNVpytor/master/cnvpytor/imgs/cnvpytor_w_640.png)
+
+[3D printable CNVpytor logo (stl file)](https://github.com/abyzovlab/CNVpytor/blob/master/imgs/CNVpytor.stl)
+
+# CNVpytor - a python extension of CNVnator
+
+CNVpytor is a Python package and command line tool for CNV/CNA analysis from depth-of-coverage by mapped reads developed in Abyzov Lab, Mayo Clinic.
+
+Follow [CNVpytor Twitter account](https://twitter.com/cnvpytor).
+
+
+### Citing CNVpytor
+
+CNVpytor: a tool for copy number variation detection and analysis from read depth and allele imbalance in whole-genome sequencing
+<br />Milovan Suvakov, Arijit Panda, Colin Diesh, Ian Holmes, Alexej Abyzov, GigaScience, Volume 10, Issue 11, November 2021, giab074
+[https://doi.org/10.1093/gigascience/giab074](https://doi.org/10.1093/gigascience/giab074)
+
+## Learn how to use CNVpytor in 10 minutes
+
+* [Geting started](GettingStarted.md) with command line interface
+* [Jupyter notebook](examples/PythonLibraryGuide.ipynb): How to use CNVpytor from Python
+* [Google Colab](examples/Colab.ipynb): With CEPH trio example dataset
+* [Video Tutorial](https://www.youtube.com/watch?v=RJMQtrD0SuE): 3-minute YT demo
+
+## Gallery
+
+| | |
+|---|---|
+| Manhattan plot ([see example](examples/manhattan.md))| Circular plot ([see example](examples/circular.md))|
+|<img src="https://raw.githubusercontent.com/abyzovlab/CNVpytor/master/imgs/manhattan.png" width="512px">|<img src="https://raw.githubusercontent.com/abyzovlab/CNVpytor/master/imgs/circular.png" width="512px">|
+| Region plot ([see example](examples/region.md))| Compare regions ([see example](examples/compare.md))|
+|<img src="https://raw.githubusercontent.com/abyzovlab/CNVpytor/master/imgs/region.png" width="512px">|<img src="https://raw.githubusercontent.com/abyzovlab/CNVpytor/master/imgs/compare.png" width="512px">|
+| Merging and annotating calls ([see example](examples/merging.md))|Call somatic CNAs ([see example](examples/JointCaller.md))|
+|<img src="https://raw.githubusercontent.com/abyzovlab/CNVpytor/master/imgs/merging.png" width="512px">|<img src="https://raw.githubusercontent.com/abyzovlab/CNVpytor/master/imgs/joint_caller.png" width="512px">
+
+
+## Install
+
+```
+> pip install cnvpytor
+> cnvpytor -download
+```
+
+## Using
+
+Check [CNVpytor github page](https://github.com/abyzovlab/CNVpytor).
+
+## License
+
+Released under MIT licence.
+
+
