@@ -1,0 +1,6 @@
+fastapi[standard]
+ThreadPoolExecutorPlus
+uvicorn
+aioredis
+msgpack>=1.0.0
+loguru
