@@ -1,0 +1,41 @@
+{
+    "event": {
+        "version": "2.0",
+        "routeKey": "POST /lambda_input_post",
+        "rawPath": "/entropy-default/lambda_input_post",
+        "rawQueryString": "",
+        "headers": {
+            "accept": "*/*",
+            "accept-encoding": "gzip, deflate, br",
+            "content-length": "211",
+            "content-type": "application/json",
+            "host": "xa7tjniy75.execute-api.us-east-1.amazonaws.com",
+            "postman-token": "650bad33-696a-4f82-aa17-85185f9bdc51",
+            "user-agent": "PostmanRuntime/7.28.4",
+            "x-amzn-trace-id": "Root=1-62635ded-1383fc0d643e5d033c244209",
+            "x-forwarded-for": "73.248.52.222",
+            "x-forwarded-port": "443",
+            "x-forwarded-proto": "https"
+        },
+        "requestContext": {
+            "accountId": "372183484622",
+            "apiId": "xa7tjniy75",
+            "domainName": "xa7tjniy75.execute-api.us-east-1.amazonaws.com",
+            "domainPrefix": "xa7tjniy75",
+            "http": {
+                "method": "POST",
+                "path": "/entropy-default/lambda_input_post",
+                "protocol": "HTTP/1.1",
+                "sourceIp": "73.248.52.222",
+                "userAgent": "PostmanRuntime/7.28.4"
+            },
+            "requestId": "RAudIgrpoAMEP5A=",
+            "routeKey": "POST /lambda_input_post",
+            "stage": "entropy-default",
+            "time": "23/Apr/2022:02:01:17 +0000",
+            "timeEpoch": 1650679277429
+        },
+        "body": "{\"user_id\": \"8bfb94ae-020c-4cc5-a7b8-f8aa6243c360\", \"team_id\": \"136d89fe-0563-4484-9689-fbf45b938446\", \"function_id\": \"ae29ee32-8025-4250-bda5-33e43ffbde5d\", \"route_path\": \"path/test\", \"http_method_type\": \"GET\"}",
+        "isBase64Encoded": False
+    }
+}
