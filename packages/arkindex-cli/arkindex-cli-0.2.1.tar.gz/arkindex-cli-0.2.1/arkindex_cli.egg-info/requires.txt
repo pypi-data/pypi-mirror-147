@@ -1,0 +1,10 @@
+arkindex-client==1.0.8
+minio==7.1.7
+python-gnupg==0.4.8
+PyYAML==6.0
+rich==12.2.0
+transkribus-client==0.3.2
+zstandard==0.17.0
+
+[export]
+reportlab==3.6.8
