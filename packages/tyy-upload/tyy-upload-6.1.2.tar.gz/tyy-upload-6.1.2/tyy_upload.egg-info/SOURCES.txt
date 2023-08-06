@@ -1,0 +1,11 @@
+README.md
+setup.py
+file_upload/__init__.py
+file_upload/file_client.py
+file_upload/upload.py
+tyy_upload.egg-info/PKG-INFO
+tyy_upload.egg-info/SOURCES.txt
+tyy_upload.egg-info/dependency_links.txt
+tyy_upload.egg-info/entry_points.txt
+tyy_upload.egg-info/requires.txt
+tyy_upload.egg-info/top_level.txt
