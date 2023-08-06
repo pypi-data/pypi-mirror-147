@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+molann/molann.egg-info/PKG-INFO
+molann/molann.egg-info/SOURCES.txt
+molann/molann.egg-info/dependency_links.txt
+molann/molann.egg-info/requires.txt
+molann/molann.egg-info/top_level.txt
