@@ -1,0 +1,256 @@
+Metadata-Version: 2.1
+Name: reprlist.py
+Version: 1.3.9
+Summary: Create and edit multiline text(str), a tool to realize __repr__.
+Home-page: UNKNOWN
+Author: Juntong
+Author-email: jessica_ye2015@sina.com.cn
+License: MIT License
+Keywords: repr multiline str char text
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+- Create and edit `multiline text`. 
+- A good tool to realize __repr__. 
+
+import it by ``from reprlist import Reprlist``
+
+Initialize it with an iterable object (or None to do nothing), like 'str' or 'list'.
+
+::
+
+    In [1]: from reprlist import Reprlist
+
+    In [2]: Reprlist( '1-2' )        #Same as 'Reprlist(['1', '-', '2'])'.
+    Out[2]: 
+    0:1
+    1:-
+    2:2
+
+    In [3]: Reprlist([               #Also supports 2D list.
+    ...: ['=', '========', '='],
+    ...: ['|', 'Hello world!', '|'],
+    ...: ['=', '========', '='],
+    ...: ])
+    Out[3]: 
+    0:=========    =
+    1:|Hello world!|
+    2:=========    =
+
+Extend by method ``extend`` with an iterable object,
+if iterable's length ≠ R.length, align center.
+You can specify the number of aligned line with method ``smart_extend``.
+
+::
+
+    In [2]: Reprlist(' 1-2').extend([' + ']).extend(' 1-3 ').extend([' = ']).extend('5-6')
+    Out[2]: 
+    0:         
+    1:1   1   5
+    2:- + - = -
+    3:2   3   6
+    4:         
+
+Method ``insert(obj, new_index)``
+inserts str starts at `new_index` with each item obj in the end.
+
+::
+
+    In [7]: Reprlist([' 1 ','---',' 2 ']).insert('1-x', 2)
+    Out[7]: 
+    0: 1    
+    1:---   
+    2:   1
+    3:   -
+    4:   x
+    5: 2    
+
+You can remove empty lines with method ``get_removed_empty_lines``,
+this method will return a new object without changes.
+
+::
+
+    In [2]: Reprlist(' ' if i%2 else '-' for i in range(5)).get_removed_empty_lines()
+    Out[2]: 
+    0:-
+    1:-
+
+Slice with ``[:]``, returns the text in each line;
+
+with ``[:,:]``, you can see text blocks,
+the block shows the text each time you extended.
+
+::
+
+    In [41]: R = Reprlist([' 1','--',' 2'])
+
+    In [42]: R[:, :]
+    Out[42]: [[' 1'], ['--'], [' 2']]
+
+    In [43]: R.extend('-')
+    Out[43]: 
+    0: 1 
+    1:---
+    2: 2 
+
+    In [44]: R[:, :]
+    Out[44]: [[' 1', ' '], ['--', '-'], [' 2', ' ']]
+
+    In [45]: R.insert([' x '], 2)
+    Out[45]: 
+    0: 1    
+    1:---   
+    2:    x 
+    3: 2    
+
+    In [46]: R[:, :]
+    Out[46]: 
+    [[' 1', ' ', '   '],
+    ['--', '-', '   '],
+    ['  ', ' ', ' x '],
+    [' 2', ' ', '   ']]
+
+    In [47]: R[:, -1]
+    Out[47]: ['   ', '   ', ' x ', '   ']
+
+::
+
+    ``dev.Reprlist`` almost compatible with Reprlist, and it doesn't keep text blocks.
+
+Methods:
+===========
+
+    ===============================          ===========================================
+    Name:                                      Doc:
+    ===============================          ===========================================
+    __init__(extend=None,rule=None)            Extend value `extend` 
+                                               if it's not None.
+                                               And set the `rule` from value `rule`,
+                                               if `rule` is None, set with `globle_rule`,
+    -------------------------------          -------------------------------------------
+    extend(o,_chack=True)                      Extend each line, align center.
+                                               (particulars the drawing after table).
+    -------------------------------          -------------------------------------------
+    __add__(val)                               Return R.copy().extend(val). 
+    -------------------------------          -------------------------------------------
+    mid                                        Return len(self)//2.
+    -------------------------------          -------------------------------------------
+    change_mid(mid)                            Draw out until new mid equal given-mid.Same as R.mid = mid.
+    -------------------------------          -------------------------------------------
+    combine()                                  Combine all the str-blocks.
+    -------------------------------          -------------------------------------------
+    separate()                                 Separate all the str-blocks to 1-length str.
+    -------------------------------          -------------------------------------------
+    smart_extend(o[,None,None])                Draw and then extend val 'o'. 
+    -------------------------------          -------------------------------------------
+    get_place_onto(bottom)                     Put self on bottom.
+    -------------------------------          -------------------------------------------
+    line(linenumber)                           Return the str at line 'linenumber'.
+    -------------------------------          -------------------------------------------
+    to_tk(root=None)                           Return root with tk.Label on it, if `root` is None, auto build a tk.TK.
+    ===============================          ===========================================
+
+    **The drawing about 'extend':**
+    ::
+
+               l=6  lo=3
+            0  ___        
+            1  ___        
+            2  ___  ___  0  
+        mid>3  ___  ___  1<
+            4  ___  ___  2  
+            5  ___        
+            6
+            
+                l=3     lo=7
+                       ___ 0
+                       ___ 1
+            0  ___     ___ 2
+        mid>1  ___     ___ 3<
+            2  ___     ___ 4
+                       ___ 5
+                       ___ 6
+                       ____7
+
+What's new ?
+===============
+
+    ::
+        >  `1.3.5` ---> `1.3.6`
+            Optimize the method `extend`.
+        >  `1.3.4` ---> `1.3.5`
+            Now extend an empty obj will not raise `ValueError: Empty sequence got.`.
+
+Demo:
+===========
+    | Creat a class. 
+
+    ::
+
+        from reprlist import Reprlist
+        class UnKnow:
+            def __init__(self, mul = 1, power = 1, num = 0):
+                self.mul = mul
+                self.power = power
+                self.num = num
+            def __repr__(self):
+                r = Reprlist()
+                m = (str(self.mul) + ' * ')if self.mul != 1 else ''
+                r.extend([m + 'X'])
+                if self.power != 1:
+                    r.smart_extend(str(self.power),o_mid=1)
+                if self.num:
+                    n = str(self.num)
+                    if n.startswith('-'):
+                        n = ' - ' + n[1:]
+                    else:
+                        n = ' + ' + n
+                    r.extend([n])
+                return str(r)
+
+    ::
+
+        >>>UnKnow()
+
+        X
+        >>>UnKnow(2,2,3)
+
+             2    
+        2 * X  + 3
+        >>>UnKnow(4,5,-2)
+
+             5    
+        4 * X  - 2
+
+
+log
+===========
+
+    ::
+
+        >  2020-3-12, `1.1.0` --> `1.2.0`
+        1.Add method `line`,`lmove`,'rmove','put_inbox'.
+        2.Add a new class `dev.Reprlist` do `from reprlist.dev import Reprlist` to import it.
+          In dev.Reprlist, the text you extended saved after the text front as line, not block.
+          So slice `R[<int1>,<int2>]` returns the char at the index.
+        
+        >  2020-4-7, `1.2.1` --> `1.2.2`
+        1.You can set `maxstring``maxline``startswith` for Reprlist.
+        >  `1.2.8` ---> `1.2.9`
+        1.Method `place_onto``place_under` add value `wherejust`,
+            `wherejust` 
+                --> 'l' / 'left': storter one in a position of lift.
+                --> 'r' / 'right':storter one in a position of right.
+                --> 'm' / 'middle':storter one in a position of middle.
+        2.Change methods `lmove``rmove`.The original char will be in place of lift if `lmove`, 
+              right if `rmove`.
+        3.Add methods `ljust` and `rjust`.
+        >  `1.2.2` ---> `1.2.10`
+            Remove some bugs.
+        >  `1.2.10` ---> `1.3.4`
+            Add method `to_tk`.
+
