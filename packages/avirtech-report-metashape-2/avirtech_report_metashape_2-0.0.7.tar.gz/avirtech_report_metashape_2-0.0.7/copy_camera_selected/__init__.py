@@ -1,0 +1,1 @@
+from copy_camera_selected.copy_camera_selected import copy_selected_foto
