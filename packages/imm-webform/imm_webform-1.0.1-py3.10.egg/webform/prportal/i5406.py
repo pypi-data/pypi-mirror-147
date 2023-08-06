@@ -1,0 +1,329 @@
+from webform.models.definition import Action,Role
+from webform.models.pr.prmodel import PrModel
+from model.common.address import Addresses
+from typing import List
+from webform.models.pr.prmodel import Family
+
+class F5406():
+    # map of input and output marital status
+    marital_map={
+        "Annulled Marriage":"1: 09",
+        " Common-Law":"2: 03",
+        "Divorced":"3: 04",
+        "Married":"5: 01",
+        "Separated":"4: 05",
+        "Single":"7: 02",
+        "Unknown":"9: 00",
+        "Widowed":"8: 06"
+    }
+    # dict of field ids
+    fild_id = {
+        "pa": {
+            "fn": "#applicantFullName",
+            "dob": "#applicantDOB",
+            "birth_place": "#applicantBirthplace",
+            "marital_status": "#applicantMaritalStatus",
+            "email": "#applicantEmail",
+            "address": "#applicantAddress"
+        },
+        "sp": {
+            "fn": "#partnerFullName",
+            "dob": "#partnerDOB",
+            "birth_place": "#partnerBirthplace",
+            "marital_status": "#partnerMaritalStatus",
+            "email": "#partnerEmail",
+            "address": "#partnerAddress"
+        },
+        "mom": {
+            "fn": "#motherFullName",
+            "dob": "#motherDOB",
+            "birth_place": "#motherBirthplace",
+            "marital_status": "#motherMaritalStatus",
+            "email": "#motherEmail",
+            "address": "#motherAddress"
+        },
+        "dad": {
+            "fn": "#fatherFullName",
+            "dob": "#fatherDOB",
+            "birth_place": "#fatherBirthplace",
+            "marital_status": "#fatherMaritalStatus",
+            "email": "#fatherEmail",
+            "address": "#fatherAddress"
+        }
+    }
+        
+    def __init__(self,pa:PrModel,sp:PrModel | None,dps:List[PrModel]):
+        self.pa=pa
+        self.sp=sp
+        self.dps=dps
+    
+    @property
+    def pdf(self):
+        return [
+            {
+                "action_type":Action.Pdf.value
+            }
+    ]
+    
+    def goTo5406(self):
+        return [
+            {
+            "action_type":Action.Turnpage.value,
+            "label": "Start/Edit for 5406 form",
+            "id": "body > pra-root > pra-localized-app > main > div > pra-intake-landing-page > pra-web-form-table > div > table > tbody > tr:nth-child(13) > td:nth-child(5) > button"
+        }
+        ]
+    
+    def add_family_member(self):
+        return [
+            {
+            "action_type":Action.Turnpage.value,
+            "label": "Add new family member",
+            "id": "body > pra-root > pra-localized-app > main > div > pra-imm5406 > pra-imm5406-start > pra-family-table > button"
+        }
+        ]
+    
+    def pick_whom(self,role):
+        return [{
+            "action_type":Action.Radio.value,
+            "label": "Indicate whether you are filling out this form for",
+            "id": "#principalAppYes" if role==Role.PA else "#principalAppNo"
+        }]
+    
+    def saveContinue(self):
+        return  [{
+            "action_type": Action.Turnpage.value,
+            "label": "Save and continue",
+            "id": "body > pra-root > pra-localized-app > main > div > pra-imm5406 > lib-navigation-buttons > div > button.btn.btn-primary"
+    }]
+        
+    def completeReturn(self):
+        return  [{
+            "action_type": Action.Turnpage.value,
+            "label": "Complete and return to application",
+            "id": "body > pra-root > pra-localized-app > main > div > pra-imm5406 > lib-navigation-buttons > div > button.btn.btn-primary"
+    }]
+
+    def sectionABlock(self,relationship,person:PrModel=None,family_member:Family=None):
+        return [
+            {
+                "action_type": "Input",
+                "label": "Full name",
+                "value": person.personal.first_name+" "+person.personal.last_name if person else family_member.first_name+" "+family_member.last_name,
+                "id": F5406.fild_id[relationship]['fn'],
+                "length": 63,
+                "required": True
+            },
+            {
+                "action_type": "Input",
+                "label": "Date of birth",
+                "value": person.personal.dob.strftime("%Y/%m/%d") if person else family_member.date_of_birth.strftime("%Y/%m/%d"),
+                "id": F5406.fild_id[relationship]['dob'],
+                "length": 11,
+                "required": True
+            },
+            {
+                "action_type": "Input",
+                "label": "Country or territory of birth",
+                "value": person.personal.country_of_birth+"/"+ person.personal.place_of_birth if person else family_member.birth_country+"/"+ family_member.place_of_birth,
+                "id": F5406.fild_id[relationship]['birth_place'],
+                "length": 30,
+                "required": True
+            },
+            {
+                "action_type": "Select",
+                "label": "Marital status",
+                "value": F5406.marital_map[person.marriage.marital_status] if person else F5406.marital_map[family_member.marital_status],
+                "id": F5406.fild_id[relationship]['marital_status'],
+            },
+            {
+                "action_type": "Input",
+                "label": "Email",
+                "value": person.personal.email if person else family_member.email,
+                "id": F5406.fild_id[relationship]['email'],
+                "length": 40,
+                "required": False
+            },
+            {
+                "action_type": "Input",
+                "label": "Address",
+                "value": Addresses(person.address).residential if person else family_member.address,
+                "id": F5406.fild_id[relationship]['address'],
+                "length": 80,
+                "required": True
+            }
+        ]
+    
+    def makeSectionB(self,children:List[Family]):
+        value=[]
+        
+        for index, child in enumerate(children):
+            block=[
+                {
+                    "action_type": Action.Input.value,
+                    "label": "Relationship",
+                    "id": "#relationship"+str(index),
+                    "value":child.relationship,
+                    "length": 27,
+                    "required": True,
+                },
+                {
+                    "action_type": Action.Input.value,
+                    "label": "Full name",
+                    "id": "#fullName"+str(index),
+                    "value":child.first_name+" "+child.last_name,
+                    "length": 63,
+                    "required": True,
+                },
+                {
+                    "action_type": Action.Input.value,
+                    "label": "Date of birth",
+                    "id": "#dob"+str(index),
+                    "value": child.date_of_birth.strftime("%Y/%m/%d"),
+                    "length": 10,
+                    "required": True,
+                },
+                {
+                    "action_type": Action.Input.value,
+                    "label": "Country",
+                    "id": "#countryOfBirth"+str(index),
+                    "value":  child.birth_country+'/'+child.place_of_birth,
+                    "length": 30,
+                    "required": True,
+                },
+                {
+                    "action_type": Action.Select.value,
+                    "label": "Maritial status",
+                    "id": "#maritalStatus"+str(index), 
+                    "value": F5406.marital_map[child.marital_status],
+                },
+                {
+                    "action_type": Action.Input.value,
+                    "label": "Email",
+                    "id": "#emailAddress"+str(index),
+                    "value": child.email,
+                    "length": 40,
+                    "required": False,
+                },
+                {
+                    "action_type": Action.Areatext.value,
+                    "label": "Address",
+                    "id": "#address"+str(index),
+                    "value": child.address,
+                    "length": 80,
+                    "required": True,
+                }
+            ]
+            value.append(block)
+            
+        return [
+            {
+            "action_type": Action.RepeatSection.value,
+            "button_text": "Add another", 
+            "value": value
+            }
+            
+        ] 
+    
+    def makeSectionC(self,siblings:List[Family]):
+        value=[]
+        
+        for index, sibling in enumerate(siblings):
+            block=[
+                {
+                    "action_type": Action.Input.value,
+                    "label": "Relationship",
+                    "id": "#relationship"+str(index),
+                    "value":sibling.relationship,
+                    "length": 27,
+                    "required": True,
+                },
+                {
+                    "action_type": Action.Input.value,
+                    "label": "Full name",
+                    "id": "#fullName"+str(index),
+                    "value":sibling.first_name+" "+sibling.last_name,
+                    "length": 63,
+                    "required": True,
+                },
+                {
+                    "action_type": Action.Input.value,
+                    "label": "Date of birth",
+                    "id": "#dob"+str(index),
+                    "value": sibling.date_of_birth.strftime("%Y/%m/%d"),
+                    "length": 10,
+                    "required": True,
+                },
+                {
+                    "action_type": Action.Input.value,
+                    "label": "Country",
+                    "id": "#countryOfBirth"+str(index),
+                    "value": sibling.birth_country +'/'+sibling.place_of_birth,
+                    "length": 30,
+                    "required": True,
+                },
+                {
+                    "action_type": Action.Select.value,
+                    "label": "Maritial status",
+                    "id": "#maritalStatus"+str(index), 
+                    "value": F5406.marital_map[sibling.marital_status],
+                },
+                {
+                    "action_type": Action.Input.value,
+                    "label": "Email",
+                    "id": "#emailAddress"+str(index),
+                    "value": sibling.email,
+                    "length": 40,
+                    "required": False,
+                },
+                {
+                    "action_type": Action.Areatext.value,
+                    "label": "Address",
+                    "id": "#address"+str(index),
+                    "value": sibling.address,
+                    "length": 80,
+                    "required": True,
+                }
+            ]
+            value.append(block)
+            
+        return [
+            {
+            "action_type": Action.RepeatSection.value,
+            "button_text": "Add another", 
+            "value": value
+            }
+            
+        ] 
+        
+    def sectionA(self,person:PrModel,role):
+        applicant=self.sectionABlock('pa',person=person)
+        
+        spouse=self.sectionABlock('sp',self.sp) if self.sp else []
+        mother_obj=[person for person in person.family if person.relationship.lower()=='mother']
+        father_obj=[person for person in person.family if person.relationship.lower()=='father']
+        mother=self.sectionABlock('mom',family_member= mother_obj[0]) if mother_obj else []
+        father=self.sectionABlock('dad',family_member=father_obj[0]) if father_obj else []
+        return applicant+spouse+mother+father+self.pdf+self.saveContinue()
+
+    def sectionB(self,person:PrModel):
+        children=[p for p in person.family if p.relationship in ['Daughter','Son']]
+        return self.makeSectionB(children)+self.pdf+self.saveContinue()
+    
+    def sectionC(self,person:PrModel):
+        siblings=[p for p in person.family if p.relationship in ['Brother','Sister']]
+        return self.makeSectionC(siblings)+self.pdf+self.saveContinue()
+        
+    def fill(self):
+        pa_form=self.add_family_member()+self.pick_whom(role=Role.PA)+self.sectionA(self.pa,role=Role.PA)+self.sectionB(self.pa)+self.sectionC(self.pa)
+        sp_form=self.add_family_member()+self.pick_whom(role=Role.SP)+self.sectionA(self.sp,role=Role.SP)+self.sectionB(self.sp)+self.sectionC(self.sp) if self.sp else []
+        dp_forms=[]
+        for dp in self.dps:
+            if dp.personal.age>=18:
+                dp_forms+=self.add_family_member()+self.pick_whom(role=Role.DP)+self.sectionA(dp,role=Role.DP)+self.sectionB(dp)+self.sectionC(dp)
+        
+        return self.goTo5406()+pa_form+sp_form+dp_forms+self.completeReturn()
+
+            
+            
+    
