@@ -1,0 +1,7 @@
+README.md
+liker.py
+setup.py
+liker.egg-info/PKG-INFO
+liker.egg-info/SOURCES.txt
+liker.egg-info/dependency_links.txt
+liker.egg-info/top_level.txt
