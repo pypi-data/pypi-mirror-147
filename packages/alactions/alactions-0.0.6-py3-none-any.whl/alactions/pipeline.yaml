@@ -1,0 +1,10 @@
+tasks:
+  runs-on: python
+  steps:
+    - uses: alactions.pypi.next_version
+      name: nv
+      with:
+        package: alactions
+    - uses: alactions.utils.echo
+      with:
+        value: 100
