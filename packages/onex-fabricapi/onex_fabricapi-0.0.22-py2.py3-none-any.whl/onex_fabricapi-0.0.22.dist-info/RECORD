@@ -1,0 +1,8 @@
+onex_fabricapi/__init__.py,sha256=5kTy471KU2OzRGFDgW8O6soNjlr1TR8HgCCASRcBzFc,1426
+onex_fabricapi/onex_fabricapi.py,sha256=LRFmsMDPQqUuZ27Ly29lPcG679E2YEkJUKzGGY41_0M,89766
+onex_fabricapi/onexfabricapi_pb2.py,sha256=W0lWsEZcri8hTKK8wKFZfWYhSsK9X0MAGRTkGwLbUEE,63320
+onex_fabricapi/onexfabricapi_pb2_grpc.py,sha256=yHhjrGpyhOPq2CD33QpcuqI1ZgHoPTjM7zP9JlCz5mM,4108
+onex_fabricapi-0.0.22.dist-info/METADATA,sha256=z-wZJJJSPL2uPeTNG_K85zus-iWT-f8lU1BQp63RlKA,733
+onex_fabricapi-0.0.22.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+onex_fabricapi-0.0.22.dist-info/top_level.txt,sha256=M5jGqiMgzcZvgHiH_egTNnAiJSjplA-nj5_93-yg3Ek,15
+onex_fabricapi-0.0.22.dist-info/RECORD,,
