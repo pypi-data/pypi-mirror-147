@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: stenciler
+Version: 0.1.0
+Summary: stenciler - a CLI tool for building plaintext artifacts by populating Jinja
+Home-page: https://github.com/mtmbutler/stenciler
+Author: Miles Butler
+Author-email: miles@milesbutler.dev
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Text Processing
+Requires-Python: >=3.6
+License-File: LICENSE
+
+UNKNOWN
+
