@@ -1,0 +1,10 @@
+fastapi_queue/__init__.py,sha256=NUSUpQeInch5pTAhR4YHtyUpMvxeT2LTizU_oZPkqFs,10090
+fastapi_queue/gateway_manager.py,sha256=I5PeBAGC6f6I8eFiI3ZOg2ICnvxKeb4fDHR8QYdlGsM,5194
+fastapi_queue/slowapi.py,sha256=BVsvE7remYu7cFV6vQAdSomAwVQFHeFKKr0KeMTvFgg,2473
+fastapi_queue/utils.py,sha256=3DDu-aZcjow8lJkCEY0ErR6n8pgIGOOMPfS1eD9fyUw,311
+fastapi_queue/worker.py,sha256=M0cu-lBaQw0sjCmpDOpvT23x4S_RKOAD7EgIwV4zJbw,12047
+fastapi_queue-0.1.1.dist-info/LICENSE,sha256=pkbJPAEzUXPmgImqtkLvxg7ivb8tI3wJOZPaMYFqrCE,1067
+fastapi_queue-0.1.1.dist-info/METADATA,sha256=q7OwscWpS94LSXnMi8El3zQLV99GHONlEM8y75cEnIA,10745
+fastapi_queue-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+fastapi_queue-0.1.1.dist-info/top_level.txt,sha256=sncfk-MnYm8piTq8EHeDpOJpQI1tjyJugiXGAKm6His,14
+fastapi_queue-0.1.1.dist-info/RECORD,,
