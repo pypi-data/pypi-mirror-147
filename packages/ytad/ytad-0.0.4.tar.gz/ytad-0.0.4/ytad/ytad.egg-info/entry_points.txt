@@ -1,0 +1,2 @@
+[console_scripts]
+update_notifications = ytad.update_notifications:update_video_descriptions
