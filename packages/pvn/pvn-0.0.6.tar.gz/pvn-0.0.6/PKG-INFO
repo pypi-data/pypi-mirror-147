@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pvn
+Version: 0.0.6
+Summary: Biblioteca para processamento padronizado
+Author: Marcus Pavan
+Author-email: pavan.marcus@outlook.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+Projeto inicial para padronizacao de bibliotecas.
+
