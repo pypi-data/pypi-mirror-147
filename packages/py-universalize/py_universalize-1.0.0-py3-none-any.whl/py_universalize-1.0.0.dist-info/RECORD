@@ -1,0 +1,14 @@
+universalize/__init__.py,sha256=SpkTui_zscfWO-wXw3mgM_OV_QKAaPsPY9JbaXgjQto,1607
+universalize/colors.py,sha256=lI-YLXosnyDaj6Tf67fZHVffCWY-DbfbJPG9Xl8vdqE,88
+universalize/errors.py,sha256=qAHWjokNVdGcI3VEFzBn-nIkexyAAiD4hQFhiAXpNq0,1022
+universalize/get_languages.py,sha256=8GVwpGSE9M6-0cwO1ZyI2Vt8Eo6p9d4jSj5KQ_-f_G8,609
+universalize/locale.py,sha256=VM_r3ci7TP0RpG57UgjY9CbceXcoFFumWFKzvdkhKOg,1696
+universalize/py_universalize.py,sha256=2W1dYJj9F4Txx31qowFMwlN-moimbraG4ftD0Pry7xE,232
+universalize/set_primary_language.py,sha256=HnAXR4VaOgwYHIxPwxfDLXYnJGTOqGqIgSgkD7jT-Eo,762
+universalize/setup.py,sha256=y8tfGV0oldFDjqFxHQawzFztqKBbVebG5QHxKKtiU8I,2237
+universalize/shared.py,sha256=Fw-zHbN0qvmHlkvxVUvE0G0t_i3bkxWGlh8AUp0qMIQ,76
+py_universalize-1.0.0.dist-info/LICENSE,sha256=MiwhLBihc_zSaxXszKlQxHaRnRGSpWqgkFfiK-5S9P8,1095
+py_universalize-1.0.0.dist-info/METADATA,sha256=WglVKhEvlP4Y0I8JhxhiR83ZTX2bF-r5lrFWEn6ba98,3110
+py_universalize-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+py_universalize-1.0.0.dist-info/top_level.txt,sha256=uGoUaoQFA8jYjyXZzybH8Dy57BdFHKK1OiJsAxlccwQ,13
+py_universalize-1.0.0.dist-info/RECORD,,
