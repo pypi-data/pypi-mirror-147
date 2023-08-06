@@ -1,0 +1,12 @@
+osc_ingest_trino/__init__.py,sha256=JAOFETaG4Cidwo_ZJNLarAUI7pZYYaCgKnkWHbueqUQ,651
+osc_ingest_trino/boto3_utils.py,sha256=phY4bnOfNJDAgpL1ekw9wYbEYQsE61qMYbq3UEYCfFw,879
+osc_ingest_trino/dotenv_utils.py,sha256=97BIQIQA3KG-vIDUTjhRGWbQv3HKFrcMl0GviHgTfLM,606
+osc_ingest_trino/sqlcols.py,sha256=wlD8ps_Jl7uYczPAsARpBjr73GuOC5s3dvFxx2DBf44,2112
+osc_ingest_trino/sqltypes.py,sha256=f-ASv1oYfKgaPiyNwmTSnC_NJXcn0lvPYX9VBcnC2V0,1254
+osc_ingest_trino/trino_utils.py,sha256=K4gouhm1qCDYEFr82fnJQem6f9xMMtDFURbJUvTMGig,5001
+osc_ingest_tools-0.3.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+osc_ingest_tools-0.3.4.dist-info/METADATA,sha256=PUk4g_ZeSP9H1IPgot8wSfN2qH5SOA1jIqP5YaIaZYU,3911
+osc_ingest_tools-0.3.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+osc_ingest_tools-0.3.4.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+osc_ingest_tools-0.3.4.dist-info/top_level.txt,sha256=EoP7YMDhxAUhujsBGAmGLFoLHS6I8bdX9wxmGR76Aic,17
+osc_ingest_tools-0.3.4.dist-info/RECORD,,
