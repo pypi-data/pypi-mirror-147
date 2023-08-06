@@ -1,0 +1,2 @@
+[console_scripts]
+cymorton = cymorton.cli:main

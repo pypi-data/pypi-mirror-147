@@ -1,0 +1,14 @@
+cymorton/__codec.cpp,sha256=4NEz9CB6UIrhpaSsZRHxzk1y4xjcktKpq07g-372CMM,1805
+cymorton/__codec.hpp,sha256=Xbn-jBfedmv9xmz36QI6lP6UMcLXwu4l73Ta6yV0qPg,599
+cymorton/__init__.py,sha256=wpycfINd6FX5em7ugTM-WI2beFMiitW8SOtpt2tdfbk,60
+cymorton/__main__.py,sha256=9hzt97lIxz-mtEcaYUPZIwKxiESd4oREYfOulFoUMmA,69
+cymorton/cli.py,sha256=04kIs4NQuQ1P3A0hj-cT1hxz5r_ZQ2nkWYLua02gesk,447
+cymorton/codec.cpython-39-darwin.so,sha256=p_G4K9EeSDOpel2g7UHnr3lOGx86MUije6S5B904vng,87272
+cymorton/codec.pxd,sha256=S3sGIUOBqr59HKBapt5IxU37pj3l3GXrbz981qXIhRQ,988
+cymorton/codec.pyx,sha256=N1qCjRGvyl1OyGgctXpw0hPTrVbV9teJ_7WWtXF0ZSE,1146
+cymorton-0.0.2.dist-info/LICENSE,sha256=skVJUNukgQNmXXCh13S2MdCVsTXcgu2NTUVfmOgW-Ow,1104
+cymorton-0.0.2.dist-info/METADATA,sha256=i702Gzbv97icxauCtRpft5ZhymB2PfR1OHgrw7kqqi4,1218
+cymorton-0.0.2.dist-info/WHEEL,sha256=y7K-tAFFmwxZCcxZHQCi4mvY6zksAe2r-anRy0Gcypg,109
+cymorton-0.0.2.dist-info/entry_points.txt,sha256=J_aRSbb_lhAdnzsVM5MjP8H1E7i0PvtsygWtdC1_-Co,47
+cymorton-0.0.2.dist-info/top_level.txt,sha256=CpjzQ5kry9wT2_zM4UzrH9kSSE4fN8ODZ7YogOKO0K8,9
+cymorton-0.0.2.dist-info/RECORD,,
