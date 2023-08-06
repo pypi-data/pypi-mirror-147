@@ -1,0 +1,7 @@
+PyYAML<7.0,>=5.1
+
+[all]
+toml
+
+[toml]
+toml
