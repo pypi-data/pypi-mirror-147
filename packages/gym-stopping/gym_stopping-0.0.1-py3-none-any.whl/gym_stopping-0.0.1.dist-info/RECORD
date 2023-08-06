@@ -1,0 +1,8 @@
+gym_stopping/__init__.py,sha256=cRtUH1vz909KcW2n3bcOoQ36jlqfFVP0Lbip1konCds,322
+gym_stopping/envs/__init__.py,sha256=_P6PMtVtJK-an2fhWgm-CwJueAYl5MXxMg0NPDes4hw,250
+gym_stopping/envs/stopping_env.py,sha256=kvMEMImkeFKI5gDlttAWuYxrrqWbeYLKbMQpsilDbpk,2468
+gym_stopping-0.0.1.dist-info/LICENSE,sha256=KNLkHzrMo8aIPOE-FHixnNRXGDoYLCKJSh-lbRVNXmw,1070
+gym_stopping-0.0.1.dist-info/METADATA,sha256=Trcb1gH5qRCSqPKp4dolBWeSSsmt5QQGJzgF1fYCQW4,915
+gym_stopping-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+gym_stopping-0.0.1.dist-info/top_level.txt,sha256=5rSoDtKuBkEsFz4SQKBrUkK9sZGGPDNxDOCEEpwzwuQ,13
+gym_stopping-0.0.1.dist-info/RECORD,,
