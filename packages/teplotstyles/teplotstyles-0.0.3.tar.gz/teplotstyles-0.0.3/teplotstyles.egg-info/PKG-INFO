@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: teplotstyles
+Version: 0.0.3
+Summary: Pacakge for quickly implementing matplotlib styles.
+Author: Jack Minchin
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Tourism Economics Styles for Python
+
+This package contains a styling theme for creating Tourism Economics plots in Python. The package assumes that plots are produced using matplotlib.
+
+# Usage
+
+1. Install font files. Install Lato font from the `fonts` directory.
+
+2. Install styles package by typing `pip install testyles`. 
+
+3. Import the styles into your project or notebook
+
+```
+from testyles import styles
+styles.init_styles()
+```
+4. Create your plots.
+
+# Examples
+
+![Timeseries example](./examples/ts1.png)
+
+See `examples.ipynb` for a demo.
+
+
+---
+
+# Author & Contributors
+Contact Jack Minchin for any assistance using this package. 
+

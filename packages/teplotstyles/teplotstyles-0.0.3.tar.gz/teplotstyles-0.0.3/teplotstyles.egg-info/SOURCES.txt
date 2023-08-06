@@ -1,0 +1,8 @@
+setup.py
+teplotstyles.egg-info/PKG-INFO
+teplotstyles.egg-info/SOURCES.txt
+teplotstyles.egg-info/dependency_links.txt
+teplotstyles.egg-info/requires.txt
+teplotstyles.egg-info/top_level.txt
+testyles/__init__.py
+testyles/styles.py
