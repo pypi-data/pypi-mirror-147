@@ -1,0 +1,15 @@
+costack_cli/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+costack_cli/build_project.py,sha256=ONXkfW-UWJBCjDgXKvQpIoFAbJbtkSh2N0MkfuxxQY0,6294
+costack_cli/config.py,sha256=shADPFaKd8i8FqIi-iWkjpC8dm0BDROZ5-VxEcYsc8k,1403
+costack_cli/constants.py,sha256=5x8TzW2ADr2XPaekCPxPbQqwRTldWDwvbpImNQ1BZ8M,899
+costack_cli/local_test.py,sha256=LeoCv1M-jueuB9kgrhoUdWiDTzllLme7waegJTn7oMo,3292
+costack_cli/login.py,sha256=c1_KumNyZBReSox_AnSVa-V_2-cyzr9lNGn3-nheA2I,2624
+costack_cli/main.py,sha256=LWmakPk1Gm6YzVUlLEc1DkMNVNnbXYoLsKmk0Y_Qhqo,4679
+costack_cli/sample_files.py,sha256=GNKRmLKk2s1995-e_yCAkywW4qcoRPtxSc1U2Eb1dlI,2038
+costack_cli/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+costack_cli/utils/aws_helpers.py,sha256=TWohOn7MIb4eBBXSW46LpW6BeWBbWxwFyrCFRTXJ11I,785
+costack_cli/utils/requests.py,sha256=ZmRQ6EL47XfYM1ICPidZw3GJqG1xEYegfIC8V62wG0E,2722
+costack_cli-0.1.7.dist-info/entry_points.txt,sha256=txrXouGkpxLllaa2HRlKwXpMHlcAdw_hcD5x0fGLJUc,49
+costack_cli-0.1.7.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+costack_cli-0.1.7.dist-info/METADATA,sha256=Cn8yOkeaSbPXJINa0nzUjKTfczJJiSpqjjgjJJwJBu0,602
+costack_cli-0.1.7.dist-info/RECORD,,
