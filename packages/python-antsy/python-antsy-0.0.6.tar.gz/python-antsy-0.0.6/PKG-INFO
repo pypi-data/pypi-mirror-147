@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: python-antsy
+Version: 0.0.6
+Summary: Python package for integrating Antsy in other applications
+Home-page: https://github.com/grupodyd/python-antsy
+Author: Juan F. Duque
+Author-email: jfelipe@grupodyd.com
+License: MIT
+Keywords: antsy
+Platform: UNKNOWN
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, !=3.5.*
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+[![Release](https://github.com/grupodyd/python-antsy/actions/workflows/release.yml/badge.svg)](https://github.com/grupodyd/python-antsy/actions/workflows/release.yml)
+# python-antsy
+ Python package for integration of Antsy in other applications
+
+Installing
+============
+
+```bash
+pip install python-antsy
+```
+
+Usage
+=====
+```python3
+from python-antsy import Antsy
+```
+
