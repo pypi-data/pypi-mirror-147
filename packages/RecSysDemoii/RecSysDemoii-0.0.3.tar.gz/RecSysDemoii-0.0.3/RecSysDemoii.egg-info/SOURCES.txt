@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+RecSysDemoii/__init__.py
+RecSysDemoii.egg-info/PKG-INFO
+RecSysDemoii.egg-info/SOURCES.txt
+RecSysDemoii.egg-info/dependency_links.txt
+RecSysDemoii.egg-info/requires.txt
+RecSysDemoii.egg-info/top_level.txt
