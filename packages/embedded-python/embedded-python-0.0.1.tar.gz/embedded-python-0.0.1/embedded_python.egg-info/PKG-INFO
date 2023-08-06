@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: embedded-python
+Version: 0.0.1
+Summary: A small example package
+Home-page: https://www.embeddedpython.com/
+Author: Peter Thompson
+Author-email: peter.thompson92@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+Embedded Python
+===============
+
+Embedded Python is a library for running Python code on microcontrollers without requiring a Python runtime.
+
+
