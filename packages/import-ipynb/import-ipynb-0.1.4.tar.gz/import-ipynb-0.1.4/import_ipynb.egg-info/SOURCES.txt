@@ -1,0 +1,9 @@
+LICENSE.txt
+README.rst
+import_ipynb.py
+setup.py
+import_ipynb.egg-info/PKG-INFO
+import_ipynb.egg-info/SOURCES.txt
+import_ipynb.egg-info/dependency_links.txt
+import_ipynb.egg-info/requires.txt
+import_ipynb.egg-info/top_level.txt
