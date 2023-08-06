@@ -1,0 +1,11 @@
+LICENSE
+README.rst
+httpSignature.py
+httpie_signature.py
+setup.py
+httpie_signature.egg-info/PKG-INFO
+httpie_signature.egg-info/SOURCES.txt
+httpie_signature.egg-info/dependency_links.txt
+httpie_signature.egg-info/entry_points.txt
+httpie_signature.egg-info/requires.txt
+httpie_signature.egg-info/top_level.txt
