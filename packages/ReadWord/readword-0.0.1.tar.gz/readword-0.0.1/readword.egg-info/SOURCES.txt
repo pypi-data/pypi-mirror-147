@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+readword.egg-info/PKG-INFO
+readword.egg-info/SOURCES.txt
+readword.egg-info/dependency_links.txt
+readword.egg-info/requires.txt
+readword.egg-info/top_level.txt
