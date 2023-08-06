@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: ggviz
+Version: 0.0.0a0
+Summary: ggviz
+Home-page: https://github.com/munro/python-ggviz
+License: MIT
+Author: Ryan Munro
+Author-email: 500774+munro@users.noreply.github.com
+Requires-Python: >=3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Documentation, https://ggviz.readthedocs.io/en/latest/
+Project-URL: Repository, https://github.com/munro/python-ggviz
+Description-Content-Type: text/markdown
+
+# ggviz
+

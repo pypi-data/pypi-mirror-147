@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "ggviz"
+version = "0.0.0-alpha"
+
+authors = ["Ryan Munro <500774+munro@users.noreply.github.com>"]
+description = "ggviz"
+documentation = "https://ggviz.readthedocs.io/en/latest/"
+homepage = "https://github.com/munro/python-ggviz"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/munro/python-ggviz"
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=1.0.0"]
