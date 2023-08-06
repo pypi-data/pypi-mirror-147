@@ -1,0 +1,5 @@
+django<4.0,>=3.2.8
+django-nested-admin
+django-phonenumber-field[phonenumbers]
+simpel-utils
+pycountry
