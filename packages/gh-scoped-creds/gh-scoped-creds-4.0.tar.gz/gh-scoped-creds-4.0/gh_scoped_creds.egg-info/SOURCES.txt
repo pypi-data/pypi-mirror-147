@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+gh_scoped_creds/__init__.py
+gh_scoped_creds.egg-info/PKG-INFO
+gh_scoped_creds.egg-info/SOURCES.txt
+gh_scoped_creds.egg-info/dependency_links.txt
+gh_scoped_creds.egg-info/entry_points.txt
+gh_scoped_creds.egg-info/requires.txt
+gh_scoped_creds.egg-info/top_level.txt
