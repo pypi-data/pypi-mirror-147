@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: tabdeal-python
+Version: 0.1.1
+Summary: Official python package to use Tabdeal API
+Home-page: https://github.com/Tabdeal-Exchange/tabdeal-python
+Author: Amin Basiri
+Author-email: amin.bsr99@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Tabdeal-Exchange/tabdeal-python/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Tabdeal API Python SDK
+
+Official python package to use [Tabdeal](https://www.tabdeal.org/) API
+
+
+## Installation
+
+```
+$ pip install tabdeal-python
+```
+
+## Usage
+
+```
+from tabdeal.enums import OrderSides, OrderTypes
+from tabdeal.spot import Spot
+
+api_key = '<api_key>'
+api_secret = '<api_secret>'
+
+
+client = Spot(api_key, api_secret)
+
+order = client.new_order(symbol='BTC_IRT',
+                         side=OrderSides.BUY,
+                         type=OrderTypes.MARKET,
+                         quantity=0.002)
+```
+
+
