@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% load static %}
+{% block extra_head %}
+<link rel="stylesheet" href="{% static 'css/jquery-ui.css' %}">
+<style>
+.ui-autocomplete-loading {
+  background: white url({% static "css/images/ui-anim_basic_16x16.gif" %}) right center no-repeat;
+}
+</style>
+{% endblock %}
+
+{% block extra_body %}
+        <script src="{% static 'js/jquery.js' %}" charset="utf-8"></script>
+        <script src="{% static 'js/jquery-ui.js' %}"></script>
+        <script src="{% static 'js/demo/jquery-autocomplete.js' %}"></script>
+{% endblock %}

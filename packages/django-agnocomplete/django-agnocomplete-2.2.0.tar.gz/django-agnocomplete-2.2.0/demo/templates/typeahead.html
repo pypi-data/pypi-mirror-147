@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% load static %}
+{% block extra_head %}
+<link rel="stylesheet" href="{% static 'css/typeahead.css' %}">
+{% endblock %}
+
+{% block extra_body %}
+        <script src="{% static 'js/jquery.js' %}" charset="utf-8"></script>
+        <script src="{% static 'js/typeahead.js' %}" charset="utf-8"></script>
+        <script src="{% static 'js/demo/typeahead.js' %}" charset="utf-8"></script>
+{% endblock %}

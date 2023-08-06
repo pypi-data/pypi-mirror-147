@@ -1,0 +1,13 @@
+# Python
+*.pyc
+__pycache__/
+# tox builds
+.tox/
+*.sqlite3
+*.egg-info/
+.coverage
+# Docs
+docs/_build/
+# setup.py stuff
+dist/
+build/

@@ -1,0 +1,12 @@
+Django
+six
+requests
+
+[dev]
+black
+isort
+flake8
+pytest
+pytest-cov
+pytest-django
+tox

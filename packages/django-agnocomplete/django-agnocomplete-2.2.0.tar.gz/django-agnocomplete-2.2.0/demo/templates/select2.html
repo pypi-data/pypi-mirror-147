@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% load static %}
+{% block extra_head %}
+<link rel="stylesheet" href="{% static 'css/select2.css' %}">
+{% endblock %}
+
+{% block extra_body %}
+        <script src="{% static 'js/jquery.js' %}" charset="utf-8"></script>
+        <script src="{% static 'js/select2.js' %}" charset="utf-8"></script>
+        <script src="{% static 'js/demo/select2.js' %}" charset="utf-8"></script>
+{% endblock %}
