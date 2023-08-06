@@ -1,0 +1,20 @@
+[build-system]
+# Minimum requirements for the build system to execute.
+requires = ["setuptools", "wheel"]  # PEP 508 specifications.
+
+[tool.black]
+skip-string-normalization = false
+
+[tool.isort]
+profile = "black"
+known_third_party = ["pytest"]
+
+[tool.darker]
+src = [
+    "action",
+    "src",
+]
+revision = "origin/master..."
+# The empty linter list is here so `.github/workflows/python-package.yml` can
+# add Pylint in certain run configurations:
+lint = []
