@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: contextdata
+Version: 0.1.2
+Summary: a package to manage contextual data across your program, and output it to logs
+Home-page: https://github.com/Avivsalem/ContextData
+Author: Aviv Salem
+Author-email: avivsalem@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# ContextData
+a package to manage contextual data across your program, and output it to logs
+
+
