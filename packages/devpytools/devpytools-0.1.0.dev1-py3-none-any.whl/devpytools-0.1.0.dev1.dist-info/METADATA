@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: devpytools
+Version: 0.1.0.dev1
+Summary: Various dev tools.
+Home-page: https://github.com/glowlex/devpytools
+Author: glowlex
+Author-email: glowlex@yandex.ru
+License: MIT
+Keywords: tools,cache,development
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+License-File: LICENSE
+
+UNKNOWN
+

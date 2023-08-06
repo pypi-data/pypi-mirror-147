@@ -1,0 +1,10 @@
+devpytools/__init__.py,sha256=mjAw5cMyqgaq4wMAd2jmST92hWA2iJGFKHKzBUduMCI,23
+devpytools/cacher/__init__.py,sha256=UtaBFREm92OfIQ8YzoghWN4fb6UmN8Wx7SSdaffh6Xc,124
+devpytools/cacher/cache_provider.py,sha256=rUY6D1B6YlnIlDQkjp15y8tbAesUcWM1KN9m8OlfjqQ,2580
+devpytools/cacher/cacher.py,sha256=X2-MGdpHDiHJ8GLR1fn7B9rAh36JzmRm1CIfRrBzMB8,4154
+devpytools/cacher/general.py,sha256=5hzluYWNIVF7jColMDoKbLFzPReJkLeEB7JoPt7GZV0,70
+devpytools-0.1.0.dev1.dist-info/LICENSE,sha256=lWJB8Eh2m6ehvtMADtnhRhQ0hxg_n4Ox_Hf2MpVwFMM,1085
+devpytools-0.1.0.dev1.dist-info/METADATA,sha256=zB5xTu6yEFacOjikoaT8pOb3tmH2xkwuXoSKbvKvAnc,795
+devpytools-0.1.0.dev1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+devpytools-0.1.0.dev1.dist-info/top_level.txt,sha256=T8QcS58Yt0Z-EPGZPoJlRnciNbweLiLhITpN0GOiyG0,11
+devpytools-0.1.0.dev1.dist-info/RECORD,,
