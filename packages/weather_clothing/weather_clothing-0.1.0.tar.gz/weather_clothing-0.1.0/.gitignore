@@ -1,0 +1,16 @@
+# ignore venv
+venv
+
+# ignore test output
+coverage.xml
+.coverage
+.pytest_cache
+.mypy_cache
+.tox
+
+# ignore vscode
+.vscode
+
+# ignore cache
+__pycache__
+dist

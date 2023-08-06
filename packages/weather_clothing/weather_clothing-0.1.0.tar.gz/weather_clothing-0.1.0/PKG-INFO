@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: weather_clothing
+Version: 0.1.0
+Summary: A Package to help decide what outdoor clothing is appropriate based on the forecast.
+Author-email: Duncan van Zyl <duncanvanzyl@gmail.com>
+Requires-Python: ~=3.9
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Project-URL: Home, https://github.com/duncanvanzyl/weather-clothing
+
+# Outside Clothes
+
+A module to help choose outside clothes based on the conditions outside.
+
+## General Usage
+
+A list of clothes is compared to the a list of weather forecast dictionaries. If
+the clothing item is appropriate for the forecast, it returns True and is
+incremented. Once all comparisons are done, then the clothing item with the
+lowest value is the recommended item to wear.
+
+> See [Example Test](https://github.com/duncanvanzyl/weather-clothing/blob/main/tests/test_example.py) for basic usage.
