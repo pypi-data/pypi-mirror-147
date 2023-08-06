@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: kcevan
+Version: 0.0.3
+Summary: evan's private utils.
+License: MIT Licence
+Keywords: pip,kcevan
+Platform: any
+Requires-Dist: live
+
+evan's private utils.
+
