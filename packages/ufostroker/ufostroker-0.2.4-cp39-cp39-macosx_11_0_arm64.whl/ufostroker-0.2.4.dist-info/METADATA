@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: ufostroker
+Version: 0.2.4
+Classifier: Programming Language :: Rust
+Classifier: Topic :: Multimedia :: Graphics :: Editors :: Vector-Based
+Requires-Dist: ufo2ft
+Requires-Dist: beziers>=0.4.0
+Summary: Python wrapper around the MFEKmath library
+Author: Simon Cozens <simon@simon-cozens.org>
+Author-email: Simon Cozens <simon@simon-cozens.org>
+Project-URL: Source Code, https://github.com/simoncozens/ufostroker-py
