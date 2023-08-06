@@ -1,0 +1,9 @@
+setup.py
+raspi_system/__init__.py
+raspi_system/hwinfo.py
+raspi_system/network.py
+raspi_system.egg-info/PKG-INFO
+raspi_system.egg-info/SOURCES.txt
+raspi_system.egg-info/dependency_links.txt
+raspi_system.egg-info/requires.txt
+raspi_system.egg-info/top_level.txt
