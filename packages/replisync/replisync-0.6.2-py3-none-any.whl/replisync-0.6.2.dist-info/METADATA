@@ -1,0 +1,96 @@
+Metadata-Version: 2.1
+Name: replisync
+Version: 0.6.2
+Summary: Транслятор репликации в задачи Celery
+Home-page: https://stash.bars-open.ru/projects/BUDG/repos/replisync
+Author: BARS Group
+Author-email: kirov@bars-open.ru
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: Web Environment
+Classifier: Natural Language :: Russian
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 5 - Production/Stable
+Description-Content-Type: text/markdown
+Requires-Dist: psycopg2 (==2.9.1)
+Requires-Dist: celery (==5.2.3)
+
+# Решение для синхронизации БД - RepliSync
+
+## Описание
+
+## Принцип работы
+
+## Параметры конфигурационного файла
+
+## Установка и настройка
+
+## Полезные ссылки
+
+- [Инструкция по локальному развороту replisync без docker для среды разработки](https://conf.bars.group/pages/viewpage.action?pageId=168684554)
+- [Инструкция по разделению БД ЗиК и Бухгалтерии](https://conf.bars.group/pages/viewpage.action?pageId=74975647)
+- [Решение для синхронизации БД - RepliSync](https://conf.bars.group/pages/viewpage.action?pageId=56473130)
+
+Версии
+
+ **0.6.2**
+- BOBUH-20060 Явное указание версий celery и psycopg2.
+
+**0.6.1**
+- BOBUH-20060 Исправление потенциальной ошибки при write-in-chunks = False;
+- BOBUH-20060 Исправление логирования;
+- BOBUH-20060 Добавление учета разбиения сообщения на чанки.
+
+**0.6.0**
+- BOBUH-20060 Добавлен конфиг isort;
+- BOBUH-20060 Добавление файлов с зависимостями и их использование в setup.py;
+- BOBUH-20060 Формирование корректного начального LSN. Ошибка была связана с установкой дефолтного значения параметра, которое не равнялось None и приводило к невыполнению условия по получению restart_lsn реплики;
+- BOBUH-20060 Определение максимального LSN и отправка именно его на фиксацию. Исключается случай, когда может прийти сообщение, где будет указан LSN меньше уже найденного максимального и его фиксация, которая может привести к повторному прогону сообщений;
+- BOBUH-20060 Разделение файлов CHANGES.md и README.md;
+- BOBUH-20060 Добавление файла MANIFEST.in;
+- BOBUH-20060 Доработка setup.py в части указания версии Python 3, формирования описания проекта;
+- BOBUH-20060 Оптимизация преобразования сообщений;
+
+**0.5.8**
+- Добавлено логирование значения flush_lsn при отправке сообщения на уровне info, а также времени, потраченного на выполнение отправки сообщения, на уровне debug.
+
+**0.5.7**
+- в Wal2JsonReceiver включен параметр write-in-chunks для чтения изменений из слота репликации по частям. Отправка изменений на обработку в рамках транзакции выполняется одним сообщением.
+- скорректирован учет bool параметров из .conf
+
+**0.5.6**
+- Добавлен параметр includes_extra для задания служебных таблиц, изменения по которым также нужно передавать в сообщениях
+- Добавлен необязательный параметр output_dir для указания директории, в которой в виде файлов сохраняется информация о синхронизируемых данных для последующей обработки.
+
+**0.5.5**
+- добавлена возможность указания очереди, в которую будет отправлена задача, 
+если в изменениях присутствует определенная таблица. для этого в файл конфигурации 
+необходимо добавить секцию [routing] и указать соответствие очереди и перечня 
+таблиц (через запятую):
+```
+[routing]
+replisync_users = auth_user
+replisync_contragent = contragent_supplier, contragent_corporation, contragent_person, contragent_address 
+```
+
+**0.5.4**
+- Добавлен тип long_description в setup.py
+- Скорректирован .gitignore
+
+**0.5.3**
+- Добавлена поддержка параметров
+   task_default_routing_key
+   task_default_queue
+   в replisync.conf для возможности отделить
+   replisync от общих очередей 
+
+
