@@ -1,0 +1,3 @@
+[console_scripts]
+dc_schema=dc_schema.cli:main
+
