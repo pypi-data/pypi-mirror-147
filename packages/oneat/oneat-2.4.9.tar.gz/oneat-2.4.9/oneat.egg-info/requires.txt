@@ -1,0 +1,9 @@
+pandas
+vollseg
+scipy
+tifffile
+matplotlib
+imagecodecs
+napari[all]
+diplib
+opencv-python
