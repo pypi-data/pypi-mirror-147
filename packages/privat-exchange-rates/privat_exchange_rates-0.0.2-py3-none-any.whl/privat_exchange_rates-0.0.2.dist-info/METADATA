@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: privat-exchange-rates
+Version: 0.0.2
+Summary: A small library for getting information on cash exchange rates of PrivatBank and the NBU on the selected date
+Home-page: UNKNOWN
+Author: Valentyn Khoroshchak
+Author-email: valentin.khoroshchak@gmail.com
+License: MIT
+Project-URL: Source, https://github.com/ValentynKhoroshchak/privat-exchange-rates
+Keywords: python,exchange rate,privatbank
+Platform: UNKNOWN
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/privat_exchange_rates?style=for-the-badge)
+
+**Official Repo:** https://github.com/ValentynKhoroshchak/privat-exchange-rates
+
+It uses the following libraries:
+
+- [Requests](https://pypi.org/project/requests/) for requests to exchange rates
+
+# Quick Install / Usage
+
+```bash
+pip install privat_exchange_rates
+```
+
+```python
+from datetime import datetime
+
+from privat_exchange_rates import get_exchange_rates
+
+
+def main():
+    exchange_rates = get_exchange_rates(datetime(day=21, month=4, year=2022))
+
+    print(exchange_rates)
+    # Output:
+    # {
+    #     'date': '21.04.2022',
+    #     'bank': 'PB',
+    #     'baseCurrency': 980,
+    #     'baseCurrencyLit': 'UAH',
+    #     'exchangeRate': [{
+    #         "baseCurrency": "UAH",
+    #         "currency": "AUD",
+    #         "saleRateNB": 12.8319250,
+    #         "purchaseRateNB": 12.8319250
+    #     }]
+    # }
+```
+
