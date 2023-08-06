@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+eval/__init__.py
+eval/__main__.py
+eval/evaluator.py
+eval/interpreter.py
+eval/lexer.py
+eval/parse.py
+eval/tokens.py
+eval/values.py
+expression_parse_eval.egg-info/PKG-INFO
+expression_parse_eval.egg-info/SOURCES.txt
+expression_parse_eval.egg-info/dependency_links.txt
+expression_parse_eval.egg-info/entry_points.txt
+expression_parse_eval.egg-info/top_level.txt
