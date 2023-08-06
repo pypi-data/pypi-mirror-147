@@ -1,0 +1,5 @@
+include *.py
+recursive-include src *.py
+recursive-include src *.pyc
+recursive-include test *.py
+recursive-include test *.pyc

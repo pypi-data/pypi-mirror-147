@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+main.py
+setup.py
+src/__init__.py
+src/check_pack/__init__.py
+src/check_pack/check_pack.py
+src/check_pack/__pycache__/__init__.cpython-39.pyc
+src/check_pack/__pycache__/check_pack.cpython-39.pyc
+src/funproject_SV.egg-info/PKG-INFO
+src/funproject_SV.egg-info/SOURCES.txt
+src/funproject_SV.egg-info/dependency_links.txt
+src/funproject_SV.egg-info/top_level.txt
+test/check_pack/test_check_pack.py
+test/check_pack/__pycache__/test_check_pack.cpython-39-pytest-7.1.1.pyc
