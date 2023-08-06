@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/PipUpdater/PipUpdater.py
+src/PipUpdater/__init__.py
+src/PipUpdater.egg-info/PKG-INFO
+src/PipUpdater.egg-info/SOURCES.txt
+src/PipUpdater.egg-info/dependency_links.txt
+src/PipUpdater.egg-info/top_level.txt
