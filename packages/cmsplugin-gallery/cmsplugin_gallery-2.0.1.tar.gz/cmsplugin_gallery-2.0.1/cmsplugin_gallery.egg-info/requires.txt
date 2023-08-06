@@ -1,0 +1,4 @@
+django-cms>=3.9.0
+django-inline-ordering==1.0.2
+easy-thumbnails
+django-filer
