@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: slimjim
+Version: 0.0.4
+Summary: Hackish keystroke injection tool 
+Home-page: https://github.com/cltrudeau/slimjim
+Author: Christopher Trudeau
+Author-email: ctrudeau+pypi@arsensa.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE
+
+# slimjim
+
+Absolute hack for injecting pretend typing into an application when recording
+screen casts.
+
+Requires command-line tool [sendkeys](https://github.com/socsieng/sendkeys)
+installed to do the typing injection.
+
+Two commands:
+
+* `slimfile` takes a file and uses it as a source for content to inject
+* `slimspec` takes a content specification containing instruction fields and
+    injectable content
+
+
+# Install
+
+`pip install slimjim`
+
+Commands will be in your path
+
+
+## Warning
+
+This project ships with a copy of an unreleased version of a widget from 
+[asciimatics](https://asciimatics.readthedocs.io/en/stable/index.html) in
+order to take advantage of features that haven't been released yet.
+
+

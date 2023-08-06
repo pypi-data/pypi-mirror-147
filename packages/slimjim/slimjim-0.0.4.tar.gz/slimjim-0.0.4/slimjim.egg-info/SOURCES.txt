@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+bin/slimfile
+bin/slimspec
+slimjim/__init__.py
+slimjim/codebox.py
+slimjim/file_frame.py
+slimjim/matics_box.py
+slimjim/spec_frame.py
+slimjim/util.py
+slimjim.egg-info/PKG-INFO
+slimjim.egg-info/SOURCES.txt
+slimjim.egg-info/dependency_links.txt
+slimjim.egg-info/requires.txt
+slimjim.egg-info/top_level.txt
