@@ -1,0 +1,10 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.cfg
+src/lion/__init__.py
+src/lion/peer.py
+src/pylion_yellowakita.egg-info/PKG-INFO
+src/pylion_yellowakita.egg-info/SOURCES.txt
+src/pylion_yellowakita.egg-info/dependency_links.txt
+src/pylion_yellowakita.egg-info/top_level.txt

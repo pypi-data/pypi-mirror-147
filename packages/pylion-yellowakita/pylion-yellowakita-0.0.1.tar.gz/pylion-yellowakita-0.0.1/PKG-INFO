@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: pylion-yellowakita
+Version: 0.0.1
+Summary: Uma biblioteca simples para comunicação p2p na rede local
+Author: Marcel Guinhos
+Author-email: mguinhos@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# Lion
+Uma biblioteca simples para comunicação p2p na rede local
+
+## Instalar
+```bash
+$ pip install -e lion
+```
+
+## Exemplo
+```python
+from random import randint
+from peer import Peer
+
+class HelloPeer(Peer):
+    def on_found(self, peer: "Peer"):
+        print('i am', self)
+        print('found', peer)
+
+        peer.send(b'hello peer!')
+    
+    def on_message(self, peer: "Peer", message: bytes):
+        print('received', message, 'from', peer)
+
+
+if __name__ == '__main__':
+    HelloPeer('0.0.0.0', randint(8800, 8888)).run()
+```
+
+---
+2022 - Marcel Guinhos de Menezes
+
