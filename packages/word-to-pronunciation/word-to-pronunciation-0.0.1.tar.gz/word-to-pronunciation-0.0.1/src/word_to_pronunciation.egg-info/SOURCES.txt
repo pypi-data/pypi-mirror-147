@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/word_to_pronunciation/__init__.py
+src/word_to_pronunciation/api.py
+src/word_to_pronunciation/core.py
+src/word_to_pronunciation/types.py
+src/word_to_pronunciation/utils.py
+src/word_to_pronunciation.egg-info/PKG-INFO
+src/word_to_pronunciation.egg-info/SOURCES.txt
+src/word_to_pronunciation.egg-info/dependency_links.txt
+src/word_to_pronunciation.egg-info/entry_points.txt
+src/word_to_pronunciation.egg-info/requires.txt
+src/word_to_pronunciation.egg-info/top_level.txt
