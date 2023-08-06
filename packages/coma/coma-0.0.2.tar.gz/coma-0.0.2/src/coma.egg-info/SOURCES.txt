@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/coma/__init__.py
+src/coma.egg-info/PKG-INFO
+src/coma.egg-info/SOURCES.txt
+src/coma.egg-info/dependency_links.txt
+src/coma.egg-info/top_level.txt
