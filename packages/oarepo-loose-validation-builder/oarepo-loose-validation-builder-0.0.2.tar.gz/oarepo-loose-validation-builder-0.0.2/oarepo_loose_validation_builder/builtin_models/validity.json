@@ -1,0 +1,52 @@
+{
+  "model": {
+    "properties": {
+      "metadata_validity": {
+        "properties": {
+          "errors": {
+            "properties": {
+              "path": {
+                "type": "keyword",
+                "oarepo:sample": {
+                  "skip": true
+                }
+              },
+              "key": {
+                "type": "keyword",
+                "oarepo:sample": {
+                  "skip": true
+                }
+              },
+              "structural": {
+                "type": "boolean",
+                "oarepo:sample": {
+                  "skip": true
+                }
+              }
+            }
+          },
+          "invalid_fields": {
+            "properties": {
+              "path": {
+                "type": "keyword",
+                "oarepo:sample": {
+                  "skip": true
+                }
+              },
+              "value": {
+                "type": "raw",
+                "oarepo:sample": {
+                  "skip": true
+                }
+              }
+            }
+          }
+        },
+        "oarepo:marshmallow": {
+          "nested": true,
+          "class": ".schema.OarepoValiditySchema"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "jsonschema-property": {
+    "properties": {
+      "oarepo:validity": {
+        "type": "object",
+        "properties": {
+          "non-structural": {
+            "type": "array"
+          }
+        }
+      }
+    }
+  }
+}

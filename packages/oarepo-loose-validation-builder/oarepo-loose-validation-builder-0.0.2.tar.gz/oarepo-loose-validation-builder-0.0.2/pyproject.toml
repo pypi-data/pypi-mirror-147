@@ -1,0 +1,56 @@
+[tool.poetry]
+name = "oarepo-loose-validation-builder"
+version = "0.0.2"
+description = ""
+authors = ["Alzbeta Pokorna <alzbeta.pokorna@cesnet.cz>"]
+readme = "README.md"
+
+packages = [
+    { include = "oarepo_loose_validation_builder" }
+]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<4.0"
+json5 = { version = "^0.9.6", optional = true }
+libcst = "^0.4.1"
+click = ">=7.1"
+tomlkit = "^0.9.0"
+jsonpointer = "^2.2"
+PyYAML = { version = "^6.0", optional = true }
+Jinja2 = "^3.0.3"
+isort = "^5.10.1"
+langcodes = ">=3.3.0"
+oarepo-model-builder = ">=0.9.17"
+marshmallow = "^3.14.1"
+
+
+
+[tool.poetry.extras]
+json5 = ["json5"]
+pyyaml = ["pyyaml"]
+
+[tool.poetry.dev-dependencies]
+pytest = "^6"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.plugins."oarepo_model_builder.builders"]
+0901-invenio_validity_component = "oarepo_loose_validation_builder.invenio.invenio_validity_component:InvenioRecordSearchOptionsBuilderMultilingual"
+0902-invenio_validation_marshmallow_imports = "oarepo_loose_validation_builder.invenio.invenio_validation_marshmallow_imports:InvenioValidationMarshmallowImports"
+
+1101-invenio_validation_poetry = "oarepo_loose_validation_builder.invenio.invenio_validation_poetry:InvenioValidationPoetryBuilder"
+
+
+[tool.poetry.plugins."oarepo_model_builder.model_preprocessors"]
+30-validation-model = "oarepo_loose_validation_builder.model_preprocessors.validation_model:InvenioLooseModelPreprocessor"
+
+[tool.poetry.plugins."oarepo.models"]
+validity = "oarepo_loose_validation_builder.builtin_models:validity.json"
+
+[tool.poetry.plugins."oarepo_model_builder.property_preprocessors"]
+900-validity = "oarepo_loose_validation_builder.property_preprocessors.validity:ValidityPreprocessor"
+
+[tool.poetry.plugins."oarepo.model_schemas"]
+errors = "oarepo_loose_validation_builder:errors.json5"
