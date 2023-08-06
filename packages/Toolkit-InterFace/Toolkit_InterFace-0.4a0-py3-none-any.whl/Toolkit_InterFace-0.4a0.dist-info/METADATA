@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: Toolkit-InterFace
+Version: 0.4a0
+Summary: Tkinter Box
+Home-page: https://github.com/XiangQinxi/Tki
+Author: XiangQinxi
+Author-email: XiangQinxi@outlook.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/XiangQinxi
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Tcl
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: Freeware
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft
+Classifier: Operating System :: Unix
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Tki ( Toolkit-InterFace ) 
+___
+### 将`Tkinter`组件封装升级，更新更多组件，缩短开发周期。
+
+
+# 快速入手
+___
+```python
+from Tki.KiWidgets import *  # 导入
+
+Window = KiWindow()  # 设置窗口
+Window.Run()  # 运行窗口
+```
+
