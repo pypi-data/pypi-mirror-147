@@ -1,0 +1,4 @@
+[console_scripts]
+bw-export = bwexport:cli
+bw-export-gui = bwexport_gui:main
+
