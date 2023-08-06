@@ -1,0 +1,9 @@
+#!/usr/bin/env python
+
+import terraform_binary_installer
+import subprocess as sp
+import sys
+
+path = terraform_binary_installer.__path__[0]
+command = path + "/bin/terraform"
+sp.call([command] + sys.argv)

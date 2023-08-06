@@ -1,0 +1,7 @@
+setup.py
+scripts/terraform
+terraform_binary_installer/__init__.py
+terraform_binary_installer.egg-info/PKG-INFO
+terraform_binary_installer.egg-info/SOURCES.txt
+terraform_binary_installer.egg-info/dependency_links.txt
+terraform_binary_installer.egg-info/top_level.txt

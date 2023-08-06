@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: terraform-binary-installer
+Version: 1.0.4
+Summary: Python wrapper for install terraform version corresponding to package version.
+Home-page: https://github.com/imanazari70/terraform-binary-installer
+Author: Iman Azari
+Author-email: azari@mahsan.co
+License: UNKNOWN
+Platform: UNKNOWN
+
+UNKNOWN
+
