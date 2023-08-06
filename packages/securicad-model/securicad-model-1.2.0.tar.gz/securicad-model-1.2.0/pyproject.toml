@@ -1,0 +1,68 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.isort]
+py_version = "38"
+virtual_env = "venv"
+profile = "black"
+
+[tool.black]
+target-version = ["py38"]
+
+[tool.pyright]
+venvPath = "."
+venv = "venv"
+pythonVersion = "3.8"
+typeCheckingMode = "strict"
+reportImportCycles = false
+reportPrivateUsage = false
+
+[tool.mypy]
+python_version = "3.8"
+strict = true
+pretty = true
+
+[[tool.mypy.overrides]]
+module = [
+  "securicad.model.ModelViewsPackage.*",
+  "securicad.model.ObjectModelPackage.*",
+]
+ignore_errors = true
+
+[tool.pylint.master]
+py-version = "3.8"
+jobs = 0
+ignore = [
+  "securicad/model/ObjectModelPackage",
+  "securicad/model/ModelViewsPackage",
+]
+
+[tool.pylint.messages_control]
+disable = [
+  "C0114", # missing-module-docstring
+  "C0115", # missing-class-docstring
+  "C0116", # missing-function-docstring
+  "C0301", # line-too-long
+  "W0212", # protected-access
+  "R0201", # no-self-use
+  "R0902", # too-many-instance-attributes
+  "R0903", # too-few-public-methods
+  "R0911", # too-many-return-statements
+]
+
+[tool.pylint.basic]
+good-names = ["i", "j", "k", "ex", "Run", "_", "f", "fp"]
+
+[tool.pylint.format]
+max-line-length = 88
+
+[tool.pylint.similarities]
+min-similarity-lines = 15
+
+[tool.pytest.ini_options]
+markers = [
+  "object_count",
+  "vehiclelang",
+  "securilang"
+]
