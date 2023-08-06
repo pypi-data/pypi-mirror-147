@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: o2tuner
+Version: 0.0.1
+Summary: Minimal heavy ion physics environment for Machine Learning
+Home-page: https://github.com/mconcas/o2tuner
+Author: mconcas
+Author-email: mconcas@cern.ch
+License: GPL
+Project-URL: Bug Tracker, https://github.com/mconcas/o2tuner/issues
+Description: # o2tuner
+        
+        ![](https://github.com/mconcas/o2tuner/actions/workflows/pythonpackage.yml/badge.svg)
+        
+        ![](https://github.com/mconcas/o2tuner/actions/workflows/codeql.yml/badge.svg)
+        
+        ![](https://github.com/mconcas/o2tuner/actions/workflows/pythonpublish.yml/badge.svg)
+        
+        
+        
+        This package contains a tool for optimizing routines included in [ALICE O2](https://github.com/AliceO2Group/AliceO2)
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: dev

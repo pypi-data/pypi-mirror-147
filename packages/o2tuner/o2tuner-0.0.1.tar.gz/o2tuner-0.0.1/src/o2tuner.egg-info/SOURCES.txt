@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/o2tuner/__init__.py
+src/o2tuner/argumentparser.py
+src/o2tuner/backends.py
+src/o2tuner/log.py
+src/o2tuner/o2tuner.py
+src/o2tuner.egg-info/PKG-INFO
+src/o2tuner.egg-info/SOURCES.txt
+src/o2tuner.egg-info/dependency_links.txt
+src/o2tuner.egg-info/entry_points.txt
+src/o2tuner.egg-info/requires.txt
+src/o2tuner.egg-info/top_level.txt
