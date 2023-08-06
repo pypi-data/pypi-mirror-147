@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/StyledWidgets/TableStyles.py
+src/StyledWidgets/__init__.py
+src/styled_pyqtwidgets.egg-info/PKG-INFO
+src/styled_pyqtwidgets.egg-info/SOURCES.txt
+src/styled_pyqtwidgets.egg-info/dependency_links.txt
+src/styled_pyqtwidgets.egg-info/requires.txt
+src/styled_pyqtwidgets.egg-info/top_level.txt
