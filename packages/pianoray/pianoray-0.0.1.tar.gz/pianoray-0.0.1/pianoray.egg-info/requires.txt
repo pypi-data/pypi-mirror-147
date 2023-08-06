@@ -1,0 +1,9 @@
+mido
+numpy
+opencv-python
+pygame
+termcolor
+tqdm
+sphinx
+sphinx_rtd_theme
+wheel
