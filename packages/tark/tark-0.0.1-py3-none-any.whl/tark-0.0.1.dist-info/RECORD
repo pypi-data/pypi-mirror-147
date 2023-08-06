@@ -1,0 +1,11 @@
+tark/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tark/parser.py,sha256=qUWrJj_tQAeAhWBMi_rPiohxFvTvLdnCCHbxcQDtl54,1166
+tark/states.py,sha256=zI9smFtQKN6ZUVY4U9FjN-RwH7ugRX9nys3vPDkcS0w,3870
+tark/structures.py,sha256=xYmCk7kilvHVolx3xKJl8O0MYstNCoFG-COy9Pioieg,2467
+tark/tark.py,sha256=1p_gNkk2UDxoLyef3PUD8HE5QO7TFluQJY4LjmKP7Ak,347
+tark/tokenizer.py,sha256=haYEtObKlIE8H9TPH4Taj7n1c0DhdzsSfHhtM7o6aBQ,1270
+tark-0.0.1.dist-info/LICENSE,sha256=iPOhqjv4wqEUPHFvkyDGTa1ybQPzgdRsjPRlr-R5hYA,1068
+tark-0.0.1.dist-info/METADATA,sha256=xUyHe2q4Fuq3rNDPG8lfFgFZGd7qCLFDPgSom5aW_LE,432
+tark-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tark-0.0.1.dist-info/top_level.txt,sha256=h9J7vv4OMK4AvLCovd2McutRtqpdruiXza0sYIEW1jE,5
+tark-0.0.1.dist-info/RECORD,,
