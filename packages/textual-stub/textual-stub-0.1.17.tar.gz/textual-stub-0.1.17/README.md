@@ -1,0 +1,2 @@
+# WARNING
+This package is published as a temporary copy of textual. It **will** be deleted once textual upgrades their typing_extensions to support the features of python 3.11. DO NOT use it in any way.
