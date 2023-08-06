@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+gdelttools/__init__.py
+gdelttools/gdeltcsv.py
+gdelttools/gdeltexample.py
+gdelttools/gdeltloader.py
+gdelttools/mapgeolocation.py
+gdelttools/web.py
+gdelttools.egg-info/PKG-INFO
+gdelttools.egg-info/SOURCES.txt
+gdelttools.egg-info/dependency_links.txt
+gdelttools.egg-info/entry_points.txt
+gdelttools.egg-info/requires.txt
+gdelttools.egg-info/top_level.txt
