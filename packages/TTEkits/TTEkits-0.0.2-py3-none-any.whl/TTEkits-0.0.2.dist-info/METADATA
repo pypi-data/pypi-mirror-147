@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: TTEkits
+Version: 0.0.2
+Summary: This is a travel time estimation Python Library!
+Home-page: https://github.com/Elon-Lau/TTEkits
+Author: Elon Lau
+Author-email: weitinglau1999@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+
+# SaralGyaan Square
+It can estimate travel time in the city.
+
+## Installation
+'''pip install TTEkits'''
+
+## How to use it?
+step 0 (import) : from TTEkits import model
+step 1 (instantiation) : world = model.World() 
+
+## License
+
+$\copyright$ 2022 Elon Lau
+
+This reposity is licensed under the MIT license.
+See LICENSE for details.
+
+
+
