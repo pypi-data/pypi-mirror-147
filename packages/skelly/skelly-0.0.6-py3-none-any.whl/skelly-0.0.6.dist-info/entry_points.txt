@@ -1,0 +1,6 @@
+[console_scripts]
+skelly = skelly.main:main
+
+[skelly.builders]
+default = builder_python.builder:PythonBuilder
+python = builder_python.builder:PythonBuilder
