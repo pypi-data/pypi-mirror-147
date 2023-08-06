@@ -1,0 +1,4 @@
+dataclasses
+pytest
+requests
+responses
