@@ -1,0 +1,10 @@
+# enter the path of the function handlers
+functions:
+  - name: "costack_test_cli"
+    id: null 
+    handler: "costack_main.handler"
+    description: "test deploying function from the costack cli"
+apis:
+  - function_name: null 
+    http_method: null
+    path: null
