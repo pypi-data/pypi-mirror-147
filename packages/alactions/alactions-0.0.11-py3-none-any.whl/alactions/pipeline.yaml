@@ -1,0 +1,27 @@
+tasks:
+  runs-on: python
+  steps:
+
+    - uses: alactions.utils.folder
+
+    - uses: alactions.utils.secret
+      with:
+        secret: ${{ password }}
+      
+    - uses: alactions.pypi.next_version
+      needs: tasks-folder
+
+    - needs: [tasks-folder, tasks-next_version, tasks-secret]
+      run: |
+        v=$(cat {{upstream['tasks-next_version']}})
+        p=$(cat {{upstream['tasks-folder']}})
+        ps=$(cat {{upstream['tasks-secret']}})
+        git add -A
+        git commit -m "preparing to push version $v" || true        
+        git tag -d $v || true
+        git tag -a $v -m ok
+        cd ../..
+        python setup.py bdist_wheel
+        twine upload dist/$p-$v-* -u jmulla -p $ps
+      
+        
