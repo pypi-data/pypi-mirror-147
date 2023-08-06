@@ -1,0 +1,29 @@
+--- composable.py
++++ composable.py
+@@ -445,17 +445,23 @@
+             self.input = None
+ 
+         # with a tinydb dstore, this also excludes data that failed to complete
+-        todo = [m for m in dstore if not self.job_done(m)]
++        todo = {m.name: m for m in dstore if not self.job_done(m)}
+ 
+         for i, result in enumerate(
+             ui.imap(
+-                process, todo, parallel=parallel, par_kw=par_kw, mininterval=mininterval
++                process,
++                todo.values(),
++                parallel=parallel,
++                par_kw=par_kw,
++                mininterval=mininterval,
+             )
+         ):
+             outcome = result if process is self else self(result)
+             results.append(outcome)
+             if LOGGER:
+-                member = todo[i]
++                # because order not preserved by parallel computation, must lookup member
++                # the following ONLY works if outcome is a DataStoreMember
++                member = todo[outcome.name]
+                 # ensure member is a DataStoreMember instance
+                 if not isinstance(member, DataStoreMember):
+                     member = SingleReadDataStore(member)[0]
