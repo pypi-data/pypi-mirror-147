@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+sqlcrud/__init__.py
+sqlcrud/crud.py
+sqlcrud.egg-info/PKG-INFO
+sqlcrud.egg-info/SOURCES.txt
+sqlcrud.egg-info/dependency_links.txt
+sqlcrud.egg-info/requires.txt
+sqlcrud.egg-info/top_level.txt
