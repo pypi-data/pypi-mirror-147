@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pyautogecko/__init__.py
+pyautogecko/utils.py
+pyautogecko.egg-info/PKG-INFO
+pyautogecko.egg-info/SOURCES.txt
+pyautogecko.egg-info/dependency_links.txt
+pyautogecko.egg-info/entry_points.txt
+pyautogecko.egg-info/top_level.txt
