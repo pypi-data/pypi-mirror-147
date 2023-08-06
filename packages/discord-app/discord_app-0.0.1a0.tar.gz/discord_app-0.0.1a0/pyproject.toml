@@ -1,0 +1,47 @@
+[build-system]
+requires = [
+    "poetry-core>=1.0.0"
+]
+build-backend = "poetry.core.masonry"
+
+[tool.poetry]
+name = "discord_app"
+version = "0.0.1-alpha.0"
+description = "Discord interaction API wrapper"
+authors = ["JackyCCC <jacky9813@hotmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.7"
+requests = "^2.27.1"
+Flask = "^2.1.1"
+PyNaCl = "^1.4.0"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.9.2"
+tox = "^3.24.3"
+pytest = "^6.2.5"
+pytest-cov = "^2.12.1"
+mypy = "^0.910"
+types-requests = "^2.27.17"
+sphinx = "^4.5.0"
+
+[tool.pytest.ini_options]
+addopts = "--cov=src/discord_app"
+testpaths = [
+    "tests/all.py",
+]
+
+[tool.mypy]
+mypy_path = "src"
+disallow_untyped_defs = true
+check_untyped_defs = true
+disallow_any_generics = true
+ignore_missing_imports = true
+no_implicit_optional = true
+show_error_codes = true
+strict_equality = true
+warn_redundant_casts = true
+warn_return_any = true
+warn_unreachable = true
+warn_unused_configs = true
+no_implicit_reexport = true
