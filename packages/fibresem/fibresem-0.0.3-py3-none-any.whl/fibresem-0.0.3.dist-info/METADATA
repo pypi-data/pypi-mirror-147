@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: fibresem
+Version: 0.0.3
+Summary: A small package to automate the SEM analysis of fibrous meshes
+Home-page: https://github.com/dvtxc/fibresem
+Author: Dmitri Visser
+Author-email: dmitri95dwt@gmail.com
+License: UNKNOWN
+Project-URL: Documentation, https://github.com/dvtxc/fibresem
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: imagecodecs (>=2022.2.22)
+Requires-Dist: lxml (>=4.8.0)
+Requires-Dist: matplotlib (>=3.5.1)
+Requires-Dist: numpy (>=1.22.2)
+Requires-Dist: pandas (>=1.4.1)
+Requires-Dist: pytest (>=7.1.1)
+Requires-Dist: scipy (>=1.8.0)
+Requires-Dist: click (>=8.0.0)
+
+# fibresem
+A small python repo to analyse SEM images of fibrous materials
+
+
