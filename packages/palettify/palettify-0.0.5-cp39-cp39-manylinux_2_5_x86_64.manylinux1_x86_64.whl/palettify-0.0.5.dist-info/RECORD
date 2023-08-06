@@ -1,0 +1,17 @@
+palettify-0.0.5.dist-info/METADATA,sha256=yofcUwosKvqKgRWOrehJUwcMEFf2bn964M-09JYwSuw,3742
+palettify-0.0.5.dist-info/WHEEL,sha256=YRed-NrtY-ay_kEA7DizFibJfMMHAaH6r_cA7bm22p8,144
+palettify-0.0.5.dist-info/top_level.txt,sha256=1xv69DT1TzfQ6D73OaZ2X5BUCjh-Omvcc_wUYO2TAeQ,10
+palettify-0.0.5.dist-info/LICENSE,sha256=5LuvB-QQLVPlWTef99WB76O-485pppjc5_SREjzXqaQ,1080
+palettify-0.0.5.dist-info/entry_points.txt,sha256=4SDttZTwVKPyf-pZ4CgrLieMPjLlOEC4QAqNraABhIY,50
+palettify-0.0.5.dist-info/RECORD,,
+palettify/__main__.py,sha256=VueeXCI5TGQlzhK_cVBf9vjrcz8AkXtR7cl0C2MC5c8,42
+palettify/palettify.py,sha256=fS-s6zuh9DvAgb60o42lW8FrP4TSBu2QSHEsb919DyA,4416
+palettify/cli.py,sha256=Fmt20hfq1K_K_-vnHKCIfsoBakBEqQDMD7BJUhdrlTE,1821
+palettify/_about.py,sha256=eUKX4zfYitScxQ8hYQKwS4kfTI9-yf-sCucLH3igdaM,152
+palettify/__init__.py,sha256=4MPTE_Fyfnc03PEmi-LEOG1oLStklVVF-MAVnwoGsF0,137
+palettify/internal/convert.cpython-39-x86_64-linux-gnu.so,sha256=yof1j9KvTzO3m8ImlvyTI4-qiDrvVNRnHMhb02dbp6Y,235088
+palettify/internal/convert.c,sha256=6mp3gDBl7daDamqGLkPLyjpFOKb-J4Pe5JEBk8cL9QA,184882
+palettify/internal/scale.py,sha256=Jsqk-PsCcrbAKPjtKXLnwKB9sHCC-YgJZUlgLM0Lv_U,713
+palettify/internal/convert.pyx,sha256=rZnX3vDFbx1XSAzPL3WZCoWDEMZcw4YwJnHxCWSUp0c,1091
+palettify/internal/loader.py,sha256=rokcUcwzVLHnX1qWT5SMwV8Kfxec10tekp4CwkyIb9w,725
+palettify/internal/__init__.py,sha256=gkpCUWgG7TETqWfsalzjccJQf-VSDvfL2D24ozz8W78,251
