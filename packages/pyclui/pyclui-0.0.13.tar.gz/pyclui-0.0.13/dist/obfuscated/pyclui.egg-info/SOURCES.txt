@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+dist/obfuscated/pyclui/__init__.py
+dist/obfuscated/pyclui/clui.py
+dist/obfuscated/pyclui.egg-info/PKG-INFO
+dist/obfuscated/pyclui.egg-info/SOURCES.txt
+dist/obfuscated/pyclui.egg-info/dependency_links.txt
+dist/obfuscated/pyclui.egg-info/top_level.txt
+dist/obfuscated/pyclui/pytransform/__init__.py
+dist/obfuscated/pyclui/pytransform/_pytransform.so
