@@ -1,0 +1,12 @@
+dsframeworklib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dsframeworklib/ds_client.py,sha256=BJJrUCzlKJ-sjECWdzl41JqYWZkqroBO4oR2Gbkw4S4,249
+dsframeworklib/ds_process.py,sha256=J0NPRaHCqZLS2d-1QoSV0DGOF33LBm07DpO6CrvNnwE,584
+dsframeworklib/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dsframeworklib/utils/logger.py,sha256=ZiRuW_EuA0svXy0o5YIzMoU7hShWLU6JXK0fiBqMRDg,1236
+dsframeworklib/utils/message.py,sha256=Sp-io53IIu922Ppz8wk4JfBrJL12nRbE7iL5wgoZNPY,909
+dsframeworklib/utils/socketUtil.py,sha256=smOGuJW1d6P7GPLNxKJhMQwi1-mujWxfuysms3dPXCo,666
+dsframeworklib-0.0.14.dist-info/LICENSE,sha256=C9c1l_6NWblW5kt2rijk2a2vKDZQ_5ZyjyqsdWCwrKY,1070
+dsframeworklib-0.0.14.dist-info/METADATA,sha256=8Sz0jLBEVIzzGm9Hwar9a7CmMIiiDe3Cq3zkZTmAvPA,232
+dsframeworklib-0.0.14.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dsframeworklib-0.0.14.dist-info/top_level.txt,sha256=sPcoX12rz63DVwiRTiRxyRxLo75aHvCZ40Eqinn2sjU,15
+dsframeworklib-0.0.14.dist-info/RECORD,,
