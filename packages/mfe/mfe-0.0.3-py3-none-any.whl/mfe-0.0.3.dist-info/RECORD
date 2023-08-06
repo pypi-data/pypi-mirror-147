@@ -1,0 +1,12 @@
+mfe/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mfe/calibration.py,sha256=hONqLF0eKURoGZlmrfacT6yR7m_KdzHJJRcusgE1VPs,1460
+mfe/feature.py,sha256=SrGC7Gbfrq8zfkAk82oLXIw4ouMsdZwWDtybX7Z3NrQ,7326
+mfe/from_txt.py,sha256=HG0tRsrSPjmD2OczHWe0PCr2vuACrwQCb6c3kPusY2U,25328
+mfe/peak_picking.py,sha256=kUWNQAKxM55W10NfaG7Rx70v32CODjkUpwLzYD8j-Zw,13011
+mfe/time.py,sha256=YiEP19L_PsqZj6RVCQUjEEJSTljz_X3XaKDAZnUdCA4,1600
+mfe/util.py,sha256=jAAnudlQXCj60W04yQWTEyhm3fz6-yyLTlJ550CQEZc,3212
+mfe-0.0.3.dist-info/LICENSE,sha256=MTpyHfA_PjjiYXEZNrLnaki4xYrSRFe9ARNoWjac2GI,1063
+mfe-0.0.3.dist-info/METADATA,sha256=xRnKIUiCmm20aIVqKYixO6zo_4rDAImI0K-S-j2pq1s,4455
+mfe-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mfe-0.0.3.dist-info/top_level.txt,sha256=4FaJn9NYIq_G_HW1rkwXivv3-DH57Aq1KlMVBTrj7E0,4
+mfe-0.0.3.dist-info/RECORD,,
