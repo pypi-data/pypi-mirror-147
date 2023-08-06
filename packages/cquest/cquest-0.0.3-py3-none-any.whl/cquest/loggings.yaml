@@ -1,0 +1,77 @@
+version: 1
+
+formatters:
+  simple:
+    format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+    datefmt:
+  complex:
+    format: '%(asctime)s - [%(levelname)s] - %(name)s - %(pathname)s - %(module)s - %(funcName)s[:%(lineno)d] - %(message)s'
+    datefmt:
+
+handlers:
+  console:
+    class: logging.StreamHandler
+    level: DEBUG
+    formatter: complex
+    stream: ext://sys.stdout
+    filters:
+
+  #  console_err:
+  #    class: logging.StreamHandler
+  #    level: ERROR
+  #    formatter: complex
+  #    stream: ext://sys.stderr
+
+  file_all:
+    # 执行类
+    class: logging.handlers.TimedRotatingFileHandler
+    # 间隔单位
+    when: midnight
+    # 文件
+    filename: all.log
+    # 间隔
+    interval: 1
+    # 备份数
+    backupCount: 7
+    # 编码
+    encoding: utf-8
+    # 延时
+    delay: False
+    # 时区
+    utc: False
+    # 时间
+    atTime:
+    # 设定日志等级
+    level: DEBUG
+    # 设置日志展示信息
+    formatter: complex
+    # 过滤
+    filters:
+
+  file_error:
+    class: logging.FileHandler
+    # 文件
+    filename: error.log
+    #
+    mode: a
+    # 编码
+    encoding: utf-8
+    # 延时
+    delay: False
+    # 设定日志等级
+    level: ERROR
+    # 设置日志展示信息
+    formatter: complex
+    # 过滤
+    filters:
+
+loggers:
+  CCP:
+    level: DEBUG
+    handlers: [ console,file_all ]
+    propagate: yes
+    filters:
+
+root:
+  level: DEBUG
+  handlers: [ file_error ]
