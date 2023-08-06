@@ -1,0 +1,11 @@
+README.md
+setup.py
+git_rebase_chain/__init__.py
+git_rebase_chain/cmd.py
+git_rebase_chain/git.py
+git_rebase_chain/pprint.py
+git_rebase_chain.egg-info/PKG-INFO
+git_rebase_chain.egg-info/SOURCES.txt
+git_rebase_chain.egg-info/dependency_links.txt
+git_rebase_chain.egg-info/entry_points.txt
+git_rebase_chain.egg-info/top_level.txt

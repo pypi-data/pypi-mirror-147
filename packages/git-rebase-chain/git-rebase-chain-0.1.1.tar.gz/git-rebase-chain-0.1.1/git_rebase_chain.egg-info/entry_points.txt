@@ -1,0 +1,3 @@
+[console_scripts]
+git-rebase-chain = git_rebase_chain.cmd:main
+
