@@ -1,0 +1,11 @@
+gloce/__init__.py,sha256=jhQYfFbcilxm09itrnCju6XsgSjcFmYnE01om4tEI2Q,819
+gloce/area.py,sha256=uHqjjFlcxUYUbtStWoSIHekPOBKgUXzgBKOU96s5ykU,2610
+gloce/func.py,sha256=CexI5oeXygP2OGj4524fkEicyrGhs4h_7FIKzDxm7rU,5388
+gloce/gc.py,sha256=2vWbdFlni_EVa1DpCkEaLZzUZQZXrDa_squgHOTHKMs,10765
+gloce/interpolation.py,sha256=ih2baA7OE0Iukql0ApfbcmSAOo4mB-umw098SLbMdXI,2956
+gloce/resample.py,sha256=nGmgHMilytLyWE8nbobFaXAuwpme-jz_NPkDBje2kaQ,3706
+gloce-1.2.dist-info/LICENSE,sha256=UcUOLl_MiQM4GpOo_f4iMcBN29WhoBTSw52Bscs4ZnY,1091
+gloce-1.2.dist-info/METADATA,sha256=zbt-TEgyud-wp1nSvbRxoMCd_fgcSBNxLzA8mleOVzU,621
+gloce-1.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+gloce-1.2.dist-info/top_level.txt,sha256=EFAJVLZxtxtkwzFnw5MPyY-DGv8EdhgLKTLvh9FD9g8,6
+gloce-1.2.dist-info/RECORD,,
