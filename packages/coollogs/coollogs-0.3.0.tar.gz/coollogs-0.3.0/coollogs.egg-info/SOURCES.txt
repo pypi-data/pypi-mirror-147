@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+coollogs/__init__.py
+coollogs/logger.py
+coollogs.egg-info/PKG-INFO
+coollogs.egg-info/SOURCES.txt
+coollogs.egg-info/dependency_links.txt
+coollogs.egg-info/top_level.txt
