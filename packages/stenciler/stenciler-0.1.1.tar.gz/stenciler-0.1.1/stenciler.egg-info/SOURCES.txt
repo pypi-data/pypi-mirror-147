@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+stenciler/__init__.py
+stenciler/cli.py
+stenciler.egg-info/PKG-INFO
+stenciler.egg-info/SOURCES.txt
+stenciler.egg-info/dependency_links.txt
+stenciler.egg-info/entry_points.txt
+stenciler.egg-info/requires.txt
+stenciler.egg-info/top_level.txt
