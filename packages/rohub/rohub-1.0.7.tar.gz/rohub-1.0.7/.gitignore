@@ -1,0 +1,15 @@
+.idea
+main.py
+**/__pycache__/
+.pytest_cache/
+build/
+dist/
+.pytest_cache
+.env
+test_files/
+rohub/tests/
+quicks.py
+pytest.ini
+**/.DS_Store*
+rohub/tests
+rohub/rohub.egg-info
