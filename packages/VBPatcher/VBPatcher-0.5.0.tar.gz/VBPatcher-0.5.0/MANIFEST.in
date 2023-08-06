@@ -1,0 +1,6 @@
+include *.in
+include *.txt
+recursive-include VBPatcher *.dll
+recursive-include VBPatcher *.gitkeep
+recursive-include VBPatcher *.txt
+recursive-include VBPatcher *.xml
