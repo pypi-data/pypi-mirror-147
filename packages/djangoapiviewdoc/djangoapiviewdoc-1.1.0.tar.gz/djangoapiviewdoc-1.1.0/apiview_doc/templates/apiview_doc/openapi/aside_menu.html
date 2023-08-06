@@ -1,0 +1,26 @@
+{% verbatim %}
+<el-menu
+        :unique-opened="true"
+        :default-active="defaultActiveMenu"
+        @select="selectMenu"
+>
+    <el-submenu v-for="item in menuData" :key="item.tag.name" :index="item.tag.name">
+        <template slot="title">
+            <span>{{ item.tag.description }}</span>
+            <span> ({{ item.paths.length }})</span>
+        </template>
+        <el-menu-item v-for="path in item.paths" :key="path.path" :index="path.path" @click="clickMenu(path)">
+            <span>
+                <el-tag :type="path.method === 'GET'?'success':null" size="small">
+                    {{ path.method }}
+                </el-tag>
+            </span>
+            <el-tooltip class="item" effect="dark" :content="path.summary" placement="right">
+                <span>
+                     {{ path.summary }}
+                </span>
+            </el-tooltip>
+        </el-menu-item>
+    </el-submenu>
+</el-menu>
+{% endverbatim %}

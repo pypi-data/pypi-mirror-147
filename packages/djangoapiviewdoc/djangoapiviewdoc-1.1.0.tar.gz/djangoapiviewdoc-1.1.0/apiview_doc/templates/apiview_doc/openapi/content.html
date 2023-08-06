@@ -1,0 +1,130 @@
+<div>
+    {% verbatim %}
+    <div v-if="content !== null" class="doc-content">
+        <div class="doc-title">
+            <h1>
+                {{ content.summary }}
+            </h1>
+        </div>
+        <div class="doc-tip">
+            <span>基本信息</span>
+        </div>
+        <el-descriptions :column="1">
+            <el-descriptions-item label="请求URL">{{content.path}}</el-descriptions-item>
+            <el-descriptions-item label="请求方式">
+                <el-tag :type="content.method === 'GET'?'success':null" size="small">
+                    {{ content.method }}
+                </el-tag>
+            </el-descriptions-item>
+        </el-descriptions>
+
+        <div class="doc-tip">
+            <span>请求参数</span>
+        </div>
+        <el-table
+                :data="content.parameters"
+                stripe
+                border
+                style="width: 100%"
+        >
+            <el-table-column
+                    prop="name"
+                    label="参数">
+            </el-table-column>
+            <el-table-column
+                    prop="description"
+                    label="说明">
+            </el-table-column>
+            <el-table-column
+                    prop="paramType"
+                    label="请求类型">
+            </el-table-column>
+            <el-table-column
+                    prop="dataType"
+                    label="数据类型">
+            </el-table-column>
+            <el-table-column
+                    label="是否必须">
+                <template slot-scope="scope">
+                    <span style="color: red" v-if="scope.row.required">必须</span>
+                    <span v-else>可选</span>
+                </template>
+            </el-table-column>
+            <el-table-column
+                    prop="example"
+                    label="示例">
+            </el-table-column>
+            <el-table-column
+                    prop="remark"
+                    label="备注">
+            </el-table-column>
+        </el-table>
+        <div class="doc-tip">
+            <span>返回结果参数说明</span>
+        </div>
+        <el-table v-if="content.response === null || content.response === undefined"
+                :data="content.response"
+                stripe
+                border
+                style="width: 100%">
+            <el-table-column
+                    prop="value"
+                    label="参数">
+            </el-table-column>
+            <el-table-column
+                    prop="name"
+                    label="说明">
+            </el-table-column>
+            <el-table-column
+                    prop="type"
+                    label="类型">
+            </el-table-column>
+
+            <el-table-column
+                    prop="remark"
+                    label="备注">
+            </el-table-column>
+        </el-table>
+
+        <div class="doc-tip">
+            <span>运行示例</span>
+
+        </div>
+        <el-form
+                :model="formData"
+        >
+            <el-form-item>
+                <el-table
+                        :data="content.parameters"
+                        stripe
+                        border
+                        style="width: 100%"
+                >
+                    <el-table-column label="参数" prop="name">
+
+                    </el-table-column>
+                    <el-table-column label="说明" prop="description">
+
+                    </el-table-column>
+                    <el-table-column label="值">
+                        <template slot-scope="scope">
+                            <el-input v-model="formData[scope.row.name]" size="small"></el-input>
+                        </template>
+                    </el-table-column>
+
+                </el-table>
+            </el-form-item>
+            <el-form-item >
+                <el-button type="primary" size="small" @click="submitRun">运行</el-button>
+            </el-form-item>
+        </el-form>
+
+        <el-backtop></el-backtop>
+    </div>
+    {% endverbatim %}
+
+    <div v-else>
+        {{ title }}
+    </div>
+
+</div>
