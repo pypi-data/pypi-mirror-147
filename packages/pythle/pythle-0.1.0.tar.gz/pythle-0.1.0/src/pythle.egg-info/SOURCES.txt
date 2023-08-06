@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/pythle/__init__.py
+src/pythle/cli.py
+src/pythle/guess.py
+src/pythle/load_wordlist.py
+src/pythle/player_stats.py
+src/pythle/pythle.py
+src/pythle.egg-info/PKG-INFO
+src/pythle.egg-info/SOURCES.txt
+src/pythle.egg-info/dependency_links.txt
+src/pythle.egg-info/entry_points.txt
+src/pythle.egg-info/top_level.txt
