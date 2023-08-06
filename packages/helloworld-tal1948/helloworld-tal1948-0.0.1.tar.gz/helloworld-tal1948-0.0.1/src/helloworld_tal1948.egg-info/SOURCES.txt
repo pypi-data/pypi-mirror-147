@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.py
+test_helloworld.py
+src/helloworldtal1948.py
+src/helloworld_tal1948.egg-info/PKG-INFO
+src/helloworld_tal1948.egg-info/SOURCES.txt
+src/helloworld_tal1948.egg-info/dependency_links.txt
+src/helloworld_tal1948.egg-info/requires.txt
+src/helloworld_tal1948.egg-info/top_level.txt
