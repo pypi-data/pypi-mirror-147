@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: hsmap
+Version: 0.1.1
+Summary: Utils for Hs project.
+Home-page: https://github.com/hssomebody/hsutils
+Author: hssomebody
+Author-email: hssomebody@hsmap.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+License-File: License
+
+
+# Hs Utils
+This is an util package.
+
