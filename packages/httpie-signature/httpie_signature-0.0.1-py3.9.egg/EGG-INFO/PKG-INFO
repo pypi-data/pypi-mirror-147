@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: httpie-signature
+Version: 0.0.1
+Summary: Http Signature Authentication plugin for HTTPie.
+Home-page: https://github.com/rymccarter721/httpie-signature
+Download-URL: https://github.com/rymccarter721/httpie-signature
+Author: Ryan McCarter
+Author-email: ryanmccarter721@gmail.com
+License: Apache 2.0
+Platform: UNKNOWN
+
+UNKNOWN
+
