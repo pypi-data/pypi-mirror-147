@@ -1,0 +1,10 @@
+dict_from_g2pE/__init__.py,sha256=M0NZuQ7-112l8K2h1eayVvSmvQrufrOcD5AYKgIf_Is,1
+dict_from_g2pE/argparse_helper.py,sha256=T96lt08vcBAEbYB_xDfz407trlwcTlYcroszlEO1NMk,6499
+dict_from_g2pE/cli.py,sha256=OOzkUa-lvjA6UKK3AYjwZTvShZc9411SpPIbreyCflY,2144
+dict_from_g2pE/main.py,sha256=rSQn2KVDUSlDBHYz7314F8qXcgqm6-A2GvZ2urZSnNo,5638
+dict_from_g2pE-0.0.1.dist-info/LICENSE,sha256=eu_EojY-yOBFiUJjoOpAyoguAqCfopYosNabwxz6fLc,1071
+dict_from_g2pE-0.0.1.dist-info/METADATA,sha256=4TxlediXT7ELLPiAv1Pxa_tVJOKTm8Z-14EoOyzCOWE,2997
+dict_from_g2pE-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dict_from_g2pE-0.0.1.dist-info/entry_points.txt,sha256=2UmbnzMAXXnvP_1pTAAXCoiRpvzPAKvmxdImtl5_nKQ,67
+dict_from_g2pE-0.0.1.dist-info/top_level.txt,sha256=fL2Lw3yXWxqL0-7duUvzc2nv3ts5RukF9Hy5TAohH_M,15
+dict_from_g2pE-0.0.1.dist-info/RECORD,,
