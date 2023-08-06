@@ -1,0 +1,53 @@
+name: raspcuterie
+devices:
+  - name: refrigerator
+    type: "relay"
+    gpio: 6
+  - name: heater
+    type: "relay"
+    gpio: 19
+  - name: humidifier
+    type: "relay"
+    gpio: 26
+  - name: dehumidifier
+    type: "relay"
+    gpio: 13
+  - name: temperature
+    type: "AM2302"
+    prefix: "am1"
+    degree: celsius
+    gpio: 4
+  - name: weight
+    type: "sinus"
+
+control:
+  default:
+    expires: 2020-01-01 10:00
+    rules:
+      refrigerator:
+      - rule: "Stop cooling"
+        expression: "temperature < 21"
+        action: "off"
+      - rule: "Start cooling"
+        expression: "temperature > 21"
+        action: "on"
+      dehumidifier:
+      - rule: "Start"
+        expression: "humidity > 77"
+        action: "on"
+      - rule: "Stop"
+        expression: "humidity < 70"
+        action: "off"
+charts:
+  Humidity:
+    title: "Luchtvochtigheid %"
+    series:
+      - am1_humidity
+      - refrigerator
+      - fan
+  Temperature:
+    title: Temperatuur
+    series:
+      - am1_temperature
+      - am2_temperature
+      - humidifier
