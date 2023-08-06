@@ -1,0 +1,10 @@
+yagamee/__init__.py,sha256=XdZSu-9CZ6RVr8sCQ2hn31D64vGlQWu29PIBdxmOhQk,165
+yagamee/dataframe_tools.py,sha256=-xzt3FWjRLIii9zIsWU4IsafboFK-Q3EWHLHnX-ozOc,3502
+yagamee/formats.py,sha256=KiXaaOnTClm5w2UceUTNdy9MOTv_b3YARk0SadzaD00,2730
+yagamee/matplotlib_tools.py,sha256=ecN7qDxMVLJ-qeF7ELd5q6qmj3oiTLgp-4qTcjEBfOA,480
+yagamee/yagamee_rcparams.py,sha256=VL6NOD5ehdMyoDsSnnGjuB_UCR4VqmKM7569r0c_rso,783
+yagamee-0.2.1.dist-info/LICENSE,sha256=Mt-4lJyU0Ka45mWjifhuLiYY6CutQBA61CrIqsE1JbM,1085
+yagamee-0.2.1.dist-info/METADATA,sha256=CauT-dv5kyOxlBkNz8EqaXUnxUVQJA2VcG-34uVQzSA,1376
+yagamee-0.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+yagamee-0.2.1.dist-info/top_level.txt,sha256=5AxaZl0WO2ExRG_DjLnpzjS8_r_-w1fUJwK3-lD7Bu8,8
+yagamee-0.2.1.dist-info/RECORD,,
