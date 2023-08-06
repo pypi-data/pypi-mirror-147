@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: model_one
+Version: 0.0.4
+Summary: beyondml
+Home-page: https://github.com/beyondml/model-one-py
+Download-URL: https://pypi.org/project/beyond.ml/
+Author: BeyondML
+Author-email: drewxa@beyond-ml.ai
+License: MIT
+Keywords: beyondml,model-one,gpt-3,nlp
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# Model One python package
+
+todo
+
