@@ -1,0 +1,13 @@
+converter/__init__.py,sha256=Dz2B6s50PaJqzBse1PxFEEPRTMesky4vgzNJjyzZ96E,145
+converter/cli.py,sha256=446xLgD0S42fSSFag1eJ-rp1DocjiRcyUcfES1SKDY0,552
+converter/converter.py,sha256=boaxwYleogbEvbmZYeq1vyvkOdf9b7QtMNt9DMb1yz0,4283
+converter/tests/__snapshots__/test_converter/test_air_quality.json,sha256=-UAKHLLb33Ja1kbm8N9JSIfL1VyWqiI7R2_fs8hSkSc,5344
+converter/tests/conftest.py,sha256=ast0jHjfDl4STnUxoXY-cmudlDtr3XinUPmFOUltkxM,177
+converter/tests/data/AirQuality/Current.py,sha256=FOKQoTAve0fQfbSDU21cUyDiQ_SS0h0F8YjUi3qO6Ks,1642
+converter/tests/helpers.py,sha256=9I7SVxqKtekGDLgk_ohqZs_YhBqDBt2iF_7pWcM08vo,2681
+converter/tests/test_converter.py,sha256=vNVZc5569kFjuK6724eCWiiohZgmQ6wt07m6-XM2PVs,444
+data_product_definition_tooling-0.0.2.dist-info/entry_points.txt,sha256=z3r_sPrFlSVmoFCFuwNsRdkJJoDp1WJl4AArgwkEGXc,47
+data_product_definition_tooling-0.0.2.dist-info/LICENSE,sha256=s0IogvqnSrPiz3PgTCCnd0XKu5xp17NEzMcJtCyRU5U,1519
+data_product_definition_tooling-0.0.2.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+data_product_definition_tooling-0.0.2.dist-info/METADATA,sha256=gFZN5JEZRZNZaCpY5Lc9ug2W4Wb48ENCCboDnAPgJmg,1369
+data_product_definition_tooling-0.0.2.dist-info/RECORD,,
