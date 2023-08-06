@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: python-tetris
+Version: 0.0.0
+Summary: Tetris in Python
+Home-page: https://github.com/asashakira/python-tetris
+Author: asashakira
+Author-email: asa.shakira340@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: types
+Provides-Extra: all
+
+# tetris
+
+## Installation
+
+```sh
+pip install git+https://github.com/asashakira/python-tetris
+```
+
+## How to play
+
+Run:
+
+```sh
+py-tetris
+```
+
+## Instructions
+
+- `z`: left rotation
+- `x`: right rotation
+- `space`: hard drop
+- `arrow keys`: move a mino
+
+
