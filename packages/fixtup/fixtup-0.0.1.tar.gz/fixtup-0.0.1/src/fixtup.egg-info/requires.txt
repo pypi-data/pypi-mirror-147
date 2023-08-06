@@ -1,0 +1,17 @@
+attrs
+jinja2
+prompt_toolkit
+python-dotenv
+toml
+
+[dev]
+alfred-cli
+build
+click
+mypy
+pyyaml
+sphinx
+sphinx_rtd_theme
+types-PyYAML
+types-toml
+twine
