@@ -1,0 +1,7 @@
+README.md
+setup.py
+docSilhouette.egg-info/PKG-INFO
+docSilhouette.egg-info/SOURCES.txt
+docSilhouette.egg-info/dependency_links.txt
+docSilhouette.egg-info/not-zip-safe
+docSilhouette.egg-info/top_level.txt
