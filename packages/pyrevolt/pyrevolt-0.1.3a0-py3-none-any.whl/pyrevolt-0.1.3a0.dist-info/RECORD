@@ -1,0 +1,16 @@
+pyrevolt-0.1.3a0.data/data/requirements.txt,sha256=Y8RF0VkexqMN3ZnSb3Rm-dhloPIRFHdX3H_nTLi3h9I,18
+src/pyrevolt/__init__.py,sha256=0T0L7lYZz4ngNYgDNEoVh31ibJp_GAl5GMl9kWQNfHc,484
+src/pyrevolt/bot.py,sha256=ybfym0zyl1LXFIOWfyO1HQm1_4rijYKwB1CAguiW0Tw,671
+src/pyrevolt/client.py,sha256=h_mgsrDHjFUBHwjC9QiNw7-kCI1YQPG_hjl5aWSDfas,1671
+src/pyrevolt/events.py,sha256=vaxBq42hrKEbULQnlA23aMFOztE0amTooX9iGgxPd5w,2747
+src/pyrevolt/exceptions.py,sha256=bmKutMftCR6BqooPRUMAeTLQBaCPdtFsO-w-MEWElk0,240
+src/pyrevolt/gateway.py,sha256=co6t8CDPrwzBvZKbO6_Rx4-B_2CNTeuimQKhCCJKt5w,3598
+src/pyrevolt/session.py,sha256=mnM0jP-pPsJXG4zl0xG7L6KwLrlIB5UF0vWf1F8eugM,2825
+src/pyrevolt/structs/channels.py,sha256=B4-no-6D1aB4yjG2RkUiP9woJCTsBUpOCckduJW4R2g,13639
+src/pyrevolt/structs/server.py,sha256=XJ93XWiKnFLX9n088q9iBLTj89iPVDM-IKkV7nyqASE,6389
+src/pyrevolt/structs/user.py,sha256=yzbWFaL8Owwve9wayCMkg56O7LtGoqmMdtVaqsFL5UI,3862
+pyrevolt-0.1.3a0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pyrevolt-0.1.3a0.dist-info/METADATA,sha256=EDD_49IlFdS1-YQpEqLpdBzSFHb2hzgonnil_Hjuw2k,3588
+pyrevolt-0.1.3a0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pyrevolt-0.1.3a0.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+pyrevolt-0.1.3a0.dist-info/RECORD,,
