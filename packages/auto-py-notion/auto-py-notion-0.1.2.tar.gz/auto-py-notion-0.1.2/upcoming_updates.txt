@@ -1,0 +1,13 @@
+- Add the Formula property -> not useful
+- Add the Rollup property -> not useful
+- Add created time and by property -> automatically created when creating a page
+- Add number formating -> one change affect all 
+- Add children objects in page creating
+- Add the ability to either add values and properties inorder (no type or name specified)
+    or outoforder(type and name specifed)
+- Add support for empty properties creation
+- Add support for saving the query data in a json file
+- Add support for date property 
+- Add support for updating db 
+- Add support for compined filters
+- Add support for retreiving page content 
