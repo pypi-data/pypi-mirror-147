@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/wattpilot/__init__.py
+src/wattpilot/wattpilotshell.py
+src/wattpilot.egg-info/PKG-INFO
+src/wattpilot.egg-info/SOURCES.txt
+src/wattpilot.egg-info/dependency_links.txt
+src/wattpilot.egg-info/entry_points.txt
+src/wattpilot.egg-info/requires.txt
+src/wattpilot.egg-info/top_level.txt
+src/wattpilot/ressources/__init__.py
+src/wattpilot/ressources/wattpilot.yaml
