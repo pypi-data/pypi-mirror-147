@@ -1,0 +1,3 @@
+[console_scripts]
+mkreports=mkreports.cli:app
+
