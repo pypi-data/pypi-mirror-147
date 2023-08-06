@@ -1,0 +1,48 @@
+{
+  "$id": "#/properties/motions/items/anyOf/0/properties/components/items/anyOf/0/properties/veloc",
+  "type": "object",
+  "title": "QuakeSeries",
+  "required": [
+      "units",
+      "shape",
+      "time_step"
+  ],
+  "additionalProperties": true,
+  "properties": {
+      "peak_value": {
+          "$id": "#/properties/motions/items/anyOf/0/properties/components/items/anyOf/0/properties/series/properties/peak_value",
+          "type": "number",
+          "title": "Peak value of series data"
+      },
+      "units": {
+          "$id": "#/properties/motions/items/anyOf/0/properties/components/items/anyOf/0/properties/series/properties/units",
+          "type": "string",
+          "title": "Series units"
+      },
+      "peak_time": {
+          "$id": "#/properties/motions/items/anyOf/0/properties/components/items/anyOf/0/properties/series/properties/peak_time",
+          "type": "number",
+          "title": "Time of peak value"
+      },
+      "shape": {
+          "$id": "#/properties/motions/items/anyOf/0/properties/components/items/anyOf/0/properties/series/properties/shape",
+          "type": "integer",
+          "title": "Series shape"
+      },
+      "time_step": {
+          "$id": "#/properties/motions/items/anyOf/0/properties/components/items/anyOf/0/properties/series/properties/time_step",
+          "type": "number",
+          "title": "Time step"
+      },
+      "data": {
+          "$id": "#/properties/motions/items/anyOf/0/properties/components/items/anyOf/0/properties/series/properties/data",
+          "type": "array",
+          "title": "Time series data",
+          "default": [],
+          "additionalItems": true,
+          "items": {
+              "$id": "#/properties/motions/items/anyOf/0/properties/components/items/anyOf/0/properties/series/properties/data/items"
+          }
+      }
+  }
+}
