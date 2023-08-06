@@ -1,0 +1,9 @@
+pywin32
+matplotlib
+numpy
+scipy
+notebook
+pyside2
+pyqtgraph
+psutil
+debugpy
