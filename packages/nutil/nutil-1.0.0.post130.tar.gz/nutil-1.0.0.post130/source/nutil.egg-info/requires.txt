@@ -1,0 +1,14 @@
+javaproperties
+numpy
+pandas
+psutil
+python-dateutil
+requests
+sqlalchemy
+validators
+
+[dev]
+check-manifest
+
+[test]
+coverage
