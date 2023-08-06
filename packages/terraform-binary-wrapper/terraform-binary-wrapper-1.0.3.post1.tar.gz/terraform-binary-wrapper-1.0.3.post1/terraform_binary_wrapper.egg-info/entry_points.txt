@@ -1,0 +1,4 @@
+[console_scripts]
+terraform = terraform:main
+tf-binary-download = terraform:download
+
