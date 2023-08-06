@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ctpbee_api
+Version: 0.32
+Summary: single CTP API support, From VNPY
+Home-page: https://github.com/ctpbee/ctpbee_api
+Author: somewheve
+Author-email: somewheve@gmail.com
+License: MIT
+Platform: Windows
+Platform: Linux
+
+api support
+
