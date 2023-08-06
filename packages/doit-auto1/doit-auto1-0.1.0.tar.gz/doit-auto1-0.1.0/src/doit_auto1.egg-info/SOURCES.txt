@@ -1,0 +1,14 @@
+AUTHORS
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/doit_auto1/__init__.py
+src/doit_auto1/cmd_auto.py
+src/doit_auto1/filewatch.py
+src/doit_auto1.egg-info/PKG-INFO
+src/doit_auto1.egg-info/SOURCES.txt
+src/doit_auto1.egg-info/dependency_links.txt
+src/doit_auto1.egg-info/entry_points.txt
+src/doit_auto1.egg-info/requires.txt
+src/doit_auto1.egg-info/top_level.txt

@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: doit-auto1
+Version: 0.1.0
+Summary: doit cmd plugin: auto - watch filesystem and re-execute on changes
+Home-page: https://github.com/pydoit/doit-auto1
+Author: Eduardo Naufel Schettino
+Author-email: schettino72@gmail.com
+License: UNKNOWN
+Project-URL: Documentation, https://pydoit.org/cmd-other.html#auto-watch
+Project-URL: Source, https://github.com/pydoit/doit-auto1
+Project-URL: Bug Tracker, https://github.com/pydoit/doit-auto1/issues
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS
+
+# doit cmd plugin: **auto**
+
+Watch filesystem and re-execute on changes.
+
+# Status
+
+This is the *first* generation of `doit` `auto` command.
+
+It is based on:
+
+- Linux: pyinotify <https://pypi.org/project/pyinotify>
+- MAC: macfsevents <https://pypi.python.org/pypi/MacFSEvents>`
+
+Unfortunately both of this projects are not maintained anymore.
+
+

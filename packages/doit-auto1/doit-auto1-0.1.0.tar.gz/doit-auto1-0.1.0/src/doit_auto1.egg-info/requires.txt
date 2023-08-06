@@ -1,0 +1,6 @@
+
+[:sys_platform == "darwin"]
+macfsevents
+
+[:sys_platform == "linux"]
+pyinotify
