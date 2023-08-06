@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/RequirementsLibrary/__init__.py
+src/RequirementsLibrary/keywords.py
+src/RequirementsLibrary/version.py
+src/robotframework_requirements.egg-info/PKG-INFO
+src/robotframework_requirements.egg-info/SOURCES.txt
+src/robotframework_requirements.egg-info/dependency_links.txt
+src/robotframework_requirements.egg-info/top_level.txt
