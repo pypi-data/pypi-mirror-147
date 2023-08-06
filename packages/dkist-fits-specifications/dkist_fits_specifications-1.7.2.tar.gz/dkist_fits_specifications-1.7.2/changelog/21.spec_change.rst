@@ -1,0 +1,1 @@
+Updated Spec122 and Spec214 schemas to be consistent with SPEC-122 Rev F.
