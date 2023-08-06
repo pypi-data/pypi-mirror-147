@@ -1,0 +1,5 @@
+numpy
+soundfile
+grpcio==1.44.0
+grpcio-status==1.39.0
+
