@@ -1,0 +1,12 @@
+Flask>=1.1
+python-json-logger
+
+[jwt]
+flask-jwt-extended
+
+[requests]
+requests
+
+[test]
+pytest
+python-json-logger
