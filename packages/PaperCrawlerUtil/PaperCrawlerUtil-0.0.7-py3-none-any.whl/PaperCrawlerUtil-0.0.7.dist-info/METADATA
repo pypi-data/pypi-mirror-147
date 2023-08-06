@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: PaperCrawlerUtil
+Version: 0.0.7
+Summary: A small paper crawler
+Home-page: https://github.com
+Author: liwudi.fun
+Author-email: liwudi@liwudi.fun
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: beautifulsoup4 (>=4.10.0)
+Requires-Dist: urllib3 (>=1.26.8)
+Requires-Dist: requests (>=2.27.1)
+Requires-Dist: fake-useragent (>=0.1.11)
+
+# Example Package
+#在此文件内，可使用markdown撰写对包的详细介绍和说明，便于别人熟悉和使用，在此不再赘述
+This is a simple example package. You can use
+[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
+
