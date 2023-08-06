@@ -1,0 +1,15 @@
+[console_scripts]
+odin-auth = muninn.client.authenticate:main
+odin-cleanup = muninn.client.cleanup:main
+odin-create = muninn.client.create:main
+odin-data = muninn.client.data:main
+odin-events = muninn.client.events:main
+odin-gpus = muninn.client.gpus:main
+odin-logs = muninn.client.logs:main
+odin-ping = muninn.client.ping:main
+odin-push = muninn.client.push:main
+odin-run = muninn.client.run:main
+odin-show = muninn.client.show:main
+odin-status = muninn.client.status:main
+odin-user = muninn.client.user:main
+

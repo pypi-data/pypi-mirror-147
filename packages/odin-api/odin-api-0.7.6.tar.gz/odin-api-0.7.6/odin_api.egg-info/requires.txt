@@ -1,0 +1,10 @@
+numpy
+mead-baseline
+websockets
+requests
+requests-async
+pyyaml>=5.1
+prompt_toolkit>=2.0.0
+
+[test]
+pytest

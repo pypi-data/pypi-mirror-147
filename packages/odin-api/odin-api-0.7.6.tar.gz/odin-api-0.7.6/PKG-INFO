@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: odin-api
+Version: 0.7.6
+Summary: Odin Client API (Muninn)
+Home-page: UNKNOWN
+Author: interactions
+Author-email: odin@interactions.com
+License: Apache 2.0
+Keywords: deep-learning,kubernetes,ml-ops
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Description-Content-Type: text/markdown
+Provides-Extra: test
+License-File: ../LICENSE
+License-File: ../NOTICE
+
+UNKNOWN
+
