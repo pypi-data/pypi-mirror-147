@@ -1,0 +1,95 @@
+# Configuration file for scenario delta
+
+# name of scearnio 
+name: delta
+# state definitions
+states:
+      - !!python/tuple
+        - "basin_C"
+        - depthN
+      - !!python/tuple
+        - "basin_S"
+        - depthN
+      - !!python/tuple
+        - "basin_N1"
+        - depthN
+      - !!python/tuple
+        - "basin_N2"
+        - depthN
+      - !!python/tuple
+        - "basin_N3"
+        - depthN
+      - !!python/tuple
+        - "basin_N4"
+        - depthN
+
+# Action space
+action_space:
+        - "weir_N3"
+        - "weir_N2"
+        - "weir_N1"          
+        - "weir_C"
+        - "orifice_S"
+
+# Performance Targets
+performance_targets:
+        # depth
+        - !!python/tuple
+          - "basin_C"
+          - depthN
+        - !!python/tuple
+          - "basin_S"
+          - depthN
+        - !!python/tuple
+          - "basin_N1"
+          - depthN
+        - !!python/tuple
+          - "basin_N2"
+          - depthN
+        - !!python/tuple
+          - "basin_N3"
+          - depthN
+        # flooding
+        - !!python/tuple
+          - "junc_N4sc"
+          - flooding
+        - !!python/tuple
+          - "basin_N4"
+          - flooding
+        - !!python/tuple
+          - "junc_N3sc"
+          - flooding
+        - !!python/tuple
+          - "basin_N3"
+          - flooding
+        - !!python/tuple
+          - "junc_N2sc"
+          - flooding
+        - !!python/tuple
+          - "basin_N2"
+          - flooding
+        - !!python/tuple
+          - "junc_N1sc"
+          - flooding
+        - !!python/tuple
+          - "basin_N1"
+          - flooding
+        - !!python/tuple
+          - "junc_Csc"
+          - flooding
+        - !!python/tuple
+          - "basin_C"
+          - flooding          
+        - !!python/tuple
+          - "junc_Ssc"
+          - flooding
+        - !!python/tuple
+          - "basin_S"
+          - flooding
+        - !!python/tuple
+          - "junc_EinflowA"
+          - flooding
+        # flow
+        - !!python/tuple
+          - "conduit_Eout"
+          - flow
