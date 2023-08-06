@@ -1,0 +1,24 @@
+graft docs
+graft src
+graft src/cymorton
+graft ci
+graft tests
+
+include .bumpversion.cfg
+include .coveragerc
+include tox.ini
+include .github/workflows/github-actions.yml
+include .pre-commit-config.yaml
+include pytest.ini
+include tox.ini
+include LICENSE
+include README.rst
+include requirements.txt
+include requirements_test.txt
+include src/cymorton/__codec.cpp
+include src/cymorton/__codec.hpp
+include src/cymorton/codec.pxd
+include src/cymorton/codec.pyx
+exclude src/cymorton/codec.cpp
+
+global-exclude *.py[cod] __pycache__/* *.so *.dylib
