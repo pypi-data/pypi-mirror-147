@@ -1,0 +1,6 @@
+deepspeech_cli/__init__.py,sha256=ls1camlIoMxEZz9gSkZ1OJo-MXqHWwKPtdPbZJmwp7E,22
+deepspeech_cli/config.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deepspeech_cli/deepspeech_cli.py,sha256=DWbv9lziJoxkpPoegENFgcMDaeRoHxnS7rYJgAIYXFQ,1893
+deepspeech_cli-0.1.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+deepspeech_cli-0.1.1.dist-info/METADATA,sha256=HjoEcQCUfNxNAR090Bt5q8OQSaEK05arYdcacQA3ZII,311
+deepspeech_cli-0.1.1.dist-info/RECORD,,
