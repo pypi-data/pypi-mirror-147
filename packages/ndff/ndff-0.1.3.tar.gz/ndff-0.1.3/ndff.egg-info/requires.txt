@@ -1,0 +1,9 @@
+requests
+psycopg2
+shapely
+
+[dev]
+sphinx
+
+[test]
+pytest
