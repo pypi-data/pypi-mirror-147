@@ -1,0 +1,13 @@
+CHANGES.rst,sha256=bw968eodVHz6O7yXcXMldK2zsnK-2884b0RQAfNl8kg,13841
+LICENSE,sha256=iTjudLqjEj3C4T54f25YXcH4s9F4P3bNZOUc40PSdVY,1390
+postal_address/__init__.py,sha256=1usm7CZdLROXxr_Y0MfdF72Kay5hN16zPELMJPdFVI8,441
+postal_address/__version__.py,sha256=H6J6_VZQSe6YTzoqUwR7_0rfd3WW1uA-wulB3-kgKfE,175
+postal_address/address.py,sha256=zP3z_hZg8qHvoi0cyia4tL-_0Z5JtfS9RaRuNvcZsgI,27038
+postal_address/territory.py,sha256=ica_EOj4vGaVJLxs_7K9ZaHRSKe8u8Upvwz4Lyk31dY,15563
+postal_address/tests/__init__.py,sha256=4GukmjzuAScf7ZU_FeiKlApXfLzpmcqYDE6Q9l5IKsM,380
+postal_address/tests/test_address.py,sha256=xHjgcLUmqEOo6IMQHnlQ75dmF4X3Z3FoGbjKk55anLU,33531
+postal_address/tests/test_territory.py,sha256=dRxSzZ-nk0-uBwOi38G6wS6FjbVbgIlYKJmRFS-EW9s,10979
+postal_address-22.4.22.dist-info/LICENSE,sha256=iTjudLqjEj3C4T54f25YXcH4s9F4P3bNZOUc40PSdVY,1390
+postal_address-22.4.22.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+postal_address-22.4.22.dist-info/METADATA,sha256=RH3s_aP9XEZOcntPexlrXYZgDgQDmS4PFJhqjlEuchM,3414
+postal_address-22.4.22.dist-info/RECORD,,
