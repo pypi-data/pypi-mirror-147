@@ -1,0 +1,101 @@
+Metadata-Version: 2.1
+Name: clime-badges
+Version: 0.3.3
+Summary: SSL CLIME Badges - Custom SVG Metric Badges
+Home-page: https://ssl.cs.luc.edu/projects/metricsDashboard
+Author: Software and Systems Laboratory - Loyola University Chicago
+Author-email: ssl-metrics@ssl.luc.edu
+License: BSD
+Project-URL: Bug Tracker, https://github.com/SoftwareSystemsLaboratory/clime-badges/issues
+Project-URL: GitHub Repository, https://github.com/SoftwareSystemsLaboratory/clime-badges
+Keywords: bugzilla,bus factor,bus factor,cloc,commits,commits,delta lines of code,engineering,git,git,github,github,gitlab,installable,issue density,issue density,issue spoilage,issues,issues,kloc,lines of code,longitudinal graphs,loyola university chicago,loyola,luc,metrics,metrics,mining,productivity,python,repository mining,repository,simple,sloccount,software engineering,software metrics,software systems laboratory,software,ssl,thousands of lines of code,tool,vcs
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# CLIME Badges
+
+> A tool to create custom badges displaying CLIME metrics
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6477908.svg)](https://doi.org/10.5281/zenodo.6477908)
+[![Release Project](https://github.com/SoftwareSystemsLaboratory/clime-badges/actions/workflows/release.yml/badge.svg)](https://github.com/SoftwareSystemsLaboratory/clime-badges/actions/workflows/release.yml)
+
+## Table of Contents
+
+- [CLIME Badges](#clime-badges)
+  - [Table of Contents](#table-of-contents)
+  - [About](#about)
+    - [Licensing](#licensing)
+  - [How To Use](#how-to-use)
+    - [Installation](#installation)
+    - [Command Line Options](#command-line-options)
+
+## About
+
+The Software Systems Laboratory (SSL) CLIME Badges project is a tool to create custom badges displaying CLIME metrics.
+
+### Licensing
+
+This project is licensed under the BSD-3-Clause. See the [LICENSE](LICENSE) for more information.
+
+## How To Use
+
+### Installation
+
+You can install the tool from PyPi with one of the following one liners:
+
+- `pip install clime-metrics`
+- `pip install clime-badges`
+
+### Command Line Options
+
+`clime-badges -h`
+
+``` shell
+usage: CLIME Metric Badge Creator [-h] [-g GRAPH] [-lc LEFT_COLOR]
+                                  [-lt LEFT_TEXT] [-u LINK] [-o OUTPUT]
+                                  [-rt RIGHT_TEXT]
+                                  [-rc--right-color RC__RIGHT_COLOR] [-v]
+
+A tool to create a badge from a metric's graph
+
+options:
+  -h, --help            show this help message and exit
+  -g GRAPH, --graph GRAPH
+                        The metric graph SVG file to be used as the badge
+                        logo. DEFAULT: metric.svg
+  -lc LEFT_COLOR, --left-color LEFT_COLOR
+                        Left side color. DEFAULT: maroon
+  -lt LEFT_TEXT, --left-text LEFT_TEXT
+                        Text to go on the left side of the badge. DEAULT:
+                        CLIME Metric
+  -u LINK, --link LINK  Link to a specific URL that will open when the badge
+                        is clicked/ DEFAULT: None
+  -o OUTPUT, --output OUTPUT
+                        The output filename of the badge. NOTE: Must end in
+                        .svg. DEFAULT: badge.svg
+  -rt RIGHT_TEXT, --right-text RIGHT_TEXT
+                        Text to go on the right side of the badge. DEFAULT:
+                        None
+  -rc--right-color RC__RIGHT_COLOR
+                        Right side color. DEFAULT: gold
+  -v, --version         Display version of the tool
+
+Author(s): Nicholas M. Synovic, George K. Thiruvathukal
+```
+
+
