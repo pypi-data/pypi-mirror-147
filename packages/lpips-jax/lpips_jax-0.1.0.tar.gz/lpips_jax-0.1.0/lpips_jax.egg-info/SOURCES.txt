@@ -1,0 +1,12 @@
+README.md
+setup.py
+lpips_jax/__init__.py
+lpips_jax/lpips.py
+lpips_jax/models.py
+lpips_jax.egg-info/PKG-INFO
+lpips_jax.egg-info/SOURCES.txt
+lpips_jax.egg-info/dependency_links.txt
+lpips_jax.egg-info/requires.txt
+lpips_jax.egg-info/top_level.txt
+lpips_jax/weights/alexnet.ckpt
+lpips_jax/weights/vgg16.ckpt
