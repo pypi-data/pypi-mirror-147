@@ -1,0 +1,2 @@
+synapseclient>=2.5.1
+pandas>=1.0
