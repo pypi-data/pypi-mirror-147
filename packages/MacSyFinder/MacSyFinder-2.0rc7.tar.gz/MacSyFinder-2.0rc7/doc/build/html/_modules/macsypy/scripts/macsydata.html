@@ -1,0 +1,1196 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>macsypy.scripts.macsydata &mdash; MacSyFinder 2.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/graphviz.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/_css/custom.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+        <script src="../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home" alt="Documentation Home"> MacSyFinder
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../user_guide/index.html">User Guide</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../modeler_guide/index.html">Modeller Guide</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../developer_guide/index.html">Developer Guide</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">MacSyFinder</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../../index.html">Module code</a> &raquo;</li>
+        
+      <li>macsypy.scripts.macsydata</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <h1>Source code for macsypy.scripts.macsydata</h1><div class="highlight"><pre>
+<span></span><span class="c1">#########################################################################</span>
+<span class="c1"># MacSyFinder - Detection of macromolecular systems in protein dataset  #</span>
+<span class="c1">#               using systems modelling and similarity search.          #</span>
+<span class="c1"># Authors: Sophie Abby, Bertrand Neron                                  #</span>
+<span class="c1"># Copyright (c) 2014-2022  Institut Pasteur (Paris) and CNRS.           #</span>
+<span class="c1"># See the COPYRIGHT file for details                                    #</span>
+<span class="c1">#                                                                       #</span>
+<span class="c1"># This file is part of MacSyFinder package.                             #</span>
+<span class="c1">#                                                                       #</span>
+<span class="c1"># MacSyFinder is free software: you can redistribute it and/or modify   #</span>
+<span class="c1"># it under the terms of the GNU General Public License as published by  #</span>
+<span class="c1"># the Free Software Foundation, either version 3 of the License, or     #</span>
+<span class="c1"># (at your option) any later version.                                   #</span>
+<span class="c1">#                                                                       #</span>
+<span class="c1"># MacSyFinder is distributed in the hope that it will be useful,        #</span>
+<span class="c1"># but WITHOUT ANY WARRANTY; without even the implied warranty of        #</span>
+<span class="c1"># MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the          #</span>
+<span class="c1"># GNU General Public License for more details .                         #</span>
+<span class="c1">#                                                                       #</span>
+<span class="c1"># You should have received a copy of the GNU General Public License     #</span>
+<span class="c1"># along with MacSyFinder (COPYING).                                     #</span>
+<span class="c1"># If not, see &lt;https://www.gnu.org/licenses/&gt;.                          #</span>
+<span class="c1">#########################################################################</span>
+
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">This is the entrypoint to the macsydata command</span>
+<span class="sd">macsydata allow the user to manage the MacSyFinder models</span>
+<span class="sd">&quot;&quot;&quot;</span>
+
+<span class="kn">import</span> <span class="nn">sys</span>
+<span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">import</span> <span class="nn">argparse</span>
+<span class="kn">import</span> <span class="nn">shutil</span>
+<span class="kn">from</span> <span class="nn">textwrap</span> <span class="kn">import</span> <span class="n">dedent</span>
+<span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">List</span><span class="p">,</span> <span class="n">Tuple</span><span class="p">,</span> <span class="n">Dict</span><span class="p">,</span> <span class="n">Optional</span>
+<span class="kn">import</span> <span class="nn">pathlib</span>
+<span class="kn">import</span> <span class="nn">logging</span>
+
+<span class="kn">import</span> <span class="nn">colorlog</span>
+<span class="kn">from</span> <span class="nn">packaging</span> <span class="kn">import</span> <span class="n">requirements</span><span class="p">,</span> <span class="n">specifiers</span><span class="p">,</span> <span class="n">version</span>
+
+<span class="kn">import</span> <span class="nn">macsypy</span>
+<span class="kn">from</span> <span class="nn">macsypy.error</span> <span class="kn">import</span> <span class="n">MacsyDataLimitError</span>
+<span class="kn">from</span> <span class="nn">macsypy.config</span> <span class="kn">import</span> <span class="n">MacsyDefaults</span><span class="p">,</span> <span class="n">Config</span>
+<span class="kn">from</span> <span class="nn">macsypy.registries</span> <span class="kn">import</span> <span class="n">ModelRegistry</span><span class="p">,</span> <span class="n">ModelLocation</span><span class="p">,</span> <span class="n">scan_models_dir</span>
+<span class="kn">from</span> <span class="nn">macsypy.package</span> <span class="kn">import</span> <span class="n">RemoteModelIndex</span><span class="p">,</span> <span class="n">LocalModelIndex</span><span class="p">,</span> <span class="n">Package</span><span class="p">,</span> <span class="n">parse_arch_path</span>
+
+<span class="c1"># _log is set in main func</span>
+<span class="n">_log</span> <span class="o">=</span> <span class="kc">None</span>
+
+
+<div class="viewcode-block" id="get_version_message"><a class="viewcode-back" href="../../../developer_guide/api/scripts.html#macsypy.scripts.macsydata.get_version_message">[docs]</a><span class="k">def</span> <span class="nf">get_version_message</span><span class="p">():</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    :return: the long description of the macsyfinder version</span>
+<span class="sd">    :rtype: str</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">msf_ver</span> <span class="o">=</span> <span class="n">macsypy</span><span class="o">.</span><span class="n">__version__</span>
+    <span class="n">vers_msg</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;&quot;&quot;Macsydata </span><span class="si">{</span><span class="n">msf_ver</span><span class="si">}</span><span class="s2"></span>
+<span class="s2">Python </span><span class="si">{</span><span class="n">sys</span><span class="o">.</span><span class="n">version</span><span class="si">}</span><span class="s2"></span>
+
+<span class="s2">MacsyFinder is distributed under the terms of the GNU General Public License (GPLv3).</span>
+<span class="s2">See the COPYING file for details.</span>
+
+<span class="s2">If you use this software please cite:</span>
+<span class="si">{</span><span class="n">macsypy</span><span class="o">.</span><span class="n">__citation__</span><span class="si">}</span><span class="s2"></span>
+<span class="s2">and don&#39;t forget to cite models used:</span>
+<span class="s2">macsydata cite &lt;model&gt;</span>
+<span class="s2">&quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="n">vers_msg</span></div>
+
+<span class="c1">##################</span>
+<span class="c1"># Remote actions #</span>
+<span class="c1">##################</span>
+
+
+<div class="viewcode-block" id="do_available"><a class="viewcode-back" href="../../../developer_guide/api/scripts.html#macsypy.scripts.macsydata.do_available">[docs]</a><span class="k">def</span> <span class="nf">do_available</span><span class="p">(</span><span class="n">args</span><span class="p">:</span> <span class="n">argparse</span><span class="o">.</span><span class="n">Namespace</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    List Models available on macsy-models</span>
+<span class="sd">    :param args: the arguments passed on the command line</span>
+<span class="sd">    :return: None</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">remote</span> <span class="o">=</span> <span class="n">RemoteModelIndex</span><span class="p">(</span><span class="n">org</span><span class="o">=</span><span class="n">args</span><span class="o">.</span><span class="n">org</span><span class="p">)</span>
+    <span class="n">packages</span> <span class="o">=</span> <span class="n">remote</span><span class="o">.</span><span class="n">list_packages</span><span class="p">()</span>
+    <span class="k">for</span> <span class="n">pack</span> <span class="ow">in</span> <span class="n">packages</span><span class="p">:</span>
+        <span class="n">all_versions</span> <span class="o">=</span> <span class="n">remote</span><span class="o">.</span><span class="n">list_package_vers</span><span class="p">(</span><span class="n">pack</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">all_versions</span><span class="p">:</span>
+            <span class="n">last_vers</span> <span class="o">=</span> <span class="n">all_versions</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+            <span class="n">metadata</span> <span class="o">=</span> <span class="n">remote</span><span class="o">.</span><span class="n">get_metadata</span><span class="p">(</span><span class="n">pack</span><span class="p">,</span> <span class="n">vers</span><span class="o">=</span><span class="n">last_vers</span><span class="p">)</span>
+            <span class="n">pack_vers</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">pack</span><span class="si">}</span><span class="s2"> (</span><span class="si">{</span><span class="n">last_vers</span><span class="si">}</span><span class="s2">)&quot;</span>
+            <span class="c1"># 26 = length of field</span>
+            <span class="c1"># 25 = number of displayed chars</span>
+            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">pack_vers</span><span class="si">:</span><span class="s2">26.25</span><span class="si">}</span><span class="s2"> - </span><span class="si">{</span><span class="n">metadata</span><span class="p">[</span><span class="s1">&#39;short_desc&#39;</span><span class="p">]</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="do_search"><a class="viewcode-back" href="../../../developer_guide/api/scripts.html#macsypy.scripts.macsydata.do_search">[docs]</a><span class="k">def</span> <span class="nf">do_search</span><span class="p">(</span><span class="n">args</span><span class="p">:</span> <span class="n">argparse</span><span class="o">.</span><span class="n">Namespace</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Search macsy-models for Model in a remote index.</span>
+<span class="sd">    by default search in package name,</span>
+<span class="sd">    if option -S is set search also in description</span>
+<span class="sd">    by default the search is case insensitive except if</span>
+<span class="sd">    option --match-case is set.</span>
+
+<span class="sd">    :param args: the arguments passed on the command line</span>
+<span class="sd">    :type args: :class:`argparse.Namespace` object</span>
+<span class="sd">    :rtype: None</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="n">remote</span> <span class="o">=</span> <span class="n">RemoteModelIndex</span><span class="p">(</span><span class="n">org</span><span class="o">=</span><span class="n">args</span><span class="o">.</span><span class="n">org</span><span class="p">)</span>
+        <span class="n">packages</span> <span class="o">=</span> <span class="n">remote</span><span class="o">.</span><span class="n">list_packages</span><span class="p">()</span>
+        <span class="k">if</span> <span class="n">args</span><span class="o">.</span><span class="n">careful</span><span class="p">:</span>
+            <span class="n">results</span> <span class="o">=</span> <span class="n">_search_in_desc</span><span class="p">(</span><span class="n">args</span><span class="o">.</span><span class="n">pattern</span><span class="p">,</span> <span class="n">remote</span><span class="p">,</span> <span class="n">packages</span><span class="p">,</span> <span class="n">match_case</span><span class="o">=</span><span class="n">args</span><span class="o">.</span><span class="n">match_case</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">results</span> <span class="o">=</span> <span class="n">_search_in_pack_name</span><span class="p">(</span><span class="n">args</span><span class="o">.</span><span class="n">pattern</span><span class="p">,</span> <span class="n">remote</span><span class="p">,</span> <span class="n">packages</span><span class="p">,</span> <span class="n">match_case</span><span class="o">=</span><span class="n">args</span><span class="o">.</span><span class="n">match_case</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">pack</span><span class="p">,</span> <span class="n">last_vers</span><span class="p">,</span> <span class="n">desc</span> <span class="ow">in</span> <span class="n">results</span><span class="p">:</span>
+            <span class="n">pack_vers</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">pack</span><span class="si">}</span><span class="s2"> (</span><span class="si">{</span><span class="n">last_vers</span><span class="si">}</span><span class="s2">)&quot;</span>
+            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">pack_vers</span><span class="si">:</span><span class="s2">26.25</span><span class="si">}</span><span class="s2"> - </span><span class="si">{</span><span class="n">desc</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="k">except</span> <span class="n">MacsyDataLimitError</span> <span class="k">as</span> <span class="n">err</span><span class="p">:</span>
+        <span class="n">_log</span><span class="o">.</span><span class="n">critical</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">err</span><span class="p">))</span></div>
+
+
+<div class="viewcode-block" id="_search_in_pack_name"><a class="viewcode-back" href="../../../developer_guide/api/scripts.html#macsypy.scripts.macsydata._search_in_pack_name">[docs]</a><span class="k">def</span> <span class="nf">_search_in_pack_name</span><span class="p">(</span><span class="n">pattern</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">remote</span><span class="p">:</span> <span class="n">RemoteModelIndex</span><span class="p">,</span> <span class="n">packages</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">],</span>
+                         <span class="n">match_case</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="n">Tuple</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">,</span> <span class="n">Dict</span><span class="p">]]:</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+
+<span class="sd">    :param pattern: the substring to search packages names</span>
+<span class="sd">    :param remote: the uri of the macsy-models index</span>
+<span class="sd">    :param packages: list of packages to search in</span>
+<span class="sd">    :param match_case: True if the search is case sensitive, False otherwise</span>
+<span class="sd">    :return:</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">results</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">pack_name</span> <span class="ow">in</span> <span class="n">packages</span><span class="p">:</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">match_case</span><span class="p">:</span>
+            <span class="n">pack</span> <span class="o">=</span> <span class="n">pack_name</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
+            <span class="n">pattern</span> <span class="o">=</span> <span class="n">pattern</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">pack</span> <span class="o">=</span> <span class="n">pack_name</span>
+
+        <span class="k">if</span> <span class="n">pattern</span> <span class="ow">in</span> <span class="n">pack</span><span class="p">:</span>
+            <span class="n">all_versions</span> <span class="o">=</span> <span class="n">remote</span><span class="o">.</span><span class="n">list_package_vers</span><span class="p">(</span><span class="n">pack_name</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">all_versions</span><span class="p">:</span>
+                <span class="n">metadata</span> <span class="o">=</span> <span class="n">remote</span><span class="o">.</span><span class="n">get_metadata</span><span class="p">(</span><span class="n">pack_name</span><span class="p">)</span>
+                <span class="n">last_vers</span> <span class="o">=</span> <span class="n">all_versions</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+                <span class="n">results</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">pack_name</span><span class="p">,</span> <span class="n">last_vers</span><span class="p">,</span> <span class="n">metadata</span><span class="p">[</span><span class="s1">&#39;short_desc&#39;</span><span class="p">]))</span>
+    <span class="k">return</span> <span class="n">results</span></div>
+
+
+<div class="viewcode-block" id="_search_in_desc"><a class="viewcode-back" href="../../../developer_guide/api/scripts.html#macsypy.scripts.macsydata._search_in_desc">[docs]</a><span class="k">def</span> <span class="nf">_search_in_desc</span><span class="p">(</span><span class="n">pattern</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">remote</span><span class="p">:</span> <span class="n">RemoteModelIndex</span><span class="p">,</span> <span class="n">packages</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">],</span> <span class="n">match_case</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+
+<span class="sd">    :param pattern: the substring to search packages descriptions</span>
+<span class="sd">    :param remote: the uri of the macsy-models index</span>
+<span class="sd">    :param packages: list of packages to search in</span>
+<span class="sd">    :param match_case: True if the search is case sensitive, False otherwise</span>
+<span class="sd">    :return:</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">results</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">pack_name</span> <span class="ow">in</span> <span class="n">packages</span><span class="p">:</span>
+        <span class="n">all_versions</span> <span class="o">=</span> <span class="n">remote</span><span class="o">.</span><span class="n">list_package_vers</span><span class="p">(</span><span class="n">pack_name</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">all_versions</span><span class="p">:</span>
+            <span class="n">metadata</span> <span class="o">=</span> <span class="n">remote</span><span class="o">.</span><span class="n">get_metadata</span><span class="p">(</span><span class="n">pack_name</span><span class="p">)</span>
+            <span class="n">desc</span> <span class="o">=</span> <span class="n">metadata</span><span class="p">[</span><span class="s1">&#39;short_desc&#39;</span><span class="p">]</span>
+            <span class="k">if</span> <span class="ow">not</span> <span class="n">match_case</span><span class="p">:</span>
+                <span class="n">pack</span> <span class="o">=</span> <span class="n">pack_name</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
+                <span class="n">desc</span> <span class="o">=</span> <span class="n">desc</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
+                <span class="n">pattern</span> <span class="o">=</span> <span class="n">pattern</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">pack</span> <span class="o">=</span> <span class="n">pack_name</span>
+
+            <span class="k">if</span> <span class="n">pattern</span> <span class="ow">in</span> <span class="n">pack</span> <span class="ow">or</span> <span class="n">pattern</span> <span class="ow">in</span> <span class="n">desc</span><span class="p">:</span>
+                <span class="n">last_vers</span> <span class="o">=</span> <span class="n">all_versions</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+                <span class="n">results</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">pack_name</span><span class="p">,</span> <span class="n">last_vers</span><span class="p">,</span> <span class="n">metadata</span><span class="p">[</span><span class="s1">&#39;short_desc&#39;</span><span class="p">]))</span>
+    <span class="k">return</span> <span class="n">results</span></div>
+
+
+<div class="viewcode-block" id="do_download"><a class="viewcode-back" href="../../../developer_guide/api/scripts.html#macsypy.scripts.macsydata.do_download">[docs]</a><span class="k">def</span> <span class="nf">do_download</span><span class="p">(</span><span class="n">args</span><span class="p">:</span> <span class="n">argparse</span><span class="o">.</span><span class="n">Namespace</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Download tarball from remote models repository.</span>
+
+<span class="sd">    :param args: the arguments passed on the command line</span>
+<span class="sd">    :type args: :class:`argparse.Namespace` object</span>
+<span class="sd">    :rtype: None</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="n">remote</span> <span class="o">=</span> <span class="n">RemoteModelIndex</span><span class="p">(</span><span class="n">org</span><span class="o">=</span><span class="n">args</span><span class="o">.</span><span class="n">org</span><span class="p">)</span>
+        <span class="n">req</span> <span class="o">=</span> <span class="n">requirements</span><span class="o">.</span><span class="n">Requirement</span><span class="p">(</span><span class="n">args</span><span class="o">.</span><span class="n">package</span><span class="p">)</span>
+        <span class="n">pack_name</span> <span class="o">=</span> <span class="n">req</span><span class="o">.</span><span class="n">name</span>
+        <span class="n">specifier</span> <span class="o">=</span> <span class="n">req</span><span class="o">.</span><span class="n">specifier</span>
+        <span class="n">all_versions</span> <span class="o">=</span> <span class="n">remote</span><span class="o">.</span><span class="n">list_package_vers</span><span class="p">(</span><span class="n">pack_name</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">all_versions</span><span class="p">:</span>
+            <span class="n">compatible_version</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">specifier</span><span class="o">.</span><span class="n">filter</span><span class="p">(</span><span class="n">all_versions</span><span class="p">))</span>
+            <span class="k">if</span> <span class="n">compatible_version</span><span class="p">:</span>
+                <span class="n">vers</span> <span class="o">=</span> <span class="n">compatible_version</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+                <span class="n">_log</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Downloading </span><span class="si">{</span><span class="n">pack_name</span><span class="si">}</span><span class="s2"> </span><span class="si">{</span><span class="n">vers</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+                <span class="n">arch_path</span> <span class="o">=</span> <span class="n">remote</span><span class="o">.</span><span class="n">download</span><span class="p">(</span><span class="n">pack_name</span><span class="p">,</span> <span class="n">vers</span><span class="p">,</span> <span class="n">dest</span><span class="o">=</span><span class="n">args</span><span class="o">.</span><span class="n">dest</span><span class="p">)</span>
+                <span class="n">_log</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Successfully downloaded packaging </span><span class="si">{</span><span class="n">pack_name</span><span class="si">}</span><span class="s2"> in </span><span class="si">{</span><span class="n">arch_path</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+                <span class="k">return</span> <span class="n">arch_path</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">_log</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;No version that satisfy requirements &#39;</span><span class="si">{</span><span class="n">specifier</span><span class="si">}</span><span class="s2">&#39; for &#39;</span><span class="si">{</span><span class="n">pack_name</span><span class="si">}</span><span class="s2">&#39;.&quot;</span><span class="p">)</span>
+                <span class="n">_log</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Available versions: </span><span class="si">{</span><span class="s1">&#39;,&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">all_versions</span><span class="p">)</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="k">except</span> <span class="n">MacsyDataLimitError</span> <span class="k">as</span> <span class="n">err</span><span class="p">:</span>
+        <span class="n">_log</span><span class="o">.</span><span class="n">critical</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">err</span><span class="p">))</span></div>
+
+
+<div class="viewcode-block" id="_find_all_installed_packages"><a class="viewcode-back" href="../../../developer_guide/api/scripts.html#macsypy.scripts.macsydata._find_all_installed_packages">[docs]</a><span class="k">def</span> <span class="nf">_find_all_installed_packages</span><span class="p">(</span><span class="n">models_dir</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">ModelRegistry</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    :return: all models installed</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">defaults</span> <span class="o">=</span> <span class="n">MacsyDefaults</span><span class="p">()</span>
+    <span class="n">args</span> <span class="o">=</span> <span class="n">argparse</span><span class="o">.</span><span class="n">Namespace</span><span class="p">()</span>
+    <span class="k">if</span> <span class="n">models_dir</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">args</span><span class="o">.</span><span class="n">models_dir</span> <span class="o">=</span> <span class="n">models_dir</span>
+    <span class="n">config</span> <span class="o">=</span> <span class="n">Config</span><span class="p">(</span><span class="n">defaults</span><span class="p">,</span> <span class="n">args</span><span class="p">)</span>
+    <span class="n">model_dirs</span> <span class="o">=</span> <span class="n">config</span><span class="o">.</span><span class="n">models_dir</span><span class="p">()</span>
+    <span class="n">registry</span> <span class="o">=</span> <span class="n">ModelRegistry</span><span class="p">()</span>
+    <span class="k">for</span> <span class="n">model_dir</span> <span class="ow">in</span> <span class="n">model_dirs</span><span class="p">:</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">model_loc</span> <span class="ow">in</span> <span class="n">scan_models_dir</span><span class="p">(</span><span class="n">model_dir</span><span class="p">,</span> <span class="n">profile_suffix</span><span class="o">=</span><span class="n">config</span><span class="o">.</span><span class="n">profile_suffix</span><span class="p">()):</span>
+                <span class="n">registry</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">model_loc</span><span class="p">)</span>
+        <span class="k">except</span> <span class="ne">PermissionError</span> <span class="k">as</span> <span class="n">err</span><span class="p">:</span>
+            <span class="n">_log</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">model_dir</span><span class="si">}</span><span class="s2"> is not readable: </span><span class="si">{</span><span class="n">err</span><span class="si">}</span><span class="s2"> : skip it.&quot;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">registry</span></div>
+
+
+<div class="viewcode-block" id="_find_installed_package"><a class="viewcode-back" href="../../../developer_guide/api/scripts.html#macsypy.scripts.macsydata._find_installed_package">[docs]</a><span class="k">def</span> <span class="nf">_find_installed_package</span><span class="p">(</span><span class="n">pack_name</span><span class="p">,</span> <span class="n">models_dir</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Optional</span><span class="p">[</span><span class="n">ModelLocation</span><span class="p">]:</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    search if a package names *pack_name* is already installed</span>
+
+<span class="sd">    :param pack_name: the name of the family model to search</span>
+<span class="sd">    :return: The model location corresponding to the `pack_name`</span>
+<span class="sd">    :rtype: :class:`macsypy.registries.ModelLocation` object</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">registry</span> <span class="o">=</span> <span class="n">_find_all_installed_packages</span><span class="p">(</span><span class="n">models_dir</span><span class="p">)</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">registry</span><span class="p">[</span><span class="n">pack_name</span><span class="p">]</span>
+    <span class="k">except</span> <span class="ne">KeyError</span><span class="p">:</span>
+        <span class="k">return</span> <span class="kc">None</span></div>
+
+
+<div class="viewcode-block" id="do_install"><a class="viewcode-back" href="../../../developer_guide/api/scripts.html#macsypy.scripts.macsydata.do_install">[docs]</a><span class="k">def</span> <span class="nf">do_install</span><span class="p">(</span><span class="n">args</span><span class="p">:</span> <span class="n">argparse</span><span class="o">.</span><span class="n">Namespace</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Install new models in macsyfinder local models repository.</span>
+
+<span class="sd">    :param args: the arguments passed on the command line</span>
+<span class="sd">    :type args: :class:`argparse.Namespace` object</span>
+<span class="sd">    :rtype: None</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">def</span> <span class="nf">clean_cache</span><span class="p">(</span><span class="n">model_index</span><span class="p">):</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">shutil</span><span class="o">.</span><span class="n">rmtree</span><span class="p">(</span><span class="n">model_index</span><span class="o">.</span><span class="n">cache</span><span class="p">)</span>
+        <span class="k">except</span> <span class="ne">Exception</span><span class="p">:</span>
+            <span class="n">_log</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Cannot clean cache &#39;</span><span class="si">{</span><span class="n">model_index</span><span class="o">.</span><span class="n">cache</span><span class="si">}</span><span class="s2">&#39;: </span><span class="si">{</span><span class="n">err</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">args</span><span class="o">.</span><span class="n">package</span><span class="p">):</span>
+        <span class="n">remote</span> <span class="o">=</span> <span class="kc">False</span>
+        <span class="n">pack_name</span><span class="p">,</span> <span class="n">inst_vers</span> <span class="o">=</span> <span class="n">parse_arch_path</span><span class="p">(</span><span class="n">args</span><span class="o">.</span><span class="n">package</span><span class="p">)</span>
+        <span class="n">user_req</span> <span class="o">=</span> <span class="n">requirements</span><span class="o">.</span><span class="n">Requirement</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">pack_name</span><span class="si">}</span><span class="s2">==</span><span class="si">{</span><span class="n">inst_vers</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">remote</span> <span class="o">=</span> <span class="kc">True</span>
+        <span class="n">user_req</span> <span class="o">=</span> <span class="n">requirements</span><span class="o">.</span><span class="n">Requirement</span><span class="p">(</span><span class="n">args</span><span class="o">.</span><span class="n">package</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">args</span><span class="o">.</span><span class="n">target</span><span class="p">:</span>
+        <span class="n">dest</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">realpath</span><span class="p">(</span><span class="n">args</span><span class="o">.</span><span class="n">target</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">dest</span><span class="p">)</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">isdir</span><span class="p">(</span><span class="n">dest</span><span class="p">):</span>
+            <span class="k">raise</span> <span class="ne">RuntimeError</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;&#39;</span><span class="si">{</span><span class="n">dest</span><span class="si">}</span><span class="s2">&#39; already exist and is not a directory.&quot;</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">dest</span><span class="p">):</span>
+            <span class="n">os</span><span class="o">.</span><span class="n">makedirs</span><span class="p">(</span><span class="n">dest</span><span class="p">)</span>
+
+    <span class="n">pack_name</span> <span class="o">=</span> <span class="n">user_req</span><span class="o">.</span><span class="n">name</span>
+    <span class="n">inst_pack_loc</span> <span class="o">=</span> <span class="n">_find_installed_package</span><span class="p">(</span><span class="n">pack_name</span><span class="p">,</span> <span class="n">models_dir</span><span class="o">=</span><span class="n">args</span><span class="o">.</span><span class="n">target</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">inst_pack_loc</span><span class="p">:</span>
+        <span class="n">pack</span> <span class="o">=</span> <span class="n">Package</span><span class="p">(</span><span class="n">inst_pack_loc</span><span class="o">.</span><span class="n">path</span><span class="p">)</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">local_vers</span> <span class="o">=</span> <span class="n">version</span><span class="o">.</span><span class="n">Version</span><span class="p">(</span><span class="n">pack</span><span class="o">.</span><span class="n">metadata</span><span class="p">[</span><span class="s1">&#39;vers&#39;</span><span class="p">])</span>
+        <span class="k">except</span> <span class="ne">FileNotFoundError</span><span class="p">:</span>
+            <span class="n">_log</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">pack_name</span><span class="si">}</span><span class="s2"> locally installed is corrupted.&quot;</span><span class="p">)</span>
+            <span class="n">_log</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;You can fix it by removing &#39;</span><span class="si">{</span><span class="n">inst_pack_loc</span><span class="o">.</span><span class="n">path</span><span class="si">}</span><span class="s2">&#39;.&quot;</span><span class="p">)</span>
+            <span class="n">sys</span><span class="o">.</span><span class="n">tracebacklimit</span> <span class="o">=</span> <span class="mi">0</span>
+            <span class="k">raise</span> <span class="ne">RuntimeError</span><span class="p">()</span> <span class="kn">from</span> <span class="bp">None</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">local_vers</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="n">user_specifier</span> <span class="o">=</span> <span class="n">user_req</span><span class="o">.</span><span class="n">specifier</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">user_specifier</span> <span class="ow">and</span> <span class="n">inst_pack_loc</span><span class="p">:</span>
+        <span class="c1"># the user do not request for a specific version</span>
+        <span class="c1"># and there already a version installed locally</span>
+        <span class="n">user_specifier</span> <span class="o">=</span> <span class="n">specifiers</span><span class="o">.</span><span class="n">SpecifierSet</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;&gt;</span><span class="si">{</span><span class="n">local_vers</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">remote</span><span class="p">:</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">all_available_versions</span> <span class="o">=</span> <span class="n">_get_remote_available_versions</span><span class="p">(</span><span class="n">pack_name</span><span class="p">,</span> <span class="n">args</span><span class="o">.</span><span class="n">org</span><span class="p">)</span>
+        <span class="k">except</span> <span class="p">(</span><span class="ne">ValueError</span><span class="p">,</span> <span class="n">MacsyDataLimitError</span><span class="p">)</span> <span class="k">as</span> <span class="n">err</span><span class="p">:</span>
+            <span class="n">_log</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">err</span><span class="p">))</span>
+            <span class="n">sys</span><span class="o">.</span><span class="n">tracebacklimit</span> <span class="o">=</span> <span class="mi">0</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span> <span class="kn">from</span> <span class="bp">None</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">all_available_versions</span> <span class="o">=</span> <span class="p">[</span><span class="n">inst_vers</span><span class="p">]</span>
+
+    <span class="n">compatible_version</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">user_specifier</span><span class="o">.</span><span class="n">filter</span><span class="p">(</span><span class="n">all_available_versions</span><span class="p">))</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">compatible_version</span> <span class="ow">and</span> <span class="n">local_vers</span><span class="p">:</span>
+        <span class="n">target_vers</span> <span class="o">=</span> <span class="n">version</span><span class="o">.</span><span class="n">Version</span><span class="p">(</span><span class="n">all_available_versions</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+        <span class="k">if</span> <span class="n">target_vers</span> <span class="o">==</span> <span class="n">local_vers</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">args</span><span class="o">.</span><span class="n">force</span><span class="p">:</span>
+            <span class="n">_log</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Requirement already satisfied: </span><span class="si">{</span><span class="n">pack_name</span><span class="si">}{</span><span class="n">user_specifier</span><span class="si">}</span><span class="s2"> in </span><span class="si">{</span><span class="n">pack</span><span class="o">.</span><span class="n">path</span><span class="si">}</span><span class="s2">.</span><span class="se">\n</span><span class="s2">&quot;</span>
+                         <span class="sa">f</span><span class="s2">&quot;To force installation use option -f --force-reinstall.&quot;</span><span class="p">)</span>
+            <span class="k">return</span> <span class="kc">None</span>
+        <span class="k">elif</span> <span class="n">target_vers</span> <span class="o">&lt;</span> <span class="n">local_vers</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">args</span><span class="o">.</span><span class="n">force</span><span class="p">:</span>
+            <span class="n">_log</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">pack_name</span><span class="si">}</span><span class="s2"> (</span><span class="si">{</span><span class="n">local_vers</span><span class="si">}</span><span class="s2">) is already installed.</span><span class="se">\n</span><span class="s2">&quot;</span>
+                         <span class="sa">f</span><span class="s2">&quot;To downgrade to </span><span class="si">{</span><span class="n">target_vers</span><span class="si">}</span><span class="s2"> use option -f --force-reinstall.&quot;</span><span class="p">)</span>
+            <span class="k">return</span> <span class="kc">None</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="c1"># target_vers == local_vers and args.force:</span>
+            <span class="c1"># target_vers &lt; local_vers and args.force:</span>
+            <span class="k">pass</span>
+    <span class="k">elif</span> <span class="ow">not</span> <span class="n">compatible_version</span><span class="p">:</span>
+        <span class="c1"># No compatible version and not local version</span>
+        <span class="n">_log</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Could not find version that satisfied &#39;</span><span class="si">{</span><span class="n">pack_name</span><span class="si">}{</span><span class="n">user_specifier</span><span class="si">}</span><span class="s2">&#39;&quot;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="kc">None</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="c1"># it exists at least one compatible version</span>
+        <span class="n">target_vers</span> <span class="o">=</span> <span class="n">version</span><span class="o">.</span><span class="n">Version</span><span class="p">(</span><span class="n">compatible_version</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+        <span class="k">if</span> <span class="n">inst_pack_loc</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">target_vers</span> <span class="o">&gt;</span> <span class="n">local_vers</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">args</span><span class="o">.</span><span class="n">upgrade</span><span class="p">:</span>
+                <span class="n">_log</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">pack_name</span><span class="si">}</span><span class="s2"> (</span><span class="si">{</span><span class="n">local_vers</span><span class="si">}</span><span class="s2">) is already installed but </span><span class="si">{</span><span class="n">target_vers</span><span class="si">}</span><span class="s2"> version is available.</span><span class="se">\n</span><span class="s2">&quot;</span>
+                             <span class="sa">f</span><span class="s2">&quot;To install it please run &#39;macsydata install --upgrade </span><span class="si">{</span><span class="n">pack_name</span><span class="si">}</span><span class="s2">&#39;&quot;</span><span class="p">)</span>
+                <span class="k">return</span> <span class="kc">None</span>
+            <span class="k">elif</span> <span class="n">target_vers</span> <span class="o">==</span> <span class="n">local_vers</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">args</span><span class="o">.</span><span class="n">force</span><span class="p">:</span>
+                <span class="n">_log</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Requirement already satisfied: </span><span class="si">{</span><span class="n">pack_name</span><span class="si">}{</span><span class="n">user_specifier</span><span class="si">}</span><span class="s2"> in </span><span class="si">{</span><span class="n">pack</span><span class="o">.</span><span class="n">path</span><span class="si">}</span><span class="s2">.</span><span class="se">\n</span><span class="s2">&quot;</span>
+                             <span class="sa">f</span><span class="s2">&quot;To force installation use option -f --force-reinstall.&quot;</span><span class="p">)</span>
+                <span class="k">return</span> <span class="kc">None</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="c1"># target_vers &gt; local_vers and args.upgrade:</span>
+                <span class="c1"># I have to install a new package</span>
+                <span class="k">pass</span>
+
+    <span class="c1"># if i&#39;m here it&#39;s mean I have to install a new package</span>
+    <span class="k">if</span> <span class="n">remote</span><span class="p">:</span>
+        <span class="n">_log</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Downloading </span><span class="si">{</span><span class="n">pack_name</span><span class="si">}</span><span class="s2"> (</span><span class="si">{</span><span class="n">target_vers</span><span class="si">}</span><span class="s2">).&quot;</span><span class="p">)</span>
+        <span class="n">model_index</span> <span class="o">=</span> <span class="n">RemoteModelIndex</span><span class="p">(</span><span class="n">org</span><span class="o">=</span><span class="n">args</span><span class="o">.</span><span class="n">org</span><span class="p">,</span> <span class="n">cache</span><span class="o">=</span><span class="n">args</span><span class="o">.</span><span class="n">cache</span><span class="p">)</span>
+        <span class="n">_log</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;call download with pack_name=</span><span class="si">{</span><span class="n">pack_name</span><span class="si">}</span><span class="s2">, vers=</span><span class="si">{</span><span class="n">target_vers</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="n">arch_path</span> <span class="o">=</span> <span class="n">model_index</span><span class="o">.</span><span class="n">download</span><span class="p">(</span><span class="n">pack_name</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">target_vers</span><span class="p">))</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">model_index</span> <span class="o">=</span> <span class="n">LocalModelIndex</span><span class="p">(</span><span class="n">cache</span><span class="o">=</span><span class="n">args</span><span class="o">.</span><span class="n">cache</span><span class="p">)</span>
+        <span class="n">arch_path</span> <span class="o">=</span> <span class="n">args</span><span class="o">.</span><span class="n">package</span>
+
+    <span class="n">_log</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Extracting </span><span class="si">{</span><span class="n">pack_name</span><span class="si">}</span><span class="s2"> (</span><span class="si">{</span><span class="n">target_vers</span><span class="si">}</span><span class="s2">).&quot;</span><span class="p">)</span>
+    <span class="n">cached_pack</span> <span class="o">=</span> <span class="n">model_index</span><span class="o">.</span><span class="n">unarchive_package</span><span class="p">(</span><span class="n">arch_path</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">args</span><span class="o">.</span><span class="n">user</span><span class="p">:</span>
+        <span class="n">dest</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">realpath</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">expanduser</span><span class="p">(</span><span class="s1">&#39;~&#39;</span><span class="p">),</span> <span class="s1">&#39;.macsyfinder&#39;</span><span class="p">,</span> <span class="s1">&#39;models&#39;</span><span class="p">))</span>
+        <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">dest</span><span class="p">)</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">isdir</span><span class="p">(</span><span class="n">dest</span><span class="p">):</span>
+            <span class="n">clean_cache</span><span class="p">(</span><span class="n">model_index</span><span class="p">)</span>
+            <span class="k">raise</span> <span class="ne">RuntimeError</span><span class="p">(</span><span class="s2">&quot;&#39;</span><span class="si">{}</span><span class="s2">&#39; already exist and is not a directory.&quot;</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">dest</span><span class="p">):</span>
+            <span class="n">os</span><span class="o">.</span><span class="n">makedirs</span><span class="p">(</span><span class="n">dest</span><span class="p">)</span>
+    <span class="k">elif</span> <span class="n">args</span><span class="o">.</span><span class="n">target</span><span class="p">:</span>
+        <span class="n">dest</span> <span class="o">=</span> <span class="n">args</span><span class="o">.</span><span class="n">target</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">defaults</span> <span class="o">=</span> <span class="n">MacsyDefaults</span><span class="p">()</span>
+        <span class="n">config</span> <span class="o">=</span> <span class="n">Config</span><span class="p">(</span><span class="n">defaults</span><span class="p">,</span> <span class="n">argparse</span><span class="o">.</span><span class="n">Namespace</span><span class="p">())</span>
+        <span class="n">models_dirs</span> <span class="o">=</span> <span class="n">config</span><span class="o">.</span><span class="n">models_dir</span><span class="p">()</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">models_dirs</span><span class="p">:</span>
+            <span class="n">clean_cache</span><span class="p">(</span><span class="n">model_index</span><span class="p">)</span>
+            <span class="n">msg</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;There is no cannonical directories to store models:</span>
+<span class="s2">You can create one in youre HOME to enable the models for the user </span>
+<span class="s2">       macsydata install --user &lt;PACK_NAME&gt;</span>
+<span class="s2">or for a project </span>
+<span class="s2">       macsydata install --models &lt;PACK_NAME&gt;</span>
+<span class="s2">In this latter case you have to specify --models-dir &lt;path_to_models_dir&gt; on the macsyfinder command line</span>
+<span class="s2">for the system wide models installation please refer to the documentation.</span>
+<span class="s2">&quot;&quot;&quot;</span>
+            <span class="n">_log</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span>
+            <span class="n">sys</span><span class="o">.</span><span class="n">tracebacklimit</span> <span class="o">=</span> <span class="mi">0</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">()</span> <span class="kn">from</span> <span class="bp">None</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">dest</span> <span class="o">=</span> <span class="n">config</span><span class="o">.</span><span class="n">models_dir</span><span class="p">()[</span><span class="mi">0</span><span class="p">]</span>
+    <span class="k">if</span> <span class="n">inst_pack_loc</span><span class="p">:</span>
+        <span class="n">old_pack_path</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">inst_pack_loc</span><span class="o">.</span><span class="n">path</span><span class="si">}</span><span class="s2">.old&quot;</span>
+        <span class="n">shutil</span><span class="o">.</span><span class="n">move</span><span class="p">(</span><span class="n">inst_pack_loc</span><span class="o">.</span><span class="n">path</span><span class="p">,</span> <span class="n">old_pack_path</span><span class="p">)</span>
+
+    <span class="n">_log</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Installing </span><span class="si">{</span><span class="n">pack_name</span><span class="si">}</span><span class="s2"> (</span><span class="si">{</span><span class="n">target_vers</span><span class="si">}</span><span class="s2">) in </span><span class="si">{</span><span class="n">dest</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="n">shutil</span><span class="o">.</span><span class="n">move</span><span class="p">(</span><span class="n">cached_pack</span><span class="p">,</span> <span class="n">dest</span><span class="p">)</span>
+    <span class="k">except</span> <span class="ne">PermissionError</span> <span class="k">as</span> <span class="n">err</span><span class="p">:</span>
+        <span class="n">clean_cache</span><span class="p">(</span><span class="n">model_index</span><span class="p">)</span>
+        <span class="n">_log</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">dest</span><span class="si">}</span><span class="s2"> is not writable: </span><span class="si">{</span><span class="n">err</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="n">_log</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="s2">&quot;Maybe you can use --user option to install in your HOME.&quot;</span><span class="p">)</span>
+        <span class="n">sys</span><span class="o">.</span><span class="n">tracebacklimit</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">()</span> <span class="kn">from</span> <span class="bp">None</span>
+
+    <span class="n">_log</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Cleaning.&quot;</span><span class="p">)</span>
+    <span class="n">shutil</span><span class="o">.</span><span class="n">rmtree</span><span class="p">(</span><span class="n">pathlib</span><span class="o">.</span><span class="n">Path</span><span class="p">(</span><span class="n">cached_pack</span><span class="p">)</span><span class="o">.</span><span class="n">parent</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">inst_pack_loc</span><span class="p">:</span>
+        <span class="n">shutil</span><span class="o">.</span><span class="n">rmtree</span><span class="p">(</span><span class="n">old_pack_path</span><span class="p">)</span>
+    <span class="n">_log</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;The models </span><span class="si">{</span><span class="n">pack_name</span><span class="si">}</span><span class="s2"> (</span><span class="si">{</span><span class="n">target_vers</span><span class="si">}</span><span class="s2">) have been installed successfully.&quot;</span><span class="p">)</span>
+    <span class="n">clean_cache</span><span class="p">(</span><span class="n">model_index</span><span class="p">)</span></div>
+
+
+<span class="k">def</span> <span class="nf">_get_remote_available_versions</span><span class="p">(</span><span class="n">pack_name</span><span class="p">,</span> <span class="n">org</span><span class="p">):</span>
+    <span class="n">remote</span> <span class="o">=</span> <span class="n">RemoteModelIndex</span><span class="p">(</span><span class="n">org</span><span class="o">=</span><span class="n">org</span><span class="p">)</span>
+    <span class="n">all_versions</span> <span class="o">=</span> <span class="n">remote</span><span class="o">.</span><span class="n">list_package_vers</span><span class="p">(</span><span class="n">pack_name</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">all_versions</span>
+
+<span class="c1">#################</span>
+<span class="c1"># Local actions #</span>
+<span class="c1">#################</span>
+
+
+<div class="viewcode-block" id="do_uninstall"><a class="viewcode-back" href="../../../developer_guide/api/scripts.html#macsypy.scripts.macsydata.do_uninstall">[docs]</a><span class="k">def</span> <span class="nf">do_uninstall</span><span class="p">(</span><span class="n">args</span><span class="p">:</span> <span class="n">argparse</span><span class="o">.</span><span class="n">Namespace</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Remove models from macsyfinder local models repository.</span>
+
+<span class="sd">    :param args: the arguments passed on the command line</span>
+<span class="sd">    :type args: :class:`argparse.Namespace` object</span>
+<span class="sd">    :rtype: None</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">pack_name</span> <span class="o">=</span> <span class="n">args</span><span class="o">.</span><span class="n">package</span>
+    <span class="n">inst_pack_loc</span> <span class="o">=</span> <span class="n">_find_installed_package</span><span class="p">(</span><span class="n">pack_name</span><span class="p">,</span> <span class="n">models_dir</span><span class="o">=</span><span class="n">args</span><span class="o">.</span><span class="n">models_dir</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">inst_pack_loc</span><span class="p">:</span>
+        <span class="n">pack</span> <span class="o">=</span> <span class="n">Package</span><span class="p">(</span><span class="n">inst_pack_loc</span><span class="o">.</span><span class="n">path</span><span class="p">)</span>
+        <span class="n">shutil</span><span class="o">.</span><span class="n">rmtree</span><span class="p">(</span><span class="n">pack</span><span class="o">.</span><span class="n">path</span><span class="p">)</span>
+        <span class="n">_log</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;models &#39;</span><span class="si">{</span><span class="n">pack_name</span><span class="si">}</span><span class="s2">&#39; in </span><span class="si">{</span><span class="n">pack</span><span class="o">.</span><span class="n">path</span><span class="si">}</span><span class="s2"> uninstalled.&quot;</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">_log</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Models &#39;</span><span class="si">{</span><span class="n">pack_name</span><span class="si">}</span><span class="s2">&#39; not found locally.&quot;</span><span class="p">)</span>
+        <span class="n">sys</span><span class="o">.</span><span class="n">tracebacklimit</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">()</span></div>
+
+
+<div class="viewcode-block" id="do_info"><a class="viewcode-back" href="../../../developer_guide/api/scripts.html#macsypy.scripts.macsydata.do_info">[docs]</a><span class="k">def</span> <span class="nf">do_info</span><span class="p">(</span><span class="n">args</span><span class="p">:</span> <span class="n">argparse</span><span class="o">.</span><span class="n">Namespace</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Show information about installed model.</span>
+
+<span class="sd">    :param args: the arguments passed on the command line</span>
+<span class="sd">    :type args: :class:`argparse.Namespace` object</span>
+<span class="sd">    :rtype: None</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">pack_name</span> <span class="o">=</span> <span class="n">args</span><span class="o">.</span><span class="n">package</span>
+    <span class="n">inst_pack_loc</span> <span class="o">=</span> <span class="n">_find_installed_package</span><span class="p">(</span><span class="n">pack_name</span><span class="p">,</span> <span class="n">models_dir</span><span class="o">=</span><span class="n">args</span><span class="o">.</span><span class="n">models_dir</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">inst_pack_loc</span><span class="p">:</span>
+        <span class="n">pack</span> <span class="o">=</span> <span class="n">Package</span><span class="p">(</span><span class="n">inst_pack_loc</span><span class="o">.</span><span class="n">path</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">pack</span><span class="o">.</span><span class="n">info</span><span class="p">())</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">_log</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Models &#39;</span><span class="si">{</span><span class="n">pack_name</span><span class="si">}</span><span class="s2">&#39; not found locally.&quot;</span><span class="p">)</span>
+        <span class="n">sys</span><span class="o">.</span><span class="n">tracebacklimit</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">()</span></div>
+
+
+<div class="viewcode-block" id="do_list"><a class="viewcode-back" href="../../../developer_guide/api/scripts.html#macsypy.scripts.macsydata.do_list">[docs]</a><span class="k">def</span> <span class="nf">do_list</span><span class="p">(</span><span class="n">args</span><span class="p">:</span> <span class="n">argparse</span><span class="o">.</span><span class="n">Namespace</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    List installed models.</span>
+
+<span class="sd">    :param args: the arguments passed on the command line</span>
+<span class="sd">    :type args: :class:`argparse.Namespace` object</span>
+<span class="sd">    :rtype: None</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">registry</span> <span class="o">=</span> <span class="n">_find_all_installed_packages</span><span class="p">(</span><span class="n">models_dir</span><span class="o">=</span><span class="n">args</span><span class="o">.</span><span class="n">models_dir</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">model_loc</span> <span class="ow">in</span> <span class="n">registry</span><span class="o">.</span><span class="n">models</span><span class="p">():</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">pack</span> <span class="o">=</span> <span class="n">Package</span><span class="p">(</span><span class="n">model_loc</span><span class="o">.</span><span class="n">path</span><span class="p">)</span>
+            <span class="n">pack_vers</span> <span class="o">=</span> <span class="n">pack</span><span class="o">.</span><span class="n">metadata</span><span class="p">[</span><span class="s1">&#39;vers&#39;</span><span class="p">]</span>
+            <span class="k">if</span> <span class="n">args</span><span class="o">.</span><span class="n">outdated</span> <span class="ow">or</span> <span class="n">args</span><span class="o">.</span><span class="n">uptodate</span><span class="p">:</span>
+                <span class="n">remote</span> <span class="o">=</span> <span class="n">RemoteModelIndex</span><span class="p">(</span><span class="n">org</span><span class="o">=</span><span class="n">args</span><span class="o">.</span><span class="n">org</span><span class="p">)</span>
+                <span class="n">all_versions</span> <span class="o">=</span> <span class="n">remote</span><span class="o">.</span><span class="n">list_package_vers</span><span class="p">(</span><span class="n">pack</span><span class="o">.</span><span class="n">name</span><span class="p">)</span>
+                <span class="n">specifier</span> <span class="o">=</span> <span class="n">specifiers</span><span class="o">.</span><span class="n">SpecifierSet</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;&gt;</span><span class="si">{</span><span class="n">pack_vers</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+                <span class="n">update_vers</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">specifier</span><span class="o">.</span><span class="n">filter</span><span class="p">(</span><span class="n">all_versions</span><span class="p">))</span>
+                <span class="k">if</span> <span class="n">args</span><span class="o">.</span><span class="n">outdated</span> <span class="ow">and</span> <span class="n">update_vers</span><span class="p">:</span>
+                    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">model_loc</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s2">-</span><span class="si">{</span><span class="n">update_vers</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="si">}</span><span class="s2"> [</span><span class="si">{</span><span class="n">pack_vers</span><span class="si">}</span><span class="s2">]&quot;</span><span class="p">)</span>
+                <span class="k">if</span> <span class="n">args</span><span class="o">.</span><span class="n">uptodate</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">update_vers</span><span class="p">:</span>
+                    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">model_loc</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s2">-</span><span class="si">{</span><span class="n">pack_vers</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">model_loc</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s2">-</span><span class="si">{</span><span class="n">pack_vers</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">err</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">args</span><span class="o">.</span><span class="n">verbose</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
+                <span class="n">_log</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">err</span><span class="p">))</span></div>
+
+
+<div class="viewcode-block" id="do_freeze"><a class="viewcode-back" href="../../../developer_guide/api/scripts.html#macsypy.scripts.macsydata.do_freeze">[docs]</a><span class="k">def</span> <span class="nf">do_freeze</span><span class="p">(</span><span class="n">args</span><span class="p">:</span> <span class="n">argparse</span><span class="o">.</span><span class="n">Namespace</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    display all models installed with there respective version, in requirement format.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">registry</span> <span class="o">=</span> <span class="n">_find_all_installed_packages</span><span class="p">()</span>
+    <span class="k">for</span> <span class="n">model_loc</span> <span class="ow">in</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">registry</span><span class="o">.</span><span class="n">models</span><span class="p">(),</span> <span class="n">key</span><span class="o">=</span><span class="k">lambda</span> <span class="n">ml</span><span class="p">:</span> <span class="n">ml</span><span class="o">.</span><span class="n">name</span><span class="o">.</span><span class="n">lower</span><span class="p">()):</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">pack</span> <span class="o">=</span> <span class="n">Package</span><span class="p">(</span><span class="n">model_loc</span><span class="o">.</span><span class="n">path</span><span class="p">)</span>
+            <span class="n">pack_vers</span> <span class="o">=</span> <span class="n">pack</span><span class="o">.</span><span class="n">metadata</span><span class="p">[</span><span class="s1">&#39;vers&#39;</span><span class="p">]</span>
+            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">model_loc</span><span class="o">.</span><span class="n">name</span><span class="si">}</span><span class="s2">==</span><span class="si">{</span><span class="n">pack_vers</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="k">except</span> <span class="ne">Exception</span><span class="p">:</span>
+            <span class="k">pass</span></div>
+
+
+<div class="viewcode-block" id="do_cite"><a class="viewcode-back" href="../../../developer_guide/api/scripts.html#macsypy.scripts.macsydata.do_cite">[docs]</a><span class="k">def</span> <span class="nf">do_cite</span><span class="p">(</span><span class="n">args</span><span class="p">:</span> <span class="n">argparse</span><span class="o">.</span><span class="n">Namespace</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    How to cite an installed model.</span>
+
+<span class="sd">    :param args: the arguments passed on the command line</span>
+<span class="sd">    :type args: :class:`argparse.Namespace` object</span>
+<span class="sd">    :rtype: None</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">pack_name</span> <span class="o">=</span> <span class="n">args</span><span class="o">.</span><span class="n">package</span>
+    <span class="n">inst_pack_loc</span> <span class="o">=</span> <span class="n">_find_installed_package</span><span class="p">(</span><span class="n">pack_name</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">inst_pack_loc</span><span class="p">:</span>
+        <span class="n">pack</span> <span class="o">=</span> <span class="n">Package</span><span class="p">(</span><span class="n">inst_pack_loc</span><span class="o">.</span><span class="n">path</span><span class="p">)</span>
+        <span class="n">pack_citations</span> <span class="o">=</span> <span class="n">pack</span><span class="o">.</span><span class="n">metadata</span><span class="p">[</span><span class="s1">&#39;cite&#39;</span><span class="p">]</span>
+        <span class="n">pack_citations</span> <span class="o">=</span> <span class="p">[</span><span class="n">cite</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">,</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">  &#39;</span><span class="p">)</span> <span class="k">for</span> <span class="n">cite</span> <span class="ow">in</span> <span class="n">pack_citations</span><span class="p">]</span>
+        <span class="n">pack_citations</span> <span class="o">=</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">- &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">pack_citations</span><span class="p">)</span>
+        <span class="n">pack_citations</span> <span class="o">=</span> <span class="s1">&#39;_ &#39;</span> <span class="o">+</span> <span class="n">pack_citations</span><span class="o">.</span><span class="n">rstrip</span><span class="p">()</span>
+        <span class="n">macsy_cite</span> <span class="o">=</span> <span class="n">macsypy</span><span class="o">.</span><span class="n">__citation__</span>
+        <span class="n">macsy_cite</span> <span class="o">=</span> <span class="n">macsy_cite</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">,</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">  &#39;</span><span class="p">)</span>
+        <span class="n">macsy_cite</span> <span class="o">=</span> <span class="s1">&#39;- &#39;</span> <span class="o">+</span> <span class="n">macsy_cite</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;&quot;&quot;To cite </span><span class="si">{</span><span class="n">pack_name</span><span class="si">}</span><span class="s2">:</span>
+
+<span class="si">{</span><span class="n">pack_citations</span><span class="si">}</span><span class="s2"></span>
+
+<span class="s2">To cite MacSyFinder:</span>
+
+<span class="si">{</span><span class="n">macsy_cite</span><span class="si">}</span><span class="s2"></span>
+<span class="s2">&quot;&quot;&quot;</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">_log</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Models &#39;</span><span class="si">{</span><span class="n">pack_name</span><span class="si">}</span><span class="s2">&#39; not found locally.&quot;</span><span class="p">)</span>
+        <span class="n">sys</span><span class="o">.</span><span class="n">tracebacklimit</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">()</span></div>
+
+
+<div class="viewcode-block" id="do_help"><a class="viewcode-back" href="../../../developer_guide/api/scripts.html#macsypy.scripts.macsydata.do_help">[docs]</a><span class="k">def</span> <span class="nf">do_help</span><span class="p">(</span><span class="n">args</span><span class="p">:</span> <span class="n">argparse</span><span class="o">.</span><span class="n">Namespace</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Display on stdout the content of readme file</span>
+<span class="sd">    if the readme file does nopt exists display a message to the user see :meth:`macsypy.package.help`</span>
+
+<span class="sd">    :param args: the arguments passed on the command line (the package name)</span>
+<span class="sd">    :type args: :class:`argparse.Namespace` object</span>
+<span class="sd">    :return: None</span>
+<span class="sd">    :raise ValueError: if the package name is not known.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">pack_name</span> <span class="o">=</span> <span class="n">args</span><span class="o">.</span><span class="n">package</span>
+    <span class="n">inst_pack_loc</span> <span class="o">=</span> <span class="n">_find_installed_package</span><span class="p">(</span><span class="n">pack_name</span><span class="p">,</span> <span class="n">models_dir</span><span class="o">=</span><span class="n">args</span><span class="o">.</span><span class="n">models_dir</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">inst_pack_loc</span><span class="p">:</span>
+        <span class="n">pack</span> <span class="o">=</span> <span class="n">Package</span><span class="p">(</span><span class="n">inst_pack_loc</span><span class="o">.</span><span class="n">path</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">pack</span><span class="o">.</span><span class="n">help</span><span class="p">())</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">_log</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Models &#39;</span><span class="si">{</span><span class="n">pack_name</span><span class="si">}</span><span class="s2">&#39; not found locally.&quot;</span><span class="p">)</span>
+        <span class="n">sys</span><span class="o">.</span><span class="n">tracebacklimit</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">()</span></div>
+
+
+<div class="viewcode-block" id="do_check"><a class="viewcode-back" href="../../../developer_guide/api/scripts.html#macsypy.scripts.macsydata.do_check">[docs]</a><span class="k">def</span> <span class="nf">do_check</span><span class="p">(</span><span class="n">args</span><span class="p">:</span> <span class="n">argparse</span><span class="o">.</span><span class="n">Namespace</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+
+<span class="sd">    :param args: the arguments passed on the command line</span>
+<span class="sd">    :type args: :class:`argparse.Namespace` object</span>
+<span class="sd">    :rtype: None</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">pack</span> <span class="o">=</span> <span class="n">Package</span><span class="p">(</span><span class="n">args</span><span class="o">.</span><span class="n">path</span><span class="p">)</span>
+    <span class="n">errors</span><span class="p">,</span> <span class="n">warnings</span> <span class="o">=</span> <span class="n">pack</span><span class="o">.</span><span class="n">check</span><span class="p">()</span>
+    <span class="k">if</span> <span class="n">errors</span><span class="p">:</span>
+        <span class="k">for</span> <span class="n">error</span> <span class="ow">in</span> <span class="n">errors</span><span class="p">:</span>
+            <span class="n">_log</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="n">error</span><span class="p">)</span>
+        <span class="n">_log</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="s2">&quot;Please fix issues above, before publishing these models.&quot;</span><span class="p">)</span>
+        <span class="n">sys</span><span class="o">.</span><span class="n">tracebacklimit</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">()</span>
+    <span class="k">if</span> <span class="n">warnings</span><span class="p">:</span>
+        <span class="k">for</span> <span class="n">warning</span> <span class="ow">in</span> <span class="n">warnings</span><span class="p">:</span>
+            <span class="n">_log</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="n">warning</span><span class="p">)</span>
+        <span class="n">_log</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="s2">&quot;&quot;&quot;</span>
+<span class="s2">macsydata says: You&#39;re only giving me a partial QA payment?</span>
+<span class="s2">I&#39;ll take it this time, but I&#39;m not happy.</span>
+<span class="s2">I&#39;ll be really happy, if you fix warnings above, before to publish these models.&quot;&quot;&quot;</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">warnings</span><span class="p">:</span>
+        <span class="n">_log</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;If everyone were like you, I&#39;d be out of business&quot;</span><span class="p">)</span>
+        <span class="n">_log</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;To push the models in organization:&quot;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">realpath</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">getcwd</span><span class="p">())</span> <span class="o">!=</span> <span class="n">pack</span><span class="o">.</span><span class="n">path</span><span class="p">:</span>
+            <span class="c1"># I use level 25 just to remove color</span>
+            <span class="n">_log</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="mi">25</span><span class="p">,</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">cd </span><span class="si">{</span><span class="n">pack</span><span class="o">.</span><span class="n">path</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">pack</span><span class="o">.</span><span class="n">path</span><span class="p">,</span> <span class="s1">&#39;.git&#39;</span><span class="p">)):</span>
+            <span class="n">_log</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;Transform the models into a git repository&quot;</span><span class="p">)</span>
+            <span class="n">_log</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="mi">25</span><span class="p">,</span> <span class="s2">&quot;</span><span class="se">\t</span><span class="s2">git init .&quot;</span><span class="p">)</span>
+            <span class="n">_log</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="mi">25</span><span class="p">,</span> <span class="s2">&quot;</span><span class="se">\t</span><span class="s2">git add .&quot;</span><span class="p">)</span>
+            <span class="n">_log</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="mi">25</span><span class="p">,</span> <span class="s2">&quot;</span><span class="se">\t</span><span class="s2">git commit -m &#39;initial commit&#39;&quot;</span><span class="p">)</span>
+            <span class="n">_log</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;add a remote repository to host the models&quot;</span><span class="p">)</span>
+            <span class="n">_log</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;for instance if you want to add the models to &#39;macsy-models&#39;&quot;</span><span class="p">)</span>
+            <span class="n">_log</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="mi">25</span><span class="p">,</span> <span class="s2">&quot;</span><span class="se">\t</span><span class="s2">git remote add origin https://github.com/macsy-models/&quot;</span><span class="p">)</span>
+
+        <span class="n">_log</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="mi">25</span><span class="p">,</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">git tag </span><span class="si">{</span><span class="n">pack</span><span class="o">.</span><span class="n">metadata</span><span class="p">[</span><span class="s1">&#39;vers&#39;</span><span class="p">]</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="n">_log</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="mi">25</span><span class="p">,</span> <span class="s2">&quot;</span><span class="se">\t</span><span class="s2">git push --tags&quot;</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="do_show_definition"><a class="viewcode-back" href="../../../developer_guide/api/scripts.html#macsypy.scripts.macsydata.do_show_definition">[docs]</a><span class="k">def</span> <span class="nf">do_show_definition</span><span class="p">(</span><span class="n">args</span><span class="p">:</span> <span class="n">argparse</span><span class="o">.</span><span class="n">Namespace</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    display on stdout the definition if only a package or sub-package is specified</span>
+<span class="sd">    display all model definitions in the corresponding package or subpackage</span>
+
+<span class="sd">    for instance</span>
+
+<span class="sd">    `TXSS+/bacterial T6SSii T6SSiii`</span>
+
+<span class="sd">    display models *TXSS+/bacterial/T6SSii* and *TXSS+/bacterial/T6SSiii*</span>
+
+<span class="sd">    `TXSS+/bacterial all` or `TXSS+/bacterial`</span>
+
+<span class="sd">    display all models contains in *TXSS+/bacterial subpackage*</span>
+
+<span class="sd">    :param args: the arguments passed on the command line</span>
+<span class="sd">    :type args: :class:`argparse.Namespace` object</span>
+<span class="sd">    :rtype: None</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">def</span> <span class="nf">display_definition</span><span class="p">(</span><span class="n">path</span><span class="p">):</span>
+        <span class="k">return</span> <span class="nb">open</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+
+    <span class="n">model_family</span><span class="p">,</span> <span class="o">*</span><span class="n">models</span> <span class="o">=</span> <span class="n">args</span><span class="o">.</span><span class="n">model</span>
+    <span class="n">pack_name</span><span class="p">,</span> <span class="o">*</span><span class="n">sub_family</span> <span class="o">=</span> <span class="n">model_family</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;/&#39;</span><span class="p">)</span>
+
+    <span class="n">inst_pack_loc</span> <span class="o">=</span> <span class="n">_find_installed_package</span><span class="p">(</span><span class="n">pack_name</span><span class="p">,</span> <span class="n">models_dir</span><span class="o">=</span><span class="n">args</span><span class="o">.</span><span class="n">models_dir</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">inst_pack_loc</span><span class="p">:</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">models</span> <span class="ow">or</span> <span class="s1">&#39;all&#39;</span> <span class="ow">in</span> <span class="n">models</span><span class="p">:</span>
+            <span class="n">root_def_name</span> <span class="o">=</span> <span class="n">model_family</span> <span class="k">if</span> <span class="n">sub_family</span> <span class="k">else</span> <span class="kc">None</span>
+            <span class="k">try</span><span class="p">:</span>
+                <span class="n">path_2_display</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span>
+                    <span class="p">[(</span><span class="n">p</span><span class="o">.</span><span class="n">fqn</span><span class="p">,</span> <span class="n">p</span><span class="o">.</span><span class="n">path</span><span class="p">)</span> <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="n">inst_pack_loc</span><span class="o">.</span><span class="n">get_all_definitions</span><span class="p">(</span><span class="n">root_def_name</span><span class="o">=</span><span class="n">root_def_name</span><span class="p">)]</span>
+                <span class="p">)</span>
+            <span class="k">except</span> <span class="ne">ValueError</span><span class="p">:</span>
+                <span class="n">_log</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;&#39;</span><span class="si">{</span><span class="s1">&#39;/&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">sub_family</span><span class="p">)</span><span class="si">}</span><span class="s2">&#39; not found in package &#39;</span><span class="si">{</span><span class="n">pack_name</span><span class="si">}</span><span class="s2">&#39;.&quot;</span><span class="p">)</span>
+                <span class="n">sys</span><span class="o">.</span><span class="n">tracebacklimit</span> <span class="o">=</span> <span class="mi">0</span>
+                <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">()</span> <span class="kn">from</span> <span class="bp">None</span>
+
+            <span class="k">for</span> <span class="n">fqn</span><span class="p">,</span> <span class="n">def_path</span> <span class="ow">in</span> <span class="n">path_2_display</span><span class="p">:</span>
+                <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;&quot;&quot;&lt;!-- </span><span class="si">{</span><span class="n">fqn</span><span class="si">}</span><span class="s2"> </span><span class="si">{</span><span class="n">def_path</span><span class="si">}</span><span class="s2"> --&gt;</span>
+<span class="si">{</span><span class="n">display_definition</span><span class="p">(</span><span class="n">def_path</span><span class="p">)</span><span class="si">}</span><span class="s2"></span>
+<span class="s2">&quot;&quot;&quot;</span><span class="p">,</span> <span class="n">file</span><span class="o">=</span><span class="n">sys</span><span class="o">.</span><span class="n">stdout</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">fqn_to_get</span> <span class="o">=</span> <span class="p">[</span><span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">model_family</span><span class="si">}</span><span class="s1">/</span><span class="si">{</span><span class="n">m</span><span class="si">}</span><span class="s1">&#39;</span> <span class="k">for</span> <span class="n">m</span> <span class="ow">in</span> <span class="n">models</span><span class="p">]</span>
+            <span class="k">for</span> <span class="n">fqn</span> <span class="ow">in</span> <span class="n">fqn_to_get</span><span class="p">:</span>
+                <span class="k">try</span><span class="p">:</span>
+                    <span class="n">def_path</span> <span class="o">=</span> <span class="n">inst_pack_loc</span><span class="o">.</span><span class="n">get_definition</span><span class="p">(</span><span class="n">fqn</span><span class="p">)</span><span class="o">.</span><span class="n">path</span>
+                    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;&quot;&quot;&lt;!-- </span><span class="si">{</span><span class="n">fqn</span><span class="si">}</span><span class="s2"> </span><span class="si">{</span><span class="n">def_path</span><span class="si">}</span><span class="s2"> --&gt;</span>
+<span class="si">{</span><span class="n">display_definition</span><span class="p">(</span><span class="n">def_path</span><span class="p">)</span><span class="si">}</span><span class="s2"></span>
+<span class="s2">&quot;&quot;&quot;</span><span class="p">,</span> <span class="n">file</span><span class="o">=</span><span class="n">sys</span><span class="o">.</span><span class="n">stdout</span><span class="p">)</span>
+                <span class="k">except</span> <span class="ne">ValueError</span><span class="p">:</span>
+                    <span class="n">_log</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Model &#39;</span><span class="si">{</span><span class="n">fqn</span><span class="si">}</span><span class="s2">&#39; not found.&quot;</span><span class="p">)</span>
+                    <span class="k">continue</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">_log</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Package &#39;</span><span class="si">{</span><span class="n">pack_name</span><span class="si">}</span><span class="s2">&#39; not found.&quot;</span><span class="p">)</span>
+        <span class="n">sys</span><span class="o">.</span><span class="n">tracebacklimit</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">()</span> <span class="kn">from</span> <span class="bp">None</span></div>
+
+
+<span class="c1">##################################</span>
+<span class="c1"># parsing command line arguments #</span>
+<span class="c1">##################################</span>
+
+
+<div class="viewcode-block" id="build_arg_parser"><a class="viewcode-back" href="../../../developer_guide/api/scripts.html#macsypy.scripts.macsydata.build_arg_parser">[docs]</a><span class="k">def</span> <span class="nf">build_arg_parser</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="n">argparse</span><span class="o">.</span><span class="n">ArgumentParser</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Build argument parser.</span>
+
+<span class="sd">    :rtype: :class:`argparse.ArgumentParser` object</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="n">parser</span> <span class="o">=</span> <span class="n">argparse</span><span class="o">.</span><span class="n">ArgumentParser</span><span class="p">(</span>
+        <span class="n">epilog</span><span class="o">=</span><span class="s2">&quot;For more details, visit the MacSyFinder website and see the MacSyFinder documentation.&quot;</span><span class="p">,</span>
+        <span class="n">formatter_class</span><span class="o">=</span><span class="n">argparse</span><span class="o">.</span><span class="n">RawDescriptionHelpFormatter</span><span class="p">,</span>
+        <span class="n">description</span><span class="o">=</span><span class="n">dedent</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;&#39;&#39;</span>
+
+<span class="s1">         *            *               *                   * *       * </span>
+<span class="s1">    *           *               *   *   *  *    **                *  </span>
+<span class="s1">      **     *    *   *  *     *                    *               *</span>
+<span class="s1">        __  __  *         ____ *      ____    ** _  *</span>
+<span class="s1">       |  \/  | __ _  ___/ ___| _   _|  _ | __ _| |_  __ _     *</span>
+<span class="s1">       | |\/| |/ _` |/ __|___ \| | | | | ||/ _` |  _|/ _` |</span>
+<span class="s1">       | |  | | (_| | (__ ___) | |_| | |_|| (_| | | | (_| |</span>
+<span class="s1">       |_|  |_|\__,_|\___|____/ \__, |____|\__,_|_|  \__,_|</span>
+<span class="s1">               *                |___/    *                   *</span>
+<span class="s1">     *      *   * *     *   **         *   *  *           *</span>
+<span class="s1">      *      *         *        *    *              *</span>
+<span class="s1">                 *                           *  *           *     *</span>
+
+
+<span class="s1">    MacSyData - MacSyFinder Data Management</span>
+<span class="s1">    &#39;&#39;&#39;</span><span class="p">))</span>
+
+    <span class="c1"># -- general options -- #</span>
+
+    <span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&quot;-v&quot;</span><span class="p">,</span> <span class="s2">&quot;--verbose&quot;</span><span class="p">,</span>
+                        <span class="n">action</span><span class="o">=</span><span class="s2">&quot;count&quot;</span><span class="p">,</span>
+                        <span class="n">default</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span>
+                        <span class="n">help</span><span class="o">=</span><span class="s2">&quot;Give more output.&quot;</span><span class="p">)</span>
+    <span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&quot;--version&quot;</span><span class="p">,</span>
+                        <span class="n">action</span><span class="o">=</span><span class="s2">&quot;version&quot;</span><span class="p">,</span>
+                        <span class="n">version</span><span class="o">=</span><span class="n">get_version_message</span><span class="p">())</span>
+    <span class="c1"># -- subparser options -- #</span>
+
+    <span class="n">subparsers</span> <span class="o">=</span> <span class="n">parser</span><span class="o">.</span><span class="n">add_subparsers</span><span class="p">(</span><span class="n">help</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span>
+    <span class="c1">#############</span>
+    <span class="c1"># available #</span>
+    <span class="c1">#############</span>
+    <span class="n">available_subparser</span> <span class="o">=</span> <span class="n">subparsers</span><span class="o">.</span><span class="n">add_parser</span><span class="p">(</span><span class="s1">&#39;available&#39;</span><span class="p">,</span>
+                                                <span class="n">help</span><span class="o">=</span><span class="s1">&#39;List Models available on macsy-models&#39;</span><span class="p">)</span>
+    <span class="n">available_subparser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;--org&#39;</span><span class="p">,</span>
+                                     <span class="n">default</span><span class="o">=</span><span class="s2">&quot;macsy-models&quot;</span><span class="p">,</span>
+                                     <span class="n">help</span><span class="o">=</span><span class="s2">&quot;The name of Model organization&quot;</span>
+                                          <span class="s2">&quot;(default &#39;macsy-models&#39;))&quot;</span>
+                                     <span class="p">)</span>
+    <span class="n">available_subparser</span><span class="o">.</span><span class="n">set_defaults</span><span class="p">(</span><span class="n">func</span><span class="o">=</span><span class="n">do_available</span><span class="p">)</span>
+    <span class="c1">############</span>
+    <span class="c1"># download #</span>
+    <span class="c1">############</span>
+    <span class="n">download_subparser</span> <span class="o">=</span> <span class="n">subparsers</span><span class="o">.</span><span class="n">add_parser</span><span class="p">(</span><span class="s1">&#39;download&#39;</span><span class="p">,</span>
+                                               <span class="n">help</span><span class="o">=</span><span class="s1">&#39;Download packages.&#39;</span><span class="p">)</span>
+
+    <span class="n">download_subparser</span><span class="o">.</span><span class="n">set_defaults</span><span class="p">(</span><span class="n">func</span><span class="o">=</span><span class="n">do_download</span><span class="p">)</span>
+    <span class="n">download_subparser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;-d&#39;</span><span class="p">,</span> <span class="s1">&#39;--dest&#39;</span><span class="p">,</span>
+                                    <span class="n">default</span><span class="o">=</span><span class="n">os</span><span class="o">.</span><span class="n">getcwd</span><span class="p">(),</span>
+                                    <span class="n">help</span><span class="o">=</span><span class="s1">&#39;Download packages into &lt;dir&gt;.&#39;</span><span class="p">)</span>
+    <span class="n">download_subparser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;--cache&#39;</span><span class="p">,</span>
+                                    <span class="n">help</span><span class="o">=</span><span class="n">argparse</span><span class="o">.</span><span class="n">SUPPRESS</span><span class="p">)</span>
+    <span class="n">download_subparser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;--org&#39;</span><span class="p">,</span>
+                                    <span class="n">default</span><span class="o">=</span><span class="s2">&quot;macsy-models&quot;</span><span class="p">,</span>
+                                    <span class="n">help</span><span class="o">=</span><span class="s2">&quot;The name of Model organization&quot;</span>
+                                         <span class="s2">&quot;(default &#39;macsy-models&#39;))&quot;</span>
+                                    <span class="p">)</span>
+    <span class="n">download_subparser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;package&#39;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;Package name.&#39;</span><span class="p">)</span>
+    <span class="c1">###########</span>
+    <span class="c1"># Install #</span>
+    <span class="c1">###########</span>
+    <span class="n">install_subparser</span> <span class="o">=</span> <span class="n">subparsers</span><span class="o">.</span><span class="n">add_parser</span><span class="p">(</span><span class="s1">&#39;install&#39;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s1">&#39;Install packages.&#39;</span><span class="p">)</span>
+    <span class="n">install_subparser</span><span class="o">.</span><span class="n">set_defaults</span><span class="p">(</span><span class="n">func</span><span class="o">=</span><span class="n">do_install</span><span class="p">)</span>
+    <span class="n">install_subparser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;-f&#39;</span><span class="p">,</span> <span class="s1">&#39;--force&#39;</span><span class="p">,</span>
+                                   <span class="n">action</span><span class="o">=</span><span class="s1">&#39;store_true&#39;</span><span class="p">,</span>
+                                   <span class="n">default</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+                                   <span class="n">help</span><span class="o">=</span><span class="s1">&#39;Reinstall package even if it is already up-to-date.&#39;</span><span class="p">)</span>
+    <span class="n">install_subparser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;--org&#39;</span><span class="p">,</span>
+                                   <span class="n">default</span><span class="o">=</span><span class="s2">&quot;macsy-models&quot;</span><span class="p">,</span>
+                                   <span class="n">help</span><span class="o">=</span><span class="s2">&quot;The name of Model orgagnization&quot;</span>
+                                        <span class="s2">&quot;(default &#39;macsy-models&#39;))&quot;</span>
+                                   <span class="p">)</span>
+    <span class="n">install_subparser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;-u&#39;</span><span class="p">,</span> <span class="s1">&#39;--user&#39;</span><span class="p">,</span>
+                                   <span class="n">action</span><span class="o">=</span><span class="s1">&#39;store_true&#39;</span><span class="p">,</span>
+                                   <span class="n">default</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+                                   <span class="n">help</span><span class="o">=</span><span class="s1">&#39;Install to the MacSYFinder user install directory for your platform. &#39;</span>
+                                        <span class="s1">&#39;Typically ~/.macsyfinder/data&#39;</span><span class="p">)</span>
+    <span class="n">install_subparser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;-t&#39;</span><span class="p">,</span> <span class="s1">&#39;--target&#39;</span><span class="p">,</span> <span class="s1">&#39;--models-dir&#39;</span><span class="p">,</span>
+                                   <span class="n">dest</span><span class="o">=</span><span class="s1">&#39;target&#39;</span><span class="p">,</span>
+                                   <span class="n">help</span><span class="o">=</span><span class="s1">&#39;Install packages into &lt;TARGET&gt; dir instead in canonical location&#39;</span><span class="p">)</span>
+    <span class="n">install_subparser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;-U&#39;</span><span class="p">,</span> <span class="s1">&#39;--upgrade&#39;</span><span class="p">,</span>
+                                   <span class="n">action</span><span class="o">=</span><span class="s1">&#39;store_true&#39;</span><span class="p">,</span>
+                                   <span class="n">default</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+                                   <span class="n">help</span><span class="o">=</span><span class="s1">&#39;Upgrade specified package to the newest available version.&#39;</span><span class="p">)</span>
+    <span class="n">install_subparser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;package&#39;</span><span class="p">,</span>
+                                   <span class="n">help</span><span class="o">=</span><span class="s1">&#39;Package name.&#39;</span><span class="p">)</span>
+    <span class="n">install_subparser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;--cache&#39;</span><span class="p">,</span>
+                                   <span class="n">help</span><span class="o">=</span><span class="n">argparse</span><span class="o">.</span><span class="n">SUPPRESS</span><span class="p">)</span>
+    <span class="c1">#############</span>
+    <span class="c1"># Uninstall #</span>
+    <span class="c1">#############</span>
+    <span class="n">uninstall_subparser</span> <span class="o">=</span> <span class="n">subparsers</span><span class="o">.</span><span class="n">add_parser</span><span class="p">(</span><span class="s1">&#39;uninstall&#39;</span><span class="p">,</span>
+                                                <span class="n">help</span><span class="o">=</span><span class="s1">&#39;Uninstall packages.&#39;</span><span class="p">)</span>
+    <span class="n">uninstall_subparser</span><span class="o">.</span><span class="n">set_defaults</span><span class="p">(</span><span class="n">func</span><span class="o">=</span><span class="n">do_uninstall</span><span class="p">)</span>
+    <span class="n">uninstall_subparser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;package&#39;</span><span class="p">,</span>
+                                     <span class="n">help</span><span class="o">=</span><span class="s1">&#39;Package name.&#39;</span><span class="p">)</span>
+    <span class="n">uninstall_subparser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;--target, --models-dir&#39;</span><span class="p">,</span>
+                                     <span class="n">dest</span><span class="o">=</span><span class="s1">&#39;models_dir&#39;</span><span class="p">,</span>
+                                     <span class="n">help</span><span class="o">=</span><span class="s1">&#39;the path of the alternative root directory containing package instead used &#39;</span>
+                                     <span class="s1">&#39;canonical locations&#39;</span><span class="p">)</span>
+    <span class="c1">##########</span>
+    <span class="c1"># search #</span>
+    <span class="c1">##########</span>
+    <span class="n">search_subparser</span> <span class="o">=</span> <span class="n">subparsers</span><span class="o">.</span><span class="n">add_parser</span><span class="p">(</span><span class="s1">&#39;search&#39;</span><span class="p">,</span>
+                                             <span class="n">help</span><span class="o">=</span><span class="s1">&#39;Discover new packages.&#39;</span><span class="p">)</span>
+    <span class="n">search_subparser</span><span class="o">.</span><span class="n">set_defaults</span><span class="p">(</span><span class="n">func</span><span class="o">=</span><span class="n">do_search</span><span class="p">)</span>
+    <span class="n">search_subparser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;--org&#39;</span><span class="p">,</span>
+                                  <span class="n">default</span><span class="o">=</span><span class="s2">&quot;macsy-models&quot;</span><span class="p">,</span>
+                                  <span class="n">help</span><span class="o">=</span><span class="s2">&quot;The name of Model organization&quot;</span>
+                                       <span class="s2">&quot;(default macsy-models))&quot;</span>
+                                  <span class="p">)</span>
+    <span class="n">search_subparser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;-S&#39;</span><span class="p">,</span> <span class="s1">&#39;--careful&#39;</span><span class="p">,</span>
+                                  <span class="n">default</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+                                  <span class="n">action</span><span class="o">=</span><span class="s1">&#39;store_true&#39;</span><span class="p">,</span>
+                                  <span class="n">help</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
+    <span class="n">search_subparser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;--match-case&#39;</span><span class="p">,</span>
+                                  <span class="n">default</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+                                  <span class="n">action</span><span class="o">=</span><span class="s1">&#39;store_true&#39;</span><span class="p">,</span>
+                                  <span class="n">help</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
+    <span class="n">search_subparser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;pattern&#39;</span><span class="p">,</span>
+                                  <span class="n">help</span><span class="o">=</span><span class="s1">&#39;Searches for packages matching the pattern.&#39;</span><span class="p">)</span>
+    <span class="c1">########</span>
+    <span class="c1"># info #</span>
+    <span class="c1">########</span>
+    <span class="n">info_subparser</span> <span class="o">=</span> <span class="n">subparsers</span><span class="o">.</span><span class="n">add_parser</span><span class="p">(</span><span class="s1">&#39;info&#39;</span><span class="p">,</span>
+                                           <span class="n">help</span><span class="o">=</span><span class="s1">&#39;Show information about packages.&#39;</span><span class="p">)</span>
+    <span class="n">info_subparser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;package&#39;</span><span class="p">,</span>
+                                <span class="n">help</span><span class="o">=</span><span class="s1">&#39;Package name.&#39;</span><span class="p">)</span>
+    <span class="n">info_subparser</span><span class="o">.</span><span class="n">set_defaults</span><span class="p">(</span><span class="n">func</span><span class="o">=</span><span class="n">do_info</span><span class="p">)</span>
+    <span class="n">info_subparser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;--models-dir&#39;</span><span class="p">,</span>
+                                <span class="n">help</span><span class="o">=</span><span class="s1">&#39;the path of the alternative root directory containing package instead used &#39;</span>
+                                     <span class="s1">&#39;canonical locations&#39;</span><span class="p">)</span>
+    <span class="c1">########</span>
+    <span class="c1"># list #</span>
+    <span class="c1">########</span>
+    <span class="n">list_subparser</span> <span class="o">=</span> <span class="n">subparsers</span><span class="o">.</span><span class="n">add_parser</span><span class="p">(</span><span class="s1">&#39;list&#39;</span><span class="p">,</span>
+                                           <span class="n">help</span><span class="o">=</span><span class="s1">&#39;List installed packages.&#39;</span><span class="p">)</span>
+    <span class="n">list_subparser</span><span class="o">.</span><span class="n">set_defaults</span><span class="p">(</span><span class="n">func</span><span class="o">=</span><span class="n">do_list</span><span class="p">)</span>
+    <span class="n">list_subparser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;-o&#39;</span><span class="p">,</span> <span class="s1">&#39;--outdated&#39;</span><span class="p">,</span>
+                                <span class="n">action</span><span class="o">=</span><span class="s1">&#39;store_true&#39;</span><span class="p">,</span>
+                                <span class="n">default</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+                                <span class="n">help</span><span class="o">=</span><span class="s1">&#39;List outdated packages.&#39;</span><span class="p">)</span>
+    <span class="n">list_subparser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;-u&#39;</span><span class="p">,</span> <span class="s1">&#39;--uptodate&#39;</span><span class="p">,</span>
+                                <span class="n">action</span><span class="o">=</span><span class="s1">&#39;store_true&#39;</span><span class="p">,</span>
+                                <span class="n">default</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+                                <span class="n">help</span><span class="o">=</span><span class="s1">&#39;List uptodate packages&#39;</span><span class="p">)</span>
+    <span class="n">list_subparser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;--org&#39;</span><span class="p">,</span>
+                                <span class="n">default</span><span class="o">=</span><span class="s2">&quot;macsy-models&quot;</span><span class="p">,</span>
+                                <span class="n">help</span><span class="o">=</span><span class="s2">&quot;The name of Model organization&quot;</span>
+                                     <span class="s2">&quot;(default macsy-models))&quot;</span>
+                                <span class="p">)</span>
+    <span class="n">list_subparser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;--models-dir&#39;</span><span class="p">,</span>
+                                <span class="n">help</span><span class="o">=</span><span class="s1">&#39;the path of the alternative root directory containing package instead used &#39;</span>
+                                     <span class="s1">&#39;canonical locations&#39;</span><span class="p">)</span>
+    <span class="c1">##########</span>
+    <span class="c1"># freeze #</span>
+    <span class="c1">##########</span>
+    <span class="n">freeze_subparser</span> <span class="o">=</span> <span class="n">subparsers</span><span class="o">.</span><span class="n">add_parser</span><span class="p">(</span><span class="s1">&#39;freeze&#39;</span><span class="p">,</span>
+                                             <span class="n">help</span><span class="o">=</span><span class="s1">&#39;List installed models in requirements format.&#39;</span><span class="p">)</span>
+    <span class="n">freeze_subparser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;--models-dir&#39;</span><span class="p">,</span>
+                                   <span class="n">help</span><span class="o">=</span><span class="s1">&#39;the path of the alternative root directory containing package instead used &#39;</span>
+                                        <span class="s1">&#39;canonical locations&#39;</span><span class="p">)</span>
+    <span class="n">freeze_subparser</span><span class="o">.</span><span class="n">set_defaults</span><span class="p">(</span><span class="n">func</span><span class="o">=</span><span class="n">do_freeze</span><span class="p">)</span>
+    <span class="c1">########</span>
+    <span class="c1"># cite #</span>
+    <span class="c1">########</span>
+    <span class="n">cite_subparser</span> <span class="o">=</span> <span class="n">subparsers</span><span class="o">.</span><span class="n">add_parser</span><span class="p">(</span><span class="s1">&#39;cite&#39;</span><span class="p">,</span>
+                                           <span class="n">help</span><span class="o">=</span><span class="s1">&#39;How to cite a package.&#39;</span><span class="p">)</span>
+    <span class="n">cite_subparser</span><span class="o">.</span><span class="n">set_defaults</span><span class="p">(</span><span class="n">func</span><span class="o">=</span><span class="n">do_cite</span><span class="p">)</span>
+    <span class="n">cite_subparser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;--models-dir&#39;</span><span class="p">,</span>
+                                <span class="n">help</span><span class="o">=</span><span class="s1">&#39;the path of the alternative root directory containing package instead used &#39;</span>
+                                     <span class="s1">&#39;canonical locations&#39;</span><span class="p">)</span>
+    <span class="n">cite_subparser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;package&#39;</span><span class="p">,</span>
+                                <span class="n">help</span><span class="o">=</span><span class="s1">&#39;Package name.&#39;</span><span class="p">)</span>
+    <span class="c1">########</span>
+    <span class="c1"># help #</span>
+    <span class="c1">########</span>
+    <span class="n">help_subparser</span> <span class="o">=</span> <span class="n">subparsers</span><span class="o">.</span><span class="n">add_parser</span><span class="p">(</span><span class="s1">&#39;help&#39;</span><span class="p">,</span>
+                                           <span class="n">help</span><span class="o">=</span><span class="s1">&#39;get online documentation.&#39;</span><span class="p">)</span>
+    <span class="n">help_subparser</span><span class="o">.</span><span class="n">set_defaults</span><span class="p">(</span><span class="n">func</span><span class="o">=</span><span class="n">do_help</span><span class="p">)</span>
+    <span class="n">help_subparser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;package&#39;</span><span class="p">,</span>
+                                <span class="n">help</span><span class="o">=</span><span class="s1">&#39;Package name.&#39;</span><span class="p">)</span>
+    <span class="n">help_subparser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;--models-dir&#39;</span><span class="p">,</span>
+                                <span class="n">help</span><span class="o">=</span><span class="s1">&#39;the path of the alternative root directory containing package instead used &#39;</span>
+                                     <span class="s1">&#39;canonical locations&#39;</span><span class="p">)</span>
+    <span class="c1">#########</span>
+    <span class="c1"># check #</span>
+    <span class="c1">#########</span>
+    <span class="n">check_subparser</span> <span class="o">=</span> <span class="n">subparsers</span><span class="o">.</span><span class="n">add_parser</span><span class="p">(</span><span class="s1">&#39;check&#39;</span><span class="p">,</span>
+                                            <span class="n">help</span><span class="o">=</span><span class="s1">&#39;check if the directory is ready to be publish as data package&#39;</span><span class="p">)</span>
+    <span class="n">check_subparser</span><span class="o">.</span><span class="n">set_defaults</span><span class="p">(</span><span class="n">func</span><span class="o">=</span><span class="n">do_check</span><span class="p">)</span>
+    <span class="n">check_subparser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;path&#39;</span><span class="p">,</span>
+                                 <span class="n">nargs</span><span class="o">=</span><span class="s1">&#39;?&#39;</span><span class="p">,</span>
+                                 <span class="n">default</span><span class="o">=</span><span class="n">os</span><span class="o">.</span><span class="n">getcwd</span><span class="p">(),</span>
+                                 <span class="n">help</span><span class="o">=</span><span class="s1">&#39;the path to root directory models to check&#39;</span><span class="p">)</span>
+
+    <span class="c1">##############</span>
+    <span class="c1"># definition #</span>
+    <span class="c1">##############</span>
+    <span class="n">def_subparser</span> <span class="o">=</span> <span class="n">subparsers</span><span class="o">.</span><span class="n">add_parser</span><span class="p">(</span><span class="s1">&#39;definition&#39;</span><span class="p">,</span>
+                                            <span class="n">help</span><span class="o">=</span><span class="s1">&#39;show a model definition &#39;</span><span class="p">)</span>
+    <span class="n">def_subparser</span><span class="o">.</span><span class="n">set_defaults</span><span class="p">(</span><span class="n">func</span><span class="o">=</span><span class="n">do_show_definition</span><span class="p">)</span>
+    <span class="n">def_subparser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;model&#39;</span><span class="p">,</span>
+                               <span class="n">nargs</span><span class="o">=</span><span class="s1">&#39;+&#39;</span><span class="p">,</span>
+                               <span class="n">help</span><span class="o">=</span><span class="s1">&#39;the family and name(s) of a model(s) eg: TXSS T6SS T4SS or TFF/bacterial T2SS&#39;</span><span class="p">)</span>
+    <span class="n">def_subparser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s1">&#39;--models-dir&#39;</span><span class="p">,</span>
+                               <span class="n">help</span><span class="o">=</span><span class="s1">&#39;the path to the alternative root directory containing packages instead to the &#39;</span>
+                                    <span class="s1">&#39;canonical locations&#39;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">parser</span></div>
+
+
+<div class="viewcode-block" id="cmd_name"><a class="viewcode-back" href="../../../developer_guide/api/scripts.html#macsypy.scripts.macsydata.cmd_name">[docs]</a><span class="k">def</span> <span class="nf">cmd_name</span><span class="p">(</span><span class="n">args</span><span class="p">:</span> <span class="n">argparse</span><span class="o">.</span><span class="n">Namespace</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Return the name of the command being executed</span>
+<span class="sd">    (scriptname + operation).</span>
+
+<span class="sd">    Example</span>
+<span class="sd">        macsydata uninstall</span>
+
+<span class="sd">    :param args: the arguments passed on the command line</span>
+<span class="sd">    :type args: :class:`argparse.Namespace` object</span>
+<span class="sd">    :rtype: str</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">assert</span> <span class="s1">&#39;func&#39;</span> <span class="ow">in</span> <span class="n">args</span>
+    <span class="n">func_name</span> <span class="o">=</span> <span class="n">args</span><span class="o">.</span><span class="n">func</span><span class="o">.</span><span class="vm">__name__</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;do_&#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="sa">f</span><span class="s2">&quot;macsydata </span><span class="si">{</span><span class="n">func_name</span><span class="si">}</span><span class="s2">&quot;</span></div>
+
+
+<div class="viewcode-block" id="init_logger"><a class="viewcode-back" href="../../../developer_guide/api/scripts.html#macsypy.scripts.macsydata.init_logger">[docs]</a><span class="k">def</span> <span class="nf">init_logger</span><span class="p">(</span><span class="n">level</span><span class="o">=</span><span class="s1">&#39;INFO&#39;</span><span class="p">,</span> <span class="n">out</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+
+<span class="sd">    :param level: The logger threshold could be a positive int or string</span>
+<span class="sd">                  among: &#39;CRITICAL&#39;, &#39;ERROR&#39;, &#39;WARNING&#39;, &#39;INFO&#39;, &#39;DEBUG&#39;</span>
+<span class="sd">    :param out: if the log message must be displayed</span>
+<span class="sd">    :return: logger</span>
+<span class="sd">    :rtype: :class:`logging.Logger` instance</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="n">logger</span> <span class="o">=</span> <span class="n">colorlog</span><span class="o">.</span><span class="n">getLogger</span><span class="p">(</span><span class="s1">&#39;macsydata&#39;</span><span class="p">)</span>
+    <span class="n">handlers</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">if</span> <span class="n">out</span><span class="p">:</span>
+        <span class="n">stdout_handler</span> <span class="o">=</span> <span class="n">colorlog</span><span class="o">.</span><span class="n">StreamHandler</span><span class="p">(</span><span class="n">sys</span><span class="o">.</span><span class="n">stderr</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">level</span> <span class="o">&lt;=</span> <span class="n">logging</span><span class="o">.</span><span class="n">DEBUG</span><span class="p">:</span>
+            <span class="n">msg_formatter</span> <span class="o">=</span> <span class="s2">&quot;</span><span class="si">%(log_color)s%(levelname)-8s</span><span class="s2"> : </span><span class="si">%(module)s</span><span class="s2">: L </span><span class="si">%(lineno)d</span><span class="s2"> :</span><span class="si">%(reset)s</span><span class="s2"> </span><span class="si">%(message)s</span><span class="s2">&quot;</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">msg_formatter</span> <span class="o">=</span> <span class="s2">&quot;</span><span class="si">%(log_color)s%(message)s</span><span class="s2">&quot;</span>
+        <span class="n">stdout_formatter</span> <span class="o">=</span> <span class="n">colorlog</span><span class="o">.</span><span class="n">ColoredFormatter</span><span class="p">(</span><span class="n">msg_formatter</span><span class="p">,</span>
+                                                     <span class="n">datefmt</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+                                                     <span class="n">reset</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
+                                                     <span class="n">log_colors</span><span class="o">=</span><span class="p">{</span>
+                                                         <span class="s1">&#39;DEBUG&#39;</span><span class="p">:</span> <span class="s1">&#39;cyan&#39;</span><span class="p">,</span>
+                                                         <span class="s1">&#39;INFO&#39;</span><span class="p">:</span> <span class="s1">&#39;green&#39;</span><span class="p">,</span>
+                                                         <span class="s1">&#39;WARNING&#39;</span><span class="p">:</span> <span class="s1">&#39;yellow&#39;</span><span class="p">,</span>
+                                                         <span class="s1">&#39;ERROR&#39;</span><span class="p">:</span> <span class="s1">&#39;red&#39;</span><span class="p">,</span>
+                                                         <span class="s1">&#39;CRITICAL&#39;</span><span class="p">:</span> <span class="s1">&#39;bold_red&#39;</span><span class="p">,</span>
+                                                     <span class="p">},</span>
+                                                     <span class="n">secondary_log_colors</span><span class="o">=</span><span class="p">{},</span>
+                                                     <span class="n">style</span><span class="o">=</span><span class="s1">&#39;%&#39;</span>
+                                                     <span class="p">)</span>
+        <span class="n">stdout_handler</span><span class="o">.</span><span class="n">setFormatter</span><span class="p">(</span><span class="n">stdout_formatter</span><span class="p">)</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">addHandler</span><span class="p">(</span><span class="n">stdout_handler</span><span class="p">)</span>
+        <span class="n">handlers</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">stdout_handler</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">null_handler</span> <span class="o">=</span> <span class="n">logging</span><span class="o">.</span><span class="n">NullHandler</span><span class="p">()</span>
+        <span class="n">logger</span><span class="o">.</span><span class="n">addHandler</span><span class="p">(</span><span class="n">null_handler</span><span class="p">)</span>
+        <span class="n">handlers</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">null_handler</span><span class="p">)</span>
+    <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">level</span><span class="p">,</span> <span class="nb">str</span><span class="p">):</span>
+        <span class="n">level</span> <span class="o">=</span> <span class="nb">getattr</span><span class="p">(</span><span class="n">logging</span><span class="p">,</span> <span class="n">level</span><span class="p">)</span>
+    <span class="n">logger</span><span class="o">.</span><span class="n">setLevel</span><span class="p">(</span><span class="n">level</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">logger</span></div>
+
+
+<div class="viewcode-block" id="verbosity_to_log_level"><a class="viewcode-back" href="../../../developer_guide/api/scripts.html#macsypy.scripts.macsydata.verbosity_to_log_level">[docs]</a><span class="k">def</span> <span class="nf">verbosity_to_log_level</span><span class="p">(</span><span class="n">verbosity</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    transform the number of -v option in loglevel</span>
+<span class="sd">    :param int verbosity: number of -v option on the command line</span>
+<span class="sd">    :return: an int corresponding to a logging level</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">level</span> <span class="o">=</span> <span class="nb">max</span><span class="p">((</span><span class="n">logging</span><span class="o">.</span><span class="n">INFO</span> <span class="o">-</span> <span class="p">(</span><span class="mi">10</span> <span class="o">*</span> <span class="n">verbosity</span><span class="p">),</span> <span class="mi">1</span><span class="p">))</span>
+    <span class="k">return</span> <span class="n">level</span></div>
+
+
+<div class="viewcode-block" id="main"><a class="viewcode-back" href="../../../developer_guide/api/scripts.html#macsypy.scripts.macsydata.main">[docs]</a><span class="k">def</span> <span class="nf">main</span><span class="p">(</span><span class="n">args</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Main entry point.</span>
+
+<span class="sd">    :param args: the arguments passed on the command line (before parsing)</span>
+<span class="sd">    :type args: list</span>
+<span class="sd">    :rtype: int</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">global</span> <span class="n">_log</span>
+    <span class="n">args</span> <span class="o">=</span> <span class="n">sys</span><span class="o">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">:]</span> <span class="k">if</span> <span class="n">args</span> <span class="ow">is</span> <span class="kc">None</span> <span class="k">else</span> <span class="n">args</span>
+    <span class="n">parser</span> <span class="o">=</span> <span class="n">build_arg_parser</span><span class="p">()</span>
+    <span class="n">parsed_args</span> <span class="o">=</span> <span class="n">parser</span><span class="o">.</span><span class="n">parse_args</span><span class="p">(</span><span class="n">args</span><span class="p">)</span>
+    <span class="n">log_level</span> <span class="o">=</span> <span class="n">verbosity_to_log_level</span><span class="p">(</span><span class="n">parsed_args</span><span class="o">.</span><span class="n">verbose</span><span class="p">)</span>
+    <span class="c1"># set logger for module &#39;package&#39;</span>
+    <span class="n">macsypy</span><span class="o">.</span><span class="n">init_logger</span><span class="p">()</span>
+    <span class="n">macsypy</span><span class="o">.</span><span class="n">logger_set_level</span><span class="p">(</span><span class="n">level</span><span class="o">=</span><span class="n">log_level</span><span class="p">)</span>
+    <span class="c1"># set logger for this script</span>
+    <span class="n">_log</span> <span class="o">=</span> <span class="n">init_logger</span><span class="p">(</span><span class="n">log_level</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="s1">&#39;func&#39;</span> <span class="ow">in</span> <span class="n">parsed_args</span><span class="p">:</span>
+        <span class="n">parsed_args</span><span class="o">.</span><span class="n">func</span><span class="p">(</span><span class="n">parsed_args</span><span class="p">)</span>
+        <span class="n">_log</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;&#39;</span><span class="si">{</span><span class="n">cmd_name</span><span class="p">(</span><span class="n">parsed_args</span><span class="p">)</span><span class="si">}</span><span class="s2">&#39; command completed successfully.&quot;</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="c1"># macsydata command is run without any subcommand</span>
+        <span class="n">parser</span><span class="o">.</span><span class="n">print_help</span><span class="p">()</span></div>
+
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&quot;__main__&quot;</span><span class="p">:</span>
+    <span class="n">main</span><span class="p">()</span>
+</pre></div>
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2014-2022, &#39;Institut Pasteur (Paris), CNRS&#39;
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+
+<div class="licensing">
+  <p>
+    This documentation is licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License
+      <img src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png">.
+    </a>
+  </p>
+</div>
+
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+  
+
+<a href="https://github.com/gem-pasteur/macsyfinder">
+    <img style="position: absolute; top: 0; right: 0; border: 0;"
+         src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67"
+         alt="Fork me on GitHub"
+         data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png">
+</a>
+
+
+
+</body>
+</html>
