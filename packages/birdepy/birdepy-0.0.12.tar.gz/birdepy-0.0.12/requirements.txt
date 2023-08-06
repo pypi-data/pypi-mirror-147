@@ -1,0 +1,8 @@
+gwr-inversion==1.0.1; python_version >= "3.7"
+matplotlib==3.5.1; python_version >= "3.7"
+mpmath==1.2.1; python_version >= "3.7"
+numpy==1.22.3; python_version >= "3.10" and python_version < "3.11"
+pandas==1.4.2; python_version >= "3.8"
+scikit-learn==1.0.2; python_version >= "3.7"
+scipy==1.8.0; python_version >= "3.8" and python_version < "3.11"
+seaborn==0.11.2; python_version >= "3.6"
