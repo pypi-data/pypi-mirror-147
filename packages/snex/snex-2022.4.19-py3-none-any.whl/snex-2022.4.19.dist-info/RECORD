@@ -1,0 +1,13 @@
+snex/__init__.py,sha256=DDpNYJ6GEu1XAnO8NcUp_8FTqnn1bIUOxplVspQAjoI,1975
+snex/cli/__init__.py,sha256=ji03xExPHzMJLLbVdVhnA1wXjB_UVuGW0Wb08xe4KcM,1568
+snex/core.py,sha256=_edEd8ddadaRZGrWwCxl-tWJt1w7cK4P5kvg_zrmD6k,4112
+snex/templates/python-url.snex.conf,sha256=tvneJkSp2SGMQ2slMwsNtdUimmzNkKO1ibgyYu1_Vg8,156
+snex/templates/python.snex.conf,sha256=7SrfsZRSzYPPW4pfrqCJw8_3q5vP2nBlT_zjT2uNapM,103
+snex/templates/scala.snex.conf,sha256=Ko_tlOMvyWNNvuXK-aLcjwUDgj-1LqkPQpCMWsj_pzg,475
+snex/templates/swift.snex.conf,sha256=FLDmqRfT0LVohkDlTjHs-K31BvZ9HCZTTyWBI5Gh9ls,240
+snex/util.py,sha256=emaO6zoykP6yR0SSW2rMS7RMgqJVg3eZcr7Cqj9j2KE,3428
+snex-2022.4.19.dist-info/entry_points.txt,sha256=S32-0wn6QKqrT-vnivgoPzBqsr26tXTvkAqIrnulcnI,38
+snex-2022.4.19.dist-info/LICENSE,sha256=XHainZh8Ai650lfp8QTY7xk2vhMK7_sZTy-86zz6ve0,1073
+snex-2022.4.19.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+snex-2022.4.19.dist-info/METADATA,sha256=1qblQDmnRUAaIfIw-tzF-WCDFoe-O5nCNEvS1fbdvj4,4498
+snex-2022.4.19.dist-info/RECORD,,
