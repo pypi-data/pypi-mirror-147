@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/tcalculator/__init__.py
+src/tcalculator/add.py
+src/tcalculator.egg-info/PKG-INFO
+src/tcalculator.egg-info/SOURCES.txt
+src/tcalculator.egg-info/dependency_links.txt
+src/tcalculator.egg-info/top_level.txt
+src/tcalculator/multiply/__init__.py
+src/tcalculator/multiply/multiply_ab.py
+src/tcalculator/multiply/multiply_abc.py
