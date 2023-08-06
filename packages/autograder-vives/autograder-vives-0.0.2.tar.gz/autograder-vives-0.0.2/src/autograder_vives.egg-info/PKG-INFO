@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: autograder-vives
+Version: 0.0.2
+Summary: a package to send strings to a thermal printer from a pi, via a nucleo.
+Home-page: https://github.com/vives-projectweek-2022/autograder-printer-package.git
+Author: autograder-vives-students
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+README.md
+
