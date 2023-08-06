@@ -1,0 +1,9 @@
+sat_gt_fel_invoices_downloader/__init__.py,sha256=ORY021wp5uAmuS6d3LbTppFQGdu2CLMAyEPWa660QYk,32
+sat_gt_fel_invoices_downloader/actions.py,sha256=JjbCQeWNWQ-fEFWYzn8fvPaCf34WoXhpxX97LNedL00,3825
+sat_gt_fel_invoices_downloader/main.py,sha256=82vY5Aw50zXLuIDmIx1S3I9BEPHxK3rhg6HiqXtRGX0,16246
+sat_gt_fel_invoices_downloader/models.py,sha256=6xUR_F3PLdDT8yrYKQWVC_z5-14sbh1ukGh_vd1NNh4,3481
+sat_gt_fel_invoices_downloader-0.5.6.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+sat_gt_fel_invoices_downloader-0.5.6.dist-info/METADATA,sha256=UaoA6rn5XkrrT5vLYMWlmP2tw-3HRuD1V_MF8QBgJB4,3022
+sat_gt_fel_invoices_downloader-0.5.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sat_gt_fel_invoices_downloader-0.5.6.dist-info/top_level.txt,sha256=Mr3Kn49k_JS_ovADEspfejbrl6V7e3HPei_UMUxSEgI,31
+sat_gt_fel_invoices_downloader-0.5.6.dist-info/RECORD,,
