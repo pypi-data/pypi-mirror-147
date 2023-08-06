@@ -1,0 +1,19 @@
+Metadata-Version: 1.2
+Name: novauniverse
+Version: 1.2a1
+Summary: A modern API wrapper for the minecraft server "Nova Universe" written in Python.
+Home-page: https://novauniverse.net/
+Author: Dev Goldy
+Author-email: jassim7256@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/NovaUniverse/novauniverse.py/issues
+Description: NovaUniverse.py is a modern API wrapper for the minecraft server Nova Universe that allows you to access player data, player's game stats and server status across the Nova Universe network all in a object oriented pythonic way.
+Keywords: novauniverse,minecraft novauniverse,nova universe,mc novauniverse
+Platform: UNKNOWN
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Operating System :: POSIX :: Linux
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
