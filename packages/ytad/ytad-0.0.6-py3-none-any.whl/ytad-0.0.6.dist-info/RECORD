@@ -1,0 +1,14 @@
+ytad/__init__.py,sha256=AVCt2Xe1ZAvs02yDqgqcQzfsjL9v0FpDW2d-nazC8_E,294
+ytad/_version.py,sha256=xavC7ba1hVG9sRqWKZJqscjj07erACQQYqgD_e2SPvI,518
+ytad/app_config.py,sha256=BJ6PheKaVP6hzkekZEo66ziLohUk-B30tnK6wF7OaZw,319
+ytad/authentication.py,sha256=4_CTi0Yr1svaYwD_sepLAuCFQr3mM2Hqw6WXhlXaJuw,3198
+ytad/download_my_uploads.py,sha256=VCEaELgB7kibzDQ5CUbFZwUdF5Q4aJGxfRtonLrbOBo,5827
+ytad/new_description.py,sha256=3RBJC4LvnNjL2RoaC6AH3uuahkiPvJji09_jezO6L7E,2807
+ytad/update_description.py,sha256=96ixRdiqxXVkZNmu6EXuELkqPv6XpQOEOSAQ4jGVSiM,3469
+ytad/update_notifications.py,sha256=fXJ5zlnYuDcPFHZ3323vRjdAZKTFXjtdUNA4d3eEJMM,5976
+ytad-0.0.6.dist-info/LICENSE,sha256=LaXhfX2hWZWUH7sr_NcGnwXtV4L0v5Po-w-uZDVHyhw,1088
+ytad-0.0.6.dist-info/METADATA,sha256=mpp34x8PGHoIy2sldkIHcybS0P1W57SS1a98S1UFQGc,3470
+ytad-0.0.6.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+ytad-0.0.6.dist-info/entry_points.txt,sha256=aU4mMZ3b2VVyjiisgpa0h2er-qdwkR9C2NAO-7eouGQ,55
+ytad-0.0.6.dist-info/top_level.txt,sha256=JDUytXOMCle5bzMJ_KX9lYklTQh6dAlMc0Z0S-6DZbY,5
+ytad-0.0.6.dist-info/RECORD,,
