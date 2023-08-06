@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+deez/__init__.py
+deez/myfunctions.py
+deez69420.egg-info/PKG-INFO
+deez69420.egg-info/SOURCES.txt
+deez69420.egg-info/dependency_links.txt
+deez69420.egg-info/top_level.txt
+tests/__init__.py
+tests/test_myfunctions.py
