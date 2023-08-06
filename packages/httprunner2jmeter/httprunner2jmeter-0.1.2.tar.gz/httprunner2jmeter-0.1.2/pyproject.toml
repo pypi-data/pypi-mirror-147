@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "httprunner2jmeter"
+version = "0.1.2"
+description = "Make httprunner scripts to jmeter scripts."
+license = "Apache-2.0"
+readme = "README.md"
+authors = ["贝克街的捉虫师 <forpeng@foxmail.com>"]
+
+homepage = "https://github.com/BSTester/httprunner2jmeter"
+repository = "https://github.com/BSTester/httprunner2jmeter"
+
+keywords = ["HTTP", "api", "test", "requests", "jmeter"]
+
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Topic :: Software Development :: Testing",
+    "Topic :: Software Development :: Quality Assurance",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Operating System :: MacOS",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: Microsoft :: Windows",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8"
+]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+pyyaml = "^5.1.2"
+jmespath = "^0.9.5"
+pyjmeter = "^0.5"
+
+[tool.poetry.scripts]
+hr2jmeter = "httprunner2jmeter.cli:main"
+
+[build-system]
+requires = ["poetry>=1.0.0"]
+build-backend = "poetry.masonry.api"
