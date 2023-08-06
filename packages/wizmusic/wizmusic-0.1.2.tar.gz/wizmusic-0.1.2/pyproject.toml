@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "wizmusic"
+version = "0.1.2"
+description = "wiz spotify light"
+authors = ["redraw <redraw@sdf.org>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+"colorgram.py" = "^1.2.0"
+spotipy = "^2.19.0"
+rich = "^12.2.0"
+
+[tool.poetry.dev-dependencies]
+ipython = "^8.2.0"
+
+[tool.poetry.scripts]
+wizmusic = "wizmusic.client:cli"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
