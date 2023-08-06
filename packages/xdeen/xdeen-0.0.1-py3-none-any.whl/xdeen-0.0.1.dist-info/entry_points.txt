@@ -1,0 +1,2 @@
+[console_scripts]
+xdeen = xdeen.__init__:cli
