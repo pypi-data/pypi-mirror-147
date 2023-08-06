@@ -1,0 +1,3 @@
+[console_scripts]
+ace_upload = ace_upload.__main__:main
+

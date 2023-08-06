@@ -1,0 +1,5 @@
+minio
+urllib3
+requests
+glob2
+numpy

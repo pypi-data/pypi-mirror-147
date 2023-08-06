@@ -1,0 +1,11 @@
+README.md
+setup.py
+ace_upload/__init__.py
+ace_upload/__main__.py
+ace_upload/_upload.py
+ace_upload.egg-info/PKG-INFO
+ace_upload.egg-info/SOURCES.txt
+ace_upload.egg-info/dependency_links.txt
+ace_upload.egg-info/entry_points.txt
+ace_upload.egg-info/requires.txt
+ace_upload.egg-info/top_level.txt
