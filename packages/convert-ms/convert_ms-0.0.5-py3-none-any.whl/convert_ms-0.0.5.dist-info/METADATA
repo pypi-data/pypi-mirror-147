@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: convert-ms
+Version: 0.0.5
+Summary: Convert a time units to seconds
+Home-page: https://github.com/Forzy8/convert_ms
+License: Apache-2.0
+Author: Forzy
+Author-email: nikita11tzby@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/Forzy8/convert_ms
+Description-Content-Type: text/markdown
+
+## Convert_ms
+
+- Use this package for converting units of time to seconds.
+#
+## What is it?
+
+```py
+from convert_ms import ms, check
+
+ms("1m") # return 60
+ms("1h") # return 3600
+ms("1d") # return 86400
+
+check("1m") # return True
+check("1o") # return False
+```
+#
+## How to use ?
+```py
+from convert_ms import ms, check
+import asyncio
+
+duration = "1h"
+
+if check(query=duration):
+    await asyncio.sleep(ms(query=duration))
+else:
+    print("you have entered a non-existent unit of time")
+```
+#
+### Formats
+```
+seconds, secs, s, m, min, minute, h, hour, d, day, w, week, mon, month, y, year
+```
+#
+### Find a bug?
+Report [here](https://github.com/Forzy8/convert_ms/issues)
