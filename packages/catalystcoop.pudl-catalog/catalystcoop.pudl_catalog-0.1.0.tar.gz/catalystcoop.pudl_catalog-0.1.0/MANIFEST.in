@@ -1,0 +1,4 @@
+recursive-include src/pudl_catalog *.yml
+recursive-include src/pudl_catalog *.yaml
+
+include README.md
