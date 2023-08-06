@@ -1,0 +1,15 @@
+include README.md
+
+# Background maps
+include moon_coverage/maps/data/Callisto.jpg
+include moon_coverage/maps/data/Earth.jpg
+include moon_coverage/maps/data/Europa.jpg
+include moon_coverage/maps/data/Ganymede.jpg
+include moon_coverage/maps/data/Moon.jpg
+include moon_coverage/maps/data/Io.jpg
+include moon_coverage/maps/data/Jupiter.jpg
+include moon_coverage/maps/data/Venus.jpg
+include moon_coverage/maps/data/Mercury.jpg
+
+include moon_coverage/rois/data/Ganymede_ROIs-Stephan_2021_PSS-Tab_SM1.csv
+include moon_coverage/rois/data/Callisto_ROIs-Stephan_2021_PSS-Tab_SM2.csv
