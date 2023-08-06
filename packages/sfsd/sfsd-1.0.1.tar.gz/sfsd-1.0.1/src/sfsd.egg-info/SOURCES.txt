@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/sfsd.egg-info/PKG-INFO
+src/sfsd.egg-info/SOURCES.txt
+src/sfsd.egg-info/dependency_links.txt
+src/sfsd.egg-info/requires.txt
+src/sfsd.egg-info/top_level.txt
