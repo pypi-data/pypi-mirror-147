@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+foo_alpha/__init__.py
+foo_alpha.egg-info/PKG-INFO
+foo_alpha.egg-info/SOURCES.txt
+foo_alpha.egg-info/dependency_links.txt
+foo_alpha.egg-info/top_level.txt
