@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: puancore
+Version: 1.6
+Summary: Hello
+Home-page: https://oursite.com
+Author: Moa Stenmark
+Author-email: moa@ourstudio.se
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: numpy
+
+Write something here
+

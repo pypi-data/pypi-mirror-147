@@ -1,0 +1,12 @@
+puancore
+puancore/comp
+puancore/linalg
+puancore/linalg/matrix
+puancore/linalg/vmap
+puancore/logic
+puancore/logic/cnf
+puancore/logic/crc
+puancore/logic/sta
+puancore/misc
+puancore/uFuncs
+puancore/uFuncs/npufunc

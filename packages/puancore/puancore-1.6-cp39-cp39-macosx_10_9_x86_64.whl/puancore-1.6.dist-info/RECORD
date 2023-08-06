@@ -1,0 +1,17 @@
+puancore/__init__.py,sha256=8H9GQAUhU7XfCxq_p-5ltqzAybUB_3waXffKERoCuQU,78
+puancore/comp/__init__.py,sha256=h1cB0CdlyNyj0MX3XUIYj6D6B2RiGiBnyqQ9L4GY3xI,3834
+puancore/linalg/__init__.py,sha256=H-XM4wtTuhzYyUELJ2spKNeL_NBjPj9Akm2GWVzTQJ8,39
+puancore/linalg/matrix/__init__.py,sha256=L2nG2HXA4Ag2vetIwhb6JcyL-B1SJcpVcNL-BrMThiM,20930
+puancore/linalg/vmap/__init__.py,sha256=-kXcFgHMhW6QIpfko9q_pGdPoa6B8HqrilB6ssjUsy0,3323
+puancore/logic/__init__.py,sha256=ngoTGDjXUE8eNLP-a-itgFO5ddE2-5kuNlwpU1HG2fw,53
+puancore/logic/cnf/__init__.py,sha256=oetKcCodnxM-gE0xzFgJIOYSntC_R4QjjBDzESHdUOQ,1195
+puancore/logic/crc/__init__.py,sha256=pzbFzSy1qySHW0DGQI243ZefJSmIdNtlAGmAbfEZBe8,37
+puancore/logic/sta/__init__.py,sha256=3LhT3WbI6K3RtEkvR63baBcuSjAIg5nAPWuBRXs-tgc,18
+puancore/misc/__init__.py,sha256=L3SLK9z1JjCNsk1zMOXkoEZucbFV5XI_KI0qZgyvVRQ,5389
+puancore/uFuncs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+puancore/uFuncs/npufunc.cpython-39-darwin.so,sha256=mVRZT-2JLx5uIKIG3nIufYEKCAxgTWVLVnMo4A1n0qs,34088
+puancore-1.6.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+puancore-1.6.dist-info/METADATA,sha256=WsRXiKJOhrM4h_RAoQ6gEkcShQ9fQdkWlvuwF6Ynt3g,249
+puancore-1.6.dist-info/WHEEL,sha256=pfjXB0CCNW4PSSqQc2t4Up6p3o0jxBnHy_2o38FQkyE,109
+puancore-1.6.dist-info/top_level.txt,sha256=Zjq6hkZqBj9vhyPtcA30IazJt9SaWmUi6t0PtG4j9k8,209
+puancore-1.6.dist-info/RECORD,,
