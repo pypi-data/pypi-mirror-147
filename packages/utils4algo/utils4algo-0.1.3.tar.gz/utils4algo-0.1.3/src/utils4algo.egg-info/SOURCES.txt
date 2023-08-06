@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/utils/__init__.py
+src/utils/utils.py
+src/utils4algo.egg-info/PKG-INFO
+src/utils4algo.egg-info/SOURCES.txt
+src/utils4algo.egg-info/dependency_links.txt
+src/utils4algo.egg-info/top_level.txt
