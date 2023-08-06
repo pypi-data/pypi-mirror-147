@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.cfg
+websocketd.py
+debian/copyright
+websocket_httpd.egg-info/PKG-INFO
+websocket_httpd.egg-info/SOURCES.txt
+websocket_httpd.egg-info/dependency_links.txt
+websocket_httpd.egg-info/requires.txt
+websocket_httpd.egg-info/top_level.txt
