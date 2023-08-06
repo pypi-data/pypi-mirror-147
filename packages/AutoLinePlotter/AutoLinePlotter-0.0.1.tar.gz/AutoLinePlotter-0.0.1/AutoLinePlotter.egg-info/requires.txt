@@ -1,0 +1,6 @@
+numpy
+tensorboard
+matplotlib
+seaborn
+pandas
+typing

@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+AutoLinePlotter/__init__.py
+AutoLinePlotter/main.py
+AutoLinePlotter.egg-info/PKG-INFO
+AutoLinePlotter.egg-info/SOURCES.txt
+AutoLinePlotter.egg-info/dependency_links.txt
+AutoLinePlotter.egg-info/requires.txt
+AutoLinePlotter.egg-info/top_level.txt
