@@ -1,0 +1,13 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+src/colvars_finder.egg-info/PKG-INFO
+src/colvars_finder.egg-info/SOURCES.txt
+src/colvars_finder.egg-info/dependency_links.txt
+src/colvars_finder.egg-info/requires.txt
+src/colvars_finder.egg-info/top_level.txt
+src/colvarsfinder/__init__.py
+src/colvarsfinder/core.py
+src/colvarsfinder/utils.py
