@@ -1,0 +1,10 @@
+todo_cli_tddschn/__init__.py,sha256=AfjI8xzz9wYgPW6m_8ytucvOClpVgyPoM6zdot6-wLs,1711
+todo_cli_tddschn/cli.py,sha256=ITe3JB8zOVqxTP9NIeAPfZXYJngifP75fhWtsrnkkgg,9061
+todo_cli_tddschn/config.py,sha256=RLUj3MvP15lA3YMyKYla_VU08RCRuqMoZp9btv78nmY,1585
+todo_cli_tddschn/database.py,sha256=UsssZfgmMQKgHTz0KhHS4vsFXud9cA1VKlBob_flCoc,831
+todo_cli_tddschn/models.py,sha256=RdeKzmKlV3KASbA33yhHqcouaI4iQ1meVStJ7g_0PcY,937
+todo_cli_tddschn/utils.py,sha256=L5NpMrkVJETCq7WYk164EOSDBXEMyve39njUoXDimIA,1341
+todo_cli_tddschn-0.2.1.dist-info/entry_points.txt,sha256=80TRssDDliktt4VOIuHQFS_mAFGG__MmuXU6t7iwdUI,49
+todo_cli_tddschn-0.2.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+todo_cli_tddschn-0.2.1.dist-info/METADATA,sha256=WfSx5hsewyZB66NZQVTraLVyitc8tQ3LJD8d6ByCJwA,554
+todo_cli_tddschn-0.2.1.dist-info/RECORD,,
