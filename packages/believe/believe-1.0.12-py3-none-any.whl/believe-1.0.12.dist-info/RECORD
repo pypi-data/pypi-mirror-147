@@ -1,0 +1,12 @@
+believe/__init__.py,sha256=T1tswUMTf9Ek8eC-hJc2ROSh22K8gg5uHevuEl2cBGA,1030
+believe/dict_matcher.py,sha256=_jBhEAgDr5fGOO3eKJqszqnv0q_jjS-R38wL6D7e03o,3331
+believe/error.py,sha256=Ff_mYxLl8JIdlL3nT4LXHf7dFs3Cb3NIaArKcHk-jSc,948
+believe/internal.py,sha256=sTh5kDJdCvwPyDXvlNaTcWx6tXMNgm2QzFo6HWNZMzQ,1762
+believe/list_matcher.py,sha256=8jH0JAlb15Td6ta78QQdI4TAufqn-kJha584v_Hb61U,3024
+believe/number_matcher.py,sha256=79I4_8hMmYFLgMcxQO57ShnA1fkw-EAF31XRBzJLZ78,2817
+believe/other_matcher.py,sha256=0Ki8oTLz0magZ5A0j34O0WG0DsFNT29H23mg0ZchpxE,1196
+believe/str_matcher.py,sha256=UqVXPvsqd0G_6wg-9ADIAksd6LwZHk-n_3n4O3gPbjg,5404
+believe-1.0.12.dist-info/LICENSE,sha256=mNKNG4Fz69LLjCsAScbysGlRWES_LpoVdURIFNrjdO0,1063
+believe-1.0.12.dist-info/WHEEL,sha256=4TfKIB_xu-04bc2iKz6_zFt-gEFEEDU_31HGhqzOCE8,81
+believe-1.0.12.dist-info/METADATA,sha256=uoSjL3L5LYijspQAAs_VZfFwmgTQZyS3381NWZ2onEs,5916
+believe-1.0.12.dist-info/RECORD,,
