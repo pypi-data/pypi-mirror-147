@@ -1,0 +1,9 @@
+selenium_screenshots/__init__.py,sha256=zxftbuMPvaI1fY9uKiTcaV9NboNlExGzqznr8DJKH04,755
+selenium_screenshots/additional.py,sha256=vt62sDavRvcFhjLLmNKohMgf2vRbIDdATRfvs93nJ1A,819
+selenium_screenshots/class_screenshots.py,sha256=fOTocQi3j0eV0Dgw_ASZuHYtjBnWMlG5ZVIZb298wU4,10942
+selenium_screenshots/exceptions.py,sha256=T6oZi8QiIz0zXKpjsBq3BAuvKDyO8t6BVkmOye02Dk4,157
+selenium_screenshots/func_screenshot.py,sha256=cvENLW2nFM40pehXVAR44joLzjJLByRBlGveSl55fTw,1021
+selenium_screenshots-0.1.3.dist-info/LICENSE.txt,sha256=a8MTW3v1xhtFrLD0_37pb2j89NzH1NRidGc6U-IFdx0,1097
+selenium_screenshots-0.1.3.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+selenium_screenshots-0.1.3.dist-info/METADATA,sha256=6EFiNFVYwypLcXd-o7bf-sCHEaSHdMxKxewxxvzmuCY,8318
+selenium_screenshots-0.1.3.dist-info/RECORD,,
