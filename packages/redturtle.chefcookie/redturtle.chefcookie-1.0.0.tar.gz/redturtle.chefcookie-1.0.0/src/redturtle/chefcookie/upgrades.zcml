@@ -1,0 +1,27 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    >
+
+  <genericsetup:upgradeSteps
+      profile="redturtle.chefcookie:default"
+      source="1000"
+      destination="1001"
+      >
+    <genericsetup:upgradeStep
+        title="Update registry to add field to handle anchor transformation"
+        handler=".upgrades.update_registry"
+        />
+  </genericsetup:upgradeSteps>
+  <genericsetup:upgradeSteps
+      profile="redturtle.chefcookie:default"
+      source="1001"
+      destination="1100"
+      >
+    <genericsetup:upgradeStep
+        title="Add new fields, move analytics and functional label into tech_cookies_specific_labels"
+        handler=".upgrades.to_1100"
+        />
+  </genericsetup:upgradeSteps>
+
+</configure>

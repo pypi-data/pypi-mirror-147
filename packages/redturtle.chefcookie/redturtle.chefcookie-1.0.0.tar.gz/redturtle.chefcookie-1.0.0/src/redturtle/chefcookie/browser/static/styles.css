@@ -1,0 +1,311 @@
+html.chefcookie--fade body:after,
+html.chefcookie--blur body:after {
+  z-index: 0;
+  width: 0px;
+  height: 0px;
+}
+
+#cc-banner .close {
+  position: absolute;
+  right: 32px;
+  top: 32px;
+  width: 32px;
+  height: 32px;
+  opacity: 0.3;
+}
+#cc-banner .close:hover {
+  opacity: 1;
+}
+#cc-banner .close:before,
+#cc-banner .close:after {
+  position: absolute;
+  left: 15px;
+  content: " ";
+  height: 33px;
+  width: 2px;
+  background-color: #333;
+}
+#cc-banner .close:before {
+  transform: rotate(45deg);
+}
+#cc-banner .close:after {
+  transform: rotate(-45deg);
+}
+#cc-banner .chefcookie--bottom .chefcookie__box {
+  background-color: #505050;
+}
+#cc-banner .chefcookie--noscroll body {
+  position: unset;
+  width: auto;
+  overflow: unset;
+}
+#cc-banner .chefcookie--blur body:after {
+  backdrop-filter: unset;
+  background-color: unset;
+}
+#cc-banner .chefcookie__button--accept {
+  border-color: unset;
+  color: inherit !important;
+}
+
+#cc-banner .chefcookie__group .chefcookie__group_wrapper {
+  display: flex;
+  position: relative;
+}
+
+#cc-banner
+  .chefcookie__group
+  .chefcookie__group_wrapper
+  .chefcookie__group-label {
+  width: auto;
+  flex: 1 1 50%;
+  position: relative;
+}
+#cc-banner
+  .chefcookie__group
+  .chefcookie__group_wrapper
+  .chefcookie__group-label
+  .chefcookie__group-label-text {
+  font-size: 1.8rem;
+  display: inline-block;
+}
+
+#cc-banner
+  .chefcookie__group
+  .chefcookie__group_wrapper
+  .chefcookie__group-description {
+  display: none;
+  position: absolute;
+  left: 20px;
+  width: 300px;
+  background-color: #fff;
+  border: 1px solid grey;
+  padding: 1.5rem;
+  z-index: 1;
+}
+
+#cc-banner .show-info {
+  position: relative;
+  background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+PHN2ZyBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciICB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiPiAgICA8cGF0aCBkPSJNIDEyIDIgQyA2LjQ4ODk5NzEgMiAyIDYuNDg4OTk3MSAyIDEyIEMgMiAxNy41MTEwMDMgNi40ODg5OTcxIDIyIDEyIDIyIEMgMTcuNTExMDAzIDIyIDIyIDE3LjUxMTAwMyAyMiAxMiBDIDIyIDYuNDg4OTk3MSAxNy41MTEwMDMgMiAxMiAyIHogTSAxMiA0IEMgMTYuNDMwMTIzIDQgMjAgNy41Njk4Nzc0IDIwIDEyIEMgMjAgMTYuNDMwMTIzIDE2LjQzMDEyMyAyMCAxMiAyMCBDIDcuNTY5ODc3NCAyMCA0IDE2LjQzMDEyMyA0IDEyIEMgNCA3LjU2OTg3NzQgNy41Njk4Nzc0IDQgMTIgNCB6IE0gMTEgNyBMIDExIDkgTCAxMyA5IEwgMTMgNyBMIDExIDcgeiBNIDExIDExIEwgMTEgMTcgTCAxMyAxNyBMIDEzIDExIEwgMTEgMTEgeiIvPjwvc3ZnPg==");
+  width: 16px;
+  height: 16px;
+  background-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+#cc-banner .show-info:hover .chefcookie__group-description,
+#cc-banner .show-info:focus .chefcookie__group-description {
+  display: block;
+}
+
+#cc-banner ul.chefcookie__scripts {
+  display: flex;
+  margin-top: 1rem;
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+  flex-wrap: wrap;
+}
+#cc-banner ul.chefcookie__scripts li.chefcookie__script {
+  flex: 0 1 33.333%;
+}
+#cc-banner ul.chefcookie__scripts li.chefcookie__script:first-child {
+  margin-top: 0;
+}
+
+#cc-banner
+  ul.chefcookie__scripts
+  li.chefcookie__script
+  .chefcookie__script_wrapper {
+  background-color: #ccc;
+  padding: 1rem;
+  margin: 0.5rem;
+}
+
+#cc-banner .chefcookie__script::marker {
+  content: none;
+}
+#cc-banner
+  .chefcookie__group-checkbox:focus
+  ~ .chefcookie__group-checkbox-icon {
+  box-shadow: 0px 0px 6px 3px #6a6a6a;
+}
+
+#cc-banner
+  .chefcookie__script-checkbox:focus
+  ~ .chefcookie__script-checkbox-icon {
+  box-shadow: 0px 0px 6px 3px #fff;
+}
+#cc-banner
+  .chefcookie__group.chefcookie__group--disabled
+  .chefcookie__group-checkbox[data-status="2"]
+  ~ .chefcookie__group-checkbox-icon {
+  background-color: #02c102;
+}
+#cc-banner
+  .chefcookie__group.chefcookie__group--disabled
+  .chefcookie__group-checkbox[data-status="2"]
+  ~ .chefcookie__group-checkbox-icon:after {
+  background-color: #ccc;
+}
+#cc-banner
+  .chefcookie__group.chefcookie__group--disabled
+  ul.chefcookie__scripts
+  .chefcookie__script-checkbox-icon {
+  background-color: #02c102;
+}
+#cc-banner
+  .chefcookie__group
+  .chefcookie__group-checkbox[data-status="0"]
+  ~ .chefcookie__group-checkbox-icon {
+  background-color: #ff0000;
+}
+#cc-banner
+  .chefcookie__group
+  .chefcookie__group-checkbox[data-status="1"]
+  ~ .chefcookie__group-checkbox-icon {
+  background-color: #d3d3d3;
+}
+#cc-banner
+  .chefcookie__group
+  .chefcookie__group-checkbox[data-status="2"]
+  ~ .chefcookie__group-checkbox-icon {
+  background-color: #02c102;
+}
+#cc-banner
+  .chefcookie__group
+  .chefcookie__group-checkbox[data-status="0"]
+  ~ .chefcookie__group-checkbox-icon:after {
+  background-color: #eee;
+}
+#cc-banner
+  .chefcookie__group
+  .chefcookie__group-checkbox[data-status="1"]
+  ~ .chefcookie__group-checkbox-icon:after {
+  background-color: #eee;
+}
+#cc-banner
+  .chefcookie__group
+  .chefcookie__group-checkbox[data-status="2"]
+  ~ .chefcookie__group-checkbox-icon:after {
+  background-color: #eee;
+}
+#cc-banner
+  .chefcookie__group.chefcookie__group
+  ul.chefcookie__scripts
+  .chefcookie__script-label
+  .chefcookie__script-checkbox-icon:after {
+  background-color: #eee;
+}
+#cc-banner
+  .chefcookie__group.chefcookie__group--disabled
+  ul.chefcookie__scripts
+  .chefcookie__script-label
+  .chefcookie__script-checkbox-icon:after {
+  background-color: #ccc;
+}
+#cc-banner
+  .chefcookie__group.chefcookie__group
+  ul.chefcookie__scripts
+  .chefcookie__script-checkbox-icon {
+  background-color: #ff0000;
+}
+#cc-banner
+  .chefcookie__group.chefcookie__group
+  ul.chefcookie__scripts
+  input:checked
+  ~ .chefcookie__script-checkbox-icon {
+  background-color: #02c102;
+}
+
+#cc-banner .chefcookie__box .chefcookie__message a:focus {
+  color: #000;
+  font-weight: bold;
+}
+
+#cc-banner
+  .chefcookie__group
+  label
+  input.chefcookie__group-checkbox[disabled][type="checkbox"],
+#cc-banner
+  .chefcookie__group
+  label
+  input.chefcookie__script-checkbox[disabled][type="checkbox"] {
+  display: none;
+}
+
+#cc-banner .chefcookie__buttons a.context {
+  color: #fff;
+}
+#cc-banner .chefcookie__buttons a.chefcookie__button:hover,
+.chefcookie__buttons a.chefcookie__button:focus {
+  opacity: 1;
+}
+#cc-banner .chefcookie__buttons a.chefcookie__button:not(.context):hover,
+.chefcookie__buttons a.chefcookie__button:not(.context):focus {
+  background-color: #cccccc;
+}
+
+#cc-banner .chefcookie__settings-container {
+  overflow: visible;
+}
+
+#cc-banner .chefcookie__box .chefcookie__settings-container {
+  display: none;
+  height: auto;
+}
+#cc-banner
+  .chefcookie__box
+  .chefcookie__settings-container.chefcookie__settings-container--visible {
+  display: block;
+}
+
+#cc-banner
+  .chefcookie__groups
+  .chefcookie__script-checkbox
+  ~ .chefcookie__script-checkbox-icon:before,
+#cc-banner
+  .chefcookie__groups
+  .chefcookie__group-checkbox
+  ~ .chefcookie__group-checkbox-icon:before {
+  width: 0;
+  content: "";
+}
+
+a#cookie-settings-open {
+  position: fixed;
+  bottom: calc(50% - 17.5px);
+  right: 0;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  width: 35px;
+  height: 35px;
+  text-decoration: none;
+  transition: all 0.3s linear;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a#cookie-settings-open svg {
+  color: #000;
+  margin: 0;
+  font-size: 10px;
+  transition: all 0.3s ease;
+  width: 20px;
+  height: 20px;
+}
+
+@media screen and (max-width: 840px) {
+  .close {
+    right: 10px;
+    top: 10px;
+  }
+
+  #cc-banner ul.chefcookie__scripts li.chefcookie__script {
+    flex: 0 1 50%;
+  }
+}
