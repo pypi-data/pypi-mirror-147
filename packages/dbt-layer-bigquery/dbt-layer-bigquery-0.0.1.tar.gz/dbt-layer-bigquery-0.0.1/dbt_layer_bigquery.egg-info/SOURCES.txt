@@ -1,0 +1,7 @@
+README.md
+setup.py
+dbt_layer_bigquery.egg-info/PKG-INFO
+dbt_layer_bigquery.egg-info/SOURCES.txt
+dbt_layer_bigquery.egg-info/dependency_links.txt
+dbt_layer_bigquery.egg-info/top_level.txt
+layer/__init__.py
