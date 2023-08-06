@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: think-agent-01
+Version: 0.0.5
+Summary: check for different services    e.g: Redis, SSL sertificate, Sites, Elasticsearch,Database
+Home-page: UNKNOWN
+Author-email: info@thinkland.uz
+License: MIT
+Keywords: think_agent_01
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENCE.txt
+
+think_dashboard_agent
+
+Change Log
+==========
+
+0.0.5 (22/04/2022)
+-------------------
+- First Release
+
+
