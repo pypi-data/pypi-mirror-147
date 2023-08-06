@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/elias/__init__.py
+src/elias/config.py
+src/elias.egg-info/PKG-INFO
+src/elias.egg-info/SOURCES.txt
+src/elias.egg-info/dependency_links.txt
+src/elias.egg-info/requires.txt
+src/elias.egg-info/top_level.txt
