@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "mygalaxy"
+version = "0.1.2"
+description = "A small galaxy to learn poetry"
+authors = ["Gloria Macia <g.macia-munoz@lse.ac.uk>"]
+readme = "README.md"  
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.11"
+scipy = "^1.8.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
