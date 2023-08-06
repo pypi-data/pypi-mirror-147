@@ -1,0 +1,10 @@
+saturnscrape/__init__.py,sha256=coRjFedIShMyEm0NK81Hk4JAn1pEN2USyibYBYlb7ls,66
+saturnscrape/__main__.py,sha256=5j93rAkiX-dvsZC_QOUghjWhIuQdbYjidbcHz3tXfJ0,7023
+saturnscrape/client.py,sha256=7Wp70s4Y5nGagC4D5hu71NRGEi8yYcgSNUqRh_PHMPA,7992
+saturnscrape/types.py,sha256=9Q0xGtvGRz9q0CJfJXY7d3md4jChqaiTakb4P5n-zJw,35741
+saturnscrape/utils.py,sha256=wnuwFYqp3Ls81bPGzhnQWLgC_vNwkVaFJckTZwtjo2Y,5514
+saturnscrape-1.1.0.dist-info/entry_points.txt,sha256=T-GqqSIfYMslPgz6fJz4jD6LuVD5c6ogHWCYdoBv2wE,59
+saturnscrape-1.1.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+saturnscrape-1.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+saturnscrape-1.1.0.dist-info/METADATA,sha256=PlhuyMyHCURI32GAuUE12i6cgmUwBSa9bNxZAYm-H0g,1507
+saturnscrape-1.1.0.dist-info/RECORD,,
