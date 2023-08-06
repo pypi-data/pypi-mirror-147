@@ -1,0 +1,17 @@
+pydicom>=2.2.0
+
+[apps]
+sqlalchemy
+
+[docs]
+sphinx
+sphinx_rtd_theme
+sphinx-copybutton
+sphinx-issues
+sphinxcontrib-napoleon
+numpydoc
+
+[tests]
+pytest
+pyfakefs
+sqlalchemy
