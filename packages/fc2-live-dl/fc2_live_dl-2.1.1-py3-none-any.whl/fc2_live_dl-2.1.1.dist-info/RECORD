@@ -1,0 +1,14 @@
+fc2_live_dl/FC2LiveDL.py,sha256=A9hTlN9Fq8cP5B6x3g6MHJAQooJQlGxbaDo2qaib1IY,14692
+fc2_live_dl/__init__.py,sha256=x2pp-rn--P-sn9gTmcuRhEZq0i_AXubgP8WXLL9_jIM,6125
+fc2_live_dl/__main__.py,sha256=5BjNuyet8AY-POwoF5rGt722rHQ7tJ0Vf0UFUfzzi-I,58
+fc2_live_dl/autofc2.py,sha256=AvEIlwNGuUIwzZaF2fCn9DydmaD5QHo2eUelE_cL2Yo,4160
+fc2_live_dl/fc2.py,sha256=UgWcqK2VMECcID6OgosK0VkjBJCIv5Uvnaa-C3SYk9Y,10287
+fc2_live_dl/ffmpeg.py,sha256=dZWGcKPy6yMCtfV0c_F5z8jTC-SUJ8sfQ08GvTCEgRQ,2248
+fc2_live_dl/hls.py,sha256=hmKNcpDT0hALvBMnasV081VgIz-ZNj1O2cm8qSN3lCI,5447
+fc2_live_dl/util.py,sha256=Z3hS_4VnbaKVpi19uDGKY7zMWg1_sBpy50Ug6nnnTig,4357
+fc2_live_dl-2.1.1.dist-info/LICENSE,sha256=J0GOQkHMHpeCorUgdOjrdvm9PU5fJ7Pc3ar4giWIz0U,1064
+fc2_live_dl-2.1.1.dist-info/METADATA,sha256=H078J4dyGpk0cHB6RylpLoUODHjo-6rF_XDH7oTnfNU,10696
+fc2_live_dl-2.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+fc2_live_dl-2.1.1.dist-info/entry_points.txt,sha256=Z8K2MWKslXNPjZxxXaRGpOywBhNbBEHdECn3_82RQLk,84
+fc2_live_dl-2.1.1.dist-info/top_level.txt,sha256=7qdx8v3yEj1e9n5T07AqAmcsDT6RPlAW_KUjxrXnk-I,12
+fc2_live_dl-2.1.1.dist-info/RECORD,,
