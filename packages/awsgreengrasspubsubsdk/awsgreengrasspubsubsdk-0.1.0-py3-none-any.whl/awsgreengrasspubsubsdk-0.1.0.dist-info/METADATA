@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: awsgreengrasspubsubsdk
+Version: 0.1.0
+Summary: AWS Greengrass IoT Pubsub SDK for Python
+Home-page: https://github.com/aws-samples/aws-greengrass-pubsub-sdk-for-python
+Author: Dean Colcott
+Author-email: dean.colcott@gmail.com
+License: License :: OSI Approved :: MIT License
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: awsiotsdk
+
+## My Project
+
+TODO: Fill this README out!
+
+Be sure to:
+
+* Change the title in this README
+* Edit your repository description on GitHub
+
+## Security
+
+See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
+
+## License
+
+This library is licensed under the MIT-0 License. See the LICENSE file.
+
+
+
