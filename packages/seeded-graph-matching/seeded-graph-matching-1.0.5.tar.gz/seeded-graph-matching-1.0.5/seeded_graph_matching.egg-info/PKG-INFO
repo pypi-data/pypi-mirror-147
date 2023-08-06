@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: seeded-graph-matching
+Version: 1.0.5
+Summary: Python port of seeded graph matching (SGM)
+Home-page: https://gitlab.com/datadrivendiscovery/contrib/sgm
+Author: Ben Johnson and Fred Battista
+Maintainer: remi.rampin@nyu.edu
+License: MIT
+Description: ### sgm
+        
+        Python port of [seeded graph matching (SGM)](https://arxiv.org/pdf/1209.0367.pdf)
+        
+        #### Example Usage
+        
+        Simple example:
+        ```
+        cd examples/synthetic
+        python main.py
+        ```
+        
+        More complex example:
+        ```
+        cd examples/kasios/
+        python kasios.py --num-nodes 1000 --num-seeds 32 --backend scipy.classic.jv
+        ```
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
