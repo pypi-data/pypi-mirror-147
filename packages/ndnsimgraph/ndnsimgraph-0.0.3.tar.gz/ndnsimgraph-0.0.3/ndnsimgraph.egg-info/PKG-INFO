@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: ndnsimgraph
+Version: 0.0.3
+Summary: A small graph package used to draw image for ndnsim metrics
+Home-page: https://github.com/SunnyQjm/ndnsim-graph
+Author: SunnyQjm
+Author-email: qjm253@pku.edu.cn
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ndnsim-graph
+
+A small graph package used to draw image for ndnsim metrics
+
