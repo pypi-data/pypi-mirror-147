@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "manver"
+version = "1.0.0"
+description = "Bump your semantic version of any software using regex"
+authors = ["Ivan Gonzalez <scratchmex@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/scratchmex/all-relative"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+tomli = "^2.0.1"
+click = "^8.0.3"
+pydantic = "^1.8.2"
+semantic-version = "^2.9.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^22.3.0"
+pre-commit = "^2.15.0"
+isort = "^5.9.3"
+pytest-mock = "^3.6.1"
+flake8 = "^4.0.1"
+
+[tool.poetry.scripts]
+"manver" = "manver.cli:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"
