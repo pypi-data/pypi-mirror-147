@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: SearchMusic
+Version: 0.0.1
+Summary: Library to search and download your favorite songs in the best quality :)
+Home-page: https://github.com/DrSudoSaeed
+Author: SudoSaeed
+Author-email: DrSudoSaeed@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/DrSudoSaeed/
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Example Package
+
+[GetHub Project](https://github.com/DrSudoSaeed/)
+
+Library to search and download your favorite songs in the best quality :)
+
+This library is always updated. Wait for new versions soon!
+
+To use, install the library according to the instructions!
+
+**Follow the steps below to use:**
+
+```
+
+from SearchMusic import *
+
+search("آرون+افشار")  # Replace the music name with fast
+
+download("https://music-fa.com/download-song/50970/")
+
+# To download, just copy one of the links it gave you when searching for the song and paste it here
+
+```
+
