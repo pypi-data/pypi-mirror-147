@@ -1,0 +1,10 @@
+retail_scraper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+retail_scraper/spiders/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+retail_scraper/spiders/sephora.py,sha256=1fpMUQ8-JGsJIQNWDxi1lFfJ7QX10ChzM2DGkw57um4,2854
+retail_scraper/spiders/ulta.py,sha256=JwXG2UwZ9HBwwbJORnjWO2-ea07cEIkZSC1xiBKQtoE,4435
+retail_scraper/spiders/utils.py,sha256=UfZCk3N5_4G0vI4towo2OAXvQtfqf5ZfBCazO0v3DmE,1456
+retail_scraper-1.1.dist-info/LICENSE,sha256=zGNUUQ86OXbl3IG_Ad3jyaInqKARTBFPYNwScAjMJjY,1067
+retail_scraper-1.1.dist-info/METADATA,sha256=sW3mD4Gd_NdEW9NG4p2xW-Cer_l4C7BEUmO6TjJg77A,2551
+retail_scraper-1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+retail_scraper-1.1.dist-info/top_level.txt,sha256=HTBnxoe5G8POW6hU4PGcAB5ae6-SJoty3MIQRehMTEc,15
+retail_scraper-1.1.dist-info/RECORD,,
