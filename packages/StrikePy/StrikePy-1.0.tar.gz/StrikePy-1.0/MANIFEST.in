@@ -1,0 +1,3 @@
+include StrikePy/results/*.txt
+include StrikePy/doc/*.pdf
+
