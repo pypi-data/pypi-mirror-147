@@ -1,0 +1,10 @@
+frenchmaid/__init__.py,sha256=ws6natDse9ZmHyRzPrIs3M8J6AhhITzN7oUUW51gXCk,226
+frenchmaid/__main__.py,sha256=N0-KR9DzuR9K5wX86cmYx9rFUa2OWAtT6h8Dv2MM2CI,136
+frenchmaid/cli.py,sha256=sAqChzNjucXuhcQ_xEAFpIxjncOmEDAtt0wJPSpxgcs,662
+frenchmaid/delcache.py,sha256=_rLRDExoiTY67V84OpiZLvrHgLThAOC0QbxgjIpAHho,2411
+frenchmaid-0.1.0.dist-info/LICENSE,sha256=_8rgnMCl8oMGPW9wtCb4kWxnmJf7ncC9Zm43HPHQs8c,1092
+frenchmaid-0.1.0.dist-info/METADATA,sha256=iuOjhdiUTmSMNMllxI-dD16oJ12GaQQt1dVI_xrDxLA,3196
+frenchmaid-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+frenchmaid-0.1.0.dist-info/entry_points.txt,sha256=4Nqr4jjOdFbB56Ji9UfynaQ3JsIZsvt2n146V5fcsoc,56
+frenchmaid-0.1.0.dist-info/top_level.txt,sha256=Aw0jSMFam0lOROa4bd-K-nC9d_syiqRhDAoSH8eaVI8,11
+frenchmaid-0.1.0.dist-info/RECORD,,
