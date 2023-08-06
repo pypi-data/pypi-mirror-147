@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+environment.yml
+setup.cfg
+setup.py
+bin/trilogy-cl
+trilogy/__init__.py
+trilogy/trilogy.py
+trilogy.egg-info/PKG-INFO
+trilogy.egg-info/SOURCES.txt
+trilogy.egg-info/dependency_links.txt
+trilogy.egg-info/requires.txt
+trilogy.egg-info/top_level.txt
