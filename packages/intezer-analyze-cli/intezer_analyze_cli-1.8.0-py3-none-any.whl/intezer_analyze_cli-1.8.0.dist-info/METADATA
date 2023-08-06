@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: intezer-analyze-cli
+Version: 1.8.0
+Summary: Client library for Intezer cloud service
+Home-page: UNKNOWN
+Author: Intezer Labs ltd.
+License: Apache License v2
+Keywords: intezer
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5
+License-File: LICENSE
+Requires-Dist: click (==7.1.2)
+Requires-Dist: intezer-sdk (<2,>=1.1.1)
+
+UNKNOWN
+
