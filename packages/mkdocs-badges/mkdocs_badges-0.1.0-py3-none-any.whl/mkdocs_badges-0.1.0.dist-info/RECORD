@@ -1,0 +1,14 @@
+mkdocs_badges/__init__.py,sha256=4C_P5w2WaiJuKMkPhgn0cnzHaurlm11mfQS-_i2DZs8,394
+mkdocs_badges/install_badge.py,sha256=8GYjHnrAcYwtlT969sN7ijQ6WCpM0y4F_vDmOXmIRVY,2703
+mkdocs_badges/normal_badge.py,sha256=idUm4m31EVQiJ89OQjIbmtP3buU0nOvtUKhniLWFsRw,508
+mkdocs_badges/plugin.py,sha256=WyJXemXfkYRscCtsc-yg26eMTpObZjVy-D2uz_lbml4,2560
+mkdocs_badges/utils.py,sha256=o7vPRijJLsebJSJi8PvU3a7IpEK2p8e9yZL5mUZur9Y,827
+mkdocs_badges/assets/__init__.py,sha256=DI7kIU_I4MMstCyg374wb2UFZ476yyag1Lr44enl_kE,950
+mkdocs_badges/assets/badge.css,sha256=z5M6IqQ7zMXiJZNZ-z9wnJ8CrxkTEWSHQGB-lFPa6Zc,688
+mkdocs_badges/assets/badge.js,sha256=4mTyJtlks0-zuDYLPAiMw3X8XbNaQou5Nv1A4roH54Q,2528
+mkdocs_badges-0.1.0.dist-info/LICENSE,sha256=bbSVKh1ngBh7-Mh_Xfk69Flx_5Q9JnvsQArHe_AXhok,1063
+mkdocs_badges-0.1.0.dist-info/METADATA,sha256=w8azcA9dB1bt96U1h1Vd0eepEg36sWLBvcFqor1oH7A,3465
+mkdocs_badges-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mkdocs_badges-0.1.0.dist-info/entry_points.txt,sha256=j1aKq5IgDjr6PiUXbFbsYQfivIrflZpraZP4s6ekw2Y,53
+mkdocs_badges-0.1.0.dist-info/top_level.txt,sha256=GL3yDsTms5S8QDUiKyUTD6ctPBK0uL07kU_vb7nyf_E,14
+mkdocs_badges-0.1.0.dist-info/RECORD,,
