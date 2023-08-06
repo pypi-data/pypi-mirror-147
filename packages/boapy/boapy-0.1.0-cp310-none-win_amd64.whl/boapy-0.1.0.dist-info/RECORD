@@ -1,0 +1,8 @@
+boapy-0.1.0.dist-info/METADATA,sha256=2dt6Ad1nUHEjwi2ySyWVTovj0hmWnjcv9byZm_cTsEI,626
+boapy-0.1.0.dist-info/WHEEL,sha256=3FrWgqA6Oq2XdHAgZ1OMM1FGsI5xidcUT-zJ0XLpx1g,97
+boapy-0.1.0.dist-info/license_files/LICENSE,sha256=_tSWQCpvvo_GFUsqBJuQwDhvzJrNq9DsQJCpf7iEKXo,1087
+boa/__init__.py,sha256=WRA9TlJv7ZjiqrWGO67_DtmkvA08xefMxRNkEcraF1c,42
+boa/__init__.pyi,sha256=mnoidRDatEGHi9d7EpqsVdmG3xLaDLmLbiTwVqI2n7g,191
+boa/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+boa/boa.cp310-win_amd64.pyd,sha256=CRkJYFFfmtJwrKKeVjlhUVIF-JuF9BsFiTtvRD5fZow,7316480
+boapy-0.1.0.dist-info/RECORD,,
