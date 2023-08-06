@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: chat-proj
+Version: 0.6
+Summary: This is a console chat project
+Home-page: UNKNOWN
+Author: @emonakov
+Author-email: kostya-emonak2002@mail.ru
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9

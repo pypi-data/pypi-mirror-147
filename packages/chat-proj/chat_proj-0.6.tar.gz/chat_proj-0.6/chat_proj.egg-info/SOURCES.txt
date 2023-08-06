@@ -1,0 +1,8 @@
+README.txt
+setup.py
+chat_proj/client.py
+chat_proj/server.py
+chat_proj.egg-info/PKG-INFO
+chat_proj.egg-info/SOURCES.txt
+chat_proj.egg-info/dependency_links.txt
+chat_proj.egg-info/top_level.txt
