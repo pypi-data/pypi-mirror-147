@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+ZiBasicCalculator/_init_.py
+ZiBasiccalculator.egg-info/PKG-INFO
+ZiBasiccalculator.egg-info/SOURCES.txt
+ZiBasiccalculator.egg-info/dependency_links.txt
+ZiBasiccalculator.egg-info/top_level.txt
