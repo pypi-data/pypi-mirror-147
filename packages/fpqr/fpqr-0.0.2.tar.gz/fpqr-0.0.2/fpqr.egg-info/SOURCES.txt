@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+fpqr/__init__.py
+fpqr/fast_partial_quantile_regression.py
+fpqr/quantile_covariances.py
+fpqr.egg-info/PKG-INFO
+fpqr.egg-info/SOURCES.txt
+fpqr.egg-info/dependency_links.txt
+fpqr.egg-info/requires.txt
+fpqr.egg-info/top_level.txt
+fpqr.egg-info/zip-safe
