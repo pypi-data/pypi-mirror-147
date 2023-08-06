@@ -1,0 +1,9 @@
+LICENSE
+pyproject.toml
+setup.cfg
+osuhw/__init__.py
+osuhw/hw.py
+osuhw.egg-info/PKG-INFO
+osuhw.egg-info/SOURCES.txt
+osuhw.egg-info/dependency_links.txt
+osuhw.egg-info/top_level.txt
