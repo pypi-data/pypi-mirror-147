@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+drf_translated/drf_translated.egg-info/PKG-INFO
+drf_translated/drf_translated.egg-info/SOURCES.txt
+drf_translated/drf_translated.egg-info/dependency_links.txt
+drf_translated/drf_translated.egg-info/requires.txt
+drf_translated/drf_translated.egg-info/top_level.txt

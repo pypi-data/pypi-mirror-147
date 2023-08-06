@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: drf-translated
+Version: 0.0.1
+Summary: DRF modeltranslation serializer
+Home-page: https://notabug.org/kapustlo/drf-translated
+Author: Kapustlo
+License: UNKNOWN
+Keywords: python,python3,modeltranslation,drf,serializer
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# drf-translated 
+
+django-modeltranslation DRF serializers
+
+## Features
+
+- Query/context translation support
+- Highly customizable
+
+## Installation 
+```bash
+pip install drf-translated
+```
+
+## Usage
+
+Create a drf_translated.serializers.TranslatedModelSerializer serializer for your registered translation model:
+
+```python
+from drf_translated.serializers import TranslatedModelSerializer
+
+class MovieSerializer(TranslatedModelSerializer):
+  class Meta:
+    model = Movie
+
+    fields = '__all__'
+
+```
+
+| Setting | Default | Description |
+| ------ | ------ | ------ |
+| DRF_TRANSLATED_QUERY_PARAM | language | Query language param to convert translated values from dict to str |
+| DRF_TRANSLATED_LOCALE_CONTEXT | locale | Serializer context key for getting translation language |
+
+
