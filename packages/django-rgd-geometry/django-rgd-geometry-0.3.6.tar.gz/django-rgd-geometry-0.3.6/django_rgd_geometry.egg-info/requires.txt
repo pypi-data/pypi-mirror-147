@@ -1,0 +1,5 @@
+django-rgd==0.3.6
+
+[worker]
+shapely
+fiona
