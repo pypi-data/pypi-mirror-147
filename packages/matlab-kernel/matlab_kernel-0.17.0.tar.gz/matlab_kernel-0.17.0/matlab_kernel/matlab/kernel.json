@@ -1,0 +1,1 @@
+{"argv": ["/tmp/conda_envs/258853ccd52b78b326300497/bin/python", "-m", "matlab_kernel", "-f", "{connection_file}"], "display_name": "Matlab", "language": "matlab", "mimetype": "text/x-octave", "name": "matlab"}
