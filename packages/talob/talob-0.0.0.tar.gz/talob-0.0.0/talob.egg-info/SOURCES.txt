@@ -1,0 +1,6 @@
+README.md
+setup.py
+talob.egg-info/PKG-INFO
+talob.egg-info/SOURCES.txt
+talob.egg-info/dependency_links.txt
+talob.egg-info/top_level.txt
