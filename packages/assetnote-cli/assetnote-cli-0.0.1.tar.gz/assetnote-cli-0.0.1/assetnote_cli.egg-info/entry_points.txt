@@ -1,0 +1,4 @@
+
+    [console_scripts]
+    assetnote=assetnote_cli.cli:cli
+    

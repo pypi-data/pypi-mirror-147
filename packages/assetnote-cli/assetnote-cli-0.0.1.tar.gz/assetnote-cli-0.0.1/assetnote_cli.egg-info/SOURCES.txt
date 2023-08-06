@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+assetnote_cli/__init__.py
+assetnote_cli/cli.py
+assetnote_cli/version.py
+assetnote_cli.egg-info/PKG-INFO
+assetnote_cli.egg-info/SOURCES.txt
+assetnote_cli.egg-info/dependency_links.txt
+assetnote_cli.egg-info/entry_points.txt
+assetnote_cli.egg-info/requires.txt
+assetnote_cli.egg-info/top_level.txt
