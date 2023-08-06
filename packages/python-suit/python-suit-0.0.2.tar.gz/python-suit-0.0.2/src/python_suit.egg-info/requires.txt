@@ -1,0 +1,8 @@
+virtualenv
+click
+rich
+tomli
+python-box~=6.0
+typing-extensions
+pydantic
+click-default-group
