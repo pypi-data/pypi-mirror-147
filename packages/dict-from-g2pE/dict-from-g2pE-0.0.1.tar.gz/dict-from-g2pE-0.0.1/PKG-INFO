@@ -1,0 +1,92 @@
+Metadata-Version: 2.1
+Name: dict-from-g2pE
+Version: 0.0.1
+Summary: CLI to create a pronunciation dictionary by predicting English ARPAbet phonemes using seq2seq model from g2pE and the possibility of ignoring punctuation and splitting on hyphens before prediction.
+Home-page: https://github.com/stefantaubert/dict-from-g2p
+Author: Stefan Taubert
+Author-email: stefan.taubert@posteo.me
+Maintainer: Stefan Taubert
+Maintainer-email: stefan.taubert@posteo.me
+License: MIT
+Project-URL: Homepage, https://github.com/stefantaubert/dict-from-g2p
+Project-URL: Issues, https://github.com/stefantaubert/dict-from-g2p/issues
+Keywords: ARPAbet,Pronunciation,Dictionary,g2pE,Language,Linguistics
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Operating System :: OS Independent
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: BSD
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Unix
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# dict-from-g2pE
+
+[![PyPI](https://img.shields.io/pypi/v/dict-from-g2pE.svg)](https://pypi.python.org/pypi/dict-from-g2pE)
+[![PyPI](https://img.shields.io/pypi/pyversions/dict-from-g2pE.svg)](https://pypi.python.org/pypi/dict-from-g2pE)
+[![MIT](https://img.shields.io/github/license/stefantaubert/dict-from-g2p.svg)](LICENSE)
+
+CLI to create a pronunciation dictionary by predicting English ARPAbet phonemes using seq2seq model from [g2pE](https://www.github.com/kyubyong/g2p) and the possibility of ignoring punctuation and splitting on hyphens before prediction.
+
+## Installation
+
+```sh
+pip install dict-from-g2pE --user
+```
+
+## Usage
+
+```sh
+dict-from-g2pE-cli
+```
+
+### Example
+
+```sh
+# Create example vocabulary
+cat > /tmp/vocabulary.txt << EOF
+Test?
+abc,
+"def
+Test-def.
+"xyz?
+"uv-w?
+EOF
+
+# Create dictionary from vocabulary and example dictionary
+dict-from-g2pE-cli \
+  /tmp/vocabulary.txt \
+  /tmp/result.dict \
+  --split-on-hyphen \
+  --n-jobs 4
+
+cat /tmp/result.dict
+# -------
+# Output:
+# -------
+# Test?  T EH1 S T ?
+# abc,  AE1 B K ,
+# "def  " D EH1 F
+# Test-def.  T EH1 S T - D EH1 F .
+# "xyz?  " Z IH1 JH IH0 Z ?
+# "uv-w?  " AH1 V - V IY1 ?
+# -------
+```
+
+## Acknowledgments
+
+[g2pE: A Simple Python Module for English Grapheme To Phoneme Conversion](https://www.github.com/kyubyong/g2p)
+
+

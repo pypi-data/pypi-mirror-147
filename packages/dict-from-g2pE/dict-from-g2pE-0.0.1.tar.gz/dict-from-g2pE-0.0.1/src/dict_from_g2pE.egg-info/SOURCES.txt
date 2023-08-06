@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/dict_from_g2pE/__init__.py
+src/dict_from_g2pE/argparse_helper.py
+src/dict_from_g2pE/cli.py
+src/dict_from_g2pE/main.py
+src/dict_from_g2pE.egg-info/PKG-INFO
+src/dict_from_g2pE.egg-info/SOURCES.txt
+src/dict_from_g2pE.egg-info/dependency_links.txt
+src/dict_from_g2pE.egg-info/entry_points.txt
+src/dict_from_g2pE.egg-info/requires.txt
+src/dict_from_g2pE.egg-info/top_level.txt
