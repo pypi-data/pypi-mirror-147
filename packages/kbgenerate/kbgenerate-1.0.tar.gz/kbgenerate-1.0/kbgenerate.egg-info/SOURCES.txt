@@ -1,0 +1,8 @@
+README.md
+setup.py
+kbgenerate/__init__.py
+kbgenerate/generator.py
+kbgenerate.egg-info/PKG-INFO
+kbgenerate.egg-info/SOURCES.txt
+kbgenerate.egg-info/dependency_links.txt
+kbgenerate.egg-info/top_level.txt
