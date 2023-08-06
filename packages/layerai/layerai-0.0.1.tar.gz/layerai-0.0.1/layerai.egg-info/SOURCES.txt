@@ -1,0 +1,7 @@
+README.md
+setup.py
+layer/__init__.py
+layerai.egg-info/PKG-INFO
+layerai.egg-info/SOURCES.txt
+layerai.egg-info/dependency_links.txt
+layerai.egg-info/top_level.txt
