@@ -1,0 +1,23 @@
+-r requirements.txt
+
+Sphinx==4.5.0; python_version>"3.7"
+bandit==1.7.4
+black==22.3.0
+bump2version==1.0.1
+codecov==2.1.12
+coverage==6.3.2
+darglint==1.8.0
+flake8==4.0.1
+grip==4.6.1
+isort==5.10.1
+mypy==0.942
+pep8-naming==0.12.1
+pytest-aiohttp==1.0.4
+pytest-cov==3.0.0
+pytest-xprocess==0.18.1
+pytest==7.1.1
+sphinx-autodoc-typehints==1.18.1; python_version>"3.7"
+
+setuptools
+twine==4.0.0
+wheel
