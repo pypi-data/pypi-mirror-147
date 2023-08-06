@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: engrproblems
+Version: 1.0
+Summary: 10 Engineering Problem Soultionns
+Home-page: UNKNOWN
+Author: Hopalonghacksaw
+License: UNKNOWN
+Description: # 10EngineeringProblems
+        Programs designed to Solve Engineering Problems
+        To run each program just import the module using
+        `import 10EngrProblems`
+        Then to run each block of code just call *HW* then the number of the problem you are working on. 
+        As seen below this is how you would run HW1()
+        `HW1()`
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
