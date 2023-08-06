@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: readcsvturbo
+Version: 0.0.1
+Summary: Improved method for reading the first/last/specific line from csv into a DataFrame
+Home-page: UNKNOWN
+Author: Donjor
+Author-email: donjordev@gmail.com
+License: UNKNOWN
+Keywords: python,pandas,readcsv,readfirstlinecsv,readlastlinecsv,readspecificlinecsv
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Requires-Dist: pandas
+
+Improved method for reading the first/last/specific line from csv into a DataFrame
+
+
