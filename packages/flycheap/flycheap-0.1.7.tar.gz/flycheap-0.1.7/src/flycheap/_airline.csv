@@ -1,0 +1,949 @@
+iata,icao,name,name_eng,callsign,country
+FG,AFG,阿丽亚娜阿富汗,Ariana Afghan Airlines,ARIANA,Afghanistan
+RQ,KMF,阿富汗卡姆,Kam Air,KAMGAR,Afghanistan
+NR,PIR,帕米尔,Pamir Airways,PAMIR,Afghanistan
+LV,LBC,阿尔巴尼亚,Albanian Airlines,ALBANIAN,Albania
+LZ,LBY,百丽,Belle Air,ALBAN-BELLE,Albania
+AH,DAH,阿尔及利亚,Air Algérie,AIR ALGERIE,Algeria
+SF,DTH,塔西里,Tassili Airlines,TASSILI AIR,Algeria
+K6,KZW,哈利法,Khalifa Airways,KHALIFA AIR,Algeria
+DT,DTA,TAAG安哥拉,TAAG Angola Airlines,DTA,Angola
+8B,GFI,加勒比之星,Caribbean Star Airlines,CARIB STAR,Antigua and Barbuda
+LI,LIA,背风群岛运输,Leeward Islands Air Transport,LIAT,Antigua and Barbuda
+2D,AOG,,Aero VIP,AVIP,Argentina
+AR,ARG,阿根廷,Aerolíneas Argentinas,ARGENTINA,Argentina
+AU,AUT,南极线,Austral Lineas Aereas,AUSTRAL,Argentina
+4M,DSM,,Aero 2000,LAN AR,Argentina
+MJ,LPR,阿根廷私人,Líneas Aéreas Privadas Argentinas,LAPA,Argentina
+D7,RDN,第纳尔,Dinar,AERO DINAR,Argentina
+A4,SWD,南风,Southern Winds Airlines,SOUTHERN WINDS,Argentina
+QN,ARR,亚美尼亚,Air Armenia,AIR ARMENIA,Armenia
+TD,LUR,亚特兰蒂斯欧洲,Atlantis European Airways,,Armenia
+R3,RME,亚美尼亚,Armenian Airlines,ARMENIAN,Armenia
+MV,RML,亚美尼亚国际,Armenian International Airways,,Armenia
+U8,RNV,阿玛维亚,Armavia,ARMAVIA,Armenia
+V5,RYL,皇家阿鲁巴,Royal Aruban Airline,ROYAL ARUBAN,Aruba
+3P,TNM,迪阿纳,Tiara Air,TIARA,Aruba
+AN,AAA,安捷澳大利亚,Ansett Australia,ANSETT,Australia
+VC,AGC,澳大利亚,Air Australia,STRATEGIC,Australia
+TL,ANO,北航,Airnorth,TOPEND,Australia
+HC,ATI,热带服务,Aero-Tropics Air Services,,Australia
+FO,ATM,塔斯马尼亚,Airlines Of Tasmania,AIRTAS,Australia
+NO,AUS,澳洲包机,Aus-Air,,Australia
+AO,AUZ,澳大利亚,Australian Airlines,AUSTRALIAN,Australia
+HJ,AXF,亚洲快运,Asian Express Airlines,FREIGHTEXPRESS,Australia
+CQ,EXL,阳光快运,Sunshine Express Airlines,,Australia
+HN,HVY,重型货运,Heavylift Cargo Airlines,HEAVY CARGO,Australia
+BN,HZA,地平线,Horizon Airlines,,Australia
+JQ,JST,捷星,Jetstar Airways,JETSTAR,Australia
+NC,NJS,国家喷气系统公司,National Jet Systems,NATIONAL JET,Australia
+FY,NWR,西北地区,Northwest Regional Airlines,,Australia
+O7,OZJ,奥兹杰特,Ozjet Airlines,AUSJET,Australia
+OT,PEL,,Aeropelican Air Services,PELICAN,Australia
+QF,QFA,澳洲,Qantas,QANTAS,Australia
+ZL,RXA,区域快递,Regional Express,REX,Australia
+TT,TGG,澳大利亚虎航,Tigerair Australia,TIGGOZ,Australia
+QQ,UTY,联盟,Alliance Airlines,UNITY,Australia
+VA,VOZ,维珍澳大利亚,Virgin Australia,VELOCITY,Australia
+OS,AUA,奥地利,Austrian Airlines,AUSTRIAN,Austria
+B4,BCF,巴赫飞行器,BACH Flugbetriebsges,BACH,Austria
+EC,EJU,易捷欧洲,easyJet Europe,ALPINE,Austria
+3W,EMX,欧洲曼克斯,Euromanx Airways,EUROMANX,Austria
+NG,LDA,劳达,Lauda Air,LAUDA AIR,Austria
+A6,LPV,阿尔卑斯,Air Alps Aviation,ALPAV,Austria
+L3,LTO,LTU奥地利,LTU Austria,BILLA TRANSPORT,Austria
+HG,NLY,尼基,Niki,FLYNIKI,Austria
+L9,TLW,团队,Teamline Air,Teamline,Austria
+VO,TYR,奥地利箭,Austrian Arrows,TYROLEAN,Austria
+2W,WLC,迎宾,Welcome Air,WELCOMEAIR,Austria
+J2,AHY,阿塞拜疆,Azerbaijan Airlines,AZAL,Azerbaijan
+7L,AZG,丝绸之路西部,Silk Way West Airlines,SILK WEST,Azerbaijan
+ZP,AZQ,丝绸之路,Silk Way Airlines,SILK LINE,Azerbaijan
+IK,ITX,伊梅尔,Imair Airlines,IMPROTEX,Azerbaijan
+3T,URN,图兰,Turan Air,TURAN,Azerbaijan
+UP,BHS,巴哈马,Bahamasair,BAHAMAS,Bahamas
+ES,DHX,DHL国际,DHL International,DILMUN,Bahrain
+BG,BBC,孟加拉,Biman Bangladesh Airlines,BANGLADESH,Bangladesh
+B9,BGD,孟加拉国,Air Bangladesh,AIR BANGLA,Bangladesh
+5Z,BML,比斯米拉,Bismillah Airlines,BISMILLAH,Bangladesh
+B2,BRU,白俄罗斯,Belavia Belarusian Airlines,BELARUS AVIA,Belarus
+AL,TXC,跨航出口,Transaviaexport,TRANSEXPORT,Belarus
+SN,BEL,布鲁塞尔,Brussels Airlines,BEELINE,Belgium
+TB,JAF,途易飞比利时,TUI fly Belgium,BEAUTY,Belgium
+XS,SIT,西塔,SITA,,Belgium
+3V,TAY,比利时ASL,ASL Airlines Belgium,QUALITY,Belgium
+HQ,TCW,比利时托马斯库克,Thomas Cook Airlines Belgium,THOMAS COOK,Belgium
+TV,VEX,维珍快递,Virgin Express,VIRGIN EXPRESS,Belgium
+VG,VLM,VLM,VLM Airlines,RUBENS,Belgium
+MW,MYD,玛雅岛,Maya Island Air,MYLAND,Belize
+PM,TOS,热带,Tropic Air,TROPISER,Belize
+WZ,WSF,西非,West African Airlines,,Benin
+KB,DRK,德鲁克,Druk Air,ROYAL BHUTAN,Bhutan
+Z8,AZN,阿马索纳斯,Amaszonas,AMASZONAS,Bolivia
+LB,LLB,劳埃德玻利维亚诺,Lloyd Aéreo Boliviano,LLOYDAEREO,Bolivia
+5L,RSU,,Aerosur,AEROSUR,Bolivia
+RB,SBK,斯普斯卡,Air Srpska,Air Srpska,Bosnia and Herzegovina
+BP,BOT,博茨瓦纳,Air Botswana,BOTSWANA,Botswana
+AD,AZU,Azul巴西,Azul Linhas Aéreas Brasileiras,AZUL,Brazil
+7R,BRB,巴西运输,BRA-Transportes Aereos,BRA-TRANSPAEREOS,Brazil
+G3,GLO,,GOL Linhas Aéreas Inteligentes,GOL,Brazil
+O6,ONE,巴西,Avianca Brazil,OCEANAIR,Brazil
+C7,RLE,,Rico Linhas Aéreas,RICO,Brazil
+JJ,TAM,TAM巴西,TAM Brazilian Airlines,TAM,Brazil
+L1,TTL,总计,Total Linhas Aéreas,TOTAL,Brazil
+M3,TUS,,ABSA - Aerolinhas Brasileiras,ABSA Cargo,Brazil
+J6,VCR,,Cruiser Linhas Aéreas,VOE CRUISER,Brazil
+RG,VRN,VRG林哈斯艾瑞斯,VRG Linhas Aereas,VARIG,Brazil
+VP,VSP,,VASP,VASP,Brazil
+WJ,WEB,,WebJet Linhas Aéreas,WEB-BRASIL,Brazil
+BI,RBA,文莱皇家,Royal Brunei Airlines,BRUNEI,Brunei
+FB,LZB,保加利亚,Bulgaria Air,FLYING BULGARIA,Bulgaria
+VL,VIM,威盛,Air VIA,,Bulgaria
+VM,VOA,维亚焦,Viaggio Air,VIAGGIO,Bulgaria
+F3,FSW,法索,Faso Airways,FASO,Burkina Faso
+2J,VBW,布基纳,Air Burkina,BURKINA,Burkina Faso
+8Y,PBU,布隆迪,Air Burundi,AIR-BURUNDI,Burundi
+E2,KMP,柬埔寨,Kampuchea Airlines,KAMPUCHEA,Cambodia
+U4,PMT,,PMTair,MULTITRADE,Cambodia
+RK,RKH,皇家高棉,Royal Khmer Airlines,KHMER AIR,Cambodia
+FT,SRH,暹粒,Siem Reap Airways,SIEMREAP AIR,Cambodia
+UY,UYC,喀麦隆,Cameroon Airlines,CAM-AIR,Cameroon
+9T,ABS,西南,Transwest Air,ATHABASKA,Canada
+AC,ACA,加拿大,Air Canada,AIR CANADA,Canada
+3H,AIE,因纽特人,Air Inuit,INUIT,Canada
+4N,ANT,北方包机,Air North Charter - Canada,AIR NORTH,Canada
+J4,BFL,布法罗,Buffalo Airways,BUFFALO,Canada
+JV,BLS,,Bearskin Lake Air Service,BEARSKIN,Canada
+MO,CAV,平静,Calm Air,CALM AIR,Canada
+C6,CJA,佳捷,CanJet,CANJET,Canada
+W8,CJT,,Cargojet Airways,CARGOJET,Canada
+W2,CWA,加拿大西部,Canadian Western Airlines,CANADIAN WESTERN,Canada
+MB,EXA,,Execair Aviation,CANADIAN EXECAIRE,Canada
+7F,FAB,第一,First Air,FIRST AIR,Canada
+ZX,GGN,格鲁吉亚,Air Georgian,GEORGIAN,Canada
+JB,JBA,,Helijet,HELIJET,Canada
+QK,JZA,加航爵士,Air Canada Jazz,JAZZ,Canada
+BZ,KEE,梯形服务,Keystone Air Services,KEYSTONE,Canada
+4I,KNX,骑士特快,Knighthawk Air Express,KNIGHT FLIGHT,Canada
+5T,MPE,加拿大北部,Canadian North,EMPRESS,Canada
+HW,NWL,北莱特,North-Wright Airways,NORTHWRIGHT,Canada
+Z4,OOM,变焦,Zoom Airlines,ZOOM,Canada
+8P,PCO,太平洋海岸,Pacific Coastal Airline,PASCO,Canada
+J3,PLR,西北,Northwestern Air,POLARIS,Canada
+PD,POE,波特,Porter Airlines,PORTER AIR,Canada
+RV,ROU,加航胭脂,Air Canada Rouge,ROUGE,Canada
+KV,SKV,天空地区,Sky Regional Airlines,MAPLE,Canada
+5G,SSV,天空服务,Skyservice Airlines,SKYTOUR,Canada
+WG,SWG,太阳之翼,Sunwing Airlines,SUNWING,Canada
+TS,TSC,越洋,Air Transat,AIR TRANSAT,Canada
+VC,VAL,航海家,Voyageur Airways,VOYAGEUR,Canada
+WS,WJA,西捷,WestJet,WESTJET,Canada
+WT,WSG,瓦萨亚,Wasaya Airways,WASAYA,Canada
+WO,WSW,猛扑,Swoop,SWOOP,Canada
+3J,WZP,,Zip,ZIPPER,Canada
+8T,TID,天地,Air Tindi,AIR TINDI,Canadian Territories
+KX,CAY,开曼,Cayman Airways,CAYMAN,Cayman Islands
+S8,CSU,查里服务,Chari Aviation Services,CHARI SERVICE,Chad
+LA,LAN,拉丁美洲智利,LATAM Chile,LAN CHILE,Chile
+L7,LNP,,Linea Aerea SAPSA,SAPSA,Chile
+LU,LXP,局域网快递,LAN Express,LANEX,Chile
+H2,SKU,天空,Sky Airline,AEROSKY,Chile
+CJ,CBF,北方,China Northern Airlines,CHINA NORTHERN,China
+JD,CBJ,首都,Beijing Capital Airlines,DEER JET,China
+CA,CCA,国际,Air China,AIR CHINA,China
+SC,CDG,山东,Shandong Airlines,SHANDONG,China
+MU,CES,东方,China Eastern Airlines,CHINA EASTERN,China
+2Z,CGN,长安,Changan Airlines,CHANGAN,China
+PN,CHB,西部,China West Air,WEST CHINA,China
+HU,CHH,海南,Hainan Airlines,HAINAN,China
+RY,CJX,江西,Jiangxi Airlines,AIR CRANE,China
+CK,CKK,货运,China Cargo Airlines,CARGO KING,China
+WH,CNW,西北,China Northwest Airlines,CHINA NORTHWEST,China
+9C,CQH,春秋,Spring Airlines,AIR SPRING,China
+OQ,CQN,重庆,Chongqing Airlines,CHONG QING,China
+3U,CSC,四川,Sichuan Airlines,SI CHUAN,China
+CZ,CSN,南方,China Southern Airlines,CHINA SOUTHERN,China
+O3,CSS,顺丰,SF Airlines,SHUNFENG,China
+ZH,CSZ,深圳,Shenzhen Airlines,SHENZHEN AIR,China
+KN,CUA,联合,China United Airlines,LIANHANG,China
+UQ,CUH,乌鲁木齐,Urumqi Airlines,LOULAN,China
+MF,CXA,厦门,XiamenAir,XIAMEN AIR,China
+XO,CXH,新华,China Xinhua Airlines,XINHUA,China
+3Q,CYH,云南,Yunnan Airlines,YUNNAN,China
+CF,CYZ,邮政,China Postal Airlines,CHINA POST,China
+JD,DER,金鹿公务,Deer Jet,DEER JET,China
+HO,DKH,吉祥,Juneyao Airlines,AIR JUNEYAO,China
+DZ,EPA,东海,Donghai Airlines,DONGHAI AIR,China
+FU,FZA,福州,Fuzhou Airlines,STRAIT AIR,China
+GS,GCR,天津,Tianjin Airlines,CHINA DRAGON,China
+CN,GDC,大新华,Grand China Air,GRAND CHINA,China
+IJ,GWL,长城,Great Wall Airlines,GREAT WALL,China
+NS,HBH,河北,Hebei Airlines,HEBEI AIR,China
+G5,HXA,华夏,China Express Airlines,CHINA EXPRESS,China
+YG,HYT,圆通,Yuantong Airlines,YUANTONG,China
+AQ,JYH,九元,9 Air,TRANSJADE,China
+KY,KNA,昆明,Kunming Airlines,KUNMING AIR,China
+VD,KPA,河南,Henan Airlines,KUNPENG,China
+GI,LHA,中原龙浩,Central Airlines,LONGHAO,China
+UW,UTP,友和道,Uni-top Airlines,UNI TOP,China
+Y8,YZR,金鹏,Suparna Airlines,YANGTZE RIVER,China
+4C,ARE,,"Aires, Aerovias de Integracion Regional, S.A.",AIRES,Colombia
+AV,AVA,阿维安卡,Avianca,AVIANCA,Colombia
+4L,LAU,,Líneas Aéreas Suramericanas,SURAMERICANO,Colombia
+P5,RPB,哥伦比亚巴拿马,Copa Airlines Colombia,AEROREPUBLICA,Colombia
+QT,TPA,坦帕货运,Tampa Cargo,TAMPA,Colombia
+YH,WCW,西加勒比,West Caribbean Airways,WEST,Colombia
+KR,CWK,科摩罗,Comores Airlines,CONTICOM,Comoros
+GG,HAH,科摩罗国际,Air Comores International,AIR COMORES,Comoros
+LR,LRC,拉卡萨,LACSA,LACSA,Costa Rica
+OU,CTN,克罗地亚,Croatia Airlines,CROATIA,Croatia
+CU,CUB,古巴,Cubana de Aviación,CUBANA,Cuba
+CY,CYP,塞浦路斯,Cyprus Airways,CYPRUS,Cyprus
+UI,ECA,欧塞浦路斯,Eurocypria Airlines,EUROCYPRIA,Cyprus
+ZU,HCY,赫利俄斯,Helios Airways,HELIOS,Cyprus
+OK,CSA,捷克,Czech Airlines,CSA-LINES,Czech Republic
+8F,FFR,菲舍尔,Fischer Air,FISCHER,Czech Republic
+QS,TVS,智能之翼,Smartwings,SKYTRAVEL,Czech Republic
+EO,ALX,赫瓦博拉,Hewa Bora Airways,ALLCONGO,Democratic Republic of the Congo
+GD,AHA,阿尔法格陵兰,Air Alpha Greenland,AIR ALPHA,Denmark
+QI,CIM,辛伯,Cimber Air,CIMBER,Denmark
+DX,DTR,DAT丹麦运输,DAT Danish Air Transport,DANISH,Denmark
+GL,GRL,格陵兰,Air Greenland,GREENLAND,Denmark
+M3,NFA,北飞,North Flying,NORTH FLYING,Denmark
+NB,SNB,斯特林,Sterling Airlines,STERLING,Denmark
+EZ,SUS,斯堪的纳维亚太阳,Sun Air of Scandinavia,SUNSCAN,Denmark
+DK,VKG,托马斯库克斯堪的纳维亚,Thomas Cook Airlines Scandinavia,VIKING,Denmark
+D3,DAO,达洛,Daallo Airlines,DALO AIRLINES,Djibouti
+EX,SDO,圣多明哥,Air Santo Domingo,AERO DOMINGO,Dominican Republic
+EU,EEA,厄瓜多利亚,Ecuatoriana,ECUATORIANA,Ecuador
+2K,GLG,气凝胶,Aerogal,AEROGAL,Ecuador
+XL,LNE,拉丁美洲厄瓜多尔,LATAM Ecuador,LAN ECUADOR,Ecuador
+EQ,TAE,驯服,TAME,TAME,Ecuador
+4D,ASD,西奈,Air Sinai,AIR SINAI,Egypt
+MS,MSR,埃及,EgyptAir,EGYPTAIR,Egypt
+MY,MWA,中西部,Midwest Airlines,MWA,Egypt
+PF,PNW,巴勒斯坦,Palestinian Airlines,PALESTINIAN,Egypt
+TA,TAI,阿维安卡萨尔瓦多,Avianca El Salvador,TACA,El Salvador
+B8,ERT,厄立特里亚,Eritrean Airlines,ERITREAN,Eritrea
+UE,NAS,纳赛尔,Nasair,NASAIRWAYS,Eritrea
+U3,AIA,鸟禽,Avies,AVIES,Estonia
+EE,EAY,,Aero Airlines,REVAL,Estonia
+OV,ELL,爱沙尼亚,Estonian Air,ESTONIAN,Estonia
+ET,ETH,埃塞俄比亚,Ethiopian Airlines,ETHIOPIAN,Ethiopia
+GZ,RAR,轮换国际服务,Rotation International Air Services,ROTATION AIR,Ethiopia
+RC,FLI,大西洋,Atlantic Airways,FAROELINE,Faroe Islands
+F6,RCK,法罗喷气机,Faroejet,ROCKROSE,Faroe Islands
+FJ,FJI,斐济,Fiji Airways,FIJI,Fiji
+KF,BLF,蓝色1,Blue1,BLUEFIN,Finland
+AY,FIN,芬兰,Finnair,FINNAIR,Finland
+FC,WBA,芬康,Finncomm Airlines,WESTBIRD,Finland
+ZI,AAF,蔚蓝之鹰,Aigle Azur,AIGLE AZUR,France
+SB,ACI,加里多尼国际,Air Caledonie International,AIRCALIN,France
+AF,AFR,法国,Air France,AIRFRANS,France
+AP,AIB,空客工业,Airbus Industrie,AIRBUS INDUSTRIE,France
+IW,AOM,AOM法国,AOM French Airlines,French Lines,France
+6V,AXY,轴心,Axis Airways,AXIS,France
+W4,BES,服务主管,Aero Services Executive,BIRD EXPRESS,France
+DR,BIE,地中海,Air Méditerranée,MEDITERRANEE,France
+DB,BZH,布利特,Brit Air,BRITAIR,France
+XK,CCM,科西嘉-地中海,Corse-Mediterranee,CORSICA,France
+SS,CRL,海盗船国际,Corsair International,CORSAIR,France
+5O,FPO,ASL法国,ASL Airlines France,FRENCH POST,France
+TX,FWI,卡拉比斯,Air Cara?bes,FRENCH WEST,France
+8H,HFR,合力法国,Heli France,HELIFRANCE,France
+A5,HOP,法航跳,Air France Hop,AIR HOP,France
+4Y,RBU,空客法国,Airbus France,AIRBUS FRANCE,France
+UU,REU,澳大利亚,Air Austral,REUNION,France
+PJ,SPM,圣皮埃尔,Air Saint Pierre,,France
+T7,TJT,双喷,Twin Jet,TWINJET,France
+TY,TPC,加莱多尼,Air Calédonie,AIRCAL,France
+TO,TVF,泛航法国,Transavia France,FRANCE SOLEIL,France
+SE,XLF,XL法国,XL Airways France,STARWAY,France
+GG,GUY,圭亚那,Air Guyane,GREEN BIRD,French Guiana
+TN,THT,大溪地,Air Tahiti Nui,TAHITI AIRLINES,French Polynesia
+VT,VTA,大溪地,Air Tahiti,AIR TAHITI,French Polynesia
+GN,AGN,加蓬,Air Gabon,GOLF NOVEMBER,Gabon
+G2,VXG,,Avirex,AVIREX-GABON,Gabon
+Q9,AFU,阿夫里纳特国际,Afrinat International Airlines,,Gambia
+GC,GNR,冈比亚国际,Gambia International Airlines,GAMBIA INTERNATIONAL,Gambia
+M2,MZS,马富兹,Mahfooz Aviation,MAHFOOZ,Gambia
+S0,OKS,冈比亚斯洛克,Slok Air Gambia,SLOK GAMBIA,Gambia
+QB,GFG,格鲁吉亚国家,Georgian National Airlines,NATIONAL,Georgia
+DA,GRG,乔治亚,Air Georgia,AIR GEORGIA,Georgia
+A9,TGZ,格鲁吉亚,Georgian Airways,TAMAZI,Georgia
+L6,VNZ,第比拉维亚姆舍尼,Tbilaviamsheni,TBILAVIA,Georgia
+1I,AMB,,Deutsche Rettungsflugwacht,CIVIL AIR AMBULANCE,Germany
+IQ,AUB,奥格斯堡,Augsburg Airways,AUGSBURG-AIR,Germany
+7E,AWU,有限公司,Aeroline GmbH,SYLT-AIR,Germany
+ZE,AZE,Arcus-Air物流,Arcus-Air Logistic,ARCUS AIR,Germany
+DI,BAG,数据库管理员,dba,SPEEDWAY,Germany
+QY,BCS,欧洲空运莱比锡,European Air Transport Leipzig,EUROTRANS,Germany
+AB,BER,柏林,Air Berlin,AIR BERLIN,Germany
+QW,BWG,蓝翼,Blue Wings,BLUE WINGS,Germany
+DE,CFG,,Condor Flugdienst,CONDOR,Germany
+CL,CLH,汉莎城市线,Lufthansa CityLine,HANSALINE,Germany
+D5,DAU,道艾尔,Dauair,DAUAIR,Germany
+LH,DLH,汉莎,Lufthansa,LUFTHANSA,Germany
+4F,ECE,,Air City,AIRCITY,Germany
+EW,EWG,欧洲之翼,Eurowings,EUROWINGS,Germany
+LH,GEC,汉莎货运,Lufthansa Cargo,LUFTHANSA CARGO,Germany
+ST,GMI,日耳曼尼亚,Germania,GERMANIA,Germany
+4U,GWI,德国之翼,Germanwings,GERMAN WINGS,Germany
+4R,HHI,汉堡国际,Hamburg International,HAMBURG JET,Germany
+HR,HHN,哈恩,Hahn Air,ROOSTER,Germany
+HF,HLF,苍蝇,Hapagfly,HAPAG LLOYD,Germany
+HE,LGW,,Luftfahrtgesellschaft Walter,WALTER,Germany
+LT,LTU,LTU国际,LTU International,LTU,Germany
+OL,OLT,东弗里斯切运输公司,Ostfriesische Lufttransport,OLTRA,Germany
+8W,PWF,私人之翼包机,Private Wings Flugcharter,PRIVATE WINGS,Germany
+C9,RUS,西锐,Cirrus Airlines,CIRRUS AIR,Germany
+X3,TUI,途易飞德国,TUI fly Deutschland,TUI JET,Germany
+W1,WDL,WDL,WDL Aviation,WDL,Germany
+4,ABV,安特拉克,Antrak Air,ANTRAK,Ghana
+GH,GHA,加纳,Ghana Airways,GHANA,Ghana
+G0,GHB,加纳国际,Ghana International Airlines,GHANA AIRLINES,Ghana
+A3,AEE,爱琴海,Aegean Airlines,AEGEAN,Greece
+3S,AEN,,Aeroland Airways,AEROLAND,Greece
+T4,HEJ,海拉斯,Hellas Jet,HELLAS JET,Greece
+OA,OAL,奥林匹克,Olympic Airlines,OLYMPIC,Greece
+L3,JOS,DHL危地马拉,DHL de Guatemala,,Guatemala
+2U,GIP,几内亚,Air Guinee Express,FUTURE EXPRESS,Guinea
+G6,BSR,几内亚比绍,Guine Bissaur Airlines,BISSAU AIRLINES,Guinea-Bissau
+L8,LXG,卢克索GB,Air Luxor GB,LUXOR GOLF,Guinea-Bissau
+2T,HAM,海地大使,Haiti Ambassador Airlines,,Haiti
+HP,HPA,珍珠,Pearl Airways,PEARL AIRWAYS,Haiti
+WC,ISV,倒置岛,Islena De Inversiones,,Honduras
+LD,AHK,香港,Air Hong Kong,AIR HONG KONG,Hong Kong
+CX,CPA,国泰,Cathay Pacific,CATHAY,Hong Kong
+HX,CRK,香港,Hong Kong Airlines,BAUHINIA,Hong Kong
+KA,HDA,国泰港龙,Cathay Dragon,DRAGON,Hong Kong
+HB,HGB,大湾,Greater Bay Airlines,GREATER BAY,Hong Kong
+UO,HKE,香港快运,HK Express,HONGKONG SHUTTLE,Hong Kong
+O8,OHK,绿洲香港,Oasis Hong Kong Airlines,OASIS,Hong Kong
+RX,AEH,快运,Aviaexpress,Avex,Hungary
+MA,MAH,马列夫匈牙利,Malév Hungarian Airlines,MALEV,Hungary
+W6,WZZ,威兹,Wizz Air,WIZZ AIR,Hungary
+CC,ABD,亚特兰大冰岛,Air Atlanta Icelandic,ATLANTA,Iceland
+BF,BBD,蓝鸟货运,Bluebird Cargo,BLUE CARGO,Iceland
+NY,FXI,冰岛,Air Iceland,FAXI,Iceland
+FI,ICE,冰岛,Icelandair,ICEAIR,Iceland
+GX,JXX,捷特,Jetx Airlines,JETBIRD,Iceland
+WW,WOW,WOW,WOW air,WOW AIR,Iceland
+AI,AIC,印度,Air India,AIRINDIA,India
+IX,AXB,印度快运,Air India Express,EXPRESS INDIA,India
+BZ,BDA,蓝镖,Blue Dart Aviation,BLUE DART,India
+G8,GOW,高空,GoAir,GOAIR,India
+IC,IAC,印度,Indian Airlines,INDAIR,India
+I5,IAD,印度亚航,AirAsia India,RED KNIGHT,India
+6E,IGO,靛青,IndiGo,IFLY,India
+9W,JAI,捷特,Jet Airways,JET AIRWAYS,India
+S2,JLL,,JetLite,LITE JET,India
+IT,KFR,翠鸟,Kingfisher Airlines,KINGFISHER,India
+9I,LLR,联盟,Alliance Air,ALLIED,India
+I7,PMW,派拉蒙,Paramount Airways,PARAWAY,India
+SG,SEJ,香料,SpiceJet,SPICEJET,India
+UK,VTI,维斯塔拉,Vistara,VISTARA,India
+QZ,AWQ,印度尼西亚亚航,Indonesia AirAsia,WAGON AIR,Indonesia
+BO,BOU,,Bouraq Indonesia Airlines,BOURAQ,Indonesia
+7P,BTV,巴达维亚地铁站,Metro Batavia,BATAVIA,Indonesia
+KI,DHI,亚当,Adam Air,ADAM SKY,Indonesia
+AW,DIR,迪尔甘塔拉服务,Dirgantara Air Service,DIRGANTARA,Indonesia
+GA,GIA,印尼鹰航,Garuda Indonesia,INDONESIA,Indonesia
+IO,IAA,印尼,Indonesian Airlines,INDO LINES,Indonesia
+VJ,JTY,加塔尤,Jatayu Airlines,JATAYU,Indonesia
+JT,LNI,狮子,Lion Air,LION INTER,Indonesia
+RI,MDL,曼陀罗,Mandala Airlines,MANDALA,Indonesia
+MZ,MNA,,Merpati Nusantara Airlines,MERPATI,Indonesia
+RH,RPH,共和国快运,Republic Express Airlines,PUBLIC EXPRESS,Indonesia
+GY,TMG,,Tri-MG Intra Asia Airlines,TRILINES,Indonesia
+1W,WON,翼,Wings Air,WINGS ABADI,Indonesia
+K5,ABE,阿班,Aban Air,ABAN,Iran
+IV,CPN,里海,Caspian Airlines,CASPIAN,Iran
+IR,IRA,伊朗,Iran Air,IRANAIR,Iran
+EP,IRC,伊朗阿斯曼,Iran Aseman Airlines,,Iran
+Y9,IRK,基什,Kish Air,KISHAIR,Iran
+W5,IRM,马汉,Mahan Air,MAHAN AIR,Iran
+IA,IAW,伊拉克,Iraqi Airways,IRAQI,Iraq
+AG,ABR,ASL爱尔兰,ASL Airlines Ireland,CONTRACT,Ireland
+WX,BCY,城捷,CityJet,CITY-IRELAND,Ireland
+EI,EIN,爱尔兰,Aer Lingus,SHAMROCK,Ireland
+VE,EUJ,欧盟喷气机,EUjet,UNION JET,Ireland
+D8,IBK,挪威国际,Norwegian Air International,NORTRANS,Ireland
+DU,NLH,挪威长途,Norwegian Long Haul,NORSTAR,Ireland
+RE,REA,艾尔·阿兰,Aer Arann,AER ARANN,Ireland
+FR,RYR,瑞安,Ryanair,RYANAIR,Ireland
+SI,SIH,天网,Skynet Airlines,BLUEJET,Ireland
+IZ,AIZ,阿基亚以色列,Arkia Israel Airlines,ARKIA,Israel
+LY,ELY,以色列,El Al Israel Airlines,ELAL,Israel
+5C,ICL,CAL货运,CAL Cargo Air Lines,CAL,Israel
+6H,ISR,以色列,Israir,ISRAIR,Israel
+9X,ACL,意大利,Itali Airlines,ITALI,Italy
+AP,ADH,一号,Air One,HERON,Italy
+PE,AEL,欧洲,Air Europe,AIR EUROPE,Italy
+I9,AEY,意大利,Air Italy,AIR ITALY,Italy
+AZ,AZA,意大利,Alitalia,ALITALIA,Italy
+ZS,AZI,阿祖拉,Azzurra Air,AZZURRA,Italy
+BV,BPA,蓝色全景,Blue Panorama Airlines,BLUE PANOROMA,Italy
+2G,CRG,意大利货物,Cargoitalia,WHITE PELICAN,Italy
+CT,CYL,意大利CityLiner,Alitalia CityLiner,CITYLINER,Italy
+EN,DLA,多洛米蒂,Air Dolomiti,DOLOMITI,Italy
+GJ,EEU,,Eurofly Service,EUROFLY,Italy
+E8,ELG,阿尔皮老鹰队,Alpi Eagles,ALPI EAGLES,Italy
+6P,ISG,俱乐部,Club Air,CLUBAIR,Italy
+IG,ISS,意大利,Air Italy,AIR ITALY,Italy
+IV,JET,风喷射,Wind Jet,GHIBLI,Italy
+D4,LID,阿里多尼亚,Alidaunia,ALIDA,Italy
+7M,MSA,西北风,Mistral Air,AIRMERCI,Italy
+NO,NOS,尼奥斯,Neos,MOONFLOWER,Italy
+VE,VLE,沃拉尔,Volare Airlines,VOLA,Italy
+VU,VUN,科特迪瓦,Air Ivoire,AIRIVOIRE,Ivory Coast
+JM,AJM,牙买加,Air Jamaica,JAMAICA,Jamaica
+HD,ADO,Do,Air Do,AIR DO,Japan
+NQ,AJX,日本,Air Japan,AIR JAPAN,Japan
+EH,AKX,全日空之翼,ANA Wings,ALFA WING,Japan
+NH,ANA,全日空,All Nippon Airways,ALL NIPPON,Japan
+EL,ANK,日本,Air Nippon,ANK AIR,Japan
+MM,APJ,桃,Peach,AIR PEACH,Japan
+NV,CRF,中央,Air Central,AIR CENTRAL,Japan
+JH,FDA,富士梦幻,Fuji Dream Airlines,FUJI DREAM,Japan
+FW,IBX,野山羊,Ibex Airlines,IBEX,Japan
+EG,JAA,日本亚洲,Japan Asia Airways,ASIA,Japan
+JL,JAL,日本,Japan Airlines,JAPANAIR,Japan
+JO,JAZ,日航,JALways,J-WAYS,Japan
+JC,JEX,日航快运,JAL Express,JANEX,Japan
+GK,JJP,日本捷星,Jetstar Japan,ORANGE LINER,Japan
+NU,JTA,日本越洋,Japan Transocean Air,JAI OCEAN,Japan
+KZ,NCA,日本货运,Nippon Cargo Airlines,NIPPON CARGO,Japan
+7G,SFJ,星际飞行器,StarFlyer,STARFLYER,Japan
+BC,SKY,天马,Skymark Airlines,SKYMARK,Japan
+6J,SNJ,索拉赛德,Solaseed Air,NEWSKY,Japan
+JW,VNL,香草,Vanilla Air,VANILLA,Japan
+R5,JAV,约旦,Jordan Aviation,JORDAN AVIATION,Jordan
+RJ,RJA,皇家约旦人,Royal Jordanian,JORDANIAN,Jordan
+Z9,BEK,贝克,Bek Air,BEKAIR,Kazakhstan
+IP,JOL,阿特劳,Atyrau Air Ways,EDIL,Kazakhstan
+KC,KZR,阿斯塔纳,Air Astana,ASTANALINE,Kazakhstan
+HZ,SOZ,周六,Sat Airlines,SATCO,Kazakhstan
+8V,ACP,星际,Astral Aviation,ASTRAL CARGO,Kenya
+B5,EXZ,东非野生动物园快递,East African Safari Air Express,DUMA,Kenya
+KQ,KQA,肯尼亚,Kenya Airways,KENYA,Kenya
+4A,AKL,基里巴斯,Air Kiribati,,Kiribati
+J9,JZR,半岛,Jazeera Airways,JAZEERA,Kuwait
+KU,KAC,科威特,Kuwait Airways,KUWAITI,Kuwait
+7O,GAL,银河,Galaxy Air,GALAXY,Kyrgyzstan
+R8,KGA,吉尔吉斯斯坦,Kyrgyzstan Airlines,KYRGYZ,Kyrgyzstan
+N5,KGZ,吉尔吉斯,Kyrgyz Airlines,BERMET,Kyrgyzstan
+QH,LYN,吉尔吉斯斯坦,Air Kyrgyzstan,ALTYN AVIA,Kyrgyzstan
+V4,REK,雷姆,Reem Air,REEM AIR,Kyrgyzstan
+S5,TSJ,特拉斯特,Trast Aero,TRAST AERO,Kyrgyzstan
+QV,LAO,老挝,Lao Airlines,LAO,Lao Peoples Democratic Republic
+BT,BTI,波罗的海,airBaltic,AIR BALTIC,Latvia
+LQ,LAQ,黎巴嫩运输,Lebanese Air Transport,LAT,Lebanon
+ME,MEA,中东,Middle East Airlines,CEDAR JET,Lebanon
+IM,MNJ,梅纳喷气机,Menajet,MENAJET,Lebanon
+T2,TMA,TMA货运,TMA Cargo,TANGO LIMA,Lebanon
+8U,AAW,非洲,Afriqiyah Airways,AFRIQIYAH,Libya
+UZ,BRQ,埃尔布拉克运输,El-Buraq Air Transport,BURAQAIR,Libya
+LN,LAA,利比亚阿拉伯,Libyan Arab Airlines,LIBAIR,Libya
+7T,TOB,托布鲁克,Tobruk Air,TOBRUK AIR,Libya
+0A,GNT,琥珀,Amber Air,GINTA,Lithuania
+TE,LIL,飞拉尔,FlyLal,LITHUANIA AIR,Lithuania
+X9,NVD,快车,Avion Express,NORDVIND,Lithuania
+CV,CLX,卢森堡货运,Cargolux,CARGOLUX,Luxembourg
+LG,LGL,卢森堡,Luxair,LUXAIR,Luxembourg
+NX,AMU,澳门,Air Macau,AIR MACAO,Macao
+IN,MAK,MAT马其顿,MAT Macedonian Airlines,MAKAVIO,Macedonia
+M3,SPJ,服务,Air Service,AIR SKOPJE,Macedonia
+MD,MDG,马达加斯加,Air Madagascar,AIR MADAGASCAR,Madagascar
+QM,AML,马拉维,Air Malawi,MALAWI,Malawi
+AK,AXM,亚航,AirAsia,RED CAP,Malaysia
+J8,BVT,成功,Berjaya Air,BERJAYA,Malaysia
+FY,FFM,萤火虫,Firefly,FIREFLY,Malaysia
+MH,MAS,马来西亚,Malaysia Airlines,MALAYSIAN,Malaysia
+OD,MXD,马印,Malindo Air,MALINDO,Malaysia
+TH,TSE,Transmile服务,Transmile Air Services,TRANSMILE,Malaysia
+D7,XFA,飞亚快讯,FlyAsianXpress,FAX AIR,Malaysia
+KM,AMC,马耳他,Air Malta,AIR MALTA,Malta
+R5,MAC,马耳他包机,Malta Air Charter,MALTA CHARTER,Malta
+CW,CWM,马绍尔群岛,Air Marshall Islands,AIR MARSHALLS,Marshall Islands
+MR,MRT,毛里塔尼亚,Air Mauritanie,MIKE ROMEO,Mauritania
+MK,MAU,毛里求斯,Air Mauritius,AIRMAURITIUS,Mauritius
+4O,AIJ,英特捷,Interjet,INTERJET,Mexico
+AM,AMX,墨西哥,Aeroméxico,AEROMEXICO,Mexico
+6A,CHP,阿维亚克萨联盟,Consorcio Aviaxsa,AVIACSA,Mexico
+E7,ESF,,Estafeta Carga Aerea,,Mexico
+LL,GRO,快板,Allegro,ALLEGRO,Mexico
+ZE,LCD,阿兹台克线虫,Lineas Aereas Azteca,LINEAS AZTECA,Mexico
+M7,MAA,马航,MasAir,MAS CARGA,Mexico
+QO,MPX,快运,Aeromexpress,AEROMEXPRESS,Mexico
+MX,MXA,墨西哥,Mexicana de Aviación,MEXICANA,Mexico
+GJ,MXC,墨西哥货运公司,Compania Mexicargo,MEXICARGO,Mexico
+JR,SER,加州,Aero California,AEROCALIFORNIA,Mexico
+5D,SLI,空中航行,Aerolitoral,COSTERA,Mexico
+VW,TAO,航天,Aeromar,AEROMAR,Mexico
+6R,TNO,联盟,AeroUnion,AEROUNION,Mexico
+VB,VIV,,VivaAerobús,AEROENLACES,Mexico
+V5,VLI,,Avolar Aerolineas,AEROVOLAR,Mexico
+Y4,VOI,沃拉里斯,Volaris,VOLARIS,Mexico
+2M,MDV,摩尔达维亚,Moldavian Airlines,MOLDAVIAN,Moldova
+9U,MLD,摩尔多瓦,Air Moldova,AIR MOLDOVA,Moldova
+TQ,TDM,串联,Tandem Aero,TANDEM,Moldova
+OM,MGL,MIAT蒙古,MIAT Mongolian Airlines,MONGOL AIR,Mongolia
+YM,MGX,黑山,Montenegro Airlines,MONTAIR,Montenegro
+8A,BMM,阿特拉斯蓝,Atlas Blue,ATLAS BLUE,Morocco
+AT,RAM,摩洛哥皇家,Royal Air Maroc,ROYALAIR MAROC,Morocco
+QC,CRD,空中走廊,Air Corridor,AIR CORRIDOR,Mozambique
+TM,LAM,LAM莫桑比克,LAM Mozambique Airlines,MOZAMBIQUE,Mozambique
+UB,UBA,缅甸,Myanma Airways,UNIONAIR,Myanmar
+SW,NMB,纳米比亚,Air Namibia,NAMIBIA,Namibia
+F5,COZ,宇宙,Cosmic Air,COSMIC AIR,Nepal
+TD,TLP,郁金香,Tulip Air,TULIPAIR,Netherland
+XT,AXL,喷射器,Air Exel,EXEL COMMUTER,Netherlands
+I4,FWA,州际,Interstate Airline,FREEWAYAIR,Netherlands
+WA,KLC,,KLM Cityhopper,CITY,Netherlands
+KL,KLM,荷兰皇家,KLM Royal Dutch Airlines,KLM,Netherlands
+MP,MPH,马丁,Martinair,MARTINAIR,Netherlands
+AW,SCH,CHC,CHC Airways,,Netherlands
+OR,TFL,途易飞荷兰,TUI fly Netherlands,ORANGE,Netherlands
+HV,TRA,泛航,Transavia,TRANSAVIA,Netherlands
+9H,DNL,荷属安的列斯群岛快车,Dutch Antilles Express,DUTCH ANTILLES,Netherlands Antilles
+NZ,ANZ,新西兰,Air New Zealand,NEW ZEALAND,New Zealand
+CV,CVA,查塔姆,Air Chathams,CHATHAM,New Zealand
+NM,NZM,库克山,Mount Cook Airlines,MOUNTCOOK,New Zealand
+DJ,PBN,太平洋蓝,Pacific Blue,BLUEBIRD,New Zealand
+DJ,PLB,波利尼西亚蓝,Polynesian Blue,POLYBLUE,New Zealand
+Z7,ADK,ADC,ADC Airlines,ADCO,Nigeria
+B3,BLV,贝尔维尤,Bellview Airlines,BELLVIEW AIRLINES,Nigeria
+F4,NBK,阿尔巴卡,Albarka Air,AL-AIR,Nigeria
+AJ,NIG,承包商,Aero Contractors,AEROLINE,Nigeria
+OJ,OLA,陆上,Overland Airways,OVERLAND,Nigeria
+SO,OSL,索索里索,Sosoliso Airlines,SOSOLISO,Nigeria
+N2,QNK,卡博,Kabo Air,KABO,Nigeria
+VK,VGN,维珍尼日利亚,Virgin Nigeria Airways,VIRGIN NIGERIA,Nigeria
+BU,CNO,SAS布拉森斯,SAS Braathens,SCANOR,Norway
+FS,FOX,传单,Flyr,GREENSTAR,Norway
+L5,LTR,运输,Lufttransport,LUFT TRANSPORT,Norway
+DH,NAN,挪威挪威,Norwegian Air Norway,NORSHIP,Norway
+DY,NAX,挪威,Norwegian Air Shuttle,NOR SHUTTLE,Norway
+WF,WIF,,Widerøe,WIDEROE,Norway
+GF,GFA,海湾,Gulf Air,GULF AIR,Oman
+RS,MJN,阿曼皇家空军,Royal Air Force of Oman,MAJAN,Oman
+WY,OMA,阿曼,Oman Air,OMAN AIR,Oman
+4K,AAS,阿斯卡里,Askari Aviation,AL-AAS,Pakistan
+ED,ABQ,空蓝,Airblue,PAKBLUE,Pakistan
+PK,PIA,巴基斯坦国际,Pakistan International Airlines,PAKISTAN,Pakistan
+R0,RPK,皇家,Royal Airlines,ROYAL PAKISTAN,Pakistan
+E4,RSO,亚航国际,Aero Asia International,AERO ASIA,Pakistan
+NL,SAI,沙欣国际,Shaheen Air International,SHAHEEN AIR,Pakistan
+GP,PTP,帕劳跨太平洋,Palau Trans Pacific Airline,TRANS PACIFIC,Palau
+CM,CMP,巴拿马,Copa Airlines,COPA,Panama
+PX,ANG,新吉尼,Air Niugini,NUIGINI,Papua New Guinea
+CG,TOK,PNG,Airlines PNG,BALUS,Papua New Guinea
+PZ,LAP,,TAM Mercosur,PARAGUAYA,Paraguay
+N6,ACQ,新大陆,Nuevo Continente,AERO CONTINENTE,Peru
+Q6,CDP,,Aero Condor Peru,CONDOR-PERU,Peru
+A2,CIU,西洛斯,Cielos Airlines,CIELOS,Peru
+LP,LPE,兰秘鲁,LAN Peru,LANPERU,Peru
+PL,PLI,秘鲁,Aeroperú,Aeroperu,Peru
+7W,WAY,韦拉佩鲁,Wayraperú,WAYRAPERú,Peru
+OE,AOT,亚洲隔夜快递,Asia Overnight Express,ASIA OVERNIGHT,Philippines
+5J,CEB,宿务太平洋,Cebu Pacific,CEBU AIR,Philippines
+Z2,EZD,亚航热情,AirAsia Zest,ZEST,Philippines
+2P,GAP,菲律宾,Air Philippines,ORIENT PACIFIC,Philippines
+L7,LPN,老挝国际,Laoag International Airlines,LAOAG AIR,Philippines
+PR,PAL,菲律宾,Philippine Airlines,PHILIPPINE,Philippines
+Q8,PEC,太平洋东亚货运,Pacific East Asia Cargo Airlines,PAC-EAST CARGO,Philippines
+6K,RIT,亚洲精神,Asian Spirit,ASIAN SPIRIT,Philippines
+DG,SRQ,菲律宾虎航,Tigerair Philippines,SEA TIGER,Philippines
+C0,CLW,中央之翼,Centralwings,CENTRALWINGS,Poland
+K2,ELO,欧洲乐透,Eurolot,EUROLOT,Poland
+LO,LOT,很多波兰,LOT Polish Airlines,POLLOT,Poland
+2B,ARD,神鹰,Aerocondor,AEROCONDOR,Portugal
+5K,HFY,嗨飞,Hi Fly,SKY FLYER,Portugal
+LK,LXR,卢克索,Air Luxor,AIRLUXOR,Portugal
+YU,MMZ,欧洲大西洋,EuroAtlantic Airways,EUROATLANTIC,Portugal
+NI,PGA,葡萄牙,Portugalia,PORTUGALIA,Portugal
+S4,RZO,世达国际,SATA International,AIR AZORES,Portugal
+SP,SAT,SATAAirAcores,SATA Air Acores,SATA,Portugal
+TP,TAP,TAP葡萄牙,TAP Air Portugal,AIR PORTUGAL,Portugal
+VR,TCV,TACV,TACV,CABOVERDE,Portugal
+QR,QTR,卡塔尔,Qatar Airways,QATARI,Qatar
+4S,FNC,,Finalair Congo,FINALAIR CONGO,Republic of the Congo
+BF,RSR,,Aero-Service,CONGOSERV,Republic of the Congo
+ZB,BUB,波旁,Air Bourbon,BOURBON,Reunion
+0B,BMS,蓝色,Blue Air,BLUE MESSENGER,Romania
+V3,KRP,卡帕泰尔,Carpatair,CARPATAIR,Romania
+RO,ROT,塔罗姆,Tarom,TAROM,Romania
+RL,ABG,皇家飞行,Royal Flight,ROYAL FLIGHT,Russia
+RU,ABW,空桥货运,AirBridgeCargo,AIRBRIDGECARGO,Russia
+SU,AFL,俄罗斯国际,Aeroflot,AEROFLOT,Russia
+V2,AKT,克拉,Karat,AVIAKARAT,Russia
+OB,ASZ,阿斯特拉罕,Astrakhan Airlines,AIR ASTRAKHAN,Russia
+5N,AUL,,Aeroflot-Nord,DVINA,Russia
+3G,AYZ,大西洋联盟,Atlant-Soyuz Airlines,ATLANT-SOYUZ,Russia
+E5,BRZ,萨马拉,Samara Airlines,BERYOZA,Russia
+V9,BTC,BAL巴什基里安,BAL Bashkirian Airlines,BASHKIRIAN,Russia
+X7,CHF,奇塔维亚,Chitaavia,CHITA,Russia
+J7,CVC,Centre-Avia,Centre-Avia,AVIACENTRE,Russia
+N2,DAG,达吉斯坦,Dagestan Airlines,DAGAL,Russia
+E3,DMO,多莫杰多沃,Domodedovo Airlines,DOMODEDOVO,Russia
+D9,DNV,Aeroflot-Don,Aeroflot-Don,DONAVIA,Russia
+6R,DRU,,Alrosa Mirny Air Enterprise,MIRNY,Russia
+P7,ESL,俄罗斯天空,Russian Sky Airlines,RADUGA,Russia
+3R,GAI,莫斯科,Moskovia Airlines,GROMOV AIRLINE,Russia
+4G,GZP,俄罗斯天然气工业公司,Gazpromavia,GAZPROMAVIA,Russia
+7K,KGL,,Kogalymavia Air Company,KOGALYM,Russia
+H8,KHB,达拉维亚,Dalavia,DALAVIA,Russia
+GW,KIL,库班,Kuban Airlines,AIR KUBAN,Russia
+7B,KJC,克拉斯诺亚尔斯基,Krasnojarsky Airlines,KRASNOJARSKY AIR,Russia
+8J,KMV,,Komiinteravia,KOMIINTER,Russia
+K9,KRI,克里洛,Krylo Airlines,KRYLO,Russia
+YL,LLM,亚马尔,Yamal Airlines,YAMAL,Russia
+NN,MOV,维姆,VIM Airlines,MOV AIR,Russia
+H5,MVL,马维尔马加丹,Mavial Magadan Airlines,Mavial,Russia
+N3,OMS,鄂木斯克,Omskavia Airline,OMSK,Russia
+R2,ORB,奥伦堡,Orenburg Airlines,ORENBURG,Russia
+P9,PGP,彼尔姆,Perm Airlines,PERM AIR,Russia
+FV,PLK,普尔科沃企业,Pulkovo Aviation Enterprise,PULKOVO,Russia
+S7,SBI,S7,S7 Airlines,SIBERIAN AIRLINES,Russia
+FV,SDM,罗西亚,Rossiya,RUSSIA,Russia
+5M,SIB,西巴维亚运输公司,Sibaviatrans,SIBAVIA,Russia
+6W,SOV,萨拉托夫部,Saratov Aviation Division,SARATOV AIR,Russia
+ZA,SUW,,Interavia Airlines,ASTAIR,Russia
+U6,SVR,乌拉尔,Ural Airlines,SVERDLOVSK AIR,Russia
+R3,SYL,雅库特,Aircompany Yakutia,AIR YAKUTIA,Russia
+U9,TAK,鞑靼斯坦,Tatarstan Airlines,TATARSTAN,Russia
+UN,TSO,全美,Transaero Airlines,TRANSOVIET,Russia
+UT,UTA,UTair,UTair Aviation,UTAIR,Russia
+VI,VDA,伏尔加第聂伯,Volga-Dnepr Airlines,VOLGA-DNEPR,Russia
+XF,VLK,符拉迪沃斯托克,Vladivostok Air,VLADAIR,Russia
+V8,VAS,ATRAN货运,ATRAN Cargo Airlines,ATRAN,Russian Federation
+WB,RWD,卢旺达快车,Rwandair Express,RWANDAIR,Rwanda
+PH,PAO,波利尼西亚,Polynesian Airlines,POLYNESIAN,Samoa
+XY,KNE,飞翔,flynas,NAS EXPRESS,Saudi Arabia
+ZS,SMY,萨马,Sama Airlines,NAJIM,Saudi Arabia
+SV,SVA,沙特阿拉伯,Saudi Arabian Airlines,SAUDIA,Saudi Arabia
+V7,SNG,塞内加尔国际,Air Senegal International,AIR SENEGAL,Senegal
+JJ,AGX,Aviogenex,Aviogenex,GENEX,Serbia
+JU,ASL,塞尔维亚,Air Serbia,AIR SERBIA,Serbia
+7N,CNA,森塔维亚,Centavia,,Serbia
+JU,JAT,日航,Jat Airways,JAT,Serbia
+HM,SEY,塞舌尔,Air Seychelles,SEYCHELLES,Seychelles
+N4,MTC,山地,Mountain Air Company,MOUNTAIN LEONE,Sierra Leone
+20,RNE,沙龙,Air Salone,AIR SALONE,Sierra Leone
+3K,JSA,捷星亚洲,Jetstar Asia Airways,JETSTAR ASIA,Singapore
+SQ,SIA,新加坡,Singapore Airlines,SINGAPORE,Singapore
+MI,SLK,胜安,SilkAir,SILKAIR,Singapore
+SQ,SQC,新加坡货运,Singapore Airlines Cargo,SINGCARGO,Singapore
+TR,TGW,新加坡酷,Scoot,SCOOTER,Singapore
+VF,VLU,估值,Valuair,VALUAIR,Singapore
+SJ,CGL,西格尔,Seagle Air,SEAGLE,Slovakia
+NE,ESK,天空欧洲,SkyEurope,RELAX,Slovakia
+6Q,SLL,斯洛伐克,Slovak Airlines,SLOV LINE,Slovakia
+GM,SVK,斯洛伐克,Air Slovakia,SLOVAKIA,Slovakia
+JP,ADR,阿德里亚,Adria Airways,ADRIA,Slovenia
+IE,SOL,所罗门,Solomon Airlines,SOLOMON,Solomon Islands
+MN,CAW,康美,Comair,COMMERCIAL,South Africa
+D6,ILN,南非国际,Interair South Africa,INLINE,South Africa
+ID,ITK,联通,Interlink Airlines,INTERLINK,South Africa
+JE,MNO,芒果,Mango,TULCA,South Africa
+CE,NTW,全国,Nationwide Airlines,NATIONWIDE,South Africa
+1T,RNX,1时代,1Time Airline,NEXTIME,South Africa
+SA,SAA,南非,South African Airways,SPRINGBOK,South Africa
+FA,SFR,萨菲尔,Safair,CARGO,South Africa
+OZ,AAR,韩亚,Asiana Airlines,ASIANA,South Korea
+BX,ABL,釜山,Air Busan,AIR BUSAN,South Korea
+7C,JJA,济州,Jeju Air,JEJU AIR,South Korea
+LJ,JNA,晋航,Jin Air,JIN AIR,South Korea
+KE,KAL,大韩,Korean Air,KOREANAIR,South Korea
+UX,AEA,欧罗巴,Air Europa,EUROPA,Spain
+1A,AGT,艾玛迪斯全球旅行分销,Amadeus Global Travel Distribution,AMADEUS,Spain
+YW,ANE,秘方,Air Nostrum,AIR NOSTRUM,Spain
+XG,CLI,,Clickair,CLICKJET,Spain
+3C,CMV,卡利马,Calima Aviación,CALIMA,Spain
+NM,DRD,马德里,Air Madrid,ALADA AIR,Spain
+GP,GES,格泰尔,Gestair,GESTAIR,Spain
+H5,HOA,霍拉,Hola Airlines,HOLA,Spain
+NT,IBB,宾特加那利群岛,Binter Canarias,,Spain
+IB,IBE,伊比利亚,Iberia Airlines,IBERIA,Spain
+I2,IBS,伊比利亚快车,Iberia Express,IBEREXPRES,Spain
+IF,ISW,伊斯拉斯,Islas Airways,PINTADERA,Spain
+JK,JKK,西班牙,Spanair,SPANAIR,Spain
+N6,LGA,拉贡,Lagun Air,,Spain
+XO,LTE,LTE国际,LTE International Airways,FUN JET,Spain
+A7,MPD,加彗星,Air Plus Comet,RED COMET,Spain
+PV,PNR,泛,PAN Air,SKYJET,Spain
+VY,VLG,伏林,Vueling Airlines,VUELING,Spain
+UL,ALK,斯里兰卡,SriLankan Airlines,SRILANKAN,Sri Lanka
+8D,EXV,世博,Expo Aviation,EXPOAVIA,Sri Lanka
+IK,LKN,兰卡,Lankair,LANKAIR,Sri Lanka
+QL,RLN,兰卡,Aero Lanka,AERO LANKA,Sri Lanka
+M4,NOV,新星,Nova Airline,NOVANILE,Sudan
+SD,SUD,苏丹,Sudan Airways,SUDANAIR,Sudan
+PY,SLM,苏里南,Surinam Airways,SURINAM,Suriname
+6B,BLX,途易飞北欧,TUI fly Nordic,BLUESCAN,Sweden
+SH,FLY,飞我瑞典,Fly Me Sweden,FLYBIRD,Sweden
+DC,GAO,金色,Golden Air,GOLDEN,Sweden
+6I,IBZ,国际商务,International Business Air,INTERBIZ,Sweden
+8M,MXL,马赛尔,Maxair,MAXAIR,Sweden
+LF,NDC,飞北欧,FlyNordic,NORDIC,Sweden
+8N,NKF,巴伦支,Barents AirLink,NORDFLIGHT,Sweden
+6N,NRD,北欧地区,Nordic Regional,NORTH RIDER,Sweden
+LE,NSW,挪威瑞典,Norwegian Air Sweden,NORDIC,Sweden
+N9,NVR,诺维尔,Novair,NAVIGATOR,Sweden
+SK,SAS,斯堪的纳维亚,Scandinavian Airlines,SCANDINAVIAN,Sweden
+JZ,SKX,天道快车,Skyways Express,SKY EXPRESS,Sweden
+WV,SWV,瑞典飞,Swe Fly,FLYING SWEDE,Sweden
+7T,AGV,空中冰川,Air Glaciers,AIR GLACIERS,Switzerland
+F7,BBO,飞巴布,Flybaboo,BABOO,Switzerland
+4T,BHP,贝莱尔,Belair Airlines,BELAIR,Switzerland
+0D,DWT,达尔文,Darwin Airline,DARWIN,Switzerland
+QE,ECC,十字欧洲,Crossair Europe,CIGOGNE,Switzerland
+WK,EDW,雪绒花,Edelweiss Air,EDELWEISS,Switzerland
+DS,EZS,易捷瑞士,easyJet Switzerland,TOPSWISS,Switzerland
+HW,FHE,你好,Hello,FLYHELLO,Switzerland
+C4,IMX,Zimex,Zimex Aviation,ZIMEX,Switzerland
+0J,JCS,喷气俱乐部,Jetclub,JETCLUB,Switzerland
+2L,OAW,海尔维特,Helvetic Airways,HELVETIC,Switzerland
+LX,SWR,瑞士国际,Swiss International Air Lines,SWISS,Switzerland
+RB,SYR,叙利亚阿拉伯,Syrian Arab Airlines,SYRIANAIR,Syrian Arab Republic
+CI,CAL,中华,China Airlines,DYNASTY,Taiwan (PRC)
+EF,EFA,远东空运,Far Eastern Air Transport,FAR EASTERN,Taiwan (PRC)
+BR,EVA,长荣,EVA Air,EVA,Taiwan (PRC)
+AE,MDA,华信,Mandarin Airlines,Mandarin,Taiwan (PRC)
+JX,SJX,星光,STARLUX Airlines,STARWALKER,Taiwan (PRC)
+GE,TNA,复兴,TransAsia Airways,TRANSASIA,Taiwan (PRC)
+B7,UIA,立荣,Uni Airways,GLORY,Taiwan (PRC)
+4J,SMR,索蒙,Somon Air,SOMON AIR,Tajikistan
+TC,ATC,坦桑尼亚,Air Tanzania,TANZANIA,Tanzania
+PW,PRF,精密,Precision Air,PRECISION AIR,Tanzania
+FD,AIQ,泰国亚洲,Thai AirAsia,THAI ASIA,Thailand
+PG,BKP,曼谷,Bangkok Airways,BANGKOK AIR,Thailand
+W3,FYH,Flyhy货运,Flyhy Cargo Airlines,FLY HIGH,Thailand
+XW,NCT,酷鸟,NokScoot,BIG BIRD,Thailand
+DD,NOK,飞鸟,Nok Air,NOK AIR,Thailand
+OX,OEA,泰国东方,Orient Thai Airlines,ORIENT THAI,Thailand
+9Q,PBA,PB,PB Air,PEEBEE AIR,Thailand
+I6,SEQ,天空之眼,Sky Eyes,SKY EYES,Thailand
+TG,THA,泰国,Thai Airways,THAI,Thailand
+T9,TSX,泰星,Thai Star Airlines,THAI STAR,Thailand
+9R,VAP,普吉,Phuket Air,PHUKET AIR,Thailand
+YT,TGA,多哥,Air Togo,AIR TOGO,Togo
+FK,WTA,非洲西部,Africa West,WEST TOGO,Togo
+WR,HRH,皇家汤加,Royal Tongan Airlines,TONGA ROYAL,Tonga
+BW,BWA,加勒比,Caribbean Airlines,CARIBBEAN AIRLINES,Trinidad and Tobago
+BJ,LBT,突尼斯新,Nouvel Air Tunisie,NOUVELAIR,Tunisia
+TU,TAR,突尼斯,Tunisair,TUNAIR,Tunisia
+UG,TUX,突尼斯快线,Tunisair Express,TUNEXPRESS,Tunisia
+XC,CAI,科伦登,Corendon Airlines,CORENDON,Turkey
+FH,FHY,飞鸟,Freebird Airlines,FREE BIRD,Turkey
+F2,FLM,飞航,Fly Air,FLY WORLD,Turkey
+H9,IZM,伊泽尔,Izair,IZMIR,Turkey
+KK,KKK,阿特拉斯喷气机,Atlasjet,ATLASJET,Turkey
+GO,KZU,库祖货运,Kuzu Airlines Cargo,KUZU CARGO,Turkey
+MB,MNB,MNG,MNG Airlines,BLACK SEA,Turkey
+8Q,OHY,奥努尔,Onur Air,ONUR AIR,Turkey
+PC,PGT,飞马,Pegasus Airlines,SUNTURK,Turkey
+9T,RUN,ACT,Air ACT,CARGO TURK,Turkey
+XQ,SXS,太阳快递,SunExpress,SUNEXPRESS,Turkey
+TK,THY,土耳其,Turkish Airlines,TURKISH,Turkey
+JY,TCI,特克斯和凯科斯,Air Turks and Caicos,KERRMONT,Turks and Caicos Islands
+WD,DSR,达斯货运,DAS Air Cargo,DAIRAIR,Uganda
+N8,HGK,菲卡萨拉马,Fika Salaama Airlines,SALAAMA,Uganda
+VV,AEW,Aerosvit,Aerosvit Airlines,AEROSVIT,Ukraine
+HT,AHW,,Aeromist-Kharkiv,AEROMIST,Ukraine
+PS,AUI,乌克兰国际,Ukraine International Airlines,UKRAINE INTERNATIONAL,Ukraine
+BQ,BKV,布科维纳,Bukovyna Airlines,BUKOVYNA,Ukraine
+6V,MRW,火星RK,Mars RK,AVIAMARS,Ukraine
+M9,MSI,电机本身,Motor Sich,MOTOR SICH,Ukraine
+PQ,SQP,天际通,SkyUp,SKYUP,Ukraine
+S8,SWW,绍夫科维什利亚,Shovkoviy Shlyah,WAY AERO,Ukraine
+T6,TVR,塔夫里,Tavrey Airlines,TAVREY,Ukraine
+DW,UCR,,Aero-Charter Ukraine,CHARTER UKRAINE,Ukraine
+5D,UDC,顿巴斯,DonbassAero,DONBASS AERO,Ukraine
+UF,UKM,澳大,UM Airlines,UKRAINE MEDITERRANEE,Ukraine
+6U,UKR,乌克兰,Air Ukraine,AIR UKRAINE,Ukraine
+6Z,UKS,乌克兰货运,Ukrainian Cargo Airways,CARGOTRANS,Ukraine
+5V,UKW,利沃夫,Lviv Airlines,UKRAINE WEST,Ukraine
+2N,UMK,尤日马沙维亚,Yuzhmashavia,YUZMASH,Ukraine
+3N,URG,乌尔加,Air Urga,URGA,Ukraine
+G9,ABY,阿拉伯,Air Arabia,ARABIA,United Arab Emirates
+MO,AUH,阿布扎比阿米里航班,Abu Dhabi Amiri Flight,SULTAN,United Arab Emirates
+8L,CGP,货运,Cargo Plus Aviation,,United Arab Emirates
+EY,ETD,阿提哈德,Etihad Airways,ETIHAD,United Arab Emirates
+FZ,FDB,飞迪拜,Flydubai,SKYDUBAI,United Arab Emirates
+RT,RKM,RAK,RAK Airways,RAKAIR,United Arab Emirates
+EK,UAE,阿联酋,Emirates,EMIRATES,United Arab Emirates
+5W,AEU,阿斯特里乌斯,Astraeus,FLYSTAR,United Kingdom
+GR,AUR,奥里尼服务,Aurigny Air Services,AYLINE,United Kingdom
+ZT,AWC,泰坦,Titan Airways,ZAP,United Kingdom
+6G,AWW,威尔士,Air Wales,RED DRAGON,United Kingdom
+BA,BAW,英国,British Airways,SPEEDBIRD,United Kingdom
+BE,BEE,飞比,Flybe,JERSEY,United Kingdom
+BS,BIH,英国国际直升机,British International Helicopters,BRINTEL,United Kingdom
+BM,BMR,体重指数区域,bmi regional,MIDLAND,United Kingdom
+CJ,CFE,城市快线,Cityflyer Express,FLYER,United Kingdom
+7C,COY,科恩,Coyne Airways,COYNE AIR,United Kingdom
+E7,EAF,欧洲包机,European Aviation Air Charter,EUROCHARTER,United Kingdom
+LS,EXS,Jet2.com,Jet2.com,CHANNEX,United Kingdom
+T3,EZE,东方,Eastern Airways,EASTFLIGHT,United Kingdom
+U2,EZY,易捷,easyJet,EASY,United Kingdom
+DP,FCA,首选,First Choice Airways,JETSET,United Kingdom
+GT,GBL,国标,GB Airways,GEEBEE AIRWAYS,United Kingdom
+B4,GSM,飞球跨度,Flyglobespan,GLOBESPAN,United Kingdom
+KJ,LAJ,英国地中海,British Mediterranean Airways,BEE MED,United Kingdom
+ZB,MON,君主,Monarch Airlines,MONARCH,United Kingdom
+RR,RFR,皇家空军,Royal Air Force,RAFAIR,United Kingdom
+8L,RHC,红山,Redhill Aviation,REDAIR,United Kingdom
+MT,TCX,托马斯库克,Thomas Cook Airlines,KESTREL,United Kingdom
+BY,TOM,途易,TUI Airways,TOMJET,United Kingdom
+VS,VIR,维珍大西洋,Virgin Atlantic Airways,VIRGIN,United Kingdom
+W9,WUK,英国威兹,Wizz Air UK,WIZZ GO,United Kingdom
+JN,XLA,卓越,Excel Airways,EXPO,United Kingdom
+PU,PUA,普露娜,PLUNA,PLUNA,Uruguay
+VZ,QCL,级LineasAereas,Air Class Lineas Aereas,ACLA,Uruguay
+KH,AAH,阿罗哈货运,Aloha Air Cargo,ALOHA,US
+AA,AAL,美国,American Airlines,AMERICAN,US
+G4,AAY,忠诚,Allegiant Air,ALLEGIANT,US
+GB,ABX,ABX,ABX Air,ABEX,US
+DV,ACK,楠塔基特,Nantucket Airlines,ACK AIR,US
+KO,AER,阿拉斯加中央快车,Alaska Central Express,ACE AIR,US
+5A,AIP,高山快运,Alpine Air Express,ALPINE AIR,US
+M6,AJT,美国国际,Amerijet International,AMERIJET,US
+A8,AMF,美国,Ameriflight,AMFLIGHT,US
+TZ,AMT,ATA,ATA Airlines,AMTRAN,US
+ZV,AMW,中西部,Air Midwest,AIR MIDWEST,US
+AS,ASA,阿拉斯加,Alaska Airlines,ALASKA,US
+YV,ASH,梅萨,Mesa Airlines,AIR SHUTTLE,US
+EV,ASQ,快捷,ExpressJet,ACEY,US
+8C,ATN,国际运输,Air Transport International,AIR TRANSPORT,US
+US,AWE,美国,US Airways,CACTUS,US
+ZW,AWI,威斯康星,Air Wisconsin,AIR WISCONSIN,US
+B4,BKA,银行,Bankair,BANKAIR,US
+CH,BMJ,伯米吉,Bemidji Airlines,BEMIDJI,US
+BN,BNF,布兰尼夫国际,Braniff International Airways,BRANIFF,US
+8E,BRG,白令,Bering Air,BERING AIR,US
+GL,BSK,迈阿密国际,Miami Air International,BISCAYNE,US
+GQ,BSY,大天空,Big Sky Airlines,BIG SKY,US
+XE,BTA,快捷,ExpressJet,JET LINK,US
+R9,CAM,卡迈,Camai Air,AIR CAMAI,US
+MG,CCP,冠军,Champion Air,CHAMPION AIR,US
+EM,CFS,帝国,Empire Airlines,EMPIRE,US
+5F,CIR,北极圈服务,Arctic Circle Air Service,AIR ARCTIC,US
+9L,CJC,科尔根,Colgan Air,COLGAN,US
+K4,CKS,卡利塔,Kalitta Air,CONNIE,US
+CS,CMI,大陆密克罗尼西亚,Continental Micronesia,AIR MIKE,US
+CO,COA,美国大陆,Continental Airlines,CONTINENTAL,US
+CP,CPZ,指南针,Compass Airlines,Compass Rose,US
+FM,CSH,上海,Shanghai Airlines,CITRUS,US
+II,CSQ,IBC,IBC Airways,CHASQUI,US
+WE,CWC,百夫长货运,Centurion Air Cargo,CHALLENGE CARGO,US
+E9,CXS,波士顿缅因,Boston-Maine Airways,CLIPPER CONNECTION,US
+ZA,CYD,,Access Air,CYCLONE,US
+DL,DAL,达美,Delta Air Lines,DELTA,US
+ER,DHL,亚星货运,Astar Air Cargo,DAHL,US
+EA,EAL,东方,Eastern Air Lines,EASTERN,US
+9E,EDV,奋进,Endeavor Air,ENDEAVOR,US
+MQ,EGF,美国鹰,American Eagle Airlines,EAGLE FLIGHT,US
+EZ,EIA,长荣国际,Evergreen International Airlines,EVERGREEN,US
+1I,EJA,网络喷气机,NetJets,EXECJET,US
+MQ,ENY,特使,Envoy Air,ENVOY,US
+E0,ESS,伊欧斯,Eos Airlines,NEW DAWN,US
+OW,EXK,行政,Executive Airlines,EXECUTIVE EAGLE,US
+PA,FCL,佛罗里达沿海,Florida Coastal Airlines,FLORIDA COASTAL,US
+FX,FDX,联邦快递,FedEx Express,FEDEX,US
+F9,FFT,边疆,Frontier Airlines,FRONTIER FLIGHT,US
+FP,FRE,自由,Freedom Air,FREEDOM,US
+HK,FSC,四星级货运,Four Star Cargo,FOUR STAR,US
+2F,FTA,边境飞行服务,Frontier Flying Service,FRONTIER-AIR,US
+RF,FWL,佛罗里达西部国际,Florida West International Airways,FLO WEST,US
+GR,GCO,双子座货运,Gemini Air Cargo,GEMINI,US
+3M,GFT,湾流国际,Gulfstream International Airlines,GULF FLIGHT,US
+GG,GGC,货运360,Cargo 360,LONG-HAUL,US
+G7,GJS,国捷,GoJet Airlines,GATEWAY,US
+ZK,GLA,大湖,Great Lakes Airlines,LAKES AIR,US
+E2,GRN,里奥格兰德,Rio Grande Air,GRANDE,US
+5Y,GTI,阿特拉斯,Atlas Air,GIANT,US
+GV,GUN,格兰特,Grant Aviation,HOOT,US
+U5,GWY,美国3000,USA3000 Airlines,GETAWAY,US
+H6,HAG,哈格兰服务,Hageland Aviation Services,HAGELAND,US
+HA,HAL,夏威夷,Hawaiian Airlines,HAWAIIAN,US
+SO,HKA,卓越,Superior Aviation,SPEND AIR,US
+B6,JBU,捷蓝,JetBlue,JETBLUE,US
+OH,JIA,PSA,PSA Airlines,BLUE STREAK,US
+U7,JUS,美国捷特,USA Jet Airlines,JET USA,US
+9K,KAP,开普,Cape Air,CAIR,US
+M5,KEN,肯莫尔,Kenmore Air,KENMORE,US
+KP,KIA,新西兰国际,Kiwi International Air Lines,KIWI AIR,US
+JF,LAB,实验室飞行服务,L.A.B. Flying Service,LAB,US
+EO,LHN,国际快递一号,Express One International,LONGHORN,US
+AX,LOF,跨州,Trans States Airlines,WATERSKI,US
+L2,LYC,林登货运,Lynden Air Cargo,LYNDEN,US
+KG,LYM,,Key Lime Air,KEY LIME,US
+JI,MDW,中途,Midway Airlines,MIDWAY,US
+YX,MEP,中西部,Midwest Airlines,MIDEX,US
+XJ,MES,梅萨巴,Mesaba Airlines,MESABA,US
+Q5,MLA,40英里,40-Mile Air,MILE-AIR,US
+NC,NAC,北方货运,Northern Air Cargo,YUKON,US
+EJ,NEA,新英格兰,New England Airlines,NEW ENGLAND,US
+NK,NKS,精神,Spirit Airlines,SPIRIT WINGS,US
+LW,NMI,太平洋之翼,Pacific Wings,TSUNAMI,US
+NW,NWA,西北,Northwest Airlines,NORTHWEST,US
+OY,OAE,欧尼国际,Omni Air International,CIMBER,US
+1L,OSY,开放天空咨询委员会,Open Skies Consultative Commission,OPEN SKIES,US
+PO,PAC,极地货运,Polar Air Cargo,POLAR,US
+Y5,PCE,佩斯,Pace Airlines,PACE,US
+BK,PDC,波托马克,Potomac Air,DISTRICT,US
+PT,PDT,皮埃蒙特,Piedmont Airlines,PIEDMONT,US
+KS,PEN,半岛,Peninsula Airways,PENINSULA,US
+1I,PZR,天空迷航国际,Sky Trek International Airlines,PHAZER,US
+QX,QXE,地平线,Horizon Air,HORIZON AIR,US
+MC,RCH,空中机动司令部,Air Mobility Command,REACH,US
+N7,ROK,国家,National Airlines,RED ROCK,US
+RW,RPA,共和国,Republic Airlines,BRICKYARD,US
+YI,RSI,阳光,Air Sunshine,AIR SUNSHINE,US
+7H,RVF,拉文阿拉斯加,Ravn Alaska,Ravn,US
+RD,RYN,瑞安国际,Ryan International Airlines,RYAN INTERNATIONAL,US
+BB,SBS,海运,Seaborne Airlines,SEABORNE,US
+SY,SCX,太阳乡村,Sun Country Airlines,SUN COUNTRY,US
+2S,SDY,岛屿快车,Island Express,SANDY ISLE,US
+N5,SGY,史凯威服务,Skagway Air Service,SKAGWAY AIR,US
+SX,SKB,空中巴士,Skybus Airlines,SKYBUS,US
+OO,SKW,天西,SkyWest Airlines,SKYWEST,US
+KI,SKZ,天威企业,Skyway Enterprises,SKYWAY-INC,US
+2Q,SNC,货运公司,Air Cargo Carriers,NIGHT CARGO,US
+9S,SOO,南方,Southern Air,SOUTHERN AIR,US
+WN,SWA,西南,Southwest Airlines,SOUTHWEST,US
+WQ,SWQ,iAero,iAero Airways,SWIFTFLIGHT,US
+AL,SYX,空中漫步,Skywalk Airlines,SKYWAY-EX,US
+S5,TCF,穿梭美国,Shuttle America,MERCURY,US
+TI,TOL,收费服务,Tol-Air Services,TOL AIR,US
+FL,TRS,空运,AirTran Airways,CITRUS,US
+T9,TRZ,跨子午线,TransMeridian Airlines,TRANS-MERIDIAN,US
+TW,TWA,环球,Trans World Airlines,TWA,US
+UA,UAL,美国联合,United Airlines,UNITED,US
+C5,UCA,通勤,CommutAir,COMMUTAIR,US
+5X,UPS,UPS,UPS Airlines,UPS,US
+6V,VGA,维加斯,Air Vegas,AIR VEGAS,US
+VX,VRD,维珍美国,Virgin America,REDWOOD,US
+XP,VXP,阿维罗,Avelo Airlines,AVELO,US
+K5,WAK,阿拉斯加之翼,Wings of Alaska,WINGS ALASKA,US
+FE,WCP,Primaris,Primaris Airlines,WHITECAP,US
+KD,WGN,西部环球,Western Global Airlines,WESTERN GLOBAL,US
+8V,WRF,莱特服务,Wright Air Service,WRIGHT FLYER,US
+IT,IRT,额尔齐斯,Irtysh Airlines,IRTYSH AIRLINES,Uzbekistan
+HY,UZB,乌兹别克斯坦,Uzbekistan Airways,UZBEK,Uzbekistan
+NF,AVN,瓦努阿图,Air Vanuatu,AIR VAN,Vanuatu
+VE,AVE,阿文萨,Avensa,Avensa,Venezuela
+S3,BBR,圣巴巴拉,Santa Barbara Airlines,SANTA BARBARA,Venezuela
+8z,LER,,Linea Aerea de Servicio Ejecutivo Regional,LASER,Venezuela
+R7,OCA,阿塞卡,Aserca Airlines,AROSCA,Venezuela
+LD,TUY,,Linea Turistica Aerotuy,AEREOTUY,Venezuela
+V0,VCV,康维亚萨,Conviasa,CONVIASA,Venezuela
+VN,HVN,越南,Vietnam Airlines,VIETNAM AIRLINES,Vietnam
+BL,PIC,捷星太平洋,Jetstar Pacific,PACIFIC,Vietnam
+IY,IYE,也门,Yemenia,YEMENI,Yemen
+Q3,MBN,赞比亚,Zambian Airways,ZAMBIANA,Zambia
+K8,ZAK,,Airlink Zambia,,Zambia
+UM,AZW,津巴布韦,Air Zimbabwe,AIR ZIMBABWE,Zimbabwe
+Z3,SMJ,,Avient Aviation,AVAVIA,Zimbabwe
