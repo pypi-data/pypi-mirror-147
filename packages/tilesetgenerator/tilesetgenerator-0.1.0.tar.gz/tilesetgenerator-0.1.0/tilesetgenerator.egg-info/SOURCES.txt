@@ -1,0 +1,12 @@
+LICENSE
+README.rst
+setup.py
+build_scripts/tilesetgenerator
+tilesetgenerator/__init__.py
+tilesetgenerator/map.py
+tilesetgenerator/mapper.py
+tilesetgenerator.egg-info/PKG-INFO
+tilesetgenerator.egg-info/SOURCES.txt
+tilesetgenerator.egg-info/dependency_links.txt
+tilesetgenerator.egg-info/requires.txt
+tilesetgenerator.egg-info/top_level.txt
