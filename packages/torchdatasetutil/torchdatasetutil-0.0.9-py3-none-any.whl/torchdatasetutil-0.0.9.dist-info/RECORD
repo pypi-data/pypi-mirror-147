@@ -1,0 +1,13 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_cocostore.py,sha256=c__Hr9sY4-enjlGdFQwNouORcyXDK1AtXwBEbwyycBk,1793
+torchdatasetutil/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+torchdatasetutil/__main__.py,sha256=ImMDo3EisZQ6rF-PcMesxx2WSRkQcGMLgeBpS0g-g8M,6678
+torchdatasetutil/cocostore.py,sha256=4ii66tVxCGtLWJ0-tKyVYy81sIixxilb-BggXWIq4Y0,16374
+torchdatasetutil/getcoco.py,sha256=pwWScqvP_08uWsD0bCeOYSr6qxk_5MMntyqsQKVVkz4,2107
+torchdatasetutil/imstore.py,sha256=XHAK09CacPeSgNu9j0Cs6LGW70SzlZ1vjBTViwqQU3Q,10520
+torchdatasetutil/version.py,sha256=rEhjM0TopzEK2uQoBAMQWF3Myqf0QR1GzPEA__zpduc,633
+torchdatasetutil-0.0.9.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+torchdatasetutil-0.0.9.dist-info/METADATA,sha256=FXiuVIjDDMZzYckoXn6HO1R2FglyVcPTh-cWDrB74lo,4241
+torchdatasetutil-0.0.9.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+torchdatasetutil-0.0.9.dist-info/top_level.txt,sha256=4nTW7PzsvTHbciijf_2mpkQErcx_58PRcQZAsyO3KKw,23
+torchdatasetutil-0.0.9.dist-info/RECORD,,
