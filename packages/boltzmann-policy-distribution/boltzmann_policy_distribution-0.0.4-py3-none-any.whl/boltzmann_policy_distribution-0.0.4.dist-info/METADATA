@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: boltzmann-policy-distribution
+Version: 0.0.4
+Summary: Code for the ICLR 2022 paper "The Boltzmann Policy Distribution: Accounting for Systematic Suboptimality in Human Models"
+Home-page: https://github.com/cassidylaidlaw/boltzmann-policy-distribution
+Download-URL: https://github.com/cassidylaidlaw/boltzmann-policy-distribution/archive/TODO.tar.gz
+Author: Cassidy Laidlaw
+Author-email: cassidy_laidlaw@berkeley.edu
+License: MIT
+Keywords: human-robot interaction,machine learning,reinforcement learning
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Image Recognition
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE.txt
+Requires-Dist: torch (>=1.9.0)
+Requires-Dist: ray[rllib] (>=1.11.0)
+Requires-Dist: matplotlib (>=3.4.1)
+Requires-Dist: typing-extensions (>=4)
+
+UNKNOWN
+
