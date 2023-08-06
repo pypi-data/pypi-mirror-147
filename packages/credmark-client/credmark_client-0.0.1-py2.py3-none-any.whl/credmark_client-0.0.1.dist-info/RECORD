@@ -1,0 +1,12 @@
+credmark/client/__init__.py,sha256=7i9zxs2wJGGdZcBNZVw6c7wiLP2EtZ_3Uk8CfNQyi4I,4831
+credmark/client/cli.py,sha256=UtFoQRwTKLL-4reqhlkhR981xLXDNxicRGLGfzhCeOk,11048
+credmark/client/errors.py,sha256=dXb_VzP1Ywc9QBhKbNKONMPZ1jqCON98a0SrsB7UuI4,6110
+credmark/client/dto/dto_error_schema.py,sha256=rvsens8E85bQHYtcrHdvwi1VOh-kqvt7IspCTMnuVxQ,807
+credmark/client/dto/dto_schema.py,sha256=95ZZZMdpC-WdQkhUOOTqeJ-VaMb9lPvrqjVuw7AX7O0,7931
+examples/run.py,sha256=8_PfMdV794Cus1fBUstXzdyfA4mtcaNJv2LYdT62wd4,480
+credmark_client-0.0.1.dist-info/LICENSE,sha256=tgIKQP2mWw73EKwPEjAvRQWCZOZRmzQq7872VtPjjEA,1065
+credmark_client-0.0.1.dist-info/METADATA,sha256=PY1IMpB_hMWTP8Th4MpqUmy2LkbMQPjwlnYn4he_ydA,3642
+credmark_client-0.0.1.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+credmark_client-0.0.1.dist-info/entry_points.txt,sha256=Oov0N8WfCqPIKBiAnWoX8k0AxmcARZ2VKyNaG7KBhto,54
+credmark_client-0.0.1.dist-info/top_level.txt,sha256=E4oRPUdfZQAxceS2zw88yKI8vzMUAy4o5fDps6nujL0,18
+credmark_client-0.0.1.dist-info/RECORD,,
