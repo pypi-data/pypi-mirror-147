@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: rate-exchange-fetcher
+Version: 0.0.3
+Summary: 
+License: MIT
+Author: Yann Rabiller
+Author-email: yann.rabiller@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: requests (>=2.27.1,<3.0.0)
