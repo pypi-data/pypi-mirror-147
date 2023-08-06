@@ -1,0 +1,13 @@
+README.md
+setup.py
+jira2branch/__init__.py
+jira2branch/__main__.py
+jira2branch/pipeline_stats.py
+jira2branch.egg-info/PKG-INFO
+jira2branch.egg-info/SOURCES.txt
+jira2branch.egg-info/dependency_links.txt
+jira2branch.egg-info/entry_points.txt
+jira2branch.egg-info/requires.txt
+jira2branch.egg-info/top_level.txt
+jira2branch/tests/__init__.py
+jira2branch/tests/test_main.py

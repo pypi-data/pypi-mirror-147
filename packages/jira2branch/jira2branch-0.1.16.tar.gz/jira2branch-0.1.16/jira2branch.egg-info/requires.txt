@@ -1,0 +1,6 @@
+click
+jira
+halo
+unidecode
+GitPython
+python-gitlab
