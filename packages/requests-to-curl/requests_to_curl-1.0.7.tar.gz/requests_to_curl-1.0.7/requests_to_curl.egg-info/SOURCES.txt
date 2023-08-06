@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+curl/__init__.py
+r2c/__init__.py
+requests_to_curl/__init__.py
+requests_to_curl/requests_to_curl.py
+requests_to_curl/test.py
+requests_to_curl.egg-info/PKG-INFO
+requests_to_curl.egg-info/SOURCES.txt
+requests_to_curl.egg-info/dependency_links.txt
+requests_to_curl.egg-info/requires.txt
+requests_to_curl.egg-info/top_level.txt
