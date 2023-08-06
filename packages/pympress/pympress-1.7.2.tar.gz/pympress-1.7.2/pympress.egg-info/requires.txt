@@ -1,0 +1,14 @@
+watchdog
+
+[babel]
+babel
+babelgladeextractor
+
+[build_sphinx]
+sphinx
+myst-parser
+sphinxcontrib-napoleon
+sphinx-rtd-theme
+
+[vlc_video]
+python-vlc
