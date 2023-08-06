@@ -1,0 +1,15 @@
+doublespike/__init__.py,sha256=oVkeO243NPH2jqbALEJ1rzVHpbyAPnAFGg1aSQzT8vM,2311
+doublespike/calibrate.py,sha256=bAxCG9s755wBBL91j51gF_qJ3amggZp1WUEQXVp_PPU,10264
+doublespike/cocktail.py,sha256=HtYPZHJF2_S08pLbDMiZOmZFuPbWjiJ_luh3nbkC5C4,4097
+doublespike/errors.py,sha256=fRtasrCE9bTRxF-S0K2-pATdFRPsHZYtT3a32y1TRrY,12313
+doublespike/inversion.py,sha256=nkVh5NmhciZZqdygYnTKxOsoSyJGCpj_2eJrhwwofgs,7427
+doublespike/isodata.py,sha256=FliMpvHJuxnS97bYITHTPc9QVnVIBr_shYWrNEwtkoU,13173
+doublespike/monte.py,sha256=4jE1r2z4Y3hlUsBizge-53ZtFbkXCxjLY33JMh8qNdQ,4222
+doublespike/optimal.py,sha256=DYEp8YXDxvUjtlPD0Bge4oljDh5asd2uh60LOe5Pis8,8204
+doublespike/plotting.py,sha256=3jQyZ5kxKrebp1FZ98T2r8_4eP-axdIwZ907dpjagFM,17146
+doublespike/data/maininput.csv,sha256=Acx3ZjPIV0C9QMddCSEvYw2BV3NBJn44PSQhs9cFCaE,14634
+doublespike-0.9.7.dist-info/LICENSE,sha256=A9VPVyq5re4Vr1VAGp9G3SsnO6M29gl1hgWwWB58Hfw,1075
+doublespike-0.9.7.dist-info/METADATA,sha256=sse_OiI48L8MdQhr8BA24DAnZm0O95Qen2iLK6qN2zc,1255
+doublespike-0.9.7.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+doublespike-0.9.7.dist-info/top_level.txt,sha256=xx9SksDmITm9QyRNQzc44ZuSXgXDUGWXwchPfNDcwgw,12
+doublespike-0.9.7.dist-info/RECORD,,
