@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: coopstructs
+Version: 0.47
+Summary: Basic data structs commonly used by various applications
+Home-page: https://github.com/tylertjburns/coopstructs
+Author: tburns
+Author-email: tyler.tj.burns@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Intended Audience :: Developers
+Requires-Python: >3.5
+License-File: LICENSE
+Requires-Dist: coopbugger (==0.2)
+Requires-Dist: cooptools (==0.26)
+Requires-Dist: numpy (==1.19.4)
+Requires-Dist: pandas (==1.2.4)
+Requires-Dist: python-dateutil (==2.8.1)
+Requires-Dist: pytz (==2020.4)
+Requires-Dist: scipy (==1.7.0)
+Requires-Dist: Shapely (==1.7.1)
+Requires-Dist: six (==1.15.0)
+
+# coopstructs
+ Basic Data Structures used commonly across multiple projects
+
+
