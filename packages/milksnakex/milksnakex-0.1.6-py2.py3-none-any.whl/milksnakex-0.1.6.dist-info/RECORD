@@ -1,0 +1,10 @@
+milksnake/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+milksnake/_compat.py,sha256=koxMfZbQ_i6NGlA-ivh_tUZ1nTClDbPfJmw4E_UCadk,102
+milksnake/ffi.py,sha256=XurOVCbo5bUKoXLsb4pQV9hhWi5OPmhTc0dxykjyHVE,524
+milksnake/setuptools_ext.py,sha256=M6SYdEulLVzviyLyEdxKq9AZe-vwomOwQKqPpSKK8T4,10040
+milksnakex-0.1.6.dist-info/LICENSE,sha256=YFDsqG4CzTAHtmycVADASIdmdXcrH8yElk4kLm-SpYU,10842
+milksnakex-0.1.6.dist-info/METADATA,sha256=lVkDuPYZUL3lBuBRC49Pu9g73vzqAAUlvxe1W73fFXU,4035
+milksnakex-0.1.6.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+milksnakex-0.1.6.dist-info/entry_points.txt,sha256=iGvnDPNSq6aWWqdDM1C9xxGcpHPQr_YFdc5s7sej4_I,153
+milksnakex-0.1.6.dist-info/top_level.txt,sha256=Q1qRA6QK61ex1r4gr7zzkvFoo8PtcKi9QHJmKTwZMFU,10
+milksnakex-0.1.6.dist-info/RECORD,,
