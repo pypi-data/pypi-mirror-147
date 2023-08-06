@@ -1,0 +1,53 @@
+[tool.poetry]
+name = "nbr"
+version = "0.0.2b"
+description = "Jupyter notebooks runner"
+authors = ["Nick Zhivykh"]
+readme = "README.md"
+homepage = "https://github.com/zhivykh/nbr"
+repository = "https://github.com/zhivykh/nbr"
+keywords = ["jupyter", "jupyter-notebook"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+websockets = "^10.2"
+pydantic = "^1.9.0"
+httpx = "^0.22.0"
+nbformat = {version = "^5.3.0", optional = true}
+
+[tool.poetry.extras]
+nbformat = ["nbformat"]
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.1"
+pylint = "^2.13.0"
+mypy = "^0.942"
+black = "^22.1.0"
+isort = "^5.10.1"
+pylint-print = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pylint."MESSAGES CONTROL"]
+disable = ["C0103", "C0111", "C0415", "R0902", "R0903"]
+
+[tool.pylint.MASTER]
+load-plugins = ["pylint_print"]
+
+[tool.mypy]
+check_untyped_defs = true
+disallow_incomplete_defs = true
+disallow_untyped_defs = true
+ignore_missing_imports = true
+no_implicit_optional = true
+
+[tool.pytest]
+addopts = "--cov=app --cov-fail-under=60"
+python_files = "test_*.py"
+python_classes = ["*Test", "Test*"]
+python_functions = "test__*"
+
+[tool.pylint.master]
+extension-pkg-allow-list = ["pydantic"]
