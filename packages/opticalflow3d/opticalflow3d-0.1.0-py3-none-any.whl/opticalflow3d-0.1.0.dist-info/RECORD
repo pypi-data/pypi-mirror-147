@@ -1,0 +1,9 @@
+opticalflow3D/__init__.py,sha256=HfOqjyAk_PRO3M_8eDFhy0_z2GynBAcDIdZK7XKjHiU,96
+opticalflow3D/opticalflow3D.py,sha256=_hnAxsb-m8S0YxfF3xnW7KlaVCHemPenn1lT7WUGaZA,7399
+opticalflow3D/helpers/__init__.py,sha256=xbxc0TBBGBzJHEHkNxMwzkDlBNKakxgjvs8tkCIGLaw,129
+opticalflow3D/helpers/farneback_functions.py,sha256=1WZObfUe6x6JjnvMFztjQbtlEoh6k3nqXWGKdk2PraY,20294
+opticalflow3D/helpers/helpers.py,sha256=QRtRpGdFxjRMr10xgaXqc0BF3HvuEa6wXsGsnMQQKaU,1017
+opticalflow3d-0.1.0.dist-info/METADATA,sha256=14KrLOvvSHiJThUen9Jb3jrJCMlsSzX8qub8vSsOC0U,1200
+opticalflow3d-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+opticalflow3d-0.1.0.dist-info/top_level.txt,sha256=z2CynB_Ym4K2SUjA4HA_NCYl-gfWP6qZcTNM3_ZGYpg,14
+opticalflow3d-0.1.0.dist-info/RECORD,,
