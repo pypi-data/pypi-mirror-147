@@ -1,0 +1,11 @@
+dima_cli-4.1.1.dist-info/METADATA,sha256=wa5AS-ucxay4zqnVrGtj2hmcWzQQVFz_VItHgyvoiO4,58617
+dima_cli-4.1.1.dist-info/WHEEL,sha256=olN4st--aSmSzHpcK8DZg3GdX3KEQTjdGJ5VQJtHQZw,96
+dima_cli-4.1.1.dist-info/entry_points.txt,sha256=N0pK3k20lMM9GZ6K0aXNvnn6T3bUWMs98wd6SrBXb4Y,47
+dima/bin/_dima.py,sha256=x6KNUVENjLy7k1xARZLaIma9eNwEWFio03ThrsjSLPw,3609
+dima/bin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dima/dima.py,sha256=3Q_VsT86htZlhhYtm8s5IrkQNFJww11IYEQSBgaDZck,3977
+dima/exceptions.py,sha256=kgJGNT5ll5lF3WEbCwODBQveVLLQA5qNkrpkff43ezo,739
+dima/helpers/__init__.py,sha256=UYrG2OllpSmMBjAph9zteYcZnugd7d-yluOeOklM9t0,21
+dima/__init__.py,sha256=h7Pzl3X2Przg9sP26EYb4o4SMe8uYJ71zjEb1YdRCUo,24
+dima/helpers/dima.cp38-win_amd64.pyd,sha256=rizxff4DBYI1AV2Vq0kuM39YbpJgV3DcFGhl0DqFwj8,1003520
+dima_cli-4.1.1.dist-info/RECORD,,
