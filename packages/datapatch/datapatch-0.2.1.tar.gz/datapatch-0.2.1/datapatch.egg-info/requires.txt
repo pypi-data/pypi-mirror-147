@@ -1,0 +1,8 @@
+babel<3.0.0,>=2.9.1
+normality<3.0.0,>=2.1.1
+pyyaml
+
+[dev]
+pytest
+pytest-cov
+bump2version

@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+datapatch/__init__.py
+datapatch/exc.py
+datapatch/lookup.py
+datapatch/option.py
+datapatch/result.py
+datapatch/util.py
+datapatch.egg-info/PKG-INFO
+datapatch.egg-info/SOURCES.txt
+datapatch.egg-info/dependency_links.txt
+datapatch.egg-info/namespace_packages.txt
+datapatch.egg-info/not-zip-safe
+datapatch.egg-info/requires.txt
+datapatch.egg-info/top_level.txt
