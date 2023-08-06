@@ -1,0 +1,7 @@
+setup.py
+fish/__init__.py
+fish/main.py
+fishfish.egg-info/PKG-INFO
+fishfish.egg-info/SOURCES.txt
+fishfish.egg-info/dependency_links.txt
+fishfish.egg-info/top_level.txt
