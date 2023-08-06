@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/simenv/__init__.py
+src/simenv.egg-info/PKG-INFO
+src/simenv.egg-info/SOURCES.txt
+src/simenv.egg-info/dependency_links.txt
+src/simenv.egg-info/not-zip-safe
+src/simenv.egg-info/requires.txt
+src/simenv.egg-info/top_level.txt
+src/simenv/core/__init__.py
+src/simenv/core/node.py
+src/simenv/core/scene.py
+src/simenv/core/view.py
