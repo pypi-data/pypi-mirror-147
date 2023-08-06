@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: tilesetgenerator
+Version: 0.1.4
+Summary: Generates a tilemap from a few template images
+Home-page: https://gitlab.com/john_t/tile-set-generator
+Author: John Toohey
+Author-email: john_t@mailo.com
+License: GPL3
+Platform: UNKNOWN
+Classifier: Topic :: Games/Entertainment
+Classifier: Topic :: Software Development :: Build Tools
+License-File: LICENSE
+
+UNKNOWN
+
