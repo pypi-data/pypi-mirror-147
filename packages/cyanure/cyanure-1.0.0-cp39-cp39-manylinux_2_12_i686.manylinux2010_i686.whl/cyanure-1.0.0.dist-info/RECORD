@@ -1,0 +1,17 @@
+cyanure_lib/__init__.py,sha256=YccdKZoSulhTGXgxjm3WiNwX0gEbg2hCTygQpeRXwug,77
+cyanure_lib/cyanure_wrap.cpython-39-i386-linux-gnu.so,sha256=JZU-TtRD1v8kXP-md5sws2-eSur5fCp_7OqrU0TMbd0,13832888
+cyanure-1.0.0.dist-info/RECORD,,
+cyanure-1.0.0.dist-info/LICENSE,sha256=2T1y5Cn6EzTy9_J6BrfGoSlSHsjqhNrH2xU0JC_PGxw,1511
+cyanure-1.0.0.dist-info/METADATA,sha256=d2OShB8hPx5JFFKEyBlwFaw0Ne7Lizm5IO2MMQhRs5I,359
+cyanure-1.0.0.dist-info/top_level.txt,sha256=GynctxfZZ6aS5cy5VOYrrDfkZg0zxDM3Tjv5jdmytmc,25
+cyanure-1.0.0.dist-info/WHEEL,sha256=Dn93xpeHZxpkTeUdkANqN5ZJeTmL5RDtqL0YvYsB_I4,144
+cyanure.libs/libgfortran-1d6a452c.so.3.0.0,sha256=fW84NwjWXc867vaGPyD6UZyuSBbAUI77yGaHWJ5IeFw,904188
+cyanure.libs/libgomp-2716b9e4.so.1.0.0,sha256=YAjX69EB8kRSeoeBFWS1bkLcR0TmwjQn-4lZte_ult0,97188
+cyanure.libs/libopenblas-r0-309fe381.3.3.so,sha256=R2JpcBRN3MIX_3qVAuACcZbcsCnva085PPsLgJbuK14,20203904
+cyanure/__init__.py,sha256=0sYu9Pj3Q3WVzOg1kIEhqsV5XebmA9alEnaBFEipGAE,61
+cyanure/estimators.py,sha256=Jv0NCKgvkIfNZRIoYEYvzblVWjdGWocu95iexBX1Ur4,48636
+cyanure/logger.py,sha256=OCL3XXLKgTwlQXmkCiqGRdC97vkODKLn2tQGcAzP_DU,728
+cyanure/data_processing.py,sha256=gNAg1Y7YRQHDdKD3wYaJsan-Pwnibi0ZZsGVxYuOx8Y,11389
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_estimator.py,sha256=aBjcTFUpE2CQub1eFaPIJsmyFVLPPGiufKZPpnSlOwY,391
+test/test_logistic_regression.py,sha256=H2O0BT5flCLPWdoeukEdk7WI1SzQ8jnue2KBCTd001o,36420
