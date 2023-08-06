@@ -1,0 +1,16 @@
+kaniko_remote/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+kaniko_remote/authorisers.py,sha256=RUwE12YRY0ACNevXY_mf1S441UM4ug0V4EXMJbNgoTg,3661
+kaniko_remote/builder.py,sha256=7sz9LE_Yjz-EEQ6az__raXjXFRHM-lNBgZ9noiiULNw,4675
+kaniko_remote/logging.py,sha256=BlTZovgSGL-4eKqTF0gDxzBqJRq2W7OjFNFwng8MjDs,1051
+kaniko_remote/main.py,sha256=rkOFJO3yF8H4NEXrzR9xOs43GlO_U9RK0z0Q5vRJQiY,3745
+kaniko_remote/config/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kaniko_remote/config/config.py,sha256=xY4yqFqSGITUko1Z_tyF8eyxNsXxY6Cjna4cNa2gtBE,2598
+kaniko_remote/k8s/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kaniko_remote/k8s/k8s.py,sha256=R80S4uWaQN_uET0T4oUW95x_qUAHzxLzS4olx8Q83SA,5875
+kaniko_remote/k8s/specs.py,sha256=PHArDc-VauIa_HihF4iHfFM34jhn3HE_kAd4yquHpbk,4656
+kaniko_remote-0.1.0.dist-info/LICENSE,sha256=EYHB0S0Sh_i_irk6Fu5sSTfIvtT4u4W0tm3U9sAgc3M,1070
+kaniko_remote-0.1.0.dist-info/METADATA,sha256=stKmlfshco3MoEBRcJZIj4FCps9YK22SQ6d1xmER_d8,989
+kaniko_remote-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+kaniko_remote-0.1.0.dist-info/entry_points.txt,sha256=1AUvSr6GKG9deTPzBmyB9N610BwQB2irhYFf9MUo9HY,89
+kaniko_remote-0.1.0.dist-info/top_level.txt,sha256=TNw-7gwkCOBdRyM4_LV7eMqGvfmhoTQY_3iCvUDgw_k,14
+kaniko_remote-0.1.0.dist-info/RECORD,,
