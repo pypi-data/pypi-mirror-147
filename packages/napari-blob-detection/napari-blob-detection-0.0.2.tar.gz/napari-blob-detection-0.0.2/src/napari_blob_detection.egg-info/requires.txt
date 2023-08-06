@@ -1,0 +1,7 @@
+napari>=0.4.13
+numpy
+scikit-image
+magicgui
+
+[test]
+pytest
