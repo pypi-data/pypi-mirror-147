@@ -1,0 +1,5 @@
+pyobjc>=8
+pyobjc<9
+
+[test]
+pytest>=6.2.2
