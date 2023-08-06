@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+src/adminpy.py
+src/adminpy.egg-info/PKG-INFO
+src/adminpy.egg-info/SOURCES.txt
+src/adminpy.egg-info/dependency_links.txt
+src/adminpy.egg-info/requires.txt
+src/adminpy.egg-info/top_level.txt
