@@ -1,0 +1,10 @@
+README.md
+setup.py
+pdemo/__init__.py
+pdemo/__main__.py
+pdemo/pdemo.py
+pdemo.egg-info/PKG-INFO
+pdemo.egg-info/SOURCES.txt
+pdemo.egg-info/dependency_links.txt
+pdemo.egg-info/entry_points.txt
+pdemo.egg-info/top_level.txt
