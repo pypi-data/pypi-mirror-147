@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: dragonfruit
+Version: 0.0.1a0
+Summary: Workflow tool
+Home-page: https://gitlab.com/computationalmaterials/dragonfruit
+Author: J. H. Chang, A. S. Tygesen
+Author-email: jchang@dtu.dk, alexty@dtu.dk
+License: MPL-2.0
+Project-URL: Source, https://gitlab.com/computationalmaterials/dragonfruit
+Keywords: Workflow,Simulation,Computational materials,Materials research
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# Dragonfruit
+
+A workflow tool for simulation software.
+
+
