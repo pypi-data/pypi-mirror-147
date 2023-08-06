@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/subroll/__init__.py
+src/subroll/main.py
+src/subroll.egg-info/PKG-INFO
+src/subroll.egg-info/SOURCES.txt
+src/subroll.egg-info/dependency_links.txt
+src/subroll.egg-info/top_level.txt
