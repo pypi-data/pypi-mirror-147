@@ -1,0 +1,10 @@
+setuptools>=61.0.0
+
+[:python_version < "3.11"]
+toml
+
+[test]
+pytest
+pytest-cov
+wheel
+wimpy
