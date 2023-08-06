@@ -1,0 +1,14 @@
+LICENCE.md
+README.md
+pyproject.toml
+setup.py
+scrapeops_python_requests/__init__.py
+scrapeops_python_requests/logger.py
+scrapeops_python_requests/requests_wrapper.py
+scrapeops_python_requests/scrapeops_requests.py
+scrapeops_python_requests/utils.py
+scrapeops_python_requests.egg-info/PKG-INFO
+scrapeops_python_requests.egg-info/SOURCES.txt
+scrapeops_python_requests.egg-info/dependency_links.txt
+scrapeops_python_requests.egg-info/requires.txt
+scrapeops_python_requests.egg-info/top_level.txt
