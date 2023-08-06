@@ -1,0 +1,4 @@
+[console_scripts]
+ertk_cli = ertk.cli:cli
+ertk_dataset = ertk.cli.dataset:cli
+ertk_util = ertk.cli.util:cli
