@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: PyRlEnvs-andnp
+Version: 1.1.0
+Summary: A handful of fast environments for running RL experiments
+Home-page: https://github.com/andnp/PyRlEnvs.git
+Author: Andy Patterson
+Author-email: andnpatterson@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (>=1.19.5)
+Requires-Dist: numba (>=0.52.0)
+Requires-Dist: scipy (>=1.5.4)
+Requires-Dist: rlglue-andnp
+Provides-Extra: dev
+Requires-Dist: build ; extra == 'dev'
+Requires-Dist: commitizen ; extra == 'dev'
+Requires-Dist: mypy (>=0.942) ; extra == 'dev'
+Requires-Dist: flake8 (>=4.0.1) ; extra == 'dev'
+Requires-Dist: gym (>=0.18.0) ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: pygame ; extra == 'dev'
+Requires-Dist: pipenv-setup[black] ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+
+UNKNOWN
+
