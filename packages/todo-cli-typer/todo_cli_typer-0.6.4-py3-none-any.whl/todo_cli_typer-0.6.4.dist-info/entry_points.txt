@@ -1,0 +1,3 @@
+[console_scripts]
+todot=todo_cli_typer.__main__:main
+
