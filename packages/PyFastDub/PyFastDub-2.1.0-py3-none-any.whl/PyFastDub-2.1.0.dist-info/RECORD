@@ -1,0 +1,11 @@
+FastDub/Audio.py,sha256=DaBNdg5Be0Vr7HdQucWg32w1tTaEbd7LETlj-iWelcQ,3113
+FastDub/Dubber.py,sha256=o8OH5vkM-Sxd-8swnJGMnMA2bgCu4x-yWs8l-dkfGTU,4651
+FastDub/FFMpeg.py,sha256=Oy8lBmks20uY6jVZqdqt8KAcn6r-7OliRh1HRD_mbVM,783
+FastDub/SrtSubtitles.py,sha256=n5QWCbFiBMN8chO66wFxf1HqwgWX4xAANGFxkFxiu2E,3672
+FastDub/Voicer.py,sha256=-XsFv_AlAHEfmLjsHgDtIMt3iNAv5mKA4qupr4et8Pk,1979
+FastDub/__init__.py,sha256=BqejnxOmjjgJpb-8y_QRXf2B-mWKFw9aexncJdKp_60,1635
+FastDub/__main__.py,sha256=PNIn2nOI4b_aiBQUktJpmlf-Q1PdgO9y1kjUHzOzqVg,3526
+PyFastDub-2.1.0.dist-info/METADATA,sha256=eK1T2hTqFRB5j3RtX2Np0U7XIGYpWJPehStaP_CEJFU,3898
+PyFastDub-2.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+PyFastDub-2.1.0.dist-info/top_level.txt,sha256=eRR1VK9Tt7FGR-5bKhluDiEihKMvXNKsnfA8uqjxicU,8
+PyFastDub-2.1.0.dist-info/RECORD,,
