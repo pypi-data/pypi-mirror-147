@@ -1,0 +1,14 @@
+README.rst
+setup.py
+bin/rssbot
+bin/rsscmd
+bin/rssctl
+files/rssbot.service
+rssbot/__init__.py
+rssbot/cmd.py
+rssbot/irc.py
+rssbot.egg-info/PKG-INFO
+rssbot.egg-info/SOURCES.txt
+rssbot.egg-info/dependency_links.txt
+rssbot.egg-info/requires.txt
+rssbot.egg-info/top_level.txt

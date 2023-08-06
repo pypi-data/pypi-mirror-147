@@ -1,0 +1,62 @@
+#!/usr/bin/env python3
+# This file is placed in the Public Domain.
+
+
+"modules bot"
+
+
+import os
+import readline
+import sys
+
+
+from obj.dbs import Config
+
+
+Config.name = "rssbot"
+Config.workdir = "/var/lib/rssbot/"
+
+
+from obj.dbs import Class, Config, Db, find, fntime, last, save
+from obj.fnc import edit, format, register
+
+from run.cbs import Callbacks
+from run.cmd import dispatch
+from run.shl import CLI, Shell, cmd
+
+from exc.dmn import cprint, daemon
+from exc.scn import init, scan
+from exc.wrp import wrap
+from exc.utl import wait
+
+
+from obj import Object, get, keys, update
+
+
+from rssbot import Fetcher
+
+from rssbot.irc import IRC
+
+
+class CLI(CLI):
+
+    def raw(self, txt):
+        cprint(txt)
+
+
+class Console(Shell):
+
+    def raw(self, txt):
+        cprint(txt)
+
+
+def main():
+    Callbacks.add("command", dispatch)
+    i = IRC()
+    i.start()
+    f = Fetcher()
+    f.start()
+    wait()
+
+
+main()
