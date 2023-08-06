@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/ShamsiDate.egg-info/PKG-INFO
+src/ShamsiDate.egg-info/SOURCES.txt
+src/ShamsiDate.egg-info/dependency_links.txt
+src/ShamsiDate.egg-info/entry_points.txt
+src/ShamsiDate.egg-info/not-zip-safe
+src/ShamsiDate.egg-info/top_level.txt
+src/shamsidate/__init__.py
+src/shamsidate/shamsi.py
