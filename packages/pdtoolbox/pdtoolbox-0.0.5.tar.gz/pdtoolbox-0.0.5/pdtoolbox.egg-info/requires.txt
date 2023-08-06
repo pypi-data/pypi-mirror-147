@@ -1,0 +1,4 @@
+cbpro
+pandas
+python-binance
+influxdb-client
