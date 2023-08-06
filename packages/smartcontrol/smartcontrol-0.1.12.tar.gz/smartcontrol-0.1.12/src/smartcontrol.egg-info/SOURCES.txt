@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/smartcontrol/__inti__.py
+src/smartcontrol/calendar.py
+src/smartcontrol/clock.py
+src/smartcontrol.egg-info/PKG-INFO
+src/smartcontrol.egg-info/SOURCES.txt
+src/smartcontrol.egg-info/dependency_links.txt
+src/smartcontrol.egg-info/not-zip-safe
+src/smartcontrol.egg-info/requires.txt
+src/smartcontrol.egg-info/top_level.txt
