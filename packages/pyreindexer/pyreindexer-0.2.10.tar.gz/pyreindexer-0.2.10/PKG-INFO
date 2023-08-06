@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pyreindexer
+Version: 0.2.10
+Summary: A connector that allows to interact with Reindexer
+Home-page: https://github.com/Restream/reindexer-py
+Author: Igor Tulmentyev
+Author-email: igtulm@gmail.com
+Maintainer: Reindexer Team
+Maintainer-email: contactus@reindexer.io
+License: Apache License 2.0
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
