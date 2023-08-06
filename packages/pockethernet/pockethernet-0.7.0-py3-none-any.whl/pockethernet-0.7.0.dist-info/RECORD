@@ -1,0 +1,10 @@
+pockethernet/__init__.py,sha256=ar-GyC1UyaYNMe8azwiZyIoz9ct6SM33hWdLJxt5dyg,10299
+pockethernet/__main__.py,sha256=Dj-1qrVnxOM2Rfrg_B1Tix2z3iMgr9NBxwLF1xaXvEc,5288
+pockethernet/crc16.py,sha256=LxLyBTwlLkSkU947_rVaCR-jqYC6CI-MOfuQ4G_kyoY,4309
+pockethernet/ethernet.py,sha256=_v0eLdeZNkhOv7dO6_Vh5HkvFYS3LdMOSgQWkDHgXto,13876
+pockethernet/testresult.py,sha256=7GbdrNYLxmmOGNxQjJ0HeP2R43QCWVIiVKkCOKZDqp4,6225
+pockethernet-0.7.0.dist-info/METADATA,sha256=L3JmHzkImMSiNO8lGn1yWCJXwLcwGcpM9M6bTBlrgCM,1650
+pockethernet-0.7.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pockethernet-0.7.0.dist-info/entry_points.txt,sha256=wYOx-qaWApeYexSXAHbYQNQBzwp-SF1I2H8oMN48gXU,61
+pockethernet-0.7.0.dist-info/top_level.txt,sha256=0jGd4C_9ryC6L0dK4LELB93lxF1HBBChhNgK2mRMR7Y,13
+pockethernet-0.7.0.dist-info/RECORD,,
