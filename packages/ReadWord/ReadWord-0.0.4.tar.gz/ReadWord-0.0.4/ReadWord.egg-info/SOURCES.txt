@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+ReadWord/__init__.py
+ReadWord/readword.py
+ReadWord.egg-info/PKG-INFO
+ReadWord.egg-info/SOURCES.txt
+ReadWord.egg-info/dependency_links.txt
+ReadWord.egg-info/requires.txt
+ReadWord.egg-info/top_level.txt
