@@ -1,0 +1,8 @@
+setup.py
+serializers_set.egg-info/PKG-INFO
+serializers_set.egg-info/SOURCES.txt
+serializers_set.egg-info/dependency_links.txt
+serializers_set.egg-info/top_level.txt
+src/__init__.py
+src/__main__.py
+test/tested_data.py
