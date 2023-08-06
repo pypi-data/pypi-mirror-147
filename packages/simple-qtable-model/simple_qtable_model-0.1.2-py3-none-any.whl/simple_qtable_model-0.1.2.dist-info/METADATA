@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: simple-qtable-model
+Version: 0.1.2
+Summary: create stylized table widget
+Home-page: https://git.is4s.com/DixonLeuenberger/table_model_package
+Author: Dixon Leuenberger
+License: UNKNOWN
+Keywords: qTableModel,pypi,package
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: PyQt5
+Provides-Extra: dev
+Requires-Dist: check-manifest ; extra == 'dev'
+
+## Package for easily creating and formatting frequenly used table model
+    pip install simple-qtable-model
+    Simple package for creating and formatting a stylized QTableModel
+
+# Usage
+    from tableModel.tableStyles import StyledTableWidget
+
+    table_model = StyleTableWidget(QTableWidget)
+
