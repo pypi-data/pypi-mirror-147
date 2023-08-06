@@ -1,0 +1,10 @@
+README.md
+setup.py
+stream_cli/__init__.py
+stream_cli/stream_cli.py
+stream_cli.egg-info/PKG-INFO
+stream_cli.egg-info/SOURCES.txt
+stream_cli.egg-info/dependency_links.txt
+stream_cli.egg-info/entry_points.txt
+stream_cli.egg-info/requires.txt
+stream_cli.egg-info/top_level.txt
