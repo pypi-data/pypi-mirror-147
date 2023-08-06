@@ -1,0 +1,3 @@
+[console_scripts]
+sb-portal-gun=sb_portal_gun.main:app
+

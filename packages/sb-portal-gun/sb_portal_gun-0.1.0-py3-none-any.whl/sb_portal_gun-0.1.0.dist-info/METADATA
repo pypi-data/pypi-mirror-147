@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: sb-portal-gun
+Version: 0.1.0
+Summary: 
+Author: Siddhartha Basu
+Author-email: basu.siddhartha@outlook.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: typer[all] (>=0.4.1,<0.5.0)
+Description-Content-Type: text/markdown
+
+# Portal Gun
+
+The awesome Portal Gun
