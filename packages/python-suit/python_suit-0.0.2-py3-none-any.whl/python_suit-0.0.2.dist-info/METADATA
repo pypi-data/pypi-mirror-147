@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: python-suit
+Version: 0.0.2
+Summary: However it suits you
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: virtualenv
+Requires-Dist: click
+Requires-Dist: rich
+Requires-Dist: tomli
+Requires-Dist: python-box (~=6.0)
+Requires-Dist: typing-extensions
+Requires-Dist: pydantic
+Requires-Dist: click-default-group
+
+UNKNOWN
+
