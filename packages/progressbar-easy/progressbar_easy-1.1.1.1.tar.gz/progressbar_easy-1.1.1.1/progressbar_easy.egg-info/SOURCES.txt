@@ -1,0 +1,11 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+progressbar/__init__.py
+progressbar/progressbar.py
+progressbar_easy.egg-info/PKG-INFO
+progressbar_easy.egg-info/SOURCES.txt
+progressbar_easy.egg-info/dependency_links.txt
+progressbar_easy.egg-info/top_level.txt
