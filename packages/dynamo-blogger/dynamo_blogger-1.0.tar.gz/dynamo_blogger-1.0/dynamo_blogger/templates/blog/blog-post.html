@@ -1,0 +1,210 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block title %} 
+{{ post.title }} 
+{% endblock title %}
+
+{% block content %}
+<div class="section">
+
+	<div class="container">
+
+		<div class="row">
+
+			<div class="col-md-8">
+				<div class="section-row sticky-container">
+					<div class="main-post">
+						<h3>{{ post.title|upper }}</h3>
+						
+						<figure class="figure-img">
+							<img class="img-responsive" src="{{ post.image.url }}" alt="{{ post.title }}">
+						</figure>
+
+						<p>{{ post.description|safe }}</p>
+					</div>
+					<div class="post-shares sticky-shares">
+						<a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{ request.build_absolute_uri }}" class="share-facebook"><i class="fa fa-facebook"></i></a>
+						<a target="_blank" href="https://twitter.com/intent/tweet?text={{ post.title }}&url={{ request.build_absolute_uri }}" class="share-twitter"><i class="fa fa-twitter"></i></a>
+						<a target="_blank" href="https://api.whatsapp.com/?text={{ post.title }}?url={{ request.build_absolute_uri }}" class="share-whatsapp"><i class="fa fa-whatsapp"></i></a>
+						<a target="_blank" href="https://www.linkedin.com/shareArticle/?title={{ post.title }}&url={{ request.build_absolute_uri }}2F{{ post.title }}2F&mini=true" class="share-linkedin"><i class="fa fa-linkedin"></i></a>
+					</div>
+				</div>
+
+				<hr>
+
+				<div class="section-row">
+					<div class="post-author">
+						<div class="media">
+							<div class="media-left">
+								<img class="media-object author-pic" src="{{ post.author.profile_picture.url }}" alt="{{ post.author.user.username }}">
+							</div>
+							<div class="media-body">
+								<div class="media-heading">
+									<h3>{{ post.author.fullname }}</h3>
+								</div>
+								<p>
+									{{ post.author.biography|safe }}
+								</p>
+								<ul class="author-social">
+									<li><a href="{{ post.author.facebook }}" target="_blank"><i class="fa fa-facebook"></i></a></li>
+									<li><a href="{{ post.author.twitter }}" target="_blank"><i class="fa fa-twitter"></i></a></li>
+									<li><a href="{{ post.author.linkedin }}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="section-row">
+					<div class="section-title">
+						<h2>{{ post.get_number_of_comments }} Comments</h2>
+					</div>
+					<div class="post-comments">
+
+						{% for comment in comments %}
+						<div class="media">
+							<div class="media-left">
+								<img class="media-object" src="{% static 'img/avatar.png' %}" alt="">
+							</div>
+							<div class="media-body">
+								<div class="media-heading">
+									<h4>{{ comment.name }}</h4>
+									<span class="time">{{ comment.date_created }}</span>
+									{% comment %} <a href="#" class="reply">Reply</a> {% endcomment %}
+								</div>
+								<p>
+									{{ comment.message }}
+								</p>
+
+								{% comment %} <div class="media">
+									<div class="media-left">
+										<img class="media-object" src="{% static 'img/avatar.png' %}" alt="">
+									</div>
+									<div class="media-body">
+										<div class="media-heading">
+											<h4>John Doe</h4>
+											<span class="time">March 27, 2018 at 8:00 am</span>
+											<a href="#" class="reply">Reply</a>
+										</div>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+											tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+											veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+											commodo consequat.</p>
+									</div>
+								</div> {% endcomment %}
+
+							</div>
+						</div>
+						{% endfor %}
+
+					</div>
+				</div>
+
+
+				<div class="section-row">
+					<div class="section-title">
+						<h2>Leave a reply</h2>
+						<p>your email address will not be published. required fields are marked *</p>
+					</div>
+					<form method="POST" action="{% url 'dynamo_blogger:blog__comment' post.slug %}" class="post-reply">
+						{% csrf_token %}
+						
+						<div class="row">
+							<div class="col-md-4">
+								<div class="form-group">
+									<span>Name *</span>
+									<input class="input" type="text" name="name" required>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="form-group">
+									<span>Email *</span>
+									<input class="input" type="email" name="email" required>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="form-group">
+									<span>Website</span>
+									<input class="input" type="text" name="website">
+								</div>
+							</div>
+							<div class="col-md-12">
+								<div class="form-group">
+									<textarea class="input" name="message" placeholder="Message*" required></textarea>
+								</div>
+								<button class="primary-button">Submit</button>
+							</div>
+						</div>
+					</form>
+				</div>
+
+			</div>
+
+
+			<div class="col-md-4">
+
+				<div class="aside-widget">
+					<div class="section-title">
+						<h2>Most Read</h2>
+					</div>
+					
+					{% for post in most_read_posts %}
+					<div class="post post-widget">
+						<a class="post-img" href="{{ post.get_absolute_url }}">
+							<img src="{{ post.image.url }}" alt="{{ post.title }}">
+						</a>
+						<div class="post-body">
+							<h3 class="post-title">
+								<a href="{{ post.get_absolute_url }}">
+									{{ post.title }}
+								</a>
+							</h3>
+						</div>
+					</div>
+					{% endfor %}
+
+				</div>
+
+
+				<div class="aside-widget">
+					<div class="section-title">
+						<h2>Featured Posts</h2>
+					</div>
+					
+					{% for post in featured_posts %}
+					<div class="post post-thumb">
+						<a class="post-img" href="{{ post.get_absolute_url }}">
+							<img src="{{ post.image.url }}" alt="{{ post.title }}">
+						</a>
+						
+						<div class="post-body">
+							<div class="post-meta">
+								<a class="post-category cat-3" href="{{ post.tag.get_absolute_url }}">
+									{{ post.tag.title }}
+								</a>
+								<span class="post-date">
+									{{ post.date_created|date:"M d, Y" }}
+								</span>
+							</div>
+							<h3 class="post-title">
+								<a href="{{ post.get_absolute_url }}">
+									{{ post.title }}
+								</a>
+							</h3>
+						</div>
+					</div>
+					{% endfor %}
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+</div>
+{% endblock content %}
