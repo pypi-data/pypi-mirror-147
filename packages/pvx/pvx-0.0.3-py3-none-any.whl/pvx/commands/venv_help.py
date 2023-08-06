@@ -1,0 +1,6 @@
+venvpy_new = "`pvx venv -n \[PY VERSION OR PATH] \[PARAMS]`"
+# venvpy_new_system = "`pvx venv -n system prompt=MY`"
+# venvpy_new_version = "`pvx venv -n 3.10.4 prompt=MY`"
+venvpy_activate = "`pvx venv -a \[PROMPT]`"
+venvpy_romove = "`pvx venv -r \[PROMPT]`"
+venvpy_list = "`pvx venv -l`"
