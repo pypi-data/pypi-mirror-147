@@ -1,0 +1,9 @@
+[tool.piku]
+project = "{{project}}"
+piku = "{{piku}}"
+circuit-python = "{{circuit_python}}"
+{% if board %}
+board = "{{board}}"
+{% endif %}
+
+[tool.piku.dependencies]
