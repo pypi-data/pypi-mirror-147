@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: nonebot-plugin-dida
+Version: 1.0.0
+Summary: 基于Nonebot的滴答清单插件,可创建普通任务/子任务,按照条件查询任务
+Home-page: https://github.com/TDK1969/nonebot_plugin_dida
+Author: TDK
+Author-email: tdk1969@foxmail.com
+License: GNU
+Keywords: nonebot
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Dist: nonebot-plugin-apscheduler
+Requires-Dist: requests
+
+nonebot-plugin-dida
+=========================
+
+简介
+=========================
+基于nonebot2的滴答清单插件,可创建普通任务/子任务,按照条件查询任务等功能
+
+

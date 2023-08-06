@@ -1,0 +1,13 @@
+nonebot_plugin_dida/__init__.py,sha256=qAbGLnrYhxPhbUYyHtZ8WYynmE2XdzdzEWTR9d7wOg8,17829
+nonebot_plugin_dida/config.py,sha256=gjhGKVExFo99vCU6gVXO6Wk69KBK8GAJ-mBkmx0ra1A,199
+nonebot_plugin_dida/file/source/changelog.md,sha256=gjGmFTFVcGr5kj7owYhDOQeL1s1IY95dUybOOxrv_xY,48
+nonebot_plugin_dida/file/source/column.md,sha256=SwROT6rL0V9FruAGkybnaS-OvPOW2xTMj_Bdz8HKNqs,310
+nonebot_plugin_dida/file/source/project.md,sha256=Af94W6M6i3eVrKTK7oQj0nLYULwvMw5no-fFYM5lGXs,459
+nonebot_plugin_dida/file/source/task.md,sha256=gwlQTc8GZfs9y3ue0ST_XTddVyONfZuP6I3fyx4lBW8,1011
+nonebot_plugin_dida/file/template/task.json,sha256=pKZyY-ont-srBgWnu5u5j2ZzEsguP-nOIda80UpTLqo,462
+nonebot_plugin_dida/file/template/updateTask.json,sha256=nT2AvuhCNV-0C_O-d76Lj6OSaAM9pOhKvgBUkDHHjPg,137
+nonebot_plugin_dida-1.0.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+nonebot_plugin_dida-1.0.0.dist-info/METADATA,sha256=KyXOLWPCmiC4366Sp4GPdub3MvrUZvmVIU0K88jF_XY,740
+nonebot_plugin_dida-1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+nonebot_plugin_dida-1.0.0.dist-info/top_level.txt,sha256=DappCxS0s21bfKRSSkZ4B1KXfqAWLf-Zny6oRadfjVE,20
+nonebot_plugin_dida-1.0.0.dist-info/RECORD,,
