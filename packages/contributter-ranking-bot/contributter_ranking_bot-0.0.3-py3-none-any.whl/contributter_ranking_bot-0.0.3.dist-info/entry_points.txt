@@ -1,0 +1,3 @@
+[console_scripts]
+crb = contributter_ranking_bot.main:main
+
