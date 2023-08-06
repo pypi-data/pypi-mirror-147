@@ -1,0 +1,15 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+podcast_player/__init__.py
+podcast_player/cli.py
+podcast_player/database.py
+podcast_player/database_manager.py
+podcast_player/podcast.py
+podcast_player/podcast_parser.py
+podcast_player/podcast_player.py
+podcast_player/user_settings.py
+tests/__init__.py
+tests/test_cli.py
+tests/test_podcast.py
