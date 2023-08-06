@@ -1,0 +1,3 @@
+[console_scripts]
+lusk=lusk.__main__:main
+
