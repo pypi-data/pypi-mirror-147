@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ServerTime
+Version: 1.0.1
+Summary: Get server time from http | https URLs.
+Author: LUA9
+Maintainer: LUA9
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# Usage:
+```shell
+python -m ServerTime.CLI https://www.google.com
+```
+
