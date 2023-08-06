@@ -1,0 +1,15 @@
+.git/
+.ipynb_checkpoints/
+
+__pycache__/
+
+build/
+dist/
+screenshots/
+node_modules/
+
+.coverage
+*.xunit.xml
+*.egg-info
+*.log
+*.pyc

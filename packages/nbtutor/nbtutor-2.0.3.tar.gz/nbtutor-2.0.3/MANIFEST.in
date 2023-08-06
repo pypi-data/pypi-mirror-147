@@ -1,0 +1,31 @@
+graft docs
+graft examples
+graft nbtutor
+graft e2e
+graft src
+graft tests
+graft tools
+
+include *.gif
+include *.js
+include *.json
+include *.md
+include *.py
+include *.txt
+include *.yml
+
+include .coveragerc
+include .browserslistrc
+include .dockerignore
+include .editorconfig
+
+recursive-include binder *.yml
+
+recursive-include nbtutor *
+
+recursive-exclude .vscode *
+recursive-exclude examples/.ipynb_checkpoints *
+
+exclude TODO.md
+
+global-exclude *.py[cod] __pycache__ *.so *.dylib *.prof
