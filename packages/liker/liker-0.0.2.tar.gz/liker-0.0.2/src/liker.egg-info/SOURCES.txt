@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/liker.egg-info/PKG-INFO
+src/liker.egg-info/SOURCES.txt
+src/liker.egg-info/dependency_links.txt
+src/liker.egg-info/top_level.txt
