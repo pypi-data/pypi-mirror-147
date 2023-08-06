@@ -1,0 +1,3 @@
+[console_scripts]
+thoth=thoth.cli:thoth
+
