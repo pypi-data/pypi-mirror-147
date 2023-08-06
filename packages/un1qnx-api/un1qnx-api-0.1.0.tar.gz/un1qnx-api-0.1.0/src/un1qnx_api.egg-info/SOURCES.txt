@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+src/un1qnx/__init__.py
+src/un1qnx/base.py
+src/un1qnx/product.py
+src/un1qnx/tag.py
+src/un1qnx_api.egg-info/PKG-INFO
+src/un1qnx_api.egg-info/SOURCES.txt
+src/un1qnx_api.egg-info/dependency_links.txt
+src/un1qnx_api.egg-info/not-zip-safe
+src/un1qnx_api.egg-info/requires.txt
+src/un1qnx_api.egg-info/top_level.txt
