@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+Cp2kData.egg-info/PKG-INFO
+Cp2kData.egg-info/SOURCES.txt
+Cp2kData.egg-info/dependency_links.txt
+Cp2kData.egg-info/requires.txt
+Cp2kData.egg-info/top_level.txt
