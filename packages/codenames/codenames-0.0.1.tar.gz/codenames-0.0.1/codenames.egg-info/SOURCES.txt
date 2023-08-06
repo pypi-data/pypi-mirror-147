@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+codenames/__init__.py
+codenames.egg-info/PKG-INFO
+codenames.egg-info/SOURCES.txt
+codenames.egg-info/dependency_links.txt
+codenames.egg-info/top_level.txt
