@@ -1,0 +1,4 @@
+idem>=18.5.0
+pop
+acct
+GitPython>=3.1.27
