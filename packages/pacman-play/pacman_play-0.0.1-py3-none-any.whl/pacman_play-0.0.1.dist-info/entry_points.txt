@@ -1,0 +1,2 @@
+[console_scripts]
+pacman-play = pacman.main:run
