@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+oierspace/__init__.py
+oierspace.egg-info/PKG-INFO
+oierspace.egg-info/SOURCES.txt
+oierspace.egg-info/dependency_links.txt
+oierspace.egg-info/requires.txt
+oierspace.egg-info/top_level.txt
