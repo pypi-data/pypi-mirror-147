@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: syndp
+Version: 0.1.0
+Summary: Syndp is data synthesis package that leverages local differential privacy and various synthesis methods
+Home-page: https://github.com/memy85/Syndp
+Author: Won Seok Jang
+Author-email: memy85@naver.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+UNKNOWN
+
