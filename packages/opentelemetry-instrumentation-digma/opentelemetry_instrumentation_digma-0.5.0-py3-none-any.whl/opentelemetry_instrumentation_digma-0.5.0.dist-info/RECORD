@@ -1,0 +1,9 @@
+digma_instrumentation/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+digma_instrumentation/configuration.py,sha256=VkiW32Pb6l9fhXoxQgKXpLsOSOj69LaqI8s05X_nOxU,2379
+digma_instrumentation/instrumentation_tools.py,sha256=KdgXho2-np_vZrvnpHjaBM2OFCKzeD8qavNQI8plg2I,3570
+digma_instrumentation/opentelemetry_utils.py,sha256=7y2IuU8SAV1t_thkPY5fqzmI62_5F9WE7IivCC65Q48,2727
+digma_instrumentation/version.py,sha256=0PaI2eSOCp5kkNcpKpUSbLHf66rL9xQzFpYyLGpEtyM,22
+opentelemetry_instrumentation_digma-0.5.0.dist-info/METADATA,sha256=5DAenySD9oGalTBQu-Fd1auvzq7KI4HcTASfKMboYm8,1159
+opentelemetry_instrumentation_digma-0.5.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+opentelemetry_instrumentation_digma-0.5.0.dist-info/top_level.txt,sha256=vOf_5_oIauowScFtz-ACXauyon40gLh-XaIqOnWr1qE,22
+opentelemetry_instrumentation_digma-0.5.0.dist-info/RECORD,,
