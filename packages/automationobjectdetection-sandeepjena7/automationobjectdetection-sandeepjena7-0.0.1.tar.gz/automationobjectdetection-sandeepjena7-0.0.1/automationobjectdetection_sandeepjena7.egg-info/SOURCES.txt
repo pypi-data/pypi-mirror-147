@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+automationobjectdetection_sandeepjena7.egg-info/PKG-INFO
+automationobjectdetection_sandeepjena7.egg-info/SOURCES.txt
+automationobjectdetection_sandeepjena7.egg-info/dependency_links.txt
+automationobjectdetection_sandeepjena7.egg-info/requires.txt
+automationobjectdetection_sandeepjena7.egg-info/top_level.txt
+src/Prediction.py
+src/__init__.py

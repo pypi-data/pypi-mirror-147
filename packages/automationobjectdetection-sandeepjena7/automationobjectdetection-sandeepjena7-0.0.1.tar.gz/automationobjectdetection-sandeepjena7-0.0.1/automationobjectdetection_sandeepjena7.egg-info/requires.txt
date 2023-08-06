@@ -1,0 +1,16 @@
+protobuf
+six
+tensorboard==1.14.0
+tensorflow==1.14.0
+opencv-python
+matplotlib
+Cython
+torch==1.8.1
+torchvision==0.9.1
+fvcore
+cloudpickle
+omegaconf
+pandas
+seaborn
+requests
+pycocotools
