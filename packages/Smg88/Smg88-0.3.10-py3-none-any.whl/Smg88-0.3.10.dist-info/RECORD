@@ -1,0 +1,15 @@
+Smg88/__init__.py,sha256=awbtM68IQRHZDc9WIGjxNoRPCi5HAnBcAsG28cA4I48,26
+Smg88/__main__.py,sha256=s_tBsx5gp_rS2c6E1swr-6fScIgj0JeizS3ND49qH7c,122
+Smg88/coms.py,sha256=BCnqEXWn3Zs9yoSASoxr7eL8lzyQo_4ZnuHdrZq52do,6564
+Smg88/easycopyforAndrew.py,sha256=I1l8PVpm6AMwL0-mua4TBCpSsd9Y77OpBGzfvu2IYcs,4858
+Smg88/errors.py,sha256=m2bKhPs5Lsj1lDTloyWxQgjlG4y6JS70kqQ3s9HMBgg,2163
+Smg88/events.py,sha256=Cp08U4n5LfV3g-tOrT_iRjFrIg4i4R3gsBOMQqmYWw4,15120
+Smg88/hashing.py,sha256=A7wSRw8jg5bb4SEIq1Fq7mIlW4OK6VdrxGj4d7o6ZHM,1749
+Smg88/loghelp.py,sha256=AunGbhWh9u5SCW-bO4n4cZ_IvjWpRlWVVHrC9C1uND0,7338
+Smg88/ryanpinger.py,sha256=tEWIugXYdaPYlKPoMko-3pFUucicZTpwONazklbovF4,3066
+Smg88/security.py,sha256=3ELwWdUxV8JVCLoAHWmzBdujKUq9JU1sf3Dv2alAxMw,691
+Smg88-0.3.10.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Smg88-0.3.10.dist-info/METADATA,sha256=0_knkSJDeQEjJk8ABF-14lHh1tlqMqALWmdECYZsKtQ,710
+Smg88-0.3.10.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+Smg88-0.3.10.dist-info/top_level.txt,sha256=lminectuEvo2s859cUd6n2vbt7IJyTbKgqk6SfFL2O0,6
+Smg88-0.3.10.dist-info/RECORD,,
