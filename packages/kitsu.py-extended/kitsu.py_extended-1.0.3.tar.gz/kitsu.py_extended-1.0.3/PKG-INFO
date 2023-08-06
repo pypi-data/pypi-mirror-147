@@ -1,0 +1,90 @@
+Metadata-Version: 2.1
+Name: kitsu.py-extended
+Version: 1.0.3
+Summary: kitsu.py_extened is an asynchronous API wrapper for Kitsu written in Python. (Extend kitsu.py)
+Home-page: https://github.com/dymattic/kitsu.py_extended/
+License: MIT
+Keywords: kitsu,async kitsu,kitsu.py,kitsu api wrapper
+Author: Dymattic
+Author-email: dymattic@naise.io
+Maintainer: Dymattic
+Maintainer-email: dymattic@naise.io
+Requires-Python: >=3.8,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Games/Entertainment
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Dist: aiohttp (>=3.7.4,<4.0.0)
+Requires-Dist: python-dateutil (>=2.8.2,<3.0.0)
+Project-URL: Bug Tracker, https://github.com/dymattic/kitsu.py_extended/issues
+Project-URL: Changelog, https://github.com/dymattic/kitsu.py_extended/blob/master/CHANGELOG.md
+Project-URL: Repository, https://github.com/dymattic/kitsu.py_extended/
+Description-Content-Type: text/markdown
+
+<h1 align="center">Kitsu.py_extended</h1>
+
+## Important:
+This is a fork of [MrArkon/kitsu.py](https://github.com/MrArkon/kitsu.py)
+
+## Key Features
+* Simple and modern Pythonic API using `async/await`
+* Fully typed
+
+## Requirements
+
+Python 3.8+
+* [aiohttp](https://pypi.org/project/aiohttp/)
+* [python-dateutil](https://pypi.org/project/python-dateutil)
+
+## Installing
+To install the library, run the following commands:
+```shell
+# Linux/MacOS
+python3 -m pip install -U kitsu.py_extended
+
+# Windows
+py -3 -m pip install -U kitsu.py_extended
+```
+
+## Usage
+
+Search for an anime:
+```python
+import kitsu
+import asyncio
+
+client = kitsu.Client()
+
+async def main():
+    anime = await client.search_anime("jujutsu kaisen", limit=1)
+    
+    print("Canonical Title: " + anime.canonical_title)
+    print("Average Rating: " + str(anime.average_rating))
+    
+    # Close the internal aiohttp ClientSession
+    await client.close()
+
+loop = asyncio.get_event_loop()
+loop.run_until_complete(main())
+```
+This prints:
+```
+Canonical Title: Jujutsu Kaisen
+Average Rating: 85.98
+```
+You can find more examples in the [examples](https://github.com/MrArkon/kitsu.py/tree/master/examples/) directory.
+
+## License
+
+This project is distributed under the [MIT](https://github.com/MrArkon/kitsu.py/blob/master/LICENSE.txt) license.
+
