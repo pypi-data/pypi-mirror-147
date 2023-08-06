@@ -1,0 +1,15 @@
+.gitignore
+LICENSE.txt
+README.txt
+requirements.txt
+setup.py
+anomalo/__init__.py
+anomalo/_version.py
+anomalo/anomalo.py
+anomalo.egg-info/PKG-INFO
+anomalo.egg-info/SOURCES.txt
+anomalo.egg-info/dependency_links.txt
+anomalo.egg-info/entry_points.txt
+anomalo.egg-info/requires.txt
+anomalo.egg-info/top_level.txt
+examples/sample.py
