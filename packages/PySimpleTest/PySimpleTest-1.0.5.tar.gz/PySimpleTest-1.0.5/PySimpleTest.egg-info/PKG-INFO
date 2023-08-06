@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: PySimpleTest
+Version: 1.0.5
+Summary: A very simple test framework
+Home-page: https://github.com/Time-Coder/PySimpleTest
+Author: Time-Coder
+Author-email: binghui.wang@foxmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+# PySimpleTest -- Make test as simple as possible
+
+PySimpleTest is a very simple test framwork. To start using it, try following example:  
+Write a file `main.py`:
+
+```python
+from PySimpleTest import *
+
+a = 2
+should_be_equal(a, 2)
+should_be_less(a, 1)
+```
+
+Then run it. You can get following cmd output:
+
+![avatar](https://gitee.com/time-coder/PySimpleTest/raw/master/images/first_example.png)
+
+Please see full documentation at [https://github.com/Time-Coder/PySimpleTest](https://github.com/Time-Coder/PySimpleTest)
+
+## Release Note
+### 1.0.5
+* Added `Section` class. User can use `Section` with Python `with` syntax instead of `section`, `end_section`, `subsection`.
+### 1.0.2
+* First release for all basic functions.
+
