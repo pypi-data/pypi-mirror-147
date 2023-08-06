@@ -1,0 +1,6 @@
+bs4
+requests
+tqdm
+pycryptodomex
+better-ffmpeg-progress
+kitsu.py-extended
