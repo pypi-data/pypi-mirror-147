@@ -1,0 +1,12 @@
+regex_rename/__init__.py,sha256=zlJPU3RAlz-79H23tiX_XUukjXX6Pl-4Ou0lL0NSXnM,56
+regex_rename/__main__.py,sha256=VFNeDzo3L75AJV0SRL_0omoEKSln7oTL81L67iCFrlk,74
+regex_rename/main.py,sha256=AT1qmQufYlesJ6BnLZrExUlMxkxQqYXbEofReWWKP_A,1396
+regex_rename/match.py,sha256=iMMUslvYDYohyA-GC-cp4f7Rlc7RG3OP7Ak2lgb-qRo,725
+regex_rename/rename.py,sha256=Q7xpV9svxiOEXdhOD0_-U_5DFMBooJ_03f537sLh32w,6005
+regex_rename/version.py,sha256=J-j-u0itpEFT6irdmWmixQqYMadNl1X91TxUmoiLHMI,22
+regex_rename-1.0.0.dist-info/LICENSE,sha256=n3arXzCDtIW-QzU8vjLN8sdW-n4VOhKGCzhyPvEDNLs,1063
+regex_rename-1.0.0.dist-info/METADATA,sha256=VFOuSnt2LSjsuPV30dsU6sE2tFXw_twYUWvipIt8uQM,6578
+regex_rename-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+regex_rename-1.0.0.dist-info/entry_points.txt,sha256=OGNWFdLv0kYT04qz21etwkTEiaAkVrTZ6h8qkNFXFq4,56
+regex_rename-1.0.0.dist-info/top_level.txt,sha256=8rVel7uK6tmnQ2SX78GkFfevfSa-u1mwzAG_qMtbRoY,13
+regex_rename-1.0.0.dist-info/RECORD,,
