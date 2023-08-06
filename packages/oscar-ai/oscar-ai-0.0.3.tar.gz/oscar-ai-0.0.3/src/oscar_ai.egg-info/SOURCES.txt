@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/oscar_ai/__init__.py
+src/oscar_ai.egg-info/PKG-INFO
+src/oscar_ai.egg-info/SOURCES.txt
+src/oscar_ai.egg-info/dependency_links.txt
+src/oscar_ai.egg-info/top_level.txt
+src/oscar_ai/actions/__init__.py
+src/oscar_ai/actions/speak.py
