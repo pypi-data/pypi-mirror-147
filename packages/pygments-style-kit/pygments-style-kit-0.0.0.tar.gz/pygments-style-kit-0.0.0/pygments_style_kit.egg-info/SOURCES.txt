@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.cfg
+pygments_style_kit.egg-info/PKG-INFO
+pygments_style_kit.egg-info/SOURCES.txt
+pygments_style_kit.egg-info/dependency_links.txt
+pygments_style_kit.egg-info/top_level.txt
