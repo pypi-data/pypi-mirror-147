@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+retail_scraper/__init__.py
+retail_scraper.egg-info/PKG-INFO
+retail_scraper.egg-info/SOURCES.txt
+retail_scraper.egg-info/dependency_links.txt
+retail_scraper.egg-info/top_level.txt
+retail_scraper/spiders/__init__.py
+retail_scraper/spiders/sephora.py
+retail_scraper/spiders/ulta.py
+retail_scraper/spiders/utils.py
