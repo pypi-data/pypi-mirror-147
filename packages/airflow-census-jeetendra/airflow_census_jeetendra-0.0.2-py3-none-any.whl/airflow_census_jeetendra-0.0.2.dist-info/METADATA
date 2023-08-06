@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: airflow-census-jeetendra
+Version: 0.0.2
+Summary: This is the project to ingest data from densu API
+Author: Jeetendra Shakya
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: tfx (==1.6.1)
+Requires-Dist: apache-beam[interactive]
+Requires-Dist: apache-airflow
+
+UNKNOWN
+
