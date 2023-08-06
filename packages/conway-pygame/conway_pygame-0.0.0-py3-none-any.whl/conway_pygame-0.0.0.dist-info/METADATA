@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: conway-pygame
+Version: 0.0.0
+Summary: Conway's Game of Life in Pygame
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: X11 Applications
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Games/Entertainment
+Classifier: Topic :: Games/Entertainment :: Simulation
+Classifier: Topic :: Software Development :: Libraries :: pygame
+Classifier: Topic :: Multimedia :: Graphics :: Viewers
+Description-Content-Type: text/markdown
+Requires-Dist: pygame (>=2.1.2)
+Requires-Dist: click (>=8.0.0)
+
+# Conway's game of life
+
+This is an implementation of the Conway's game of life using pygame.
+
+## Installation
+
+### Instalation with git
+```shell
+$ git clone https://gitlab.com/frague59/conway.git
+$ cd conway
+$ python3 -m venv --prompt conway ./venv
+$ . venv/bin/activate
+$ pip install -r ./requirements.txt
+```
+
+### Installation with pip
+
+```shell
+$ mkdir conway
+$ cd conway
+$ python3 -m venv --prompt conway ./venv
+$ . venv/bin/activate
+$ pip install conway-pygame
+```
+
+## Usage
+
+```shell
+$ conway-pygame --help
+Usage: python -m conway [OPTIONS]
+
+  Conway's game of life.
+
+Options:
+  -w, --width INTEGER    Width of the grid.
+  -h, --height INTEGER   Height of the grid.
+  -n, --initial INTEGER  Number of living cells at start.
+  -d, --debug            DEBUG mode.
+  --version              Show the version and exit.
+  --help                 Show this message and exit.
+
+$ conway-pygame --width 120 --height 120 --initial 2000 -d
+```
+
+
