@@ -1,0 +1,2 @@
+[console_scripts]
+s3dir = s3dir_src.run:main
