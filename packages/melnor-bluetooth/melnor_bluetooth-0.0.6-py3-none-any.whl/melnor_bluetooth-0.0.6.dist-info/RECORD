@@ -1,0 +1,11 @@
+melnor_bluetooth/__init__.py,sha256=CHUdJvPS3l7PphMt_r17ufrpB0TIJkmifpqmTNjwh84,22
+melnor_bluetooth/constants.py,sha256=yp3CBpj9eT6KxESQLgMXC0fvzIJ39Vz94CfRyszidOs,2124
+melnor_bluetooth/device.py,sha256=ll3J-k9s8xzYFC2kPdYcXtzKzakn-yvZvlDD59GY8GE,9049
+melnor_bluetooth/parser/battery.py,sha256=Qk5qXcfGJm81XSgtYGxiOtPseAlUs2gdokKc_reK_Jg,435
+melnor_bluetooth/parser/date.py,sha256=g6v5d6d9DDitTgDuRIfDALxpYlfFQ1RZF0NUPCjBxIQ,1665
+melnor_bluetooth/parser/manufacturer.py,sha256=R0Dhn3pXA7g3WrJj4xDlcR-NUHFqh86RiAtqBPROF24,276
+melnor_bluetooth/scanner.py,sha256=wST5Rc7GPa7Nhn0VSAxGOxhRxM_9wLTlEBwV8ZmjIBI,1941
+melnor_bluetooth-0.0.6.dist-info/LICENSE,sha256=IqkHb5OMg0T9nbUVPuJfkBGDU-D9orW-4H31wg6ERSs,1074
+melnor_bluetooth-0.0.6.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+melnor_bluetooth-0.0.6.dist-info/METADATA,sha256=ww_SXOX6RKHefN_3kZL_KmYgt6OC7rWJ8V8DCnTtffM,3011
+melnor_bluetooth-0.0.6.dist-info/RECORD,,
