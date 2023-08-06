@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: suef-simpletcp
+Version: 0.0.4
+Summary: Simple solution to get started with TCP Servers and Clients
+Home-page: https://github.com/sueffuenfelf/simpletcp
+Author: sueffuenfelf
+Author-email: depsol.github@gmail.com
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/sueffuenfelf/simpletcp/issues
+Project-URL: Source, https://github.com/sueffuenfelf/simpletcp
+Keywords: tcp simple easy
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# TCP
+
+This repository contains simplefied classes to use TCP sockets much easier.
+
+## Usage
+
+```python
+from multiprocessing import Process
+from suef_simpletcp import Server, Client
+from suef_simpletcp import BaseConnection
+
+class MyServer(Server):
+    def onClientConnect(self, client: BaseConnection):
+        while True:
+            try:
+                if client.get().lower() == 'ping':
+                    client.send('Pong!')
+            except KeyboardInterrupt:
+                pass
+    
+    def onClientDisconnect(self, client: BaseConnection, error: Exception):
+        print(f'Connection to Client (ip: {client.ip}, port: {client.port}) got interrupted. Reason: {error.__class__.__name__}')
+
+if __name__ == "__main__":
+    # running server in different process, because it blocks further code execution (it's not asynchronous)
+    server = MyServer('127.0.0.1', 1074)
+    serverProcess = Process(target=server.start, args=())
+    serverProcess.start()
+
+
+    with Client('127.0.0.1', 1074) as client:
+        client.send('ping')
+        print(client.get()) # output: Pong!
+    serverProcess.terminate()
+```
+
+
