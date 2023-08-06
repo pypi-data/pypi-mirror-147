@@ -1,0 +1,23 @@
+[tool.black]
+target_version = ['py36', 'py37', 'py38', 'py39', 'py310']
+include = '\.pyi?$'
+skip-magic-trailing-comma = true
+preview = true
+
+exclude = '''
+/(
+    \.git
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | \.eggs
+)/
+'''
+
+[tool.mypy]
+python_version = "3.6"
+warn_unused_configs = true
+
+[[tool.mypy.overrides]]
+module = "nose.plugins.skip"
+ignore_missing_imports = true
