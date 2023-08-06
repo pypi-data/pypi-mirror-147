@@ -1,0 +1,9 @@
+pdfmerge2/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pdfmerge2/app.py,sha256=1SJUm-t4DEZJ2xj3UE1Cfxg03lOuXEyUxIzwAIfOKD8,1596
+pdfmerge2/exceptions.py,sha256=f3mjgNINlZnO5RLR_hvMFVkr7PLRPw_pGt20s8MLetI,397
+pdfmerge2/merger.py,sha256=IbuaavsJhlAh9uQmp3_IJ8Enx8Xp6CbuJvzAMKimG3M,2028
+pdfmerge2-0.1.2.dist-info/entry_points.txt,sha256=Bp3NqQi0p0mhz_vIk71s866QkR9rPPllWKPSN-8ZqjI,46
+pdfmerge2-0.1.2.dist-info/LICENSE,sha256=ZHdwzqE9WA0kSeF8o8q9dQnLmxiuvN1-5QVmvgVE4_o,1072
+pdfmerge2-0.1.2.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+pdfmerge2-0.1.2.dist-info/METADATA,sha256=wjrr0fuq24Dv21d3_yEa8vBXXRExfumVhRqpfXAoqn8,1326
+pdfmerge2-0.1.2.dist-info/RECORD,,
