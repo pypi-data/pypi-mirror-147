@@ -1,0 +1,7 @@
+python_libcombine-0.2.17.dist-info/RECORD,,
+python_libcombine-0.2.17.dist-info/METADATA,sha256=s0Q--fyyCgcw7KDJXzIZAgDxpvEctXSRY_m2TMHzMWE,433
+python_libcombine-0.2.17.dist-info/top_level.txt,sha256=8S83piZWUO3be7Mraas3rX1iWJGTABgxl_82UdwEmWs,23
+python_libcombine-0.2.17.dist-info/LICENSE.md,sha256=JodgdckDqUjmY-yLsVwT1I2HyFPd0D7focDijUy0uxE,1368
+python_libcombine-0.2.17.dist-info/WHEEL,sha256=paN2rHE-sLfyg0Z4YvQnentMRWXxZnkclRDH8E5J6qk,148
+libcombine/__init__.py,sha256=ORCFHeGTvbPK0CKapGBzjM9LYWzoy9hsmzaQe1LCf60,246482
+libcombine/_libcombine.cpython-38-x86_64-linux-gnu.so,sha256=yZ9_Zm0FEVhZ11zr5odfTawYIs7CPzuOLT7Dup2pE9k,8293928
