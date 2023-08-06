@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: ddpm-proteins
+Version: 0.0.11
+Summary: Denoising Diffusion Probabilistic Models - for Proteins - Pytorch
+Home-page: https://github.com/lucidrains/ddpm-proteins
+Author: Phil Wang
+Author-email: lucidrains@gmail.com
+License: MIT
+Keywords: artificial intelligence,generative models,proteins
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+License-File: LICENSE
+Requires-Dist: einops
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pillow
+Requires-Dist: proDy
+Requires-Dist: scipy
+Requires-Dist: sidechainnet
+Requires-Dist: seaborn
+Requires-Dist: torch
+Requires-Dist: torchvision
+Requires-Dist: tqdm
+Requires-Dist: wandb
+
+UNKNOWN
+
