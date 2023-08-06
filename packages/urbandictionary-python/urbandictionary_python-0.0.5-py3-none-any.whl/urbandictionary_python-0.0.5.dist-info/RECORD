@@ -1,0 +1,15 @@
+LICENCE.txt,sha256=pzNHzgxMegfYpc7oSXc_FSKlGKgbnB1QBYRN9p4D7ss,1111
+README.md,sha256=itt4v7ayPQ9kwVgXP3Z4m42gnr5WLGzoPYe1hNIQ_IU,1751
+urbandictionary_python/__init__.py,sha256=PkObW3kPrZdkmuIrY3i47QpFp4-Nn88qw32PfZ6mu90,245
+urbandictionary_python/exceptions.py,sha256=3ikW3QEaSWbE0aL56ke3C45akncOtPpwU_JnMt3PNhQ,211
+urbandictionary_python/urban_dictionary.py,sha256=VoTzn_wcMj43SoZDML4cEp0j7_2xny2TznHeWmzs92c,1943
+urbandictionary_python.egg-info/PKG-INFO,sha256=XlCeumm7cRfnvJWhfM6jWHUCQIfqoAn_3l8-SCGZiCM,2735
+urbandictionary_python.egg-info/SOURCES.txt,sha256=OmzRICKnKobd5KDQdWrcEY868b8JVe-p8sFCNs_8A7w,374
+urbandictionary_python.egg-info/dependency_links.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+urbandictionary_python.egg-info/requires.txt,sha256=fMSVmHfb5rbGOo6xv-O_tUX6j-WyixssE-SnwcDRxNQ,9
+urbandictionary_python.egg-info/top_level.txt,sha256=yxP8b7iRi1NusT0zW6gBn5VNJam-EyNvS6jewb6uf4I,24
+urbandictionary_python-0.0.5.dist-info/LICENCE.txt,sha256=pzNHzgxMegfYpc7oSXc_FSKlGKgbnB1QBYRN9p4D7ss,1111
+urbandictionary_python-0.0.5.dist-info/METADATA,sha256=zDoSo_nO8uDN99raaJkK_KKqDKgafvJaQxfciYic6hc,2184
+urbandictionary_python-0.0.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+urbandictionary_python-0.0.5.dist-info/top_level.txt,sha256=yxP8b7iRi1NusT0zW6gBn5VNJam-EyNvS6jewb6uf4I,24
+urbandictionary_python-0.0.5.dist-info/RECORD,,
