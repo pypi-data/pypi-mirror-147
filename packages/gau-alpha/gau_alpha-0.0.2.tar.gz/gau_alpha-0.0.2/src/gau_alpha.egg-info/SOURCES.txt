@@ -1,0 +1,16 @@
+.gitignore
+README.md
+compare.py
+requirements.txt
+setup.py
+test_mlm.py
+chinese_GAU-alpha-char_L-24_H-768/config.json
+chinese_GAU-alpha-char_L-24_H-768/vocab.txt
+src/gau_alpha/__init__.py
+src/gau_alpha/layer.py
+src/gau_alpha/modeling_gau_alpha.py
+src/gau_alpha.egg-info/PKG-INFO
+src/gau_alpha.egg-info/SOURCES.txt
+src/gau_alpha.egg-info/dependency_links.txt
+src/gau_alpha.egg-info/requires.txt
+src/gau_alpha.egg-info/top_level.txt
