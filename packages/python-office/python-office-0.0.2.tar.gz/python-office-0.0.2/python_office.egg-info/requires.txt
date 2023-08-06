@@ -1,0 +1,13 @@
+pandas
+xlrd
+xlwt
+xlutils
+xlwings
+openpyxl
+xlswriter
+python-docx
+python-pptx
+PyPDF2
+scrapy
+django
+flask
