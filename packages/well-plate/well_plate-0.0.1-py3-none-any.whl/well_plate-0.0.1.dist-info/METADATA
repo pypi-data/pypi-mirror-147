@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: well-plate
+Version: 0.0.1
+Summary: Work with well plates!
+Home-page: https://github.com/dylanwal/well_plate
+Author: Dylan Walsh
+License: BSD
+Platform: any
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: numpy (>=1.21.5)
+Requires-Dist: pandas (>=1.4.2)
+Requires-Dist: plotly (>=5.6.0)
+
+# Unit Parse (unit_parse)
+
+---
+---
+![PyPI](https://img.shields.io/pypi/v/well_plate)
+![downloads](https://img.shields.io/pypi/dm/well_plate)
+![license](https://img.shields.io/github/license/dylanwal/well_plate)
+
+Do you have strings/text that you want to turn into quantities?
+
+Are you trying to clean scientific data you extracted from [Wikipida](https://en.wikipedia.org/wiki/Main_Page) or some 
+other sketchy website?
+
+Try 'Unit_Parse' to clean everything up for you!
+
+#### Description: 
+
+'Unit_Parse' is built on top of [Pint](https://github.com/hgrecco/pint). It was specifically designed to handle data 
+that was extracted from scientific work. It has been rigorously tested against chemistry data 
+extracted from Wikipida (example: [styrene](https://en.wikipedia.org/wiki/Styrene); density, melting point, boiling 
+point, etc.) and data from [PubChem](https://pubchem.ncbi.nlm.nih.gov/) 
+(example: [styrene](https://pubchem.ncbi.nlm.nih.gov/compound/Styrene) ; density, melting point, flash point, etc.).
+
+
+---
+
+## Installation
+
+```
+pip install unit_parse
+```
+
+## Dependencies
+
+[Pint](https://github.com/hgrecco/pint) - Provides unit conversions of cleaned and parsed quantities.
+
+---
+---
+
+## Usage
+
