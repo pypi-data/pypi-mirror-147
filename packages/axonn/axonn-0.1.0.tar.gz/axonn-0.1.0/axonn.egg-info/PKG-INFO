@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: axonn
+Version: 0.1.0
+Summary: A parallel library for extreme-scale deep learning
+Home-page: https://github.com/hpcgroup/axonn
+Author: Siddharth Singh, Abhinav Bhatele
+Author-email: ssingh37@umd.edu, bhatele@cs.umd.edu
+License: UNKNOWN
+Description: An asynchronous, message-driven parallel framework for
+                extreme-scale deep learning
+Keywords: deep learning,distributed computing,parallel computing
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha

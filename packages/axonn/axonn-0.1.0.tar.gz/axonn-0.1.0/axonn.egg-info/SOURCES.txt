@@ -1,0 +1,12 @@
+README.md
+setup.py
+axonn/__init__.py
+axonn/axonn.py
+axonn/communication.py
+axonn/config.py
+axonn/optim.py
+axonn.egg-info/PKG-INFO
+axonn.egg-info/SOURCES.txt
+axonn.egg-info/dependency_links.txt
+axonn.egg-info/requires.txt
+axonn.egg-info/top_level.txt
