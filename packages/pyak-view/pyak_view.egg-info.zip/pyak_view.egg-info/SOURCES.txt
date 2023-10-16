@@ -1,0 +1,11 @@
+README.md
+akview.py
+pyproject.toml
+setup.cfg
+pyak_view.egg-info/PKG-INFO
+pyak_view.egg-info/SOURCES.txt
+pyak_view.egg-info/dependency_links.txt
+pyak_view.egg-info/entry_points.txt
+pyak_view.egg-info/requires.txt
+pyak_view.egg-info/top_level.txt
+pyak_view.egg-info/zip-safe
